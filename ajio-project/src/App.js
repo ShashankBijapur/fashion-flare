@@ -1,7 +1,5 @@
-// import logo from './logo.svg';
-import "./App.css";
-import Kids from "./component/Kids/Kids";
-import Mens from "./component/Mens/Mens";
+
+import './App.css';
 
 function App() {
   return (
