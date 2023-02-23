@@ -7,7 +7,7 @@ const Mens = () => {
     const [mensData, setMensData] = useState([])
 
     const fetchData = () => {
-        axios.get(`http://localhost:3000/mens`).then((res) => {
+        axios.get(`http://localhost:8080/mens`).then((res) => {
             return setMensData(res.data)
         })
     }

@@ -1,6 +1,169 @@
-{ 
- 
-    "kurta":[
+{
+  "mens": [
+    {
+      "id": 1,
+      "title": "Jump Cuts",
+      "image": "https://assets.ajio.com/medias/sys_master/root/20230221/ZtGk/63f4da23f997dde6f4b81c7e/jump_cuts_black_typographic_print_slim_fit_hooded_t-shirt_with_flap_pocket.jpg",
+      "des": "Typographical Print Slim fit hooded T-Shirt with Flat Pocket",
+      "price": "410",
+      "offer": "410"
+    },
+    {
+      "id": 2,
+      "title": "Performax",
+      "image": "https://assets.ajio.com/medias/sys_master/root/20220927/pNT8/6332df42aeb269dbb3aa32c0/performax_jet_black_fastdry_active_essential_track_pants.jpg",
+      "des": "Fastdry Active Essential track pants",
+      "price": "419",
+      "offer": "300"
+    },
+    {
+      "id": 3,
+      "title": "The Bear House",
+      "image": "https://assets.ajio.com/medias/sys_master/root/20220513/uxVC/627e237cf997dd03e2b9b21b/the_bear_house_grey_checked_slim_fit_shirt_with_patch_pocket.jpg",
+      "des": "Checked Slim fit Shirt with Patch Pocket",
+      "price": "1372",
+      "offer": "837"
+    },
+    {
+      "id": 4,
+      "title": "Lee Cooper",
+      "image": "https://assets.ajio.com/medias/sys_master/root/20220910/7RSd/631bb1a2aeb269dbb380be2a/lee_cooper_denim_blue_lightly_washed_slim_fit_jeans.jpg",
+      "des": "Lightly Washed Slim Fit Jeans",
+      "price": "931",
+      "offer": "730"
+    },
+    {
+      "id": 5,
+      "title": "Dennislingo Premium Attire",
+      "image": "https://assets.ajio.com/medias/sys_master/root/20230102/R0me/63b30ae3aeb269659c1e4f01/dennislingo_premium_attire_pink_full_sleeves_slim_fit_classic_shirt.jpg",
+      "des": "Full Sleeves slim fit classic shirt",
+      "price": "610",
+      "offer": "481"
+    },
+    {
+      "id": 6,
+      "title": "DNMX",
+      "image": "https://assets.ajio.com/medias/sys_master/root/h53/h36/14876612362270/dnmx_navy_blue_mid-rise_fitted_jeans.jpg",
+      "des": "Mid-Rise Fitted Jeans",
+      "price": "639",
+      "offer": "639"
+    },
+    {
+      "id": 7,
+      "title": "Dennislingo premium Attire",
+      "image": "https://assets.ajio.com/medias/sys_master/root/20221117/2r8w/6375d715aeb269659c97f84a/dennislingo_premium_attire_green_striped_slim_fit_shirt.jpg",
+      "des": "Striped Slim fit shirt",
+      "price": "800",
+      "offer": "650"
+    },
+    {
+      "id": 8,
+      "title": "Bullmer",
+      "image": "https://assets.ajio.com/medias/sys_master/root/20220511/irm1/627b43c6f997dd03e2a557c4/bullmer_multicoloured_pack_of_3_graphic_print_crew-neck_t-shirts.jpg",
+      "des": "Pack of 3 Graphic Print Crew-Neck-T-Shirt",
+      "price": "525",
+      "offer": "390"
+    },
+    {
+      "id": 9,
+      "title": "Eyebogler",
+      "image": "https://assets.ajio.com/medias/sys_master/root/20220901/ARH5/6310ee67f997dd1f8dd3e3fd/eyebogler_teal_colour-blocked_polo_t-shirt.jpg",
+      "des": "Colour-Blocked Polo T-shirt",
+      "price": "403",
+      "offer": "338"
+    },
+    {
+      "id": 10,
+      "title": "John players jeans",
+      "image": "https://assets.ajio.com/medias/sys_master/root/20221102/B9e1/6362488df997ddfdbd5105bf/john_players_jeans_olive_green_flat-front_cargo_jeans.jpg",
+      "des": "flat front Cargo jeans",
+      "price": "1400",
+      "offer": "1260"
+    }
+  ],
+  "Kids": [
+    {
+      "id": 1,
+      "title": "disney",
+      "image": "https://assets.ajio.com/medias/sys_master/root/20210426/4jrW/6086b755aeb269a9e3a15573/disney__daisy_duck_round-neck_t-shirt.jpg",
+      "des": "daisy duck round-neck T-Shirt",
+      "price": "75",
+      "offer": "75"
+    },
+    {
+      "id": 2,
+      "title": "Disney",
+      "image": "https://assets.ajio.com/medias/sys_master/root/20210323/AFXb/6059e624aeb269a9e324ea6d/disney__team_princess_print_crew-neck_t-shirt.jpg",
+      "des": "Team Princess Print-Nexk T-Shirt",
+      "price": "75",
+      "offer": "75"
+    },
+    {
+      "id": 3,
+      "title": "KG Frendz",
+      "image": "https://assets.ajio.com/medias/sys_master/root/20220531/6JiM/62962fdbf997dd03e2509ff2/kg_frendz_multicoloured_floral_print_dungaree_with_t-shirt.jpg",
+      "des": "Floral print dungaree with T-Shirt",
+      "price": "432",
+      "offer": "306"
+    },
+    {
+      "id": 4,
+      "title": "kb team spirit",
+      "image": "https://assets.ajio.com/medias/sys_master/root/20220609/kSRw/62a205daf997dd03e26f536b/kb_team_spirit_blue_printed_t-shirt_%26_pyjamas_set.jpg",
+      "des": "printed T-shirt Pyjamas set",
+      "price": "331",
+      "offer": "221"
+    },
+    {
+      "id": 5,
+      "title": "KG Frendz",
+      "image": "https://assets.ajio.com/medias/sys_master/root/20220718/cfRN/62d57c8af997dd03e2dbfbff/kg_frendz_navy_blue_printed_tulle_fit_%26_flare_dress_with_belt.jpg",
+      "des": "Printed Tille fit & flare dress with belt",
+      "price": "432",
+      "offer": "306"
+    },
+    {
+      "id": 6,
+      "title": "other characters",
+      "image": "https://assets.ajio.com/medias/sys_master/root/20210619/HmNi/60cced99f997ddb312d12b90/other_characters_blue_graphic_print_crew-neck_t-shirt.jpg",
+      "des": "Graphic print crew-Neck T-Shirt",
+      "price": "75",
+      "offer": "75"
+    },
+    {
+      "id": 7,
+      "title": "KG frendz",
+      "image": "https://assets.ajio.com/medias/sys_master/root/20220530/EcD2/629483e7aeb26921aff1a7ed/kg_frendz_yellow_floral_print_dungaree_with_waist_tie-up.jpg",
+      "des": "Fibral print dungaree waist Tie-up",
+      "price": "288",
+      "offer": "204"
+    },
+    {
+      "id": 8,
+      "title": "rio girls",
+      "image": "https://assets.ajio.com/medias/sys_master/root/20220906/xKbl/631764b8f997dd1f8de77ff5/rio_girls_green_polka-dot_print_pleated_culottes.jpg",
+      "des": "Polks-dot Printed Pleated Culottes",
+      "price": "336",
+      "offer": "238"
+    },
+    {
+      "id": 9,
+      "title": "disney",
+      "image": "https://assets.ajio.com/medias/sys_master/root/20210415/ckT4/607835aeaeb269a9e3926016/disney__the_little_mermaid_round-neck_t-shirt.jpg",
+      "des": "the little mermaid round Neck T-shirt",
+      "price": "135",
+      "offer": "135"
+    },
+    {
+      "id": 10,
+      "title": "Kb team spirit",
+      "image": "https://assets.ajio.com/medias/sys_master/root/20201216/5YLK/5fda1615aeb269d56340dd1a/kb_team_spirit_orange_numeric_print_henley_t-shirt.jpg",
+      "des": "Numeric Print Henley T-Shirt",
+      "price": "127",
+      "offer": "125"
+    }
+  ],
+  "kurta":[
     {
       "href": "https://www.ajio.com/gulmohar-jaipur-floral-embroidered-flared-kurta-/p/465518227_red",
       "src": "https://assets.ajio.com/medias/sys_master/root/20221229/eRcp/63acb0c4aeb269659c14a557/gulmohar_jaipur_red_floral_embroidered_flared_kurta_.jpg",
@@ -3158,5 +3321,4 @@
    "offerpricess": "210"
  }
 ]
-
 }

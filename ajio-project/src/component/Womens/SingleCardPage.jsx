@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { Box, Button, Drawer, DrawerBody, DrawerContent, DrawerHeader, DrawerOverlay, Fade, Radio, RadioGroup, ScaleFade, Slide, SlideFade, Stack, useDisclosure } from '@chakra-ui/react'
-import DrawerExample from './Drawer'
+// import DrawerExample from './Drawer'
 const SingleCardPage = () => {
     var product = JSON.parse(localStorage.getItem('ProductsDetails'))
     // console.log(user)
