@@ -31,8 +31,8 @@ export default function SimpleCard() {
       
         let user = JSON.parse(localStorage.getItem("user"));
         if(username === "admin" && password === "123456"){
-          alert(" AdminLogin succesfull")
-            navigate("/admin");
+          alert(" Admin Login succesfull")
+          navigate("/admin");
         }else if (username === user.username && password === user.password) {
           localStorage.setItem("loginValue",JSON.stringify("login"))
           alert("Login succesfull")

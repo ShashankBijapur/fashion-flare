@@ -5,7 +5,7 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { ChakraProvider } from "@chakra-ui/react";
 import { BrowserRouter } from "react-router-dom";
-import SidebarContextProvider from "./context/SidebarContextProvider";
+import SidebarContextProvider from "./component/context/SidebarContextProvider";
 
 
 const root = ReactDOM.createRoot(document.getElementById("root"));

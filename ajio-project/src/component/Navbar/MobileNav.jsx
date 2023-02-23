@@ -1,4 +1,5 @@
 import React, { useContext } from "react";
+import Logo from '../Images/fashionFlair.jpeg';
 import {
   Flex,
   Box,
@@ -48,7 +49,7 @@ const MobileNav = () => {
         <Box>
           <Link to="/">
             <Image
-              src="https://assets.ajio.com/static/img/Ajio-Logo.svg"
+              src={Logo}
               width="100px"
               margin="auto"
             ></Image>

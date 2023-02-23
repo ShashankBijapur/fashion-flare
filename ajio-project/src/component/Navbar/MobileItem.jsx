@@ -21,8 +21,8 @@ const MobileItem = ({nameitem,item1,item2,item3,item4,item5,item6,item7,item8,it
   </MenuButton>
   <MenuList>
     <MenuItem>{item1}</MenuItem>
-    <Link to="/women"><MenuItem>{item2}</MenuItem></Link>
-    <Link to="/men"><MenuItem>{item3}</MenuItem></Link>
+    <Link to="/womens"><MenuItem>{item2}</MenuItem></Link>
+    <Link to="/mens"><MenuItem>{item3}</MenuItem></Link>
     <Link to="/kids"><MenuItem>{item4}</MenuItem></Link>
     <MenuItem>{item5}</MenuItem>
     <MenuItem>{item6}</MenuItem>
