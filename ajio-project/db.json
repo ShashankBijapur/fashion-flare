@@ -163,7 +163,7 @@
       "offer": "125"
     }
   ],
-  "kurta":[
+  "kurta": [
     {
       "href": "https://www.ajio.com/gulmohar-jaipur-floral-embroidered-flared-kurta-/p/465518227_red",
       "src": "https://assets.ajio.com/medias/sys_master/root/20221229/eRcp/63acb0c4aeb269659c14a557/gulmohar_jaipur_red_floral_embroidered_flared_kurta_.jpg",
@@ -614,8 +614,8 @@
       "discount": "(55% off)",
       "offerpricess": 219
     }
-   ],
-   "saree":[
+  ],
+  "saree": [
     {
       "href": "https://www.ajio.com/zikaraa-banarasi-saree-with-floral-woven-motifs/p/465652365_black",
       "src": "https://assets.ajio.com/medias/sys_master/root/20230124/SXdI/63ceed84f997dd708e1d5b98/zikaraa_black_banarasi_saree_with_floral_woven_motifs.jpg",
@@ -1035,489 +1035,9 @@
       "orginalprice": "998",
       "discount": "(64% off)",
       "offerpricess": "259"
-    },
-    {
-      "href": "https://www.ajio.com/wuxi-floral-pattern-saree-with-contrast-border/p/465634769_blue",
-      "src": "https://assets.ajio.com/medias/sys_master/root/20230120/cvUE/63caac3caeb269c651eec55b/wuxi_sky_blue_floral_pattern_saree_with_contrast_border.jpg",
-      "brand": "WUXI",
-      "nameCls": "Floral Pattern Saree with Contrast Border",
-      "price": "864",
-      "orginalprice": "1,799",
-      "discount": "(52% off)",
-      "offerpricess": "684"
-    },
-    {
-      "href": "https://www.ajio.com/fashdeal-floral-embroidered-saree/p/465544752_beige",
-      "src": "https://assets.ajio.com/medias/sys_master/root/20230103/BXcj/63b3ed93f997ddfdbd0cd78a/fashdeal_beige_floral_embroidered_saree.jpg",
-      "brand": "FashDeal",
-      "nameCls": "Floral Embroidered Saree",
-      "price": "1,343",
-      "orginalprice": "4,795",
-      "discount": "(72% off)",
-      "offerpricess": "1,343"
-    },
-    {
-      "href": "https://www.ajio.com/anjaneya-sarees-geometric-pattern-saree-with-contrast-border/p/465554147_yellow",
-      "src": "https://assets.ajio.com/medias/sys_master/root/20230105/vFYI/63b5e896aeb269659c255aad/anjaneya_sarees_yellow_geometric_pattern_saree_with_contrast_border.jpg",
-      "brand": "Anjaneya Sarees",
-      "nameCls": "Geometric Pattern Saree with Contrast Border",
-      "price": "1,140",
-      "orginalprice": "2,999",
-      "discount": "(62% off)",
-      "offerpricess": "900"
-    },
-    {
-      "href": "https://www.ajio.com/granthva-fab-embellished-saree-with-blouse-piece--tassels/p/464829448_black",
-      "src": "https://assets.ajio.com/medias/sys_master/root/20220817/2Fa2/62fc438df997dd394cfaf7a2/granthva-fab_black_%26_red_embellished_saree_with_blouse_piece_%26_tassels.jpg",
-      "brand": "GRANTHVA-FAB",
-      "nameCls": "Embellished Saree with Blouse Piece & Tassels",
-      "price": "1,000",
-      "orginalprice": "3,999",
-      "discount": "(75% off)",
-      "offerpricess": "1,000"
-    },
-    {
-      "href": "https://www.ajio.com/ethnic-junction-kalamkari-print-khadi-silk-saree-/p/462502877_black",
-      "src": "https://assets.ajio.com/medias/sys_master/root/20210611/zSvt/60c288d0aeb269a9e3e491e9/ethnic_junction_black_%26_cream_kalamkari_print_khadi_silk_saree_.jpg",
-      "brand": "Ethnic Junction",
-      "nameCls": "Kalamkari Print Khadi Silk Saree",
-      "price": "499",
-      "orginalprice": "1,996",
-      "discount": "(75% off)",
-      "offerpricess": "499"
-    },
-    {
-      "href": "https://www.ajio.com/hritika-leaf-print-saree/p/465086628_grey",
-      "src": "https://assets.ajio.com/medias/sys_master/root/20221001/fBXh/63375873aeb269659c1e29fc/hritika_grey_leaf_print_saree.jpg",
-      "brand": "Hritika",
-      "nameCls": "Leaf Print Saree",
-      "price": "260",
-      "orginalprice": "838",
-      "discount": "(69% off)",
-      "offerpricess": "260"
-    },
-    {
-      "href": "https://www.ajio.com/anjaneya-sarees-banarasi-silk-kanjivaram-saree/p/465321221_cream",
-      "src": "",
-      "brand": "Anjaneya Sarees",
-      "nameCls": "Banarasi Silk Kanjivaram Saree",
-      "price": "1,110",
-      "orginalprice": "2,999",
-      "discount": "(63% off)",
-      "offerpricess": "1,110"
-    },
-    {
-      "href": "https://www.ajio.com/isha-trade-floral-print-saree-with-lace-border/p/463875459_red",
-      "src": "",
-      "brand": "ISHA TRADE",
-      "nameCls": "Floral Print Saree with Lace Border",
-      "price": "800",
-      "orginalprice": "3,999",
-      "discount": "(80% off)",
-      "offerpricess": "800"
-    },
-    {
-      "href": "https://www.ajio.com/pratham-blue-ombre-dyed-saree-with-tassels/p/464490905_purple",
-      "src": "",
-      "brand": "PRATHAM BLUE",
-      "nameCls": "Ombre-Dyed Saree with Tassels",
-      "price": "800",
-      "orginalprice": "3,999",
-      "discount": "(80% off)",
-      "offerpricess": "800"
-    },
-    {
-      "href": "https://www.ajio.com/zikaraa-floral-woven-banarasi-silk-saree-/p/465625326_blue",
-      "src": "",
-      "brand": "ZIKARAA",
-      "nameCls": "Floral Woven Banarasi Silk Saree",
-      "price": "962",
-      "orginalprice": "2,599",
-      "discount": "(63% off)",
-      "offerpricess": "780"
-    },
-    {
-      "href": "https://www.ajio.com/choiceit-lace-border-saree-with-blouse-piece/p/464703994_wine",
-      "src": "",
-      "brand": "Choiceit",
-      "nameCls": "Lace Border Saree with Blouse Piece",
-      "price": "720",
-      "orginalprice": "1,999",
-      "discount": "(64% off)",
-      "offerpricess": "720"
-    },
-    {
-      "href": "https://www.ajio.com/zikaraa-zari-woven-saree-with-contrast-pallu/p/464624578_mustard",
-      "src": "",
-      "brand": "ZIKARAA",
-      "nameCls": "Zari Woven Saree with Contrast Pallu",
-      "price": "656",
-      "orginalprice": "1,599",
-      "discount": "(59% off)",
-      "offerpricess": "656"
-    },
-    {
-      "href": "https://www.ajio.com/griva-designer-cotton-silk-checked-saree/p/462073592_green",
-      "src": "",
-      "brand": "GRIVA DESIGNER",
-      "nameCls": "Cotton Silk Checked Saree",
-      "price": "450",
-      "orginalprice": "2,999",
-      "discount": "(85% off)",
-      "offerpricess": "450"
-    },
-    {
-      "href": "https://www.ajio.com/tikhi-imli-embroidered-organza-saree/p/464040810_pink",
-      "src": "",
-      "brand": "TIKHI IMLI",
-      "nameCls": "Embroidered Organza Saree",
-      "price": "1,499",
-      "orginalprice": "2,998",
-      "discount": "(50% off)",
-      "offerpricess": "1,499"
-    },
-    {
-      "href": "https://www.ajio.com/anjaneya-sarees-floral-pattern-saree-with-contrast-border/p/465509959_yellow",
-      "src": "",
-      "brand": "Anjaneya Sarees",
-      "nameCls": "Floral Pattern Saree with Contrast Border",
-      "price": "1,110",
-      "orginalprice": "2,999",
-      "discount": "(63% off)",
-      "offerpricess": "900"
-    },
-    {
-      "href": "https://www.ajio.com/awesome-embroidered-art-silk-saree-with-contrast-border/p/465596408_magenta",
-      "src": "",
-      "brand": "AWESOME",
-      "nameCls": "Embroidered Art Silk Saree with Contrast Border",
-      "price": "1,860",
-      "orginalprice": "5,999",
-      "discount": "(69% off)",
-      "offerpricess": "1,680"
-    },
-    {
-      "href": "https://www.ajio.com/hritika-paisley-printe-saree-with-blouse-piece/p/465065590_grey",
-      "src": "",
-      "brand": "Hritika",
-      "nameCls": "Paisley Printe Saree with Blouse Piece",
-      "price": "359",
-      "orginalprice": "998",
-      "discount": "(64% off)",
-      "offerpricess": "259"
-    },
-    {
-      "href": "https://www.ajio.com/dwini--georgette-saree-with-sequence-lace-border-/p/464123799_green",
-      "src": "",
-      "brand": "Dwini",
-      "nameCls": "Georgette Saree With Sequence Lace Border",
-      "price": "775",
-      "orginalprice": "2,499",
-      "discount": "(69% off)",
-      "offerpricess": "775"
-    },
-    {
-      "href": "https://www.ajio.com/gorgone-mysore-silk-saree-with-blouse-piece/p/465033361_red",
-      "src": "",
-      "brand": "Gorgone",
-      "nameCls": "Mysore Silk Saree with Blouse Piece",
-      "price": "358",
-      "orginalprice": "1,991",
-      "discount": "(82% off)",
-      "offerpricess": "358"
-    },
-    {
-      "href": "https://www.ajio.com/awesome-traditional-saree-with-contrast-border/p/461448286_beige",
-      "src": "",
-      "brand": "AWESOME",
-      "nameCls": "Traditional Saree with Contrast Border",
-      "price": "559",
-      "orginalprice": "999",
-      "discount": "(44% off)",
-      "offerpricess": "559"
-    },
-    {
-      "href": "https://www.ajio.com/zikaraa-micro-print-banarasi-silk-saree-/p/465551384_red",
-      "src": "",
-      "brand": "ZIKARAA",
-      "nameCls": "Micro-Print Banarasi Silk Saree",
-      "price": "782",
-      "orginalprice": "2,299",
-      "discount": "(66% off)",
-      "offerpricess": "644"
-    },
-    {
-      "href": "https://www.ajio.com/saree-mall-floral-zari-woven-saree-with-contrast-border/p/465563906_red",
-      "src": "",
-      "brand": "Saree mall",
-      "nameCls": "Floral Zari Woven Saree with Contrast Border",
-      "price": "2,948",
-      "orginalprice": "6,699",
-      "discount": "(56% off)",
-      "offerpricess": "1,798"
-    },
-    {
-      "href": "https://www.ajio.com/limdo-woven-banarasi-saree-with-zari-border/p/465360231_wine",
-      "src": "",
-      "brand": "Limdo",
-      "nameCls": "Woven Banarasi Saree with Zari Border",
-      "price": "1,050",
-      "orginalprice": "2,999",
-      "discount": "(65% off)",
-      "offerpricess": "900"
-    },
-    {
-      "href": "https://www.ajio.com/grubstaker-floral-pattern-saree-with-tassels/p/465455794_brown",
-      "src": "",
-      "brand": "GRUBSTAKER",
-      "nameCls": "Floral Pattern Saree with Tassels",
-      "price": "765",
-      "orginalprice": "1,699",
-      "discount": "(55% off)",
-      "offerpricess": "663"
-    },
-    {
-      "href": "https://www.ajio.com/marziyaa-banarasi-traditional-saree/p/464342214_red",
-      "src": "",
-      "brand": "Marziyaa",
-      "nameCls": "Banarasi Traditional Saree",
-      "price": "760",
-      "orginalprice": "1,899",
-      "discount": "(60% off)",
-      "offerpricess": "760"
-    },
-    {
-      "href": "https://www.ajio.com/hritika-floral-print-georgette-saree/p/464914305_blue",
-      "src": "",
-      "brand": "Hritika",
-      "nameCls": "Floral Print Georgette Saree",
-      "price": "628",
-      "orginalprice": "1,609",
-      "discount": "(61% off)",
-      "offerpricess": "418"
-    },
-    {
-      "href": "https://www.ajio.com/priyashi-animal-print-georgette-saree/p/465324460_green",
-      "src": "",
-      "brand": "PRIYASHI",
-      "nameCls": "Animal Print Georgette Saree",
-      "price": "475",
-      "orginalprice": "1,583",
-      "discount": "(70% off)",
-      "offerpricess": "475"
-    },
-    {
-      "href": "https://www.ajio.com/fashionuma-embellished-saree-with-blouse-piece/p/464342172_black",
-      "src": "",
-      "brand": "Fashionuma",
-      "nameCls": "Embellished Saree with Blouse Piece",
-      "price": "1,689",
-      "orginalprice": "4,999",
-      "discount": "(66% off)",
-      "offerpricess": "1,689"
-    },
-    {
-      "href": "https://www.ajio.com/saree-mall-floral-pattern-silk-saree/p/465387292_green",
-      "src": "",
-      "brand": "Saree mall",
-      "nameCls": "Floral Pattern Silk Saree",
-      "price": "2,870",
-      "orginalprice": "6,999",
-      "discount": "(59% off)",
-      "offerpricess": "1,820"
-    },
-    {
-      "href": "https://www.ajio.com/awesome-colourblock-traditional-saree/p/461478745_green",
-      "src": "",
-      "brand": "AWESOME",
-      "nameCls": "Colourblock Traditional Saree",
-      "price": "360",
-      "orginalprice": "999",
-      "discount": "(64% off)",
-      "offerpricess": "360"
-    },
-    {
-      "href": "https://www.ajio.com/hritika-mirror-work-saree-with-blouse-piece/p/464767717_pink",
-      "src": "",
-      "brand": "Hritika",
-      "nameCls": "Mirror Work Saree with Blouse Piece",
-      "price": "704",
-      "orginalprice": "4,695",
-      "discount": "(85% off)",
-      "offerpricess": "704"
-    },
-    {
-      "href": "https://www.ajio.com/isha-trade-floral-print-saree-with-blouse-piece/p/464726913_red",
-      "src": "",
-      "brand": "ISHA TRADE",
-      "nameCls": "Floral Print Saree with Blouse Piece",
-      "price": "920",
-      "orginalprice": "3,999",
-      "discount": "(77% off)",
-      "offerpricess": "920"
-    },
-    {
-      "href": "https://www.ajio.com/amrutam-fab-sequins-embroidered-saree/p/465039146_black",
-      "src": "",
-      "brand": "AMRUTAM FAB",
-      "nameCls": "Sequins Embroidered Saree",
-      "price": "1,190",
-      "orginalprice": "6,999",
-      "discount": "(83% off)",
-      "offerpricess": "1,190"
-    },
-    {
-      "href": "https://www.ajio.com/zikaraa-geometric-pattern-saree/p/465551384_pink",
-      "src": "",
-      "brand": "ZIKARAA",
-      "nameCls": "Geometric Pattern Saree",
-      "price": "782",
-      "orginalprice": "2,299",
-      "discount": "(66% off)",
-      "offerpricess": "644"
-    },
-    {
-      "href": "https://www.ajio.com/pratham-blue-sequin-embellished-saree-with-blouse-piece/p/464909658_purple",
-      "src": "",
-      "brand": "PRATHAM BLUE",
-      "nameCls": "Sequin Embellished Saree with Blouse Piece",
-      "price": "1,000",
-      "orginalprice": "3,999",
-      "discount": "(75% off)",
-      "offerpricess": "1,000"
-    },
-    {
-      "href": "https://www.ajio.com/awesome-checked-traditional-saree-with-contrast-border/p/461514812_multi",
-      "src": "",
-      "brand": "AWESOME",
-      "nameCls": "Checked Traditional Saree with Contrast Border",
-      "price": "625",
-      "orginalprice": "2,499",
-      "discount": "(75% off)",
-      "offerpricess": "625"
-    },
-    {
-      "href": "https://www.ajio.com/fashion-ritmo--paisley-embroidered-saree-with-tassels/p/465687642_wine",
-      "src": "",
-      "brand": "Fashion Ritmo",
-      "nameCls": "Paisley Embroidered Saree with Tassels",
-      "price": "1,470",
-      "orginalprice": "2,999",
-      "discount": "(51% off)",
-      "offerpricess": "1,170"
-    },
-    {
-      "href": "https://www.ajio.com/dwini--georgette-saree-with-sequence-lace-border-/p/464123799_purple",
-      "src": "",
-      "brand": "Dwini",
-      "nameCls": "Georgette Saree With Sequence Lace Border",
-      "price": "775",
-      "orginalprice": "2,499",
-      "discount": "(69% off)",
-      "offerpricess": "775"
-    },
-    {
-      "href": "https://www.ajio.com/granthva-fab-traditional-embellished-georgette-saree-/p/465191258_purple",
-      "src": "",
-      "brand": "GRANTHVA-FAB",
-      "nameCls": "Traditional Embellished Georgette Saree",
-      "price": "1,000",
-      "orginalprice": "3,999",
-      "discount": "(75% off)",
-      "offerpricess": "1,000"
-    },
-    {
-      "href": "https://www.ajio.com/vastranand-floral-embroidered-chiffon-saree/p/465027894_peach",
-      "src": "",
-      "brand": "VASTRANAND",
-      "nameCls": "Floral Embroidered Chiffon Saree",
-      "price": "2,728",
-      "orginalprice": "6,200",
-      "discount": "(56% off)",
-      "offerpricess": "2,108"
-    },
-    {
-      "href": "https://www.ajio.com/tikhi-imli-saree-with-lace-border/p/465335673_pink",
-      "src": "",
-      "brand": "TIKHI IMLI",
-      "nameCls": "Saree with Lace Border",
-      "price": "1,399",
-      "orginalprice": "2,798",
-      "discount": "(50% off)",
-      "offerpricess": "1,259"
-    },
-    {
-      "href": "https://www.ajio.com/anjaneya-sarees-banarasi-silk-kanjivaram-saree-with-blouse-piece-/p/464926250_green",
-      "src": "",
-      "brand": "Anjaneya Sarees",
-      "nameCls": "Banarasi Silk Kanjivaram Saree with Blouse Piece",
-      "price": "1,080",
-      "orginalprice": "2,999",
-      "discount": "(64% off)",
-      "offerpricess": "1,080"
-    },
-    {
-      "href": "https://www.ajio.com/silverfly-floral-pattern-saree/p/465550734_teal",
-      "src": "",
-      "brand": "Silverfly",
-      "nameCls": "Floral Pattern Saree",
-      "price": "880",
-      "orginalprice": "2,199",
-      "discount": "(60% off)",
-      "offerpricess": "748"
-    },
-    {
-      "href": "https://www.ajio.com/granthva-fab-embellished-saree-with-tassels/p/465191258_black",
-      "src": "",
-      "brand": "GRANTHVA-FAB",
-      "nameCls": "Embellished Saree with Tassels",
-      "price": "1,000",
-      "orginalprice": "3,999",
-      "discount": "(75% off)",
-      "offerpricess": "1,000"
-    },
-    {
-      "href": "https://www.ajio.com/lyunica-silk-saree-with-woven-motifs/p/465768306_blue",
-      "src": "",
-      "brand": "LYUNICA",
-      "nameCls": "Silk Saree with Woven Motifs",
-      "price": "1,000",
-      "orginalprice": "2,499",
-      "discount": "(60% off)",
-      "offerpricess": "850"
-    },
-    {
-      "href": "https://www.ajio.com/griva-designer-paisley-print-pashmina-saree-with-shawl-/p/465687839_cream",
-      "src": "",
-      "brand": "GRIVA DESIGNER",
-      "nameCls": "Paisley Print Pashmina Saree with Shawl",
-      "price": "1,260",
-      "orginalprice": "6,999",
-      "discount": "(82% off)",
-      "offerpricess": "1,260"
-    },
-    {
-      "href": "https://www.ajio.com/fusionic-embellished-saree-with-contrast-border/p/465693273_wine",
-      "src": "",
-      "brand": "FUSIONIC",
-      "nameCls": "Embellished Saree with Contrast Border",
-      "price": "2,028",
-      "orginalprice": "3,900",
-      "discount": "(48% off)",
-      "offerpricess": "1,677"
-    },
-    {
-      "href": "https://www.ajio.com/anjaneya-sarees-woven-banarasi-silk-saree/p/465445652_blue",
-      "src": "",
-      "brand": "Anjaneya Sarees",
-      "nameCls": "Woven Banarasi Silk Saree",
-      "price": "1,080",
-      "orginalprice": "2,999",
-      "discount": "(64% off)",
-      "offerpricess": "900"
     }
-   ],
-   "jeans":[
+  ],
+  "jeans": [
     {
       "href": "https://www.ajio.com/dnmx-mid-rise-skinny-fit-jeans/p/441147348_jetblack",
       "src": "https://assets.ajio.com/medias/sys_master/root/20220914/VtI0/6320db62aeb269dbb38847ae/dnmx_black_mid-rise_skinny_fit_jeans.jpg",
@@ -2027,1298 +1547,418 @@
       "orginalprice": "1,899",
       "discount": "(55% off)",
       "offerpricess": "522"
-    },
+    }
+  ],
+  "tshirts": [
     {
-      "href": "https://www.ajio.com/dolce-crudo-high-rise-skinny-jeans/p/461207385_white",
-      "src": "",
-      "brand": "Dolce Crudo",
-      "nameCls": "High-Rise Skinny Jeans",
-      "price": "975",
-      "orginalprice": "2,499",
-      "discount": "(61% off)",
-      "offerpricess": "650"
-    },
-    {
-      "href": "https://www.ajio.com/miss-chase-solid-jeans/p/461042729_black",
-      "src": "",
-      "brand": "MISS CHASE",
-      "nameCls": "Solid Jeans",
-      "price": "877",
-      "orginalprice": "1,949",
-      "discount": "(55% off)",
-      "offerpricess": "535"
-    },
-    {
-      "href": "https://www.ajio.com/lee-cooper-lightly-washed-distressed-slim-fit-jeans/p/441297594_indigo",
-      "src": "",
-      "brand": "Lee Cooper",
-      "nameCls": "Lightly Washed Distressed Slim Fit Jeans",
-      "price": "1,050",
-      "orginalprice": "2,099",
-      "discount": "(50% off)",
-      "offerpricess": "945"
-    },
-    {
-      "href": "https://www.ajio.com/dj--c-core-skinny-jeans/p/441166212_indigo",
-      "src": "",
-      "brand": "DJ & C",
-      "nameCls": "Core Skinny Jeans",
-      "price": "496",
-      "orginalprice": "699",
-      "discount": "(29% off)",
-      "offerpricess": "489"
-    },
-    {
-      "href": "https://www.ajio.com/miss-chase-relaxed-jeans-with-5-pocket-styling/p/463690313_black",
-      "src": "",
-      "brand": "MISS CHASE",
-      "nameCls": "Relaxed Jeans with 5-pocket Styling",
-      "price": "877",
-      "orginalprice": "1,949",
-      "discount": "(55% off)",
-      "offerpricess": "535"
-    },
-    {
-      "href": "https://www.ajio.com/miss-chase-high-rise-skinny-jeans/p/461053326_white",
-      "src": "",
-      "brand": "MISS CHASE",
-      "nameCls": "High-Rise Skinny Jeans",
-      "price": "877",
-      "orginalprice": "1,949",
-      "discount": "(55% off)",
-      "offerpricess": "535"
-    },
-    {
-      "href": "https://www.ajio.com/iscenery-by-vero-moda-mid-rise-skinny-fit-jeans/p/469200541_blue",
-      "src": "",
-      "brand": "ISCENERY BY VERO MODA",
-      "nameCls": "Mid-Rise Skinny Fit Jeans",
-      "price": "750",
-      "orginalprice": "2,499",
-      "discount": "(70% off)",
-      "offerpricess": "750"
-    },
-    {
-      "href": "https://www.ajio.com/levis-711-heavily-washed-skinny-fit-jeans/p/469203792_blue",
-      "src": "",
-      "brand": "LEVIS",
-      "nameCls": "711 Heavily Washed Skinny Fit Jeans",
-      "price": "1,218",
-      "orginalprice": "2,899",
-      "discount": "(58% off)",
-      "offerpricess": "1,218"
-    },
-    {
-      "href": "https://www.ajio.com/miss-chase-solid-high-waist-jeans/p/463739725_blue",
-      "src": "",
-      "brand": "MISS CHASE",
-      "nameCls": "Solid High Waist Jeans",
-      "price": "1,035",
-      "orginalprice": "2,249",
-      "discount": "(54% off)",
-      "offerpricess": "631"
-    },
-    {
-      "href": "https://www.ajio.com/dnmx-skinny-denim-jeans/p/441138078_jetblack",
-      "src": "",
-      "brand": "DNMX",
-      "nameCls": "Skinny Denim Jeans",
-      "price": "577",
-      "orginalprice": "1,049",
-      "discount": "(45% off)",
-      "offerpricess": "525"
-    },
-    {
-      "href": "https://www.ajio.com/dnmx-lightly-washed-skinny-jeans/p/441138079_ltgrey",
-      "src": "",
-      "brand": "DNMX",
-      "nameCls": "Lightly Washed Skinny Jeans",
-      "price": "577",
-      "orginalprice": "1,049",
-      "discount": "(45% off)",
-      "offerpricess": "525"
-    },
-    {
-      "href": "https://www.ajio.com/dnmx-slim-fit-heavily-washed-jogger-jeans/p/441129644_mediumblue",
-      "src": "",
-      "brand": "DNMX",
-      "nameCls": "Slim Fit Heavily-Washed Jogger Jeans",
-      "price": "637",
+      "href": "https://www.ajio.com/harpa-chevron-pattern-top/p/464989136_maroon",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20220914/9enC/6320ef39aeb269dbb3892051/harpa_maroon_chevron_pattern_top.jpg",
+      "brand": "HARPA",
+      "nameCls": "Chevron Pattern Top",
+      "price": "507",
       "orginalprice": "1,299",
-      "discount": "(51% off)",
-      "offerpricess": "520"
+      "discount": "(61% off)",
+      "offerpricess": "338"
     },
     {
-      "href": "https://www.ajio.com/gap-high-rise-skinny-jeggings/p/441538525_denim",
-      "src": "",
-      "brand": "GAP",
-      "nameCls": "High-Rise Skinny Jeggings",
-      "price": "2,499",
+      "href": "https://www.ajio.com/wedani-printed-crew-neck-crop-top/p/465571957_multi",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20230109/Mr2X/63bbd202aeb269c651cb9513/wedani_multicoloured_printed_crew-neck_crop_top.jpg",
+      "brand": "Wedani",
+      "nameCls": "Printed Crew-Neck Crop Top",
+      "price": "249",
+      "orginalprice": "1,999",
+      "discount": "(88% off)",
+      "offerpricess": "249"
+    },
+    {
+      "href": "https://www.ajio.com/maaesa-tie--dye-collar-neck-top/p/464575254_blue",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20220702/Mlzi/62bf5c13f997dd03e2b26174/maaesa_blue_tie_%26_dye_collar-neck_top.jpg",
+      "brand": "MAAESA",
+      "nameCls": "Tie & Dye Collar-Neck Top",
+      "price": "678",
+      "orginalprice": "1,995",
+      "discount": "(66% off)",
+      "offerpricess": "519"
+    },
+    {
+      "href": "https://www.ajio.com/v-m-round-neck-top-with-peasant-sleeves/p/465528295_green",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20221231/8pVu/63af54cdaeb269659c1a2972/v%26m_green_round-neck_top_with_peasant_sleeves.jpg",
+      "brand": "V&M",
+      "nameCls": "Round-Neck Top with Peasant Sleeves",
+      "price": "828",
+      "orginalprice": "2,299",
+      "discount": "(64% off)",
+      "offerpricess": "690"
+    },
+    {
+      "href": "https://www.ajio.com/fig-top-with-shirt-collar/p/441146215_navy",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20220921/HToa/632a07a3aeb269dbb398410c/fig_navy_blue_top_with_shirt_collar.jpg",
+      "brand": "FIG",
+      "nameCls": "Top with Shirt Collar",
+      "price": "336",
+      "orginalprice": "699",
+      "discount": "(52% off)",
+      "offerpricess": "238"
+    },
+    {
+      "href": "https://www.ajio.com/aks-printed-round-neck-tunic/p/462862659_maroon",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20210831/LHSo/612d452e7cdb8cb8240df644/aks_maroon_%26_blue_printed_round-neck_tunic.jpg",
+      "brand": "AKS",
+      "nameCls": "Printed Round-Neck Tunic",
+      "price": "495",
+      "orginalprice": "1,099",
+      "discount": "(55% off)",
+      "offerpricess": "302"
+    },
+    {
+      "href": "https://www.ajio.com/kibo-fitted-crop-wrap-top-/p/465155418_maroon",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20221014/CpxH/6349444daeb269659c459377/kibo_maroon_fitted_crop_wrap_top_.jpg",
+      "brand": "Kibo",
+      "nameCls": "Fitted Crop Wrap Top",
+      "price": "555",
+      "orginalprice": "1,499",
+      "discount": "(63% off)",
+      "offerpricess": "390"
+    },
+    {
+      "href": "https://www.ajio.com/janasya-crew-neck-cuff-sleeve-top/p/465508067_blue",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20221227/3Xqp/63ab01d8f997ddfdbdfac215/janasya_blue_crew-neck_cuff-sleeve_top.jpg",
+      "brand": "Janasya",
+      "nameCls": "Crew-Neck Cuff-Sleeve Top",
+      "price": "1,234",
+      "orginalprice": "2,939",
+      "discount": "(58% off)",
+      "offerpricess": "764"
+    },
+    {
+      "href": "https://www.ajio.com/fig-geometric-print-round-neck-top/p/441146669_black",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20220801/4wxp/62e7f985aeb26921afb71640/fig_black_geometric_print_round-neck_top.jpg",
+      "brand": "FIG",
+      "nameCls": "Geometric Print Round-Neck Top",
+      "price": "336",
+      "orginalprice": "699",
+      "discount": "(52% off)",
+      "offerpricess": "238"
+    },
+    {
+      "href": "https://www.ajio.com/znx-clothing-floral-print-wrap-top/p/463229399_multi",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20211027/7Znh/61789fceaeb2690110abb969/znx_clothing_multicoloured_floral_print_wrap_top.jpg",
+      "brand": "Znx Clothing",
+      "nameCls": "Floral Print Wrap Top",
+      "price": "645",
+      "orginalprice": "1,499",
+      "discount": "(57% off)",
+      "offerpricess": "645"
+    },
+    {
+      "href": "https://www.ajio.com/janasya-checked-cotton-v-neck-top/p/462920274_red",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20210928/kAgR/6153575baeb269a268a91c6c/janasya_red_checked_cotton_v-neck_top.jpg",
+      "brand": "Janasya",
+      "nameCls": "Checked Cotton V-neck Top",
+      "price": "615",
+      "orginalprice": "1,398",
+      "discount": "(56% off)",
+      "offerpricess": "375"
+    },
+    {
+      "href": "https://www.ajio.com/kibo-floral-print-v-neck-top/p/465140452_blue",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20221012/PXN5/6345d339aeb269659c3dd0e1/kibo_blue_floral_print_v-neck_top.jpg",
+      "brand": "Kibo",
+      "nameCls": "Floral Print V-Neck Top",
+      "price": "663",
+      "orginalprice": "1,699",
+      "discount": "(61% off)",
+      "offerpricess": "442"
+    },
+    {
+      "href": "https://www.ajio.com/fig-micro-print-top-with-tie-up/p/441146214_darkgreen",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20220714/lfV6/62d03caaf997dd03e2d4a316/fig_green_micro_print_top_with_tie-up.jpg",
+      "brand": "FIG",
+      "nameCls": "Micro Print Top with Tie-Up",
+      "price": "288",
+      "orginalprice": "599",
+      "discount": "(52% off)",
+      "offerpricess": "204"
+    },
+    {
+      "href": "https://www.ajio.com/shaye-floral-print-v-neck-top/p/462506144_cream",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20220601/sh0F/6296ea21aeb26921af01d43c/shaye_cream_floral_print_v-neck_top.jpg",
+      "brand": "Shaye",
+      "nameCls": "Floral Print V-neck Top",
+      "price": "1,469",
+      "orginalprice": "2,449",
+      "discount": "(40% off)",
+      "offerpricess": "1,469"
+    },
+    {
+      "href": "https://www.ajio.com/fig-striped-v-neck-top/p/441146110_wine",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20220719/quR6/62d6e8c6aeb26921af85c524/fig_wine_striped_v-neck_top.jpg",
+      "brand": "FIG",
+      "nameCls": "Striped V-neck Top",
+      "price": "336",
+      "orginalprice": "699",
+      "discount": "(52% off)",
+      "offerpricess": "238"
+    },
+    {
+      "href": "https://www.ajio.com/rio-checked-peplum-top/p/443003910_pink",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20230201/Q10K/63da8330aeb269c65109bd2c/rio_pink_checked_peplum_top.jpg",
+      "brand": "RIO",
+      "nameCls": "Checked Peplum Top",
+      "price": "699",
       "orginalprice": "",
       "discount": "",
-      "offerpricess": "1,874"
+      "offerpricess": "629"
     },
     {
-      "href": "https://www.ajio.com/hawt-ankle-length-skinny-fit-jeans/p/420178152_black",
-      "src": "",
-      "brand": "HAWT",
-      "nameCls": "Ankle-Length Skinny Fit Jeans",
-      "price": "539",
+      "href": "https://www.ajio.com/buda-jeans-co-floral-print-v-neck-top/p/469218629_rust",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20221111/eDfh/636e5fd8aeb269659c8845b9/buda_jeans_co_pink_floral_print_v-neck_top.jpg",
+      "brand": "Buda Jeans Co",
+      "nameCls": "Floral Print V-Neck Top",
+      "price": "1,799",
+      "orginalprice": "1,999",
+      "discount": "(10% off)",
+      "offerpricess": "1,259"
+    },
+    {
+      "href": "https://www.ajio.com/rigo-round-neck-top-with-front-slit/p/462956820_black",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20220121/AY9B/61ea5ab6f997dd662331467b/rigo_black_round-neck_top_with_front_slit.jpg",
+      "brand": "RIGO",
+      "nameCls": "Round-Neck Top with Front Slit",
+      "price": "494",
       "orginalprice": "899",
-      "discount": "(40% off)",
-      "offerpricess": "450"
+      "discount": "(45% off)",
+      "offerpricess": "301"
     },
     {
-      "href": "https://www.ajio.com/lee-cooper-low-rise-lightly-washed-skinny-fit-jeans/p/441192165_indigo",
-      "src": "",
-      "brand": "Lee Cooper",
-      "nameCls": "Low-Rise Lightly Washed Skinny Fit Jeans",
-      "price": "510",
-      "orginalprice": "1,499",
-      "discount": "(66% off)",
-      "offerpricess": "510"
+      "href": "https://www.ajio.com/jaipur-kurti-checked-printed-regular-top/p/463050316_black",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20211005/8u3O/615bc2afaeb2692b85a866c8/jaipur_kurti_black_checked_printed_regular_top.jpg",
+      "brand": "Jaipur Kurti",
+      "nameCls": "Checked Printed Regular Top",
+      "price": "425",
+      "orginalprice": "1,149",
+      "discount": "(63% off)",
+      "offerpricess": "299"
     },
     {
-      "href": "https://www.ajio.com/dj--c-heavily-washed-skinny-jeans/p/441243635_stone",
-      "src": "",
-      "brand": "DJ & C",
-      "nameCls": "Heavily Washed Skinny Jeans",
-      "price": "599",
-      "orginalprice": "999",
-      "discount": "(40% off)",
-      "offerpricess": "500"
-    },
-    {
-      "href": "https://www.ajio.com/dnmx-mid-rise-5-pocket-jeans/p/440794191_ltgrey",
-      "src": "",
-      "brand": "DNMX",
-      "nameCls": "Mid-Rise 5-pocket Jeans",
-      "price": "559",
-      "orginalprice": "699",
-      "discount": "(20% off)",
-      "offerpricess": "559"
-    },
-    {
-      "href": "https://www.ajio.com/iscenery-by-vero-moda-lightly-washed-skinny-jeans/p/441297277_darkblue",
-      "src": "",
-      "brand": "ISCENERY BY VERO MODA",
-      "nameCls": "Lightly Washed Skinny Jeans",
-      "price": "570",
+      "href": "https://www.ajio.com/rue-collection-checks-v-neck-top/p/464279908_multi",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20220504/eBpT/62719624aeb26921af537e2a/rue_collection_black_checks_v-neck_top.jpg",
+      "brand": "Rue Collection",
+      "nameCls": "Checks V-Neck Top",
+      "price": "665",
       "orginalprice": "1,899",
-      "discount": "(70% off)",
+      "discount": "(65% off)",
       "offerpricess": "570"
     },
     {
-      "href": "https://www.ajio.com/jdy-by-only-mid-rise-skinny-fit-jeans/p/441693049_mediumblue",
-      "src": "",
-      "brand": "JDY BY ONLY",
-      "nameCls": "Mid-Rise Skinny Fit Jeans",
-      "price": "1,169",
-      "orginalprice": "1,799",
-      "discount": "(35% off)",
-      "offerpricess": "989"
+      "href": "https://www.ajio.com/mayra-chevron-print-round-neck-top/p/461391831_black",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20211207/CHNP/61af8fd6f997ddf8f1406d04/mayra_black_chevron_print_round-neck_top.jpg",
+      "brand": "Mayra",
+      "nameCls": "Chevron Print Round-Neck Top",
+      "price": "398",
+      "orginalprice": "995",
+      "discount": "(60% off)",
+      "offerpricess": "259"
     },
     {
-      "href": "https://www.ajio.com/dnmx-lightly-washed-slim-fit-flared-jeans/p/441129649_mediumblue",
-      "src": "",
-      "brand": "DNMX",
-      "nameCls": "Lightly Washed Slim Fit Flared Jeans",
-      "price": "637",
-      "orginalprice": "1,299",
-      "discount": "(51% off)",
-      "offerpricess": "520"
+      "href": "https://www.ajio.com/maishi-round-neck-top-with-button-fastening/p/461800113_red",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20210403/n5lz/6068aa237cdb8c1f1479d274/maishi_red_round-neck_top_with_button_fastening.jpg",
+      "brand": "MAISHI",
+      "nameCls": "Round-Neck Top with Button Fastening",
+      "price": "486",
+      "orginalprice": "2,699",
+      "discount": "(82% off)",
+      "offerpricess": "486"
     },
     {
-      "href": "https://www.ajio.com/kotty-high-rise-flared-jeans-with-insert-pockets/p/461431038_black",
-      "src": "",
-      "brand": "KOTTY",
-      "nameCls": "High-Rise Flared Jeans with Insert Pockets",
-      "price": "860",
-      "orginalprice": "1,999",
+      "href": "https://www.ajio.com/fig-embellished-round-neck-top/p/441146120_ltpurple",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20220808/0xxu/62f127e1f997dd03e22d0c7f/fig_purple_embellished_round-neck_top.jpg",
+      "brand": "FIG",
+      "nameCls": "Embellished Round-Neck Top",
+      "price": "384",
+      "orginalprice": "799",
+      "discount": "(52% off)",
+      "offerpricess": "272"
+    },
+    {
+      "href": "https://www.ajio.com/ives-floral-print-top-with-tie-up/p/464125017_white",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20220422/aMg6/6262c38faeb26921af3d02cc/ives_white_%26_blue_floral_print_top_with_tie-up.jpg",
+      "brand": "Ives",
+      "nameCls": "Floral Print Top with Tie-Up",
+      "price": "645",
+      "orginalprice": "1,499",
       "discount": "(57% off)",
-      "offerpricess": "525"
+      "offerpricess": "393"
     },
     {
-      "href": "https://www.ajio.com/dnmx-ankle-length-mid-rise-denim-joggers/p/441142415_darkblue",
-      "src": "",
-      "brand": "DNMX",
-      "nameCls": "Ankle-Length Mid-Rise Denim Joggers",
-      "price": "577",
-      "orginalprice": "1,049",
-      "discount": "(45% off)",
-      "offerpricess": "525"
-    },
-    {
-      "href": "https://www.ajio.com/dnmx-ankle-length-wide-leg-jeans/p/441146119_olivegreen",
-      "src": "",
-      "brand": "DNMX",
-      "nameCls": "Ankle-Length Wide-Leg Jeans",
-      "price": "824",
-      "orginalprice": "1,499",
-      "discount": "(45% off)",
-      "offerpricess": "750"
-    },
-    {
-      "href": "https://www.ajio.com/dnmx-mid-rise-jeans-with-5-pockets/p/440794191_white",
-      "src": "",
-      "brand": "DNMX",
-      "nameCls": "Mid-Rise Jeans with 5-Pockets",
-      "price": "559",
-      "orginalprice": "699",
-      "discount": "(20% off)",
-      "offerpricess": "559"
-    },
-    {
-      "href": "https://www.ajio.com/jdy-by-only-lightly-washed-skinny-fit-jeans/p/441309221_ltblue",
-      "src": "",
-      "brand": "JDY BY ONLY",
-      "nameCls": "Lightly Washed Skinny Fit Jeans",
-      "price": "600",
+      "href": "https://www.ajio.com/wedani-floral-print-round-neck-top-/p/465326995_multi",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20221124/enOI/637e75cfaeb269659cadb950/wedani_multicoloured_floral_print_round-neck_top_.jpg",
+      "brand": "Wedani",
+      "nameCls": "Floral Print Round-Neck Top",
+      "price": "249",
       "orginalprice": "1,999",
-      "discount": "(70% off)",
-      "offerpricess": "600"
+      "discount": "(88% off)",
+      "offerpricess": "249"
     },
     {
-      "href": "https://www.ajio.com/miss-chase-solid-ankle-length-jeans/p/463591706_blue",
-      "src": "",
-      "brand": "MISS CHASE",
-      "nameCls": "Solid Ankle Length Jeans",
-      "price": "805",
-      "orginalprice": "2,299",
-      "discount": "(65% off)",
-      "offerpricess": "598"
-    },
-    {
-      "href": "https://www.ajio.com/dnmx-straight-fit-jeans-with-waist-tie-up/p/441142005_mediumblue",
-      "src": "",
-      "brand": "DNMX",
-      "nameCls": "Straight Fit Jeans with Waist Tie-Up",
-      "price": "577",
-      "orginalprice": "1,049",
-      "discount": "(45% off)",
-      "offerpricess": "525"
-    },
-    {
-      "href": "https://www.ajio.com/dnmx-mid-rise-wide-jeans-with-drawstring-waist/p/441142410_ltblue",
-      "src": "",
-      "brand": "DNMX",
-      "nameCls": "Mid-Rise Wide Jeans with Drawstring Waist",
-      "price": "577",
-      "orginalprice": "1,049",
-      "discount": "(45% off)",
-      "offerpricess": "525"
-    },
-    {
-      "href": "https://www.ajio.com/jdy-by-only-high-rise-straight-jeans/p/441697454_black",
-      "src": "",
-      "brand": "JDY BY ONLY",
-      "nameCls": "High-Rise Straight Jeans",
-      "price": "1,749",
-      "orginalprice": "2,499",
-      "discount": "(30% off)",
-      "offerpricess": "1,374"
-    },
-    {
-      "href": "https://www.ajio.com/dj--c-core-skinny-jeans/p/441166212_mstone",
-      "src": "",
-      "brand": "DJ & C",
-      "nameCls": "Core Skinny Jeans",
-      "price": "496",
+      "href": "https://www.ajio.com/fig-floral-print-square-neck-top/p/441134979_black",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20211123/FlL5/619bf1b2f997ddf8f1129228/fig_black_floral_print_square-neck_top.jpg",
+      "brand": "FIG",
+      "nameCls": "Floral Print Square-Neck Top",
+      "price": "210",
       "orginalprice": "699",
-      "discount": "(29% off)",
-      "offerpricess": "489"
-    },
-    {
-      "href": "https://www.ajio.com/iscenery-by-vero-moda-vmi-maiya-lightly-washed-skinny-fit-jeans/p/469200527_blue",
-      "src": "",
-      "brand": "ISCENERY BY VERO MODA",
-      "nameCls": "VMI Maiya Lightly Washed Skinny Fit Jeans",
-      "price": "750",
-      "orginalprice": "2,499",
       "discount": "(70% off)",
-      "offerpricess": "750"
+      "offerpricess": "210"
     },
     {
-      "href": "https://www.ajio.com/rea-lize-high-rise-ankle-length-skinny-jeans/p/462968051_grey",
-      "src": "",
-      "brand": "REA-LIZE",
-      "nameCls": "High-Rise Ankle-Length Skinny Jeans",
-      "price": "840",
-      "orginalprice": "2,099",
-      "discount": "(60% off)",
-      "offerpricess": "672"
-    },
-    {
-      "href": "https://www.ajio.com/dnmx-washed-flared-jeans-with-insert-pockets/p/441134292_ltblue",
-      "src": "",
-      "brand": "DNMX",
-      "nameCls": "Washed Flared Jeans with Insert Pockets",
-      "price": "779",
-      "orginalprice": "1,299",
-      "discount": "(40% off)",
-      "offerpricess": "650"
-    },
-    {
-      "href": "https://www.ajio.com/levis-lightly-washed-skinny-jeans/p/469203791_blue",
-      "src": "",
-      "brand": "LEVIS",
-      "nameCls": "Lightly Washed Skinny Jeans",
-      "price": "960",
-      "orginalprice": "2,399",
-      "discount": "(60% off)",
-      "offerpricess": "960"
-    },
-    {
-      "href": "https://www.ajio.com/miss-chase-light-distress-skinny-fit-jeans/p/465599617_blue",
-      "src": "",
-      "brand": "MISS CHASE",
-      "nameCls": "Light-Distress Skinny Fit Jeans",
-      "price": "1,101",
-      "orginalprice": "3,145",
-      "discount": "(65% off)",
-      "offerpricess": "818"
-    },
-    {
-      "href": "https://www.ajio.com/dnmx-mid-rise-relaxed-fit-jogger-jeans/p/441142423_mediumblue",
-      "src": "",
-      "brand": "DNMX",
-      "nameCls": "Mid-Rise Relaxed Fit Jogger Jeans",
-      "price": "824",
-      "orginalprice": "1,499",
-      "discount": "(45% off)",
-      "offerpricess": "750"
-    },
-    {
-      "href": "https://www.ajio.com/lee-cooper-skinny-jeans-with-5-pocket-styling/p/441192152_indigo",
-      "src": "",
-      "brand": "Lee Cooper",
-      "nameCls": "Skinny Jeans with 5-pocket Styling",
+      "href": "https://www.ajio.com/cottinfab-heathered-lapel-shirt-top/p/463659899_blue",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20220114/gDKK/61e16082f997dd66232183b8/cottinfab_denim_heathered_lapel_shirt_top.jpg",
+      "brand": "COTTINFAB",
+      "nameCls": "Heathered Lapel Shirt Top",
       "price": "510",
-      "orginalprice": "1,499",
-      "discount": "(66% off)",
+      "orginalprice": "1,699",
+      "discount": "(70% off)",
+      "offerpricess": "442"
+    },
+    {
+      "href": "https://www.ajio.com/fig-polka-dot-print-round-neck-top/p/441146201_darkrust",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20220808/kuiO/62f0fbc6f997dd03e22bd41b/fig_rust_polka-dot_print_round-neck_top.jpg",
+      "brand": "FIG",
+      "nameCls": "Polka-Dot Print Round-Neck Top",
+      "price": "288",
+      "orginalprice": "599",
+      "discount": "(52% off)",
+      "offerpricess": "204"
+    },
+    {
+      "href": "https://www.ajio.com/shaye-floral-print-top-with-bishop-sleeves/p/464954436_white",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20220908/dXi5/6319048daeb269dbb378deb1/shaye_white_floral_print_top_with_bishop_sleeves.jpg",
+      "brand": "Shaye",
+      "nameCls": "Floral Print Top with Bishop Sleeves",
+      "price": "1,692",
+      "orginalprice": "3,599",
+      "discount": "(53% off)",
+      "offerpricess": "1,692"
+    },
+    {
+      "href": "https://www.ajio.com/maaesa-tie--dye-full-sleeve-top/p/464528587_green",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20220622/MfID/62b3519aaeb26921af418548/maaesa_green_tie_%26_dye_full-sleeve_top.jpg",
+      "brand": "MAAESA",
+      "nameCls": "Tie & Dye Full-Sleeve Top",
+      "price": "698",
+      "orginalprice": "1,995",
+      "discount": "(65% off)",
+      "offerpricess": "519"
+    },
+    {
+      "href": "https://www.ajio.com/popwings-floral-print-square-neck-crop-top/p/464809395_beige",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20220812/SC2x/62f56c31f997dd03e23fef4a/popwings_beige_floral_print_square-neck_crop_top.jpg",
+      "brand": "POPWINGS",
+      "nameCls": "Floral Print Square-Neck Crop Top",
+      "price": "429",
+      "orginalprice": "1,299",
+      "discount": "(67% off)",
+      "offerpricess": "416"
+    },
+    {
+      "href": "https://www.ajio.com/fyre-rose-button-down-top-with-collar/p/469254145_fushia",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20221112/TAf5/636e9c6af997ddfdbd6f5f25/fyre_rose_fushia_button-down_top_with_collar.jpg",
+      "brand": "Fyre Rose",
+      "nameCls": "Button-Down Top with Collar",
+      "price": "909",
+      "orginalprice": "1,299",
+      "discount": "(30% off)",
+      "offerpricess": "779"
+    },
+    {
+      "href": "https://www.ajio.com/ives-solid-top/p/461018780_green",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20210403/Qw1Z/60685c77aeb269a9e330c91e/ives_olive_solid_top.jpg",
+      "brand": "Ives",
+      "nameCls": "Solid Top",
+      "price": "473",
+      "orginalprice": "1,099",
+      "discount": "(57% off)",
+      "offerpricess": "289"
+    },
+    {
+      "href": "https://www.ajio.com/fig-striped-round-neck-top-with-bell-sleeves/p/441131677_mustard",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20211202/AgVS/61a7da84aeb2690110ea5ee1/fig_mustard_yellow_striped_round-neck_top_with_bell_sleeves.jpg",
+      "brand": "FIG",
+      "nameCls": "Striped Round-Neck Top with Bell Sleeves",
+      "price": "180",
+      "orginalprice": "599",
+      "discount": "(70% off)",
+      "offerpricess": "180"
+    },
+    {
+      "href": "https://www.ajio.com/fig-floral-print-top/p/441131710_mustard",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20220211/qzYf/62068090f997dd03e2cc58db/fig_mustard_yellow_floral_print_top.jpg",
+      "brand": "FIG",
+      "nameCls": "Floral Print Top",
+      "price": "210",
+      "orginalprice": "699",
+      "discount": "(70% off)",
+      "offerpricess": "210"
+    },
+    {
+      "href": "https://www.ajio.com/jdy-by-only-schiffli-embroidered-top-with-puff-sleeves/p/441308981_pink",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20220525/6O8P/628e0884aeb26921afd60446/jdy_by_only_pink_schiffli_embroidered_top_with_puff_sleeves.jpg",
+      "brand": "JDY BY ONLY",
+      "nameCls": "Schiffli Embroidered Top with Puff Sleeves",
+      "price": "510",
+      "orginalprice": "1,699",
+      "discount": "(70% off)",
       "offerpricess": "510"
     },
     {
-      "href": "https://www.ajio.com/outryt-lightly-washed-distressed-straight-leg-jeans/p/441316183_darkblue",
-      "src": "",
-      "brand": "Outryt",
-      "nameCls": "Lightly Washed Distressed Straight Leg Jeans",
-      "price": "1,999",
-      "orginalprice": "",
-      "discount": "",
-      "offerpricess": "1,999"
+      "href": "https://www.ajio.com/aarke-ritu-kumar-printed-sleeveless-top-with-knot-neckline/p/469031656_green",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20211011/CZnk/61645f9cf997ddce891c8774/aarke_ritu_kumar_green_printed_sleeveless_top_with_knot_neckline.jpg",
+      "brand": "Aarke Ritu Kumar",
+      "nameCls": "Printed Sleeveless Top with Knot Neckline",
+      "price": "850",
+      "orginalprice": "1,700",
+      "discount": "(50% off)",
+      "offerpricess": "714"
     },
     {
-      "href": "https://www.ajio.com/dnmx-mid-rise-jeggings/p/441120801_ltblue",
-      "src": "",
-      "brand": "DNMX",
-      "nameCls": "Mid-Rise Jeggings",
-      "price": "599",
-      "orginalprice": "999",
-      "discount": "(40% off)",
-      "offerpricess": "500"
+      "href": "https://www.ajio.com/teamspirit-striped-round-neck-top/p/441134865_navy",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20220222/i3Nd/62140377aeb26921afa7f3e5/teamspirit_navy_blue_striped_round-neck_top.jpg",
+      "brand": "Teamspirit",
+      "nameCls": "Striped Round-Neck Top",
+      "price": "210",
+      "orginalprice": "699",
+      "discount": "(70% off)",
+      "offerpricess": "210"
+    },
+    {
+      "href": "https://www.ajio.com/marks--spencer-full-sleeves-v-neck-top/p/465208589_blue",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20221028/DuLl/635af8e4f997ddfdbd46a9da/marks_%26_spencer_blue_full_sleeves_v-neck_top.jpg",
+      "brand": "Marks & Spencer",
+      "nameCls": "Full Sleeves V-Neck Top",
+      "price": "2,099",
+      "orginalprice": "2,999",
+      "discount": "(30% off)",
+      "offerpricess": "1,364"
+    },
+    {
+      "href": "https://www.ajio.com/fig-floral-print-top-with-camisole/p/443004325_ltpink",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20221122/Iurp/637cf63faeb269659ca715c0/fig_pink_floral_print_top_with_camisole.jpg",
+      "brand": "FIG",
+      "nameCls": "Floral Print Top with Camisole",
+      "price": "699",
+      "orginalprice": "",
+      "discount": "",
+      "offerpricess": "629"
+    },
+    {
+      "href": "https://www.ajio.com/kibo-floral-top/p/464610946_pink",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20221012/BWAR/6345d78eaeb269659c3e24e4/kibo_pink_floral_top.jpg",
+      "brand": "Kibo",
+      "nameCls": "Floral Top",
+      "price": "648",
+      "orginalprice": "1,799",
+      "discount": "(64% off)",
+      "offerpricess": "468"
     }
-   ],
-   "tshirts":[
- {
-   "href": "https://www.ajio.com/kibo-animal-print-high-neck-top/p/465305997_black",
-   "src": "https://assets.ajio.com/medias/sys_master/root/20221119/VPC0/6377f256f997ddfdbd85a52e/kibo_black_animal_print_high-neck_top.jpg",
-   "brand": "Kibo",
-   "nameCls": "Animal Print High-Neck Top",
-   "price": "684",
-   "orginalprice": "1,899",
-   "discount": "(64% off)",
-   "offerpricess": "494"
- },
- {
-   "href": "https://www.ajio.com/clafoutis--pack-of-2-pleated-square-neck-tops/p/465609094_black",
-   "src": "https://assets.ajio.com/medias/sys_master/root/20230116/IPqJ/63c56e1baeb269c651e3448e/clafoutis_black_%26_white__pack_of_2_pleated_square-neck_tops.jpg",
-   "brand": "Clafoutis",
-   "nameCls": "Pack of 2 Pleated Square-Neck Tops",
-   "price": "430",
-   "orginalprice": "999",
-   "discount": "(57% off)",
-   "offerpricess": "262"
- },
- {
-   "href": "https://www.ajio.com/tior-floral-print-square-neck-peplum-top/p/465138366_white",
-   "src": "https://assets.ajio.com/medias/sys_master/root/20221104/dnrr/636526a1aeb269659c72c6bb/tior_white_floral_print_square-neck_peplum_top.jpg",
-   "brand": "Tior",
-   "nameCls": "Floral Print Square-Neck Peplum Top",
-   "price": "675",
-   "orginalprice": "1,499",
-   "discount": "(55% off)",
-   "offerpricess": "412"
- },
- {
-   "href": "https://www.ajio.com/kibo-floral-print-v-neck-top/p/465140697_white",
-   "src": "https://assets.ajio.com/medias/sys_master/root/20221104/BP7p/63654c33aeb269659c738750/kibo_white_floral_print_v-neck_top.jpg",
-   "brand": "Kibo",
-   "nameCls": "Floral Print V-Neck Top",
-   "price": "640",
-   "orginalprice": "1,599",
-   "discount": "(60% off)",
-   "offerpricess": "416"
- },
- {
-   "href": "https://www.ajio.com/style-quotient-printed-crew-neck-top/p/464678491_nude",
-   "src": "https://assets.ajio.com/medias/sys_master/root/20220720/nFHT/62d71e5aaeb26921af8743d2/style_quotient_nude_printed_crew-neck_top.jpg",
-   "brand": "Style Quotient",
-   "nameCls": "Printed Crew-Neck Top",
-   "price": "572",
-   "orginalprice": "1,299",
-   "discount": "(56% off)",
-   "offerpricess": "349"
- },
- {
-   "href": "https://www.ajio.com/pannkh-novelty-top/p/461020470_blue",
-   "src": "https://assets.ajio.com/medias/sys_master/root/20210403/EvqN/60685d417cdb8c1f1474767e/pannkh_navy_blue_novelty_top.jpg",
-   "brand": "Pannkh",
-   "nameCls": "Novelty Top",
-   "price": "340",
-   "orginalprice": "999",
-   "discount": "(66% off)",
-   "offerpricess": "300"
- },
- {
-   "href": "https://www.ajio.com/wedani-floral-print-round-neck-top/p/465325266_pink",
-   "src": "https://assets.ajio.com/medias/sys_master/root/20221124/Nh7D/637eaef2aeb269659caf618e/wedani_pink_floral_print_round-neck_top.jpg",
-   "brand": "Wedani",
-   "nameCls": "Floral Print Round-Neck Top",
-   "price": "249",
-   "orginalprice": "1,999",
-   "discount": "(88% off)",
-   "offerpricess": "249"
- },
- {
-   "href": "https://www.ajio.com/harpa-polka-dot-print-tailored-fit-peplum-top/p/465039975_pink",
-   "src": "https://assets.ajio.com/medias/sys_master/root/20220922/JcbU/632c7797f997dd1f8d152423/harpa_pink_polka-dot_print_tailored_fit_peplum_top.jpg",
-   "brand": "HARPA",
-   "nameCls": "Polka-Dot Print Tailored Fit Peplum Top",
-   "price": "520",
-   "orginalprice": "1,299",
-   "discount": "(60% off)",
-   "offerpricess": "338"
- },
- {
-   "href": "https://www.ajio.com/kibo-micro-print-v-neck-top/p/464996404_purple",
-   "src": "https://assets.ajio.com/medias/sys_master/root/20221130/nzbN/63867877aeb269659cc21b04/kibo_pink_micro_print_v-neck_top.jpg",
-   "brand": "Kibo",
-   "nameCls": "Micro Print V-neck Top",
-   "price": "860",
-   "orginalprice": "1,999",
-   "discount": "(57% off)",
-   "offerpricess": "525"
- },
- {
-   "href": "https://www.ajio.com/teamspirit-striped-twofer-top/p/441136245_pink",
-   "src": "https://assets.ajio.com/medias/sys_master/root/20220222/RZyD/6214063cf997dd03e2e037dc/teamspirit_pink_striped_twofer_top.jpg",
-   "brand": "Teamspirit",
-   "nameCls": "Striped Twofer Top",
-   "price": "336",
-   "orginalprice": "699",
-   "discount": "(52% off)",
-   "offerpricess": "238"
- },
- {
-   "href": "https://www.ajio.com/lagashi-slim-fit-square-neck-top-/p/465434154_black",
-   "src": "https://assets.ajio.com/medias/sys_master/root/20221214/Exgb/6398f077f997ddfdbdd3113a/lagashi_black_slim_fit_square-neck_top_.jpg",
-   "brand": "LAGASHI",
-   "nameCls": "Slim Fit Square-Neck Top",
-   "price": "750",
-   "orginalprice": "1,499",
-   "discount": "(50% off)",
-   "offerpricess": "645"
- },
- {
-   "href": "https://www.ajio.com/masakali-co-floral-print-top-with-cuffed-sleeves/p/464699258_pink",
-   "src": "https://assets.ajio.com/medias/sys_master/root/20230110/VDgo/63bd94dff997dd708efc69fc/masakali.co_nude_pink_floral_print__top_with_cuffed-sleeves.jpg",
-   "brand": "MASAKALI.CO",
-   "nameCls": "Floral Print  Top with Cuffed-Sleeves",
-   "price": "612",
-   "orginalprice": "1,749",
-   "discount": "(65% off)",
-   "offerpricess": "455"
- },
- {
-   "href": "https://www.ajio.com/teamspirit-typographic-print-round-neck-top/p/441136282_lavender",
-   "src": "https://assets.ajio.com/medias/sys_master/root/20220302/ifKs/621e67d5f997dd03e2f8a81c/teamspirit_purple_typographic_print_round-neck_top.jpg",
-   "brand": "Teamspirit",
-   "nameCls": "Typographic Print Round-Neck Top",
-   "price": "288",
-   "orginalprice": "599",
-   "discount": "(52% off)",
-   "offerpricess": "204"
- },
- {
-   "href": "https://www.ajio.com/fig-micro-print-top-with-tie-up/p/441146214_purple",
-   "src": "https://assets.ajio.com/medias/sys_master/root/20220707/3PDH/62c6fb15aeb26921af69647b/fig_purple_micro_print_top_with_tie-up.jpg",
-   "brand": "FIG",
-   "nameCls": "Micro Print Top with Tie-Up",
-   "price": "288",
-   "orginalprice": "599",
-   "discount": "(52% off)",
-   "offerpricess": "204"
- },
- {
-   "href": "https://www.ajio.com/harpa-chevron-pattern-top/p/464989136_maroon",
-   "src": "https://assets.ajio.com/medias/sys_master/root/20220914/9enC/6320ef39aeb269dbb3892051/harpa_maroon_chevron_pattern_top.jpg",
-   "brand": "HARPA",
-   "nameCls": "Chevron Pattern Top",
-   "price": "507",
-   "orginalprice": "1,299",
-   "discount": "(61% off)",
-   "offerpricess": "338"
- },
- {
-   "href": "https://www.ajio.com/wedani-printed-crew-neck-crop-top/p/465571957_multi",
-   "src": "https://assets.ajio.com/medias/sys_master/root/20230109/Mr2X/63bbd202aeb269c651cb9513/wedani_multicoloured_printed_crew-neck_crop_top.jpg",
-   "brand": "Wedani",
-   "nameCls": "Printed Crew-Neck Crop Top",
-   "price": "249",
-   "orginalprice": "1,999",
-   "discount": "(88% off)",
-   "offerpricess": "249"
- },
- {
-   "href": "https://www.ajio.com/maaesa-tie--dye-collar-neck-top/p/464575254_blue",
-   "src": "https://assets.ajio.com/medias/sys_master/root/20220702/Mlzi/62bf5c13f997dd03e2b26174/maaesa_blue_tie_%26_dye_collar-neck_top.jpg",
-   "brand": "MAAESA",
-   "nameCls": "Tie & Dye Collar-Neck Top",
-   "price": "678",
-   "orginalprice": "1,995",
-   "discount": "(66% off)",
-   "offerpricess": "519"
- },
- {
-   "href": "https://www.ajio.com/v-m-round-neck-top-with-peasant-sleeves/p/465528295_green",
-   "src": "https://assets.ajio.com/medias/sys_master/root/20221231/8pVu/63af54cdaeb269659c1a2972/v%26m_green_round-neck_top_with_peasant_sleeves.jpg",
-   "brand": "V&M",
-   "nameCls": "Round-Neck Top with Peasant Sleeves",
-   "price": "828",
-   "orginalprice": "2,299",
-   "discount": "(64% off)",
-   "offerpricess": "690"
- },
- {
-   "href": "https://www.ajio.com/fig-top-with-shirt-collar/p/441146215_navy",
-   "src": "https://assets.ajio.com/medias/sys_master/root/20220921/HToa/632a07a3aeb269dbb398410c/fig_navy_blue_top_with_shirt_collar.jpg",
-   "brand": "FIG",
-   "nameCls": "Top with Shirt Collar",
-   "price": "336",
-   "orginalprice": "699",
-   "discount": "(52% off)",
-   "offerpricess": "238"
- },
- {
-   "href": "https://www.ajio.com/aks-printed-round-neck-tunic/p/462862659_maroon",
-   "src": "https://assets.ajio.com/medias/sys_master/root/20210831/LHSo/612d452e7cdb8cb8240df644/aks_maroon_%26_blue_printed_round-neck_tunic.jpg",
-   "brand": "AKS",
-   "nameCls": "Printed Round-Neck Tunic",
-   "price": "495",
-   "orginalprice": "1,099",
-   "discount": "(55% off)",
-   "offerpricess": "302"
- },
- {
-   "href": "https://www.ajio.com/kibo-fitted-crop-wrap-top-/p/465155418_maroon",
-   "src": "https://assets.ajio.com/medias/sys_master/root/20221014/CpxH/6349444daeb269659c459377/kibo_maroon_fitted_crop_wrap_top_.jpg",
-   "brand": "Kibo",
-   "nameCls": "Fitted Crop Wrap Top",
-   "price": "555",
-   "orginalprice": "1,499",
-   "discount": "(63% off)",
-   "offerpricess": "390"
- },
- {
-   "href": "https://www.ajio.com/janasya-crew-neck-cuff-sleeve-top/p/465508067_blue",
-   "src": "https://assets.ajio.com/medias/sys_master/root/20221227/3Xqp/63ab01d8f997ddfdbdfac215/janasya_blue_crew-neck_cuff-sleeve_top.jpg",
-   "brand": "Janasya",
-   "nameCls": "Crew-Neck Cuff-Sleeve Top",
-   "price": "1,234",
-   "orginalprice": "2,939",
-   "discount": "(58% off)",
-   "offerpricess": "764"
- },
- {
-   "href": "https://www.ajio.com/fig-geometric-print-round-neck-top/p/441146669_black",
-   "src": "https://assets.ajio.com/medias/sys_master/root/20220801/4wxp/62e7f985aeb26921afb71640/fig_black_geometric_print_round-neck_top.jpg",
-   "brand": "FIG",
-   "nameCls": "Geometric Print Round-Neck Top",
-   "price": "336",
-   "orginalprice": "699",
-   "discount": "(52% off)",
-   "offerpricess": "238"
- },
- {
-   "href": "https://www.ajio.com/znx-clothing-floral-print-wrap-top/p/463229399_multi",
-   "src": "https://assets.ajio.com/medias/sys_master/root/20211027/7Znh/61789fceaeb2690110abb969/znx_clothing_multicoloured_floral_print_wrap_top.jpg",
-   "brand": "Znx Clothing",
-   "nameCls": "Floral Print Wrap Top",
-   "price": "645",
-   "orginalprice": "1,499",
-   "discount": "(57% off)",
-   "offerpricess": "645"
- },
- {
-   "href": "https://www.ajio.com/janasya-checked-cotton-v-neck-top/p/462920274_red",
-   "src": "https://assets.ajio.com/medias/sys_master/root/20210928/kAgR/6153575baeb269a268a91c6c/janasya_red_checked_cotton_v-neck_top.jpg",
-   "brand": "Janasya",
-   "nameCls": "Checked Cotton V-neck Top",
-   "price": "615",
-   "orginalprice": "1,398",
-   "discount": "(56% off)",
-   "offerpricess": "375"
- },
- {
-   "href": "https://www.ajio.com/kibo-floral-print-v-neck-top/p/465140452_blue",
-   "src": "https://assets.ajio.com/medias/sys_master/root/20221012/PXN5/6345d339aeb269659c3dd0e1/kibo_blue_floral_print_v-neck_top.jpg",
-   "brand": "Kibo",
-   "nameCls": "Floral Print V-Neck Top",
-   "price": "663",
-   "orginalprice": "1,699",
-   "discount": "(61% off)",
-   "offerpricess": "442"
- },
- {
-   "href": "https://www.ajio.com/fig-micro-print-top-with-tie-up/p/441146214_darkgreen",
-   "src": "https://assets.ajio.com/medias/sys_master/root/20220714/lfV6/62d03caaf997dd03e2d4a316/fig_green_micro_print_top_with_tie-up.jpg",
-   "brand": "FIG",
-   "nameCls": "Micro Print Top with Tie-Up",
-   "price": "288",
-   "orginalprice": "599",
-   "discount": "(52% off)",
-   "offerpricess": "204"
- },
- {
-   "href": "https://www.ajio.com/shaye-floral-print-v-neck-top/p/462506144_cream",
-   "src": "https://assets.ajio.com/medias/sys_master/root/20220601/sh0F/6296ea21aeb26921af01d43c/shaye_cream_floral_print_v-neck_top.jpg",
-   "brand": "Shaye",
-   "nameCls": "Floral Print V-neck Top",
-   "price": "1,469",
-   "orginalprice": "2,449",
-   "discount": "(40% off)",
-   "offerpricess": "1,469"
- },
- {
-   "href": "https://www.ajio.com/fig-striped-v-neck-top/p/441146110_wine",
-   "src": "https://assets.ajio.com/medias/sys_master/root/20220719/quR6/62d6e8c6aeb26921af85c524/fig_wine_striped_v-neck_top.jpg",
-   "brand": "FIG",
-   "nameCls": "Striped V-neck Top",
-   "price": "336",
-   "orginalprice": "699",
-   "discount": "(52% off)",
-   "offerpricess": "238"
- },
- {
-   "href": "https://www.ajio.com/rio-checked-peplum-top/p/443003910_pink",
-   "src": "https://assets.ajio.com/medias/sys_master/root/20230201/Q10K/63da8330aeb269c65109bd2c/rio_pink_checked_peplum_top.jpg",
-   "brand": "RIO",
-   "nameCls": "Checked Peplum Top",
-   "price": "699",
-   "orginalprice": "",
-   "discount": "",
-   "offerpricess": "629"
- },
- {
-   "href": "https://www.ajio.com/buda-jeans-co-floral-print-v-neck-top/p/469218629_rust",
-   "src": "https://assets.ajio.com/medias/sys_master/root/20221111/eDfh/636e5fd8aeb269659c8845b9/buda_jeans_co_pink_floral_print_v-neck_top.jpg",
-   "brand": "Buda Jeans Co",
-   "nameCls": "Floral Print V-Neck Top",
-   "price": "1,799",
-   "orginalprice": "1,999",
-   "discount": "(10% off)",
-   "offerpricess": "1,259"
- },
- {
-   "href": "https://www.ajio.com/rigo-round-neck-top-with-front-slit/p/462956820_black",
-   "src": "https://assets.ajio.com/medias/sys_master/root/20220121/AY9B/61ea5ab6f997dd662331467b/rigo_black_round-neck_top_with_front_slit.jpg",
-   "brand": "RIGO",
-   "nameCls": "Round-Neck Top with Front Slit",
-   "price": "494",
-   "orginalprice": "899",
-   "discount": "(45% off)",
-   "offerpricess": "301"
- },
- {
-   "href": "https://www.ajio.com/jaipur-kurti-checked-printed-regular-top/p/463050316_black",
-   "src": "https://assets.ajio.com/medias/sys_master/root/20211005/8u3O/615bc2afaeb2692b85a866c8/jaipur_kurti_black_checked_printed_regular_top.jpg",
-   "brand": "Jaipur Kurti",
-   "nameCls": "Checked Printed Regular Top",
-   "price": "425",
-   "orginalprice": "1,149",
-   "discount": "(63% off)",
-   "offerpricess": "299"
- },
- {
-   "href": "https://www.ajio.com/rue-collection-checks-v-neck-top/p/464279908_multi",
-   "src": "https://assets.ajio.com/medias/sys_master/root/20220504/eBpT/62719624aeb26921af537e2a/rue_collection_black_checks_v-neck_top.jpg",
-   "brand": "Rue Collection",
-   "nameCls": "Checks V-Neck Top",
-   "price": "665",
-   "orginalprice": "1,899",
-   "discount": "(65% off)",
-   "offerpricess": "570"
- },
- {
-   "href": "https://www.ajio.com/mayra-chevron-print-round-neck-top/p/461391831_black",
-   "src": "https://assets.ajio.com/medias/sys_master/root/20211207/CHNP/61af8fd6f997ddf8f1406d04/mayra_black_chevron_print_round-neck_top.jpg",
-   "brand": "Mayra",
-   "nameCls": "Chevron Print Round-Neck Top",
-   "price": "398",
-   "orginalprice": "995",
-   "discount": "(60% off)",
-   "offerpricess": "259"
- },
- {
-   "href": "https://www.ajio.com/maishi-round-neck-top-with-button-fastening/p/461800113_red",
-   "src": "https://assets.ajio.com/medias/sys_master/root/20210403/n5lz/6068aa237cdb8c1f1479d274/maishi_red_round-neck_top_with_button_fastening.jpg",
-   "brand": "MAISHI",
-   "nameCls": "Round-Neck Top with Button Fastening",
-   "price": "486",
-   "orginalprice": "2,699",
-   "discount": "(82% off)",
-   "offerpricess": "486"
- },
- {
-   "href": "https://www.ajio.com/fig-embellished-round-neck-top/p/441146120_ltpurple",
-   "src": "https://assets.ajio.com/medias/sys_master/root/20220808/0xxu/62f127e1f997dd03e22d0c7f/fig_purple_embellished_round-neck_top.jpg",
-   "brand": "FIG",
-   "nameCls": "Embellished Round-Neck Top",
-   "price": "384",
-   "orginalprice": "799",
-   "discount": "(52% off)",
-   "offerpricess": "272"
- },
- {
-   "href": "https://www.ajio.com/ives-floral-print-top-with-tie-up/p/464125017_white",
-   "src": "https://assets.ajio.com/medias/sys_master/root/20220422/aMg6/6262c38faeb26921af3d02cc/ives_white_%26_blue_floral_print_top_with_tie-up.jpg",
-   "brand": "Ives",
-   "nameCls": "Floral Print Top with Tie-Up",
-   "price": "645",
-   "orginalprice": "1,499",
-   "discount": "(57% off)",
-   "offerpricess": "393"
- },
- {
-   "href": "https://www.ajio.com/wedani-floral-print-round-neck-top-/p/465326995_multi",
-   "src": "https://assets.ajio.com/medias/sys_master/root/20221124/enOI/637e75cfaeb269659cadb950/wedani_multicoloured_floral_print_round-neck_top_.jpg",
-   "brand": "Wedani",
-   "nameCls": "Floral Print Round-Neck Top",
-   "price": "249",
-   "orginalprice": "1,999",
-   "discount": "(88% off)",
-   "offerpricess": "249"
- },
- {
-   "href": "https://www.ajio.com/fig-floral-print-square-neck-top/p/441134979_black",
-   "src": "https://assets.ajio.com/medias/sys_master/root/20211123/FlL5/619bf1b2f997ddf8f1129228/fig_black_floral_print_square-neck_top.jpg",
-   "brand": "FIG",
-   "nameCls": "Floral Print Square-Neck Top",
-   "price": "210",
-   "orginalprice": "699",
-   "discount": "(70% off)",
-   "offerpricess": "210"
- },
- {
-   "href": "https://www.ajio.com/cottinfab-heathered-lapel-shirt-top/p/463659899_blue",
-   "src": "https://assets.ajio.com/medias/sys_master/root/20220114/gDKK/61e16082f997dd66232183b8/cottinfab_denim_heathered_lapel_shirt_top.jpg",
-   "brand": "COTTINFAB",
-   "nameCls": "Heathered Lapel Shirt Top",
-   "price": "510",
-   "orginalprice": "1,699",
-   "discount": "(70% off)",
-   "offerpricess": "442"
- },
- {
-   "href": "https://www.ajio.com/fig-polka-dot-print-round-neck-top/p/441146201_darkrust",
-   "src": "https://assets.ajio.com/medias/sys_master/root/20220808/kuiO/62f0fbc6f997dd03e22bd41b/fig_rust_polka-dot_print_round-neck_top.jpg",
-   "brand": "FIG",
-   "nameCls": "Polka-Dot Print Round-Neck Top",
-   "price": "288",
-   "orginalprice": "599",
-   "discount": "(52% off)",
-   "offerpricess": "204"
- },
- {
-   "href": "https://www.ajio.com/shaye-floral-print-top-with-bishop-sleeves/p/464954436_white",
-   "src": "https://assets.ajio.com/medias/sys_master/root/20220908/dXi5/6319048daeb269dbb378deb1/shaye_white_floral_print_top_with_bishop_sleeves.jpg",
-   "brand": "Shaye",
-   "nameCls": "Floral Print Top with Bishop Sleeves",
-   "price": "1,692",
-   "orginalprice": "3,599",
-   "discount": "(53% off)",
-   "offerpricess": "1,692"
- },
- {
-   "href": "https://www.ajio.com/maaesa-tie--dye-full-sleeve-top/p/464528587_green",
-   "src": "https://assets.ajio.com/medias/sys_master/root/20220622/MfID/62b3519aaeb26921af418548/maaesa_green_tie_%26_dye_full-sleeve_top.jpg",
-   "brand": "MAAESA",
-   "nameCls": "Tie & Dye Full-Sleeve Top",
-   "price": "698",
-   "orginalprice": "1,995",
-   "discount": "(65% off)",
-   "offerpricess": "519"
- },
- {
-   "href": "https://www.ajio.com/popwings-floral-print-square-neck-crop-top/p/464809395_beige",
-   "src": "https://assets.ajio.com/medias/sys_master/root/20220812/SC2x/62f56c31f997dd03e23fef4a/popwings_beige_floral_print_square-neck_crop_top.jpg",
-   "brand": "POPWINGS",
-   "nameCls": "Floral Print Square-Neck Crop Top",
-   "price": "429",
-   "orginalprice": "1,299",
-   "discount": "(67% off)",
-   "offerpricess": "416"
- },
- {
-   "href": "https://www.ajio.com/fyre-rose-button-down-top-with-collar/p/469254145_fushia",
-   "src": "https://assets.ajio.com/medias/sys_master/root/20221112/TAf5/636e9c6af997ddfdbd6f5f25/fyre_rose_fushia_button-down_top_with_collar.jpg",
-   "brand": "Fyre Rose",
-   "nameCls": "Button-Down Top with Collar",
-   "price": "909",
-   "orginalprice": "1,299",
-   "discount": "(30% off)",
-   "offerpricess": "779"
- },
- {
-   "href": "https://www.ajio.com/ives-solid-top/p/461018780_green",
-   "src": "https://assets.ajio.com/medias/sys_master/root/20210403/Qw1Z/60685c77aeb269a9e330c91e/ives_olive_solid_top.jpg",
-   "brand": "Ives",
-   "nameCls": "Solid Top",
-   "price": "473",
-   "orginalprice": "1,099",
-   "discount": "(57% off)",
-   "offerpricess": "289"
- },
- {
-   "href": "https://www.ajio.com/fig-striped-round-neck-top-with-bell-sleeves/p/441131677_mustard",
-   "src": "https://assets.ajio.com/medias/sys_master/root/20211202/AgVS/61a7da84aeb2690110ea5ee1/fig_mustard_yellow_striped_round-neck_top_with_bell_sleeves.jpg",
-   "brand": "FIG",
-   "nameCls": "Striped Round-Neck Top with Bell Sleeves",
-   "price": "180",
-   "orginalprice": "599",
-   "discount": "(70% off)",
-   "offerpricess": "180"
- },
- {
-   "href": "https://www.ajio.com/fig-floral-print-top/p/441131710_mustard",
-   "src": "https://assets.ajio.com/medias/sys_master/root/20220211/qzYf/62068090f997dd03e2cc58db/fig_mustard_yellow_floral_print_top.jpg",
-   "brand": "FIG",
-   "nameCls": "Floral Print Top",
-   "price": "210",
-   "orginalprice": "699",
-   "discount": "(70% off)",
-   "offerpricess": "210"
- },
- {
-   "href": "https://www.ajio.com/jdy-by-only-schiffli-embroidered-top-with-puff-sleeves/p/441308981_pink",
-   "src": "https://assets.ajio.com/medias/sys_master/root/20220525/6O8P/628e0884aeb26921afd60446/jdy_by_only_pink_schiffli_embroidered_top_with_puff_sleeves.jpg",
-   "brand": "JDY BY ONLY",
-   "nameCls": "Schiffli Embroidered Top with Puff Sleeves",
-   "price": "510",
-   "orginalprice": "1,699",
-   "discount": "(70% off)",
-   "offerpricess": "510"
- },
- {
-   "href": "https://www.ajio.com/aarke-ritu-kumar-printed-sleeveless-top-with-knot-neckline/p/469031656_green",
-   "src": "https://assets.ajio.com/medias/sys_master/root/20211011/CZnk/61645f9cf997ddce891c8774/aarke_ritu_kumar_green_printed_sleeveless_top_with_knot_neckline.jpg",
-   "brand": "Aarke Ritu Kumar",
-   "nameCls": "Printed Sleeveless Top with Knot Neckline",
-   "price": "850",
-   "orginalprice": "1,700",
-   "discount": "(50% off)",
-   "offerpricess": "714"
- },
- {
-   "href": "https://www.ajio.com/teamspirit-striped-round-neck-top/p/441134865_navy",
-   "src": "https://assets.ajio.com/medias/sys_master/root/20220222/i3Nd/62140377aeb26921afa7f3e5/teamspirit_navy_blue_striped_round-neck_top.jpg",
-   "brand": "Teamspirit",
-   "nameCls": "Striped Round-Neck Top",
-   "price": "210",
-   "orginalprice": "699",
-   "discount": "(70% off)",
-   "offerpricess": "210"
- },
- {
-   "href": "https://www.ajio.com/marks--spencer-full-sleeves-v-neck-top/p/465208589_blue",
-   "src": "https://assets.ajio.com/medias/sys_master/root/20221028/DuLl/635af8e4f997ddfdbd46a9da/marks_%26_spencer_blue_full_sleeves_v-neck_top.jpg",
-   "brand": "Marks & Spencer",
-   "nameCls": "Full Sleeves V-Neck Top",
-   "price": "2,099",
-   "orginalprice": "2,999",
-   "discount": "(30% off)",
-   "offerpricess": "1,364"
- },
- {
-   "href": "https://www.ajio.com/fig-floral-print-top-with-camisole/p/443004325_ltpink",
-   "src": "https://assets.ajio.com/medias/sys_master/root/20221122/Iurp/637cf63faeb269659ca715c0/fig_pink_floral_print_top_with_camisole.jpg",
-   "brand": "FIG",
-   "nameCls": "Floral Print Top with Camisole",
-   "price": "699",
-   "orginalprice": "",
-   "discount": "",
-   "offerpricess": "629"
- },
- {
-   "href": "https://www.ajio.com/kibo-floral-top/p/464610946_pink",
-   "src": "https://assets.ajio.com/medias/sys_master/root/20221012/BWAR/6345d78eaeb269659c3e24e4/kibo_pink_floral_top.jpg",
-   "brand": "Kibo",
-   "nameCls": "Floral Top",
-   "price": "648",
-   "orginalprice": "1,799",
-   "discount": "(64% off)",
-   "offerpricess": "468"
- },
- {
-   "href": "https://www.ajio.com/wedani-tie--dye-button-front-shirt/p/465197522_multi",
-   "src": "https://assets.ajio.com/medias/sys_master/root/20221027/bfBt/635ac36cf997ddfdbd428454/wedani_multicoloured_tie_%26_dye_button-front_shirt.jpg",
-   "brand": "Wedani",
-   "nameCls": "Tie & Dye Button-Front Shirt",
-   "price": "499",
-   "orginalprice": "1,999",
-   "discount": "(75% off)",
-   "offerpricess": "499"
- },
- {
-   "href": "https://www.ajio.com/fery-london-puff-sleeve-square-neck-top/p/465523548_maroon",
-   "src": "https://assets.ajio.com/medias/sys_master/root/20221230/aWeE/63adfc76f997ddfdbd030860/-473Wx593H-465523548-maroon-MODEL.png",
-   "brand": "Fery London",
-   "nameCls": "Puff-Sleeve Square-Neck Top",
-   "price": "500",
-   "orginalprice": "1,999",
-   "discount": "(75% off)",
-   "offerpricess": "500"
- },
- {
-   "href": "https://www.ajio.com/quiero-embellished-round-neck-top/p/461347093_black",
-   "src": "https://assets.ajio.com/medias/sys_master/root/20220204/B5k2/61fcd27ef997dd03e2c0682d/quiero_black_embellished_round-neck_top.jpg",
-   "brand": "Quiero",
-   "nameCls": "Embellished Round-Neck Top",
-   "price": "714",
-   "orginalprice": "1,785",
-   "discount": "(60% off)",
-   "offerpricess": "643"
- },
- {
-   "href": "https://www.ajio.com/fig-floral-print-top-with-notched-neckline/p/441142183_offwhite",
-   "src": "https://assets.ajio.com/medias/sys_master/root/20221004/tlvT/633b30c6f997ddfdbd057da0/fig_off-white_floral_print_top_with_notched_neckline.jpg",
-   "brand": "FIG",
-   "nameCls": "Floral Print Top with Notched Neckline",
-   "price": "336",
-   "orginalprice": "699",
-   "discount": "(52% off)",
-   "offerpricess": "238"
- },
- {
-   "href": "https://www.ajio.com/ishin-floral-print-round-neck-top/p/462947693_white",
-   "src": "https://assets.ajio.com/medias/sys_master/root/20220902/j78f/63111996aeb269dbb362d7c9/ishin_off_white_floral_print_round-neck_top.jpg",
-   "brand": "Ishin",
-   "nameCls": "Floral Print Round-Neck Top",
-   "price": "1,530",
-   "orginalprice": "3,399",
-   "discount": "(55% off)",
-   "offerpricess": "933"
- },
- {
-   "href": "https://www.ajio.com/fig-floral-print-round-neck-top/p/441146578_jetblack",
-   "src": "https://assets.ajio.com/medias/sys_master/root/20220817/FKrE/62fcfbf5aeb26917617ff8e7/fig_jet_black_floral_print_round-neck_top.jpg",
-   "brand": "FIG",
-   "nameCls": "Floral Print Round-Neck Top",
-   "price": "336",
-   "orginalprice": "699",
-   "discount": "(52% off)",
-   "offerpricess": "238"
- },
- {
-   "href": "https://www.ajio.com/fig-polka-dot-print-schiffli-top-with-puff-sleeves/p/441136815_offwhite",
-   "src": "https://assets.ajio.com/medias/sys_master/root/20220211/5OUa/62067df8f997dd03e2cc2efb/fig_white_polka-dot_print_schiffli_top_with_puff_sleeves.jpg",
-   "brand": "FIG",
-   "nameCls": "Polka-Dot Print Schiffli Top with Puff Sleeves",
-   "price": "210",
-   "orginalprice": "699",
-   "discount": "(70% off)",
-   "offerpricess": "210"
- },
- {
-   "href": "https://www.ajio.com/9-impression-abstract-print-v-neck-tunic/p/465186016_red",
-   "src": "https://assets.ajio.com/medias/sys_master/root/20221021/NHsP/635285d5f997ddfdbd392bf6/9_impression_red_abstract_print_v-neck_tunic.jpg",
-   "brand": "9 IMPRESSION",
-   "nameCls": "Abstract Print V-Neck Tunic",
-   "price": "975",
-   "orginalprice": "2,499",
-   "discount": "(61% off)",
-   "offerpricess": "975"
- },
- {
-   "href": "https://www.ajio.com/fig-floral-print-peplum-top-with-ruffle-trims/p/441144150_beige",
-   "src": "https://assets.ajio.com/medias/sys_master/root/20220614/l7QC/62a7984bf997dd03e275e13d/fig_beige_floral_print_peplum_top_with_ruffle_trims.jpg",
-   "brand": "FIG",
-   "nameCls": "Floral Print Peplum Top with Ruffle Trims",
-   "price": "384",
-   "orginalprice": "799",
-   "discount": "(52% off)",
-   "offerpricess": "272"
- },
- {
-   "href": "https://www.ajio.com/harpa-chevrons-top-with-round-neckline/p/465001401_pink",
-   "src": "https://assets.ajio.com/medias/sys_master/root/20220916/Xdrk/63239a69aeb269dbb38e9da1/harpa_pink_chevrons_top_with_round_neckline.jpg",
-   "brand": "HARPA",
-   "nameCls": "Chevrons Top with Round Neckline",
-   "price": "520",
-   "orginalprice": "1,299",
-   "discount": "(60% off)",
-   "offerpricess": "338"
- },
- {
-   "href": "https://www.ajio.com/maaesa-tie--dye-full-sleeve-top/p/464528577_black",
-   "src": "https://assets.ajio.com/medias/sys_master/root/20220622/q08f/62b351aaf997dd03e29868f1/maaesa_black_tie_%26_dye_full-sleeve_top.jpg",
-   "brand": "MAAESA",
-   "nameCls": "Tie & Dye Full-Sleeve Top",
-   "price": "698",
-   "orginalprice": "1,995",
-   "discount": "(65% off)",
-   "offerpricess": "519"
- },
- {
-   "href": "https://www.ajio.com/kibo-v-neck-puff-sleeves-top/p/465140544_rust",
-   "src": "",
-   "brand": "Kibo",
-   "nameCls": "V-Neck Puff-Sleeves Top",
-   "price": "663",
-   "orginalprice": "1,699",
-   "discount": "(61% off)",
-   "offerpricess": "442"
- },
- {
-   "href": "https://www.ajio.com/wedani-floral-print-high-neck-top/p/464630604_blue",
-   "src": "",
-   "brand": "Wedani",
-   "nameCls": "Floral Print High-Neck Top",
-   "price": "349",
-   "orginalprice": "1,999",
-   "discount": "(83% off)",
-   "offerpricess": "349"
- },
- {
-   "href": "https://www.ajio.com/harpa-solid-tunic/p/461023931_pink",
-   "src": "",
-   "brand": "HARPA",
-   "nameCls": "Solid Tunic",
-   "price": "480",
-   "orginalprice": "1,199",
-   "discount": "(60% off)",
-   "offerpricess": "312"
- },
- {
-   "href": "https://www.ajio.com/emmyrobe-textured-top-with-bell-sleeves/p/465323252_red",
-   "src": "",
-   "brand": "EMMYROBE",
-   "nameCls": "Textured Top with Bell Sleeves",
-   "price": "675",
-   "orginalprice": "1,499",
-   "discount": "(55% off)",
-   "offerpricess": "630"
- },
- {
-   "href": "https://www.ajio.com/keri-perry-paisley-print-top/p/465391705_navy",
-   "src": "",
-   "brand": "KERI PERRY",
-   "nameCls": "Paisley Print Top",
-   "price": "599",
-   "orginalprice": "1,499",
-   "discount": "(60% off)",
-   "offerpricess": "540"
- },
- {
-   "href": "https://www.ajio.com/fig-lace-round-neck-top/p/441141534_olive",
-   "src": "",
-   "brand": "FIG",
-   "nameCls": "Lace Round-Neck Top",
-   "price": "432",
-   "orginalprice": "899",
-   "discount": "(52% off)",
-   "offerpricess": "306"
- },
- {
-   "href": "https://www.ajio.com/clafoutis-full-sleeves-v-neck-crop-top/p/461924180_black",
-   "src": "",
-   "brand": "Clafoutis",
-   "nameCls": "Full Sleeves V-neck Crop Top",
-   "price": "350",
-   "orginalprice": "999",
-   "discount": "(65% off)",
-   "offerpricess": "260"
- },
- {
-   "href": "https://www.ajio.com/janasya-floral-short-sleeves-top/p/465104492_green",
-   "src": "",
-   "brand": "Janasya",
-   "nameCls": "Floral Short Sleeves Top",
-   "price": "765",
-   "orginalprice": "1,699",
-   "discount": "(55% off)",
-   "offerpricess": "467"
- },
- {
-   "href": "https://www.ajio.com/pannkh-floral-top/p/461020471_white",
-   "src": "",
-   "brand": "Pannkh",
-   "nameCls": "Floral Top",
-   "price": "604",
-   "orginalprice": "1,099",
-   "discount": "(45% off)",
-   "offerpricess": "368"
- },
- {
-   "href": "https://www.ajio.com/fig-swiss-dot-shirred-high-neck-top/p/441144288_peach",
-   "src": "",
-   "brand": "FIG",
-   "nameCls": "Swiss-Dot Shirred High-Neck Top",
-   "price": "384",
-   "orginalprice": "799",
-   "discount": "(52% off)",
-   "offerpricess": "272"
- },
- {
-   "href": "https://www.ajio.com/cottinfab-animal-print-3-4th-sleeves-tunic/p/461808398_beige",
-   "src": "",
-   "brand": "COTTINFAB",
-   "nameCls": "Animal Print 3/4th Sleeves Tunic",
-   "price": "455",
-   "orginalprice": "1,299",
-   "discount": "(65% off)",
-   "offerpricess": "338"
- },
- {
-   "href": "https://www.ajio.com/teamspirit-striped-crew-neck-top/p/441143821_ltorange",
-   "src": "",
-   "brand": "Teamspirit",
-   "nameCls": "Striped Crew-Neck Top",
-   "price": "288",
-   "orginalprice": "599",
-   "discount": "(52% off)",
-   "offerpricess": "204"
- },
- {
-   "href": "https://www.ajio.com/fig-round-neck-top-with-flounce-sleeves/p/441131899_aquablue",
-   "src": "",
-   "brand": "FIG",
-   "nameCls": "Round-Neck Top with Flounce Sleeves",
-   "price": "210",
-   "orginalprice": "699",
-   "discount": "(70% off)",
-   "offerpricess": "210"
- },
- {
-   "href": "https://www.ajio.com/masakali-co-floral-print-button-down-top/p/464692639_beige",
-   "src": "",
-   "brand": "MASAKALI.CO",
-   "nameCls": "Floral Print Button-Down Top",
-   "price": "612",
-   "orginalprice": "1,749",
-   "discount": "(65% off)",
-   "offerpricess": "455"
- },
- {
-   "href": "https://www.ajio.com/eyebogler-relaxed-fit-crop-top/p/465303509_maroon",
-   "src": "",
-   "brand": "EYEBOGLER",
-   "nameCls": "Relaxed-Fit Crop Top",
-   "price": "416",
-   "orginalprice": "1,299",
-   "discount": "(68% off)",
-   "offerpricess": "338"
- },
- {
-   "href": "https://www.ajio.com/cottinfab-relaxed-fit-striped-tunic/p/461808232_blue",
-   "src": "",
-   "brand": "COTTINFAB",
-   "nameCls": "Relaxed Fit Striped Tunic",
-   "price": "480",
-   "orginalprice": "1,549",
-   "discount": "(69% off)",
-   "offerpricess": "403"
- },
- {
-   "href": "https://www.ajio.com/wedani-floral-print-crepe-top/p/465668400_black",
-   "src": "",
-   "brand": "Wedani",
-   "nameCls": "Floral Print Crepe Top",
-   "price": "249",
-   "orginalprice": "1,999",
-   "discount": "(88% off)",
-   "offerpricess": "249"
- },
- {
-   "href": "https://www.ajio.com/kibo-floral-print-v-neck-top/p/464811853_black",
-   "src": "",
-   "brand": "Kibo",
-   "nameCls": "Floral Print V-Neck Top",
-   "price": "666",
-   "orginalprice": "1,799",
-   "discount": "(63% off)",
-   "offerpricess": "468"
- },
- {
-   "href": "https://www.ajio.com/jdy-by-only-peplum-top-with-neck-tie-up/p/441308988_red",
-   "src": "",
-   "brand": "JDY BY ONLY",
-   "nameCls": "Peplum Top with Neck Tie-Up",
-   "price": "390",
-   "orginalprice": "1,299",
-   "discount": "(70% off)",
-   "offerpricess": "390"
- },
- {
-   "href": "https://www.ajio.com/ives-floral-top/p/461018782_white",
-   "src": "",
-   "brand": "Ives",
-   "nameCls": "Floral Top",
-   "price": "516",
-   "orginalprice": "1,199",
-   "discount": "(57% off)",
-   "offerpricess": "315"
- },
- {
-   "href": "https://www.ajio.com/fig-button-down-shirt-top/p/441134024_peach",
-   "src": "",
-   "brand": "FIG",
-   "nameCls": "Button-Down Shirt Top",
-   "price": "240",
-   "orginalprice": "799",
-   "discount": "(70% off)",
-   "offerpricess": "240"
- },
- {
-   "href": "https://www.ajio.com/hawt-printed-boat-neck-top/p/420178360_black",
-   "src": "",
-   "brand": "HAWT",
-   "nameCls": "Printed Boat-Neck Top",
-   "price": "239",
-   "orginalprice": "399",
-   "discount": "(40% off)",
-   "offerpricess": "200"
- },
- {
-   "href": "https://www.ajio.com/fig-ruffled-neck-top-with-puff-sleeves/p/441146424_ltpink",
-   "src": "",
-   "brand": "FIG",
-   "nameCls": "Ruffled-Neck Top with Puff Sleeves",
-   "price": "384",
-   "orginalprice": "799",
-   "discount": "(52% off)",
-   "offerpricess": "272"
- },
- {
-   "href": "https://www.ajio.com/teamspirit-typographic-print-crew-neck-top/p/441136325_ltpink",
-   "src": "",
-   "brand": "Teamspirit",
-   "nameCls": "Typographic Print Crew-Neck Top",
-   "price": "210",
-   "orginalprice": "699",
-   "discount": "(70% off)",
-   "offerpricess": "210"
- }
-]
+  ]
 }
