@@ -18,6 +18,7 @@ import { SidebarContext } from '../context/SidebarContextProvider';
 
 export default function SimpleCard() {
     const{login,setLogin} = useContext(SidebarContext);
+    const [isAdmin, setIsAdmin] = useState(false);
     const [username, setUsername] = useState('');
     const [password, setPassword] = useState('');
     const [error, setError] = useState('');
@@ -25,22 +26,26 @@ export default function SimpleCard() {
     const navigate = useNavigate();
 
     const handleLogin = () => {
-
-
-
-      
-        let user = JSON.parse(localStorage.getItem("user"));
-
-        if (username === user.username && password === user.password) {
+        const user = JSON.parse(localStorage.getItem("user"));
+        if (username=== 'admin' && password === 'password') {
+          alert("Admin Login succesfull")
+          setLogin(true);
+          setIsAdmin(true);
+          navigate("/admin");
+        }else if (username=== user.useremail && password === user.userpassword) {
           localStorage.setItem("loginValue",JSON.stringify("login"))
-          alert("Login succesfull")
+          alert("Login succesfull");
             navigate("/");
             setLogin(true);
-
-        } else {
+            setIsAdmin(false);
+        }else {
             setError("Invalid username or password");
+            alert("Please Enter Correct Details");
         }
+        
     }
+
+
 
   return (
     <Flex
@@ -63,11 +68,11 @@ export default function SimpleCard() {
         </Stack>
             <FormControl id="email">
               <FormLabel>Email address</FormLabel>
-              <Input type="email" value={username} onChange={e => setUsername(e.target.value)}/>
+              <Input type="text" value={username} onChange={e => setUsername(e.target.value)}/>
             </FormControl>
             <FormControl id="password">
               <FormLabel>Password</FormLabel>
-              <Input type="password" value={password} onChange={e => setPassword(e.target.value)} />
+              <Input type="password" value={password} onChange={e => setPassword(e.target.value)}/>
             </FormControl>
             <Stack spacing={10}>
               <Stack

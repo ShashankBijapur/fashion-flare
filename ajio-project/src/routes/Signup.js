@@ -25,10 +25,10 @@ import {
     const [showPassword, setShowPassword] = useState(false);
     // const [data, setdata] = useState([]);
   
-  
     const handleSignup = () => {
       
-        let user = {name:name, username:username , password:password};
+        let user = {name:name, useremail:username , userpassword:password};
+        
         localStorage.setItem("user", JSON.stringify(user));
         window.location.href = "/login";
         console.log(user);
