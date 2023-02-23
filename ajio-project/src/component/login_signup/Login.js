@@ -57,7 +57,7 @@ export default function SimpleCard() {
           p={8}>
           <Stack spacing={6}>
           <Stack align={'center'}>
-          <Heading fontSize={'4xl'}>Welcome to AJIO</Heading>
+          <Heading fontSize={'4xl'}>Welcome to Fashion Flair</Heading>
           <Text fontSize={'lg'} color={'gray.600'}>
             to enjoy all <Link color={'blue.400'}>features</Link> ✌️
           </Text>

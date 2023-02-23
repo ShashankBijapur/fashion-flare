@@ -49,7 +49,7 @@ export default function SignupCard() {
           p={8}>
           <Stack spacing={4}>
           <Heading fontSize={'4xl'} textAlign={'center'}>
-            Welcome to Ajio
+            Welcome to Fashion Flair
           </Heading>
           <Text fontSize={'lg'} color={'gray.600'}>
           Join/Sign up using✌️
