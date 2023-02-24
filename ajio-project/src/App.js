@@ -1,5 +1,4 @@
 import "./App.css";
-import AdminPage from "./component/Admin/Admin";
 import Home from "./component/Home/Home";
 import Kids from "./component/Kids/Kids";
 import Mens from "./component/Mens/Mens";
