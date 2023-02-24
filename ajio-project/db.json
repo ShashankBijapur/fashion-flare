@@ -221,7 +221,7 @@
       "offer": "1,610"
     }
   ],
-  "menCategory":[
+  "menCategory": [
     {
       "id": 1,
       "rilrtl-products-list__link href": "https://www.ajio.com/dennislingo-premium-attire-full-sleeves-slim-fit-shirt/p/462323964_white",
@@ -266,7 +266,6 @@
       "discount": "(62% off)",
       "offer": 561
     },
-    
     {
       "id": 5,
       "rilrtl-products-list__link href": "https://www.ajio.com/dennislingo-premium-attire--slim-fit-shirt-with-spread-collar/p/462323964_purple",
@@ -311,13 +310,12 @@
       "discount": "(62% off)",
       "offer": 481
     }
-
   ],
-  "menShirt":[
+  "menShirt": [
     {
-      "id":1,
+      "id": 1,
       "rilrtl-products-list__link href": "https://www.ajio.com/jump-cuts-typographic-print-slim-fit-hooded-t-shirt-with-flap-pocket/p/465647923_black",
-      "src":"https://assets.ajio.com/medias/sys_master/root/20220901/ARH5/6310ee67f997dd1f8dd3e3fd/eyebogler_teal_colour-blocked_polo_t-shirt.jpg",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20220901/ARH5/6310ee67f997dd1f8dd3e3fd/eyebogler_teal_colour-blocked_polo_t-shirt.jpg",
       "brand": "JUMP CUTS",
       "nameCls": "Typographic Print Slim Fit Hooded T-Shirt with Flap Pocket",
       "price": "₹410",
@@ -327,8 +325,7 @@
     },
     {
       "rilrtl-products-list__link href": "https://www.ajio.com/eyebogler-colour-blocked-polo-t-shirt/p/464918983_blue",
-      "src":"https://assets.ajio.com/medias/sys_master/root/20220901/ARH5/6310ee67f997dd1f8dd3e3fd/eyebogler_teal_colour-blocked_polo_t-shirt.jpg",
-      
+      "src": "https://assets.ajio.com/medias/sys_master/root/20220901/ARH5/6310ee67f997dd1f8dd3e3fd/eyebogler_teal_colour-blocked_polo_t-shirt.jpg",
       "brand": "EYEBOGLER",
       "nameCls": "Colour-Blocked Polo T-shirt",
       "price": "₹403",
@@ -338,7 +335,7 @@
     },
     {
       "rilrtl-products-list__link href": "https://www.ajio.com/ausk-striped-crew-neck-t-shirt/p/464531848_navy",
-      "src":"https://assets.ajio.com/medias/sys_master/root/20220901/ARH5/6310ee67f997dd1f8dd3e3fd/eyebogler_teal_colour-blocked_polo_t-shirt.jpg",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20220901/ARH5/6310ee67f997dd1f8dd3e3fd/eyebogler_teal_colour-blocked_polo_t-shirt.jpg",
       "brand": "AUSK",
       "nameCls": "Striped Crew-Neck T-shirt",
       "price": "₹360",
@@ -348,7 +345,7 @@
     },
     {
       "rilrtl-products-list__link href": "https://www.ajio.com/stellers-polo-t-shirt-with-brand-print/p/464979926_grey",
-      "src":"https://assets.ajio.com/medias/sys_master/root/20220901/ARH5/6310ee67f997dd1f8dd3e3fd/eyebogler_teal_colour-blocked_polo_t-shirt.jpg",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20220901/ARH5/6310ee67f997dd1f8dd3e3fd/eyebogler_teal_colour-blocked_polo_t-shirt.jpg",
       "brand": "Stellers",
       "nameCls": "Polo T-shirt with Brand Print",
       "price": "₹800",
@@ -358,7 +355,7 @@
     },
     {
       "rilrtl-products-list__link href": "https://www.ajio.com/teamspirit-popcorn-crew-neck-t-shirt/p/441146987_green",
-      "src":"https://assets.ajio.com/medias/sys_master/root/20220901/ARH5/6310ee67f997dd1f8dd3e3fd/eyebogler_teal_colour-blocked_polo_t-shirt.jpg",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20220901/ARH5/6310ee67f997dd1f8dd3e3fd/eyebogler_teal_colour-blocked_polo_t-shirt.jpg",
       "brand": "Teamspirit",
       "nameCls": "Popcorn Crew-Neck T-Shirt",
       "price": "₹382",
@@ -368,7 +365,7 @@
     },
     {
       "rilrtl-products-list__link href": "https://www.ajio.com/damensch-lounge-crew-neck-t-shirt/p/463139014_green",
-      "src":"https://assets.ajio.com/medias/sys_master/root/20220901/ARH5/6310ee67f997dd1f8dd3e3fd/eyebogler_teal_colour-blocked_polo_t-shirt.jpg",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20220901/ARH5/6310ee67f997dd1f8dd3e3fd/eyebogler_teal_colour-blocked_polo_t-shirt.jpg",
       "brand": "DAMENSCH",
       "nameCls": "Lounge Crew-Neck T-shirt",
       "price": "₹401",
@@ -378,7 +375,7 @@
     },
     {
       "rilrtl-products-list__link href": "https://www.ajio.com/ausk-striped-crew-neck-t-shirt/p/464957923_white",
-      "src":"https://assets.ajio.com/medias/sys_master/root/20220901/ARH5/6310ee67f997dd1f8dd3e3fd/eyebogler_teal_colour-blocked_polo_t-shirt.jpg",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20220901/ARH5/6310ee67f997dd1f8dd3e3fd/eyebogler_teal_colour-blocked_polo_t-shirt.jpg",
       "brand": "AUSK",
       "nameCls": "Striped Crew-Neck T-shirt",
       "price": "₹350",
@@ -388,7 +385,7 @@
     },
     {
       "rilrtl-products-list__link href": "https://www.ajio.com/eyebogler-striped-polo-t-shirt/p/461951230_green",
-      "src":"https://assets.ajio.com/medias/sys_master/root/20220901/ARH5/6310ee67f997dd1f8dd3e3fd/eyebogler_teal_colour-blocked_polo_t-shirt.jpg",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20220901/ARH5/6310ee67f997dd1f8dd3e3fd/eyebogler_teal_colour-blocked_polo_t-shirt.jpg",
       "brand": "EYEBOGLER",
       "nameCls": "Striped Polo T-shirt",
       "price": "₹442",
@@ -398,7 +395,7 @@
     },
     {
       "rilrtl-products-list__link href": "https://www.ajio.com/difference-of-opinion-graphic-print-crew-neck-oversized-t-shirt/p/464270251_olive",
-      "src":"https://assets.ajio.com/medias/sys_master/root/20220901/ARH5/6310ee67f997dd1f8dd3e3fd/eyebogler_teal_colour-blocked_polo_t-shirt.jpg",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20220901/ARH5/6310ee67f997dd1f8dd3e3fd/eyebogler_teal_colour-blocked_polo_t-shirt.jpg",
       "brand": "DIFFERENCE OF OPINION",
       "nameCls": "Graphic Print Crew-Neck Oversized T-shirt",
       "price": "₹494",
@@ -408,7 +405,7 @@
     },
     {
       "rilrtl-products-list__link href": "https://www.ajio.com/stellers-slim-fit-polo-t-shirt/p/464179937_green",
-      "src":"https://assets.ajio.com/medias/sys_master/root/20220901/ARH5/6310ee67f997dd1f8dd3e3fd/eyebogler_teal_colour-blocked_polo_t-shirt.jpg",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20220901/ARH5/6310ee67f997dd1f8dd3e3fd/eyebogler_teal_colour-blocked_polo_t-shirt.jpg",
       "brand": "Stellers",
       "nameCls": "Slim Fit Polo T-shirt",
       "price": "₹800",
@@ -418,7 +415,7 @@
     },
     {
       "rilrtl-products-list__link href": "https://www.ajio.com/cantabil-logo-print-t-shirt-with-collar/p/465108673_navy",
-       "src":"https://assets.ajio.com/medias/sys_master/root/20220901/ARH5/6310ee67f997dd1f8dd3e3fd/eyebogler_teal_colour-blocked_polo_t-shirt.jpg",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20220901/ARH5/6310ee67f997dd1f8dd3e3fd/eyebogler_teal_colour-blocked_polo_t-shirt.jpg",
       "brand": "Cantabil",
       "nameCls": "Logo Print T-Shirt with Collar",
       "price": "₹520",
@@ -428,7 +425,7 @@
     },
     {
       "rilrtl-products-list__link href": "https://www.ajio.com/damensch-ombre-dyed-crew-neck-t-shirt/p/463139050_white",
-      "src":"https://assets.ajio.com/medias/sys_master/root/20220901/ARH5/6310ee67f997dd1f8dd3e3fd/eyebogler_teal_colour-blocked_polo_t-shirt.jpg",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20220901/ARH5/6310ee67f997dd1f8dd3e3fd/eyebogler_teal_colour-blocked_polo_t-shirt.jpg",
       "brand": "DAMENSCH",
       "nameCls": "Ombre-dyed Crew-Neck T-shirt",
       "price": "₹599",
@@ -438,7 +435,7 @@
     },
     {
       "rilrtl-products-list__link href": "https://www.ajio.com/dillinger-colourblock-crew-neck-t-shirt/p/462102870_green",
-      "src":"https://assets.ajio.com/medias/sys_master/root/20220901/ARH5/6310ee67f997dd1f8dd3e3fd/eyebogler_teal_colour-blocked_polo_t-shirt.jpg",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20220901/ARH5/6310ee67f997dd1f8dd3e3fd/eyebogler_teal_colour-blocked_polo_t-shirt.jpg",
       "brand": "DILLINGER",
       "nameCls": "Colourblock Crew- Neck T-shirt",
       "price": "₹500",
@@ -448,7 +445,7 @@
     },
     {
       "rilrtl-products-list__link href": "https://www.ajio.com/jump-cuts-typographic-print-crew-neck-t-shirt/p/465194215_white",
-      "src":"https://assets.ajio.com/medias/sys_master/root/20220901/ARH5/6310ee67f997dd1f8dd3e3fd/eyebogler_teal_colour-blocked_polo_t-shirt.jpg",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20220901/ARH5/6310ee67f997dd1f8dd3e3fd/eyebogler_teal_colour-blocked_polo_t-shirt.jpg",
       "brand": "JUMP CUTS",
       "nameCls": "Typographic Print Crew-Neck T-Shirt",
       "price": "₹400",
@@ -458,7 +455,7 @@
     },
     {
       "rilrtl-products-list__link href": "https://www.ajio.com/eyebogler-colour-blocked-polo-t-shirt/p/464918983_pink",
-       "src":"https://assets.ajio.com/medias/sys_master/root/20220901/ARH5/6310ee67f997dd1f8dd3e3fd/eyebogler_teal_colour-blocked_polo_t-shirt.jpg",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20220901/ARH5/6310ee67f997dd1f8dd3e3fd/eyebogler_teal_colour-blocked_polo_t-shirt.jpg",
       "brand": "EYEBOGLER",
       "nameCls": "Colour-Blocked Polo T-shirt",
       "price": "₹403",
@@ -468,7 +465,7 @@
     },
     {
       "rilrtl-products-list__link href": "https://www.ajio.com/altheory-striped-crew-neck-t-shirt/p/441195016_black",
-      "src":"https://assets.ajio.com/medias/sys_master/root/20220901/ARH5/6310ee67f997dd1f8dd3e3fd/eyebogler_teal_colour-blocked_polo_t-shirt.jpg",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20220901/ARH5/6310ee67f997dd1f8dd3e3fd/eyebogler_teal_colour-blocked_polo_t-shirt.jpg",
       "brand": "ALTHEORY",
       "nameCls": "Striped Crew-Neck T-shirt",
       "price": "₹400",
@@ -478,7 +475,7 @@
     },
     {
       "rilrtl-products-list__link href": "https://www.ajio.com/dnmx-slim-fit-cotton-henley-t-shirt/p/441147352_jetblack",
-      "src":"https://assets.ajio.com/medias/sys_master/root/20220901/ARH5/6310ee67f997dd1f8dd3e3fd/eyebogler_teal_colour-blocked_polo_t-shirt.jpg",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20220901/ARH5/6310ee67f997dd1f8dd3e3fd/eyebogler_teal_colour-blocked_polo_t-shirt.jpg",
       "brand": "DNMX",
       "nameCls": "Slim Fit Cotton Henley T-shirt",
       "price": "₹480",
@@ -488,7 +485,7 @@
     },
     {
       "rilrtl-products-list__link href": "https://www.ajio.com/cantabil-polo-t-shirt-with-logo-embroidery/p/465087788_blue",
-      "src":"https://assets.ajio.com/medias/sys_master/root/20220901/ARH5/6310ee67f997dd1f8dd3e3fd/eyebogler_teal_colour-blocked_polo_t-shirt.jpg",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20220901/ARH5/6310ee67f997dd1f8dd3e3fd/eyebogler_teal_colour-blocked_polo_t-shirt.jpg",
       "brand": "Cantabil",
       "nameCls": "Polo T-Shirt with Logo Embroidery",
       "price": "₹520",
@@ -496,7 +493,6 @@
       "discount": "(60% off)",
       "offer-pricess": 338
     }
-   
   ],
   "Kids": [
     {
@@ -2381,4 +2377,5 @@
   "cart": [],
   "wishlist": []
 }
+
 

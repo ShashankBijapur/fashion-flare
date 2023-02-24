@@ -50,7 +50,7 @@ const CartCard = ({ item }) => {
         <>
 
 
-            <div style={{ display: "flex", border: "1px solid black", justifyContent: "space-between",marginTop:"20px" }}>
+            <div style={{ display: "flex",justifyContent: "space-between",marginTop:"20px" }}>
                 <div><img src={item.src} width={150} alt="" /> </div>
                 <div><h2>{item.brand}- <span> {item.nameCls}</span> </h2></div>
                 <div>
