@@ -2385,6 +2385,28 @@
       "orginal-price": "₹2,398",
       "discount": "(83% off)",
       "offer": 399
+    },
+    {
+      "id": 2,
+      "rilrtl-products-list__link href": "https://www.ajio.com/dennislingo-premium-attire-full-sleeves-slim-fit-shirt/p/462323964_white",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20221109/u2JJ/636b8eddaeb269659c7f91b5/dennislingo_premium_attire_white_full_sleeves_slim_fit_shirt.jpg",
+      "brand": "DENNISLINGO PREMIUM ATTIRE",
+      "nameCls": "Full Sleeves Slim Fit Shirt",
+      "price": "₹684",
+      "orginal-price": "₹1,849",
+      "discount": "(63% off)",
+      "offer": 481
+    },
+    {
+      "id": 5,
+      "rilrtl-products-list__link href": "https://www.ajio.com/crocs-bayaband-slingback-clogs/p/460532535_black",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20200723/i9yC/5f19ad997cdb8c2207843f9b/crocs_black_bayaband_slingback_clogs.jpg",
+      "brand": "CROCS",
+      "nameCls": "Bayaband Slingback Clogs",
+      "price": "₹2,132",
+      "orginal-price": "₹3,495",
+      "discount": "(39% off)",
+      "offer": "2,062"
     }
   ],
   "wishlist": []

@@ -12,7 +12,7 @@ const Cart = () => {
                 <img src="https://assets.ajio.com/cms/AJIO/WEB/28032021-D-cartpagebanner-relianceones.jpg" alt="" />
                 <Box style={{ textAlign: "center" }}>
                     {store?.map((item, index) =>
-                        <CartCard item={item} key={index} />)}
+                        <CartCard item={item} key={index} />)} 
                 </Box>
             </Box>
         </>
