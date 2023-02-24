@@ -10,14 +10,14 @@ import { useDispatch } from "react-redux";
 
 function App() {
   const dispatch = useDispatch();
-  const fetchData = () => {
-    axios.get(`http://localhost:8080/Data`).then((res) => {
-      dispatch(getReduxData(res.data));
-    });
-  };
-  useEffect(() => {
-    fetchData();
-  }, []);
+  // const fetchData = () => {
+  //   axios.get(`http://localhost:8080/Data`).then((res) => {
+  //     dispatch(getReduxData(res.data));
+  //   });
+  // };
+  // useEffect(() => {
+  //   fetchData();
+  // }, []);
 
   const [isLargerThan800] = useMediaQuery("(min-width: 800px)");
   return (

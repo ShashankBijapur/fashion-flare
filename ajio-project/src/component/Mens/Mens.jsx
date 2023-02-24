@@ -1,12 +1,18 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import "./Mens.css"
 import Card from './Card'
-import { useSelector } from 'react-redux'
+import { useDispatch, useSelector } from 'react-redux'
+import { getReduxData } from '../../redux/action'
 
 
 const Mens = () => {
-    const store = useSelector(store => store.storeData.mensNew)
+    const dispatch = useDispatch()
+    const store = useSelector(store => store.storeData)
     // console.log(store)
+
+    useEffect(() => {
+        dispatch(getReduxData("mensNew"))
+    },[])
     return (
         <div className='mens-cont'>
             <div className="mens-wrapper">
