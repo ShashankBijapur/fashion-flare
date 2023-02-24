@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import {
     Alert,
     AlertIcon,
@@ -7,9 +7,10 @@ import {
     Text,
 } from '@chakra-ui/react'
 import { Box, Button, Drawer, DrawerBody, DrawerContent, DrawerHeader, DrawerOverlay, Fade, Radio, RadioGroup, ScaleFade, Slide, SlideFade, Stack, useDisclosure } from '@chakra-ui/react'
-// import DrawerExample from './Drawer'
+import DrawerExample from './Caurosal'
 import { useNavigate } from 'react-router-dom'
 import axios from 'axios'
+import Carousel from './Caurosal'
 const SingleCardPage = () => {
     var product = JSON.parse(localStorage.getItem('ProductsDetails'))
     // console.log(user)
@@ -17,7 +18,30 @@ const SingleCardPage = () => {
     // const { isopen, onToggle } = useDisclosure()
     const [size, setSize] = useState('');
     const [text, setText] = useState(true)
+    const [similardata, setsimilardata] = useState([])
     const navigate = useNavigate()
+    const [data, setData] = React.useState([])
+    const getsimilar = () => {
+        axios.get("https://localhost:8080/similar")
+            .then(r => setData(r.data))
+    }
+    // console.log('okk', data)
+    // React.useEffect(() => {
+    //     getsimilar()
+    // }, []);
+
+    const getdata = () => {
+        axios.get("http://localhost:8080/similar")
+            .then(r => setData(r.data))
+
+    }
+    useEffect(() => {
+
+        getdata()
+        getsimilar()
+    }, []);
+    // getdata()
+    // console.log(similardata)
     const handleSizeChange = (event) => {
         setSize(event.target.value);
     };
@@ -34,6 +58,7 @@ const SingleCardPage = () => {
             alert("Item removed from wishlist")
         }
     }
+
     const addtobag = () => {
         // let cartitem = [];
         // cartitem.push(product)
@@ -52,15 +77,18 @@ const SingleCardPage = () => {
         //     dispatch(addProductreq())
         // })
     }
-    const navigateto=()=>{
-        navigate("/cart")
+    const navigateto = () => {
+        navigate("/womens")
     }
     return (<>
 
 
         <div style={{ display: "flex", justifyContent: "space-evenly", width: "90%", margin: "auto" }}>
             <div >
-                <img width={400} src={product.src} alt={product.brand} />
+                <div style={{ backgroundColor: "rgb(235,237,236)", background: "rgb(235,237,236)" }}>
+                    <img style={{ padding: "40px", }} width={400} src={product.src} alt={product.brand} />
+
+                </div>
                 <div style={{ textAlign: "left", }} >
                     <Button color={"grey"} border="1px solid grey" mt={4} padding="5px" onClick={onToggle}>Returns</Button>
                     <Fade in={isOpen}>
@@ -84,7 +112,7 @@ const SingleCardPage = () => {
             <div style={{ textAlign: "center", padding: "10px" }} >
                 <div style={{ textAlign: "center", padding: "10px" }}>
                     <h5 style={{ color: "rgb(177, 153, 117)" }}>{product.brand}</h5>
-                    <h5 >{product.nameCls}</h5>
+                    <h5 style={{ fontSize: "16px", width: "300px", margin: "auto" }}>{product.nameCls}</h5>
                     <p style={{ padding: "5px" }}>₹{product.price}
                     </p>
                     <div style={{ display: "flex ", gap: "10px", textAlign: "center", justifyContent: "center" }}>
@@ -121,7 +149,7 @@ const SingleCardPage = () => {
                     }}>Product Details</h1>
                     <li>Brand:{product.brand}</li>
                     <li>5-pocket styling</li>
-                    <li>Package contains: {product.nameCls}</li>
+                    <li style={{ fontSize: "16px", width: "300px", margin: "auto" }}>Package contains: <span> {product.nameCls}</span> </li>
                     <li>Machine wash cold</li>
                     <li>High Rise</li>
                     <li>99% cotton, 1% elastane</li>
@@ -158,13 +186,35 @@ const SingleCardPage = () => {
                     fontFamily: "Lora", fontSize: "26px", fontWeight: '700', lineHeight: "1.4px", color: "rgb(88, 88, 88)", marginTop: "100px",
                 }}>Shop more</h1>
                 <hr style={{ display: "block", marginLeft: "auto", marginRight: "auto", borderStyle: "inset", borderWidth: "1px" }} />
-                <div style={{ display: "flex", justifyContent: "space-between", width: "60%", margin: "auto",marginTop:"50px" }}>
-                    <div onClick={navigateto} style={{ padding: "30px",  background: "rgb(248,248,248)" }}> <h1>View more</h1></div>
-                    <div style={{ padding: "30px",  background: "rgb(248,248,248)" }}> <h1>Style:view more</h1></div>
-                    <div style={{ padding: "30px",  background: "rgb(248,248,248)" }}> <h1>Brand:{product.brand}</h1></div>
+                <div style={{margin:"30px 0px",padding:"10px"}}>
+                    <Carousel data={data} />
+                </div>
+                <div style={{ display: "flex", justifyContent: "space-between", width: "60%", margin: "auto", marginTop: "50px" }}>
+                    <div onClick={navigateto} style={{ padding: "30px", background: "rgb(248,248,248)" }}> <h1>View more</h1></div>
+                    <div style={{ padding: "30px", background: "rgb(248,248,248)" }}> <h1>Style:view more</h1></div>
+                    <div style={{ padding: "30px", background: "rgb(248,248,248)" }}> <h1>Brand:{product.brand}</h1></div>
                 </div>
             </div>
         </div>
+
+
+
+        <div style={{ display: "flex", justifyContent: "space-around", backgroundColor: "rgb(250,250,250)", marginTop: "100px" }}>
+            <div style={{}}>
+                <img width="60px" src="https://cdn-icons-png.flaticon.com/512/182/182308.png" alt="" />
+                <h2>Easy Returns</h2>
+            </div>
+            <div style={{}}>
+                <img width="60px" src="https://thumbs.dreamstime.com/b/empathy-vector-icon-black-silhouette-flat-illustration-isolated-white-background-204899514.jpg" alt="" />
+                <h2>!100% Hand Picked</h2>
+            </div>
+            <div style={{}}>
+                <img width="60px" src="https://d1pt6w2mt2xqso.cloudfront.net/AcuCustom/Sitename/DAM/044/FSEweek-icon-tick.png" alt="" />
+                <h2> Assured Quality</h2>
+            </div>
+        </div>
+
+
 
     </>
 
