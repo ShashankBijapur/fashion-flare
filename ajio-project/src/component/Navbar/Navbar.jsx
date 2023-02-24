@@ -6,6 +6,7 @@ import Menuitem from "./MenuItem";
 import { Link } from "react-router-dom";
 import { SidebarContext } from "../context/SidebarContextProvider";
 import { useNavigate } from "react-router-dom";
+import Logo2 from "../Images/fashion_flare.png"
 const Navbar = () => {
 
   let user = JSON.parse(localStorage.getItem("user"));
@@ -49,7 +50,7 @@ const Navbar = () => {
         <Box>
           <Link to="/">
             <Image
-              src={Logo}
+              src={Logo2}
               width="150px"
               height="50px"
             ></Image>

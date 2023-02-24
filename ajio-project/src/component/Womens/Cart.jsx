@@ -6,7 +6,6 @@ import CartCard from './CartCard';
 
 const Cart = () => {
     const store = useSelector(store => store.cart)
-  
     return (
         <>
             <Box width={"80%"} justifyContent="space-around" margin={"auto"}>
