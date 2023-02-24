@@ -9,6 +9,9 @@ import {Box} from '@chakra-ui/react';
 import Signup from '../component/login_signup/Signup';
 import Login from '../component/login_signup/Login';
 import AdminPage from '../component/Admin/Admin';
+import Orders from '../component/Admin/Orders';
+import Customers from '../component/Admin/Customers';
+import Products from '../component/Admin/Products';
 
 const AllRoutes = () => {
     return (
@@ -20,7 +23,10 @@ const AllRoutes = () => {
             <Route path="/siglecard" element={<SingleCardPage/>}></Route>
             <Route path='/signup' element={<Signup/>}/>
             <Route path='/login' element={<Login/>}/>
-            <Route path='/admin' element={<AdminPage/>}/>
+            <Route path='/admin' element={<AdminPage />}></Route>
+            <Route path='/orders' element={<Orders/>}></Route>
+            <Route path='/customers' element={<Customers />}></Route>
+            <Route path='/products' element={<Products />}></Route>
         </Routes>
     )
 }
