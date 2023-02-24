@@ -5,7 +5,6 @@ import Womens from '../component/Womens/Womens';
 import Mens from '../component/Mens/Mens';
 import Kids from '../component/Kids/Kids';
 import {Routes,Route} from 'react-router-dom';
-import {Box} from '@chakra-ui/react';
 import Signup from '../component/login_signup/Signup';
 import Login from '../component/login_signup/Login';
 import AdminPage from '../component/Admin/Admin';
@@ -13,6 +12,7 @@ import Orders from '../component/Admin/Orders';
 import Customers from '../component/Admin/Customers';
 import Products from '../component/Admin/Products';
 import MensSingleCard from '../component/Mens/MensSingleCard';
+import Cart from '../component/Womens/Cart';
 
 const AllRoutes = () => {
     return (
@@ -29,7 +29,7 @@ const AllRoutes = () => {
             <Route path='/orders' element={<Orders/>}></Route>
             <Route path='/customers' element={<Customers />}></Route>
             <Route path='/products' element={<Products />}></Route>
-            {/* <Route path="/cart" element={<Cart />} /> */}
+            <Route path="/cart" element={<Cart />} />
         </Routes>
     )
 }

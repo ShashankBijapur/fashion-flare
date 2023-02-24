@@ -2387,17 +2387,5 @@
       "offer": 399
     }
   ],
-  "wishlist": [
-    {
-      "id": 3,
-      "rilrtl-products-list__link href": "https://www.ajio.com/superdry-superdry-grooming-kit/p/410292364_02a",
-      "src": "https://assets.ajio.com/medias/sys_master/root/20221124/BelH/637f1003aeb269659caf7579/superdry_black_superdry_grooming_kit.jpg",
-      "brand": "SUPERDRY",
-      "nameCls": "Superdry Grooming Kit",
-      "price": "₹399",
-      "orginal-price": "₹2,398",
-      "discount": "(83% off)",
-      "offer": 399
-    }
-  ]
+  "wishlist": []
 }

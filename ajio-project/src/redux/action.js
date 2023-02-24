@@ -40,4 +40,5 @@ const postWishlist = (payload) => async (dispatch) => {
   }
 };
 
+
 export { getReduxData, getSingleProd, postCart, postWishlist };
