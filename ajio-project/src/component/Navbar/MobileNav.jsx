@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import Logo from '../Images/fashionFlair.jpeg';
+import Logo from '../Images/fashionFlair.jpg';
 import {
   Flex,
   Box,

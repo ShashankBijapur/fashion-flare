@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import Logo from '../Images/fashionFlair.jpeg';
+import Logo from '../Images/fashionFlair.jpg';
 import { Box, Flex, Text, Image, Input, Button } from "@chakra-ui/react";
 import { BsFillBagCheckFill,BsFillSuitHeartFill } from "react-icons/bs";
 import Menuitem from "./MenuItem";
