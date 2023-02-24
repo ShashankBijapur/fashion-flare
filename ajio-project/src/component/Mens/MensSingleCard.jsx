@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { useNavigate, useParams } from 'react-router-dom';
 import { getSingleProd, postCart, postWishlist } from '../../redux/action';
 import { Box, Button, Drawer, DrawerBody, DrawerContent, DrawerHeader, DrawerOverlay, Fade, Radio, RadioGroup, ScaleFade, Slide, SlideFade, Stack, useDisclosure } from '@chakra-ui/react'
-import axios from 'axios';
+
 import {
     Text,
 } from '@chakra-ui/react'
@@ -36,6 +36,7 @@ const MensSingleCard = () => {
 
     useEffect(() => {
         dispatch(getSingleProd(id))
+
     }, [])
 
     return (<>
