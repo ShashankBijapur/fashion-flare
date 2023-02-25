@@ -2374,8 +2374,1482 @@
       "offerpricess": "468"
     }
   ],
-  "cart": [],
+  "similar": [
+    {
+      "href": "https://www.ajio.com/dnmx-mid-wash-skinny-fit-jeans/p/441148958_darkblue",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20221019/4ikf/634fd570aeb269659c4d8a57/dnmx_blue_mid-wash_skinny_fit_jeans.jpg",
+      "brand": "DNMX",
+      "nameCls": "Mid-Wash Skinny Fit Jeans",
+      "price": "799",
+      "orginalprice": "999",
+      "discount": 20,
+      "offerpricess": "799"
+    },
+    {
+      "href": "https://www.ajio.com/harpa-chevron-pattern-top/p/464989136_maroon",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20220914/9enC/6320ef39aeb269dbb3892051/harpa_maroon_chevron_pattern_top.jpg",
+      "brand": "HARPA",
+      "nameCls": "Chevron Pattern Top",
+      "price": "507",
+      "orginalprice": "1,299",
+      "discount": 61,
+      "offerpricess": "338"
+    },
+    {
+      "href": "https://www.ajio.com/fashor-embroidered-round-neck-straight-kurta/p/465142808_pink",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20221012/RIRd/6346fd9ff997ddfdbd24735b/fashor_pink_embroidered_round-neck_straight_kurta.jpg",
+      "brand": "Fashor",
+      "nameCls": "Embroidered Round-Neck Straight Kurta",
+      "price": "1247",
+      "orginalprice": "2,899",
+      "discount": 57,
+      "offerpricess": 761
+    },
+    {
+      "href": "https://www.ajio.com/dnmx-mid-rise-skinny-fit-jeans/p/441147348_jetblack",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20220914/VtI0/6320db62aeb269dbb38847ae/dnmx_black_mid-rise_skinny_fit_jeans.jpg",
+      "brand": "DNMX",
+      "nameCls": "Mid-Rise Skinny Fit Jeans",
+      "price": "639",
+      "orginalprice": "799",
+      "discount": 20,
+      "offerpricess": "639"
+    },
+    {
+      "href": "https://www.ajio.com/besucher-floral-pattern-silk-saree-/p/465463355_peach",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20221220/lRM3/63a0db4df997ddfdbde15782/besucher_peach_floral_pattern_silk_saree_.jpg",
+      "brand": "BESUCHER",
+      "nameCls": "Floral Pattern Silk Saree",
+      "price": "882",
+      "orginalprice": "1,799",
+      "discount": 51,
+      "offerpricess": "684"
+    },
+    {
+      "href": "https://www.ajio.com/dolce-crudo-high-rise-skinny-jeans/p/461208122_black",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20210403/PrCa/60687e8aaeb269a9e3334366/dolce_crudo_black_high-rise_skinny_jeans.jpg",
+      "brand": "Dolce Crudo",
+      "nameCls": "High-Rise Skinny Jeans",
+      "price": "960",
+      "orginalprice": "2,399",
+      "discount": 60,
+      "offerpricess": "624"
+    },
+    {
+      "href": "https://www.ajio.com/zikaraa-banarasi-saree-with-floral-woven-motifs/p/465652365_black",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20230124/SXdI/63ceed84f997dd708e1d5b98/zikaraa_black_banarasi_saree_with_floral_woven_motifs.jpg",
+      "brand": "ZIKARAA",
+      "nameCls": "Banarasi Saree with Floral Woven Motifs",
+      "price": "884",
+      "orginalprice": "2,599",
+      "discount": 66,
+      "offerpricess": "728"
+    },
+    {
+      "href": "https://www.ajio.com/gorgone-gorgone-pink-mysore-silk-abstract-print-saree-with-blouse-piece-saree/p/465700813_pink",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20230202/2lfO/63db8b98aeb269c6510bd3ca/gorgone_pink_gorgone_pink_mysore_silk_abstract_print_saree_with_blouse_piece_saree.jpg",
+      "brand": "Gorgone",
+      "nameCls": "Gorgone Pink Mysore Silk abstract print Saree with Blouse Piece Saree",
+      "price": "371",
+      "orginalprice": "2,651",
+      "discount": 86,
+      "offerpricess": "371"
+    },
+    {
+      "href": "https://www.ajio.com/maaesa-tie--dye-collar-neck-top/p/464575254_blue",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20220702/Mlzi/62bf5c13f997dd03e2b26174/maaesa_blue_e_2_collar-neck_top.jpg",
+      "brand": "MAAESA",
+      "nameCls": "Tie & Dye Collar-Neck Top",
+      "price": "678",
+      "orginalprice": "1,995",
+      "discount": 66,
+      "offerpricess": "519"
+    },
+    {
+      "href": "https://www.ajio.com/gulmohar-jaipur-floral-embroidered-flared-kurta-/p/465518227_red",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20221229/eRcp/63acb0c4aeb269659c14a557/gulmohar_jaipur_red_floral_embroidered_flared_kurta_.jpg",
+      "brand": "GULMOHAR JAIPUR",
+      "nameCls": "Floral Embroidered Flared Kurta",
+      "price": "874",
+      "orginalprice": "2,299",
+      "discount": 62,
+      "offerpricess": 598
+    },
+    {
+      "href": "https://www.ajio.com/gulmohar-jaipur-leaf-print-flared-kurta/p/465542857_white",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20230103/p1ac/63b3e821f997ddfdbd0c4862/gulmohar_jaipur_white_leaf_print_flared_kurta.jpg",
+      "brand": "GULMOHAR JAIPUR",
+      "nameCls": "Leaf Print Flared Kurta",
+      "price": "874",
+      "orginalprice": "2,299",
+      "discount": 62,
+      "offerpricess": 598
+    },
+    {
+      "href": "https://www.ajio.com/wedani-printed-crew-neck-crop-top/p/465571957_multi",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20230109/Mr2X/63bbd202aeb269c651cb9513/wedani_multicoloured_printed_crew-neck_crop_top.jpg",
+      "brand": "Wedani",
+      "nameCls": "Printed Crew-Neck Crop Top",
+      "price": "249",
+      "orginalprice": "1,999",
+      "discount": 88,
+      "offerpricess": "249"
+    }
+  ],
+  "womens":[
+    {
+      "href": "https://www.ajio.com/silverfly-high-rise-stretch-pants/p/465581718_black",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20230110/EWFJ/63bd2221f997dd708ef8e7d3/silverfly_black_high-rise_stretch_pants.jpg",
+      "brand": "Silverfly",
+      "nameCls": "High-Rise Stretch Pants",
+      "price": "400",
+      "orginalprice": "999",
+      "discount": 60,
+      "offerpricess": "340"
+    },
+    {
+      "href": "https://www.ajio.com/kimayra-printed-round-neck-flared-kurta-set/p/465607741_brown",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20230116/SjO2/63c566c3f997dd708e098819/kimayra_brown_printed_round-neck_flared_kurta_set.jpg",
+      "brand": "Kimayra",
+      "nameCls": "Printed Round-Neck Flared Kurta Set",
+      "price": "1,499",
+      "orginalprice": "3,699",
+      "discount": 59,
+      "offerpricess": "925"
+    },
+    {
+      "href": "https://www.ajio.com/gulmohar-jaipur-embellished-a-line-kurta-sets/p/463669997_navy",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20220117/ig1s/61e55e95f997dd662324fde6/gulmohar_jaipur_navy_embellished_a-line_kurta_sets.jpg",
+      "brand": "GULMOHAR JAIPUR",
+      "nameCls": "Embellished A-line Kurta Sets",
+      "price": "999",
+      "orginalprice": "2,299",
+      "discount": 57,
+      "offerpricess": "599"
+    },
+    {
+      "href": "https://www.ajio.com/avaasa-mix-n-match-floral-print-straight-kurta-with-band-collar/p/441144415_rosegold",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20220505/4JuG/6272cc94f997dd03e2948ee0/avaasa_mix_n%27_match_pink_floral_print_straight_kurta_with_band_collar.jpg",
+      "brand": "AVAASA MIX N' MATCH",
+      "nameCls": "Floral Print Straight Kurta with Band Collar",
+      "price": "254",
+      "orginalprice": "499",
+      "discount": 49,
+      "offerpricess": "250"
+    },
+    {
+      "href": "https://www.ajio.com/teamspirit-track-pants-with-contrast-side-taping/p/441001504_black",
+      "src": "https://assets.ajio.com/medias/sys_master/root/hbd/h14/16496513155102/teamspirit_black_track_pants_with_contrast_side_taping.jpg",
+      "brand": "Teamspirit",
+      "nameCls": "Track Pants with Contrast Side Taping",
+      "price": "254",
+      "orginalprice": "499",
+      "discount": 49,
+      "offerpricess": "250"
+    },
+    {
+      "href": "https://www.ajio.com/cultsport-heathered-fitted-track-pants/p/463707899_grey",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20221207/3lVr/639093a8aeb269659cdab5ce/cultsport_dark_grey_heathered_fitted_track_pants.jpg",
+      "brand": "Cultsport",
+      "nameCls": "Heathered Fitted Track Pants",
+      "price": "1,319",
+      "orginalprice": "2,199",
+      "discount": 40,
+      "offerpricess": "1,209"
+    },
+    {
+      "href": "https://www.ajio.com/avaasa-mix-n-match-ankle-length-leggings-with-elasticated-waist/p/441020957_white",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20230203/3WKG/63dce7e4f997dd708e36fade/avaasa_mix_n%27_match_white_ankle-length_leggings_with_elasticated_waist.jpg",
+      "brand": "AVAASA MIX N' MATCH",
+      "nameCls": "Ankle-Length Leggings with Elasticated Waist",
+      "price": "359",
+      "orginalprice": "399",
+      "discount": 10,
+      "offerpricess": "359"
+    },
+    {
+      "href": "https://www.ajio.com/fiorra-straight-kurta-set-with-dupatta/p/465543382_black",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20230213/J7QJ/63e9d7a8aeb26924e369aedf/fiorra_black_straight_kurta_set_with_dupatta.jpg",
+      "brand": "FIORRA",
+      "nameCls": "Straight Kurta Set with Dupatta",
+      "price": "1,500",
+      "orginalprice": "2,999",
+      "discount": 50,
+      "offerpricess": "900"
+    },
+    {
+      "href": "https://www.ajio.com/kimayra-leaf-print-flared-kurta/p/465425434_pink",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20221212/inn7/63976868aeb269659ce473e6/kimayra_pink_leaf_print_flared_kurta.jpg",
+      "brand": "Kimayra",
+      "nameCls": "Leaf Print Flared Kurta",
+      "price": "874",
+      "orginalprice": "2,299",
+      "discount": 62,
+      "offerpricess": "575"
+    },
+    {
+      "href": "https://www.ajio.com/kimayra-printed-anarkali-kurta-suit-set/p/464004331_yellow",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20220326/oiLh/623e2e74aeb26921aff93f02/kimayra_mustard_printed_anarkali_kurta_suit_set.jpg",
+      "brand": "Kimayra",
+      "nameCls": "Printed Anarkali Kurta Suit Set",
+      "price": "1,599",
+      "orginalprice": "2,499",
+      "discount": 36,
+      "offerpricess": "959"
+    },
+    {
+      "href": "https://www.ajio.com/silverfly-high-rise-stretch-pants/p/465581718_white",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20230111/UWQZ/63bdf7a7f997dd708efcf523/silverfly_white_high-rise_stretch_pants.jpg",
+      "brand": "Silverfly",
+      "nameCls": "High-Rise Stretch Pants",
+      "price": "400",
+      "orginalprice": "999",
+      "discount": 60,
+      "offerpricess": "340"
+    },
+    {
+      "href": "https://www.ajio.com/cultsport-camouflage-print-leggings/p/463716303_grey",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20221206/xwmu/638efdaeaeb269659cd50927/cultsport_grey_camouflage_print_leggings.jpg",
+      "brand": "Cultsport",
+      "nameCls": "Camouflage Print Leggings",
+      "price": "1,539",
+      "orginalprice": "2,799",
+      "discount": 45,
+      "offerpricess": "1,538"
+    },
+    {
+      "href": "https://www.ajio.com/youbella-stone-studded-huggies/p/6005533020_multi",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20220711/LEs7/62cc4b73f997dd03e2ca73ab/youbella_gold_stone-studded_huggies.jpg",
+      "brand": "Youbella",
+      "nameCls": "Stone-Studded Huggies",
+      "price": "256",
+      "orginalprice": "1,599",
+      "discount": 84,
+      "offerpricess": "255"
+    },
+    {
+      "href": "https://www.ajio.com/glam-roots-printed-straight-kurta-set-with-dupatta-/p/464686735_blue",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20220721/wHI0/62d868f8f997dd03e2e48bc6/glam_roots_blue_%26_red_printed_straight_kurta_set_with_dupatta_.jpg",
+      "brand": "GLAM ROOTS",
+      "nameCls": "Printed Straight Kurta Set with Dupatta",
+      "price": "1,500",
+      "orginalprice": "2,999",
+      "discount": 50,
+      "offerpricess": "900"
+    },
+    {
+      "href": "https://www.ajio.com/avaasa-mix-n-match-ankle-length-leggings-with-elasticated-waist/p/441020957_black",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20230203/Ezoq/63dce3b0f997dd708e36dbb7/avaasa_mix_n%27_match_black_ankle-length_leggings_with_elasticated_waist.jpg",
+      "brand": "AVAASA MIX N' MATCH",
+      "nameCls": "Ankle-Length Leggings with Elasticated Waist",
+      "price": "359",
+      "orginalprice": "399",
+      "discount": 10,
+      "offerpricess": "359"
+    },
+    {
+      "href": "https://www.ajio.com/aks-floral-print-anarkali-kurta-with-tie-up/p/461344541_white",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20220523/by45/628b9b8daeb26921afc8d106/aks_white_floral_print_anarkali_kurta_with_tie-up.jpg",
+      "brand": "AKS",
+      "nameCls": "Floral Print Anarkali Kurta with Tie-Up",
+      "price": "663",
+      "orginalprice": "1,699",
+      "discount": 61,
+      "offerpricess": "425"
+    },
+    {
+      "href": "https://www.ajio.com/kvs-fab-floral-embroidered-top-with-palazzos-set/p/465543209_yellow",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20230103/uxXT/63b3e85eaeb269659c1fd09c/kvs_fab_yellow_floral_embroidered_top_with_palazzos_set.jpg",
+      "brand": "KVS FAB",
+      "nameCls": "Floral Embroidered Top with Palazzos Set",
+      "price": "2,772",
+      "orginalprice": "7,699",
+      "discount": 64,
+      "offerpricess": "1,925"
+    },
+    {
+      "href": "https://www.ajio.com/cultsport-solid-city-shorts/p/463694784_black",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20221207/HvKn/639091d8f997ddfdbdc40776/cultsport_black_solid_city_shorts.jpg",
+      "brand": "Cultsport",
+      "nameCls": "Solid City Shorts",
+      "price": "1,019",
+      "orginalprice": "1,699",
+      "discount": 40,
+      "offerpricess": "900"
+    },
+    {
+      "href": "https://www.ajio.com/marks--spencer-flared-flat-front-pant/p/464099250_black",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20220409/FEoF/6250a59af997dd03e251efd3/marks_%26_spencer_black_flared_flat-front_pant.jpg",
+      "brand": "Marks & Spencer",
+      "nameCls": "Flared Flat-Front Pant",
+      "price": "800",
+      "orginalprice": "1,999",
+      "discount": 60,
+      "offerpricess": "799"
+    },
+    {
+      "href": "https://www.ajio.com/freehand-acid-wash-wide-leg-jeans/p/469194678_lightblue",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20220603/Yd2Y/62990fd6f997dd03e25d29a6/freehand_light_blue_acid-wash_wide-leg_jeans.jpg",
+      "brand": "FREEHAND",
+      "nameCls": "Acid-Wash Wide-Leg Jeans",
+      "price": "667",
+      "orginalprice": "2,299",
+      "discount": 71,
+      "offerpricess": "666"
+    },
+    {
+      "href": "https://www.ajio.com/gulmohar-jaipur-floral-print-flared-kurta-suit-set/p/465561420_blue",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20230106/sJSH/63b73f24aeb269c651b31e85/gulmohar_jaipur_blue_floral_print_flared_kurta_suit_set.jpg",
+      "brand": "GULMOHAR JAIPUR",
+      "nameCls": "Floral Print Flared Kurta Suit Set",
+      "price": "1,599",
+      "orginalprice": "3,799",
+      "discount": 58,
+      "offerpricess": "959"
+    },
+    {
+      "href": "https://www.ajio.com/glam-roots-floral-flared-kurta/p/464586933_wine",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20220705/eLhp/62c358e6aeb26921af606f2d/glam_roots_wine_floral_flared_kurta.jpg",
+      "brand": "GLAM ROOTS",
+      "nameCls": "Floral Flared Kurta",
+      "price": "900",
+      "orginalprice": "1,999",
+      "discount": 55,
+      "offerpricess": "540"
+    },
+    {
+      "href": "https://www.ajio.com/gulmohar-jaipur-floral-print-straight-kurta-set/p/463096232_navy",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20220124/vqJK/61eead49f997dd662337a8d6/gulmohar_jaipur_navy_blue_floral_print_straight_kurta_set.jpg",
+      "brand": "GULMOHAR JAIPUR",
+      "nameCls": "Floral Print Straight Kurta Set",
+      "price": "1,499",
+      "orginalprice": "2,499",
+      "discount": 40,
+      "offerpricess": "899"
+    },
+    {
+      "href": "https://www.ajio.com/cultsport-fitted-track-pants-with-elasticated-waist/p/463699318_green",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20221207/fDt4/63909467aeb269659cdacc26/cultsport_green_fitted_track_pants_with_elasticated_waist.jpg",
+      "brand": "Cultsport",
+      "nameCls": "Fitted Track Pants with Elasticated Waist",
+      "price": "1,379",
+      "orginalprice": "2,299",
+      "discount": 40,
+      "offerpricess": "1,264"
+    },
+    {
+      "href": "https://www.ajio.com/silverfly-high-rise-stretch-pants/p/465581718_wine",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20230111/oqp1/63be01c7aeb269c651d70142/silverfly_wine_high-rise_stretch_pants.jpg",
+      "brand": "Silverfly",
+      "nameCls": "High-Rise Stretch Pants",
+      "price": "400",
+      "orginalprice": "999",
+      "discount": 60,
+      "offerpricess": "340"
+    },
+    {
+      "href": "https://www.ajio.com/fusion-floral-print-round-neck-kurta/p/441137556_navy",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20220621/blE4/62b1af84f997dd03e292dacf/fusion_navy_blue_floral_print_round-neck_kurta.jpg",
+      "brand": "FUSION",
+      "nameCls": "Floral Print Round-Neck Kurta",
+      "price": "254",
+      "orginalprice": "499",
+      "discount": 49,
+      "offerpricess": "250"
+    },
+    {
+      "href": "https://www.ajio.com/meeranshi-striped-print-straight-kurta-set/p/465378765_green",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20221203/6v9A/638a6b7caeb269659cccc92e/meeranshi_green_striped_print_straight_kurta_set.jpg",
+      "brand": "MEERANSHI",
+      "nameCls": "Striped Print Straight Kurta Set",
+      "price": "799",
+      "orginalprice": "1,399",
+      "discount": 43,
+      "offerpricess": "479"
+    },
+    {
+      "href": "https://www.ajio.com/dnmx-mid-rise-skinny-fit-jeans/p/441147348_jetblack",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20220914/VtI0/6320db62aeb269dbb38847ae/dnmx_black_mid-rise_skinny_fit_jeans.jpg",
+      "brand": "DNMX",
+      "nameCls": "Mid-Rise Skinny Fit Jeans",
+      "price": "639",
+      "orginalprice": "799",
+      "discount": 20,
+      "offerpricess": "638"
+    },
+    {
+      "href": "https://www.ajio.com/kotty-high-rise-straight-fit-pants/p/464501984_green",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20220729/QPsz/62e3eb06aeb26921afabd7e4/kotty_green_high-rise_straight_fit_pants.jpg",
+      "brand": "KOTTY",
+      "nameCls": "High-Rise Straight Fit Pants",
+      "price": "460",
+      "orginalprice": "1,999",
+      "discount": 77,
+      "offerpricess": "459"
+    },
+    {
+      "href": "https://www.ajio.com/cultsport-heathered-fitted-track-pants-with-elasticated-waist/p/463708399_grey",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20221207/VXxI/6390926af997ddfdbdc41c41/cultsport_grey_heathered_fitted_track_pants_with_elasticated_waist.jpg",
+      "brand": "Cultsport",
+      "nameCls": "Heathered Fitted Track Pants with Elasticated Waist",
+      "price": "1,319",
+      "orginalprice": "2,399",
+      "discount": 45,
+      "offerpricess": "1,318"
+    },
+    {
+      "href": "https://www.ajio.com/marc-loire-knitted-slip-on-ballerinas/p/460574363_seagreen",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20220906/qAIM/6316c286aeb269dbb37201eb/marc_loire_sea_green_knitted_slip-on_ballerinas.jpg",
+      "brand": "Marc Loire",
+      "nameCls": "Knitted Slip-On Ballerinas",
+      "price": "359",
+      "orginalprice": "1,995",
+      "discount": 82,
+      "offerpricess": "359"
+    },
+    {
+      "href": "https://www.ajio.com/fusion-floral-print-high-low-straight-kurta/p/441138005_aqua",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20220326/epqV/623e1758f997dd03e233d760/fusion_aqua_blue_floral_print_high-low_straight_kurta.jpg",
+      "brand": "FUSION",
+      "nameCls": "Floral Print High-Low Straight Kurta",
+      "price": "254",
+      "orginalprice": "499",
+      "discount": 49,
+      "offerpricess": "250"
+    },
+    {
+      "href": "https://www.ajio.com/janasya-floral-print-fit-and-flare-dress/p/464611023_yellow",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20220708/Ku84/62c748acaeb26921af6a67af/janasya_yellow_floral_print_fit_and_flare_dress.jpg",
+      "brand": "Janasya",
+      "nameCls": "Floral Print Fit and Flare Dress",
+      "price": "1,183",
+      "orginalprice": "2,689",
+      "discount": 56,
+      "offerpricess": "710"
+    },
+    {
+      "href": "https://www.ajio.com/kimayra-floral-print-flared-kurta/p/465532265_cream",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20230102/VJwU/63b2c9f0aeb269659c1c3716/kimayra_cream_floral_print_flared_kurta.jpg",
+      "brand": "Kimayra",
+      "nameCls": "Floral Print Flared Kurta",
+      "price": "999",
+      "orginalprice": "2,299",
+      "discount": 57,
+      "offerpricess": "599"
+    },
+    {
+      "href": "https://www.ajio.com/avaasa-mix-n-match-floral-print-notched-round-neck-straight-kurta/p/441144426_aqua",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20220518/WFm4/628532d0aeb26921afa0de0b/avaasa_mix_n%27_match_aqua_floral_print_notched_round_neck_straight_kurta.jpg",
+      "brand": "AVAASA MIX N' MATCH",
+      "nameCls": "Floral Print Notched Round Neck Straight Kurta",
+      "price": "305",
+      "orginalprice": "599",
+      "discount": 49,
+      "offerpricess": "300"
+    },
+    {
+      "href": "https://www.ajio.com/cultsport-abstract-print-prism-leggings/p/463671362_multi",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20221206/2jbA/638efdcaf997ddfdbdbe4534/cultsport_prism_print_abstract_print_prism_leggings.jpg",
+      "brand": "Cultsport",
+      "nameCls": "Abstract Print Prism Leggings",
+      "price": "1,400",
+      "orginalprice": "2,799",
+      "discount": 50,
+      "offerpricess": "1,399"
+    },
+    {
+      "href": "https://www.ajio.com/janasya-printed-tiered-dress-with-waist-tie-up/p/463895347_pink",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20220225/tN6U/6218e92ef997dd03e2f0772a/janasya_pink_printed_tiered_dress_with_waist_tie-up.jpg",
+      "brand": "Janasya",
+      "nameCls": "Printed Tiered Dress with Waist Tie-Up",
+      "price": "874",
+      "orginalprice": "1,899",
+      "discount": 54,
+      "offerpricess": "524"
+    },
+    {
+      "href": "https://www.ajio.com/dnmx-mid-wash-skinny-fit-jeans/p/441148958_darkblue",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20221019/4ikf/634fd570aeb269659c4d8a57/dnmx_blue_mid-wash_skinny_fit_jeans.jpg",
+      "brand": "DNMX",
+      "nameCls": "Mid-Wash Skinny Fit Jeans",
+      "price": "799",
+      "orginalprice": "999",
+      "discount": 20,
+      "offerpricess": "798"
+    },
+    {
+      "href": "https://www.ajio.com/kimayra-floral-print-flared-kurta-set/p/465438098_black",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20221215/9hrr/639a36ccf997ddfdbdd4caae/kimayra_black_floral_print_flared_kurta_set.jpg",
+      "brand": "Kimayra",
+      "nameCls": "Floral Print Flared Kurta Set",
+      "price": "1,241",
+      "orginalprice": "2,299",
+      "discount": 46,
+      "offerpricess": "745"
+    },
+    {
+      "href": "https://www.ajio.com/pannkh-novelty-straight-kurta/p/461005409_blue",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20210403/lju0/60685b6faeb269a9e330b554/pannkh_blue_novelty_straight_kurta.jpg",
+      "brand": "Pannkh",
+      "nameCls": "Novelty Straight Kurta",
+      "price": "692",
+      "orginalprice": "1,049",
+      "discount": 34,
+      "offerpricess": "415"
+    },
+    {
+      "href": "https://www.ajio.com/janasya-striped-print-kurta-with-button-placket/p/462667942_pink",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20210722/ZxoV/60f8d006f997ddb312325f26/janasya_mauve_striped_print_kurta_with_button_placket.jpg",
+      "brand": "Janasya",
+      "nameCls": "Striped Print Kurta with Button Placket",
+      "price": "755",
+      "orginalprice": "1,399",
+      "discount": 46,
+      "offerpricess": "453"
+    },
+    {
+      "href": "https://www.ajio.com/cultsport-heathered-fitted-track-pants/p/463715655_grey",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20221206/D2pX/638efdbdaeb269659cd50a91/cultsport_balck_heathered_fitted_track_pants.jpg",
+      "brand": "Cultsport",
+      "nameCls": "Heathered Fitted Track Pants",
+      "price": "1,439",
+      "orginalprice": "2,399",
+      "discount": 40,
+      "offerpricess": "1,343"
+    },
+    {
+      "href": "https://www.ajio.com/ph-poshakhub-floral-print-a-line-kurta-set/p/463089117_cream",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20211011/2dw9/61634c92f997ddce8918a3f0/ph_poshakhub_cream_floral_print_a-line_kurta_set.jpg",
+      "brand": "PH Poshakhub",
+      "nameCls": "Floral Print A-line Kurta Set",
+      "price": "1,125",
+      "orginalprice": "2,500",
+      "discount": 55,
+      "offerpricess": "675"
+    },
+    {
+      "href": "https://www.ajio.com/nike-revolution-6-nn-running-shoes/p/469038192_purple",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20220802/Fb6X/62e93e56aeb26921afbdcdea/nike_pink_revolution_6_nn_running_shoes.jpg",
+      "brand": "NIKE",
+      "nameCls": "Revolution 6 NN Running Shoes",
+      "price": "2,660",
+      "orginalprice": "3,695",
+      "discount": 28,
+      "offerpricess": "2,394"
+    },
+    {
+      "href": "https://www.ajio.com/arousy-pack-of-3-briefs/p/463069711_multi",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20220817/cXLM/62fbfe8bf997dd394cf58243/arousy_assorted_pack_of_3_briefs.jpg",
+      "brand": "AROUSY",
+      "nameCls": "Pack of 3 Briefs",
+      "price": "150",
+      "orginalprice": "1,303",
+      "discount": 89,
+      "offerpricess": "150"
+    },
+    {
+      "href": "https://www.ajio.com/heeposh-floral-embroidery-flared-kurta-sets/p/463506930_purple",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20211216/9VLw/61ba5599aeb26901100e8e86/heeposh_purple_floral_embroidery_flared_kurta_sets.jpg",
+      "brand": "HEEPOSH",
+      "nameCls": "Floral Embroidery Flared Kurta Sets",
+      "price": "1,424",
+      "orginalprice": "3,650",
+      "discount": 61,
+      "offerpricess": "1,423"
+    },
+    {
+      "href": "https://www.ajio.com/avaasa-mix-n-match-churidar-leggings-with-elasticated-waistband/p/440535772_white",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20230203/nV3T/63dce6f4f997dd708e36f317/avaasa_mix_n%27_match_white_churidar_leggings_with_elasticated_waistband.jpg",
+      "brand": "AVAASA MIX N' MATCH",
+      "nameCls": "Churidar Leggings with Elasticated Waistband",
+      "price": "283",
+      "orginalprice": "399",
+      "discount": 29,
+      "offerpricess": "279"
+    },
+    {
+      "href": "https://www.ajio.com/bruno-manetti-chunky-heeled-sandals-with-buckle-clasp/p/463875285_red",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20220223/aQ65/62154a22aeb26921afae1b32/bruno_manetti_red_chunky_heeled_sandals_with_buckle_clasp.jpg",
+      "brand": "Bruno Manetti",
+      "nameCls": "Chunky Heeled Sandals with Buckle Clasp",
+      "price": "1,720",
+      "orginalprice": "3,999",
+      "discount": 57,
+      "offerpricess": "1,032"
+    },
+    {
+      "href": "https://www.ajio.com/fashor-chevron-print-straight-kurta/p/465458146_multi",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20221220/Si3k/63a0b97baeb269659cf50dfb/fashor_multicoloured_chevron_print_straight_kurta.jpg",
+      "brand": "Fashor",
+      "nameCls": "Chevron Print Straight Kurta",
+      "price": "1,394",
+      "orginalprice": "3,399",
+      "discount": 59,
+      "offerpricess": "850"
+    },
+    {
+      "href": "https://www.ajio.com/shining-diva-8181s-gold-plated-pearl--stone-studded-necklace--earrings-set/p/6005607700_multi",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20220721/HJdy/62d98808f997dd03e2e7f895/shining_diva_gold-toned_%26_white_8181s_gold-plated_pearl_%26_stone-studded_necklace_%26_earrings_set.jpg",
+      "brand": "Shining Diva",
+      "nameCls": "8181S Gold-Plated Pearl & Stone-Studded Necklace & Earrings Set",
+      "price": "270",
+      "orginalprice": "2,999",
+      "discount": 91,
+      "offerpricess": "269"
+    },
+    {
+      "href": "https://www.ajio.com/gulmohar-jaipur-floral-print-flared-kurta/p/465542890_green",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20230103/WHkh/63b3e876f997ddfdbd0c5375/gulmohar_jaipur_green_floral_print_flared_kurta.jpg",
+      "brand": "GULMOHAR JAIPUR",
+      "nameCls": "Floral Print Flared Kurta",
+      "price": "999",
+      "orginalprice": "2,299",
+      "discount": 57,
+      "offerpricess": "599"
+    },
+    {
+      "href": "https://www.ajio.com/kibo-animal-print-high-neck-top/p/465305997_black",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20221119/VPC0/6377f256f997ddfdbd85a52e/kibo_black_animal_print_high-neck_top.jpg",
+      "brand": "Kibo",
+      "nameCls": "Animal Print High-Neck Top",
+      "price": "684",
+      "orginalprice": "1,899",
+      "discount": 64,
+      "offerpricess": "475"
+    },
+    {
+      "href": "https://www.ajio.com/gulmohar-jaipur-embellished-flared-kurta-suit-set/p/465494889_green",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20221226/4UuS/63a9b52eaeb269659c0bebf5/gulmohar_jaipur_bottle_green_embellished_flared_kurta_suit_set.jpg",
+      "brand": "GULMOHAR JAIPUR",
+      "nameCls": "Embellished Flared Kurta Suit Set",
+      "price": "1,332",
+      "orginalprice": "3,599",
+      "discount": 63,
+      "offerpricess": "900"
+    },
+    {
+      "href": "https://www.ajio.com/cultsport-camouflage-print-leggings/p/463716303_grey",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20221206/xwmu/638efdaeaeb269659cd50927/cultsport_grey_camouflage_print_leggings.jpg",
+      "brand": "Cultsport",
+      "nameCls": "Camouflage Print Leggings",
+      "price": "1,539",
+      "orginalprice": "2,799",
+      "discount": 45,
+      "offerpricess": "1,538"
+    },
+    {
+      "href": "https://www.ajio.com/freehand-lightly-washed-distressed-slim-fit-jeans/p/469194597_blue",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20220603/qqV0/629921d8f997dd03e25e0084/freehand_blue_lightly_washed_distressed_slim_fit_jeans.jpg",
+      "brand": "FREEHAND",
+      "nameCls": "Lightly Washed Distressed Slim Fit Jeans",
+      "price": "759",
+      "orginalprice": "2,299",
+      "discount": 67,
+      "offerpricess": "736"
+    },
+    {
+      "href": "https://www.ajio.com/nishabd-floral-print-fit--flare-dress/p/465505654_pink",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20221227/ZtqP/63ab0784aeb269659c0f4748/nishabd_pink_floral_print_fit_%26_flare_dress.jpg",
+      "brand": "NISHABD",
+      "nameCls": "Floral Print Fit & Flare Dress",
+      "price": "1,149",
+      "orginalprice": "2,299",
+      "discount": 50,
+      "offerpricess": "689"
+    },
+    {
+      "href": "https://www.ajio.com/mauka-embroidered-round-neck-straight-kurta/p/464990509_cream",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20220914/1Iki/6320f308f997dd1f8dfd30f1/mauka_cream_embroidered_round-neck_straight_kurta.jpg",
+      "brand": "MAUKA",
+      "nameCls": "Embroidered Round-Neck Straight Kurta",
+      "price": "800",
+      "orginalprice": "1,999",
+      "discount": 60,
+      "offerpricess": "500"
+    },
+    {
+      "href": "https://www.ajio.com/heeposh-embroidered-flared-kurta-suit-set/p/465618668_purple",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20230117/IDum/63c668dcf997dd708e0ead6d/heeposh_purple_embroidered_flared_kurta_suit_set.jpg",
+      "brand": "HEEPOSH",
+      "nameCls": "Embroidered Flared Kurta Suit Set",
+      "price": "1,806",
+      "orginalprice": "8,600",
+      "discount": 79,
+      "offerpricess": "1,805"
+    },
+    {
+      "href": "https://www.ajio.com/glam-roots-floral-print-anarkali-kurta-with-pants-and-dupatta/p/464554707_pink",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20220628/qxQ0/62ba1b65f997dd03e2a1e036/glam_roots_pink_floral_print_anarkali_kurta_with_pants_and_dupatta.jpg",
+      "brand": "GLAM ROOTS",
+      "nameCls": "Floral Print Anarkali Kurta with Pants and Dupatta",
+      "price": "1,500",
+      "orginalprice": "2,999",
+      "discount": 50,
+      "offerpricess": "900"
+    },
+    {
+      "href": "https://www.ajio.com/bruno-manetti-chunky-heeled-sandals-with-buckle-closure/p/465022057_beige",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20220920/8P5D/6328ef4faeb269dbb396280e/bruno_manetti_beige_chunky_heeled_sandals_with_buckle_closure.jpg",
+      "brand": "Bruno Manetti",
+      "nameCls": "Chunky Heeled Sandals with Buckle Closure",
+      "price": "1,720",
+      "orginalprice": "3,999",
+      "discount": 57,
+      "offerpricess": "1,032"
+    },
+    {
+      "href": "https://www.ajio.com/shining-diva-vg9992b-rose-gold-studded-crystal-studded-link-bracelet/p/6005608700_multi",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20220721/o3kJ/62d96be6aeb26921af8c8ec0/shining_diva_rose_gold-toned_%26_white_vg9992b_rose_gold-studded_crystal-studded_link_bracelet.jpg",
+      "brand": "Shining Diva",
+      "nameCls": "VG9992B Rose Gold-Studded Crystal-Studded Link Bracelet",
+      "price": "280",
+      "orginalprice": "1,999",
+      "discount": 86,
+      "offerpricess": "279"
+    },
+    {
+      "href": "https://www.ajio.com/dj--c-floral-print-crew-neck-t-shirt/p/441271154_lightgreen",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20220927/uw4j/633318f3f997dd1f8d203158/dj_%26_c_green_floral_print_crew-neck_t-shirt.jpg",
+      "brand": "DJ & C",
+      "nameCls": "Floral Print Crew-Neck T-Shirt",
+      "price": "209",
+      "orginalprice": "349",
+      "discount": 40,
+      "offerpricess": "175"
+    },
+    {
+      "href": "https://www.ajio.com/tior-floral-print-square-neck-peplum-top/p/465138366_white",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20221104/dnrr/636526a1aeb269659c72c6bb/tior_white_floral_print_square-neck_peplum_top.jpg",
+      "brand": "Tior",
+      "nameCls": "Floral Print Square-Neck Peplum Top",
+      "price": "675",
+      "orginalprice": "1,499",
+      "discount": 55,
+      "offerpricess": "405"
+    },
+    {
+      "href": "https://www.ajio.com/marks--spencer-flat-front-straight-trousers/p/463375488_black",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20211127/816h/61a136a1aeb2690110dc05e3/marks_%26_spencer_black_flat-front_straight_trousers.jpg",
+      "brand": "Marks & Spencer",
+      "nameCls": "Flat-Front Straight Trousers",
+      "price": "800",
+      "orginalprice": "1,999",
+      "discount": 60,
+      "offerpricess": "799"
+    },
+    {
+      "href": "https://www.ajio.com/gulmohar-jaipur-floral-print-flared-kurta-set/p/463124923_blue",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20220124/zTEx/61eeac9bf997dd6623379e6d/gulmohar_jaipur_teal_floral_print_flared_kurta_set.jpg",
+      "brand": "GULMOHAR JAIPUR",
+      "nameCls": "Floral Print Flared Kurta Set",
+      "price": "1,449",
+      "orginalprice": "2,499",
+      "discount": 42,
+      "offerpricess": "869"
+    },
+    {
+      "href": "https://www.ajio.com/bruno-manetti-heeled-sandals-with-chain/p/465115173_beige",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20221007/4RY8/633f57e8aeb269659c291509/bruno_manetti_beige_heeled_sandals_with_chain.jpg",
+      "brand": "Bruno Manetti",
+      "nameCls": "Heeled Sandals with Chain",
+      "price": "1,935",
+      "orginalprice": "4,499",
+      "discount": 57,
+      "offerpricess": "1,161"
+    },
+    {
+      "href": "https://www.ajio.com/fusion-leaf-print-straight-kurta/p/441143356_navy",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20220622/baOW/62b328e6aeb26921af417323/fusion_navy_blue_leaf_print_straight_kurta.jpg",
+      "brand": "FUSION",
+      "nameCls": "Leaf Print Straight Kurta",
+      "price": "305",
+      "orginalprice": "599",
+      "discount": 49,
+      "offerpricess": "300"
+    },
+    {
+      "href": "https://www.ajio.com/kimayra-floral-print-flared-kurta/p/465524947_green",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20221230/QIsO/63aef661aeb269659c18fc0a/kimayra_green_floral_print_flared_kurta.jpg",
+      "brand": "Kimayra",
+      "nameCls": "Floral Print Flared Kurta",
+      "price": "1,058",
+      "orginalprice": "2,299",
+      "discount": 54,
+      "offerpricess": "635"
+    },
+    {
+      "href": "https://www.ajio.com/kimayra-floral-print-flared-kurta/p/464014253_green",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20220316/ZnJH/6230f7c0aeb26921afdae8ee/kimayra_green_floral_print_flared_kurta.jpg",
+      "brand": "Kimayra",
+      "nameCls": "Floral Print Flared Kurta",
+      "price": "899",
+      "orginalprice": "1,999",
+      "discount": 55,
+      "offerpricess": "539"
+    },
+    {
+      "href": "https://www.ajio.com/kimayra-embellished-flared-kurta/p/465346304_maroon",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20221126/blk9/63813544aeb269659cb8289f/kimayra_maroon_embellished_flared_kurta.jpg",
+      "brand": "Kimayra",
+      "nameCls": "Embellished Flared Kurta",
+      "price": "999",
+      "orginalprice": "1,999",
+      "discount": 50,
+      "offerpricess": "599"
+    },
+    {
+      "href": "https://www.ajio.com/shyla-printed-shorts-with-elasticated-waist/p/441205456_navy",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20221117/TG7R/6375dbfaaeb269659c983a70/shyla_navy_blue_printed_shorts_with_elasticated_waist.jpg",
+      "brand": "SHYLA",
+      "nameCls": "Printed Shorts with Elasticated Waist",
+      "price": "120",
+      "orginalprice": "249",
+      "discount": 52,
+      "offerpricess": "120"
+    },
+    {
+      "href": "https://www.ajio.com/stylum-floral-anarkali-kurta-set/p/464921243_blue",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20220901/WD0C/6310f162aeb269dbb3621dbb/stylum_light_blue_floral_anarkali_kurta_set.jpg",
+      "brand": "Stylum",
+      "nameCls": "Floral Anarkali Kurta Set",
+      "price": "1,720",
+      "orginalprice": "3,999",
+      "discount": 57,
+      "offerpricess": "1,032"
+    },
+    {
+      "href": "https://www.ajio.com/rio-panelled-treggings-with-zip-closure/p/441138844_jetblack",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20220429/vWoT/626c0492f997dd03e28acdd8/rio_jet_black_panelled_treggings_with_zip_closure.jpg",
+      "brand": "RIO",
+      "nameCls": "Panelled Treggings with Zip Closure",
+      "price": "699",
+      "orginalprice": "999",
+      "discount": 30,
+      "offerpricess": "500"
+    },
+    {
+      "href": "https://www.ajio.com/omask-floral-print-flared-kurta-suit-set/p/465477992_maroon",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20221222/XsGU/63a3716baeb269659c008544/omask_maroon_floral_print_flared_kurta_suit_set.jpg",
+      "brand": "OMASK",
+      "nameCls": "Floral Print Flared Kurta Suit Set",
+      "price": "960",
+      "orginalprice": "3,999",
+      "discount": 76,
+      "offerpricess": "959"
+    },
+    {
+      "href": "https://www.ajio.com/fashor-indian-straight-kurta-set/p/464285596_red",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20220713/MslD/62cddc64aeb26921af76ceb9/fashor_cherry_red_indian_straight_kurta_set.jpg",
+      "brand": "Fashor",
+      "nameCls": "Indian Straight Kurta Set",
+      "price": "2,214",
+      "orginalprice": "5,399",
+      "discount": 59,
+      "offerpricess": "1,350"
+    },
+    {
+      "href": "https://www.ajio.com/tior-v-neck-fit--flare-dress-/p/465410816_burgundy",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20230103/wpvo/63b35366f997ddfdbd0b993f/tior_burgundy_v-neck_fit_%26_flare_dress_.jpg",
+      "brand": "Tior",
+      "nameCls": "V-Neck Fit & Flare Dress",
+      "price": "720",
+      "orginalprice": "1,499",
+      "discount": 52,
+      "offerpricess": "432"
+    },
+    {
+      "href": "https://www.ajio.com/aks-floral-print-a-line-kurta/p/461341345_yellow",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20220523/BOjb/628b9adbaeb26921afc8caf7/aks_mustard_floral_print_a-line_kurta.jpg",
+      "brand": "AKS",
+      "nameCls": "Floral Print A-line Kurta",
+      "price": "680",
+      "orginalprice": "1,999",
+      "discount": 66,
+      "offerpricess": "500"
+    },
+    {
+      "href": "https://www.ajio.com/fashor-straight-kurta-with-ethnic-motifs/p/465081543_blue",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20220930/wmo6/63360616f997ddfdbdfd52da/fashor_powder_blue_straight_kurta_with_ethnic_motifs.jpg",
+      "brand": "Fashor",
+      "nameCls": "Straight Kurta with Ethnic Motifs",
+      "price": "1,218",
+      "orginalprice": "2,899",
+      "discount": 58,
+      "offerpricess": "731"
+    },
+    {
+      "href": "https://www.ajio.com/kibo-floral-print-v-neck-top/p/465140697_white",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20221104/BP7p/63654c33aeb269659c738750/kibo_white_floral_print_v-neck_top.jpg",
+      "brand": "Kibo",
+      "nameCls": "Floral Print V-Neck Top",
+      "price": "656",
+      "orginalprice": "1,599",
+      "discount": 59,
+      "offerpricess": "400"
+    },
+    {
+      "href": "https://www.ajio.com/mayra-slim-fit-shirt-with-curved-hemline/p/461391397_black",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20211207/Q6CG/61af9382f997ddf8f140a04d/mayra_black_slim_fit_shirt_with_curved_hemline.jpg",
+      "brand": "Mayra",
+      "nameCls": "Slim Fit Shirt with Curved Hemline",
+      "price": "388",
+      "orginalprice": "995",
+      "discount": 61,
+      "offerpricess": "249"
+    },
+    {
+      "href": "https://www.ajio.com/kibo-micro-print-v-neck-top/p/464996404_purple",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20221130/nzbN/63867877aeb269659cc21b04/kibo_pink_micro_print_v-neck_top.jpg",
+      "brand": "Kibo",
+      "nameCls": "Micro Print V-neck Top",
+      "price": "860",
+      "orginalprice": "1,999",
+      "discount": 57,
+      "offerpricess": "516"
+    },
+    {
+      "href": "https://www.ajio.com/dolce-crudo-high-rise-skinny-jeans/p/461208122_black",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20210403/PrCa/60687e8aaeb269a9e3334366/dolce_crudo_black_high-rise_skinny_jeans.jpg",
+      "brand": "Dolce Crudo",
+      "nameCls": "High-Rise Skinny Jeans",
+      "price": "960",
+      "orginalprice": "2,399",
+      "discount": 60,
+      "offerpricess": "600"
+    },
+    {
+      "href": "https://www.ajio.com/janasya-floral-print-fit--flare-dress/p/463086147_blue",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20211013/DMdl/61667cc8f997ddf8f1ce86dd/janasya_blue_floral_print_fit_%26_flare_dress.jpg",
+      "brand": "Janasya",
+      "nameCls": "Floral Print Fit & Flare Dress",
+      "price": "1,195",
+      "orginalprice": "2,298",
+      "discount": 48,
+      "offerpricess": "717"
+    },
+    {
+      "href": "https://www.ajio.com/puma-lqdcell-method-training-shoes/p/460822714_black",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20210108/indk/5ff88c327cdb8c1f1423eb2a/puma_black_lqdcell_method_training_shoes.jpg",
+      "brand": "Puma",
+      "nameCls": "LQDCell Method Training Shoes",
+      "price": "3,849",
+      "orginalprice": "6,999",
+      "discount": 45,
+      "offerpricess": "2,810"
+    },
+    {
+      "href": "https://www.ajio.com/clafoutis--pack-of-2-pleated-square-neck-tops/p/465609094_black",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20230116/IPqJ/63c56e1baeb269c651e3448e/clafoutis_black_%26_white__pack_of_2_pleated_square-neck_tops.jpg",
+      "brand": "Clafoutis",
+      "nameCls": "Pack of 2 Pleated Square-Neck Tops",
+      "price": "490",
+      "orginalprice": "999",
+      "discount": 51,
+      "offerpricess": "294"
+    },
+    {
+      "href": "https://www.ajio.com/avaasa-mix-n-match-stretch-churidar-leggings/p/440535772_black",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20230203/dhYl/63dce4a1aeb269c6510d5e46/avaasa_mix_n%27_match_black_stretch_churidar_leggings.jpg",
+      "brand": "AVAASA MIX N' MATCH",
+      "nameCls": "Stretch Churidar Leggings",
+      "price": "283",
+      "orginalprice": "399",
+      "discount": 29,
+      "offerpricess": "279"
+    },
+    {
+      "href": "https://www.ajio.com/pannkh-novelty-top/p/461020470_blue",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20210403/EvqN/60685d417cdb8c1f1474767e/pannkh_navy_blue_novelty_top.jpg",
+      "brand": "Pannkh",
+      "nameCls": "Novelty Top",
+      "price": "390",
+      "orginalprice": "999",
+      "discount": 61,
+      "offerpricess": "250"
+    },
+    {
+      "href": "https://www.ajio.com/marc-loire-textured-slip-on-ballerinas/p/460574377_grey",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20210617/REsW/60cb6979f997ddb312cefd6f/marc_loire_grey_textured_slip-on_ballerinas.jpg",
+      "brand": "Marc Loire",
+      "nameCls": "Textured Slip-On Ballerinas",
+      "price": "399",
+      "orginalprice": "1,995",
+      "discount": 80,
+      "offerpricess": "399"
+    },
+    {
+      "href": "https://www.ajio.com/gulmohar-jaipur-floral-print-flared-kurta/p/464052912_navy",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20220322/zZrx/6239e35bf997dd03e22576a3/gulmohar_jaipur_navy_blue_floral_print_flared_kurta.jpg",
+      "brand": "GULMOHAR JAIPUR",
+      "nameCls": "Floral Print Flared Kurta",
+      "price": "899",
+      "orginalprice": "1,999",
+      "discount": 55,
+      "offerpricess": "539"
+    },
+    {
+      "href": "https://www.ajio.com/kimayra-printed-kurta-suit-set/p/464004331_pink",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20220315/gu39/622fb55baeb26921afd8ef9a/kimayra_fushcia_printed_kurta_suit_set.jpg",
+      "brand": "Kimayra",
+      "nameCls": "Printed Kurta Suit Set",
+      "price": "1,599",
+      "orginalprice": "2,499",
+      "discount": 36,
+      "offerpricess": "959"
+    },
+    {
+      "href": "https://www.ajio.com/glam-roots-floral-print-straight-kurta-set-with-dupatta/p/464238222_grey",
+      "src": "",
+      "brand": "GLAM ROOTS",
+      "nameCls": "Floral Print Straight Kurta Set with Dupatta",
+      "price": "1,349",
+      "orginalprice": "2,499",
+      "discount": 46,
+      "offerpricess": "809"
+    },
+    {
+      "href": "https://www.ajio.com/beach-curve-colourblock-bra--panty-set/p/465236053_pink",
+      "src": "",
+      "brand": "BEACH CURVE",
+      "nameCls": "Colourblock Bra & Panty Set",
+      "price": "163",
+      "orginalprice": "1,251",
+      "discount": 87,
+      "offerpricess": "163"
+    },
+    {
+      "href": "https://www.ajio.com/stylum-floral-print-a-line-kurta/p/464342145_blue",
+      "src": "",
+      "brand": "Stylum",
+      "nameCls": "Floral Print A-line Kurta",
+      "price": "700",
+      "orginalprice": "1,999",
+      "discount": 65,
+      "offerpricess": "500"
+    },
+    {
+      "href": "https://www.ajio.com/nishabd-embroidered-round-neck-flared-kurta/p/465000355_green",
+      "src": "",
+      "brand": "NISHABD",
+      "nameCls": "Embroidered Round-Neck Flared Kurta",
+      "price": "875",
+      "orginalprice": "1,999",
+      "discount": 56,
+      "offerpricess": "525"
+    },
+    {
+      "href": "https://www.ajio.com/fashion-depth-paisley-print-straight-kurta/p/465453347_grey",
+      "src": "",
+      "brand": "FASHION DEPTH",
+      "nameCls": "Paisley Print Straight Kurta",
+      "price": "800",
+      "orginalprice": "1,999",
+      "discount": 60,
+      "offerpricess": "720"
+    },
+    {
+      "href": "https://www.ajio.com/avaasa-mix-n-match-paisley-print-round-neck-kurta/p/441144421_yellow",
+      "src": "",
+      "brand": "AVAASA MIX N' MATCH",
+      "nameCls": "Paisley Print Round-Neck Kurta",
+      "price": "305",
+      "orginalprice": "599",
+      "discount": 49,
+      "offerpricess": "300"
+    },
+    {
+      "href": "https://www.ajio.com/avaasa-mix-n-match-shimmer-leggings-with-elasticated-waist/p/441142552_black",
+      "src": "",
+      "brand": "AVAASA MIX N' MATCH",
+      "nameCls": "Shimmer Leggings with Elasticated Waist",
+      "price": "350",
+      "orginalprice": "699",
+      "discount": 50,
+      "offerpricess": "315"
+    },
+    {
+      "href": "https://www.ajio.com/gulmohar-jaipur-floral-printed-straight-kurta-set/p/463263507_yellow",
+      "src": "",
+      "brand": "GULMOHAR JAIPUR",
+      "nameCls": "Floral Printed Straight Kurta Set",
+      "price": "1,499",
+      "orginalprice": "2,499",
+      "discount": 40,
+      "offerpricess": "899"
+    },
+    {
+      "href": "https://www.ajio.com/nishabd-floral-print-flared-kurta/p/464988597_pink",
+      "src": "",
+      "brand": "NISHABD",
+      "nameCls": "Floral Print Flared Kurta",
+      "price": "779",
+      "orginalprice": "1,999",
+      "discount": 61,
+      "offerpricess": "500"
+    },
+    {
+      "href": "https://www.ajio.com/prakhya-floral-print-straight-kurta-set/p/465509166_black",
+      "src": "",
+      "brand": "PRAKHYA",
+      "nameCls": "Floral Print Straight Kurta Set",
+      "price": "1,484",
+      "orginalprice": "3,298",
+      "discount": 55,
+      "offerpricess": "1,253"
+    },
+    {
+      "href": "https://www.ajio.com/avaasa-mix-n-match-checked-round-neck-straight-kurta/p/441144417_wine",
+      "src": "",
+      "brand": "AVAASA MIX N' MATCH",
+      "nameCls": "Checked Round-Neck Straight Kurta",
+      "price": "356",
+      "orginalprice": "699",
+      "discount": 49,
+      "offerpricess": "350"
+    },
+    {
+      "href": "https://www.ajio.com/nike-court-vision-low-top-lace-up-sneakers/p/469097251_white",
+      "src": "",
+      "brand": "NIKE",
+      "nameCls": "Court Vision Low-Top Lace-Up Sneakers",
+      "price": "4,296",
+      "orginalprice": "4,995",
+      "discount": 14,
+      "offerpricess": "3,866"
+    },
+    {
+      "href": "https://www.ajio.com/shining-diva-10712b-set-of-4-crystal-cubic-zirconia-bangle-charm-bracelet/p/6005610500_multi",
+      "src": "",
+      "brand": "Shining Diva",
+      "nameCls": "10712B Set of 4 Crystal Cubic Zirconia Bangle Charm Bracelet",
+      "price": "255",
+      "orginalprice": "1,499",
+      "discount": 83,
+      "offerpricess": "254"
+    },
+    {
+      "href": "https://www.ajio.com/mabish-by-sonal-jain-geometric-pattern-top-with-skirt-set/p/465288070_magenta",
+      "src": "",
+      "brand": "Mabish By Sonal Jain",
+      "nameCls": "Geometric Pattern Top with Skirt Set",
+      "price": "2,150",
+      "orginalprice": "4,299",
+      "discount": 50,
+      "offerpricess": "1,290"
+    },
+    {
+      "href": "https://www.ajio.com/ziva-fashion-embellished-straight-kurta-set/p/464102521_burgundy",
+      "src": "",
+      "brand": "ZIVA FASHION",
+      "nameCls": "Embellished Straight Kurta Set",
+      "price": "1,299",
+      "orginalprice": "2,999",
+      "discount": 57,
+      "offerpricess": "1,298"
+    },
+    {
+      "href": "https://www.ajio.com/stylum-printed-straight-kurta-with-pant--chiffon-dupatta-set/p/464870519_purple",
+      "src": "",
+      "brand": "Stylum",
+      "nameCls": "Printed Straight Kurta with Pant & Chiffon Dupatta Set",
+      "price": "1,452",
+      "orginalprice": "3,299",
+      "discount": 56,
+      "offerpricess": "871"
+    },
+    {
+      "href": "https://www.ajio.com/youthnic-anarkali-kurta-with-dupatta/p/463696548_blue",
+      "src": "",
+      "brand": "YOUTHNIC",
+      "nameCls": "Anarkali Kurta with Dupatta",
+      "price": "999",
+      "orginalprice": "3,996",
+      "discount": 75,
+      "offerpricess": "998"
+    },
+    {
+      "href": "https://www.ajio.com/fiorra-round-neck-straight-kurta-suit-set/p/465300663_maroon",
+      "src": "",
+      "brand": "FIORRA",
+      "nameCls": "Round-Neck Straight Kurta Suit Set",
+      "price": "1,500",
+      "orginalprice": "2,999",
+      "discount": 50,
+      "offerpricess": "900"
+    },
+    {
+      "href": "https://www.ajio.com/stylum-embroidered-anarkali-kurta-with-tie-up/p/464898513_yellow",
+      "src": "",
+      "brand": "Stylum",
+      "nameCls": "Embroidered Anarkali Kurta with Tie-Up",
+      "price": "950",
+      "orginalprice": "2,499",
+      "discount": 62,
+      "offerpricess": "625"
+    },
+    {
+      "href": "https://www.ajio.com/difference-of-opinion-tie--dye-crew-neck-oversized-t-shirt/p/463038590_multi",
+      "src": "",
+      "brand": "DIFFERENCE OF OPINION",
+      "nameCls": "Tie & Dye Crew-Neck Oversized T-shirt",
+      "price": "518",
+      "orginalprice": "1,399",
+      "discount": 63,
+      "offerpricess": "350"
+    },
+    {
+      "href": "https://www.ajio.com/azira-geometric-print-front-open-shrug/p/465451823_red",
+      "src": "",
+      "brand": "AZIRA",
+      "nameCls": "Geometric Print Front-Open Shrug",
+      "price": "700",
+      "orginalprice": "1,399",
+      "discount": 50,
+      "offerpricess": "602"
+    },
+    {
+      "href": "https://www.ajio.com/gulmohar-jaipur-floral-print-flared-kurta/p/464717564_multi",
+      "src": "",
+      "brand": "GULMOHAR JAIPUR",
+      "nameCls": "Floral Print Flared Kurta",
+      "price": "649",
+      "orginalprice": "1,999",
+      "discount": 68,
+      "offerpricess": "500"
+    },
+    {
+      "href": "https://www.ajio.com/shining-diva-8662b-stone-embellished-link-bracelet/p/6005611680_multi",
+      "src": "",
+      "brand": "Shining Diva",
+      "nameCls": "8662B Stone Embellished Link Bracelet",
+      "price": "450",
+      "orginalprice": "2,999",
+      "discount": 85,
+      "offerpricess": "449"
+    },
+    {
+      "href": "https://www.ajio.com/avaasa-mix-n-match-ankle-length-leggings-with-elasticated-waist/p/441020957_red",
+      "src": "",
+      "brand": "AVAASA MIX N' MATCH",
+      "nameCls": "Ankle-Length Leggings with Elasticated Waist",
+      "price": "355",
+      "orginalprice": "399",
+      "discount": 11,
+      "offerpricess": "319"
+    },
+    {
+      "href": "https://www.ajio.com/marks--spencer-checked-nightwear-set/p/464956545_red",
+      "src": "",
+      "brand": "Marks & Spencer",
+      "nameCls": "Checked Nightwear Set",
+      "price": "1,200",
+      "orginalprice": "2,999",
+      "discount": 60,
+      "offerpricess": "1,200"
+    },
+    {
+      "href": "https://www.ajio.com/ziyaa-leaf-print-a-line-kurta/p/464114253_black",
+      "src": "",
+      "brand": "ZIYAA",
+      "nameCls": "Leaf Print A-Line Kurta",
+      "price": "620",
+      "orginalprice": "2,139",
+      "discount": 71,
+      "offerpricess": "535"
+    },
+    {
+      "href": "https://www.ajio.com/instafab-plus-floral-print-shirt-dress-with-tie-up/p/465616107_green",
+      "src": "",
+      "brand": "Instafab Plus",
+      "nameCls": "Floral Print Shirt Dress with Tie-Up",
+      "price": "1,100",
+      "orginalprice": "2,499",
+      "discount": 56,
+      "offerpricess": "660"
+    },
+    {
+      "href": "https://www.ajio.com/marcia-floral-embroidered-straight-kurta/p/464556470_white",
+      "src": "",
+      "brand": "Marcia",
+      "nameCls": "Floral Embroidered Straight Kurta",
+      "price": "624",
+      "orginalprice": "1,599",
+      "discount": 61,
+      "offerpricess": "400"
+    },
+    {
+      "href": "https://www.ajio.com/dealseven-fashion-solid-tummy--thigh-shaper-/p/463739011_beige",
+      "src": "",
+      "brand": "DealSeven Fashion",
+      "nameCls": "Solid Tummy & Thigh Shaper",
+      "price": "206",
+      "orginalprice": "349",
+      "discount": 41,
+      "offerpricess": "175"
+    },
+    {
+      "href": "https://www.ajio.com/pond-s-hydrating-dewy-radiant-skin-sheet-mask/p/4923678730_multi",
+      "src": "",
+      "brand": "Pond's",
+      "nameCls": "Hydrating Dewy Radiant Skin Sheet Mask",
+      "price": "55",
+      "orginalprice": "75",
+      "discount": 27,
+      "offerpricess": "50"
+    },
+    {
+      "href": "https://www.ajio.com/difference-of-opinion-graphic-print-crew-neck-oversized-t-shirt/p/464272305_black",
+      "src": "",
+      "brand": "DIFFERENCE OF OPINION",
+      "nameCls": "Graphic Print Crew-Neck Oversized T-shirt",
+      "price": "490",
+      "orginalprice": "1,399",
+      "discount": 65,
+      "offerpricess": "350"
+    },
+    {
+      "href": "https://www.ajio.com/idalia-floral-printed-straight-kurta-set/p/463098787_pink",
+      "src": "",
+      "brand": "Idalia",
+      "nameCls": "Floral Printed Straight Kurta Set",
+      "price": "1,295",
+      "orginalprice": "3,699",
+      "discount": 65,
+      "offerpricess": "1,294"
+    },
+    {
+      "href": "https://www.ajio.com/silverfly-high-rise-stretch-pants/p/465581718_green",
+      "src": "",
+      "brand": "Silverfly",
+      "nameCls": "High-Rise Stretch Pants",
+      "price": "400",
+      "orginalprice": "999",
+      "discount": 60,
+      "offerpricess": "340"
+    },
+    {
+      "href": "https://www.ajio.com/arbunore-mesh-panelled-lace-up-casual-shoes/p/469049251_white",
+      "src": "",
+      "brand": "ARBUNORE",
+      "nameCls": "Mesh-Panelled Lace-Up Casual Shoes",
+      "price": "812",
+      "orginalprice": "2,799",
+      "discount": 71,
+      "offerpricess": "811"
+    },
+    {
+      "href": "https://www.ajio.com/dnmx-skinny-fit-mid-rise-jeans/p/441138076_ltblue",
+      "src": "",
+      "brand": "DNMX",
+      "nameCls": "Skinny Fit Mid-Rise Jeans",
+      "price": "577",
+      "orginalprice": "1,049",
+      "discount": 45,
+      "offerpricess": "525"
+    },
+    {
+      "href": "https://www.ajio.com/avaasa-mix-n-match-ankle-length-leggings-with-elasticated-waist/p/441020957_beige",
+      "src": "",
+      "brand": "AVAASA MIX N' MATCH",
+      "nameCls": "Ankle-Length Leggings with Elasticated Waist",
+      "price": "355",
+      "orginalprice": "399",
+      "discount": 11,
+      "offerpricess": "319"
+    },
+    {
+      "href": "https://www.ajio.com/wedani-printed-crew-neck-crop-top/p/465571957_multi",
+      "src": "",
+      "brand": "Wedani",
+      "nameCls": "Printed Crew-Neck Crop Top",
+      "price": "249",
+      "orginalprice": "1,999",
+      "discount": 88,
+      "offerpricess": "249"
+    },
+    {
+      "href": "https://www.ajio.com/wedani-paisley-print-straight-kurta/p/464833382_red",
+      "src": "",
+      "brand": "Wedani",
+      "nameCls": "Paisley Print Straight Kurta",
+      "price": "299",
+      "orginalprice": "1,999",
+      "discount": 85,
+      "offerpricess": "299"
+    },
+    {
+      "href": "https://www.ajio.com/amour-secret-non-wired-non-padded-bra/p/465731232_black",
+      "src": "",
+      "brand": "AMOUR SECRET",
+      "nameCls": "Non-Wired Non-Padded Bra",
+      "price": "96",
+      "orginalprice": "599",
+      "discount": 84,
+      "offerpricess": "96"
+    },
+    {
+      "href": "https://www.ajio.com/kiana-house-of-fashion-indian-kurta-set/p/464126006_burgundy",
+      "src": "",
+      "brand": "Kiana House Of Fashion",
+      "nameCls": "Indian Kurta Set",
+      "price": "889",
+      "orginalprice": "4,039",
+      "discount": 78,
+      "offerpricess": "888"
+    },
+    {
+      "href": "https://www.ajio.com/harpa-polka-dot-print-tailored-fit-peplum-top/p/465039975_pink",
+      "src": "",
+      "brand": "HARPA",
+      "nameCls": "Polka-Dot Print Tailored Fit Peplum Top",
+      "price": "585",
+      "orginalprice": "1,299",
+      "discount": 55,
+      "offerpricess": "351"
+    },
+    {
+      "href": "https://www.ajio.com/glam-roots-printed-flared-kurta-with-mandarin-collar/p/464319349_pink",
+      "src": "",
+      "brand": "GLAM ROOTS",
+      "nameCls": "Printed Flared Kurta with Mandarin Collar",
+      "price": "851",
+      "orginalprice": "1,799",
+      "discount": 53,
+      "offerpricess": "511"
+    },
+    {
+      "href": "https://www.ajio.com/janasya-solid-straight-kurta-set/p/464124181_white",
+      "src": "",
+      "brand": "Janasya",
+      "nameCls": "Solid Straight Kurta Set",
+      "price": "1,250",
+      "orginalprice": "2,499",
+      "discount": 50,
+      "offerpricess": "750"
+    },
+    {
+      "href": "https://www.ajio.com/shyla-printed-nightgown-with-crop-top/p/441220129_grey",
+      "src": "",
+      "brand": "SHYLA",
+      "nameCls": "Printed Nightgown with Crop Top",
+      "price": "479",
+      "orginalprice": "799",
+      "discount": 40,
+      "offerpricess": "479"
+    }
+   ],
+  "cart": [
+    {
+      "href": "https://www.ajio.com/fashor-embroidered-round-neck-straight-kurta/p/465142808_pink",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20221012/RIRd/6346fd9ff997ddfdbd24735b/fashor_pink_embroidered_round-neck_straight_kurta.jpg",
+      "brand": "Fashor",
+      "nameCls": "Embroidered Round-Neck Straight Kurta",
+      "price": "1247",
+      "orginalprice": "2,899",
+      "discount": "(57% off)",
+      "offerpricess": 761,
+      "id": 1
+    }
+  ],
   "wishlist": []
 }
-
-
