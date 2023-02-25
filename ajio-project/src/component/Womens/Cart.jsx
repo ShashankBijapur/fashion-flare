@@ -2,18 +2,11 @@ import axios from 'axios'
 import React, { useState, useEffect, useRef } from 'react'
 import { Box, Button, Checkbox, CheckboxGroup, Fade, Flex, Image, Stack, Text } from '@chakra-ui/react';
 import CartCard from './CartCard';
-
 import { Input, useDisclosure } from '@chakra-ui/react'
-import { CheckIcon } from '@chakra-ui/icons'
 import { Link, Navigate, useNavigate } from 'react-router-dom';
 import Paymentmodal from './Payments';
-
-import { Input } from '@chakra-ui/react'
 import { useDispatch } from "react-redux"
- import { CheckIcon } from '@chakra-ui/icons'
 import { getCartData } from '../../redux/action';
-import { useDisclosure } from '@chakra-ui/react'
-import { useNavigate } from 'react-router-dom';
 const Cart = () => {
     const [cart, setcart] = useState([])
     const [count, setCount] = useState(1)
@@ -83,7 +76,7 @@ const Cart = () => {
                             <Text>Easy Returns</Text>
                         </Box>
                         <Box justifyContent={"center"} alignItems="center" >
-                            <img width="60px" src="https://thumbs.dreamstime.com/b/empathy-vector-icon-black-silhouette-flat-illustration-isolated-white-background-204899514.jpg" alt="" />
+                        https://docs.google.com/forms/u/0/d/e/1FAIpQLSeJWU3bahYqSy-qXUU9e4acepCM733B9Ji5Lz7wYyHIJUbnng/formResponse      <img width="60px" src="https://thumbs.dreamstime.com/b/empathy-vector-icon-black-silhouette-flat-illustration-isolated-white-background-204899514.jpg" alt="" />
                             <Text >100% Hand Picked</Text>
                         </Box>
                         <Box justifyContent={"center"} alignItems="center" >
