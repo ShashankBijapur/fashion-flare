@@ -7,7 +7,10 @@ import {
     Text,
 } from '@chakra-ui/react'
 import { Box, Button, Drawer, DrawerBody, DrawerContent, DrawerHeader, DrawerOverlay, Fade, Radio, RadioGroup, ScaleFade, Slide, SlideFade, Stack, useDisclosure } from '@chakra-ui/react'
+
+
 import DrawerExample from './Caurosal'
+
 import { useNavigate } from 'react-router-dom'
 import axios from 'axios'
 import Carousel from './Caurosal'

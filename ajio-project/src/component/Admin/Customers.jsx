@@ -13,7 +13,7 @@ import {
 
 const Customers = () => {
   return (
-    <Box style={{marginTop:"100px",textAlign:"center"}}>
+    <Box style={{marginTop:"100px",textAlign:"center",}}>
          <Heading as="h2" size="lg" mb={4}>
           Customer Details
         </Heading>

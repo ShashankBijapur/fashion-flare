@@ -37,6 +37,7 @@ export default function SignupCard() {
 
   return (
     <Flex
+    style={{backgroundImage: `url("https://media.istockphoto.com/id/494350434/vector/thin-shopping-retail-line-white-seamless-pattern.jpg?s=612x612&w=0&k=20&c=XZ5G1qrghaNlovv4kw5ZtHKPYYETR-LDqRAGafDs5LA=")`}}
       minH={'100vh'}
       align={'center'}
       justify={'center'}
