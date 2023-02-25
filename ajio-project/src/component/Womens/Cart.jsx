@@ -28,7 +28,7 @@ const Cart = () => {
     return (
         <>
             {cart.length === 0 ?
-                <Box>
+                <Box textAlign={"center"}>
                     <div>
                         <img src="https://assets.ajio.com/cms/AJIO/WEB/28032021-D-cartpagebanner-relianceones.jpg" alt="" />
                         <h1 style={{ padding: "20px", color: "rgb(88, 88, 88)", fontFamily: "SourceSansProSemiBold", fontWeight: "400" }}>Your Shopping Bag is Empty!!</h1>

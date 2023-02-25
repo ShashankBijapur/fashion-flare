@@ -16,69 +16,51 @@ import axios from 'axios'
 import Carousel from './Caurosal'
 const SingleCardPage = () => {
     var product = JSON.parse(localStorage.getItem('ProductsDetails'))
-    // console.log(user)
     const { isOpen, onToggle } = useDisclosure()
-    // const { isopen, onToggle } = useDisclosure()
     const [size, setSize] = useState('');
     const [text, setText] = useState(true)
-    const [similardata, setsimilardata] = useState([])
     const navigate = useNavigate()
     const [data, setData] = React.useState([])
+    const [count,setcount]=useState(0)
     const getsimilar = () => {
         axios.get("https://localhost:8080/similar")
             .then(r => setData(r.data))
     }
-    // console.log('okk', data)
-    // React.useEffect(() => {
-    //     getsimilar()
-    // }, []);
-
     const getdata = () => {
         axios.get("http://localhost:8080/similar")
             .then(r => setData(r.data))
-
     }
-    useEffect(() => {
 
+    useEffect(() => {
         getdata()
         getsimilar()
     }, []);
-    // getdata()
-    // console.log(similardata)
+
     const handleSizeChange = (event) => {
         setSize(event.target.value);
     };
     const handletext = () => {
         setText(!text)
         if (text === true) {
-            alert("Item added to wishlist")
+            // alert("Item added to wishlist")
             axios.post("http://localhost:8080/wishlist", product)
                 .then((r) => {
                     console.log(r.data)
                 })
         }
-        else if (text === false) {
-            alert("Item removed from wishlist")
-        }
+        // else if (text === false) {
+        //     alert("Item removed from wishlist")
+        // }
     }
 
     const addtobag = () => {
-        // let cartitem = [];
-        // cartitem.push(product)
-        // console.log(product)
-        // cartitem.push(...product)
-        // const cartitem={...product}
-        // localStorage.setItem("CartItems", JSON.stringify(cartitem))
-        // navigate("/cart")
-        // axios.post("")
+        setcount(count+1)
         axios.post("http://localhost:8080/cart", product)
             .then((r) => {
-                // console.log("ok",r.data.data)
                 console.log(r.data)
             })
-        // .catch((e) => {
-        //     dispatch(addProductreq())
-        // })
+        
+            
     }
     const navigateto = () => {
         navigate("/womens")
@@ -93,7 +75,7 @@ const SingleCardPage = () => {
 
                 </div>
                 <div style={{ textAlign: "left", }} >
-                    <Button color={"grey"} border="1px solid grey" mt={4} padding="5px" onClick={onToggle}>Returns</Button>
+                    <Button color={"grey"} border="1px solid grey" mt={4} padding="5px" onClick={onToggle}>Returns Details</Button>
                     <Fade in={isOpen}>
                         <Box
                             p='20px'
@@ -140,7 +122,7 @@ const SingleCardPage = () => {
                 {/* <DrawerExample/> */}
                 <div style={{ display: "grid ", gap: "10px", justifyContent: "center" }}>
                     <Text bg={"rgb(253,248,235)"} width={300} fontSize="10px" padding={"5px"} margin="auto">Select your size to know your estimated delivery date.</Text>
-                    <Button onClick={addtobag} bg={"rgb(213,162,73)"} width={300} padding={"5px"} margin="auto"> Add to Bag</Button>
+                    <Button disable={count===1} onClick={addtobag} bg={"rgb(213,162,73)"} width={300} padding={"5px"} margin="auto"> Add to Bag</Button>
                     <Text width={300} fontSize="10px" padding={"5px"} margin="auto" color={"grey"}>HANDPICKED STYLES | ASSURED QUALITY</Text>
                     <Button onClick={handletext} bg={"rgb(213,162,73)"} width={300} padding={"5px"} margin="auto"> {text ? "Save To WishList" : "Remove From WishLIst"}</Button>
 
@@ -189,7 +171,7 @@ const SingleCardPage = () => {
                     fontFamily: "Lora", fontSize: "26px", fontWeight: '700', lineHeight: "1.4px", color: "rgb(88, 88, 88)", marginTop: "100px",
                 }}>Shop more</h1>
                 <hr style={{ display: "block", marginLeft: "auto", marginRight: "auto", borderStyle: "inset", borderWidth: "1px" }} />
-                <div style={{margin:"30px 0px",padding:"10px"}}>
+                <div style={{ margin: "30px 0px", padding: "10px" }}>
                     <Carousel data={data} />
                 </div>
                 <div style={{ display: "flex", justifyContent: "space-between", width: "60%", margin: "auto", marginTop: "50px" }}>

@@ -584,7 +584,7 @@
       "nameCls": "Floral Embroidered Flared Kurta",
       "price": "874",
       "orginalprice": "2,299",
-      "discount": "(62% off)",
+      "discount": 62,
       "offerpricess": 598
     },
     {
@@ -594,7 +594,7 @@
       "nameCls": "Embroidered Round-Neck Straight Kurta",
       "price": "1247",
       "orginalprice": "2,899",
-      "discount": "(57% off)",
+      "discount": 57,
       "offerpricess": 761
     },
     {
@@ -604,7 +604,7 @@
       "nameCls": "Leaf Print Flared Kurta",
       "price": "874",
       "orginalprice": "2,299",
-      "discount": "(62% off)",
+      "discount": 62,
       "offerpricess": 598
     },
     {
@@ -614,17 +614,17 @@
       "nameCls": "Floral Print Flared Kurta",
       "price": "874",
       "orginalprice": "2,299",
-      "discount": "(62% off)",
+      "discount": 62,
       "offerpricess": 598
     },
     {
       "href": "https://www.ajio.com/avaasa-mix-n-match-printed-round-neck-straight-kurta/p/441144424_navy",
-      "src": "https://assets.ajio.com/medias/sys_master/root/20220505/da1j/6272cba7f997dd03e2948a8a/avaasa_mix_n%27_match_navy_blue_printed_round-neck_straight_kurta.jpg",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20220505/da1j/6272cba7f997dd03e2948a8a/avaasa_m_n2ch_navy_blue_printed_round-neck_straight_kurta.jpg",
       "brand": "AVAASA MIX N' MATCH",
       "nameCls": "Printed Round-Neck Straight Kurta",
       "price": "254",
       "orginalprice": "499",
-      "discount": "(49% off)",
+      "discount": 49,
       "offerpricess": 250
     },
     {
@@ -634,7 +634,7 @@
       "nameCls": "Floral Print Flared Kurta",
       "price": "999",
       "orginalprice": "2,499",
-      "discount": "(60% off)",
+      "discount": 60,
       "offerpricess": 650
     },
     {
@@ -644,7 +644,7 @@
       "nameCls": "Floral Flared Kurta",
       "price": "760",
       "orginalprice": "1,999",
-      "discount": "(62% off)",
+      "discount": 62,
       "offerpricess": 520
     },
     {
@@ -654,7 +654,7 @@
       "nameCls": "Leaf Print Flared Kurta",
       "price": "999",
       "orginalprice": "2,299",
-      "discount": "(57% off)",
+      "discount": 57,
       "offerpricess": 609
     },
     {
@@ -664,7 +664,7 @@
       "nameCls": "Floral Print Flared Kurta",
       "price": "897",
       "orginalprice": "2,299",
-      "discount": "(61% off)",
+      "discount": 61,
       "offerpricess": 598
     },
     {
@@ -674,7 +674,7 @@
       "nameCls": "Embellished Flared Kurta",
       "price": "874",
       "orginalprice": "2,299",
-      "discount": "(62% off)",
+      "discount": 62,
       "offerpricess": 598
     },
     {
@@ -684,7 +684,7 @@
       "nameCls": "Floral Print Anarkali Kurta with Tie-Up",
       "price": "680",
       "orginalprice": "1,699",
-      "discount": "(60% off)",
+      "discount": 60,
       "offerpricess": 442
     },
     {
@@ -694,7 +694,7 @@
       "nameCls": "Floral Print Flared Kurta",
       "price": "780",
       "orginalprice": "1,999",
-      "discount": "(61% off)",
+      "discount": 61,
       "offerpricess": 520
     },
     {
@@ -704,17 +704,17 @@
       "nameCls": "Printed Flared Kurta with Mandarin Collar",
       "price": "720",
       "orginalprice": "1,799",
-      "discount": "(60% off)",
+      "discount": 60,
       "offerpricess": 468
     },
     {
       "href": "https://www.ajio.com/avaasa-mix-n-match-floral-print-straight-kurta-with-band-collar/p/441144415_rosegold",
-      "src": "https://assets.ajio.com/medias/sys_master/root/20220505/4JuG/6272cc94f997dd03e2948ee0/avaasa_mix_n%27_match_pink_floral_print_straight_kurta_with_band_collar.jpg",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20220505/4JuG/6272cc94f997dd03e2948ee0/avaasa_m_n2ch_pink_floral_print_straight_kurta_with_band_collar.jpg",
       "brand": "AVAASA MIX N' MATCH",
       "nameCls": "Floral Print Straight Kurta with Band Collar",
       "price": "254",
       "orginalprice": "499",
-      "discount": "(49% off)",
+      "discount": 49,
       "offerpricess": 250
     },
     {
@@ -724,7 +724,7 @@
       "nameCls": "Leaf print Straight Kurta",
       "price": "682",
       "orginalprice": "1,749",
-      "discount": "(61% off)",
+      "discount": 61,
       "offerpricess": 455
     },
     {
@@ -734,7 +734,7 @@
       "nameCls": "Floral Print A-line Kurta",
       "price": "720",
       "orginalprice": "1,999",
-      "discount": "(64% off)",
+      "discount": 64,
       "offerpricess": 520
     },
     {
@@ -744,7 +744,7 @@
       "nameCls": "Embroidered Anarkali Kurta with Tie-Up",
       "price": "975",
       "orginalprice": "2,499",
-      "discount": "(61% off)",
+      "discount": 61,
       "offerpricess": 650
     },
     {
@@ -754,17 +754,17 @@
       "nameCls": "Embroidered Flared Kurta",
       "price": "792",
       "orginalprice": "1,799",
-      "discount": "(56% off)",
+      "discount": 56,
       "offerpricess": 483
     },
     {
       "href": "https://www.ajio.com/avaasa-mix-n-match-floral-print-notched-round-neck-straight-kurta/p/441144426_aqua",
-      "src": "https://assets.ajio.com/medias/sys_master/root/20220518/WFm4/628532d0aeb26921afa0de0b/avaasa_mix_n%27_match_aqua_floral_print_notched_round_neck_straight_kurta.jpg",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20220518/WFm4/628532d0aeb26921afa0de0b/avaasa_m_n2ch_aqua_floral_print_notched_round_neck_straight_kurta.jpg",
       "brand": "AVAASA MIX N' MATCH",
       "nameCls": "Floral Print Notched Round Neck Straight Kurta",
       "price": "305",
       "orginalprice": "599",
-      "discount": "(49% off)",
+      "discount": 49,
       "offerpricess": 300
     },
     {
@@ -774,7 +774,7 @@
       "nameCls": "Floral Embroidered Straight Kurta",
       "price": "624",
       "orginalprice": "1,599",
-      "discount": "(61% off)",
+      "discount": 61,
       "offerpricess": 416
     },
     {
@@ -784,7 +784,7 @@
       "nameCls": "Floral Print Flared Kurta",
       "price": "740",
       "orginalprice": "1,999",
-      "discount": "(63% off)",
+      "discount": 63,
       "offerpricess": 520
     },
     {
@@ -794,7 +794,7 @@
       "nameCls": "Floral Print Flared Kurta",
       "price": "600",
       "orginalprice": "1,999",
-      "discount": "(70% off)",
+      "discount": 70,
       "offerpricess": 520
     },
     {
@@ -804,7 +804,7 @@
       "nameCls": "Embellished Straight Kurta",
       "price": "481",
       "orginalprice": "1,299",
-      "discount": "(63% off)",
+      "discount": 63,
       "offerpricess": 338
     },
     {
@@ -814,17 +814,17 @@
       "nameCls": "Embellished Flared Kurta",
       "price": "900",
       "orginalprice": "1,999",
-      "discount": "(55% off)",
+      "discount": 55,
       "offerpricess": 549
     },
     {
       "href": "https://www.ajio.com/fashor-bandhani-print--mirror-embroidered-straight-kurta/p/464271097_yellow",
-      "src": "https://assets.ajio.com/medias/sys_master/root/20220727/1RRK/62e04f11aeb26921af9e9e52/fashor_yellow_bandhani_print_%26_mirror_embroidered_straight_kurta.jpg",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20220727/1RRK/62e04f11aeb26921af9e9e52/fashor_yellow_bandhani_prt_2ror_embroidered_straight_kurta.jpg",
       "brand": "Fashor",
       "nameCls": "Bandhani Print & Mirror Embroidered Straight Kurta",
       "price": "936",
       "orginalprice": "2,399",
-      "discount": "(61% off)",
+      "discount": 61,
       "offerpricess": 624
     },
     {
@@ -834,7 +834,7 @@
       "nameCls": "Floral Print A-line Kurta",
       "price": "700",
       "orginalprice": "1,999",
-      "discount": "(65% off)",
+      "discount": 65,
       "offerpricess": 520
     },
     {
@@ -844,7 +844,7 @@
       "nameCls": "Floral Print Flared Kurta",
       "price": "800",
       "orginalprice": "1,999",
-      "discount": "(60% off)",
+      "discount": 60,
       "offerpricess": 520
     },
     {
@@ -854,7 +854,7 @@
       "nameCls": "Striped Straight Kurta",
       "price": "377",
       "orginalprice": "838",
-      "discount": "(55% off)",
+      "discount": 55,
       "offerpricess": 230
     },
     {
@@ -864,17 +864,17 @@
       "nameCls": "Leaf Print A-Line Kurta",
       "price": "620",
       "orginalprice": "2,139",
-      "discount": "(71% off)",
+      "discount": 71,
       "offerpricess": 556
     },
     {
       "href": "https://www.ajio.com/avaasa-mix-n-match-paisley-print-round-neck-kurta/p/441144421_yellow",
-      "src": "https://assets.ajio.com/medias/sys_master/root/20220523/az1X/628bcc39aeb26921afca03d7/avaasa_mix_n%27_match_yellow_paisley_print_round-neck_kurta.jpg",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20220523/az1X/628bcc39aeb26921afca03d7/avaasa_m_n2ch_yellow_paisley_print_round-neck_kurta.jpg",
       "brand": "AVAASA MIX N' MATCH",
       "nameCls": "Paisley Print Round-Neck Kurta",
       "price": "305",
       "orginalprice": "599",
-      "discount": "(49% off)",
+      "discount": 49,
       "offerpricess": 300
     },
     {
@@ -884,7 +884,7 @@
       "nameCls": "Embroidered Round-Neck Flared Kurta",
       "price": "889",
       "orginalprice": "1,999",
-      "discount": "(56% off)",
+      "discount": 56,
       "offerpricess": 542
     },
     {
@@ -894,7 +894,7 @@
       "nameCls": "Printed Straight Kurta",
       "price": "1049",
       "orginalprice": "2,399",
-      "discount": "(56% off)",
+      "discount": 56,
       "offerpricess": 640
     },
     {
@@ -904,7 +904,7 @@
       "nameCls": "Checked Round-Neck Straight Kurta",
       "price": "356",
       "orginalprice": "699",
-      "discount": "(49% off)",
+      "discount": 49,
       "offerpricess": 350
     },
     {
@@ -914,7 +914,7 @@
       "nameCls": "Floral Straight Kurta with Short Button Placket",
       "price": "254",
       "orginalprice": "499",
-      "discount": "(49% off)",
+      "discount": 49,
       "offerpricess": 250
     },
     {
@@ -924,7 +924,7 @@
       "nameCls": "Floral Print Straight Kurta",
       "price": "640",
       "orginalprice": "1,599",
-      "discount": "(60% off)",
+      "discount": 60,
       "offerpricess": 416
     },
     {
@@ -934,7 +934,7 @@
       "nameCls": "Embellished Flared Kurta with Slip Pocket",
       "price": "624",
       "orginalprice": "1,299",
-      "discount": "(52% off)",
+      "discount": 52,
       "offerpricess": 442
     },
     {
@@ -944,7 +944,7 @@
       "nameCls": "Geometric Print Straight Kurta",
       "price": "595",
       "orginalprice": "1,699",
-      "discount": "(65% off)",
+      "discount": 65,
       "offerpricess": 442
     },
     {
@@ -954,7 +954,7 @@
       "nameCls": "Floral Flared Kurta",
       "price": "740",
       "orginalprice": "1,999",
-      "discount": "(63% off)",
+      "discount": 63,
       "offerpricess": 520
     },
     {
@@ -964,7 +964,7 @@
       "nameCls": "Embroidered Round-Neck Straight Kurta",
       "price": "800",
       "orginalprice": "1,999",
-      "discount": "(60% off)",
+      "discount": 60,
       "offerpricess": 520
     },
     {
@@ -974,7 +974,7 @@
       "nameCls": "Floral Embroidered Straight Kurta",
       "price": "699",
       "orginalprice": "1,890",
-      "discount": "(63% off)",
+      "discount": 63,
       "offerpricess": 699
     },
     {
@@ -984,7 +984,7 @@
       "nameCls": "Floral Print High-Low Straight Kurta",
       "price": "254",
       "orginalprice": "499",
-      "discount": "(49% off)",
+      "discount": 49,
       "offerpricess": 250
     },
     {
@@ -994,7 +994,7 @@
       "nameCls": "Calf-Length Straight Kurta",
       "price": "525",
       "orginalprice": "1,641",
-      "discount": "(68% off)",
+      "discount": 68,
       "offerpricess": 427
     },
     {
@@ -1004,7 +1004,7 @@
       "nameCls": "Floral Print A-line Kurta",
       "price": "720",
       "orginalprice": "1,999",
-      "discount": "(64% off)",
+      "discount": 64,
       "offerpricess": 520
     },
     {
@@ -1014,7 +1014,7 @@
       "nameCls": "Printed Flared Kurta with Embroidery",
       "price": "810",
       "orginalprice": "1,799",
-      "discount": "(55% off)",
+      "discount": 55,
       "offerpricess": 494
     },
     {
@@ -1024,7 +1024,7 @@
       "nameCls": "Striped Straight Kurta",
       "price": "359",
       "orginalprice": "798",
-      "discount": "(55% off)",
+      "discount": 55,
       "offerpricess": 219
     }
   ],
@@ -1036,7 +1036,7 @@
       "nameCls": "Banarasi Saree with Floral Woven Motifs",
       "price": "884",
       "orginalprice": "2,599",
-      "discount": "(66% off)",
+      "discount": 66,
       "offerpricess": "728"
     },
     {
@@ -1046,7 +1046,7 @@
       "nameCls": "Gorgone Pink Mysore Silk abstract print Saree with Blouse Piece Saree",
       "price": "371",
       "orginalprice": "2,651",
-      "discount": "(86% off)",
+      "discount": 86,
       "offerpricess": "371"
     },
     {
@@ -1056,7 +1056,7 @@
       "nameCls": "Floral Pattern Silk Saree",
       "price": "882",
       "orginalprice": "1,799",
-      "discount": "(51% off)",
+      "discount": 51,
       "offerpricess": "684"
     },
     {
@@ -1066,17 +1066,17 @@
       "nameCls": "Banarasi Kanjivaram Silk Saree",
       "price": "1,050",
       "orginalprice": "2,999",
-      "discount": "(65% off)",
+      "discount": 65,
       "offerpricess": "900"
     },
     {
       "href": "https://www.ajio.com/dwini--georgette-saree-with-sequence-lace-border-/p/464123799_grey",
-      "src": "https://assets.ajio.com/medias/sys_master/root/20220405/3o8e/624b622baeb26921af0b6bef/dwini_grey_%26_black__georgette_saree_with_sequence_lace_border_.jpg",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20220405/3o8e/624b622baeb26921af0b6bef/dwini_gy_2ck__georgette_saree_with_sequence_lace_border_.jpg",
       "brand": "Dwini",
       "nameCls": "Georgette Saree With Sequence Lace Border",
       "price": "750",
       "orginalprice": "2,499",
-      "discount": "(70% off)",
+      "discount": 70,
       "offerpricess": "750"
     },
     {
@@ -1086,17 +1086,17 @@
       "nameCls": "Floral Woven Soft Silk Saree",
       "price": "1,000",
       "orginalprice": "1,999",
-      "discount": "(50% off)",
+      "discount": 50,
       "offerpricess": "860"
     },
     {
       "href": "https://www.ajio.com/jinal--jinal-organza-tissue-semi-sheer-silk-saree/p/462170117_gold",
-      "src": "https://assets.ajio.com/medias/sys_master/root/20221114/DEKn/63722e2faeb269659c8a9ffc/jinal_%26_jinal_gold_organza_tissue_semi-sheer_silk_saree.jpg",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20221114/DEKn/63722e2faeb269659c8a9ffc/jil_2al_gold_organza_tissue_semi-sheer_silk_saree.jpg",
       "brand": "Jinal & Jinal",
       "nameCls": "Organza Tissue Semi-Sheer Silk Saree",
       "price": "960",
       "orginalprice": "7,999",
-      "discount": "(88% off)",
+      "discount": 88,
       "offerpricess": "960"
     },
     {
@@ -1106,7 +1106,7 @@
       "nameCls": "Mysore Silk Warli Printed Saree",
       "price": "350",
       "orginalprice": "699",
-      "discount": "(50% off)",
+      "discount": 50,
       "offerpricess": "301"
     },
     {
@@ -1116,7 +1116,7 @@
       "nameCls": "Mysore Silk Ethnic Motifs Saree",
       "price": "358",
       "orginalprice": "1,991",
-      "discount": "(82% off)",
+      "discount": 82,
       "offerpricess": "358"
     },
     {
@@ -1126,7 +1126,7 @@
       "nameCls": "Printed Saree with Tassel Accent",
       "price": "350",
       "orginalprice": "699",
-      "discount": "(50% off)",
+      "discount": 50,
       "offerpricess": "301"
     },
     {
@@ -1136,7 +1136,7 @@
       "nameCls": "Banarasi Silk Saree with Zari Border",
       "price": "920",
       "orginalprice": "1,999",
-      "discount": "(54% off)",
+      "discount": 54,
       "offerpricess": "760"
     },
     {
@@ -1146,7 +1146,7 @@
       "nameCls": "Printed Saree",
       "price": "800",
       "orginalprice": "1,999",
-      "discount": "(60% off)",
+      "discount": 60,
       "offerpricess": "600"
     },
     {
@@ -1156,7 +1156,7 @@
       "nameCls": "Saree with Contrast Border",
       "price": "883",
       "orginalprice": "1,699",
-      "discount": "(48% off)",
+      "discount": 48,
       "offerpricess": "731"
     },
     {
@@ -1176,7 +1176,7 @@
       "nameCls": "Kanjeevaram Silk Saree with Embrossed Border",
       "price": "883",
       "orginalprice": "1,699",
-      "discount": "(48% off)",
+      "discount": 48,
       "offerpricess": "731"
     },
     {
@@ -1186,7 +1186,7 @@
       "nameCls": "Striped Banarasi Saree with Zari Border",
       "price": "1,110",
       "orginalprice": "2,999",
-      "discount": "(63% off)",
+      "discount": 63,
       "offerpricess": "900"
     },
     {
@@ -1196,7 +1196,7 @@
       "nameCls": "Banarasi Silk Traditional Saree",
       "price": "946",
       "orginalprice": "2,199",
-      "discount": "(57% off)",
+      "discount": 57,
       "offerpricess": "748"
     },
     {
@@ -1206,7 +1206,7 @@
       "nameCls": "Floral Print Banarasi Silk Traditional Saree",
       "price": "990",
       "orginalprice": "2,999",
-      "discount": "(67% off)",
+      "discount": 67,
       "offerpricess": "840"
     },
     {
@@ -1216,7 +1216,7 @@
       "nameCls": "Woven Banarasi Silk Kanjivaram Saree",
       "price": "1,140",
       "orginalprice": "2,999",
-      "discount": "(62% off)",
+      "discount": 62,
       "offerpricess": "900"
     },
     {
@@ -1226,7 +1226,7 @@
       "nameCls": "Banarasi Silk Kanjivaram Saree with Contrast Border",
       "price": "1,080",
       "orginalprice": "2,999",
-      "discount": "(64% off)",
+      "discount": 64,
       "offerpricess": "900"
     },
     {
@@ -1236,17 +1236,17 @@
       "nameCls": "Floral Print Saree",
       "price": "1,892",
       "orginalprice": "4,299",
-      "discount": "(56% off)",
+      "discount": 56,
       "offerpricess": "1,462"
     },
     {
       "href": "https://www.ajio.com/veechi-s-floral-print-satin-saree/p/465047715_multi",
-      "src": "https://assets.ajio.com/medias/sys_master/root/20220923/SBG3/632d9842aeb269dbb3a3b52f/veechi%27s_multicolored_floral_print_satin_saree.jpg",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20220923/SBG3/632d9842aeb269dbb3a3b52f/vehi2lticolored_floral_print_satin_saree.jpg",
       "brand": "VEECHI'S",
       "nameCls": "Floral Print Satin Saree",
       "price": "1,000",
       "orginalprice": "2,499",
-      "discount": "(60% off)",
+      "discount": 60,
       "offerpricess": "1,000"
     },
     {
@@ -1256,7 +1256,7 @@
       "nameCls": "Embellished Georgette Saree with Tassels",
       "price": "1,000",
       "orginalprice": "3,999",
-      "discount": "(75% off)",
+      "discount": 75,
       "offerpricess": "1,000"
     },
     {
@@ -1266,7 +1266,7 @@
       "nameCls": "Printed Banarasi Silk Saree with Blouse Piece",
       "price": "920",
       "orginalprice": "2,299",
-      "discount": "(60% off)",
+      "discount": 60,
       "offerpricess": "920"
     },
     {
@@ -1276,7 +1276,7 @@
       "nameCls": "Floral Woven Silk Saree",
       "price": "782",
       "orginalprice": "2,299",
-      "discount": "(66% off)",
+      "discount": 66,
       "offerpricess": "644"
     },
     {
@@ -1286,7 +1286,7 @@
       "nameCls": "Floral Print Banarasi Silk Saree",
       "price": "912",
       "orginalprice": "1,899",
-      "discount": "(52% off)",
+      "discount": 52,
       "offerpricess": "722"
     },
     {
@@ -1296,7 +1296,7 @@
       "nameCls": "Striped Traditional Saree",
       "price": "840",
       "orginalprice": "2,099",
-      "discount": "(60% off)",
+      "discount": 60,
       "offerpricess": "546"
     },
     {
@@ -1306,7 +1306,7 @@
       "nameCls": "Woven Banarasi Silk Saree",
       "price": "1,035",
       "orginalprice": "2,299",
-      "discount": "(55% off)",
+      "discount": 55,
       "offerpricess": "874"
     },
     {
@@ -1316,7 +1316,7 @@
       "nameCls": "Woven Banarasi Silk Kanjivaram Saree Saree",
       "price": "990",
       "orginalprice": "2,999",
-      "discount": "(67% off)",
+      "discount": 67,
       "offerpricess": "840"
     },
     {
@@ -1326,7 +1326,7 @@
       "nameCls": "Banarasi Kanjivaram Silk  Saree",
       "price": "1,110",
       "orginalprice": "2,999",
-      "discount": "(63% off)",
+      "discount": 63,
       "offerpricess": "900"
     },
     {
@@ -1336,7 +1336,7 @@
       "nameCls": "Striped Saree with Blouse Piece",
       "price": "1,195",
       "orginalprice": "2,598",
-      "discount": "(54% off)",
+      "discount": 54,
       "offerpricess": "1,039"
     },
     {
@@ -1346,7 +1346,7 @@
       "nameCls": "Kanjeevaram Silk Saree with Embrossed Border",
       "price": "883",
       "orginalprice": "1,699",
-      "discount": "(48% off)",
+      "discount": 48,
       "offerpricess": "731"
     },
     {
@@ -1356,17 +1356,17 @@
       "nameCls": "Floral Pattern Banarasi Silk Saree",
       "price": "1,140",
       "orginalprice": "2,999",
-      "discount": "(62% off)",
+      "discount": 62,
       "offerpricess": "900"
     },
     {
       "href": "https://www.ajio.com/aldwych-banarasi-silk-kanjivaram-traditional-saree/p/465693299_yellow",
-      "src": "https://assets.ajio.com/medias/sys_master/root/20230201/Fgt0/63daa21df997dd708e335934/aldwych_yellow_%26_red_banarasi_silk_kanjivaram_traditional_saree.jpg",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20230201/Fgt0/63daa21df997dd708e335934/aldwych_yelw_2_banarasi_silk_kanjivaram_traditional_saree.jpg",
       "brand": "Aldwych",
       "nameCls": "Banarasi Silk Kanjivaram Traditional Saree",
       "price": "1,260",
       "orginalprice": "2,999",
-      "discount": "(58% off)",
+      "discount": 58,
       "offerpricess": "1,020"
     },
     {
@@ -1376,7 +1376,7 @@
       "nameCls": "Woven Saree with Contrast Border",
       "price": "782",
       "orginalprice": "2,299",
-      "discount": "(66% off)",
+      "discount": 66,
       "offerpricess": "644"
     },
     {
@@ -1386,7 +1386,7 @@
       "nameCls": "Floral Pattern Saree with Contrast Border",
       "price": "358",
       "orginalprice": "1,991",
-      "discount": "(82% off)",
+      "discount": 82,
       "offerpricess": "358"
     },
     {
@@ -1396,7 +1396,7 @@
       "nameCls": "Georgette Saree with Blouse Piece",
       "price": "381",
       "orginalprice": "1,269",
-      "discount": "(70% off)",
+      "discount": 70,
       "offerpricess": "381"
     },
     {
@@ -1406,7 +1406,7 @@
       "nameCls": "Floral Print Saree with Border",
       "price": "3,075",
       "orginalprice": "7,499",
-      "discount": "(59% off)",
+      "discount": 59,
       "offerpricess": "1,950"
     },
     {
@@ -1416,7 +1416,7 @@
       "nameCls": "Floral Print Belted Saree",
       "price": "1,650",
       "orginalprice": "4,999",
-      "discount": "(67% off)",
+      "discount": 67,
       "offerpricess": "1,300"
     },
     {
@@ -1426,7 +1426,7 @@
       "nameCls": "Traditional Embellished Silk Saree",
       "price": "1,000",
       "orginalprice": "3,999",
-      "discount": "(75% off)",
+      "discount": 75,
       "offerpricess": "1,000"
     },
     {
@@ -1436,7 +1436,7 @@
       "nameCls": "Geometric Pattern Saree with Zari Border",
       "price": "990",
       "orginalprice": "2,999",
-      "discount": "(67% off)",
+      "discount": 67,
       "offerpricess": "840"
     },
     {
@@ -1446,7 +1446,7 @@
       "nameCls": "Block Print Saree with Zari Border",
       "price": "359",
       "orginalprice": "998",
-      "discount": "(64% off)",
+      "discount": 64,
       "offerpricess": "259"
     }
   ],
@@ -1458,7 +1458,7 @@
       "nameCls": "Mid-Rise Skinny Fit Jeans",
       "price": "639",
       "orginalprice": "799",
-      "discount": "(20% off)",
+      "discount": 20,
       "offerpricess": "639"
     },
     {
@@ -1468,7 +1468,7 @@
       "nameCls": "High-Rise Skinny Jeans",
       "price": "960",
       "orginalprice": "2,399",
-      "discount": "(60% off)",
+      "discount": 60,
       "offerpricess": "624"
     },
     {
@@ -1478,7 +1478,7 @@
       "nameCls": "Mid-Wash Skinny Fit Jeans",
       "price": "799",
       "orginalprice": "999",
-      "discount": "(20% off)",
+      "discount": 20,
       "offerpricess": "799"
     },
     {
@@ -1488,7 +1488,7 @@
       "nameCls": "Skinny Fit Mid-Rise Jeans",
       "price": "577",
       "orginalprice": "1,049",
-      "discount": "(45% off)",
+      "discount": 45,
       "offerpricess": "525"
     },
     {
@@ -1498,7 +1498,7 @@
       "nameCls": "Mid-Rise Skinny Fit Jeans",
       "price": "639",
       "orginalprice": "799",
-      "discount": "(20% off)",
+      "discount": 20,
       "offerpricess": "639"
     },
     {
@@ -1518,7 +1518,7 @@
       "nameCls": "Skinny Jeggings with Zip Pockets",
       "price": "699",
       "orginalprice": "999",
-      "discount": "(30% off)",
+      "discount": 30,
       "offerpricess": "500"
     },
     {
@@ -1528,7 +1528,7 @@
       "nameCls": "Boyfriend Jeans with Insert Pockets",
       "price": "1,624",
       "orginalprice": "2,499",
-      "discount": "(35% off)",
+      "discount": 35,
       "offerpricess": "1,374"
     },
     {
@@ -1538,7 +1538,7 @@
       "nameCls": "Lightly Washed Cotton Joggers",
       "price": "577",
       "orginalprice": "1,049",
-      "discount": "(45% off)",
+      "discount": 45,
       "offerpricess": "525"
     },
     {
@@ -1558,7 +1558,7 @@
       "nameCls": "Lightly Washed Skinny Denim Jeans",
       "price": "629",
       "orginalprice": "1,049",
-      "discount": "(40% off)",
+      "discount": 40,
       "offerpricess": "525"
     },
     {
@@ -1568,7 +1568,7 @@
       "nameCls": "High-Rise Skinny Jeans",
       "price": "960",
       "orginalprice": "2,399",
-      "discount": "(60% off)",
+      "discount": 60,
       "offerpricess": "624"
     },
     {
@@ -1578,7 +1578,7 @@
       "nameCls": "Slim Fit High-Rise Jeans",
       "price": "858",
       "orginalprice": "2,599",
-      "discount": "(67% off)",
+      "discount": 67,
       "offerpricess": "676"
     },
     {
@@ -1588,7 +1588,7 @@
       "nameCls": "High-Rise Skinny Jeans",
       "price": "940",
       "orginalprice": "2,349",
-      "discount": "(60% off)",
+      "discount": 60,
       "offerpricess": "611"
     },
     {
@@ -1598,7 +1598,7 @@
       "nameCls": "Mid-Rise Skinny Fit Jeggings",
       "price": "577",
       "orginalprice": "1,049",
-      "discount": "(45% off)",
+      "discount": 45,
       "offerpricess": "525"
     },
     {
@@ -1608,7 +1608,7 @@
       "nameCls": "High-Rise Skinny Jeans",
       "price": "544",
       "orginalprice": "1,599",
-      "discount": "(66% off)",
+      "discount": 66,
       "offerpricess": "544"
     },
     {
@@ -1618,7 +1618,7 @@
       "nameCls": "High-Rise Skinny Fit Jeans",
       "price": "599",
       "orginalprice": "999",
-      "discount": "(40% off)",
+      "discount": 40,
       "offerpricess": "500"
     },
     {
@@ -1628,7 +1628,7 @@
       "nameCls": "Lightly Washed Slim Fit Jeans",
       "price": "1,000",
       "orginalprice": "1,999",
-      "discount": "(50% off)",
+      "discount": 50,
       "offerpricess": "900"
     },
     {
@@ -1638,7 +1638,7 @@
       "nameCls": "Solid Skinny Jeans",
       "price": "960",
       "orginalprice": "2,399",
-      "discount": "(60% off)",
+      "discount": 60,
       "offerpricess": "624"
     },
     {
@@ -1648,7 +1648,7 @@
       "nameCls": "Lightly Washed Distressed Straight Fit Jeans",
       "price": "1,399",
       "orginalprice": "1,999",
-      "discount": "(30% off)",
+      "discount": 30,
       "offerpricess": "1,199"
     },
     {
@@ -1658,7 +1658,7 @@
       "nameCls": "Skinny Fit Low-Rise Jeans",
       "price": "750",
       "orginalprice": "1,499",
-      "discount": "(50% off)",
+      "discount": 50,
       "offerpricess": "675"
     },
     {
@@ -1668,7 +1668,7 @@
       "nameCls": "Mid-Wash Skinny Fit Jeans",
       "price": "799",
       "orginalprice": "999",
-      "discount": "(20% off)",
+      "discount": 20,
       "offerpricess": "799"
     },
     {
@@ -1678,7 +1678,7 @@
       "nameCls": "Lightly Washed Distressed Straight Fit Jeans",
       "price": "1,399",
       "orginalprice": "1,999",
-      "discount": "(30% off)",
+      "discount": 30,
       "offerpricess": "1,199"
     },
     {
@@ -1688,7 +1688,7 @@
       "nameCls": "High-Rise Skinny Fit Jeans",
       "price": "1,169",
       "orginalprice": "1,799",
-      "discount": "(35% off)",
+      "discount": 35,
       "offerpricess": "989"
     },
     {
@@ -1698,7 +1698,7 @@
       "nameCls": "High-Rise Skinny Jeans",
       "price": "960",
       "orginalprice": "2,399",
-      "discount": "(60% off)",
+      "discount": 60,
       "offerpricess": "624"
     },
     {
@@ -1708,7 +1708,7 @@
       "nameCls": "Mid-Rise Jeans with 5-Pockets",
       "price": "559",
       "orginalprice": "699",
-      "discount": "(20% off)",
+      "discount": 20,
       "offerpricess": "559"
     },
     {
@@ -1718,7 +1718,7 @@
       "nameCls": "High-Rise Relaxed Jeans",
       "price": "1,499",
       "orginalprice": "2,499",
-      "discount": "(40% off)",
+      "discount": 40,
       "offerpricess": "1,299"
     },
     {
@@ -1728,7 +1728,7 @@
       "nameCls": "Women Mid-Wash Distressed Relaxed Fit Jeans",
       "price": "1,379",
       "orginalprice": "2,299",
-      "discount": "(40% off)",
+      "discount": 40,
       "offerpricess": "1,379"
     },
     {
@@ -1738,7 +1738,7 @@
       "nameCls": "Lightly Washed Distressed Mom Fit Jeans",
       "price": "1,399",
       "orginalprice": "1,999",
-      "discount": "(30% off)",
+      "discount": 30,
       "offerpricess": "1,199"
     },
     {
@@ -1748,7 +1748,7 @@
       "nameCls": "High-Rise Distressed Skinny Jeans",
       "price": "824",
       "orginalprice": "1,499",
-      "discount": "(45% off)",
+      "discount": 45,
       "offerpricess": "750"
     },
     {
@@ -1758,7 +1758,7 @@
       "nameCls": "Lightly Washed Wide-Leg Jeans",
       "price": "1,329",
       "orginalprice": "1,899",
-      "discount": "(30% off)",
+      "discount": 30,
       "offerpricess": "1,139"
     },
     {
@@ -1768,7 +1768,7 @@
       "nameCls": "Solid  Full Length Jeans",
       "price": "880",
       "orginalprice": "2,199",
-      "discount": "(60% off)",
+      "discount": 60,
       "offerpricess": "572"
     },
     {
@@ -1778,7 +1778,7 @@
       "nameCls": "Lightly Washed Flared Jeans",
       "price": "860",
       "orginalprice": "1,999",
-      "discount": "(57% off)",
+      "discount": 57,
       "offerpricess": "525"
     },
     {
@@ -1788,7 +1788,7 @@
       "nameCls": "Ankle-Length Skinny Fit Jeans",
       "price": "539",
       "orginalprice": "899",
-      "discount": "(40% off)",
+      "discount": 40,
       "offerpricess": "450"
     },
     {
@@ -1798,7 +1798,7 @@
       "nameCls": "Stone-Wash Bootcut Jeans",
       "price": "539",
       "orginalprice": "899",
-      "discount": "(40% off)",
+      "discount": 40,
       "offerpricess": "450"
     },
     {
@@ -1808,7 +1808,7 @@
       "nameCls": "Mid-Rise Skinny Fit Jeggings",
       "price": "577",
       "orginalprice": "1,049",
-      "discount": "(45% off)",
+      "discount": 45,
       "offerpricess": "525"
     },
     {
@@ -1818,7 +1818,7 @@
       "nameCls": "Lightly Washed Straight Fit Jeans",
       "price": "1,119",
       "orginalprice": "1,599",
-      "discount": "(30% off)",
+      "discount": 30,
       "offerpricess": "959"
     },
     {
@@ -1828,7 +1828,7 @@
       "nameCls": "Mid-Wash High-Rise Skinny Fit Jeans",
       "price": "599",
       "orginalprice": "999",
-      "discount": "(40% off)",
+      "discount": 40,
       "offerpricess": "500"
     },
     {
@@ -1838,7 +1838,7 @@
       "nameCls": "Lightly Washed Skinny Jeggings",
       "price": "539",
       "orginalprice": "899",
-      "discount": "(40% off)",
+      "discount": 40,
       "offerpricess": "450"
     },
     {
@@ -1848,17 +1848,17 @@
       "nameCls": "Light-Wash Slim Fit Jeans",
       "price": "780",
       "orginalprice": "2,599",
-      "discount": "(70% off)",
+      "discount": 70,
       "offerpricess": "676"
     },
     {
       "href": "https://www.ajio.com/marks--spencer-high-rise-skinny-jeggings/p/464428539_navy",
-      "src": "https://assets.ajio.com/medias/sys_master/root/20220603/Nx2N/62991ea0aeb26921af08e8bc/marks_%26_spencer_navy_high-rise_skinny_jeggings.jpg",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20220603/Nx2N/62991ea0aeb26921af08e8bc/mas_2ncer_navy_high-rise_skinny_jeggings.jpg",
       "brand": "Marks & Spencer",
       "nameCls": "High-Rise Skinny Jeggings",
       "price": "1,349",
       "orginalprice": "1,799",
-      "discount": "(25% off)",
+      "discount": 25,
       "offerpricess": "877"
     },
     {
@@ -1868,7 +1868,7 @@
       "nameCls": "Lightly Washed Skinny Jeggings",
       "price": "577",
       "orginalprice": "1,049",
-      "discount": "(45% off)",
+      "discount": 45,
       "offerpricess": "525"
     },
     {
@@ -1878,7 +1878,7 @@
       "nameCls": "Solid Jeans",
       "price": "888",
       "orginalprice": "2,399",
-      "discount": "(63% off)",
+      "discount": 63,
       "offerpricess": "624"
     },
     {
@@ -1888,7 +1888,7 @@
       "nameCls": "Heavily Washed Flared Jeans",
       "price": "924",
       "orginalprice": "2,799",
-      "discount": "(67% off)",
+      "discount": 67,
       "offerpricess": "728"
     },
     {
@@ -1898,7 +1898,7 @@
       "nameCls": "Skinny Jeggings with Insert Pocket",
       "price": "577",
       "orginalprice": "1,049",
-      "discount": "(45% off)",
+      "discount": 45,
       "offerpricess": "525"
     },
     {
@@ -1908,7 +1908,7 @@
       "nameCls": "710 Mid-Wash Super Skinny Fit Jeans",
       "price": "1,189",
       "orginalprice": "2,899",
-      "discount": "(59% off)",
+      "discount": 59,
       "offerpricess": "1,189"
     },
     {
@@ -1918,7 +1918,7 @@
       "nameCls": "Lightly Washed Bootcut Jeans",
       "price": "1,029",
       "orginalprice": "2,099",
-      "discount": "(51% off)",
+      "discount": 51,
       "offerpricess": "840"
     },
     {
@@ -1928,7 +1928,7 @@
       "nameCls": "Low-Rise Skinny Fit Jeans",
       "price": "510",
       "orginalprice": "1,499",
-      "discount": "(66% off)",
+      "discount": 66,
       "offerpricess": "510"
     },
     {
@@ -1938,7 +1938,7 @@
       "nameCls": "Mid-Wash High-Rise Skinny Fit Jeans",
       "price": "1,199",
       "orginalprice": "1,499",
-      "discount": "(20% off)",
+      "discount": 20,
       "offerpricess": "1,199"
     },
     {
@@ -1948,7 +1948,7 @@
       "nameCls": "Acid Wash Cropped Super Skinny Jeans",
       "price": "714",
       "orginalprice": "1,299",
-      "discount": "(45% off)",
+      "discount": 45,
       "offerpricess": "650"
     },
     {
@@ -1958,7 +1958,7 @@
       "nameCls": "Solid Wide Jeans",
       "price": "855",
       "orginalprice": "1,899",
-      "discount": "(55% off)",
+      "discount": 55,
       "offerpricess": "522"
     }
   ],
@@ -1970,7 +1970,7 @@
       "nameCls": "Chevron Pattern Top",
       "price": "507",
       "orginalprice": "1,299",
-      "discount": "(61% off)",
+      "discount": 61,
       "offerpricess": "338"
     },
     {
@@ -1980,27 +1980,27 @@
       "nameCls": "Printed Crew-Neck Crop Top",
       "price": "249",
       "orginalprice": "1,999",
-      "discount": "(88% off)",
+      "discount": 88,
       "offerpricess": "249"
     },
     {
       "href": "https://www.ajio.com/maaesa-tie--dye-collar-neck-top/p/464575254_blue",
-      "src": "https://assets.ajio.com/medias/sys_master/root/20220702/Mlzi/62bf5c13f997dd03e2b26174/maaesa_blue_tie_%26_dye_collar-neck_top.jpg",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20220702/Mlzi/62bf5c13f997dd03e2b26174/maaesa_blue_e_2_collar-neck_top.jpg",
       "brand": "MAAESA",
       "nameCls": "Tie & Dye Collar-Neck Top",
       "price": "678",
       "orginalprice": "1,995",
-      "discount": "(66% off)",
+      "discount": 66,
       "offerpricess": "519"
     },
     {
       "href": "https://www.ajio.com/v-m-round-neck-top-with-peasant-sleeves/p/465528295_green",
-      "src": "https://assets.ajio.com/medias/sys_master/root/20221231/8pVu/63af54cdaeb269659c1a2972/v%26m_green_round-neck_top_with_peasant_sleeves.jpg",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20221231/8pVu/63af54cdaeb269659c1a29/v2een_round-neck_top_with_peasant_sleeves.jpg",
       "brand": "V&M",
       "nameCls": "Round-Neck Top with Peasant Sleeves",
       "price": "828",
       "orginalprice": "2,299",
-      "discount": "(64% off)",
+      "discount": 64,
       "offerpricess": "690"
     },
     {
@@ -2010,17 +2010,17 @@
       "nameCls": "Top with Shirt Collar",
       "price": "336",
       "orginalprice": "699",
-      "discount": "(52% off)",
+      "discount": 52,
       "offerpricess": "238"
     },
     {
       "href": "https://www.ajio.com/aks-printed-round-neck-tunic/p/462862659_maroon",
-      "src": "https://assets.ajio.com/medias/sys_master/root/20210831/LHSo/612d452e7cdb8cb8240df644/aks_maroon_%26_blue_printed_round-neck_tunic.jpg",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20210831/LHSo/612d452e7cdb8cb8240df644/aks_marn_2e_printed_round-neck_tunic.jpg",
       "brand": "AKS",
       "nameCls": "Printed Round-Neck Tunic",
       "price": "495",
       "orginalprice": "1,099",
-      "discount": "(55% off)",
+      "discount": 55,
       "offerpricess": "302"
     },
     {
@@ -2030,7 +2030,7 @@
       "nameCls": "Fitted Crop Wrap Top",
       "price": "555",
       "orginalprice": "1,499",
-      "discount": "(63% off)",
+      "discount": 63,
       "offerpricess": "390"
     },
     {
@@ -2040,7 +2040,7 @@
       "nameCls": "Crew-Neck Cuff-Sleeve Top",
       "price": "1,234",
       "orginalprice": "2,939",
-      "discount": "(58% off)",
+      "discount": 58,
       "offerpricess": "764"
     },
     {
@@ -2050,7 +2050,7 @@
       "nameCls": "Geometric Print Round-Neck Top",
       "price": "336",
       "orginalprice": "699",
-      "discount": "(52% off)",
+      "discount": 52,
       "offerpricess": "238"
     },
     {
@@ -2060,7 +2060,7 @@
       "nameCls": "Floral Print Wrap Top",
       "price": "645",
       "orginalprice": "1,499",
-      "discount": "(57% off)",
+      "discount": 57,
       "offerpricess": "645"
     },
     {
@@ -2070,7 +2070,7 @@
       "nameCls": "Checked Cotton V-neck Top",
       "price": "615",
       "orginalprice": "1,398",
-      "discount": "(56% off)",
+      "discount": 56,
       "offerpricess": "375"
     },
     {
@@ -2080,7 +2080,7 @@
       "nameCls": "Floral Print V-Neck Top",
       "price": "663",
       "orginalprice": "1,699",
-      "discount": "(61% off)",
+      "discount": 61,
       "offerpricess": "442"
     },
     {
@@ -2090,7 +2090,7 @@
       "nameCls": "Micro Print Top with Tie-Up",
       "price": "288",
       "orginalprice": "599",
-      "discount": "(52% off)",
+      "discount": 52,
       "offerpricess": "204"
     },
     {
@@ -2100,7 +2100,7 @@
       "nameCls": "Floral Print V-neck Top",
       "price": "1,469",
       "orginalprice": "2,449",
-      "discount": "(40% off)",
+      "discount": 40,
       "offerpricess": "1,469"
     },
     {
@@ -2110,7 +2110,7 @@
       "nameCls": "Striped V-neck Top",
       "price": "336",
       "orginalprice": "699",
-      "discount": "(52% off)",
+      "discount": 52,
       "offerpricess": "238"
     },
     {
@@ -2130,7 +2130,7 @@
       "nameCls": "Floral Print V-Neck Top",
       "price": "1,799",
       "orginalprice": "1,999",
-      "discount": "(10% off)",
+      "discount": 10,
       "offerpricess": "1,259"
     },
     {
@@ -2140,7 +2140,7 @@
       "nameCls": "Round-Neck Top with Front Slit",
       "price": "494",
       "orginalprice": "899",
-      "discount": "(45% off)",
+      "discount": 45,
       "offerpricess": "301"
     },
     {
@@ -2150,7 +2150,7 @@
       "nameCls": "Checked Printed Regular Top",
       "price": "425",
       "orginalprice": "1,149",
-      "discount": "(63% off)",
+      "discount": 63,
       "offerpricess": "299"
     },
     {
@@ -2160,7 +2160,7 @@
       "nameCls": "Checks V-Neck Top",
       "price": "665",
       "orginalprice": "1,899",
-      "discount": "(65% off)",
+      "discount": 65,
       "offerpricess": "570"
     },
     {
@@ -2170,7 +2170,7 @@
       "nameCls": "Chevron Print Round-Neck Top",
       "price": "398",
       "orginalprice": "995",
-      "discount": "(60% off)",
+      "discount": 60,
       "offerpricess": "259"
     },
     {
@@ -2180,7 +2180,7 @@
       "nameCls": "Round-Neck Top with Button Fastening",
       "price": "486",
       "orginalprice": "2,699",
-      "discount": "(82% off)",
+      "discount": 82,
       "offerpricess": "486"
     },
     {
@@ -2190,17 +2190,17 @@
       "nameCls": "Embellished Round-Neck Top",
       "price": "384",
       "orginalprice": "799",
-      "discount": "(52% off)",
+      "discount": 52,
       "offerpricess": "272"
     },
     {
       "href": "https://www.ajio.com/ives-floral-print-top-with-tie-up/p/464125017_white",
-      "src": "https://assets.ajio.com/medias/sys_master/root/20220422/aMg6/6262c38faeb26921af3d02cc/ives_white_%26_blue_floral_print_top_with_tie-up.jpg",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20220422/aMg6/6262c38faeb26921af3d02cc/ives_whe_2e_floral_print_top_with_tie-up.jpg",
       "brand": "Ives",
       "nameCls": "Floral Print Top with Tie-Up",
       "price": "645",
       "orginalprice": "1,499",
-      "discount": "(57% off)",
+      "discount": 57,
       "offerpricess": "393"
     },
     {
@@ -2210,7 +2210,7 @@
       "nameCls": "Floral Print Round-Neck Top",
       "price": "249",
       "orginalprice": "1,999",
-      "discount": "(88% off)",
+      "discount": 88,
       "offerpricess": "249"
     },
     {
@@ -2220,7 +2220,7 @@
       "nameCls": "Floral Print Square-Neck Top",
       "price": "210",
       "orginalprice": "699",
-      "discount": "(70% off)",
+      "discount": 70,
       "offerpricess": "210"
     },
     {
@@ -2230,7 +2230,7 @@
       "nameCls": "Heathered Lapel Shirt Top",
       "price": "510",
       "orginalprice": "1,699",
-      "discount": "(70% off)",
+      "discount": 70,
       "offerpricess": "442"
     },
     {
@@ -2240,7 +2240,7 @@
       "nameCls": "Polka-Dot Print Round-Neck Top",
       "price": "288",
       "orginalprice": "599",
-      "discount": "(52% off)",
+      "discount": 52,
       "offerpricess": "204"
     },
     {
@@ -2250,17 +2250,17 @@
       "nameCls": "Floral Print Top with Bishop Sleeves",
       "price": "1,692",
       "orginalprice": "3,599",
-      "discount": "(53% off)",
+      "discount": 53,
       "offerpricess": "1,692"
     },
     {
       "href": "https://www.ajio.com/maaesa-tie--dye-full-sleeve-top/p/464528587_green",
-      "src": "https://assets.ajio.com/medias/sys_master/root/20220622/MfID/62b3519aaeb26921af418548/maaesa_green_tie_%26_dye_full-sleeve_top.jpg",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20220622/MfID/62b3519aaeb26921af418548/maaesa_green_e_2_full-sleeve_top.jpg",
       "brand": "MAAESA",
       "nameCls": "Tie & Dye Full-Sleeve Top",
       "price": "698",
       "orginalprice": "1,995",
-      "discount": "(65% off)",
+      "discount": 65,
       "offerpricess": "519"
     },
     {
@@ -2270,7 +2270,7 @@
       "nameCls": "Floral Print Square-Neck Crop Top",
       "price": "429",
       "orginalprice": "1,299",
-      "discount": "(67% off)",
+      "discount": 67,
       "offerpricess": "416"
     },
     {
@@ -2280,7 +2280,7 @@
       "nameCls": "Button-Down Top with Collar",
       "price": "909",
       "orginalprice": "1,299",
-      "discount": "(30% off)",
+      "discount": 30,
       "offerpricess": "779"
     },
     {
@@ -2290,7 +2290,7 @@
       "nameCls": "Solid Top",
       "price": "473",
       "orginalprice": "1,099",
-      "discount": "(57% off)",
+      "discount": 57,
       "offerpricess": "289"
     },
     {
@@ -2300,7 +2300,7 @@
       "nameCls": "Striped Round-Neck Top with Bell Sleeves",
       "price": "180",
       "orginalprice": "599",
-      "discount": "(70% off)",
+      "discount": 70,
       "offerpricess": "180"
     },
     {
@@ -2310,7 +2310,7 @@
       "nameCls": "Floral Print Top",
       "price": "210",
       "orginalprice": "699",
-      "discount": "(70% off)",
+      "discount": 70,
       "offerpricess": "210"
     },
     {
@@ -2320,7 +2320,7 @@
       "nameCls": "Schiffli Embroidered Top with Puff Sleeves",
       "price": "510",
       "orginalprice": "1,699",
-      "discount": "(70% off)",
+      "discount": 70,
       "offerpricess": "510"
     },
     {
@@ -2330,7 +2330,7 @@
       "nameCls": "Printed Sleeveless Top with Knot Neckline",
       "price": "850",
       "orginalprice": "1,700",
-      "discount": "(50% off)",
+      "discount": 50,
       "offerpricess": "714"
     },
     {
@@ -2340,17 +2340,17 @@
       "nameCls": "Striped Round-Neck Top",
       "price": "210",
       "orginalprice": "699",
-      "discount": "(70% off)",
+      "discount": 70,
       "offerpricess": "210"
     },
     {
       "href": "https://www.ajio.com/marks--spencer-full-sleeves-v-neck-top/p/465208589_blue",
-      "src": "https://assets.ajio.com/medias/sys_master/root/20221028/DuLl/635af8e4f997ddfdbd46a9da/marks_%26_spencer_blue_full_sleeves_v-neck_top.jpg",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20221028/DuLl/635af8e4f997ddfdbd46a9da/mas_2ncer_blue_full_sleeves_v-neck_top.jpg",
       "brand": "Marks & Spencer",
       "nameCls": "Full Sleeves V-Neck Top",
       "price": "2,099",
       "orginalprice": "2,999",
-      "discount": "(30% off)",
+      "discount": 30,
       "offerpricess": "1,364"
     },
     {
@@ -2370,8 +2370,67 @@
       "nameCls": "Floral Top",
       "price": "648",
       "orginalprice": "1,799",
-      "discount": "(64% off)",
+      "discount": 64,
       "offerpricess": "468"
+    }
+  ],
+  "cart": [
+    {
+      "href": "https://www.ajio.com/gulmohar-jaipur-embellished-a-line-kurta-sets/p/463669997_navy",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20220117/ig1s/61e55e95f997dd662324fde6/gulmohar_jaipur_navy_embellished_a-line_kurta_sets.jpg",
+      "brand": "GULMOHAR JAIPUR",
+      "nameCls": "Embellished A-line Kurta Sets",
+      "price": "999",
+      "orginalprice": "2,299",
+      "discount": 57,
+      "offerpricess": "599",
+      "id": 2
+    }
+  ],
+  "wishlist": [
+    {
+      "href": "https://www.ajio.com/zikaraa-banarasi-saree-with-floral-woven-motifs/p/465652365_black",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20230124/SXdI/63ceed84f997dd708e1d5b98/zikaraa_black_banarasi_saree_with_floral_woven_motifs.jpg",
+      "brand": "ZIKARAA",
+      "nameCls": "Banarasi Saree with Floral Woven Motifs",
+      "price": "884",
+      "orginalprice": "2,599",
+      "discount": 66,
+      "offerpricess": "728",
+      "id": 1
+    },
+    {
+      "href": "https://www.ajio.com/gulmohar-jaipur-floral-embroidered-flared-kurta-/p/465518227_red",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20221229/eRcp/63acb0c4aeb269659c14a557/gulmohar_jaipur_red_floral_embroidered_flared_kurta_.jpg",
+      "brand": "GULMOHAR JAIPUR",
+      "nameCls": "Floral Embroidered Flared Kurta",
+      "price": "874",
+      "orginalprice": "2,299",
+      "discount": 62,
+      "offerpricess": 598,
+      "id": 2
+    },
+    {
+      "href": "https://www.ajio.com/dwini--georgette-saree-with-sequence-lace-border-/p/464123799_grey",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20220405/3o8e/624b622baeb26921af0b6bef/dwini_gy_2ck__georgette_saree_with_sequence_lace_border_.jpg",
+      "brand": "Dwini",
+      "nameCls": "Georgette Saree With Sequence Lace Border",
+      "price": "750",
+      "orginalprice": "2,499",
+      "discount": 70,
+      "offerpricess": "750",
+      "id": 3
+    },
+    {
+      "href": "https://www.ajio.com/gulmohar-jaipur-floral-embroidered-flared-kurta-/p/465518227_red",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20221229/eRcp/63acb0c4aeb269659c14a557/gulmohar_jaipur_red_floral_embroidered_flared_kurta_.jpg",
+      "brand": "GULMOHAR JAIPUR",
+      "nameCls": "Floral Embroidered Flared Kurta",
+      "price": "874",
+      "orginalprice": "2,299",
+      "discount": 62,
+      "offerpricess": 598,
+      "id": 4
     }
   ],
   "similar": [
@@ -2464,19 +2523,6 @@
       "orginalprice": "1,995",
       "discount": 66,
       "offerpricess": "519"
-=======
-  "cart": [
-    {
-      "href": "https://www.ajio.com/avaasa-mix-n-match-printed-round-neck-straight-kurta/p/441144424_navy",
-      "src": "https://assets.ajio.com/medias/sys_master/root/20220505/da1j/6272cba7f997dd03e2948a8a/avaasa_mix_n%27_match_navy_blue_printed_round-neck_straight_kurta.jpg",
-      "brand": "AVAASA MIX N' MATCH",
-      "nameCls": "Printed Round-Neck Straight Kurta",
-      "price": "254",
-      "orginalprice": "499",
-      "discount": "(49% off)",
-      "offerpricess": 250,
-      "id": 1
->>>>>>> 5b3187258ceed21e5c557876f557cc2d793d2bf3
     },
     {
       "href": "https://www.ajio.com/gulmohar-jaipur-floral-embroidered-flared-kurta-/p/465518227_red",
@@ -2485,7 +2531,6 @@
       "nameCls": "Floral Embroidered Flared Kurta",
       "price": "874",
       "orginalprice": "2,299",
-<<<<<<< HEAD
       "discount": 62,
       "offerpricess": 598
     },
@@ -2510,7 +2555,7 @@
       "offerpricess": "249"
     }
   ],
-  "womens":[
+  "womens": [
     {
       "href": "https://www.ajio.com/silverfly-high-rise-stretch-pants/p/465581718_black",
       "src": "https://assets.ajio.com/medias/sys_master/root/20230110/EWFJ/63bd2221f997dd708ef8e7d3/silverfly_black_high-rise_stretch_pants.jpg",
@@ -3850,46 +3895,6 @@
       "orginalprice": "799",
       "discount": 40,
       "offerpricess": "479"
-    }
-   ],
-  "cart": [
-    {
-      "href": "https://www.ajio.com/fashor-embroidered-round-neck-straight-kurta/p/465142808_pink",
-      "src": "https://assets.ajio.com/medias/sys_master/root/20221012/RIRd/6346fd9ff997ddfdbd24735b/fashor_pink_embroidered_round-neck_straight_kurta.jpg",
-      "brand": "Fashor",
-      "nameCls": "Embroidered Round-Neck Straight Kurta",
-      "price": "1247",
-      "orginalprice": "2,899",
-      "discount": "(57% off)",
-      "offerpricess": 761,
-      "id": 1
-    }
-  ],
-  "wishlist": []
-=======
-      "discount": "(62% off)",
-      "offerpricess": 598,
-      "id": 4
-    }
-  ],
-  "wishlist": [
-    {
-      "id": 1,
-      "src": "https://assets.ajio.com/medias/sys_master/root/20230124/BHS4/63cf9cd8f997dd708e1e5537/puma_white_low-top_lace-up_sneakers.jpg",
-      "brand": "Puma",
-      "nameCls": "Low-Top Lace-Up Sneakers",
-      "price": "₹2,879",
-      "discount": "(36% off)",
-      "offer": "2,102"
-    },
-    {
-      "id": 2,
-      "src": "https://assets.ajio.com/medias/sys_master/root/20221109/u2JJ/636b8eddaeb269659c7f91b5/dennislingo_premium_attire_white_full_sleeves_slim_fit_shirt.jpg",
-      "brand": "DENNISLINGO PREMIUM ATTIRE",
-      "nameCls": "Full Sleeves Slim Fit Shirt",
-      "price": "₹684",
-      "discount": "(63% off)",
-      "offer": 481
     }
   ]
 }
