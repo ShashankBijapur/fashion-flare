@@ -12,8 +12,6 @@ const Cart = () => {
     const [cart, setcart] = useState([])
     const [count, setCount] = useState(1)
     const dispatch = useDispatch()
-
-
     const ref = useRef()
     const navigate = useNavigate()
     const { isOpen, onToggle } = useDisclosure()

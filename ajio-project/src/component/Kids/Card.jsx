@@ -1,18 +1,18 @@
 import React from 'react'
 import "./Card.css"
 
-const Card = ({id,title, image, des,price,offer}) => {
+const Card = ({ id, src, brand, nameCls, price, discount, offer }) => {
     return (
         <div className='card-cont'>
             <div className='img-div'>
-                <img src={image} alt="" />
+                <img src={src} alt="" />
             </div>
             <div className='card-content-wrap'>
                 <div className="card-content">
-                    <div>{title}</div>
-                    <div>{des}</div>
-                    <div> {price} Rs</div>
-                    <div>Offer price {offer} Rs</div>
+                    <div>{brand}</div>
+                    <div>{nameCls}</div>
+                    <div> {price}</div>
+                    <div>Offer price {offer}</div>
                 </div>
 
             </div>

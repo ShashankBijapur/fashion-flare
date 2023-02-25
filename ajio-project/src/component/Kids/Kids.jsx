@@ -2,21 +2,33 @@ import React, { useEffect, useState } from 'react'
 import "./Kids.css"
 import Card from './Card'
 import axios from "axios"
+import { useDispatch, useSelector } from 'react-redux'
+import { getReduxData } from '../../redux/action'
 
 const Kids = () => {
-    const [mensData, setMensData] = useState([])
-
-    const fetchData = () => {
-        axios.get(`http://localhost:8080/Kids`).then((res) => {
-            return setMensData(res.data)
-        })
-    }
+    const [search, setSearch] = useState("")
+    const [box, setBox] = useState(null)
+    const dispatch = useDispatch()
+    const store = useSelector(store => store.storeData)
 
     useEffect(() => {
-        fetchData()
+        if (box) {
+            dispatch(getReduxData(`kid${box}`))
+        }
 
+    }, [box])
+
+    const handleButton = () => {
+        dispatch(getReduxData(`kid${search}`))
+
+    }
+
+
+
+    useEffect(() => {
+        dispatch(getReduxData("kids"))
     }, [])
-    console.log(mensData)
+  
     return (
         <div className='kids-cont'>
             <div className="kids-wrapper">
@@ -29,15 +41,15 @@ const Kids = () => {
                             <li>- Gender</li>
                             <ul>
                                 <li>
-                                    <input type="checkbox" />
+                                    <input onChange={(e) => setBox("girl")} type="checkbox" />
                                     <label htmlFor="#">Girls</label>
                                 </li>
                                 <li>
-                                    <input type="checkbox" />
+                                    <input onChange={(e) => setBox("boy")} type="checkbox" />
                                     <label htmlFor="#">Boys</label>
                                 </li>
                                 <li>
-                                    <input type="checkbox" />
+                                    <input onChange={(e) => setBox("infant")} type="checkbox" />
                                     <label htmlFor="#">Infants</label>
                                 </li>
 
@@ -221,7 +233,11 @@ const Kids = () => {
                         <div>Starting at Rs 129</div>
                         <div>
                             <ul>
-                                <li>128100 Items Found</li>
+                                <li>{store.length}0 Items Found</li>
+                            </ul>
+                            <ul>
+                                <input placeholder='Search Here' value={search} onChange={(e) => setSearch(e.target.value)} type="text" />
+                                <button onClick={handleButton}>Search</button>
                             </ul>
                             <ul>
                                 <label htmlFor="">Sort By </label>
@@ -237,7 +253,7 @@ const Kids = () => {
                     </div>
                     <div className='kids-content-wrapper'>
                         <div className='kids-content'>
-                            {mensData?.map((item) => <Card {...item} />)}
+                            {store?.map((item) => <Card {...item} />)}
 
 
 
