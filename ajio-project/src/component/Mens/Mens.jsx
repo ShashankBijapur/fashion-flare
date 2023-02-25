@@ -7,9 +7,16 @@ import { getReduxData } from '../../redux/action'
 
 const Mens = () => {
     const [search, setSearch] = useState("")
+    const [box, setBox] = useState(null)
     const dispatch = useDispatch()
     const store = useSelector(store => store.storeData)
 
+    useEffect(() => {
+        if (box) {
+            dispatch(getReduxData(`men${box}`))
+        }
+
+    }, [box])
 
     const handleButton = () => {
         dispatch(getReduxData(`men${search}`))
@@ -31,7 +38,7 @@ const Mens = () => {
                             <li>- Gender </li>
                             <ul>
                                 <li>
-                                    <input type="checkbox" />
+                                    <input onChange={(e) => setBox("men")} type="checkbox" />
                                     <label htmlFor="#">Men</label>
                                 </li>
                             </ul>
@@ -41,19 +48,19 @@ const Mens = () => {
                             <li>- Category</li>
                             <ul>
                                 <li>
-                                    <input type="checkbox" />
+                                    <input  type="checkbox" />
                                     <label htmlFor="#">T-Shirt</label>
                                 </li>
                                 <li>
-                                    <input type="checkbox" />
+                                    <input onChange={(e) => setBox("shirt")}  type="checkbox" />
                                     <label htmlFor="#">Shirt</label>
                                 </li>
                                 <li>
-                                    <input type="checkbox" />
-                                    <label htmlFor="#">Sweershirts & Hoodies</label>
+                                    <input onChange={(e) => setBox("kurta")}  type="checkbox" />
+                                    <label htmlFor="#">Kurta</label>
                                 </li>
                                 <li>
-                                    <input type="checkbox" />
+                                    <input onChange={(e) => setBox("jeans")}  type="checkbox" />
                                     <label htmlFor="#">Jeans</label>
                                 </li>
 
@@ -221,10 +228,10 @@ const Mens = () => {
                         <div>Starting at Rs 129</div>
                         <div>
                             <ul>
-                                <li>128100 Items Found</li>
+                                <li>{store.length}0 Items Found</li>
                             </ul>
                             <ul>
-                                <input value={search} onChange={(e) => setSearch(e.target.value)} type="text" />
+                                <input placeholder='Search Here' value={search} onChange={(e) => setSearch(e.target.value)} type="text" />
                                 <button onClick={handleButton}>Search</button>
                             </ul>
                             <ul className='select-tag-mens'>
