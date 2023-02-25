@@ -1,22 +1,18 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect } from 'react'
 import "./Mens.css"
 import Card from './Card'
-import axios from "axios"
+import { useDispatch, useSelector } from 'react-redux'
+import { getReduxData } from '../../redux/action'
+
 
 const Mens = () => {
-    const [mensData, setMensData] = useState([])
-
-    const fetchData = () => {
-        axios.get(`http://localhost:8080/menCategory`).then((res) => {
-            return setMensData(res.data)
-        })
-    }
+    const dispatch = useDispatch()
+    const store = useSelector(store => store.storeData)
+    // console.log(store)
 
     useEffect(() => {
-        fetchData()
-
-    }, [])
-    console.log(mensData)
+        dispatch(getReduxData("mensNew"))
+    },[])
     return (
         <div className='mens-cont'>
             <div className="mens-wrapper">
@@ -235,7 +231,7 @@ const Mens = () => {
                     </div>
                     <div className='mens-content-wrapper'>
                         <div className='mens-content'>
-                            {mensData?.map((item) => <Card {...item} />)}
+                            {store?.map((item) => <Card {...item} />)}
 
 
 
