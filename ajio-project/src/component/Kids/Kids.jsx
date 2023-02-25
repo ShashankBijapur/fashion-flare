@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import "./Kids.css"
 import Card from './Card'
-import axios from "axios"
+// import axios from "axios"
 import { useDispatch, useSelector } from 'react-redux'
 import { getReduxData } from '../../redux/action'
 
@@ -15,20 +15,15 @@ const Kids = () => {
         if (box) {
             dispatch(getReduxData(`kid${box}`))
         }
-
     }, [box])
-
     const handleButton = () => {
         dispatch(getReduxData(`kid${search}`))
-
+        setSearch("")
     }
-
-
-
     useEffect(() => {
         dispatch(getReduxData("kids"))
     }, [])
-  
+
     return (
         <div className='kids-cont'>
             <div className="kids-wrapper">
