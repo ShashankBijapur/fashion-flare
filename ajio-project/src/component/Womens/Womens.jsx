@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react'
 import axios from 'axios';
-import CardPage from './CardPage';
+import CardPage from './WomensCard';
 import { Box } from '@chakra-ui/react';
 function Womens() {
-    const [productType, setProductType] = useState('kurta');
+    const [productType, setProductType] = useState('womens');
     const [products, setProducts] = useState([]);
     const [count, setcount] = useState(0)
     const [value, setValue] = useState("")
@@ -203,12 +203,12 @@ function Womens() {
                 </div>
 
                 <div style={{ width: "70%" }}>
-                    <h1 style={{ fontSize: "12px" }}>{text ? "WOMENS" : ""}</h1>
-                    <h1 style={{ fontSize: "30px", color: "grey" }}>{text.toUpperCase()}</h1>
-                    <h1 style={{ fontSize: "13px", color: "grey", width: "70%", margin: "auto" }}>{text === "kurta" ? "Ethnic elegance, a fusion of hues and a whirlwind of styles from much-loved ethnic wear brands – go ahead and explore all the women’s kurtas on AJIO! The collection comprises of all the latest trends – from asymmetric hems to traditional Ikat prints. +" : ""}</h1>
-                    <h1 style={{ fontSize: "13px", color: "grey", width: "70%", margin: "auto" }}>{text === "saree" ? `Traditional, trendy, stylish and graceful, there’s no denying that a woman’s beauty is accentuated by a saree. When you are shopping online for designer sarees for festive occasions or regular sarees for casual ethnic wear, you won’t have to look further than AJIO. From gorgeous silk sarees to crisp cottons, you’ll be amazed with the selection from brands such as Indie` : ""}</h1>
-                    <h1 style={{ fontSize: "13px", color: "grey", width: "70%", margin: "auto" }}>{text === "tshirt" ? `Funk up your style with our fashionable selection of tees! AJIO showcases stunning styles from vivid graphic prints to versatile geometric art, subtle florals to simple solid tees that are trendsetting collectibles from brands like Pantaloons,` : ""}</h1>
-                    <h1 style={{ fontSize: "13px", color: "grey", width: "70%", margin: "auto" }}>{text === "jeans" ? "Make a dramatic first impression with our stunning collection of jeans ranging from rugged ripped denims to old-school high waist ones, flattering skinny fits to stylish flared jeans. Here's our online wardrobe featuring brands like Levis, TALLY WEiJL and Recap that offer a blend of comfort and laidback style." : ""}</h1>
+                    <h1 style={{ fontSize: "12px",textAlign:"center" }}>{text ? "WOMENS" : ""}</h1>
+                    <h1 style={{ fontSize: "30px", color: "grey",textAlign:"center" }}>{text==="womens"?"":text.toUpperCase()}</h1>
+                    <h1 style={{ fontSize: "13px", color: "grey", width: "90%", margin: "auto",padding:"5px" }}>{text === "kurta" ? "Ethnic elegance, a fusion of hues and a whirlwind of styles from much-loved ethnic wear brands – go ahead and explore all the women’s kurtas on AJIO! The collection comprises of all the latest trends – from asymmetric hems to traditional Ikat prints. +" : ""}</h1>
+                    <h1 style={{ fontSize: "13px", color: "grey", width: "90%", margin: "auto",padding:"5px" }}>{text === "saree" ? `Traditional, trendy, stylish and graceful, there’s no denying that a woman’s beauty is accentuated by a saree. When you are shopping online for designer sarees for festive occasions or regular sarees for casual ethnic wear, you won’t have to look further than AJIO. From gorgeous silk sarees to crisp cottons, you’ll be amazed with the selection from brands such as Indie` : ""}</h1>
+                    <h1 style={{ fontSize: "13px", color: "grey", width: "90%", margin: "auto",padding:"5px" }}>{text === "tshirt" ? `Funk up your style with our fashionable selection of tees! AJIO showcases stunning styles from vivid graphic prints to versatile geometric art, subtle florals to simple solid tees that are trendsetting collectibles from brands like Pantaloons,` : ""}</h1>
+                    <h1 style={{ fontSize: "13px", color: "grey", width: "90%", margin: "auto",padding:"5px" }}>{text === "jeans" ? "Make a dramatic first impression with our stunning collection of jeans ranging from rugged ripped denims to old-school high waist ones, flattering skinny fits to stylish flared jeans. Here's our online wardrobe featuring brands like Levis, TALLY WEiJL and Recap that offer a blend of comfort and laidback style." : ""}</h1>
                     <hr />
                     <div style={{ display: "flex", gap: "100px", justifyContent: "center" }}>
                         <div>
