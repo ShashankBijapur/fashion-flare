@@ -2374,8 +2374,48 @@
       "offerpricess": "468"
     }
   ],
-  "cart": [],
-  "wishlist": []
+  "cart": [
+    {
+      "href": "https://www.ajio.com/avaasa-mix-n-match-printed-round-neck-straight-kurta/p/441144424_navy",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20220505/da1j/6272cba7f997dd03e2948a8a/avaasa_mix_n%27_match_navy_blue_printed_round-neck_straight_kurta.jpg",
+      "brand": "AVAASA MIX N' MATCH",
+      "nameCls": "Printed Round-Neck Straight Kurta",
+      "price": "254",
+      "orginalprice": "499",
+      "discount": "(49% off)",
+      "offerpricess": 250,
+      "id": 1
+    },
+    {
+      "href": "https://www.ajio.com/gulmohar-jaipur-floral-embroidered-flared-kurta-/p/465518227_red",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20221229/eRcp/63acb0c4aeb269659c14a557/gulmohar_jaipur_red_floral_embroidered_flared_kurta_.jpg",
+      "brand": "GULMOHAR JAIPUR",
+      "nameCls": "Floral Embroidered Flared Kurta",
+      "price": "874",
+      "orginalprice": "2,299",
+      "discount": "(62% off)",
+      "offerpricess": 598,
+      "id": 4
+    }
+  ],
+  "wishlist": [
+    {
+      "id": 1,
+      "src": "https://assets.ajio.com/medias/sys_master/root/20230124/BHS4/63cf9cd8f997dd708e1e5537/puma_white_low-top_lace-up_sneakers.jpg",
+      "brand": "Puma",
+      "nameCls": "Low-Top Lace-Up Sneakers",
+      "price": "₹2,879",
+      "discount": "(36% off)",
+      "offer": "2,102"
+    },
+    {
+      "id": 2,
+      "src": "https://assets.ajio.com/medias/sys_master/root/20221109/u2JJ/636b8eddaeb269659c7f91b5/dennislingo_premium_attire_white_full_sleeves_slim_fit_shirt.jpg",
+      "brand": "DENNISLINGO PREMIUM ATTIRE",
+      "nameCls": "Full Sleeves Slim Fit Shirt",
+      "price": "₹684",
+      "discount": "(63% off)",
+      "offer": 481
+    }
+  ]
 }
-
-

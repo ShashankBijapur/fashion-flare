@@ -1,28 +1,30 @@
 import axios from 'axios'
-import React, { useState, useEffect } from 'react'
+import React, { useState, useEffect, useRef } from 'react'
 import { Box, Button, Checkbox, CheckboxGroup, Flex, Image, Stack, Text } from '@chakra-ui/react';
 import CartCard from './CartCard';
 import { Input } from '@chakra-ui/react'
 import { CheckIcon } from '@chakra-ui/icons'
 const Cart = () => {
     const [cart, setcart] = useState([])
+    const [count, setCount] = useState(1)
+    const ref = useRef()
 
     const getcartdata = () => {
-        // fet
         axios.get("http://localhost:8080/cart")
-            // .then(res=>res.json())
-            .then(res => setcart(res.data))
+            .then(res => {
+                setcart(res.data)
+                const total = cart.reduce((a1, a2) => {
+                    return Number(a1.price) + Number(a2.price)
+                })
+                ref.current = total
+            })
     }
+
     useEffect(() => {
         getcartdata()
     }, [cart]);
 
     console.log(cart)
-    // if (cart.length === 0) {
-    //     return (
-
-    //     )
-    // }
     return (
         <>
             {cart.length === 0 ?
@@ -79,7 +81,7 @@ const Cart = () => {
                             <Text fon textAlign={"left"}>My Bag({cart.length}item)</Text>
                             <Box border="1px solid rgb(238,238,238)" style={{ textAlign: "center" }}>
                                 {cart.map((item, index) =>
-                                    <CartCard item={item} key={index} />)}
+                                    <CartCard item={item} setCount={setCount} count={count} key={index} />)}
                             </Box>
                         </Box>
                         <Box width={"30%"} border="1px solid rgb(238,238,238)" bg={"rgb(250,250,250)"} padding="10px" marginTop={"30px"}>
@@ -88,7 +90,7 @@ const Cart = () => {
                                 <Text fontFamily={"Lora"} fontWeight="700" textAlign={"left"} color="rgb(51, 51, 51)">Order Details</Text>
                                 <Flex padding={"5px"} justifyContent={"space-between"} color="rgb(51, 51, 51)">
                                     <Text >Bag total</Text>
-                                    <Text>Bag total</Text>
+                                    <Text>{ref.current}</Text>
                                 </Flex>
                                 <Flex padding={"5px"} justifyContent={"space-between"} color="rgb(51, 51, 51)">
                                     <Text>bag discount</Text>

@@ -5,8 +5,12 @@ import { useNavigate } from 'react-router-dom'
 const Card = ({ id, src, brand, nameCls, price, discount, offer }) => {
     const navigate = useNavigate()
 
+    const product = { id, src, brand, nameCls, price, discount, offer }
+    
+
     const handleDetail = () => {
-        navigate(`/singlecard/${id}`)
+        navigate("/siglecard")
+        localStorage.setItem("ProductsDetails", JSON.stringify(product))
 
     }
     return (
