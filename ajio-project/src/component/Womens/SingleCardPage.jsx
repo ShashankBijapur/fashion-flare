@@ -7,16 +7,18 @@ import {
     Text,
 } from '@chakra-ui/react'
 import { Box, Button, Drawer, DrawerBody, DrawerContent, DrawerHeader, DrawerOverlay, Fade, Radio, RadioGroup, ScaleFade, Slide, SlideFade, Stack, useDisclosure } from '@chakra-ui/react'
-
+import { useDispatch } from 'react-redux'
 
 import DrawerExample from './Caurosal'
 
 import { useNavigate } from 'react-router-dom'
 import axios from 'axios'
 import Carousel from './Caurosal'
+import { postWishlist } from '../../redux/action'
 const SingleCardPage = () => {
     var product = JSON.parse(localStorage.getItem('ProductsDetails'))
     // console.log(user)
+    const dispatch = useDispatch()
     const { isOpen, onToggle } = useDisclosure()
     // const { isopen, onToggle } = useDisclosure()
     const [size, setSize] = useState('');
@@ -55,6 +57,8 @@ const SingleCardPage = () => {
             axios.post("http://localhost:8080/wishlist", product)
                 .then((r) => {
                     console.log(r.data)
+                    dispatch(postWishlist(r.data))
+                    
                 })
         }
         else if (text === false) {
@@ -63,18 +67,11 @@ const SingleCardPage = () => {
     }
 
     const addtobag = () => {
-        // let cartitem = [];
-        // cartitem.push(product)
-        // console.log(product)
-        // cartitem.push(...product)
-        // const cartitem={...product}
-        // localStorage.setItem("CartItems", JSON.stringify(cartitem))
-        // navigate("/cart")
-        // axios.post("")
         axios.post("http://localhost:8080/cart", product)
             .then((r) => {
                 // console.log("ok",r.data.data)
                 console.log(r.data)
+             
             })
         // .catch((e) => {
         //     dispatch(addProductreq())

@@ -3,16 +3,23 @@ import React, { useState, useEffect, useRef } from 'react'
 import { Box, Button, Checkbox, CheckboxGroup, Flex, Image, Stack, Text } from '@chakra-ui/react';
 import CartCard from './CartCard';
 import { Input } from '@chakra-ui/react'
+import { useDispatch } from "react-redux"
 import { CheckIcon } from '@chakra-ui/icons'
+import { getCartData } from '../../redux/action';
 const Cart = () => {
     const [cart, setcart] = useState([])
     const [count, setCount] = useState(1)
+    const dispatch = useDispatch()
+
+
     const ref = useRef()
 
     const getcartdata = () => {
         axios.get("http://localhost:8080/cart")
             .then(res => {
                 setcart(res.data)
+                dispatch(getCartData(res.data))
+
                 const total = cart.reduce((a1, a2) => {
                     return Number(a1.price) + Number(a2.price)
                 })

@@ -2376,26 +2376,15 @@
   ],
   "cart": [
     {
-      "href": "https://www.ajio.com/avaasa-mix-n-match-printed-round-neck-straight-kurta/p/441144424_navy",
-      "src": "https://assets.ajio.com/medias/sys_master/root/20220505/da1j/6272cba7f997dd03e2948a8a/avaasa_mix_n%27_match_navy_blue_printed_round-neck_straight_kurta.jpg",
-      "brand": "AVAASA MIX N' MATCH",
-      "nameCls": "Printed Round-Neck Straight Kurta",
-      "price": "254",
-      "orginalprice": "499",
-      "discount": "(49% off)",
-      "offerpricess": 250,
+      "href": "https://www.ajio.com/fashor-embroidered-round-neck-straight-kurta/p/465142808_pink",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20221012/RIRd/6346fd9ff997ddfdbd24735b/fashor_pink_embroidered_round-neck_straight_kurta.jpg",
+      "brand": "Fashor",
+      "nameCls": "Embroidered Round-Neck Straight Kurta",
+      "price": "1247",
+      "orginalprice": "2,899",
+      "discount": "(57% off)",
+      "offerpricess": 761,
       "id": 1
-    },
-    {
-      "href": "https://www.ajio.com/gulmohar-jaipur-floral-embroidered-flared-kurta-/p/465518227_red",
-      "src": "https://assets.ajio.com/medias/sys_master/root/20221229/eRcp/63acb0c4aeb269659c14a557/gulmohar_jaipur_red_floral_embroidered_flared_kurta_.jpg",
-      "brand": "GULMOHAR JAIPUR",
-      "nameCls": "Floral Embroidered Flared Kurta",
-      "price": "874",
-      "orginalprice": "2,299",
-      "discount": "(62% off)",
-      "offerpricess": 598,
-      "id": 4
     }
   ],
   "wishlist": [
@@ -2416,6 +2405,61 @@
       "price": "₹684",
       "discount": "(63% off)",
       "offer": 481
+    },
+    {
+      "href": "https://www.ajio.com/avaasa-mix-n-match-printed-round-neck-straight-kurta/p/441144424_navy",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20220505/da1j/6272cba7f997dd03e2948a8a/avaasa_mix_n%27_match_navy_blue_printed_round-neck_straight_kurta.jpg",
+      "brand": "AVAASA MIX N' MATCH",
+      "nameCls": "Printed Round-Neck Straight Kurta",
+      "price": "254",
+      "orginalprice": "499",
+      "discount": "(49% off)",
+      "offerpricess": 250,
+      "id": 3
+    },
+    {
+      "href": "https://www.ajio.com/avaasa-mix-n-match-printed-round-neck-straight-kurta/p/441144424_navy",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20220505/da1j/6272cba7f997dd03e2948a8a/avaasa_mix_n%27_match_navy_blue_printed_round-neck_straight_kurta.jpg",
+      "brand": "AVAASA MIX N' MATCH",
+      "nameCls": "Printed Round-Neck Straight Kurta",
+      "price": "254",
+      "orginalprice": "499",
+      "discount": "(49% off)",
+      "offerpricess": 250,
+      "id": 4
+    },
+    {
+      "href": "https://www.ajio.com/fashor-embroidered-round-neck-straight-kurta/p/465142808_pink",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20221012/RIRd/6346fd9ff997ddfdbd24735b/fashor_pink_embroidered_round-neck_straight_kurta.jpg",
+      "brand": "Fashor",
+      "nameCls": "Embroidered Round-Neck Straight Kurta",
+      "price": "1247",
+      "orginalprice": "2,899",
+      "discount": "(57% off)",
+      "offerpricess": 761,
+      "id": 5
+    },
+    {
+      "href": "https://www.ajio.com/fashor-embroidered-round-neck-straight-kurta/p/465142808_pink",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20221012/RIRd/6346fd9ff997ddfdbd24735b/fashor_pink_embroidered_round-neck_straight_kurta.jpg",
+      "brand": "Fashor",
+      "nameCls": "Embroidered Round-Neck Straight Kurta",
+      "price": "1247",
+      "orginalprice": "2,899",
+      "discount": "(57% off)",
+      "offerpricess": 761,
+      "id": 6
+    },
+    {
+      "href": "https://www.ajio.com/fashor-embroidered-round-neck-straight-kurta/p/465142808_pink",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20221012/RIRd/6346fd9ff997ddfdbd24735b/fashor_pink_embroidered_round-neck_straight_kurta.jpg",
+      "brand": "Fashor",
+      "nameCls": "Embroidered Round-Neck Straight Kurta",
+      "price": "1247",
+      "orginalprice": "2,899",
+      "discount": "(57% off)",
+      "offerpricess": 761,
+      "id": 7
     }
   ]
 }
