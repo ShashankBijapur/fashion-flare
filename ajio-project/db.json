@@ -221,7 +221,7 @@
       "offer": "1,610"
     }
   ],
-  "menCategory": [
+  "men": [
     {
       "id": 1,
       "rilrtl-products-list__link href": "https://www.ajio.com/dennislingo-premium-attire-full-sleeves-slim-fit-shirt/p/462323964_white",
@@ -311,7 +311,7 @@
       "offer": 481
     }
   ],
-  "menShirt": [
+  "menshirt": [
     {
       "id": 1,
       "rilrtl-products-list__link href": "https://www.ajio.com/jump-cuts-typographic-print-slim-fit-hooded-t-shirt-with-flap-pocket/p/465647923_black",
@@ -492,6 +492,396 @@
       "orginal-price": "₹1,299",
       "discount": "(60% off)",
       "offer-pricess": 338
+    }
+  ],
+  "menkurta": [
+    {
+      "id": 1,
+      "rilrtl-products-list__link href": "https://www.ajio.com/enchanted-drapes-shirt-kurta-with-mandarin-collar/p/461171559_brown",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20210404/BIiI/6069f125aeb269a9e34d1598/enchanted_drapes_brown_shirt_kurta_with_mandarin_collar.jpg",
+      "brand": "Enchanted Drapes",
+      "nameCls": "Shirt Kurta with Mandarin Collar",
+      "price": "₹611",
+      "orginal-price": "₹1,300",
+      "discount": "(53% off)",
+      "offer-pricess": 559
+    },
+    {
+      "id": 2,
+      "rilrtl-products-list__link href": "https://www.ajio.com/even-self-design-kurta-with-asymmetrical-cut/p/465461612_black",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20221220/zuax/63a0d9f8f997ddfdbde130cd/even_black_self-design_kurta_with_asymmetrical_cut.jpg",
+      "brand": "Even",
+      "nameCls": "Self-Design Kurta with Asymmetrical Cut",
+      "price": "₹858",
+      "orginal-price": "₹1,995",
+      "discount": "(57% off)",
+      "offer-pricess": 515
+    },
+    {
+      "id": 3,
+      "rilrtl-products-list__link href": "https://www.ajio.com/jompers-self-design-full-sleeve-long-kurta/p/464468199_green",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20220617/jwpI/62ac44b7f997dd03e286fa95/jompers_green_self-design_full-sleeve_long_kurta.jpg",
+      "brand": "JOMPERS",
+      "nameCls": "Self-design Full-Sleeve Long Kurta",
+      "price": "₹953",
+      "orginal-price": "₹1,799",
+      "discount": "(47% off)",
+      "offer-pricess": 846
+    },
+    {
+      "id": 4,
+      "rilrtl-products-list__link href": "https://www.ajio.com/azira-lace-accent-kurta-with-dupatta/p/462562820_pink",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20221123/m1wE/637e1a97f997ddfdbd93e8c8/azira_pink_lace_accent_kurta_with_dupatta.jpg",
+      "brand": "AZIRA",
+      "nameCls": "Lace Accent Kurta with Dupatta",
+      "price": "₹950",
+      "orginal-price": "₹1,899",
+      "discount": "(50% off)",
+      "offer-pricess": 684
+    },
+    {
+      "id": 5,
+      "rilrtl-products-list__link href": "https://www.ajio.com/see-designs-printed-long-kurta-with-insert-pocket/p/461716978_blue",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20210403/SHnM/6068a15b7cdb8c1f1479359f/see_designs_blue_printed_long_kurta_with_insert_pocket.jpg",
+      "brand": "See Designs",
+      "nameCls": "Printed Long Kurta with Insert Pocket",
+      "price": "₹770",
+      "orginal-price": "₹2,199",
+      "discount": "(65% off)",
+      "offer-pricess": 550
+    },
+    {
+      "id": 6,
+      "rilrtl-products-list__link href": "https://www.ajio.com/even-striped-long-kurta-with-patch-pocket/p/465455016_yellow",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20221219/I5hA/63a0a7eef997ddfdbddeff7c/even_yellow_striped_long_kurta_with_patch_pocket.jpg",
+      "brand": "Even",
+      "nameCls": "Striped Long Kurta with Patch Pocket",
+      "price": "₹663",
+      "orginal-price": "₹1,895",
+      "discount": "(65% off)",
+      "offer-pricess": 474
+    },
+    {
+      "id": 7,
+      "rilrtl-products-list__link href": "https://www.ajio.com/t-tabard-floral-print-long-kurta/p/461457017_beige",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20210403/EObW/606898deaeb269a9e3352668/t_tabard_beige_floral_print_long_kurta.jpg",
+      "brand": "T Tabard",
+      "nameCls": "Floral Print Long Kurta",
+      "price": "₹1,196",
+      "orginal-price": "₹2,599",
+      "discount": "(54% off)",
+      "offer-pricess": "1,195"
+    },
+    {
+      "id": 8,
+      "rilrtl-products-list__link href": "https://www.ajio.com/louis-monarch-shirt-kurta-with-mandarin-collar/p/465121205_white",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20221008/TP28/6340a17ff997ddfdbd10161b/louis_monarch_white_shirt_kurta_with_mandarin_collar.jpg",
+      "brand": "LOUIS MONARCH",
+      "nameCls": "Shirt Kurta with Mandarin Collar",
+      "price": "₹640",
+      "orginal-price": "₹1,599",
+      "discount": "(60% off)",
+      "offer-pricess": 576
+    },
+    {
+      "id": 9,
+      "rilrtl-products-list__link href": "https://www.ajio.com/ivoc-printed-slim-fit-shirt-kurta/p/461152508_maroon",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20220818/UPN5/62fde1f4aeb269176182b64d/ivoc_maroon_printed_slim_fit_shirt_kurta.jpg",
+      "brand": "iVOC",
+      "nameCls": "Printed Slim Fit Shirt Kurta",
+      "price": "₹874",
+      "orginal-price": "₹1,899",
+      "discount": "(54% off)",
+      "offer-pricess": 524
+    },
+    {
+      "id": 10,
+      "rilrtl-products-list__link href": "https://www.ajio.com/kuons-avenue-tailored-fit-short-kurta-with-button-placket/p/462765915_black",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20221125/XFti/63805d62f997ddfdbd9c88d3/kuons_avenue_black_tailored_fit_short_kurta_with_button_placket.jpg",
+      "brand": "Kuons Avenue",
+      "nameCls": "Tailored Fit Short Kurta with Button Placket",
+      "price": "₹920",
+      "orginal-price": "₹1,999",
+      "discount": "(54% off)",
+      "offer-pricess": 860
+    },
+    {
+      "id": 11,
+      "rilrtl-products-list__link href": "https://www.ajio.com/enchanted-drapes-textured-long-kurta-with-patch-pockets/p/461192653_red",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20210404/iOec/606a9129aeb269a9e3595cd2/enchanted_drapes_red_textured_long_kurta_with_patch_pockets.jpg",
+      "brand": "Enchanted Drapes",
+      "nameCls": "Textured Long Kurta with Patch Pockets",
+      "price": "₹637",
+      "orginal-price": "₹1,300",
+      "discount": "(51% off)",
+      "offer-pricess": 559
+    },
+    {
+      "id": 12,
+      "rilrtl-products-list__link href": "https://www.ajio.com/enchanted-drapes-shirt-kurta-with-patch-pocket/p/461168064_blue",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20210404/x2iQ/606a14547cdb8c1f14923bf3/enchanted_drapes_blue_shirt_kurta_with_patch_pocket.jpg",
+      "brand": "Enchanted Drapes",
+      "nameCls": "Shirt Kurta with Patch Pocket",
+      "price": "₹637",
+      "orginal-price": "₹1,300",
+      "discount": "(51% off)",
+      "offer-pricess": 559
+    },
+    {
+      "id": 13,
+      "rilrtl-products-list__link href": "https://www.ajio.com/even-cotton-kurta-with-insert-pocket-/p/465461536_purple",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20221220/mUaL/63a0d808aeb269659cf646fd/even_purple_cotton_kurta_with_insert_pocket_.jpg",
+      "brand": "Even",
+      "nameCls": "Cotton Kurta with Insert Pocket",
+      "price": "₹700",
+      "orginal-price": "₹1,945",
+      "discount": "(64% off)",
+      "offer-pricess": 486
+    },
+    {
+      "id": 14,
+      "rilrtl-products-list__link href": "https://www.ajio.com/sojanya-textured-long-kurta/p/461185769_black",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20210404/YUxc/606be24aaeb269a9e36eb967/sojanya_black_textured_long_kurta.jpg",
+      "brand": "SOJANYA",
+      "nameCls": "Textured Long Kurta",
+      "price": "₹1,769",
+      "orginal-price": "₹2,999",
+      "discount": "(41% off)",
+      "offer-pricess": "1,061"
+    },
+    {
+      "id": 15,
+      "rilrtl-products-list__link href": "https://www.ajio.com/molly--michel-full-sleeve-kurta-with-collar-neck/p/464097037_black",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20221207/LhFK/6390942baeb269659cdac500/molly_%26_michel_black_full-sleeve_kurta_with_collar-neck.jpg",
+      "brand": "MOLLY & MICHEL",
+      "nameCls": "Full-Sleeve Kurta with Collar-Neck",
+      "price": "₹858",
+      "orginal-price": "₹3,299",
+      "discount": "(74% off)",
+      "offer-pricess": 857
+    }
+  ],
+  "mensjeans":[
+    {
+      "id":1,
+      "rilrtl-products-list__link href": "https://www.ajio.com/studio-nexx-mid-rise-relaxed-fit-jeans/p/465171738_green",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20221019/uLvP/63500facaeb269659c4e1b6d/studio_nexx_green_mid-rise_relaxed_fit_jeans.jpg",
+      "brand": "STUDIO NEXX",
+      "nameCls": "Mid-Rise Relaxed Fit Jeans",
+      "price": "₹690",
+      "orginal-price": "₹1,499",
+      "discount": "(54% off)",
+      "offer-pricess": 414
+    },
+    {
+      "id":2,
+      "rilrtl-products-list__link href": "https://www.ajio.com/breakpoint-mid-wash-distressed-skinny-fit-jeans/p/420180406_blue",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20221031/BhDe/635fa5afaeb269659c651cad/breakpoint_blue_mid-wash_distressed_skinny_fit_jeans.jpg",
+      "brand": "BREAKPOINT",
+      "nameCls": "Mid-Wash Distressed Skinny Fit Jeans",
+      "price": "₹599",
+      "orginal-price": "₹999",
+      "discount": "(40% off)",
+      "offer-pricess": 500
+    },
+    {
+      "id":3,
+      "rilrtl-products-list__link href": "https://www.ajio.com/ketch-washed-distressed-slim-fit-jeans/p/469034396_indigo",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20211028/HTcx/6179b96ff997ddf8f1ee1c9e/ketch_indigo_washed_distressed_slim_fit_jeans.jpg",
+      "brand": "Ketch",
+      "nameCls": "Washed Distressed Slim Fit Jeans",
+      "price": "₹700",
+      "orginal-price": "₹1,749",
+      "discount": "(60% off)",
+      "offer-pricess": 699
+    },
+    {
+      "id":4,
+      "rilrtl-products-list__link href": "https://www.ajio.com/ivoc-solid-jogger-jeans-with-drawstring/p/461124442_black",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20220819/JvZZ/62fe8572aeb269176183f0dd/ivoc_black_solid_jogger_jeans_with_drawstring.jpg",
+      "brand": "iVOC",
+      "nameCls": "Solid Jogger Jeans with Drawstring",
+      "price": "₹1,025",
+      "orginal-price": "₹1,799",
+      "discount": "(43% off)",
+      "offer-pricess": 615
+    },
+    {
+      "id":5,
+      "rilrtl-products-list__link href": "https://www.ajio.com/ketch-tapered-fit-jeans/p/469034605_black",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20211029/eylY/617af222f997ddf8f1f01de9/ketch_black_tapered_fit_jeans.jpg",
+      "brand": "Ketch",
+      "nameCls": "Tapered Fit Jeans",
+      "price": "₹595",
+      "orginal-price": "₹1,749",
+      "discount": "(66% off)",
+      "offer-pricess": 594
+    },
+    {
+      "id":6,
+      "rilrtl-products-list__link href": "https://www.ajio.com/dnmx-lightly-washed-skinny-fit-jeans/p/441145396_black",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20220601/hpVk/62976010f997dd03e2596933/dnmx_black_lightly_washed_skinny_fit_jeans.jpg",
+      "brand": "DNMX",
+      "nameCls": "Lightly Washed Skinny Fit Jeans",
+      "price": "₹719",
+      "orginal-price": "₹899",
+      "discount": "(20% off)",
+      "offer-pricess": 718
+    },
+    {
+      "id":7,
+      "rilrtl-products-list__link href": "https://www.ajio.com/levis-513-mid-wash-slim-fit-jeans/p/469241910_blue",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20220908/Gz6D/631908edaeb269dbb378f99d/levis_navy_blue_513_mid_wash_slim_fit_jeans.jpg",
+      "brand": "LEVIS",
+      "nameCls": "513 Mid Wash Slim Fit Jeans",
+      "price": "₹2,484",
+      "orginal-price": "₹3,499",
+      "discount": "(29% off)",
+      "offer-pricess": "2,236"
+    },
+    {
+      "id":8,
+      "rilrtl-products-list__link href": "https://www.ajio.com/the-indian-garage-co-lightly-washed-slim-fit-jeans/p/460789301_blue",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20210316/OCHb/604faff7f997dd5c401154cb/the_indian_garage_co_blue_lightly_washed_slim_fit_jeans.jpg",
+      "brand": "The Indian Garage Co",
+      "nameCls": "Lightly Washed Slim Fit Jeans",
+      "price": "₹840",
+      "orginal-price": "₹1,999",
+      "discount": "(58% off)",
+      "offer-pricess": 700
+    },
+    {
+      "id":9,
+      "rilrtl-products-list__link href": "https://www.ajio.com/the-indian-garage-co-acid-wash-slim-fit-jeans/p/469157895_bluegold",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20220317/4ExL/62323f25aeb26921afded401/the_indian_garage_co_blue_acid-wash_slim_fit_jeans.jpg",
+      "brand": "The Indian Garage Co",
+      "nameCls": "Acid-Wash Slim Fit Jeans",
+      "price": "₹840",
+      "orginal-price": "₹1,999",
+      "discount": "(58% off)",
+      "offer-pricess": 780
+    },
+    {
+      "id":10,
+      "rilrtl-products-list__link href": "https://www.ajio.com/ragzo-washed-slim-jeans/p/462499674_grey",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20210723/PHAA/60fab6d8f997ddb312367807/ragzo_grey_washed_slim_jeans.jpg",
+      "brand": "RAGZO",
+      "nameCls": "Washed Slim Jeans",
+      "price": "₹893",
+      "orginal-price": "₹1,899",
+      "discount": "(53% off)",
+      "offer-pricess": 536
+    },
+    {
+      "id":11,
+      
+      "rilrtl-products-list__link href": "https://www.ajio.com/breakpoint-lightly-washed-distressed-slim-fit-jeans/p/420365704_blue",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20230213/cmjB/63e9d90baeb26924e369cf7b/breakpoint_blue_lightly_washed_distressed_slim_fit_jeans.jpg",
+      "brand": "BREAKPOINT",
+      "nameCls": "Lightly Washed Distressed Slim Fit Jeans",
+      "price": "₹479",
+      "orginal-price": "₹799",
+      "discount": "(40% off)",
+      "offer-pricess": 400
+    },
+    {
+      "id":12,
+      "rilrtl-products-list__link href": "https://www.ajio.com/the-indian-garage-co-washed-slim-fit-jeans/p/469009835_blue",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20211009/rVC7/61619257aeb2692b85c17bb9/the_indian_garage_co_blue_washed_slim_fit_jeans.jpg",
+      "brand": "The Indian Garage Co",
+      "nameCls": "Washed Slim Fit Jeans",
+      "price": "₹840",
+      "orginal-price": "₹1,999",
+      "discount": "(58% off)",
+      "offer-pricess": 780
+    },
+    {
+      "id":13,
+      "rilrtl-products-list__link href": "https://www.ajio.com/ragzo-lightly-washed-slim-fit-jeans/p/462492520_blue",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20210723/Edwy/60fab6cdf997ddb3123677c7/ragzo_blue_lightly_washed_slim_fit_jeans.jpg",
+      "brand": "RAGZO",
+      "nameCls": "Lightly Washed Slim Fit Jeans",
+      "price": "₹893",
+      "orginal-price": "₹1,899",
+      "discount": "(53% off)",
+      "offer-pricess": 536
+    },
+    {
+      "id":14,
+      "rilrtl-products-list__link href": "https://www.ajio.com/ketch-washed-slim-fit-jeans/p/469034506_blue",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20211123/ZZqz/619d14baf997ddf8f11555b3/ketch_blue_washed_slim_fit_jeans.jpg",
+      "brand": "Ketch",
+      "nameCls": "Washed Slim Fit Jeans",
+      "price": "₹595",
+      "orginal-price": "₹1,749",
+      "discount": "(66% off)",
+      "offer-pricess": 594
+    },
+    {
+      "id":15,
+      "rilrtl-products-list__link href": "https://www.ajio.com/lee-cooper-mid-rise-tapered-fit-jeans/p/441245149_black",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20220519/frf1/62861152aeb26921afa7c19c/lee_cooper_black_mid-rise_tapered_fit_jeans.jpg",
+      "brand": "Lee Cooper",
+      "nameCls": "Mid-Rise Tapered Fit Jeans",
+      "price": "₹980",
+      "orginal-price": "₹1,999",
+      "discount": "(51% off)",
+      "offer-pricess": 800
+    },
+    {
+      "id":16,
+      "rilrtl-products-list__link href": "https://www.ajio.com/u-s-polo-assn-slim-fit-cotton-jeans/p/469279446_black",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20221001/axDK/63373fa5f997ddfdbdfff68b/u.s._polo_assn._black_slim_fit_cotton_jeans.jpg",
+      "brand": "U.S. Polo Assn.",
+      "nameCls": "Slim Fit Cotton Jeans",
+      "price": "₹1,000",
+      "orginal-price": "₹2,499",
+      "discount": "(60% off)",
+      "offer-pricess": "1,000"
+    },
+    {
+      "id":17,
+      "rilrtl-products-list__link href": "https://www.ajio.com/lee-cooper-slim-jeans-with-roll-up-hem/p/441297887_ecru",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20220623/ahTY/62b4a41ef997dd03e29a3e9c/lee_cooper_white_slim_jeans_with_roll-up_hem.jpg",
+      "brand": "Lee Cooper",
+      "nameCls": "Slim Jeans with Roll-Up Hem",
+      "price": "₹882",
+      "orginal-price": "₹1,799",
+      "discount": "(51% off)",
+      "offer-pricess": 720
+    },
+    {
+      "id":18, 
+      "rilrtl-products-list__link href": "https://www.ajio.com/levis-511-light-wash-slim-fit-jeans/p/469241895_blue",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20220908/Q93j/6318f628aeb269dbb37898ce/levis_blue_511_light_wash_slim_fit_jeans.jpg",
+      "brand": "LEVIS",
+      "nameCls": "511 Light Wash Slim Fit Jeans",
+      "price": "₹2,484",
+      "orginal-price": "₹3,499",
+      "discount": "(29% off)",
+      "offer-pricess": "2,236"
+    },
+    {
+      "id":19,
+      "rilrtl-products-list__link href": "https://www.ajio.com/campus-sutra-mid-wash-relaxed-fit-jeans/p/462113004_blue",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20210403/J5Uv/6068eef6aeb269a9e33ba92a/campus_sutra_blue_mid-wash_relaxed_fit_jeans.jpg",
+      "brand": "Campus Sutra",
+      "nameCls": "Mid-Wash Relaxed Fit Jeans",
+      "price": "₹836",
+      "orginal-price": "₹1,899",
+      "discount": "(56% off)",
+      "offer-pricess": 502
+    },
+    {
+      "id":20,
+      "rilrtl-products-list__link href": "https://www.ajio.com/levis-517-mid-rise-slim-fit-bootcut-jeans/p/469241870_grey",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20220804/Mr3o/62ebec22f997dd03e222c608/levis_grey_517_mid-rise_slim_fit_bootcut_jeans.jpg",
+      "brand": "LEVIS",
+      "nameCls": "517 Mid-Rise Slim Fit Bootcut Jeans",
+      "price": "₹2,127",
+      "orginal-price": "₹3,799",
+      "discount": "(44% off)",
+      "offer-pricess": "1,914"
     }
   ],
   "Kids": [
@@ -2387,79 +2777,5 @@
       "id": 1
     }
   ],
-  "wishlist": [
-    {
-      "id": 1,
-      "src": "https://assets.ajio.com/medias/sys_master/root/20230124/BHS4/63cf9cd8f997dd708e1e5537/puma_white_low-top_lace-up_sneakers.jpg",
-      "brand": "Puma",
-      "nameCls": "Low-Top Lace-Up Sneakers",
-      "price": "₹2,879",
-      "discount": "(36% off)",
-      "offer": "2,102"
-    },
-    {
-      "id": 2,
-      "src": "https://assets.ajio.com/medias/sys_master/root/20221109/u2JJ/636b8eddaeb269659c7f91b5/dennislingo_premium_attire_white_full_sleeves_slim_fit_shirt.jpg",
-      "brand": "DENNISLINGO PREMIUM ATTIRE",
-      "nameCls": "Full Sleeves Slim Fit Shirt",
-      "price": "₹684",
-      "discount": "(63% off)",
-      "offer": 481
-    },
-    {
-      "href": "https://www.ajio.com/avaasa-mix-n-match-printed-round-neck-straight-kurta/p/441144424_navy",
-      "src": "https://assets.ajio.com/medias/sys_master/root/20220505/da1j/6272cba7f997dd03e2948a8a/avaasa_mix_n%27_match_navy_blue_printed_round-neck_straight_kurta.jpg",
-      "brand": "AVAASA MIX N' MATCH",
-      "nameCls": "Printed Round-Neck Straight Kurta",
-      "price": "254",
-      "orginalprice": "499",
-      "discount": "(49% off)",
-      "offerpricess": 250,
-      "id": 3
-    },
-    {
-      "href": "https://www.ajio.com/avaasa-mix-n-match-printed-round-neck-straight-kurta/p/441144424_navy",
-      "src": "https://assets.ajio.com/medias/sys_master/root/20220505/da1j/6272cba7f997dd03e2948a8a/avaasa_mix_n%27_match_navy_blue_printed_round-neck_straight_kurta.jpg",
-      "brand": "AVAASA MIX N' MATCH",
-      "nameCls": "Printed Round-Neck Straight Kurta",
-      "price": "254",
-      "orginalprice": "499",
-      "discount": "(49% off)",
-      "offerpricess": 250,
-      "id": 4
-    },
-    {
-      "href": "https://www.ajio.com/fashor-embroidered-round-neck-straight-kurta/p/465142808_pink",
-      "src": "https://assets.ajio.com/medias/sys_master/root/20221012/RIRd/6346fd9ff997ddfdbd24735b/fashor_pink_embroidered_round-neck_straight_kurta.jpg",
-      "brand": "Fashor",
-      "nameCls": "Embroidered Round-Neck Straight Kurta",
-      "price": "1247",
-      "orginalprice": "2,899",
-      "discount": "(57% off)",
-      "offerpricess": 761,
-      "id": 5
-    },
-    {
-      "href": "https://www.ajio.com/fashor-embroidered-round-neck-straight-kurta/p/465142808_pink",
-      "src": "https://assets.ajio.com/medias/sys_master/root/20221012/RIRd/6346fd9ff997ddfdbd24735b/fashor_pink_embroidered_round-neck_straight_kurta.jpg",
-      "brand": "Fashor",
-      "nameCls": "Embroidered Round-Neck Straight Kurta",
-      "price": "1247",
-      "orginalprice": "2,899",
-      "discount": "(57% off)",
-      "offerpricess": 761,
-      "id": 6
-    },
-    {
-      "href": "https://www.ajio.com/fashor-embroidered-round-neck-straight-kurta/p/465142808_pink",
-      "src": "https://assets.ajio.com/medias/sys_master/root/20221012/RIRd/6346fd9ff997ddfdbd24735b/fashor_pink_embroidered_round-neck_straight_kurta.jpg",
-      "brand": "Fashor",
-      "nameCls": "Embroidered Round-Neck Straight Kurta",
-      "price": "1247",
-      "orginalprice": "2,899",
-      "discount": "(57% off)",
-      "offerpricess": 761,
-      "id": 7
-    }
-  ]
+  "wishlist":[]
 }
