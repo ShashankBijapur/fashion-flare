@@ -23,7 +23,7 @@ const Card = ({ id, src, brand, nameCls, price, discount, offer }) => {
                     <div>{brand}</div>
                     <div>{nameCls}</div>
                     <div> {price}</div>
-                    <div>Offer price Rs {offer} </div>
+                    <div>Offer price {offer} </div>
                 </div>
 
             </div>

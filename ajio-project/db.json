@@ -1,5 +1,5 @@
 {
-  "mensNew": [
+  "mens": [
     {
       "id": 1,
       "rilrtl-products-list__link href": "https://www.ajio.com/puma-low-top-lace-up-sneakers/p/465654605_white",
@@ -221,7 +221,7 @@
       "offer": "1,610"
     }
   ],
-  "menCategory": [
+  "menmen": [
     {
       "id": 1,
       "rilrtl-products-list__link href": "https://www.ajio.com/dennislingo-premium-attire-full-sleeves-slim-fit-shirt/p/462323964_white",
@@ -311,271 +311,1206 @@
       "offer": 481
     }
   ],
-  "menShirt": [
+  "menshirt": [
     {
       "id": 1,
       "rilrtl-products-list__link href": "https://www.ajio.com/jump-cuts-typographic-print-slim-fit-hooded-t-shirt-with-flap-pocket/p/465647923_black",
-      "src": "https://assets.ajio.com/medias/sys_master/root/20220901/ARH5/6310ee67f997dd1f8dd3e3fd/eyebogler_teal_colour-blocked_polo_t-shirt.jpg",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20220324/hmQq/623c6fdef997dd03e22cd5a7/campus_sutra_blue_checked_shirt_with_patch_pocket.jpg",
       "brand": "JUMP CUTS",
       "nameCls": "Typographic Print Slim Fit Hooded T-Shirt with Flap Pocket",
       "price": "₹410",
       "orginal-price": "₹1,519",
       "discount": "(73% off)",
-      "offer-pricess": 409
+      "offer": 409
     },
     {
+      "id": 2,
       "rilrtl-products-list__link href": "https://www.ajio.com/eyebogler-colour-blocked-polo-t-shirt/p/464918983_blue",
-      "src": "https://assets.ajio.com/medias/sys_master/root/20220901/ARH5/6310ee67f997dd1f8dd3e3fd/eyebogler_teal_colour-blocked_polo_t-shirt.jpg",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20220513/5arK/627e2306aeb26921af76b77c/the_bear_house_maroon_slim_fit_checked_shirt.jpg",
       "brand": "EYEBOGLER",
       "nameCls": "Colour-Blocked Polo T-shirt",
       "price": "₹403",
       "orginal-price": "₹1,299",
       "discount": "(69% off)",
-      "offer-pricess": 338
+      "offer": 338
     },
     {
+      "id": 3,
       "rilrtl-products-list__link href": "https://www.ajio.com/ausk-striped-crew-neck-t-shirt/p/464531848_navy",
-      "src": "https://assets.ajio.com/medias/sys_master/root/20220901/ARH5/6310ee67f997dd1f8dd3e3fd/eyebogler_teal_colour-blocked_polo_t-shirt.jpg",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20221109/u2JJ/636b8eddaeb269659c7f91b5/dennislingo_premium_attire_white_full_sleeves_slim_fit_shirt.jpg",
       "brand": "AUSK",
       "nameCls": "Striped Crew-Neck T-shirt",
       "price": "₹360",
       "orginal-price": "₹999",
       "discount": "(64% off)",
-      "offer-pricess": 260
+      "offer": 260
     },
     {
+      "id": 4,
       "rilrtl-products-list__link href": "https://www.ajio.com/stellers-polo-t-shirt-with-brand-print/p/464979926_grey",
-      "src": "https://assets.ajio.com/medias/sys_master/root/20220901/ARH5/6310ee67f997dd1f8dd3e3fd/eyebogler_teal_colour-blocked_polo_t-shirt.jpg",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20221117/2r8w/6375d715aeb269659c97f84a/dennislingo_premium_attire_green_striped_slim_fit_shirt.jpg",
       "brand": "Stellers",
       "nameCls": "Polo T-shirt with Brand Print",
       "price": "₹800",
       "orginal-price": "₹1,999",
       "discount": "(60% off)",
-      "offer-pricess": 520
+      "offer": 520
     },
     {
+      "id": 5,
       "rilrtl-products-list__link href": "https://www.ajio.com/teamspirit-popcorn-crew-neck-t-shirt/p/441146987_green",
-      "src": "https://assets.ajio.com/medias/sys_master/root/20220901/ARH5/6310ee67f997dd1f8dd3e3fd/eyebogler_teal_colour-blocked_polo_t-shirt.jpg",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20230102/R0me/63b30ae3aeb269659c1e4f01/dennislingo_premium_attire_pink_full_sleeves_slim_fit_classic_shirt.jpg",
       "brand": "Teamspirit",
       "nameCls": "Popcorn Crew-Neck T-Shirt",
       "price": "₹382",
       "orginal-price": "₹449",
       "discount": "(15% off)",
-      "offer-pricess": 255
+      "offer": 255
     },
     {
+      "id": 6,
       "rilrtl-products-list__link href": "https://www.ajio.com/damensch-lounge-crew-neck-t-shirt/p/463139014_green",
-      "src": "https://assets.ajio.com/medias/sys_master/root/20220901/ARH5/6310ee67f997dd1f8dd3e3fd/eyebogler_teal_colour-blocked_polo_t-shirt.jpg",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20221117/CXZZ/6375d74faeb269659c97fe85/dennislingo_premium_attire_black__slim_fit_shirt_with_spread_collar.jpg",
       "brand": "DAMENSCH",
       "nameCls": "Lounge Crew-Neck T-shirt",
       "price": "₹401",
       "orginal-price": "₹599",
       "discount": "(33% off)",
-      "offer-pricess": 401
+      "offer": 401
     },
     {
+      "id": 7,
       "rilrtl-products-list__link href": "https://www.ajio.com/ausk-striped-crew-neck-t-shirt/p/464957923_white",
-      "src": "https://assets.ajio.com/medias/sys_master/root/20220901/ARH5/6310ee67f997dd1f8dd3e3fd/eyebogler_teal_colour-blocked_polo_t-shirt.jpg",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20221109/SI6r/636b8e9af997ddfdbd663ee4/dennislingo_premium_attire_blue_checked_slim_fit_shirt.jpg",
       "brand": "AUSK",
       "nameCls": "Striped Crew-Neck T-shirt",
       "price": "₹350",
       "orginal-price": "₹999",
       "discount": "(65% off)",
-      "offer-pricess": 260
+      "offer": 260
     },
     {
+      "id": 8,
       "rilrtl-products-list__link href": "https://www.ajio.com/eyebogler-striped-polo-t-shirt/p/461951230_green",
-      "src": "https://assets.ajio.com/medias/sys_master/root/20220901/ARH5/6310ee67f997dd1f8dd3e3fd/eyebogler_teal_colour-blocked_polo_t-shirt.jpg",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20230102/wJfs/63b2fe3eaeb269659c1e09e8/dennislingo_premium_attire_green_full_sleeves_slim_fit_shirt.jpg",
       "brand": "EYEBOGLER",
       "nameCls": "Striped Polo T-shirt",
       "price": "₹442",
       "orginal-price": "₹1,299",
       "discount": "(66% off)",
-      "offer-pricess": 338
+      "offer": 338
     },
     {
+      "id": 9,
       "rilrtl-products-list__link href": "https://www.ajio.com/difference-of-opinion-graphic-print-crew-neck-oversized-t-shirt/p/464270251_olive",
-      "src": "https://assets.ajio.com/medias/sys_master/root/20220901/ARH5/6310ee67f997dd1f8dd3e3fd/eyebogler_teal_colour-blocked_polo_t-shirt.jpg",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20220819/Qm9w/62fe856aaeb269176183efe0/ivoc_black_slim_fit_shirt_with_patch_pocket.jpg",
       "brand": "DIFFERENCE OF OPINION",
       "nameCls": "Graphic Print Crew-Neck Oversized T-shirt",
       "price": "₹494",
       "orginal-price": "₹1,299",
       "discount": "(62% off)",
-      "offer-pricess": 338
+      "offer": 338
     },
     {
+      "id": 10,
       "rilrtl-products-list__link href": "https://www.ajio.com/stellers-slim-fit-polo-t-shirt/p/464179937_green",
-      "src": "https://assets.ajio.com/medias/sys_master/root/20220901/ARH5/6310ee67f997dd1f8dd3e3fd/eyebogler_teal_colour-blocked_polo_t-shirt.jpg",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20211023/6Qlf/617313e1aeb2690110a3e315/the_indian_garage_co_white_slim_fit_striped_shirt_with_patch_pocket.jpg",
       "brand": "Stellers",
       "nameCls": "Slim Fit Polo T-shirt",
       "price": "₹800",
       "orginal-price": "₹1,999",
       "discount": "(60% off)",
-      "offer-pricess": 520
+      "offer": 520
     },
     {
+      "id": 11,
       "rilrtl-products-list__link href": "https://www.ajio.com/cantabil-logo-print-t-shirt-with-collar/p/465108673_navy",
-      "src": "https://assets.ajio.com/medias/sys_master/root/20220901/ARH5/6310ee67f997dd1f8dd3e3fd/eyebogler_teal_colour-blocked_polo_t-shirt.jpg",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20220121/XNDG/61ea64b3aeb2695cdd24fb24/gespo_black_shirt_with_curved_hemline.jpg",
       "brand": "Cantabil",
       "nameCls": "Logo Print T-Shirt with Collar",
       "price": "₹520",
       "orginal-price": "₹1,299",
       "discount": "(60% off)",
-      "offer-pricess": 338
+      "offer": 338
     },
     {
+      "id": 12,
       "rilrtl-products-list__link href": "https://www.ajio.com/damensch-ombre-dyed-crew-neck-t-shirt/p/463139050_white",
-      "src": "https://assets.ajio.com/medias/sys_master/root/20220901/ARH5/6310ee67f997dd1f8dd3e3fd/eyebogler_teal_colour-blocked_polo_t-shirt.jpg",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20220513/2a7U/627e22b4f997dd03e2b9a1f2/the_bear_house_blue_checked_button-down_shirt.jpg",
       "brand": "DAMENSCH",
       "nameCls": "Ombre-dyed Crew-Neck T-shirt",
       "price": "₹599",
       "orginal-price": "₹799",
       "discount": "(25% off)",
-      "offer-pricess": 599
+      "offer": 599
     },
     {
+      "id": 13,
       "rilrtl-products-list__link href": "https://www.ajio.com/dillinger-colourblock-crew-neck-t-shirt/p/462102870_green",
-      "src": "https://assets.ajio.com/medias/sys_master/root/20220901/ARH5/6310ee67f997dd1f8dd3e3fd/eyebogler_teal_colour-blocked_polo_t-shirt.jpg",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20220513/uxVC/627e237cf997dd03e2b9b21b/the_bear_house_grey_checked_slim_fit_shirt_with_patch_pocket.jpg",
       "brand": "DILLINGER",
       "nameCls": "Colourblock Crew- Neck T-shirt",
       "price": "₹500",
       "orginal-price": "₹1,249",
       "discount": "(60% off)",
-      "offer-pricess": 462
+      "offer": 462
     },
     {
+      "id": 14,
       "rilrtl-products-list__link href": "https://www.ajio.com/jump-cuts-typographic-print-crew-neck-t-shirt/p/465194215_white",
-      "src": "https://assets.ajio.com/medias/sys_master/root/20220901/ARH5/6310ee67f997dd1f8dd3e3fd/eyebogler_teal_colour-blocked_polo_t-shirt.jpg",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20210421/Cx4f/60803f7caeb269a9e39b4074/the_indian_garage_co_navy_blue_checked_slim_fit_shirt_with_button-down_collar.jpg",
       "brand": "JUMP CUTS",
       "nameCls": "Typographic Print Crew-Neck T-Shirt",
       "price": "₹400",
       "orginal-price": "₹1,599",
       "discount": "(75% off)",
-      "offer-pricess": 400
+      "offer": 400
     },
     {
+      "id": 15,
       "rilrtl-products-list__link href": "https://www.ajio.com/eyebogler-colour-blocked-polo-t-shirt/p/464918983_pink",
-      "src": "https://assets.ajio.com/medias/sys_master/root/20220901/ARH5/6310ee67f997dd1f8dd3e3fd/eyebogler_teal_colour-blocked_polo_t-shirt.jpg",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20220513/OWCN/627e26ddaeb26921af770461/the_bear_house_purple_textured_slim_fit_shirt_with_patch_pocket.jpg",
       "brand": "EYEBOGLER",
       "nameCls": "Colour-Blocked Polo T-shirt",
       "price": "₹403",
       "orginal-price": "₹1,299",
       "discount": "(69% off)",
-      "offer-pricess": 338
-    },
-    {
-      "rilrtl-products-list__link href": "https://www.ajio.com/altheory-striped-crew-neck-t-shirt/p/441195016_black",
-      "src": "https://assets.ajio.com/medias/sys_master/root/20220901/ARH5/6310ee67f997dd1f8dd3e3fd/eyebogler_teal_colour-blocked_polo_t-shirt.jpg",
-      "brand": "ALTHEORY",
-      "nameCls": "Striped Crew-Neck T-shirt",
-      "price": "₹400",
-      "orginal-price": "₹799",
-      "discount": "(50% off)",
-      "offer-pricess": 400
-    },
-    {
-      "rilrtl-products-list__link href": "https://www.ajio.com/dnmx-slim-fit-cotton-henley-t-shirt/p/441147352_jetblack",
-      "src": "https://assets.ajio.com/medias/sys_master/root/20220901/ARH5/6310ee67f997dd1f8dd3e3fd/eyebogler_teal_colour-blocked_polo_t-shirt.jpg",
-      "brand": "DNMX",
-      "nameCls": "Slim Fit Cotton Henley T-shirt",
-      "price": "₹480",
-      "orginal-price": "₹999",
-      "discount": "(52% off)",
-      "offer-pricess": 340
-    },
-    {
-      "rilrtl-products-list__link href": "https://www.ajio.com/cantabil-polo-t-shirt-with-logo-embroidery/p/465087788_blue",
-      "src": "https://assets.ajio.com/medias/sys_master/root/20220901/ARH5/6310ee67f997dd1f8dd3e3fd/eyebogler_teal_colour-blocked_polo_t-shirt.jpg",
-      "brand": "Cantabil",
-      "nameCls": "Polo T-Shirt with Logo Embroidery",
-      "price": "₹520",
-      "orginal-price": "₹1,299",
-      "discount": "(60% off)",
-      "offer-pricess": 338
+      "offer": 338
     }
   ],
-  "Kids": [
+  "menkurta": [
     {
       "id": 1,
-      "title": "disney",
-      "image": "https://assets.ajio.com/medias/sys_master/root/20210426/4jrW/6086b755aeb269a9e3a15573/disney__daisy_duck_round-neck_t-shirt.jpg",
-      "des": "daisy duck round-neck T-Shirt",
-      "price": "75",
-      "offer": "75"
+      "rilrtl-products-list__link href": "https://www.ajio.com/enchanted-drapes-shirt-kurta-with-mandarin-collar/p/461171559_brown",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20210404/BIiI/6069f125aeb269a9e34d1598/enchanted_drapes_brown_shirt_kurta_with_mandarin_collar.jpg",
+      "brand": "Enchanted Drapes",
+      "nameCls": "Shirt Kurta with Mandarin Collar",
+      "price": "₹611",
+      "orginal-price": "₹1,300",
+      "discount": "(53% off)",
+      "offer": 559
     },
     {
       "id": 2,
-      "title": "Disney",
-      "image": "https://assets.ajio.com/medias/sys_master/root/20210323/AFXb/6059e624aeb269a9e324ea6d/disney__team_princess_print_crew-neck_t-shirt.jpg",
-      "des": "Team Princess Print-Nexk T-Shirt",
-      "price": "75",
-      "offer": "75"
+      "rilrtl-products-list__link href": "https://www.ajio.com/even-self-design-kurta-with-asymmetrical-cut/p/465461612_black",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20221220/zuax/63a0d9f8f997ddfdbde130cd/even_black_self-design_kurta_with_asymmetrical_cut.jpg",
+      "brand": "Even",
+      "nameCls": "Self-Design Kurta with Asymmetrical Cut",
+      "price": "₹858",
+      "orginal-price": "₹1,995",
+      "discount": "(57% off)",
+      "offer": 515
     },
     {
       "id": 3,
-      "title": "KG Frendz",
-      "image": "https://assets.ajio.com/medias/sys_master/root/20220531/6JiM/62962fdbf997dd03e2509ff2/kg_frendz_multicoloured_floral_print_dungaree_with_t-shirt.jpg",
-      "des": "Floral print dungaree with T-Shirt",
-      "price": "432",
-      "offer": "306"
+      "rilrtl-products-list__link href": "https://www.ajio.com/jompers-self-design-full-sleeve-long-kurta/p/464468199_green",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20220617/jwpI/62ac44b7f997dd03e286fa95/jompers_green_self-design_full-sleeve_long_kurta.jpg",
+      "brand": "JOMPERS",
+      "nameCls": "Self-design Full-Sleeve Long Kurta",
+      "price": "₹953",
+      "orginal-price": "₹1,799",
+      "discount": "(47% off)",
+      "offer": 846
     },
     {
       "id": 4,
-      "title": "kb team spirit",
-      "image": "https://assets.ajio.com/medias/sys_master/root/20220609/kSRw/62a205daf997dd03e26f536b/kb_team_spirit_blue_printed_t-shirt_%26_pyjamas_set.jpg",
-      "des": "printed T-shirt Pyjamas set",
-      "price": "331",
-      "offer": "221"
+      "rilrtl-products-list__link href": "https://www.ajio.com/azira-lace-accent-kurta-with-dupatta/p/462562820_pink",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20221123/m1wE/637e1a97f997ddfdbd93e8c8/azira_pink_lace_accent_kurta_with_dupatta.jpg",
+      "brand": "AZIRA",
+      "nameCls": "Lace Accent Kurta with Dupatta",
+      "price": "₹950",
+      "orginal-price": "₹1,899",
+      "discount": "(50% off)",
+      "offer": 684
     },
     {
       "id": 5,
-      "title": "KG Frendz",
-      "image": "https://assets.ajio.com/medias/sys_master/root/20220718/cfRN/62d57c8af997dd03e2dbfbff/kg_frendz_navy_blue_printed_tulle_fit_%26_flare_dress_with_belt.jpg",
-      "des": "Printed Tille fit & flare dress with belt",
-      "price": "432",
-      "offer": "306"
+      "rilrtl-products-list__link href": "https://www.ajio.com/see-designs-printed-long-kurta-with-insert-pocket/p/461716978_blue",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20210403/SHnM/6068a15b7cdb8c1f1479359f/see_designs_blue_printed_long_kurta_with_insert_pocket.jpg",
+      "brand": "See Designs",
+      "nameCls": "Printed Long Kurta with Insert Pocket",
+      "price": "₹770",
+      "orginal-price": "₹2,199",
+      "discount": "(65% off)",
+      "offer": 550
     },
     {
       "id": 6,
-      "title": "other characters",
-      "image": "https://assets.ajio.com/medias/sys_master/root/20210619/HmNi/60cced99f997ddb312d12b90/other_characters_blue_graphic_print_crew-neck_t-shirt.jpg",
-      "des": "Graphic print crew-Neck T-Shirt",
-      "price": "75",
-      "offer": "75"
+      "rilrtl-products-list__link href": "https://www.ajio.com/even-striped-long-kurta-with-patch-pocket/p/465455016_yellow",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20221219/I5hA/63a0a7eef997ddfdbddeff7c/even_yellow_striped_long_kurta_with_patch_pocket.jpg",
+      "brand": "Even",
+      "nameCls": "Striped Long Kurta with Patch Pocket",
+      "price": "₹663",
+      "orginal-price": "₹1,895",
+      "discount": "(65% off)",
+      "offer": 474
     },
     {
       "id": 7,
-      "title": "KG frendz",
-      "image": "https://assets.ajio.com/medias/sys_master/root/20220530/EcD2/629483e7aeb26921aff1a7ed/kg_frendz_yellow_floral_print_dungaree_with_waist_tie-up.jpg",
-      "des": "Fibral print dungaree waist Tie-up",
-      "price": "288",
-      "offer": "204"
+      "rilrtl-products-list__link href": "https://www.ajio.com/t-tabard-floral-print-long-kurta/p/461457017_beige",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20210403/EObW/606898deaeb269a9e3352668/t_tabard_beige_floral_print_long_kurta.jpg",
+      "brand": "T Tabard",
+      "nameCls": "Floral Print Long Kurta",
+      "price": "₹1,196",
+      "orginal-price": "₹2,599",
+      "discount": "(54% off)",
+      "offer": "1,195"
     },
     {
       "id": 8,
-      "title": "rio girls",
-      "image": "https://assets.ajio.com/medias/sys_master/root/20220906/xKbl/631764b8f997dd1f8de77ff5/rio_girls_green_polka-dot_print_pleated_culottes.jpg",
-      "des": "Polks-dot Printed Pleated Culottes",
-      "price": "336",
-      "offer": "238"
+      "rilrtl-products-list__link href": "https://www.ajio.com/louis-monarch-shirt-kurta-with-mandarin-collar/p/465121205_white",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20221008/TP28/6340a17ff997ddfdbd10161b/louis_monarch_white_shirt_kurta_with_mandarin_collar.jpg",
+      "brand": "LOUIS MONARCH",
+      "nameCls": "Shirt Kurta with Mandarin Collar",
+      "price": "₹640",
+      "orginal-price": "₹1,599",
+      "discount": "(60% off)",
+      "offer": 576
     },
     {
       "id": 9,
-      "title": "disney",
-      "image": "https://assets.ajio.com/medias/sys_master/root/20210415/ckT4/607835aeaeb269a9e3926016/disney__the_little_mermaid_round-neck_t-shirt.jpg",
-      "des": "the little mermaid round Neck T-shirt",
-      "price": "135",
-      "offer": "135"
+      "rilrtl-products-list__link href": "https://www.ajio.com/ivoc-printed-slim-fit-shirt-kurta/p/461152508_maroon",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20220818/UPN5/62fde1f4aeb269176182b64d/ivoc_maroon_printed_slim_fit_shirt_kurta.jpg",
+      "brand": "iVOC",
+      "nameCls": "Printed Slim Fit Shirt Kurta",
+      "price": "₹874",
+      "orginal-price": "₹1,899",
+      "discount": "(54% off)",
+      "offer": 524
     },
     {
       "id": 10,
-      "title": "Kb team spirit",
-      "image": "https://assets.ajio.com/medias/sys_master/root/20201216/5YLK/5fda1615aeb269d56340dd1a/kb_team_spirit_orange_numeric_print_henley_t-shirt.jpg",
-      "des": "Numeric Print Henley T-Shirt",
-      "price": "127",
-      "offer": "125"
+      "rilrtl-products-list__link href": "https://www.ajio.com/kuons-avenue-tailored-fit-short-kurta-with-button-placket/p/462765915_black",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20221125/XFti/63805d62f997ddfdbd9c88d3/kuons_avenue_black_tailored_fit_short_kurta_with_button_placket.jpg",
+      "brand": "Kuons Avenue",
+      "nameCls": "Tailored Fit Short Kurta with Button Placket",
+      "price": "₹920",
+      "orginal-price": "₹1,999",
+      "discount": "(54% off)",
+      "offer": 860
+    },
+    {
+      "id": 11,
+      "rilrtl-products-list__link href": "https://www.ajio.com/enchanted-drapes-textured-long-kurta-with-patch-pockets/p/461192653_red",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20210404/iOec/606a9129aeb269a9e3595cd2/enchanted_drapes_red_textured_long_kurta_with_patch_pockets.jpg",
+      "brand": "Enchanted Drapes",
+      "nameCls": "Textured Long Kurta with Patch Pockets",
+      "price": "₹637",
+      "orginal-price": "₹1,300",
+      "discount": "(51% off)",
+      "offer": 559
+    },
+    {
+      "id": 12,
+      "rilrtl-products-list__link href": "https://www.ajio.com/enchanted-drapes-shirt-kurta-with-patch-pocket/p/461168064_blue",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20210404/x2iQ/606a14547cdb8c1f14923bf3/enchanted_drapes_blue_shirt_kurta_with_patch_pocket.jpg",
+      "brand": "Enchanted Drapes",
+      "nameCls": "Shirt Kurta with Patch Pocket",
+      "price": "₹637",
+      "orginal-price": "₹1,300",
+      "discount": "(51% off)",
+      "offer": 559
+    },
+    {
+      "id": 13,
+      "rilrtl-products-list__link href": "https://www.ajio.com/even-cotton-kurta-with-insert-pocket-/p/465461536_purple",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20221220/mUaL/63a0d808aeb269659cf646fd/even_purple_cotton_kurta_with_insert_pocket_.jpg",
+      "brand": "Even",
+      "nameCls": "Cotton Kurta with Insert Pocket",
+      "price": "₹700",
+      "orginal-price": "₹1,945",
+      "discount": "(64% off)",
+      "offer": 486
+    },
+    {
+      "id": 14,
+      "rilrtl-products-list__link href": "https://www.ajio.com/sojanya-textured-long-kurta/p/461185769_black",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20210404/YUxc/606be24aaeb269a9e36eb967/sojanya_black_textured_long_kurta.jpg",
+      "brand": "SOJANYA",
+      "nameCls": "Textured Long Kurta",
+      "price": "₹1,769",
+      "orginal-price": "₹2,999",
+      "discount": "(41% off)",
+      "offer": "1,061"
+    },
+    {
+      "id": 15,
+      "rilrtl-products-list__link href": "https://www.ajio.com/molly--michel-full-sleeve-kurta-with-collar-neck/p/464097037_black",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20221207/LhFK/6390942baeb269659cdac500/molly_%26_michel_black_full-sleeve_kurta_with_collar-neck.jpg",
+      "brand": "MOLLY & MICHEL",
+      "nameCls": "Full-Sleeve Kurta with Collar-Neck",
+      "price": "₹858",
+      "orginal-price": "₹3,299",
+      "discount": "(74% off)",
+      "offer": 857
     }
   ],
+  "menjeans": [
+    {
+      "id": 1,
+      "rilrtl-products-list__link href": "https://www.ajio.com/studio-nexx-mid-rise-relaxed-fit-jeans/p/465171738_green",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20221019/uLvP/63500facaeb269659c4e1b6d/studio_nexx_green_mid-rise_relaxed_fit_jeans.jpg",
+      "brand": "STUDIO NEXX",
+      "nameCls": "Mid-Rise Relaxed Fit Jeans",
+      "price": "₹690",
+      "orginal-price": "₹1,499",
+      "discount": "(54% off)",
+      "offer": 414
+    },
+    {
+      "id": 2,
+      "rilrtl-products-list__link href": "https://www.ajio.com/breakpoint-mid-wash-distressed-skinny-fit-jeans/p/420180406_blue",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20221031/BhDe/635fa5afaeb269659c651cad/breakpoint_blue_mid-wash_distressed_skinny_fit_jeans.jpg",
+      "brand": "BREAKPOINT",
+      "nameCls": "Mid-Wash Distressed Skinny Fit Jeans",
+      "price": "₹599",
+      "orginal-price": "₹999",
+      "discount": "(40% off)",
+      "offer": 500
+    },
+    {
+      "id": 3,
+      "rilrtl-products-list__link href": "https://www.ajio.com/ketch-washed-distressed-slim-fit-jeans/p/469034396_indigo",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20211028/HTcx/6179b96ff997ddf8f1ee1c9e/ketch_indigo_washed_distressed_slim_fit_jeans.jpg",
+      "brand": "Ketch",
+      "nameCls": "Washed Distressed Slim Fit Jeans",
+      "price": "₹700",
+      "orginal-price": "₹1,749",
+      "discount": "(60% off)",
+      "offer": 699
+    },
+    {
+      "id": 4,
+      "rilrtl-products-list__link href": "https://www.ajio.com/ivoc-solid-jogger-jeans-with-drawstring/p/461124442_black",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20220819/JvZZ/62fe8572aeb269176183f0dd/ivoc_black_solid_jogger_jeans_with_drawstring.jpg",
+      "brand": "iVOC",
+      "nameCls": "Solid Jogger Jeans with Drawstring",
+      "price": "₹1,025",
+      "orginal-price": "₹1,799",
+      "discount": "(43% off)",
+      "offer": 615
+    },
+    {
+      "id": 5,
+      "rilrtl-products-list__link href": "https://www.ajio.com/ketch-tapered-fit-jeans/p/469034605_black",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20211029/eylY/617af222f997ddf8f1f01de9/ketch_black_tapered_fit_jeans.jpg",
+      "brand": "Ketch",
+      "nameCls": "Tapered Fit Jeans",
+      "price": "₹595",
+      "orginal-price": "₹1,749",
+      "discount": "(66% off)",
+      "offer": 594
+    },
+    {
+      "id": 6,
+      "rilrtl-products-list__link href": "https://www.ajio.com/dnmx-lightly-washed-skinny-fit-jeans/p/441145396_black",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20220601/hpVk/62976010f997dd03e2596933/dnmx_black_lightly_washed_skinny_fit_jeans.jpg",
+      "brand": "DNMX",
+      "nameCls": "Lightly Washed Skinny Fit Jeans",
+      "price": "₹719",
+      "orginal-price": "₹899",
+      "discount": "(20% off)",
+      "offer": 718
+    },
+    {
+      "id": 7,
+      "rilrtl-products-list__link href": "https://www.ajio.com/levis-513-mid-wash-slim-fit-jeans/p/469241910_blue",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20220908/Gz6D/631908edaeb269dbb378f99d/levis_navy_blue_513_mid_wash_slim_fit_jeans.jpg",
+      "brand": "LEVIS",
+      "nameCls": "513 Mid Wash Slim Fit Jeans",
+      "price": "₹2,484",
+      "orginal-price": "₹3,499",
+      "discount": "(29% off)",
+      "offer": "2,236"
+    },
+    {
+      "id": 8,
+      "rilrtl-products-list__link href": "https://www.ajio.com/the-indian-garage-co-lightly-washed-slim-fit-jeans/p/460789301_blue",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20210316/OCHb/604faff7f997dd5c401154cb/the_indian_garage_co_blue_lightly_washed_slim_fit_jeans.jpg",
+      "brand": "The Indian Garage Co",
+      "nameCls": "Lightly Washed Slim Fit Jeans",
+      "price": "₹840",
+      "orginal-price": "₹1,999",
+      "discount": "(58% off)",
+      "offer": 700
+    },
+    {
+      "id": 9,
+      "rilrtl-products-list__link href": "https://www.ajio.com/the-indian-garage-co-acid-wash-slim-fit-jeans/p/469157895_bluegold",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20220317/4ExL/62323f25aeb26921afded401/the_indian_garage_co_blue_acid-wash_slim_fit_jeans.jpg",
+      "brand": "The Indian Garage Co",
+      "nameCls": "Acid-Wash Slim Fit Jeans",
+      "price": "₹840",
+      "orginal-price": "₹1,999",
+      "discount": "(58% off)",
+      "offer": 780
+    },
+    {
+      "id": 10,
+      "rilrtl-products-list__link href": "https://www.ajio.com/ragzo-washed-slim-jeans/p/462499674_grey",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20210723/PHAA/60fab6d8f997ddb312367807/ragzo_grey_washed_slim_jeans.jpg",
+      "brand": "RAGZO",
+      "nameCls": "Washed Slim Jeans",
+      "price": "₹893",
+      "orginal-price": "₹1,899",
+      "discount": "(53% off)",
+      "offer": 536
+    },
+    {
+      "id": 11,
+      "rilrtl-products-list__link href": "https://www.ajio.com/breakpoint-lightly-washed-distressed-slim-fit-jeans/p/420365704_blue",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20230213/cmjB/63e9d90baeb26924e369cf7b/breakpoint_blue_lightly_washed_distressed_slim_fit_jeans.jpg",
+      "brand": "BREAKPOINT",
+      "nameCls": "Lightly Washed Distressed Slim Fit Jeans",
+      "price": "₹479",
+      "orginal-price": "₹799",
+      "discount": "(40% off)",
+      "offer": 400
+    },
+    {
+      "id": 12,
+      "rilrtl-products-list__link href": "https://www.ajio.com/the-indian-garage-co-washed-slim-fit-jeans/p/469009835_blue",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20211009/rVC7/61619257aeb2692b85c17bb9/the_indian_garage_co_blue_washed_slim_fit_jeans.jpg",
+      "brand": "The Indian Garage Co",
+      "nameCls": "Washed Slim Fit Jeans",
+      "price": "₹840",
+      "orginal-price": "₹1,999",
+      "discount": "(58% off)",
+      "offer": 780
+    },
+    {
+      "id": 13,
+      "rilrtl-products-list__link href": "https://www.ajio.com/ragzo-lightly-washed-slim-fit-jeans/p/462492520_blue",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20210723/Edwy/60fab6cdf997ddb3123677c7/ragzo_blue_lightly_washed_slim_fit_jeans.jpg",
+      "brand": "RAGZO",
+      "nameCls": "Lightly Washed Slim Fit Jeans",
+      "price": "₹893",
+      "orginal-price": "₹1,899",
+      "discount": "(53% off)",
+      "offer": 536
+    },
+    {
+      "id": 14,
+      "rilrtl-products-list__link href": "https://www.ajio.com/ketch-washed-slim-fit-jeans/p/469034506_blue",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20211123/ZZqz/619d14baf997ddf8f11555b3/ketch_blue_washed_slim_fit_jeans.jpg",
+      "brand": "Ketch",
+      "nameCls": "Washed Slim Fit Jeans",
+      "price": "₹595",
+      "orginal-price": "₹1,749",
+      "discount": "(66% off)",
+      "offer": 594
+    },
+    {
+      "id": 15,
+      "rilrtl-products-list__link href": "https://www.ajio.com/lee-cooper-mid-rise-tapered-fit-jeans/p/441245149_black",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20220519/frf1/62861152aeb26921afa7c19c/lee_cooper_black_mid-rise_tapered_fit_jeans.jpg",
+      "brand": "Lee Cooper",
+      "nameCls": "Mid-Rise Tapered Fit Jeans",
+      "price": "₹980",
+      "orginal-price": "₹1,999",
+      "discount": "(51% off)",
+      "offer": 800
+    },
+    {
+      "id": 16,
+      "rilrtl-products-list__link href": "https://www.ajio.com/u-s-polo-assn-slim-fit-cotton-jeans/p/469279446_black",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20221001/axDK/63373fa5f997ddfdbdfff68b/u.s._polo_assn._black_slim_fit_cotton_jeans.jpg",
+      "brand": "U.S. Polo Assn.",
+      "nameCls": "Slim Fit Cotton Jeans",
+      "price": "₹1,000",
+      "orginal-price": "₹2,499",
+      "discount": "(60% off)",
+      "offer": "1,000"
+    },
+    {
+      "id": 17,
+      "rilrtl-products-list__link href": "https://www.ajio.com/lee-cooper-slim-jeans-with-roll-up-hem/p/441297887_ecru",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20220623/ahTY/62b4a41ef997dd03e29a3e9c/lee_cooper_white_slim_jeans_with_roll-up_hem.jpg",
+      "brand": "Lee Cooper",
+      "nameCls": "Slim Jeans with Roll-Up Hem",
+      "price": "₹882",
+      "orginal-price": "₹1,799",
+      "discount": "(51% off)",
+      "offer": 720
+    },
+    {
+      "id": 18,
+      "rilrtl-products-list__link href": "https://www.ajio.com/levis-511-light-wash-slim-fit-jeans/p/469241895_blue",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20220908/Q93j/6318f628aeb269dbb37898ce/levis_blue_511_light_wash_slim_fit_jeans.jpg",
+      "brand": "LEVIS",
+      "nameCls": "511 Light Wash Slim Fit Jeans",
+      "price": "₹2,484",
+      "orginal-price": "₹3,499",
+      "discount": "(29% off)",
+      "offer": "2,236"
+    },
+    {
+      "id": 19,
+      "rilrtl-products-list__link href": "https://www.ajio.com/campus-sutra-mid-wash-relaxed-fit-jeans/p/462113004_blue",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20210403/J5Uv/6068eef6aeb269a9e33ba92a/campus_sutra_blue_mid-wash_relaxed_fit_jeans.jpg",
+      "brand": "Campus Sutra",
+      "nameCls": "Mid-Wash Relaxed Fit Jeans",
+      "price": "₹836",
+      "orginal-price": "₹1,899",
+      "discount": "(56% off)",
+      "offer": 502
+    },
+    {
+      "id": 20,
+      "rilrtl-products-list__link href": "https://www.ajio.com/levis-517-mid-rise-slim-fit-bootcut-jeans/p/469241870_grey",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20220804/Mr3o/62ebec22f997dd03e222c608/levis_grey_517_mid-rise_slim_fit_bootcut_jeans.jpg",
+      "brand": "LEVIS",
+      "nameCls": "517 Mid-Rise Slim Fit Bootcut Jeans",
+      "price": "₹2,127",
+      "orginal-price": "₹3,799",
+      "discount": "(44% off)",
+      "offer": "1,914"
+    }
+  ],
+  "kids": [
+    {
+      "id":1,
+      "rilrtl-products-list__link href": "https://www.ajio.com/trampoline-animal-printed-regular-fit-pyjamas/p/463229712_multi",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20221120/KULo/637a6478aeb269659c9e642d/trampoline_multicolor_animal__printed_regular_fit_pyjamas.jpg",
+      "brand": "Trampoline",
+      "nameCls": "Animal  Printed Regular Fit Pyjamas",
+      "price": "₹417",
+      "orginal-price": "₹969",
+      "discount": "(57% off)",
+      "offer-pricess": 250
+    },
+    {
+      "id":2,
+      "rilrtl-products-list__link href": "https://www.ajio.com/youbella-hair-accessories-set/p/6005636450_multi",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20220712/sBYb/62cd9298aeb26921af761464/youbella_pink_hair_accessories_set.jpg",
+      "brand": "Youbella",
+      "nameCls": "Hair Accessories Set",
+      "price": "₹330",
+      "orginal-price": "₹999",
+      "discount": "(67% off)",
+      "offer-pricess": 330
+    },
+    {
+      "id":3,
+      "rilrtl-products-list__link href": "https://www.ajio.com/niren-enterprise-embellished-round-neck-fit-and-flare-dress/p/465725160_black",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20230207/2R8b/63e21efaf997dd708e3fa077/niren_enterprise_black_embellished_round-neck_fit_and_flare_dress.jpg",
+      "brand": "NIREN ENTERPRISE",
+      "nameCls": "Embellished Round-Neck Fit and Flare Dress",
+      "price": "₹600",
+      "orginal-price": "₹1,999",
+      "discount": "(70% off)",
+      "offer-pricess": 560
+    },
+    {
+      "id":4,
+      "rilrtl-products-list__link href": "https://www.ajio.com/wotnot-washed-joggers-with-drawstring-fastening/p/441221007_midblue",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20220628/hQ1O/62bb160caeb26921af4d3153/wotnot_blue_washed_joggers_with_drawstring_fastening.jpg",
+      "brand": "Wotnot",
+      "nameCls": "Washed Joggers with Drawstring Fastening",
+      "price": "₹450",
+      "orginal-price": "₹899",
+      "discount": "(50% off)",
+      "offer-pricess": 450
+    },
+    {
+      "id":5,
+      "rilrtl-products-list__link href": "https://www.ajio.com/kg-frendz-floral-print-dungaree-with-t-shirt/p/441141706_white",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20220531/6JiM/62962fdbf997dd03e2509ff2/kg_frendz_multicoloured_floral_print_dungaree_with_t-shirt.jpg",
+      "brand": "KG FRENDZ",
+      "nameCls": "Floral Print Dungaree with T-shirt",
+      "price": "₹432",
+      "orginal-price": "₹899",
+      "discount": "(52% off)",
+      "offer-pricess": 306
+    },
+    {
+      "id":6,
+      "rilrtl-products-list__link href": "https://www.ajio.com/toonyport-typographic-print-t-shirt--shorts-set/p/464066884_blue",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20220325/YrEz/623cd5caf997dd03e22f2e78/toonyport_blue_typographic_print_t-shirt_%26_shorts_set.jpg",
+      "brand": "TOONYPORT",
+      "nameCls": "Typographic Print T-shirt & Shorts Set",
+      "price": "₹370",
+      "orginal-price": "₹739",
+      "discount": "(50% off)",
+      "offer-pricess": 222
+    },
+    {
+      "id":7,
+      "rilrtl-products-list__link href": "https://www.ajio.com/game-begins-striped-round-neck-t-shirt/p/469306713_yellow",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20221201/HCKX/6388ce3cf997ddfdbdb0461c/game_begins_yellow_striped_round-neck_t-shirt.jpg",
+      "brand": "GAME BEGINS",
+      "nameCls": "Striped Round-Neck T-Shirt",
+      "price": "₹160",
+      "orginal-price": "₹399",
+      "discount": "(60% off)",
+      "offer-pricess": 136
+    },
+    {
+      "id":8,
+      "rilrtl-products-list__link href": "https://www.ajio.com/toonyport-pack-of-2-graphic-print-pants--t-shirts-set/p/463692460_multi",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20220921/kivP/632b32b6f997dd1f8d11c7fd/toonyport_multicoloured_pack_of_2_graphic_print_pants_%26_t-shirts_set.jpg",
+      "brand": "TOONYPORT",
+      "nameCls": "Pack of 2 Graphic Print Pants & T-shirts Set",
+      "price": "₹587",
+      "orginal-price": "₹979",
+      "discount": "(40% off)",
+      "offer-pricess": 352
+    },
+    {
+      "id":9,
+      "rilrtl-products-list__link href": "https://www.ajio.com/trampoline-pack-of-3-heathered-joggers/p/463229016_multi",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20221120/BORf/637a6472aeb269659c9e631d/trampoline_multicoloured_pack_of_3_heathered_joggers.jpg",
+      "brand": "Trampoline",
+      "nameCls": "Pack of 3 Heathered Joggers",
+      "price": "₹733",
+      "orginal-price": "₹1,745",
+      "discount": "(58% off)",
+      "offer-pricess": 440
+    },
+    {
+      "id":10,
+      "rilrtl-products-list__link href": "https://www.ajio.com/inf-frendz-graphic-print-a-line-dress/p/441132618_orange",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20220315/q2AS/622f89baf997dd03e211b19c/inf_frendz_orange_graphic_print_a-line_dress.jpg",
+      "brand": "INF FRENDZ",
+      "nameCls": "Graphic Print A-line Dress",
+      "price": "₹90",
+      "orginal-price": "₹299",
+      "discount": "(70% off)",
+      "offer-pricess": 90
+    },
+    {
+      "id":11,
+      "rilrtl-products-list__link href": "https://www.ajio.com/disney-the-little-mermaid-round-neck-t-shirt/p/441118191_coral",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20210415/ckT4/607835aeaeb269a9e3926016/disney__the_little_mermaid_round-neck_t-shirt.jpg",
+      "brand": "DISNEY",
+      "nameCls": "The Little Mermaid Round-Neck T-shirt",
+      "price": "₹135",
+      "orginal-price": "₹449",
+      "discount": "(70% off)",
+      "offer-pricess": 135
+    },
+    {
+      "id":12,
+      "rilrtl-products-list__link href": "https://www.ajio.com/campus-slip-on-sandals-with-velcro-closure/p/469227594_navyblue",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20220803/Il6I/62ea8e79aeb26921afc2cc38/campus_navy_blue_slip-on_sandals_with_velcro_closure.jpg",
+      "brand": "Campus",
+      "nameCls": "Slip-On Sandals with Velcro Closure",
+      "price": "₹524",
+      "orginal-price": "₹749",
+      "discount": "(30% off)",
+      "offer-pricess": 442
+    },
+    {
+      "id":13,
+      "rilrtl-products-list__link href": "https://www.ajio.com/disney-minnie-mouse-sequinned-round-neck-t-shirt/p/441118247_navy",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20210415/oOWq/607832dbf997dd7b64b2dc4d/disney__minnie_mouse_sequinned_round-neck_t-shirt.jpg",
+      "brand": "DISNEY",
+      "nameCls": "Minnie Mouse Sequinned Round-Neck T-shirt",
+      "price": "₹135",
+      "orginal-price": "₹449",
+      "discount": "(70% off)",
+      "offer-pricess": 135
+    },
+    {
+      "id":14,
+      "rilrtl-products-list__link href": "https://www.ajio.com/kb-team-spirit-numeric-print-henley-t-shirt/p/441106109_orange",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20201216/5YLK/5fda1615aeb269d56340dd1a/kb_team_spirit_orange_numeric_print_henley_t-shirt.jpg",
+      "brand": "KB TEAM SPIRIT",
+      "nameCls": "Numeric Print Henley T-shirt",
+      "price": "₹127",
+      "orginal-price": "₹249",
+      "discount": "(49% off)",
+      "offer-pricess": 125
+    },
+    {
+      "id":15,
+      "rilrtl-products-list__link href": "https://www.ajio.com/dj--c-printed-crew-neck-t-shirt/p/441270226_offwhite",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20220929/soqa/6335ae5aaeb269dbb3b0811a/dj_%26_c_white_printed_crew-neck_t-shirt.jpg",
+      "brand": "DJ & C",
+      "nameCls": "Printed Crew-Neck T-Shirt",
+      "price": "₹177",
+      "orginal-price": "₹249",
+      "discount": "(29% off)",
+      "offer-pricess": 174
+    },
+    {
+      "id":16,
+      "rilrtl-products-list__link href": "https://www.ajio.com/kg-frendz-geometric-print-dungarees-with-welt-pockets/p/441131940_red",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20220107/bU1Y/61d86222aeb2695cdd09bd2d/kg_frendz_red_geometric_print_dungarees_with_welt_pockets.jpg",
+      "brand": "KG FRENDZ",
+      "nameCls": "Geometric Print Dungarees with Welt Pockets",
+      "price": "₹240",
+      "orginal-price": "₹799",
+      "discount": "(70% off)",
+      "offer-pricess": 240
+    },
+    {
+      "id":17,
+      "rilrtl-products-list__link href": "https://www.ajio.com/trampoline-pack-of-5-graphic-print-crew-meck-t-shirts/p/463188511_multi",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20230210/GKXk/63e600acf997dde6f49cf172/trampoline_multicoloured_pack_of_5_graphic_print_crew-meck_t-shirts.jpg",
+      "brand": "Trampoline",
+      "nameCls": "Pack of 5 Graphic Print Crew-Meck T-shirts",
+      "price": "₹639",
+      "orginal-price": "₹1,419",
+      "discount": "(55% off)",
+      "offer-pricess": 383
+    },
+    {
+      "id":18,
+      "rilrtl-products-list__link href": "https://www.ajio.com/naughty-ninos-embroidered-jumpsuit/p/462068039_blue",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20220601/r0Gy/6296ba94aeb26921af00e9fb/naughty_ninos_sea_blue_embroidered_jumpsuit.jpg",
+      "brand": "NAUGHTY NINOS",
+      "nameCls": "Embroidered Jumpsuit",
+      "price": "₹899",
+      "orginal-price": "₹1,499",
+      "discount": "(40% off)",
+      "offer-pricess": 898
+    }
+  ],
+  "kidboy":[
+  {
+    "id":1,
+    "rilrtl-products-list__link href": "https://www.ajio.com/trampoline-animal-printed-regular-fit-pyjamas/p/463229712_multi",
+    "src": "https://assets.ajio.com/medias/sys_master/root/20221120/KULo/637a6478aeb269659c9e642d/trampoline_multicolor_animal__printed_regular_fit_pyjamas.jpg",
+    "brand": "Trampoline",
+    "nameCls": "Animal  Printed Regular Fit Pyjamas",
+    "price": "₹417",
+    "orginal-price": "₹969",
+    "discount": "(57% off)",
+    "offer": 250
+  },
+  {
+    "id":2,
+    "rilrtl-products-list__link href": "https://www.ajio.com/disney-team-princess-print-crew-neck-t-shirt/p/441116951_yellow",
+    "src": "https://assets.ajio.com/medias/sys_master/root/20210323/AFXb/6059e624aeb269a9e324ea6d/disney__team_princess_print_crew-neck_t-shirt.jpg",
+    "brand": "DISNEY",
+    "nameCls": "Team Princess Print Crew-Neck T-shirt",
+    "price": "₹75",
+    "orginal-price": "₹249",
+    "discount": "(70% off)",
+    "offer": 75
+  },
+  {
+    "id":3,
+    "rilrtl-products-list__link href": "https://www.ajio.com/wotnot-washed-joggers-with-drawstring-fastening/p/441221007_midblue",
+    "src": "https://assets.ajio.com/medias/sys_master/root/20220628/hQ1O/62bb160caeb26921af4d3153/wotnot_blue_washed_joggers_with_drawstring_fastening.jpg",
+    "brand": "Wotnot",
+    "nameCls": "Washed Joggers with Drawstring Fastening",
+    "price": "₹450",
+    "orginal-price": "₹899",
+    "discount": "(50% off)",
+    "offer": 450
+  },
+  {
+    "id":4,
+    "rilrtl-products-list__link href": "https://www.ajio.com/disney-daisy-duck-round-neck-t-shirt/p/441116955_purple",
+    "src": "https://assets.ajio.com/medias/sys_master/root/20210426/4jrW/6086b755aeb269a9e3a15573/disney__daisy_duck_round-neck_t-shirt.jpg",
+    "brand": "DISNEY",
+    "nameCls": "Daisy Duck Round-Neck T-shirt",
+    "price": "₹75",
+    "orginal-price": "₹249",
+    "discount": "(70% off)",
+    "offer": 75
+  },
+  {
+    "id":5,
+    "rilrtl-products-list__link href": "https://www.ajio.com/toonyport-typographic-print-t-shirt--shorts-set/p/464066884_blue",
+    "src": "https://assets.ajio.com/medias/sys_master/root/20220325/YrEz/623cd5caf997dd03e22f2e78/toonyport_blue_typographic_print_t-shirt_%26_shorts_set.jpg",
+    "brand": "TOONYPORT",
+    "nameCls": "Typographic Print T-shirt & Shorts Set",
+    "price": "₹370",
+    "orginal-price": "₹739",
+    "discount": "(50% off)",
+    "offer": 222
+  },
+  {
+    "id":6,
+    "rilrtl-products-list__link href": "https://www.ajio.com/game-begins-striped-round-neck-t-shirt/p/469306713_yellow",
+    "src": "https://assets.ajio.com/medias/sys_master/root/20221201/HCKX/6388ce3cf997ddfdbdb0461c/game_begins_yellow_striped_round-neck_t-shirt.jpg",
+    "brand": "GAME BEGINS",
+    "nameCls": "Striped Round-Neck T-Shirt",
+    "price": "₹160",
+    "orginal-price": "₹399",
+    "discount": "(60% off)",
+    "offer": 136
+  },
+  {
+    "id":7,
+    "rilrtl-products-list__link href": "https://www.ajio.com/toonyport-pack-of-2-graphic-print-pants--t-shirts-set/p/463692460_multi",
+    "src": "https://assets.ajio.com/medias/sys_master/root/20220921/kivP/632b32b6f997dd1f8d11c7fd/toonyport_multicoloured_pack_of_2_graphic_print_pants_%26_t-shirts_set.jpg",
+    "brand": "TOONYPORT",
+    "nameCls": "Pack of 2 Graphic Print Pants & T-shirts Set",
+    "price": "₹587",
+    "orginal-price": "₹979",
+    "discount": "(40% off)",
+    "offer": 352
+  },
+  {
+    "id":8,
+    "rilrtl-products-list__link href": "https://www.ajio.com/trampoline-pack-of-3-heathered-joggers/p/463229016_multi",
+    "src": "https://assets.ajio.com/medias/sys_master/root/20221120/BORf/637a6472aeb269659c9e631d/trampoline_multicoloured_pack_of_3_heathered_joggers.jpg",
+    "brand": "Trampoline",
+    "nameCls": "Pack of 3 Heathered Joggers",
+    "price": "₹733",
+    "orginal-price": "₹1,745",
+    "discount": "(58% off)",
+    "offer": 440
+  },
+  {
+    "id":9,
+    "rilrtl-products-list__link href": "https://www.ajio.com/disney-the-little-mermaid-round-neck-t-shirt/p/441118191_coral",
+    "src": "https://assets.ajio.com/medias/sys_master/root/20210415/ckT4/607835aeaeb269a9e3926016/disney__the_little_mermaid_round-neck_t-shirt.jpg",
+    "brand": "DISNEY",
+    "nameCls": "The Little Mermaid Round-Neck T-shirt",
+    "price": "₹135",
+    "orginal-price": "₹449",
+    "discount": "(70% off)",
+    "offer": 135
+  },
+  {
+    "id":10,
+    "rilrtl-products-list__link href": "https://www.ajio.com/campus-slip-on-sandals-with-velcro-closure/p/469227594_navyblue",
+    "src": "https://assets.ajio.com/medias/sys_master/root/20220803/Il6I/62ea8e79aeb26921afc2cc38/campus_navy_blue_slip-on_sandals_with_velcro_closure.jpg",
+    "brand": "Campus",
+    "nameCls": "Slip-On Sandals with Velcro Closure",
+    "price": "₹524",
+    "orginal-price": "₹749",
+    "discount": "(30% off)",
+    "offer": 442
+  },
+  {
+    "id":11,
+    "rilrtl-products-list__link href": "https://www.ajio.com/disney-minnie-mouse-sequinned-round-neck-t-shirt/p/441118247_navy",
+    "src": "https://assets.ajio.com/medias/sys_master/root/20210415/oOWq/607832dbf997dd7b64b2dc4d/disney__minnie_mouse_sequinned_round-neck_t-shirt.jpg",
+    "brand": "DISNEY",
+    "nameCls": "Minnie Mouse Sequinned Round-Neck T-shirt",
+    "price": "₹135",
+    "orginal-price": "₹449",
+    "discount": "(70% off)",
+    "offer": 135
+  },
+  {
+    "id":12,
+    "rilrtl-products-list__link href": "https://www.ajio.com/kb-team-spirit-numeric-print-henley-t-shirt/p/441106109_orange",
+    "src": "https://assets.ajio.com/medias/sys_master/root/20201216/5YLK/5fda1615aeb269d56340dd1a/kb_team_spirit_orange_numeric_print_henley_t-shirt.jpg",
+    "brand": "KB TEAM SPIRIT",
+    "nameCls": "Numeric Print Henley T-shirt",
+    "price": "₹127",
+    "orginal-price": "₹249",
+    "discount": "(49% off)",
+    "offer": 125
+  },
+  {
+    "id":13,
+    "rilrtl-products-list__link href": "https://www.ajio.com/dj--c-printed-crew-neck-t-shirt/p/441270226_offwhite",
+    "src": "https://assets.ajio.com/medias/sys_master/root/20220929/soqa/6335ae5aaeb269dbb3b0811a/dj_%26_c_white_printed_crew-neck_t-shirt.jpg",
+    "brand": "DJ & C",
+    "nameCls": "Printed Crew-Neck T-Shirt",
+    "price": "₹177",
+    "orginal-price": "₹249",
+    "discount": "(29% off)",
+    "offer": 174
+  },
+  {
+    "id":14,
+    "rilrtl-products-list__link href": "https://www.ajio.com/trampoline-pack-of-5-graphic-print-crew-meck-t-shirts/p/463188511_multi",
+    "src": "https://assets.ajio.com/medias/sys_master/root/20230210/GKXk/63e600acf997dde6f49cf172/trampoline_multicoloured_pack_of_5_graphic_print_crew-meck_t-shirts.jpg",
+    "brand": "Trampoline",
+    "nameCls": "Pack of 5 Graphic Print Crew-Meck T-shirts",
+    "price": "₹639",
+    "orginal-price": "₹1,419",
+    "discount": "(55% off)",
+    "offer": 383
+  },
+  {
+    "id":15,
+    "rilrtl-products-list__link href": "https://www.ajio.com/kb-team-spirit-jogger-pants-with-zipper-pockets/p/441142418_grey",
+    "src": "https://assets.ajio.com/medias/sys_master/root/20220624/yOPL/62b57351f997dd03e29c6596/kb_team_spirit_grey_jogger_pants_with_zipper_pockets.jpg",
+    "brand": "KB TEAM SPIRIT",
+    "nameCls": "Jogger Pants with Zipper Pockets",
+    "price": "₹509",
+    "orginal-price": "₹599",
+    "discount": "(15% off)",
+    "offer": 479
+  },
+  {
+    "id":16,
+    "rilrtl-products-list__link href": "https://www.ajio.com/campus-low-top-slip-on-sports-shoes/p/469185407_darkgrey",
+    "src": "https://assets.ajio.com/medias/sys_master/root/20220628/QIjo/62ba0dcdaeb26921af4a0205/campus_dark_grey_low-top_slip-on_sports_shoes.jpg",
+    "brand": "Campus",
+    "nameCls": "Low-Top Slip-On Sports Shoes",
+    "price": "₹727",
+    "orginal-price": "₹1,119",
+    "discount": "(35% off)",
+    "offer": 654
+  },
+  {
+    "id":17,
+    "rilrtl-products-list__link href": "https://www.ajio.com/toonyport-graphic-shorts--t-shirt-set/p/464040969_red",
+    "src": "https://assets.ajio.com/medias/sys_master/root/20220921/x1Xi/632b2c9ff997dd1f8d119ec2/toonyport_red%2Cblue_graphic_shorts_%26_t-shirt_set.jpg",
+    "brand": "TOONYPORT",
+    "nameCls": "Graphic Shorts & T-shirt Set",
+    "price": "₹370",
+    "orginal-price": "₹739",
+    "discount": "(50% off)",
+    "offer": 222
+  },
+  {
+    "id":18,
+    "rilrtl-products-list__link href": "https://www.ajio.com/wotnot-mid-wash-jeans-with-elasticated-waist/p/441270387_blue",
+    "src": "https://assets.ajio.com/medias/sys_master/root/20220628/X4fq/62bb14aef997dd03e2a4b65d/wotnot_blue_mid-wash_jeans_with_elasticated_waist.jpg",
+    "brand": "Wotnot",
+    "nameCls": "Mid-Wash Jeans with Elasticated Waist",
+    "price": "₹450",
+    "orginal-price": "₹899",
+    "discount": "(50% off)",
+    "offer": 450
+  },
+  {
+    "id":19,
+    "rilrtl-products-list__link href": "https://www.ajio.com/crocs-bayaband-sandals-with-velcro-fastening/p/469062263_navy",
+    "src": "https://assets.ajio.com/medias/sys_master/root/20220110/yHZA/61dc4d4af997dd662317f209/crocs_navy_blue_bayaband_sandals_with_velcro_fastening.jpg",
+    "brand": "CROCS",
+    "nameCls": "Bayaband Sandals with Velcro Fastening",
+    "price": "₹1,572",
+    "orginal-price": "₹2,495",
+    "discount": "(37% off)",
+    "offer": "1,415"
+  },
+  {
+    "id":20,
+    "rilrtl-products-list__link href": "https://www.ajio.com/codez-typographic-print-crew-neck-t-shirt/p/464401210_black",
+    "src": "https://assets.ajio.com/medias/sys_master/root/20220530/kGLG/6294da0bf997dd03e2470612/codez_black_typographic_print_crew-neck_t-shirt.jpg",
+    "brand": "CODEZ",
+    "nameCls": "Typographic Print Crew-Neck T-shirt",
+    "price": "₹210",
+    "orginal-price": "₹999",
+    "discount": "(79% off)",
+    "offer": 210
+  }
+],
+"kidgirl":[
+  {
+    "id":1,
+    "rilrtl-products-list__link href": "https://www.ajio.com/youbella-hair-accessories-set/p/6005636450_multi",
+    "src": "https://assets.ajio.com/medias/sys_master/root/20220712/sBYb/62cd9298aeb26921af761464/youbella_pink_hair_accessories_set.jpg",
+    "brand": "Youbella",
+    "nameCls": "Hair Accessories Set",
+    "price": "₹330",
+    "orginal-price": "₹999",
+    "discount": "(67% off)",
+    "offer-pricess": 330
+  },
+  {
+    "id":2,
+    "rilrtl-products-list__link href": "https://www.ajio.com/niren-enterprise-embellished-round-neck-fit-and-flare-dress/p/465725160_black",
+    "src": "https://assets.ajio.com/medias/sys_master/root/20230207/2R8b/63e21efaf997dd708e3fa077/niren_enterprise_black_embellished_round-neck_fit_and_flare_dress.jpg",
+    "brand": "NIREN ENTERPRISE",
+    "nameCls": "Embellished Round-Neck Fit and Flare Dress",
+    "price": "₹600",
+    "orginal-price": "₹1,999",
+    "discount": "(70% off)",
+    "offer-pricess": 560
+  },
+  {
+    "id":3,
+    "rilrtl-products-list__link href": "https://www.ajio.com/kg-frendz-geometric-print-dungarees-with-welt-pockets/p/441131940_red",
+    "src": "https://assets.ajio.com/medias/sys_master/root/20220107/bU1Y/61d86222aeb2695cdd09bd2d/kg_frendz_red_geometric_print_dungarees_with_welt_pockets.jpg",
+    "brand": "KG FRENDZ",
+    "nameCls": "Geometric Print Dungarees with Welt Pockets",
+    "price": "₹240",
+    "orginal-price": "₹799",
+    "discount": "(70% off)",
+    "offer-pricess": 240
+  },
+  {
+    "id":4,
+    "rilrtl-products-list__link href": "https://www.ajio.com/trampoline-pack-of-5-graphic-print-round-neck-t-shirts/p/463070902_multi",
+    "src": "https://assets.ajio.com/medias/sys_master/root/20230210/9dw7/63e60216f997dde6f49d0292/trampoline_multicoloured_pack_of_5_graphic_print_round-neck_t-shirts.jpg",
+    "brand": "Trampoline",
+    "nameCls": "Pack of 5 Graphic Print Round-Neck T-shirts",
+    "price": "₹639",
+    "orginal-price": "₹1,419",
+    "discount": "(55% off)",
+    "offer-pricess": 383
+  },
+  {
+    "id":5,
+    "rilrtl-products-list__link href": "https://www.ajio.com/naughty-ninos-embroidered-jumpsuit/p/462068039_blue",
+    "src": "https://assets.ajio.com/medias/sys_master/root/20220601/r0Gy/6296ba94aeb26921af00e9fb/naughty_ninos_sea_blue_embroidered_jumpsuit.jpg",
+    "brand": "NAUGHTY NINOS",
+    "nameCls": "Embroidered Jumpsuit",
+    "price": "₹899",
+    "orginal-price": "₹1,499",
+    "discount": "(40% off)",
+    "offer-pricess": 898
+  },
+  {
+    "id":6,
+    "rilrtl-products-list__link href": "https://www.ajio.com/disney-printed-leggings-with-elasticated-waistband/p/441116949_pink",
+    "src": "https://assets.ajio.com/medias/sys_master/root/20210412/zCYf/60744593f997dd7b64ac47e2/disney_pink_printed_leggings_with_elasticated_waistband.jpg",
+    "brand": "DISNEY",
+    "nameCls": "Printed Leggings with Elasticated Waistband",
+    "price": "₹90",
+    "orginal-price": "₹299",
+    "discount": "(70% off)",
+    "offer-pricess": 90
+  },
+  {
+    "id":7,
+    "rilrtl-products-list__link href": "https://www.ajio.com/rio-girls-floral-print-leggings-with-elasticated-waistband/p/441136871_jetblack",
+    "src": "https://assets.ajio.com/medias/sys_master/root/20220107/ogdM/61d85670f997dd66231509d0/rio_girls_black_floral_print_leggings_with_elasticated_waistband.jpg",
+    "brand": "RIO GIRLS",
+    "nameCls": "Floral Print Leggings with Elasticated Waistband",
+    "price": "₹152",
+    "orginal-price": "₹299",
+    "discount": "(49% off)",
+    "offer-pricess": 150
+  },
+  {
+    "id":8,
+    "rilrtl-products-list__link href": "https://www.ajio.com/trampoline-pack-of-5-graphic-print-round-neck-t-shirt/p/463182895_multi",
+    "src": "https://assets.ajio.com/medias/sys_master/root/20221120/kDDr/637a6449aeb269659c9e5d6f/trampoline_multicoloured_pack_of_5_graphic_print_round-neck_t-shirt.jpg",
+    "brand": "Trampoline",
+    "nameCls": "Pack of 5 Graphic Print Round-Neck T-shirt",
+    "price": "₹639",
+    "orginal-price": "₹1,419",
+    "discount": "(55% off)",
+    "offer-pricess": 383
+  },
+  {
+    "id":9,
+    "rilrtl-products-list__link href": "https://www.ajio.com/kg-frendz-printed-dungaree-with-insert-pockets/p/441133968_peach",
+    "src": "https://assets.ajio.com/medias/sys_master/root/20220315/WPTM/622f89baf997dd03e211b19a/kg_frendz_peach_printed_dungaree_with_insert_pockets.jpg",
+    "brand": "KG FRENDZ",
+    "nameCls": "Printed Dungaree with Insert Pockets",
+    "price": "₹225",
+    "orginal-price": "₹749",
+    "discount": "(70% off)",
+    "offer-pricess": 225
+  },
+  {
+    "id":10,
+    "rilrtl-products-list__link href": "https://www.ajio.com/disney-frozen-print-round-neck-t-shirt/p/441117343_blue",
+    "src": "https://assets.ajio.com/medias/sys_master/root/20210412/2IIp/60744477aeb269a9e38c105c/disney__frozen_print_round-neck_t-shirt.jpg",
+    "brand": "DISNEY",
+    "nameCls": "Frozen Print Round-Neck T-shirt",
+    "price": "₹75",
+    "orginal-price": "₹249",
+    "discount": "(70% off)",
+    "offer-pricess": 75
+  },
+  {
+    "id":11,
+    "rilrtl-products-list__link href": "https://www.ajio.com/tior-floral-print-fit--flare-dress-with-bow-applique/p/464358017_white",
+    "src": "https://assets.ajio.com/medias/sys_master/root/20221212/Gf9E/63974daef997ddfdbdcd6724/tior_white_floral_print_fit_%26_flare_dress_with_bow_applique.jpg",
+    "brand": "Tior",
+    "nameCls": "Floral Print Fit & Flare Dress with Bow Applique",
+    "price": "₹600",
+    "orginal-price": "₹1,499",
+    "discount": "(60% off)",
+    "offer-pricess": 375
+  },
+  {
+    "id":12,
+    "rilrtl-products-list__link href": "https://www.ajio.com/kg-frendz-floral-print-round-neck-top/p/441134330_white",
+    "src": "https://assets.ajio.com/medias/sys_master/root/20220315/M9xs/622f94f1f997dd03e211f91e/kg_frendz_white_floral_print_round-neck_top.jpg",
+    "brand": "KG FRENDZ",
+    "nameCls": "Floral Print Round-Neck Top",
+    "price": "₹150",
+    "orginal-price": "₹499",
+    "discount": "(70% off)",
+    "offer-pricess": 150
+  },
+  {
+    "id":13,
+    "rilrtl-products-list__link href": "https://www.ajio.com/rio-girls-graphic-print-crew-neck-t-shirt/p/441117864_white",
+    "src": "https://assets.ajio.com/medias/sys_master/root/20210407/YIOz/606da602aeb269a9e38670a3/rio_girls__graphic_print_crew-neck_t-shirt.jpg",
+    "brand": "RIO GIRLS",
+    "nameCls": "Graphic Print Crew-Neck T-shirt",
+    "price": "₹90",
+    "orginal-price": "₹299",
+    "discount": "(70% off)",
+    "offer-pricess": 90
+  },
+  {
+    "id":14,
+    "rilrtl-products-list__link href": "https://www.ajio.com/kg-frendz-round-neck-top-with-tassels/p/441133079_yellow",
+    "src": "https://assets.ajio.com/medias/sys_master/root/20220301/EWXE/621e4655aeb26921afbf4a72/kg_frendz_yellow_round-neck_top_with_tassels.jpg",
+    "brand": "KG FRENDZ",
+    "nameCls": "Round-Neck Top with Tassels",
+    "price": "₹150",
+    "orginal-price": "₹499",
+    "discount": "(70% off)",
+    "offer-pricess": 150
+  },
+  {
+    "id":15,
+    "rilrtl-products-list__link href": "https://www.ajio.com/kg-frendz-printed-round-neck-top/p/441134325_blue",
+    "src": "https://assets.ajio.com/medias/sys_master/root/20220429/78gx/626beff5f997dd03e28a5867/kg_frendz_blue_printed_round-neck_top.jpg",
+    "brand": "KG FRENDZ",
+    "nameCls": "Printed Round-Neck Top",
+    "price": "₹210",
+    "orginal-price": "₹699",
+    "discount": "(70% off)",
+    "offer-pricess": 210
+  },
+  {
+    "id":16,
+    "rilrtl-products-list__link href": "https://www.ajio.com/pink-n-blue-graphic-print-round-neck-t-shirt/p/441273315_white",
+    "src": "",
+    "brand": "PINK N BLUE",
+    "nameCls": "Graphic Print Round-Neck T-Shirt",
+    "price": "₹86",
+    "orginal-price": "₹179",
+    "discount": "(52% off)",
+    "offer-pricess": 86
+  },
+  {
+    "id":17,
+    "rilrtl-products-list__link href": "https://www.ajio.com/rio-girls-heart-print-leggings-with-elasticated-waist/p/441143745_navy",
+    "src": "",
+    "brand": "RIO GIRLS",
+    "nameCls": "Heart Print Leggings with Elasticated Waist",
+    "price": "₹209",
+    "orginal-price": "₹299",
+    "discount": "(30% off)",
+    "offer-pricess": 150
+  },
+  {
+    "id":18,
+    "rilrtl-products-list__link href": "https://www.ajio.com/kg-frendz-cartoon-print-crew-neck-t-shirt/p/441141079_white",
+    "src": "",
+    "brand": "KG FRENDZ",
+    "nameCls": "Cartoon Print Crew-Neck T-shirt",
+    "price": "₹254",
+    "orginal-price": "₹299",
+    "discount": "(15% off)",
+    "offer-pricess": 239
+  },
+  {
+    "id":19,
+    "rilrtl-products-list__link href": "https://www.ajio.com/kg-frendz-square-neck-top-with-pom-poms/p/441132703_darkblue",
+    "src": "",
+    "brand": "KG FRENDZ",
+    "nameCls": "Square-Neck Top with Pom-Poms",
+    "price": "₹120",
+    "orginal-price": "₹399",
+    "discount": "(70% off)",
+    "offer-pricess": 120
+  },
+  {
+    "id":20,
+    "rilrtl-products-list__link href": "https://www.ajio.com/toonyport-floral-print-top--pants-set/p/465443093_navy",
+    "src": "",
+    "brand": "TOONYPORT",
+    "nameCls": "Floral Print Top & Pants Set",
+    "price": "₹588",
+    "orginal-price": "₹1,679",
+    "discount": "(65% off)",
+    "offer-pricess": 420
+  }
+],
   "kurta": [
     {
       "href": "https://www.ajio.com/gulmohar-jaipur-floral-embroidered-flared-kurta-/p/465518227_red",
@@ -2375,86 +3310,10 @@
     }
   ],
   "cart": [
-    {
-      "href": "https://www.ajio.com/silverfly-high-rise-stretch-pants/p/465581718_black",
-      "src": "https://assets.ajio.com/medias/sys_master/root/20230110/EWFJ/63bd2221f997dd708ef8e7d3/silverfly_black_high-rise_stretch_pants.jpg",
-      "brand": "Silverfly",
-      "nameCls": "High-Rise Stretch Pants",
-      "price": "420",
-      "orginalprice": "999",
-      "discount": 60,
-      "offerpricess": "340",
-      "id": 1
-    },
-    {
-      "href": "https://www.ajio.com/avaasa-mix-n-match-ankle-length-leggings-with-elasticated-waist/p/441020957_white",
-      "src": "https://assets.ajio.com/medias/sys_master/root/20230203/3WKG/63dce7e4f997dd708e36fade/avaasa_mix_n%27_match_white_ankle-length_leggings_with_elasticated_waist.jpg",
-      "brand": "AVAASA MIX N' MATCH",
-      "nameCls": "Ankle-Length Leggings with Elasticated Waist",
-      "price": "329",
-      "orginalprice": "399",
-      "discount": 10,
-      "offerpricess": "359",
-      "id": 2
+  
     }
   ],
-  "wishlist": [
-    {
-      "href": "https://www.ajio.com/zikaraa-banarasi-saree-with-floral-woven-motifs/p/465652365_black",
-      "src": "https://assets.ajio.com/medias/sys_master/root/20230124/SXdI/63ceed84f997dd708e1d5b98/zikaraa_black_banarasi_saree_with_floral_woven_motifs.jpg",
-      "brand": "ZIKARAA",
-      "nameCls": "Banarasi Saree with Floral Woven Motifs",
-      "price": "884",
-      "orginalprice": "2,599",
-      "discount": 66,
-      "offerpricess": "728",
-      "id": 1
-    },
-    {
-      "href": "https://www.ajio.com/gulmohar-jaipur-floral-embroidered-flared-kurta-/p/465518227_red",
-      "src": "https://assets.ajio.com/medias/sys_master/root/20221229/eRcp/63acb0c4aeb269659c14a557/gulmohar_jaipur_red_floral_embroidered_flared_kurta_.jpg",
-      "brand": "GULMOHAR JAIPUR",
-      "nameCls": "Floral Embroidered Flared Kurta",
-      "price": "874",
-      "orginalprice": "2,299",
-      "discount": 62,
-      "offerpricess": 598,
-      "id": 2
-    },
-    {
-      "href": "https://www.ajio.com/dwini--georgette-saree-with-sequence-lace-border-/p/464123799_grey",
-      "src": "https://assets.ajio.com/medias/sys_master/root/20220405/3o8e/624b622baeb26921af0b6bef/dwini_gy_2ck__georgette_saree_with_sequence_lace_border_.jpg",
-      "brand": "Dwini",
-      "nameCls": "Georgette Saree With Sequence Lace Border",
-      "price": "750",
-      "orginalprice": "2,499",
-      "discount": 70,
-      "offerpricess": "750",
-      "id": 3
-    },
-    {
-      "href": "https://www.ajio.com/gulmohar-jaipur-floral-embroidered-flared-kurta-/p/465518227_red",
-      "src": "https://assets.ajio.com/medias/sys_master/root/20221229/eRcp/63acb0c4aeb269659c14a557/gulmohar_jaipur_red_floral_embroidered_flared_kurta_.jpg",
-      "brand": "GULMOHAR JAIPUR",
-      "nameCls": "Floral Embroidered Flared Kurta",
-      "price": "874",
-      "orginalprice": "2,299",
-      "discount": 62,
-      "offerpricess": 598,
-      "id": 4
-    },
-    {
-      "href": "https://www.ajio.com/hawt-ankle-length-skinny-fit-jeans/p/420178157_black",
-      "src": "https://assets.ajio.com/medias/sys_master/root/20230111/ecIX/63be8fd0f997dd708efe4ba6/hawt_black_ankle-length_skinny_fit_jeans.jpg",
-      "brand": "HAWT",
-      "nameCls": "Ankle-Length Skinny Fit Jeans",
-      "price": "539",
-      "orginalprice": "899",
-      "discount": 40,
-      "offerpricess": "450",
-      "id": 5
-    }
-  ],
+  "wishlist": [],
   "similar": [
     {
       "href": "https://www.ajio.com/dnmx-mid-wash-skinny-fit-jeans/p/441148958_darkblue",

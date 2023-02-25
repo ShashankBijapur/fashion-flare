@@ -1,39 +1,43 @@
 import React, { useContext } from "react";
 import Logo from '../Images/fashionFlair.jpg';
 import { Box, Flex, Text, Image, Input, Button } from "@chakra-ui/react";
-import { BsFillBagCheckFill,BsFillSuitHeartFill } from "react-icons/bs";
+import { BsFillBagCheckFill, BsFillSuitHeartFill } from "react-icons/bs";
 import Menuitem from "./MenuItem";
 import { Link } from "react-router-dom";
 import { SidebarContext } from "../context/SidebarContextProvider";
 import { useNavigate } from "react-router-dom";
 import Logo2 from "../Images/fashion_flare.png"
+import { useSelector } from "react-redux";
 const Navbar = () => {
 
   let user = JSON.parse(localStorage.getItem("user"));
   let loginValue = JSON.parse(localStorage.getItem("loginValue"));
+  const store = useSelector(store => store.cart)
+  const wishlist = useSelector(store => store.wishlist)
+  // console.log(store,"cart")
 
   // console.log(user);
 
   const navigate = useNavigate();
 
-  const { login,setLogin,cartData, setCartData, cartLength, setCartLength, setCategory } =
+  const { login, setLogin, cartData, setCartData, cartLength, setCartLength, setCategory } =
     useContext(SidebarContext);
 
-    const handleLogout = () => {
+  const handleLogout = () => {
 
-      localStorage.removeItem("loginValue");
-      localStorage.removeItem("user");
-      navigate('/login')
-         
-    }
+    localStorage.removeItem("loginValue");
+    localStorage.removeItem("user");
+    navigate('/login')
 
-    const handleEnter=(e)=>{
-      if(e.key==="Enter"){
-          navigate(`/querypage/${e.target.value}`)
-           
-      }
   }
-    
+
+  const handleEnter = (e) => {
+    if (e.key === "Enter") {
+      navigate(`/querypage/${e.target.value}`)
+
+    }
+  }
+
 
   return (
     <div>
@@ -494,25 +498,25 @@ const Navbar = () => {
               {" "}
               <Input onKeyPress={handleEnter} placeholder={"SEARCH"} borderRadius="20px"></Input>
             </Box>
-            
-              <Box>
-                {/* <Button  >{login || user.name ? "LOGOUT" : "SIGN IN"}</Button> */}
-                {loginValue !== null ? <Button onClick={handleLogout} >LOGOUT</Button> : <Link to="/login" ><Button>Login</Button></Link> }
-              </Box>
-            
+
+            <Box>
+              {/* <Button  >{login || user.name ? "LOGOUT" : "SIGN IN"}</Button> */}
+              {loginValue !== null ? <Button onClick={handleLogout} >LOGOUT</Button> : <Link to="/login" ><Button>Login</Button></Link>}
+            </Box>
+
 
             {loginValue ? <Text as="b" >{user.name}</Text> : null}
             <Link to="/cart">
               <Box display="flex" gap={'2'}  >
                 <BsFillBagCheckFill style={{ fontSize: "30px" }} />
-                <Text alignSelf={"end"} as="b" >{cartLength}</Text>
+                <Text alignSelf={"end"} as="b" >{store.length}</Text>
               </Box>
             </Link>
 
             <Link to="/cart">
               <Box display="flex" gap={'2'}  >
                 <BsFillSuitHeartFill style={{ fontSize: "28px" }} />
-                <Text alignSelf={"end"} as="b" >{cartLength}</Text>
+                <Text alignSelf={"end"} as="b" >{wishlist.length}</Text>
               </Box>
             </Link>
           </Flex>

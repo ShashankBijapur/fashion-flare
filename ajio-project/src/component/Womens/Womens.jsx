@@ -1,14 +1,14 @@
 import React, { useState, useEffect } from 'react'
 import axios from 'axios';
 import CardPage from './WomensCard';
-import { Box } from '@chakra-ui/react';
+// import { Box } from '@chakra-ui/react';
 function Womens() {
     const [productType, setProductType] = useState('womens');
     const [products, setProducts] = useState([]);
     const [count, setcount] = useState(0)
     const [value, setValue] = useState("")
     const [text, settext] = useState("")
-    const [desc, setdesc] = useState("")
+    const [desc, setdesc] = useState("") 
 
 
     const getData = async (productType) => {
@@ -46,8 +46,6 @@ function Womens() {
     }, []);
     return (
         <>
-            {/* <h1>{    productType==="saree"? "SAREE":""}</h1> */}
-
             <div style={{ display: "flex", justifyContent: "center", width: "80%", margin: "auto" }}>
 
                 <div style={{ display: "flex", width: "20%", marginTop: "50px", color: "grey" }}>

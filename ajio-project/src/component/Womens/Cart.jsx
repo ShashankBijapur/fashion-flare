@@ -2,13 +2,22 @@ import axios from 'axios'
 import React, { useState, useEffect, useRef } from 'react'
 import { Box, Button, Checkbox, CheckboxGroup, Fade, Flex, Image, Stack, Text } from '@chakra-ui/react';
 import CartCard from './CartCard';
+
 import { Input, useDisclosure } from '@chakra-ui/react'
 import { CheckIcon } from '@chakra-ui/icons'
 import { Link, Navigate, useNavigate } from 'react-router-dom';
 import Paymentmodal from './Payments';
+
+import { Input } from '@chakra-ui/react'
+import { useDispatch } from "react-redux"
+ import { CheckIcon } from '@chakra-ui/icons'
+import { getCartData } from '../../redux/action';
+import { useDisclosure } from '@chakra-ui/react'
+import { useNavigate } from 'react-router-dom';
 const Cart = () => {
     const [cart, setcart] = useState([])
     const [count, setCount] = useState(1)
+    const dispatch = useDispatch()
     const ref = useRef()
     const navigate = useNavigate()
     const { isOpen, onToggle } = useDisclosure()
@@ -17,6 +26,8 @@ const Cart = () => {
         axios.get("http://localhost:8080/cart")
             .then(res => {
                 setcart(res.data)
+                dispatch(getCartData(res.data))
+
                 const total = cart.reduce((a1, a2) => {
                     return Number(a1.price) + Number(a2.price)
                 })
@@ -100,36 +111,20 @@ const Cart = () => {
                                 </Flex>
                                 <Flex padding={"5px"} justifyContent={"space-between"} color="rgb(51, 51, 51)">
                                     <Text>bag discount</Text>
-                                    <Text>{ref.current>=1000?"30%":"10%"}</Text>
+                                    <Text>{ref.current >= 1000 ? "30%" : "10%"}</Text>
 
                                 </Flex>
                                 <Flex>
 
-                                <Text padding={"5px"} textAlign={"left"}> Convience Fees {<>
-                                    <Text color={"teal"}  padding="1px" onClick={onToggle}>Whats this</Text>
-                                    <Fade in={isOpen}>
-                                        <Box
-                                            p='0.1px'
-                                            padding={"10px"}
-                                            color='black'
-                                            // mt='1'
-                                            bg='white'
-                                            rounded='md'
-                                            shadow='md'
-                                            width={300}
-                                            fontSize="10px"
-                                        >
-                                            Easy 15 days return and exchange. Return Policies may vary based on products and promotions. For full details on our Returns Policies, please click here․
-                                        </Box>
-                                    </Fade></>}</Text>
+
                                 </Flex>
                                 <Flex padding={"5px"} justifyContent={"space-between"} color="rgb(51, 51, 51)" >
                                     <Text>Delivery </Text>
-                                    <Text>{ref.current>=1000?"Free delivery":"Rs 99"}</Text>
+                                    <Text>{ref.current >= 1000 ? "Free delivery" : "Rs 99"}</Text>
                                 </Flex>
                                 <Flex padding={"5px"} justifyContent={"space-between"} fontWeight="600" color="rgb(51, 51, 51)" >
                                     <Text>Order total</Text>
-                                    <Text>{ref.current>=1000? ref.current:ref.current+99}</Text>
+                                    <Text>{ref.current >= 1000 ? ref.current : ref.current + 99}</Text>
                                 </Flex>
                                 <Paymentmodal total={ref.current}/>
                              {/* <Link to={"/payment"}>
