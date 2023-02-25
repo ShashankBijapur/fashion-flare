@@ -84,7 +84,7 @@ const CartCard = ({ item, setCount,count }) => {
                     <div >
                         <h1> Discount  Rs.{item.offerpricess}</h1>
                         {/* <h1></h1> */}
-                        <h1> Rs. {item.orginalprice} <span>{item.discount}</span> <span> Rs. {item.price * count}</span></h1>
+                        <h1> <p style={{textDecoration:"line-through"}}>Rs. {item.orginalprice}</p>  <span>{item.discount}%Off</span> <span> Rs. {item.price * count}</span></h1>
                     </div>
                     <div>
                         <div style={{ display: "flex", gap: "20px" }}>
