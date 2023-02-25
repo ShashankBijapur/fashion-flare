@@ -1,13 +1,16 @@
 import axios from 'axios'
 import React, { useState, useEffect, useRef } from 'react'
-import { Box, Button, Checkbox, CheckboxGroup, Flex, Image, Stack, Text } from '@chakra-ui/react';
+import { Box, Button, Checkbox, CheckboxGroup, Fade, Flex, Image, Stack, Text } from '@chakra-ui/react';
 import CartCard from './CartCard';
-import { Input } from '@chakra-ui/react'
+import { Input, useDisclosure } from '@chakra-ui/react'
 import { CheckIcon } from '@chakra-ui/icons'
+import { Navigate, useNavigate } from 'react-router-dom';
 const Cart = () => {
     const [cart, setcart] = useState([])
     const [count, setCount] = useState(1)
     const ref = useRef()
+    const navigate = useNavigate()
+    const { isOpen, onToggle } = useDisclosure()
 
     const getcartdata = () => {
         axios.get("http://localhost:8080/cart")
@@ -19,7 +22,9 @@ const Cart = () => {
                 ref.current = total
             })
     }
-
+    const handleclick = () => {
+        navigate("/")
+    }
     useEffect(() => {
         getcartdata()
     }, [cart]);
@@ -34,7 +39,7 @@ const Cart = () => {
                         <h1 style={{ padding: "20px", color: "rgb(88, 88, 88)", fontFamily: "SourceSansProSemiBold", fontWeight: "400" }}>Your Shopping Bag is Empty!!</h1>
                     </div>
 
-                    <Button bg={"rgb(213,162,73)"} padding="10px" color="white">Continue Shopping</Button>
+                    <Button onClick={handleclick} bg={"rgb(213,162,73)"} padding="10px" color="white">Continue Shopping</Button>
                     <Box margin="auto" padding={"40px"} >
                         <hr />
                         <Flex padding={"30px"} justifyContent={"space-around"} color="rgb(213,162,73)">
@@ -79,7 +84,7 @@ const Cart = () => {
                     <Flex width={"80%"} margin="auto" gap={"20px"}>
                         <Box width={"70%"} margin={"auto"} marginTop={"30px"}>
                             <Text fon textAlign={"left"}>My Bag({cart.length}item)</Text>
-                            <Box border="1px solid rgb(238,238,238)" style={{ textAlign: "center" }}>
+                            <Box style={{ textAlign: "center" }}>
                                 {cart.map((item, index) =>
                                     <CartCard item={item} setCount={setCount} count={count} key={index} />)}
                             </Box>
@@ -94,17 +99,35 @@ const Cart = () => {
                                 </Flex>
                                 <Flex padding={"5px"} justifyContent={"space-between"} color="rgb(51, 51, 51)">
                                     <Text>bag discount</Text>
-                                    <Text> ok</Text>
+                                    <Text>{ref.current>=1000?"30%":"10%"}</Text>
 
                                 </Flex>
-                                <Text padding={"5px"} textAlign={"left"}> Convience Fees {<Button color={"teal"}>Whats this?</Button>}</Text>
+                                <Flex>
+
+                                <Text padding={"5px"} textAlign={"left"}> Convience Fees {<>
+                                    <Text color={"teal"}  padding="1px" onClick={onToggle}>Whats this</Text>
+                                    <Fade in={isOpen}>
+                                        <Box
+                                            p='0.1px'
+                                            color='black'
+                                            // mt='1'
+                                            bg='white'
+                                            rounded='md'
+                                            shadow='md'
+                                            width={300}
+                                            fontSize="10px"
+                                        >
+                                            Easy 15 days return and exchange. Return Policies may vary based on products and promotions. For full details on our Returns Policies, please click here․
+                                        </Box>
+                                    </Fade></>}</Text>
+                                </Flex>
                                 <Flex padding={"5px"} justifyContent={"space-between"} color="rgb(51, 51, 51)" >
-                                    <Text>Deliveryy </Text>
-                                    <Text> fee</Text>
+                                    <Text>Delivery </Text>
+                                    <Text>{ref.current>=1000?"Free delivery":"Rs 99"}</Text>
                                 </Flex>
                                 <Flex padding={"5px"} justifyContent={"space-between"} fontWeight="600" color="rgb(51, 51, 51)" >
                                     <Text>Order total</Text>
-                                    <Text> Total</Text>
+                                    <Text>{ref.current>=1000? ref.current:ref.current+99}</Text>
                                 </Flex>
                                 <Button bg={"rgb(213,162,73)"} width="100%" padding={"15px"} color="white"> Proceed To ship</Button>
                             </Box>
@@ -148,7 +171,7 @@ const Cart = () => {
                                     <CheckboxGroup colorScheme='green' defaultValue={""}>
                                         <Stack spacing={[1, 5]} direction={['row', 'column']}>
                                             <hr />
-                                            <Checkbox value='naruto'>
+                                            <Checkbox value='!100'>
                                                 <Box>
                                                     <Text fontSize={"13px"}>Savings : ₹100.00</Text>
                                                     <Text fontSize={"16px"}>!100</Text>
@@ -162,7 +185,7 @@ const Cart = () => {
                                     <CheckboxGroup colorScheme='green' defaultValue={""}>
                                         <Stack spacing={[1, 5]} direction={['row', 'column']}>
                                             <hr />
-                                            <Checkbox value='naruto'>
+                                            <Checkbox value='AJIOONE'>
                                                 <Box>
                                                     <Text fontSize={"13px"}>Savings : 50%</Text>
                                                     <Text fontSize={"16px"}>AJIOONE</Text>
@@ -176,7 +199,7 @@ const Cart = () => {
                                     <CheckboxGroup colorScheme='green' defaultValue={""}>
                                         <Stack spacing={[1, 5]} direction={['row', 'column']}>
                                             <hr />
-                                            <Checkbox value='naruto'>
+                                            <Checkbox value='SHOPNOW'>
                                                 <Box>
                                                     <Text fontSize={"13px"}>Savings : ₹1500</Text>
                                                     <Text fontSize={"16px"}>SHOPNOW</Text>
@@ -190,7 +213,7 @@ const Cart = () => {
                                     <CheckboxGroup colorScheme='green' defaultValue={""}>
                                         <Stack spacing={[1, 5]} direction={['row', 'column']}>
                                             <hr />
-                                            <Checkbox value='naruto'>
+                                            <Checkbox value='BIGSAVINS'>
                                                 <Box>
                                                     {/* <Text fontSize={"13px"}></Text> */}
                                                     <Text fontSize={"16px"}>BIGSAVINS</Text>
