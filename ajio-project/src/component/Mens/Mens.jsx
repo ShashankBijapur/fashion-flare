@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React, { useEffect, useState } from 'react'
 import "./Mens.css"
 import Card from './Card'
 import { useDispatch, useSelector } from 'react-redux'
@@ -6,13 +6,19 @@ import { getReduxData } from '../../redux/action'
 
 
 const Mens = () => {
+    const [search, setSearch] = useState("")
     const dispatch = useDispatch()
     const store = useSelector(store => store.storeData)
-    // console.log(store)
+
+
+    const handleButton = () => {
+        dispatch(getReduxData(`men${search}`))
+
+    }
 
     useEffect(() => {
-        dispatch(getReduxData("mensNew"))
-    },[])
+        dispatch(getReduxData("mens"))
+    }, [])
     return (
         <div className='mens-cont'>
             <div className="mens-wrapper">
@@ -217,6 +223,10 @@ const Mens = () => {
                             <ul>
                                 <li>128100 Items Found</li>
                             </ul>
+                            <ul>
+                                <input value={search} onChange={(e) => setSearch(e.target.value)} type="text" />
+                                <button onClick={handleButton}>Search</button>
+                            </ul>
                             <ul className='select-tag-mens'>
                                 <label htmlFor="">Sort By </label>
                                 <select name="" id="">
@@ -232,9 +242,6 @@ const Mens = () => {
                     <div className='mens-content-wrapper'>
                         <div className='mens-content'>
                             {store?.map((item) => <Card {...item} />)}
-
-
-
                         </div>
 
                     </div>

@@ -1,33 +1,22 @@
 import React, { useState, useEffect } from 'react'
 import {
-    Alert,
-    AlertIcon,
-    AlertTitle,
-    AlertDescription,
     Text,
 } from '@chakra-ui/react'
 import { Box, Button, Drawer, DrawerBody, DrawerContent, DrawerHeader, DrawerOverlay, Fade, Radio, RadioGroup, ScaleFade, Slide, SlideFade, Stack, useDisclosure } from '@chakra-ui/react'
 import { useDispatch } from 'react-redux'
-
-import DrawerExample from './Caurosal'
-
 import { useNavigate } from 'react-router-dom'
 import axios from 'axios'
 import Carousel from './Caurosal'
 import { postWishlist } from '../../redux/action'
 const SingleCardPage = () => {
     var product = JSON.parse(localStorage.getItem('ProductsDetails'))
-<<<<<<< HEAD
-    // console.log(user)
     const dispatch = useDispatch()
-=======
->>>>>>> eaf034518a953a56e8618a32c663f41d9dadef80
     const { isOpen, onToggle } = useDisclosure()
     const [size, setSize] = useState('');
     const [text, setText] = useState(true)
     const navigate = useNavigate()
     const [data, setData] = React.useState([])
-    const [count,setcount]=useState(0)
+    const [count, setcount] = useState(0)
     const getsimilar = () => {
         axios.get("https://localhost:8080/similar")
             .then(r => setData(r.data))
@@ -53,7 +42,7 @@ const SingleCardPage = () => {
                 .then((r) => {
                     console.log(r.data)
                     dispatch(postWishlist(r.data))
-                    
+
                 })
         }
         // else if (text === false) {
@@ -62,17 +51,11 @@ const SingleCardPage = () => {
     }
 
     const addtobag = () => {
-<<<<<<< HEAD
-=======
-        setcount(count+1)
->>>>>>> eaf034518a953a56e8618a32c663f41d9dadef80
+        setcount(count + 1)
         axios.post("http://localhost:8080/cart", product)
             .then((r) => {
                 console.log(r.data)
-             
             })
-        
-            
     }
     const navigateto = () => {
         navigate("/womens")
@@ -134,7 +117,7 @@ const SingleCardPage = () => {
                 {/* <DrawerExample/> */}
                 <div style={{ display: "grid ", gap: "10px", justifyContent: "center" }}>
                     <Text bg={"rgb(253,248,235)"} width={300} fontSize="10px" padding={"5px"} margin="auto">Select your size to know your estimated delivery date.</Text>
-                    <Button disable={count===1} onClick={addtobag} bg={"rgb(213,162,73)"} width={300} padding={"5px"} margin="auto"> Add to Bag</Button>
+                    <Button disable={count === 1} onClick={addtobag} bg={"rgb(213,162,73)"} width={300} padding={"5px"} margin="auto"> Add to Bag</Button>
                     <Text width={300} fontSize="10px" padding={"5px"} margin="auto" color={"grey"}>HANDPICKED STYLES | ASSURED QUALITY</Text>
                     <Button onClick={handletext} bg={"rgb(213,162,73)"} width={300} padding={"5px"} margin="auto"> {text ? "Save To WishList" : "Remove From WishLIst"}</Button>
 

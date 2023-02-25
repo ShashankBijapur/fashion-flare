@@ -46,8 +46,6 @@ function Womens() {
     }, []);
     return (
         <>
-            {/* <h1>{    productType==="saree"? "SAREE":""}</h1> */}
-
             <div style={{ display: "flex", justifyContent: "center", width: "80%", margin: "auto" }}>
 
                 <div style={{ display: "flex", width: "20%", marginTop: "50px", color: "grey" }}>
