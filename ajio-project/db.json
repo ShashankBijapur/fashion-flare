@@ -2376,15 +2376,26 @@
   ],
   "cart": [
     {
-      "href": "https://www.ajio.com/gulmohar-jaipur-embellished-a-line-kurta-sets/p/463669997_navy",
-      "src": "https://assets.ajio.com/medias/sys_master/root/20220117/ig1s/61e55e95f997dd662324fde6/gulmohar_jaipur_navy_embellished_a-line_kurta_sets.jpg",
-      "brand": "GULMOHAR JAIPUR",
-      "nameCls": "Embellished A-line Kurta Sets",
-      "price": "929",
-      "orginalprice": "2,299",
-      "discount": 57,
-      "offerpricess": "599",
-      "id": 3
+      "href": "https://www.ajio.com/silverfly-high-rise-stretch-pants/p/465581718_black",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20230110/EWFJ/63bd2221f997dd708ef8e7d3/silverfly_black_high-rise_stretch_pants.jpg",
+      "brand": "Silverfly",
+      "nameCls": "High-Rise Stretch Pants",
+      "price": "420",
+      "orginalprice": "999",
+      "discount": 60,
+      "offerpricess": "340",
+      "id": 1
+    },
+    {
+      "href": "https://www.ajio.com/avaasa-mix-n-match-ankle-length-leggings-with-elasticated-waist/p/441020957_white",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20230203/3WKG/63dce7e4f997dd708e36fade/avaasa_mix_n%27_match_white_ankle-length_leggings_with_elasticated_waist.jpg",
+      "brand": "AVAASA MIX N' MATCH",
+      "nameCls": "Ankle-Length Leggings with Elasticated Waist",
+      "price": "329",
+      "orginalprice": "399",
+      "discount": 10,
+      "offerpricess": "359",
+      "id": 2
     }
   ],
   "wishlist": [
@@ -2431,6 +2442,17 @@
       "discount": 62,
       "offerpricess": 598,
       "id": 4
+    },
+    {
+      "href": "https://www.ajio.com/hawt-ankle-length-skinny-fit-jeans/p/420178157_black",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20230111/ecIX/63be8fd0f997dd708efe4ba6/hawt_black_ankle-length_skinny_fit_jeans.jpg",
+      "brand": "HAWT",
+      "nameCls": "Ankle-Length Skinny Fit Jeans",
+      "price": "539",
+      "orginalprice": "899",
+      "discount": 40,
+      "offerpricess": "450",
+      "id": 5
     }
   ],
   "similar": [

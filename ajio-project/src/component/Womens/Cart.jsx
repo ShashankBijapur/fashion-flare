@@ -4,7 +4,8 @@ import { Box, Button, Checkbox, CheckboxGroup, Fade, Flex, Image, Stack, Text } 
 import CartCard from './CartCard';
 import { Input, useDisclosure } from '@chakra-ui/react'
 import { CheckIcon } from '@chakra-ui/icons'
-import { Navigate, useNavigate } from 'react-router-dom';
+import { Link, Navigate, useNavigate } from 'react-router-dom';
+import Paymentmodal from './Payments';
 const Cart = () => {
     const [cart, setcart] = useState([])
     const [count, setCount] = useState(1)
@@ -109,6 +110,7 @@ const Cart = () => {
                                     <Fade in={isOpen}>
                                         <Box
                                             p='0.1px'
+                                            padding={"10px"}
                                             color='black'
                                             // mt='1'
                                             bg='white'
@@ -129,8 +131,12 @@ const Cart = () => {
                                     <Text>Order total</Text>
                                     <Text>{ref.current>=1000? ref.current:ref.current+99}</Text>
                                 </Flex>
-                                <Button bg={"rgb(213,162,73)"} width="100%" padding={"15px"} color="white"> Proceed To ship</Button>
-                            </Box>
+                                <Paymentmodal total={ref.current}/>
+                             {/* <Link to={"/payment"}>
+                               <Button bg={"rgb(213,162,73)"} width="100%" padding={"15px"} color="white"> Proceed To ship</Button>
+                        
+                             </Link>    */}
+                                </Box>
 
                             <Box marginTop={"50px"}>
                                 <Text>Apply Coupon</Text>

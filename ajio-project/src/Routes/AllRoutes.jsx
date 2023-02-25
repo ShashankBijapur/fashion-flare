@@ -12,6 +12,7 @@ import Orders from '../component/Admin/Orders';
 import Customers from '../component/Admin/Customers';
 import Products from '../component/Admin/Products';
 import Cart from '../component/Womens/Cart';
+import PaymentsPage from '../component/Womens/PaymentsPage';
 
 const AllRoutes = () => {
     return (
@@ -29,6 +30,7 @@ const AllRoutes = () => {
             <Route path='/customers' element={<Customers />}></Route>
             <Route path='/products' element={<Products />}></Route>
             <Route path="/cart" element={<Cart />} />
+            <Route path="/payment" element={<PaymentsPage />} />
         </Routes>
     )
 }
