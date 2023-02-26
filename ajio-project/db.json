@@ -3332,80 +3332,27 @@
       "orginalprice": "3,699",
       "discount": 59,
       "offer": "925",
-      "id": 3
+      "id": 1
     },
     {
-      "href": "https://www.ajio.com/kimayra-printed-round-neck-flared-kurta-set/p/465607741_brown",
-      "src": "https://assets.ajio.com/medias/sys_master/root/20230116/SjO2/63c566c3f997dd708e098819/kimayra_brown_printed_round-neck_flared_kurta_set.jpg",
-      "brand": "Kimayra",
-      "nameCls": "Printed Round-Neck Flared Kurta Set",
-      "price": "12499",
-      "orginalprice": "3,699",
-      "discount": 59,
-      "offer": "925",
-      "id": 4
+      "id": 5,
+      "src": "https://assets.ajio.com/medias/sys_master/root/20210403/SHnM/6068a15b7cdb8c1f1479359f/see_designs_blue_printed_long_kurta_with_insert_pocket.jpg",
+      "brand": "See Designs",
+      "nameCls": "Printed Long Kurta with Insert Pocket",
+      "price": "770",
+      "discount": "(65% off)",
+      "offer": 550
     },
     {
-      "href": "https://www.ajio.com/kimayra-printed-round-neck-flared-kurta-set/p/465607741_brown",
-      "src": "https://assets.ajio.com/medias/sys_master/root/20230116/SjO2/63c566c3f997dd708e098819/kimayra_brown_printed_round-neck_flared_kurta_set.jpg",
-      "brand": "Kimayra",
-      "nameCls": "Printed Round-Neck Flared Kurta Set",
-      "price": "12499",
-      "orginalprice": "3,699",
-      "discount": 59,
-      "offer": "925",
-      "id": 5
-    },
-    {
-      "href": "https://www.ajio.com/kimayra-printed-round-neck-flared-kurta-set/p/465607741_brown",
-      "src": "https://assets.ajio.com/medias/sys_master/root/20230116/SjO2/63c566c3f997dd708e098819/kimayra_brown_printed_round-neck_flared_kurta_set.jpg",
-      "brand": "Kimayra",
-      "nameCls": "Printed Round-Neck Flared Kurta Set",
-      "price": "12499",
-      "orginalprice": "3,699",
-      "discount": 59,
-      "offer": "925",
+      "href": "https://www.ajio.com/besucher-floral-pattern-silk-saree-/p/465463355_peach",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20221220/lRM3/63a0db4df997ddfdbde15782/besucher_peach_floral_pattern_silk_saree_.jpg",
+      "brand": "BESUCHER",
+      "nameCls": "Floral Pattern Silk Saree",
+      "price": "882",
+      "orginalprice": "1,799",
+      "discount": 51,
+      "offer": "684",
       "id": 6
-    },
-    {
-      "href": "https://www.ajio.com/kimayra-printed-round-neck-flared-kurta-set/p/465607741_brown",
-      "src": "https://assets.ajio.com/medias/sys_master/root/20230116/SjO2/63c566c3f997dd708e098819/kimayra_brown_printed_round-neck_flared_kurta_set.jpg",
-      "brand": "Kimayra",
-      "nameCls": "Printed Round-Neck Flared Kurta Set",
-      "price": "12499",
-      "orginalprice": "3,699",
-      "discount": 59,
-      "offer": "925",
-      "id": 7
-    },
-    {
-      "href": "https://www.ajio.com/kimayra-printed-round-neck-flared-kurta-set/p/465607741_brown",
-      "src": "https://assets.ajio.com/medias/sys_master/root/20230116/SjO2/63c566c3f997dd708e098819/kimayra_brown_printed_round-neck_flared_kurta_set.jpg",
-      "brand": "Kimayra",
-      "nameCls": "Printed Round-Neck Flared Kurta Set",
-      "price": "12499",
-      "orginalprice": "3,699",
-      "discount": 59,
-      "offer": "925",
-      "id": 8
-    },
-    {
-      "id": 1,
-      "src": "https://assets.ajio.com/medias/sys_master/root/20230124/BHS4/63cf9cd8f997dd708e1e5537/puma_white_low-top_lace-up_sneakers.jpg",
-      "brand": "Puma",
-      "nameCls": "Low-Top Lace-Up Sneakers",
-      "price": "2,879",
-      "discount": "(36% off)",
-      "offer": "2,102"
-    },
-    {
-      "id": 2,
-      "src": "https://assets.ajio.com/medias/sys_master/root/20221109/u2JJ/636b8eddaeb269659c7f91b5/dennislingo_premium_attire_white_full_sleeves_slim_fit_shirt.jpg",
-      "brand": "DENNISLINGO PREMIUM ATTIRE",
-      "nameCls": "Full Sleeves Slim Fit Shirt",
-      "price": "684",
-      "discount": "(63% off)",
-      "offer": 481
     }
   ],
   "similar": [
