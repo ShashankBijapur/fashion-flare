@@ -16,7 +16,7 @@ const Cart = () => {
     const { isOpen, onToggle } = useDisclosure()
 
     const getcartdata = () => {
-        axios.get("http://localhost:8080/cart")
+        axios.get("https://magnificent-bass-suit.cyclic.app/cart")
             .then(res => {
                 setcart(res.data)
                 dispatch(getCartData(res.data))

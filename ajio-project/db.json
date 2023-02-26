@@ -3311,49 +3311,29 @@
   ],
   "cart": [
     {
-      "href": "https://www.ajio.com/fiorra-straight-kurta-set-with-dupatta/p/465543382_black",
-      "src": "https://assets.ajio.com/medias/sys_master/root/20230213/J7QJ/63e9d7a8aeb26924e369aedf/fiorra_black_straight_kurta_set_with_dupatta.jpg",
-      "brand": "FIORRA",
-      "nameCls": "Straight Kurta Set with Dupatta",
-      "price": "1500",
-      "orginalprice": "2,999",
-      "discount": 50,
-      "offer": "900",
-      "id": 4
+      "href": "https://www.ajio.com/kimayra-leaf-print-flared-kurta/p/465425434_pink",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20221212/inn7/63976868aeb269659ce473e6/kimayra_pink_leaf_print_flared_kurta.jpg",
+      "brand": "Kimayra",
+      "nameCls": "Leaf Print Flared Kurta",
+      "price": "824",
+      "orginalprice": "2,299",
+      "discount": 62,
+      "offer": "575",
+      "id": 2
+    },
+    {
+      "href": "https://www.ajio.com/kimayra-printed-anarkali-kurta-suit-set/p/464004331_yellow",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20220326/oiLh/623e2e74aeb26921aff93f02/kimayra_mustard_printed_anarkali_kurta_suit_set.jpg",
+      "brand": "Kimayra",
+      "nameCls": "Printed Anarkali Kurta Suit Set",
+      "price": "1599",
+      "orginalprice": "2,499",
+      "discount": 36,
+      "offer": "959",
+      "id": 3
     }
   ],
   "wishlist": [
-    {
-      "href": "https://www.ajio.com/kimayra-printed-round-neck-flared-kurta-set/p/465607741_brown",
-      "src": "https://assets.ajio.com/medias/sys_master/root/20230116/SjO2/63c566c3f997dd708e098819/kimayra_brown_printed_round-neck_flared_kurta_set.jpg",
-      "brand": "Kimayra",
-      "nameCls": "Printed Round-Neck Flared Kurta Set",
-      "price": "12499",
-      "orginalprice": "3,699",
-      "discount": 59,
-      "offer": "925",
-      "id": 1
-    },
-    {
-      "id": 5,
-      "src": "https://assets.ajio.com/medias/sys_master/root/20210403/SHnM/6068a15b7cdb8c1f1479359f/see_designs_blue_printed_long_kurta_with_insert_pocket.jpg",
-      "brand": "See Designs",
-      "nameCls": "Printed Long Kurta with Insert Pocket",
-      "price": "770",
-      "discount": "(65% off)",
-      "offer": 550
-    },
-    {
-      "href": "https://www.ajio.com/besucher-floral-pattern-silk-saree-/p/465463355_peach",
-      "src": "https://assets.ajio.com/medias/sys_master/root/20221220/lRM3/63a0db4df997ddfdbde15782/besucher_peach_floral_pattern_silk_saree_.jpg",
-      "brand": "BESUCHER",
-      "nameCls": "Floral Pattern Silk Saree",
-      "price": "882",
-      "orginalprice": "1,799",
-      "discount": 51,
-      "offer": "684",
-      "id": 6
-    }
   ],
   "similar": [
     {
