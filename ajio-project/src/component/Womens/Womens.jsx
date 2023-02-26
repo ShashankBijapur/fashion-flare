@@ -64,7 +64,7 @@ function Womens() {
         <>
             <div style={{ display: "flex", justifyContent: "center", maxWidth: "1250px", margin: "auto" }}>
 
-                <div className='women-left-cont' style={{ width: "100%", display: "flex", marginTop: "50px", color: "grey" }}>
+                <div className='women-left-cont' style={{ width: "100%", display: "flex", marginTop: "50px"}}>
                     <div className='women-left'>
 
                         <div style={{ textAlign: "left", marginLeft: "70px" }} className="filter-div">
