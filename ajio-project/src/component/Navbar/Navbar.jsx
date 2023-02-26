@@ -513,7 +513,7 @@ const Navbar = () => {
               </Box>
             </Link>
 
-            <Link to="/cart">
+            <Link to="/wishlist">
               <Box display="flex" gap={'2'}  >
                 <BsFillSuitHeartFill style={{ fontSize: "28px" }} />
                 <Text alignSelf={"end"} as="b" >{wishlist.length}</Text>

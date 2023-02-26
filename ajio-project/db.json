@@ -3311,17 +3311,6 @@
   ],
   "cart": [
     {
-      "href": "https://www.ajio.com/gulmohar-jaipur-embellished-a-line-kurta-sets/p/463669997_navy",
-      "src": "https://assets.ajio.com/medias/sys_master/root/20220117/ig1s/61e55e95f997dd662324fde6/gulmohar_jaipur_navy_embellished_a-line_kurta_sets.jpg",
-      "brand": "GULMOHAR JAIPUR",
-      "nameCls": "Embellished A-line Kurta Sets",
-      "price": "929",
-      "orginalprice": "2,299",
-      "discount": 57,
-      "offerpricess": "599",
-      "id": 3
-    },
-    {
       "href": "https://www.ajio.com/fiorra-straight-kurta-set-with-dupatta/p/465543382_black",
       "src": "https://assets.ajio.com/medias/sys_master/root/20230213/J7QJ/63e9d7a8aeb26924e369aedf/fiorra_black_straight_kurta_set_with_dupatta.jpg",
       "brand": "FIORRA",
@@ -3344,6 +3333,61 @@
       "discount": 59,
       "offerpricess": "925",
       "id": 3
+    },
+    {
+      "href": "https://www.ajio.com/kimayra-printed-round-neck-flared-kurta-set/p/465607741_brown",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20230116/SjO2/63c566c3f997dd708e098819/kimayra_brown_printed_round-neck_flared_kurta_set.jpg",
+      "brand": "Kimayra",
+      "nameCls": "Printed Round-Neck Flared Kurta Set",
+      "price": "12499",
+      "orginalprice": "3,699",
+      "discount": 59,
+      "offerpricess": "925",
+      "id": 4
+    },
+    {
+      "href": "https://www.ajio.com/kimayra-printed-round-neck-flared-kurta-set/p/465607741_brown",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20230116/SjO2/63c566c3f997dd708e098819/kimayra_brown_printed_round-neck_flared_kurta_set.jpg",
+      "brand": "Kimayra",
+      "nameCls": "Printed Round-Neck Flared Kurta Set",
+      "price": "12499",
+      "orginalprice": "3,699",
+      "discount": 59,
+      "offerpricess": "925",
+      "id": 5
+    },
+    {
+      "href": "https://www.ajio.com/kimayra-printed-round-neck-flared-kurta-set/p/465607741_brown",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20230116/SjO2/63c566c3f997dd708e098819/kimayra_brown_printed_round-neck_flared_kurta_set.jpg",
+      "brand": "Kimayra",
+      "nameCls": "Printed Round-Neck Flared Kurta Set",
+      "price": "12499",
+      "orginalprice": "3,699",
+      "discount": 59,
+      "offerpricess": "925",
+      "id": 6
+    },
+    {
+      "href": "https://www.ajio.com/kimayra-printed-round-neck-flared-kurta-set/p/465607741_brown",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20230116/SjO2/63c566c3f997dd708e098819/kimayra_brown_printed_round-neck_flared_kurta_set.jpg",
+      "brand": "Kimayra",
+      "nameCls": "Printed Round-Neck Flared Kurta Set",
+      "price": "12499",
+      "orginalprice": "3,699",
+      "discount": 59,
+      "offerpricess": "925",
+      "id": 7
+    },
+    {
+      "href": "https://www.ajio.com/kimayra-printed-round-neck-flared-kurta-set/p/465607741_brown",
+      "src": "https://assets.ajio.com/medias/sys_master/root/20230116/SjO2/63c566c3f997dd708e098819/kimayra_brown_printed_round-neck_flared_kurta_set.jpg",
+      "brand": "Kimayra",
+      "nameCls": "Printed Round-Neck Flared Kurta Set",
+      "price": "12499",
+      "orginalprice": "3,699",
+      "discount": 59,
+      "offerpricess": "925",
+      "id": 8
     }
   ],
   "similar": [
