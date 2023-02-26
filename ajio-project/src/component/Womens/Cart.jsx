@@ -76,7 +76,7 @@ const Cart = () => {
                             <Text>Easy Returns</Text>
                         </Box>
                         <Box justifyContent={"center"} alignItems="center" >
-                        https://docs.google.com/forms/u/0/d/e/1FAIpQLSeJWU3bahYqSy-qXUU9e4acepCM733B9Ji5Lz7wYyHIJUbnng/formResponse      <img width="60px" src="https://thumbs.dreamstime.com/b/empathy-vector-icon-black-silhouette-flat-illustration-isolated-white-background-204899514.jpg" alt="" />
+                            <img width="60px" src="https://thumbs.dreamstime.com/b/empathy-vector-icon-black-silhouette-flat-illustration-isolated-white-background-204899514.jpg" alt="" />
                             <Text >100% Hand Picked</Text>
                         </Box>
                         <Box justifyContent={"center"} alignItems="center" >
