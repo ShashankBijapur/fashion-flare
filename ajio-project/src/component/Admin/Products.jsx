@@ -47,15 +47,15 @@ const Products = () => {
     try {
       if (selectedProduct) {
         const response = await axios.patch(
-          `https://636dd4b3b567eed48aca5f96.mockapi.io/skin/${selectedProduct.id}`,formDataObject
-
+          `https://magnificent-bass-suit.cyclic.app/mens/${selectedProduct.id}`,
+          formDataObject
         );
         const updatedProduct = response.data;
         setData((prevData) =>
           prevData.map((product) => (product.id === updatedProduct.id ? updatedProduct : product))
         );
       } else {
-        const response = await axios.post('https://636dd4b3b567eed48aca5f96.mockapi.io/skin', formDataObject);
+        const response = await axios.post('https://magnificent-bass-suit.cyclic.app/mens', formDataObject);
         const newProduct = response.data;
         setData((prevData) => [...prevData, newProduct]);
       }
@@ -73,7 +73,7 @@ const Products = () => {
   // ----------DELETE REQUEST------------//
   const handleDelete = async (productId) => {
     try {
-      const response = await axios.delete(`https://636dd4b3b567eed48aca5f96.mockapi.io/skin/${productId}`);
+      const response = await axios.delete(`https://magnificent-bass-suit.cyclic.app/mens/${productId}`);
       console.log(response.data);
       const updatedData = data.filter((product) => product.id !== productId);
       setData(updatedData);
@@ -83,7 +83,7 @@ const Products = () => {
   };
   // ---------------GET REQUEST--------------//
   const getData=async()=>{
-   let res=await axios.get("https://636dd4b3b567eed48aca5f96.mockapi.io/skin")
+   let res=await axios.get("https://magnificent-bass-suit.cyclic.app/mens")
   setData(res.data)
   }
 

@@ -8,14 +8,14 @@ import {
 } from "./action.Type";
 
 const getReduxData = (mensNew) => async (dispatch) => {
-  const response = await axios.get(`http://localhost:8080/${mensNew}`);
+  const response = await axios.get(`https://magnificent-bass-suit.cyclic.app/${mensNew}`);
   const res = await response.data;
   dispatch({ type: GETREQ, payload: res });
 };
 
 const getSingleProd = (id) => async (dispatch) => {
   try {
-    const response = await axios.get(`http://localhost:8080/mensNew/${id}`);
+    const response = await axios.get(`https://magnificent-bass-suit.cyclic.app/mens/${id}`);
     const res = await response.data;
     dispatch({ type: GETSINGLEPROD, payload: res });
   } catch (err) {
@@ -25,7 +25,7 @@ const getSingleProd = (id) => async (dispatch) => {
 
 const postCart = (payload) => async (dispatch) => {
   try {
-    const response = await axios.post("http://localhost:8080/cart", payload);
+    const response = await axios.post("https://magnificent-bass-suit.cyclic.app/cart", payload);
     const res = await response.data;
     dispatch({ type: POSTCARTREQ, payload: res });
   } catch (err) {

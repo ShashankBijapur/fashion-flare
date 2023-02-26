@@ -15,6 +15,7 @@ import { useState, useContext } from "react";
 import { Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 import { SidebarContext } from "../context/SidebarContextProvider";
+import { useToast } from "@chakra-ui/react";
 
 export default function SimpleCard() {
   const { login, setLogin } = useContext(SidebarContext);
@@ -23,15 +24,27 @@ export default function SimpleCard() {
   const [error, setError] = useState("");
 
   const navigate = useNavigate();
+  const toast = useToast();
 
   const handleLogin = () => {
     let user = JSON.parse(localStorage.getItem("user"));
     if (username === "admin" && password === "123456") {
-      alert(" Admin Login succesfull");
+      // alert(" Admin Login succesfull");
+      toast({
+        title: `Admin Login Successfull`,
+        position: "top",
+        isClosable: true,
+      });
       navigate("/admin");
     } else if (username === user.username && password === user.password) {
       localStorage.setItem("loginValue", JSON.stringify("login"));
-      alert("Login succesfull");
+      toast({
+        title: `User Login Successfull`,
+        position: "top",
+        status: "success",
+        duration: 2000,
+        isClosable: true,
+      });
       navigate("/");
       setLogin(true);
     } else {
@@ -41,12 +54,13 @@ export default function SimpleCard() {
 
   return (
     <Flex
-    style={{backgroundImage: `url("https://media.istockphoto.com/id/494350434/vector/thin-shopping-retail-line-white-seamless-pattern.jpg?s=612x612&w=0&k=20&c=XZ5G1qrghaNlovv4kw5ZtHKPYYETR-LDqRAGafDs5LA=")`}}
+      style={{
+        backgroundImage: `url("https://media.istockphoto.com/id/494350434/vector/thin-shopping-retail-line-white-seamless-pattern.jpg?s=612x612&w=0&k=20&c=XZ5G1qrghaNlovv4kw5ZtHKPYYETR-LDqRAGafDs5LA=")`,
+      }}
       minH={"100vh"}
       align={"center"}
       justify={"center"}
-      bg={useColorModeValue("gray.50", "gray.800")
-    }
+      bg={useColorModeValue("gray.50", "gray.800")}
     >
       <Stack spacing={8} mx={"auto"} maxW={"lg"} py={12} px={6}>
         <Box

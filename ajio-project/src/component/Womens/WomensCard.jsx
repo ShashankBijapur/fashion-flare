@@ -1,5 +1,8 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom';
+import './WomensCard.css'
+
+
 const CardPage = ({ product, index }) => {
     const navigate = useNavigate()
     const handledata = () => {
@@ -10,7 +13,7 @@ const CardPage = ({ product, index }) => {
     return (
         <>
 
-            <div onClick={handledata} style={{ textAlign: "center" }} key={index}>
+            <div className="women-card" onClick={handledata} style={{ textAlign: "center" }} key={index}>
                 <img width={300} src={product.src} alt={product.brand} />
                 <h5 style={{ color: "rgb(177, 153, 117)" }}>{product.brand}</h5>
                 <h5 >{product.nameCls}</h5>

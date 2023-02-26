@@ -172,8 +172,8 @@ function Home() {
       {/* ------------------------------------ Carousel of paytm ends here ------------------------------------------------  */}
 
       {/* -------------------------------- block 1 starts here ------------------------------------------------------- */}
-      <HStack justifyContent={'center'} alignItems='center' m='auto'  >
-        <Image src="https://assets.ajio.com/cms/AJIO/WEB/D-UHP-SS23-HalfBanner%20.gif" />
+      <HStack width="100vw" justifyContent={'center'} alignItems='center' m='auto'  >
+        <Image width="100%" wi src="https://assets.ajio.com/cms/AJIO/WEB/D-UHP-SS23-HalfBanner%20.gif" />
       </HStack>
 
 
@@ -283,7 +283,7 @@ function Home() {
       <Box>
         <Image src="https://assets.ajio.com/cms/AJIO/WEB/MicrosoftTeams-image-free-d.png" />
       </Box>
-      <Box>
+      {/* <Box>
         <Image src="https://assets.ajio.com/cms/AJIO/WEB/D-UHP-AjioExclusives-Sectionheader.jpg" />
         <SimpleGrid columns={{ base: 2, md: 4 }}>
           <Box>
@@ -357,7 +357,7 @@ function Home() {
           <Image src="https://assets.ajio.com/cms/AJIO/WEB/D-UHP-OnlineStores-Sectionheader.jpg" />
           <Image src="https://assets.ajio.com/cms/AJIO/WEB/D-UHP-OnlineStores-AJIOGOLD.jpg" />
         </Box>
-      </Box>
+      </Box> */}
 
       {/* ------------------------------------------------ 2 Carousel starts here--------------------------------------------- */}
       <Box>
@@ -407,7 +407,7 @@ function Home() {
         <Image src="https://assets.ajio.com/cms/AJIO/WEB/D-UHP-ForHIM-Sectionheader.jpg" />
       </Box>
 
-      <Carousel
+      {/* <Carousel
         className="carousel"
         autoPlay="true"
         infiniteLoop="true"
@@ -454,7 +454,7 @@ function Home() {
 
       {/* -------------------------------------block of 7*4  started ----------------------------------------------- */}
 
-      <Box>
+      {/* <Box>
         <Image src="https://assets.ajio.com/cms/AJIO/WEB/D-UHP-FEthnicwear-Sectionheader.jpg" />
         <SimpleGrid columns={{ base: 2, md: 4 }}>
           <Box>
@@ -471,9 +471,9 @@ function Home() {
             <Image src="https://assets.ajio.com/cms/AJIO/WEB/D-UHP-FEthnicwear-P4-Jewellery-Brands-Upto80.jpg" />
           </Box>
         </SimpleGrid>
-      </Box>
+      </Box> */}
 
-      <Box>
+      {/* <Box>
         <Image src="https://assets.ajio.com/cms/AJIO/WEB/D-UHP-Accessories-SectionHeader.jpg" />
         <SimpleGrid columns={{ base: 2, md: 4 }}>
           <Box>
@@ -490,8 +490,8 @@ function Home() {
             <Image src="https://assets.ajio.com/cms/AJIO/WEB/D-UHP-Accessories-P4-Home-GoodomesHomecentre-upto80.jpg" />
           </Box>
         </SimpleGrid>
-      </Box>
-
+      </Box> */}
+{/* 
       <Box>
         <Image src="https://assets.ajio.com/cms/AJIO/WEB/D-UHP-HiddenGems-SectionHeader.jpg" />
         <SimpleGrid columns={{ base: 2, md: 4 }}>
@@ -509,9 +509,9 @@ function Home() {
             <Image src="https://assets.ajio.com/cms/AJIO/WEB/D-UHP-HiddenGems-P4-WKND-Upto60.jpg" />
           </Box>
         </SimpleGrid>
-      </Box>
+      </Box> */}
 
-      <Box>
+      {/* <Box>
         <Image src="https://assets.ajio.com/cms/AJIO/WEB/D-UHP-Kidswear-SectionHeader.jpg" />
         <SimpleGrid columns={{ base: 2, md: 4 }}>
           <Box>
@@ -528,9 +528,9 @@ function Home() {
             <Image src="https://assets.ajio.com/cms/AJIO/WEB/D-UHP-Kidswear-P4-HellcatToonyPort-Upto70.jpg" />
           </Box>
         </SimpleGrid>
-      </Box>
+      </Box> */}
 
-      <Box>
+      {/* <Box>
         <Image src="https://assets.ajio.com/cms/AJIO/WEB/D-UHP-MegaBrands-SectionheaderStrip.jpg" />
         <SimpleGrid columns={{ base: 2, md: 4 }}>
           <Box>
@@ -547,9 +547,9 @@ function Home() {
             <Image src="https://assets.ajio.com/cms/AJIO/WEB/D-UHP-MegaBrands-P4-Pedro-min40.jpg" />
           </Box>
         </SimpleGrid>
-      </Box>
+      </Box> */}
 
-      <Box>
+      {/* <Box>
         <Image src="https://assets.ajio.com/cms/AJIO/WEB/D-UHP-ClassicBrands-SectionHeader.jpg" />
         <SimpleGrid columns={{ base: 2, md: 4 }}>
           <Box>
@@ -566,8 +566,8 @@ function Home() {
             <Image src="https://assets.ajio.com/cms/AJIO/WEB/D-UHP-ClassicBrands-P4-rareRabbit-Upto50.jpg" />
           </Box>
         </SimpleGrid>
-      </Box>
-
+      </Box> */}
+{/* 
       <Box>
         <Image src="https://assets.ajio.com/cms/AJIO/WEB/D-UHP-Home-Sectionheader.jpg" />
         <SimpleGrid columns={{ base: 2, md: 4 }}>
@@ -585,30 +585,30 @@ function Home() {
             <Image src="https://assets.ajio.com/cms/AJIO/WEB/D-UHP-Home-P4-Portico-upto50.jpg" />
           </Box>
         </SimpleGrid>
-      </Box>
+      </Box> */}
       {/* -----------------------------------------------block of 7*4 ended ------------------------------------------------------- */}
-
+{/* 
 
       <VStack>
         <Image src="https://assets.ajio.com/cms/AJIO/WEB/D-UHP-OnlineStores-Sectionheader.jpg" />
         <Image src="https://assets.ajio.com/cms/AJIO/WEB/D-UHP-OnlineStores-AJIOGOLD.jpg" />
-      </VStack>
+      </VStack> */}
 
 
       {/* ---------------------------------------------- 20 items block started ---------------------------------- */}
-      <SimpleGrid columns={{ base: 2, md: 4 }}>
+      {/* <SimpleGrid columns={{ base: 2, md: 4 }}>
         {images?.map((el) => (
           <Box>
             <Image src={el.image} alt="err" />
           </Box>
         ))}
-      </SimpleGrid>
+      </SimpleGrid> */}
       {/* ---------------------------------------------- 20 items block ended ---------------------------------- */}
 
-      <VStack>
+      {/* <VStack>
         <Image src="https://assets.ajio.com/cms/AJIO/WEB/Discover%20Online%20Stnkores%20(D).jpg" />
         <Image src="https://assets.ajio.com/cms/AJIO/WEB/13102020-D-unisex-ajiocares-strip.jpg" />
-      </VStack>
+      </VStack>  */}
 
     </>
   );

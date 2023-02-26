@@ -501,7 +501,7 @@ const Navbar = () => {
 
             <Box>
               {/* <Button  >{login || user.name ? "LOGOUT" : "SIGN IN"}</Button> */}
-              {loginValue !== null ? <Button onClick={handleLogout} >LOGOUT</Button> : <Link to="/login" ><Button>Login</Button></Link>}
+              {loginValue !== null ? <Button colorScheme='red' onClick={handleLogout} >LOGOUT</Button> : <Link to="/login" ><Button colorScheme='green'>Login</Button></Link>}
             </Box>
 
 
