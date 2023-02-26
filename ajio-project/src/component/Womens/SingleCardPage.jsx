@@ -48,7 +48,7 @@ const SingleCardPage = () => {
                         title: `Added to Wishlist`,
                         position: "top",
                         status: 'success',
-                        duration: 2000,
+                        duration: 3000,
                         isClosable: true,
                     })
 
