@@ -22,7 +22,7 @@ function Paymentmodal({ total }) {
     }
     return (
         <>
-            <Button bg={"rgb(213,162,73)"} width="100%" padding={"15px"} color="white" onClick={onOpen}>Proceed To Ship</Button>
+            <Button bg={"rgb(213,162,73)"} width="100%" padding={"4px"} margin="4px" color="white" onClick={onOpen}>Proceed To Ship</Button>
 
             <Modal blockScrollOnMount={false} isOpen={isOpen} onClose={onClose}>
                 <ModalOverlay />
@@ -37,27 +37,27 @@ function Paymentmodal({ total }) {
                                 <hr />
 
                                 {/* <Text> EMAIL </Text> */}
-                                <Input id="email" type="email" placeholder="EMAIL" />
+                                <Input padding={"4px"} margin="4px" id="email" type="email" placeholder="EMAIL" />
 
                                 {/* <Text>FIRST NAME</Text> */}
-                                <Input id="fname" type="text" placeholder="FIRST NAME" />
+                                <Input padding={"4px"} margin="4px" id="fname" type="text" placeholder="FIRST NAME" />
 
                                 {/* <Text> LAST NAME </Text> */}
-                                <Input id="lname" type="text" placeholder="LAST NAME" />
+                                <Input padding={"4px"} margin="4px" id="lname" type="text" placeholder="LAST NAME" />
 
                                 {/* <Text>STREET ADDRESS </Text> */}
-                                <Input type="text" placeholder="STREET ADDRESS" />
+                                <Input padding={"4px"} margin="4px" type="text" placeholder="STREET ADDRESS" />
 
                                 {/* <Text> CITY</Text> */}
-                                <Input type="text" placeholder="CITY" />
+                                <Input padding={"4px"} margin="4px" type="text" placeholder="CITY" />
 
                                 {/* <Text>STATE/PROVINCE</Text> */}
-                                <Input type="text" placeholder="STATE/PROVINCE" />
+                                <Input padding={"4px"} margin="4px" type="text" placeholder="STATE/PROVINCE" />
 
                                 {/* <Text>ZIP/POSTAL CODE</Text> */}
-                                <Input type="text" placeholder="ZIP/POSTAL CODE" />
+                                <Input padding={"4px"} margin="4px" type="text" placeholder="ZIP/POSTAL CODE" />
                                 {/* <Text>PHONE NO</Text> */}
-                                <Input id="lname" type="tel" placeholder="PHONE NO" />
+                                <Input padding={"4px"} margin="4px" id="lname" type="tel" placeholder="PHONE NO" />
 
                                 <Text> ORDER SUMMARY</Text>
                                 <hr />
