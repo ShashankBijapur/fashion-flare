@@ -9,7 +9,7 @@ const Wishlist = () => {
     return (
         <div>
             <div style={{ margin: "auto", fontSize: "32px", fontWeight: "600", textAlign: "center", marginBotton: "20px" }}>My Wishlist</div>
-            <div className='wishlist_cart' style={{ border: "1px solid black",padding:"15px", marginLeft:"0px", width: "1200px", margin: "auto" }}>
+            <div className='wishlist_cart' style={{ padding:"15px", marginLeft:"0px", width: "1200px", margin: "auto" }}>
                 {wishlist?.map((item) => {
                     return <Card {...item} />
                 })}
