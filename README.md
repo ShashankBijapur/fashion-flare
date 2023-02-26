@@ -30,7 +30,7 @@ This repo is the clone of ajio.com website,AJIO is a shopping and lifestyle bran
 
 ![home4](https://user-images.githubusercontent.com/106108504/221401866-a66d45a4-089c-43df-86ef-c5ba946a63a5.png)
 
-### * Navbar and Drop dow
+### * Navbar and Drop down
 ![navbar1](https://user-images.githubusercontent.com/106108504/221401922-c8cb6426-aee6-4fc2-9028-34d264d13d2f.png)
 
 ### * Footer 
@@ -41,35 +41,35 @@ This repo is the clone of ajio.com website,AJIO is a shopping and lifestyle bran
 ![login1](https://user-images.githubusercontent.com/106108504/221401943-6a56fb36-cb70-4ae9-994b-cb98c9e63d67.png)
 
 
-### *mens page
+### * Mens page
 ![mens1](https://user-images.githubusercontent.com/106108504/221402043-295083c1-e6dc-40c9-bca5-8ad96988ff3b.png)
 
 
-### *womens page
+### * Womens page
 ![womens1](https://user-images.githubusercontent.com/106108504/221402050-a4c6e186-45ff-473f-8d8a-fc18063bbd67.png)
 
 
-### *childrens page
+### * Childrens page
 ![children1](https://user-images.githubusercontent.com/106108504/221402060-365a7245-997e-45ce-8e9a-9e0b61099b7f.png)
 
 
-### *products details page
+### * Products detail page
 
 ![productdetails1](https://user-images.githubusercontent.com/106108504/221402132-e6cbd03b-32e8-4331-9209-6a3dc3b593cb.png)
 
 ![productdetails2](https://user-images.githubusercontent.com/106108504/221402137-da812a2a-bfed-435b-a79a-df8e8d997e3c.png)
 
 
-### *watchlist page
+### * Watchlist page
 ![wishlist1](https://user-images.githubusercontent.com/106108504/221402202-f88f9fdd-03e4-449f-a574-ecf3e76ed303.png)
 
 
 
-### *cart page
+### * Cart page
 ![cart1](https://user-images.githubusercontent.com/106108504/221402095-4cd711d2-60e7-4346-b8ca-2d54eeb77923.png)
 
 
-### *payment page
+### * Payment page
 
 ![payment1](https://user-images.githubusercontent.com/106108504/221402244-d055d65a-c77b-4bc6-b138-2018ae7b3a6c.png)
 
