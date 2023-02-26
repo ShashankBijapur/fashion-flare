@@ -25,9 +25,12 @@ const CartCard = ({ item, setCount,count }) => {
     };
     console.log(cartitem)
     const deleteitem = (id) => {
+        // window.location.reload(true);
+        console.log(id)
         axios.delete(`https://magnificent-bass-suit.cyclic.app/cart/${id}`)
             // .then(res=>res.json())
             .then(res => setCartitem(res.data))
+
     }
     const addtowishlist = (item, id) => {
         console.log(item)
@@ -42,9 +45,9 @@ const CartCard = ({ item, setCount,count }) => {
             // .then(res=>res.json())
             .then(res => setCartitem(res.data))
     }
-    // useEffect(() => {
-    // //    deleteitem()
-    // }, [item]);
+    useEffect(() => {
+    //    deleteitem()
+    }, []);
 
     return (
         <>
