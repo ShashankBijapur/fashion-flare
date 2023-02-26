@@ -42,7 +42,7 @@ export default function SimpleCard() {
         title: `User Login Successfull`,
         position: "top",
         status: "success",
-        duration: 9000,
+        duration: 2000,
         isClosable: true,
       });
       navigate("/");

@@ -48,7 +48,7 @@ const SingleCardPage = () => {
                         title: `Added to Wishlist`,
                         position: "top",
                         status: 'success',
-                        duration: 9000,
+                        duration: 2000,
                         isClosable: true,
                     })
 
@@ -68,7 +68,7 @@ const SingleCardPage = () => {
                     title: `Added to cart`,
                     position: "top",
                     status: 'success',
-                    duration: 9000,
+                    duration: 2000,
                     isClosable: true,
                 })
 

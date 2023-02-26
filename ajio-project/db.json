@@ -3320,6 +3320,42 @@
       "discount": 50,
       "offer": "900",
       "id": 4
+    },
+    {
+      "id": 2,
+      "src": "https://assets.ajio.com/medias/sys_master/root/20221109/u2JJ/636b8eddaeb269659c7f91b5/dennislingo_premium_attire_white_full_sleeves_slim_fit_shirt.jpg",
+      "brand": "DENNISLINGO PREMIUM ATTIRE",
+      "nameCls": "Full Sleeves Slim Fit Shirt",
+      "price": "684",
+      "discount": "(63% off)",
+      "offer": 481
+    },
+    {
+      "id": 3,
+      "src": "https://assets.ajio.com/medias/sys_master/root/20221124/BelH/637f1003aeb269659caf7579/superdry_black_superdry_grooming_kit.jpg",
+      "brand": "SUPERDRY",
+      "nameCls": "Superdry Grooming Kit",
+      "price": "399",
+      "discount": "(83% off)",
+      "offer": 399
+    },
+    {
+      "id": 5,
+      "src": "https://assets.ajio.com/medias/sys_master/root/20200723/i9yC/5f19ad997cdb8c2207843f9b/crocs_black_bayaband_slingback_clogs.jpg",
+      "brand": "CROCS",
+      "nameCls": "Bayaband Slingback Clogs",
+      "price": "2,132",
+      "discount": "(39% off)",
+      "offer": "2,062"
+    },
+    {
+      "id": 7,
+      "src": "https://assets.ajio.com/medias/sys_master/root/20220927/pNT8/6332df42aeb269dbb3aa32c0/performax_jet_black_fastdry_active_essential_track_pants.jpg",
+      "brand": "PERFORMAX",
+      "nameCls": "Fastdry Active Essential Track Pants",
+      "price": "419",
+      "discount": "(30% off)",
+      "offer": 300
     }
   ],
   "wishlist": [

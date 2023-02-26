@@ -36,7 +36,7 @@ export default function SignupCard() {
         title: `Sighup Successfull`,
         position: "top",
         status: "success",
-        duration: 9000,
+        duration: 2000,
         isClosable: true,
       });
       window.location.href = "/login";
