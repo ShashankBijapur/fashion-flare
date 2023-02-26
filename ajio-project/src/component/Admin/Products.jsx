@@ -44,18 +44,11 @@ const Products = () => {
   const handleSubmit = async (event) => {
     event.preventDefault();
     const formDataObject = Object.fromEntries(new FormData(event.target));
-    const json = {
-    brand: formData.brand,
-    price: formData.price,
-    nameCls: formData.nameCls,
-    src: formData.src,
-  };
-  
     try {
       if (selectedProduct) {
         const response = await axios.patch(
-          `https://636dd4b3b567eed48aca5f96.mockapi.io/skin/${selectedProduct.id}`,
-          json
+          `https://636dd4b3b567eed48aca5f96.mockapi.io/skin/${selectedProduct.id}`,formDataObject
+
         );
         const updatedProduct = response.data;
         setData((prevData) =>
@@ -96,7 +89,7 @@ const Products = () => {
 
 useEffect(()=>{
   getData()
-})
+},[data])
 
 
 // --------------PAGINATION-------------------//
@@ -176,7 +169,7 @@ const handleEditClick = (product) => {
 
           <FormControl mt={4}>
             <FormLabel>Price</FormLabel>
-            <Input type="number" name="price" defaultValue={selectedProduct? selectedProduct.price :formData.price} onChange={handleInputChange} />
+            <Input type="text" name="price" defaultValue={selectedProduct? selectedProduct.price :formData.price} onChange={handleInputChange} />
           </FormControl>
 
           <FormControl mt={4}>

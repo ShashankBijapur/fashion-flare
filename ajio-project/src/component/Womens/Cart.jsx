@@ -1,7 +1,7 @@
 import axios from 'axios'
 import React, { useState, useEffect } from 'react'
 import { Box, Button, Checkbox, CheckboxGroup, Flex, Image, Stack, Text } from '@chakra-ui/react';
-import CartCard from '../Components/CartCard';
+import CartCard from './CartCard';
 import { Input } from '@chakra-ui/react'
 import { CheckIcon } from '@chakra-ui/icons'
 const Cart = () => {
