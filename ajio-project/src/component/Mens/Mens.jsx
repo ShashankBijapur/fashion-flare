@@ -52,15 +52,15 @@ const Mens = () => {
                                     <label htmlFor="#">T-Shirt</label>
                                 </li> */}
                                 <li>
-                                    <input onChange={(e) => setBox("shirt")}  type="checkbox" />
+                                    <input onChange={(e) => setBox("shirt")} type="checkbox" />
                                     <label htmlFor="#">Shirt</label>
                                 </li>
                                 <li>
-                                    <input onChange={(e) => setBox("kurta")}  type="checkbox" />
+                                    <input onChange={(e) => setBox("kurta")} type="checkbox" />
                                     <label htmlFor="#">Kurta</label>
                                 </li>
                                 <li>
-                                    <input onChange={(e) => setBox("jeans")}  type="checkbox" />
+                                    <input onChange={(e) => setBox("jeans")} type="checkbox" />
                                     <label htmlFor="#">Jeans</label>
                                 </li>
 
@@ -248,7 +248,7 @@ const Mens = () => {
                     </div>
                     <div className='mens-content-wrapper'>
                         <div className='mens-content'>
-                            {store?.map((item) => <Card {...item} />)}
+                            {store?.map((item) => <Card key={item.id} {...item} />)}
                         </div>
 
                     </div>
