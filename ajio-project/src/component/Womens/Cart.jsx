@@ -2,7 +2,9 @@ import axios from 'axios'
 import React, { useState, useEffect, useRef } from 'react'
 import { Box, Button, Checkbox, CheckboxGroup, Fade, Flex, Image, Stack, Text } from '@chakra-ui/react';
 import CartCard from './CartCard';
+
 import { Input, useDisclosure } from '@chakra-ui/react'
+import { CheckIcon } from '@chakra-ui/icons'
 import { Link, Navigate, useNavigate } from 'react-router-dom';
 import Paymentmodal from './Payments';
 import { useDispatch } from "react-redux"
