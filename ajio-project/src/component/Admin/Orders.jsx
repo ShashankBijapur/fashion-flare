@@ -15,7 +15,7 @@ import {
 const Orders = () => {
 
   return (
-    <Box style={{marginTop:"100px",textAlign:"center"}}>
+    <Box style={{marginTop:"100px",textAlign:"center",}}>
           <Heading as="h2" size="lg" mb={4}>
           Order Details
         </Heading>

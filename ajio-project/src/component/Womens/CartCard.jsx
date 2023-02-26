@@ -1,4 +1,4 @@
-import React, { useState,useEffect } from 'react'
+import React, { useState, useEffect } from 'react'
 import {
     Popover,
     PopoverTrigger,
@@ -16,41 +16,41 @@ import axios from 'axios'
 // import { ChevronDownIcon } from '@chakra-ui/icons'
 
 
-const CartCard = ({ item }) => {
-    const [count, setCount] = useState(1)
+const CartCard = ({ item, setCount,count }) => {
+    // const [count, setCount] = useState(1)
     const [size, setsize] = useState("M")
-    const [cartitem,setCartitem]=useState([])
+    const [cartitem, setCartitem] = useState([])
     const handleSizeChange = (event) => {
         setsize(event.target.value);
     };
     console.log(cartitem)
-    const deleteitem=(id)=>{
+    const deleteitem = (id) => {
         axios.delete(`http://localhost:8080/cart/${id}`)
-        // .then(res=>res.json())
-        .then(res => setCartitem(res.data))
+            // .then(res=>res.json())
+            .then(res => setCartitem(res.data))
     }
-    const addtowishlist=(item,id)=>{
+    const addtowishlist = (item, id) => {
         console.log(item)
         // axios.post("http://localhost:8080/wishlist",item)
         // .then((r) => {
         //    console.log(r.data)
         // })
-        axios.post("http://localhost:8080/wishlist",item)
-        .then(r=>setCartitem(r.data))
+        axios.post("http://localhost:8080/wishlist", item)
+            .then(r => setCartitem(r.data))
 
         axios.delete(`http://localhost:8080/cart/${id}`)
-        // .then(res=>res.json())
-        .then(res => setCartitem(res.data))
+            // .then(res=>res.json())
+            .then(res => setCartitem(res.data))
     }
     // useEffect(() => {
     // //    deleteitem()
     // }, [item]);
-    
+
     return (
         <>
 
 
-            <div style={{ display: "flex",justifyContent: "space-between",marginTop:"20px" }}>
+            <div style={{ display: "flex", justifyContent: "space-between", marginTop: "20px" }}>
                 <div><img src={item.src} width={150} alt="" /> </div>
                 <div><h2>{item.brand}- <span> {item.nameCls}</span> </h2></div>
                 <div>
@@ -80,16 +80,16 @@ const CartCard = ({ item }) => {
                 </div>
 
 
-                <div style={{display:"grid",gap:"50px"}}>
+                <div style={{ display: "grid", gap: "50px" }}>
                     <div >
                         <h1> Discount  Rs.{item.offerpricess}</h1>
                         {/* <h1></h1> */}
-                        <h1> Rs. {item.orginalprice} <span>{item.discount}</span> <span> Rs. {item.price * count}</span></h1>
+                        <h1> <p style={{textDecoration:"line-through"}}>Rs. {item.orginalprice}</p>  <span>{item.discount}%Off</span> <span> Rs. {item.price * count}</span></h1>
                     </div>
                     <div>
-                        <div style={{display:"flex",gap:"20px"}}> 
-                            <Button onClick={()=>deleteitem(item.id)}> Delete</Button> 
-                            <Button onClick={()=>addtowishlist(item,item.id)}> Move To Wishlist</Button></div>  
+                        <div style={{ display: "flex", gap: "20px" }}>
+                            <Button onClick={() => deleteitem(item.id)}> Delete</Button>
+                            <Button onClick={() => addtowishlist(item, item.id)}> Move To Wishlist</Button></div>
                     </div>
 
                 </div>

@@ -1,5 +1,5 @@
-
 import {
+  GETCARTREQ,
   GETREQ,
   GETSINGLEPROD,
   POSTCARTREQ,
@@ -25,6 +25,9 @@ const reducer = (state = initialState, { type, payload }) => {
       return { ...state, cart: [...state.cart, payload] };
     case POSTWISHLISTREQ:
       return { ...state, wishlist: [...state.wishlist, payload] };
+    case GETCARTREQ:
+      return { ...state, cart:payload };
+
     default:
       return state;
   }
