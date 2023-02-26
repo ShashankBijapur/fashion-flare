@@ -2,221 +2,221 @@
   "mens": [
     {
       "id": 1,
-      "rilrtl-products-list__link href": "https://www.ajio.com/puma-low-top-lace-up-sneakers/p/465654605_white",
+      "href": "https://www.ajio.com/puma-low-top-lace-up-sneakers/p/465654605_white",
       "src": "https://assets.ajio.com/medias/sys_master/root/20230124/BHS4/63cf9cd8f997dd708e1e5537/puma_white_low-top_lace-up_sneakers.jpg",
       "brand": "Puma",
       "nameCls": "Low-Top Lace-Up Sneakers",
-      "price": "₹2,879",
-      "orginal-price": "₹4,499",
+      "price": "2,879",
+      "orginalprice": "4,499",
       "discount": "(36% off)",
       "offer": "2,102"
     },
     {
       "id": 2,
-      "rilrtl-products-list__link href": "https://www.ajio.com/dennislingo-premium-attire-full-sleeves-slim-fit-shirt/p/462323964_white",
+      "href": "https://www.ajio.com/dennislingo-premium-attire-full-sleeves-slim-fit-shirt/p/462323964_white",
       "src": "https://assets.ajio.com/medias/sys_master/root/20221109/u2JJ/636b8eddaeb269659c7f91b5/dennislingo_premium_attire_white_full_sleeves_slim_fit_shirt.jpg",
       "brand": "DENNISLINGO PREMIUM ATTIRE",
       "nameCls": "Full Sleeves Slim Fit Shirt",
-      "price": "₹684",
-      "orginal-price": "₹1,849",
+      "price": "684",
+      "orginalprice": "1,849",
       "discount": "(63% off)",
       "offer": 481
     },
     {
       "id": 3,
-      "rilrtl-products-list__link href": "https://www.ajio.com/superdry-superdry-grooming-kit/p/410292364_02a",
+      "href": "https://www.ajio.com/superdry-superdry-grooming-kit/p/410292364_02a",
       "src": "https://assets.ajio.com/medias/sys_master/root/20221124/BelH/637f1003aeb269659caf7579/superdry_black_superdry_grooming_kit.jpg",
       "brand": "SUPERDRY",
       "nameCls": "Superdry Grooming Kit",
-      "price": "₹399",
-      "orginal-price": "₹2,398",
+      "price": "399",
+      "orginalprice": "2,398",
       "discount": "(83% off)",
       "offer": 399
     },
     {
       "id": 4,
-      "rilrtl-products-list__link href": "https://www.ajio.com/glito-jogger-pant-with-drawstring-waist/p/464233494_grey",
+      "href": "https://www.ajio.com/glito-jogger-pant-with-drawstring-waist/p/464233494_grey",
       "src": "https://assets.ajio.com/medias/sys_master/root/20220426/4fnM/62670e50f997dd03e281471c/glito_grey_jogger_pant_with_drawstring_waist.jpg",
       "brand": "GLITO",
       "nameCls": "Jogger Pant with Drawstring Waist",
-      "price": "₹442",
-      "orginal-price": "₹1,299",
+      "price": "442",
+      "orginalprice": "1,299",
       "discount": "(66% off)",
       "offer": 338
     },
     {
       "id": 5,
-      "rilrtl-products-list__link href": "https://www.ajio.com/crocs-bayaband-slingback-clogs/p/460532535_black",
+      "href": "https://www.ajio.com/crocs-bayaband-slingback-clogs/p/460532535_black",
       "src": "https://assets.ajio.com/medias/sys_master/root/20200723/i9yC/5f19ad997cdb8c2207843f9b/crocs_black_bayaband_slingback_clogs.jpg",
       "brand": "CROCS",
       "nameCls": "Bayaband Slingback Clogs",
-      "price": "₹2,132",
-      "orginal-price": "₹3,495",
+      "price": "2,132",
+      "orginalprice": "3,495",
       "discount": "(39% off)",
       "offer": "2,062"
     },
     {
       "id": 6,
-      "rilrtl-products-list__link href": "https://www.ajio.com/nike-revolution-6-nn-running-shoes/p/469034008_black",
+      "href": "https://www.ajio.com/nike-revolution-6-nn-running-shoes/p/469034008_black",
       "src": "https://assets.ajio.com/medias/sys_master/root/20211224/1tuJ/61c4c229aeb26901101a2a6a/nike_black_revolution_6_nn_running_shoes.jpg",
       "brand": "NIKE",
       "nameCls": "Revolution 6 NN Running Shoes",
-      "price": "₹2,956",
-      "orginal-price": "₹3,695",
+      "price": "2,956",
+      "orginalprice": "3,695",
       "discount": "(20% off)",
       "offer": "2,697"
     },
     {
       "id": 7,
-      "rilrtl-products-list__link href": "https://www.ajio.com/performax-fastdry-active-essential-track-pants/p/440971924_jetblack",
+      "href": "https://www.ajio.com/performax-fastdry-active-essential-track-pants/p/440971924_jetblack",
       "src": "https://assets.ajio.com/medias/sys_master/root/20220927/pNT8/6332df42aeb269dbb3aa32c0/performax_jet_black_fastdry_active_essential_track_pants.jpg",
       "brand": "PERFORMAX",
       "nameCls": "Fastdry Active Essential Track Pants",
-      "price": "₹419",
-      "orginal-price": "₹599",
+      "price": "419",
+      "orginalprice": "599",
       "discount": "(30% off)",
       "offer": 300
     },
     {
       "id": 8,
-      "rilrtl-products-list__link href": "https://www.ajio.com/nike-free-rn-5-running-shoes/p/469033975_black",
+      "href": "https://www.ajio.com/nike-free-rn-5-running-shoes/p/469033975_black",
       "src": "https://assets.ajio.com/medias/sys_master/root/20220201/1PMU/61f82efcaeb2695cdd422d1d/nike_black_free_rn_5_running_shoes.jpg",
       "brand": "NIKE",
       "nameCls": "Free RN 5 Running Shoes",
-      "price": "₹4,148",
-      "orginal-price": "₹8,295",
+      "price": "4,148",
+      "orginalprice": "8,295",
       "discount": "(50% off)",
       "offer": "4,148"
     },
     {
       "id": 9,
-      "rilrtl-products-list__link href": "https://www.ajio.com/the-indian-garage-co-striped-slim-fit-shirt-with-patch-pocket/p/460453610_white",
+      "href": "https://www.ajio.com/the-indian-garage-co-striped-slim-fit-shirt-with-patch-pocket/p/460453610_white",
       "src": "https://assets.ajio.com/medias/sys_master/root/20211023/dEWu/61730697aeb2690110a3a43d/the_indian_garage_co_white_striped_slim_fit_shirt_with_patch_pocket.jpg",
       "brand": "The Indian Garage Co",
       "nameCls": "Striped Slim Fit Shirt with Patch Pocket",
-      "price": "₹627",
-      "orginal-price": "₹1,649",
+      "price": "627",
+      "orginalprice": "1,649",
       "discount": "(62% off)",
       "offer": 561
     },
     {
       "id": 10,
-      "rilrtl-products-list__link href": "https://www.ajio.com/puma-low-top-lace-up-sneakers/p/465642484_black",
+      "href": "https://www.ajio.com/puma-low-top-lace-up-sneakers/p/465642484_black",
       "src": "https://assets.ajio.com/medias/sys_master/root/20230123/176A/63cea433f997dd708e1b5980/puma_black_low-top_lace-up_sneakers.jpg",
       "brand": "Puma",
       "nameCls": "Low-Top Lace-Up Sneakers",
-      "price": "₹2,879",
-      "orginal-price": "₹4,499",
+      "price": "2,879",
+      "orginalprice": "4,499",
       "discount": "(36% off)",
       "offer": "2,102"
     },
     {
       "id": 11,
-      "rilrtl-products-list__link href": "https://www.ajio.com/jump-cuts-typographic-print-slim-fit-hooded-t-shirt-with-flap-pocket/p/465647923_black",
+      "href": "https://www.ajio.com/jump-cuts-typographic-print-slim-fit-hooded-t-shirt-with-flap-pocket/p/465647923_black",
       "src": "https://assets.ajio.com/medias/sys_master/root/20230221/ZtGk/63f4da23f997dde6f4b81c7e/jump_cuts_black_typographic_print_slim_fit_hooded_t-shirt_with_flap_pocket.jpg",
       "brand": "JUMP CUTS",
       "nameCls": "Typographic Print Slim Fit Hooded T-Shirt with Flap Pocket",
-      "price": "₹410",
-      "orginal-price": "₹1,519",
+      "price": "410",
+      "orginalprice": "1,519",
       "discount": "(73% off)",
       "offer": 410
     },
     {
       "id": 12,
-      "rilrtl-products-list__link href": "https://www.ajio.com/dennislingo-premium-attire--slim-fit-shirt-with-spread-collar/p/462323964_purple",
+      "href": "https://www.ajio.com/dennislingo-premium-attire--slim-fit-shirt-with-spread-collar/p/462323964_purple",
       "src": "https://assets.ajio.com/medias/sys_master/root/20221109/61kh/636b8ebaf997ddfdbd664273/dennislingo_premium_attire_purple__slim_fit_shirt_with_spread_collar.jpg",
       "brand": "DENNISLINGO PREMIUM ATTIRE",
       "nameCls": "Slim Fit Shirt with Spread Collar",
-      "price": "₹703",
-      "orginal-price": "₹1,849",
+      "price": "703",
+      "orginalprice": "1,849",
       "discount": "(62% off)",
       "offer": 481
     },
     {
       "id": 13,
-      "rilrtl-products-list__link href": "https://www.ajio.com/dennislingo-premium-attire-striped-slim-fit-shirt/p/462152986_green",
+      "href": "https://www.ajio.com/dennislingo-premium-attire-striped-slim-fit-shirt/p/462152986_green",
       "src": "https://assets.ajio.com/medias/sys_master/root/20221117/2r8w/6375d715aeb269659c97f84a/dennislingo_premium_attire_green_striped_slim_fit_shirt.jpg",
       "brand": "DENNISLINGO PREMIUM ATTIRE",
       "nameCls": "Striped Slim Fit Shirt",
-      "price": "₹700",
-      "orginal-price": "₹2,499",
+      "price": "700",
+      "orginalprice": "2,499",
       "discount": "(72% off)",
       "offer": 650
     },
     {
       "id": 14,
-      "rilrtl-products-list__link href": "https://www.ajio.com/eyebogler-colour-blocked-polo-t-shirt/p/464918983_blue",
+      "href": "https://www.ajio.com/eyebogler-colour-blocked-polo-t-shirt/p/464918983_blue",
       "src": "https://assets.ajio.com/medias/sys_master/root/20220901/ARH5/6310ee67f997dd1f8dd3e3fd/eyebogler_teal_colour-blocked_polo_t-shirt.jpg",
       "brand": "EYEBOGLER",
       "nameCls": "Colour-Blocked Polo T-shirt",
-      "price": "₹403",
-      "orginal-price": "₹1,299",
+      "price": "403",
+      "orginalprice": "1,299",
       "discount": "(69% off)",
       "offer": 338
     },
     {
       "id": 15,
-      "rilrtl-products-list__link href": "https://www.ajio.com/dennislingo-premium-attire-full-sleeves-slim-fit-classic-shirt/p/462323964_pink",
+      "href": "https://www.ajio.com/dennislingo-premium-attire-full-sleeves-slim-fit-classic-shirt/p/462323964_pink",
       "src": "https://assets.ajio.com/medias/sys_master/root/20230102/R0me/63b30ae3aeb269659c1e4f01/dennislingo_premium_attire_pink_full_sleeves_slim_fit_classic_shirt.jpg",
       "brand": "DENNISLINGO PREMIUM ATTIRE",
       "nameCls": "Full Sleeves Slim Fit Classic Shirt",
-      "price": "₹703",
-      "orginal-price": "₹1,849",
+      "price": "703",
+      "orginalprice": "1,849",
       "discount": "(62% off)",
       "offer": 481
     },
     {
       "id": 16,
-      "rilrtl-products-list__link href": "https://www.ajio.com/nike-court-vision-lace-up-sneakers/p/460941938_white",
+      "href": "https://www.ajio.com/nike-court-vision-lace-up-sneakers/p/460941938_white",
       "src": "https://assets.ajio.com/medias/sys_master/root/20210824/wvPO/6123f1a0aeb269a2687a9e41/nike_white_court_vision_lace-up_sneakers.jpg",
       "brand": "NIKE",
       "nameCls": "COURT VISION Lace-Up Sneakers",
-      "price": "₹4,146",
-      "orginal-price": "₹4,995",
+      "price": "4,146",
+      "orginalprice": "4,995",
       "discount": "(17% off)",
       "offer": "3,996"
     },
     {
       "id": 17,
-      "rilrtl-products-list__link href": "https://www.ajio.com/jqr-mid-top-lace-up-running-shoes/p/465183364_navy",
+      "href": "https://www.ajio.com/jqr-mid-top-lace-up-running-shoes/p/465183364_navy",
       "src": "https://assets.ajio.com/medias/sys_master/root/20230106/CtN6/63b7c4c2f997dd708ed98d11/jqr_navy_mid-top_lace-up_running_shoes.jpg",
       "brand": "JQR",
       "nameCls": "Mid-Top Lace-Up Running Shoes",
-      "price": "₹1,529",
-      "orginal-price": "₹1,699",
+      "price": "1,529",
+      "orginalprice": "1,699",
       "discount": "(10% off)",
       "offer": "1,019"
     },
     {
       "id": 18,
-      "rilrtl-products-list__link href": "https://www.ajio.com/nike-court-vision-lo-lace-up-shoes/p/469434748_blackgrey",
+      "href": "https://www.ajio.com/nike-court-vision-lo-lace-up-shoes/p/469434748_blackgrey",
       "src": "https://assets.ajio.com/medias/sys_master/root/20230206/9ZUJ/63e1164baeb269c651121c5a/nike_black_court_vision_lo_lace-up_shoes.jpg",
       "brand": "NIKE",
       "nameCls": "Court Vision LO Lace-Up Shoes",
-      "price": "₹5,126",
-      "orginal-price": "₹5,695",
+      "price": "5,126",
+      "orginalprice": "5,695",
       "discount": "(10% off)",
       "offer": "4,556"
     },
     {
       "id": 19,
-      "rilrtl-products-list__link href": "https://www.ajio.com/crocs-bayaband-slingback-clogs/p/469063961_brown",
+      "href": "https://www.ajio.com/crocs-bayaband-slingback-clogs/p/469063961_brown",
       "src": "https://assets.ajio.com/medias/sys_master/root/20220714/MBnb/62d006bbf997dd03e2d41a19/crocs_beige_bayaband_slingback_clogs.jpg",
       "brand": "CROCS",
       "nameCls": "Bayaband Slingback Clogs",
-      "price": "₹2,167",
-      "orginal-price": "₹3,495",
+      "price": "2,167",
+      "orginalprice": "3,495",
       "discount": "(38% off)",
       "offer": "2,062"
     },
     {
       "id": 20,
-      "rilrtl-products-list__link href": "https://www.ajio.com/levis-513-mid-wash-slim-fit-jeans/p/469241910_blue",
+      "href": "https://www.ajio.com/levis-513-mid-wash-slim-fit-jeans/p/469241910_blue",
       "src": "https://assets.ajio.com/medias/sys_master/root/20220908/Gz6D/631908edaeb269dbb378f99d/levis_navy_blue_513_mid_wash_slim_fit_jeans.jpg",
       "brand": "LEVIS",
       "nameCls": "513 Mid Wash Slim Fit Jeans",
-      "price": "₹1,610",
-      "orginal-price": "₹3,499",
+      "price": "1,610",
+      "orginalprice": "3,499",
       "discount": "(54% off)",
       "offer": "1,610"
     }
@@ -224,89 +224,89 @@
   "menmen": [
     {
       "id": 1,
-      "rilrtl-products-list__link href": "https://www.ajio.com/dennislingo-premium-attire-full-sleeves-slim-fit-shirt/p/462323964_white",
+      "href": "https://www.ajio.com/dennislingo-premium-attire-full-sleeves-slim-fit-shirt/p/462323964_white",
       "src": "https://assets.ajio.com/medias/sys_master/root/20221109/u2JJ/636b8eddaeb269659c7f91b5/dennislingo_premium_attire_white_full_sleeves_slim_fit_shirt.jpg",
       "brand": "DENNISLINGO PREMIUM ATTIRE",
       "nameCls": "Full Sleeves Slim Fit Shirt",
-      "price": "₹684",
-      "orginal-price": "₹1,849",
+      "price": "684",
+      "orginalprice": "1,849",
       "discount": "(63% off)",
       "offer": 481
     },
     {
       "id": 2,
-      "rilrtl-products-list__link href": "https://www.ajio.com/glito-jogger-pant-with-drawstring-waist/p/464233494_grey",
+      "href": "https://www.ajio.com/glito-jogger-pant-with-drawstring-waist/p/464233494_grey",
       "src": "https://assets.ajio.com/medias/sys_master/root/20220426/4fnM/62670e50f997dd03e281471c/glito_grey_jogger_pant_with_drawstring_waist.jpg",
       "brand": "GLITO",
       "nameCls": "Jogger Pant with Drawstring Waist",
-      "price": "₹442",
-      "orginal-price": "₹1,299",
+      "price": "442",
+      "orginalprice": "1,299",
       "discount": "(66% off)",
       "offer": 338
     },
     {
       "id": 3,
-      "rilrtl-products-list__link href": "https://www.ajio.com/performax-fastdry-active-essential-track-pants/p/440971924_jetblack",
+      "href": "https://www.ajio.com/performax-fastdry-active-essential-track-pants/p/440971924_jetblack",
       "src": "https://assets.ajio.com/medias/sys_master/root/20220927/pNT8/6332df42aeb269dbb3aa32c0/performax_jet_black_fastdry_active_essential_track_pants.jpg",
       "brand": "PERFORMAX",
       "nameCls": "Fastdry Active Essential Track Pants",
-      "price": "₹419",
-      "orginal-price": "₹599",
+      "price": "419",
+      "orginalprice": "599",
       "discount": "(30% off)",
       "offer": 300
     },
     {
       "id": 4,
-      "rilrtl-products-list__link href": "https://www.ajio.com/the-indian-garage-co-striped-slim-fit-shirt-with-patch-pocket/p/460453610_white",
+      "href": "https://www.ajio.com/the-indian-garage-co-striped-slim-fit-shirt-with-patch-pocket/p/460453610_white",
       "src": "https://assets.ajio.com/medias/sys_master/root/20211023/dEWu/61730697aeb2690110a3a43d/the_indian_garage_co_white_striped_slim_fit_shirt_with_patch_pocket.jpg",
       "brand": "The Indian Garage Co",
       "nameCls": "Striped Slim Fit Shirt with Patch Pocket",
-      "price": "₹627",
-      "orginal-price": "₹1,649",
+      "price": "627",
+      "orginalprice": "1,649",
       "discount": "(62% off)",
       "offer": 561
     },
     {
       "id": 5,
-      "rilrtl-products-list__link href": "https://www.ajio.com/dennislingo-premium-attire--slim-fit-shirt-with-spread-collar/p/462323964_purple",
+      "href": "https://www.ajio.com/dennislingo-premium-attire--slim-fit-shirt-with-spread-collar/p/462323964_purple",
       "src": "https://assets.ajio.com/medias/sys_master/root/20221109/61kh/636b8ebaf997ddfdbd664273/dennislingo_premium_attire_purple__slim_fit_shirt_with_spread_collar.jpg",
       "brand": "DENNISLINGO PREMIUM ATTIRE",
       "nameCls": "Slim Fit Shirt with Spread Collar",
-      "price": "₹703",
-      "orginal-price": "₹1,849",
+      "price": "703",
+      "orginalprice": "1,849",
       "discount": "(62% off)",
       "offer": 481
     },
     {
       "id": 6,
-      "rilrtl-products-list__link href": "https://www.ajio.com/dennislingo-premium-attire-striped-slim-fit-shirt/p/462152986_green",
+      "href": "https://www.ajio.com/dennislingo-premium-attire-striped-slim-fit-shirt/p/462152986_green",
       "src": "https://assets.ajio.com/medias/sys_master/root/20221117/2r8w/6375d715aeb269659c97f84a/dennislingo_premium_attire_green_striped_slim_fit_shirt.jpg",
       "brand": "DENNISLINGO PREMIUM ATTIRE",
       "nameCls": "Striped Slim Fit Shirt",
-      "price": "₹700",
-      "orginal-price": "₹2,499",
+      "price": "700",
+      "orginalprice": "2,499",
       "discount": "(72% off)",
       "offer": 650
     },
     {
       "id": 7,
-      "rilrtl-products-list__link href": "https://www.ajio.com/eyebogler-colour-blocked-polo-t-shirt/p/464918983_blue",
+      "href": "https://www.ajio.com/eyebogler-colour-blocked-polo-t-shirt/p/464918983_blue",
       "src": "https://assets.ajio.com/medias/sys_master/root/20220901/ARH5/6310ee67f997dd1f8dd3e3fd/eyebogler_teal_colour-blocked_polo_t-shirt.jpg",
       "brand": "EYEBOGLER",
       "nameCls": "Colour-Blocked Polo T-shirt",
-      "price": "₹403",
-      "orginal-price": "₹1,299",
+      "price": "403",
+      "orginalprice": "1,299",
       "discount": "(69% off)",
       "offer": 338
     },
     {
       "id": 8,
-      "rilrtl-products-list__link href": "https://www.ajio.com/dennislingo-premium-attire-full-sleeves-slim-fit-classic-shirt/p/462323964_pink",
+      "href": "https://www.ajio.com/dennislingo-premium-attire-full-sleeves-slim-fit-classic-shirt/p/462323964_pink",
       "src": "https://assets.ajio.com/medias/sys_master/root/20230102/R0me/63b30ae3aeb269659c1e4f01/dennislingo_premium_attire_pink_full_sleeves_slim_fit_classic_shirt.jpg",
       "brand": "DENNISLINGO PREMIUM ATTIRE",
       "nameCls": "Full Sleeves Slim Fit Classic Shirt",
-      "price": "₹703",
-      "orginal-price": "₹1,849",
+      "price": "703",
+      "orginalprice": "1,849",
       "discount": "(62% off)",
       "offer": 481
     }
@@ -314,166 +314,166 @@
   "menshirt": [
     {
       "id": 1,
-      "rilrtl-products-list__link href": "https://www.ajio.com/jump-cuts-typographic-print-slim-fit-hooded-t-shirt-with-flap-pocket/p/465647923_black",
+      "href": "https://www.ajio.com/jump-cuts-typographic-print-slim-fit-hooded-t-shirt-with-flap-pocket/p/465647923_black",
       "src": "https://assets.ajio.com/medias/sys_master/root/20220324/hmQq/623c6fdef997dd03e22cd5a7/campus_sutra_blue_checked_shirt_with_patch_pocket.jpg",
       "brand": "JUMP CUTS",
       "nameCls": "Typographic Print Slim Fit Hooded T-Shirt with Flap Pocket",
-      "price": "₹410",
-      "orginal-price": "₹1,519",
+      "price": "410",
+      "orginalprice": "1,519",
       "discount": "(73% off)",
       "offer": 409
     },
     {
       "id": 2,
-      "rilrtl-products-list__link href": "https://www.ajio.com/eyebogler-colour-blocked-polo-t-shirt/p/464918983_blue",
+      "href": "https://www.ajio.com/eyebogler-colour-blocked-polo-t-shirt/p/464918983_blue",
       "src": "https://assets.ajio.com/medias/sys_master/root/20220513/5arK/627e2306aeb26921af76b77c/the_bear_house_maroon_slim_fit_checked_shirt.jpg",
       "brand": "EYEBOGLER",
       "nameCls": "Colour-Blocked Polo T-shirt",
-      "price": "₹403",
-      "orginal-price": "₹1,299",
+      "price": "403",
+      "orginalprice": "1,299",
       "discount": "(69% off)",
       "offer": 338
     },
     {
       "id": 3,
-      "rilrtl-products-list__link href": "https://www.ajio.com/ausk-striped-crew-neck-t-shirt/p/464531848_navy",
+      "href": "https://www.ajio.com/ausk-striped-crew-neck-t-shirt/p/464531848_navy",
       "src": "https://assets.ajio.com/medias/sys_master/root/20221109/u2JJ/636b8eddaeb269659c7f91b5/dennislingo_premium_attire_white_full_sleeves_slim_fit_shirt.jpg",
       "brand": "AUSK",
       "nameCls": "Striped Crew-Neck T-shirt",
-      "price": "₹360",
-      "orginal-price": "₹999",
+      "price": "360",
+      "orginalprice": "999",
       "discount": "(64% off)",
       "offer": 260
     },
     {
       "id": 4,
-      "rilrtl-products-list__link href": "https://www.ajio.com/stellers-polo-t-shirt-with-brand-print/p/464979926_grey",
+      "href": "https://www.ajio.com/stellers-polo-t-shirt-with-brand-print/p/464979926_grey",
       "src": "https://assets.ajio.com/medias/sys_master/root/20221117/2r8w/6375d715aeb269659c97f84a/dennislingo_premium_attire_green_striped_slim_fit_shirt.jpg",
       "brand": "Stellers",
       "nameCls": "Polo T-shirt with Brand Print",
-      "price": "₹800",
-      "orginal-price": "₹1,999",
+      "price": "800",
+      "orginalprice": "1,999",
       "discount": "(60% off)",
       "offer": 520
     },
     {
       "id": 5,
-      "rilrtl-products-list__link href": "https://www.ajio.com/teamspirit-popcorn-crew-neck-t-shirt/p/441146987_green",
+      "href": "https://www.ajio.com/teamspirit-popcorn-crew-neck-t-shirt/p/441146987_green",
       "src": "https://assets.ajio.com/medias/sys_master/root/20230102/R0me/63b30ae3aeb269659c1e4f01/dennislingo_premium_attire_pink_full_sleeves_slim_fit_classic_shirt.jpg",
       "brand": "Teamspirit",
       "nameCls": "Popcorn Crew-Neck T-Shirt",
-      "price": "₹382",
-      "orginal-price": "₹449",
+      "price": "382",
+      "orginalprice": "449",
       "discount": "(15% off)",
       "offer": 255
     },
     {
       "id": 6,
-      "rilrtl-products-list__link href": "https://www.ajio.com/damensch-lounge-crew-neck-t-shirt/p/463139014_green",
+      "href": "https://www.ajio.com/damensch-lounge-crew-neck-t-shirt/p/463139014_green",
       "src": "https://assets.ajio.com/medias/sys_master/root/20221117/CXZZ/6375d74faeb269659c97fe85/dennislingo_premium_attire_black__slim_fit_shirt_with_spread_collar.jpg",
       "brand": "DAMENSCH",
       "nameCls": "Lounge Crew-Neck T-shirt",
-      "price": "₹401",
-      "orginal-price": "₹599",
+      "price": "401",
+      "orginalprice": "599",
       "discount": "(33% off)",
       "offer": 401
     },
     {
       "id": 7,
-      "rilrtl-products-list__link href": "https://www.ajio.com/ausk-striped-crew-neck-t-shirt/p/464957923_white",
+      "href": "https://www.ajio.com/ausk-striped-crew-neck-t-shirt/p/464957923_white",
       "src": "https://assets.ajio.com/medias/sys_master/root/20221109/SI6r/636b8e9af997ddfdbd663ee4/dennislingo_premium_attire_blue_checked_slim_fit_shirt.jpg",
       "brand": "AUSK",
       "nameCls": "Striped Crew-Neck T-shirt",
-      "price": "₹350",
-      "orginal-price": "₹999",
+      "price": "350",
+      "orginalprice": "999",
       "discount": "(65% off)",
       "offer": 260
     },
     {
       "id": 8,
-      "rilrtl-products-list__link href": "https://www.ajio.com/eyebogler-striped-polo-t-shirt/p/461951230_green",
+      "href": "https://www.ajio.com/eyebogler-striped-polo-t-shirt/p/461951230_green",
       "src": "https://assets.ajio.com/medias/sys_master/root/20230102/wJfs/63b2fe3eaeb269659c1e09e8/dennislingo_premium_attire_green_full_sleeves_slim_fit_shirt.jpg",
       "brand": "EYEBOGLER",
       "nameCls": "Striped Polo T-shirt",
-      "price": "₹442",
-      "orginal-price": "₹1,299",
+      "price": "442",
+      "orginalprice": "1,299",
       "discount": "(66% off)",
       "offer": 338
     },
     {
       "id": 9,
-      "rilrtl-products-list__link href": "https://www.ajio.com/difference-of-opinion-graphic-print-crew-neck-oversized-t-shirt/p/464270251_olive",
+      "href": "https://www.ajio.com/difference-of-opinion-graphic-print-crew-neck-oversized-t-shirt/p/464270251_olive",
       "src": "https://assets.ajio.com/medias/sys_master/root/20220819/Qm9w/62fe856aaeb269176183efe0/ivoc_black_slim_fit_shirt_with_patch_pocket.jpg",
       "brand": "DIFFERENCE OF OPINION",
       "nameCls": "Graphic Print Crew-Neck Oversized T-shirt",
-      "price": "₹494",
-      "orginal-price": "₹1,299",
+      "price": "494",
+      "orginalprice": "1,299",
       "discount": "(62% off)",
       "offer": 338
     },
     {
       "id": 10,
-      "rilrtl-products-list__link href": "https://www.ajio.com/stellers-slim-fit-polo-t-shirt/p/464179937_green",
+      "href": "https://www.ajio.com/stellers-slim-fit-polo-t-shirt/p/464179937_green",
       "src": "https://assets.ajio.com/medias/sys_master/root/20211023/6Qlf/617313e1aeb2690110a3e315/the_indian_garage_co_white_slim_fit_striped_shirt_with_patch_pocket.jpg",
       "brand": "Stellers",
       "nameCls": "Slim Fit Polo T-shirt",
-      "price": "₹800",
-      "orginal-price": "₹1,999",
+      "price": "800",
+      "orginalprice": "1,999",
       "discount": "(60% off)",
       "offer": 520
     },
     {
       "id": 11,
-      "rilrtl-products-list__link href": "https://www.ajio.com/cantabil-logo-print-t-shirt-with-collar/p/465108673_navy",
+      "href": "https://www.ajio.com/cantabil-logo-print-t-shirt-with-collar/p/465108673_navy",
       "src": "https://assets.ajio.com/medias/sys_master/root/20220121/XNDG/61ea64b3aeb2695cdd24fb24/gespo_black_shirt_with_curved_hemline.jpg",
       "brand": "Cantabil",
       "nameCls": "Logo Print T-Shirt with Collar",
-      "price": "₹520",
-      "orginal-price": "₹1,299",
+      "price": "520",
+      "orginalprice": "1,299",
       "discount": "(60% off)",
       "offer": 338
     },
     {
       "id": 12,
-      "rilrtl-products-list__link href": "https://www.ajio.com/damensch-ombre-dyed-crew-neck-t-shirt/p/463139050_white",
+      "href": "https://www.ajio.com/damensch-ombre-dyed-crew-neck-t-shirt/p/463139050_white",
       "src": "https://assets.ajio.com/medias/sys_master/root/20220513/2a7U/627e22b4f997dd03e2b9a1f2/the_bear_house_blue_checked_button-down_shirt.jpg",
       "brand": "DAMENSCH",
       "nameCls": "Ombre-dyed Crew-Neck T-shirt",
-      "price": "₹599",
-      "orginal-price": "₹799",
+      "price": "599",
+      "orginalprice": "799",
       "discount": "(25% off)",
       "offer": 599
     },
     {
       "id": 13,
-      "rilrtl-products-list__link href": "https://www.ajio.com/dillinger-colourblock-crew-neck-t-shirt/p/462102870_green",
+      "href": "https://www.ajio.com/dillinger-colourblock-crew-neck-t-shirt/p/462102870_green",
       "src": "https://assets.ajio.com/medias/sys_master/root/20220513/uxVC/627e237cf997dd03e2b9b21b/the_bear_house_grey_checked_slim_fit_shirt_with_patch_pocket.jpg",
       "brand": "DILLINGER",
       "nameCls": "Colourblock Crew- Neck T-shirt",
-      "price": "₹500",
-      "orginal-price": "₹1,249",
+      "price": "500",
+      "orginalprice": "1,249",
       "discount": "(60% off)",
       "offer": 462
     },
     {
       "id": 14,
-      "rilrtl-products-list__link href": "https://www.ajio.com/jump-cuts-typographic-print-crew-neck-t-shirt/p/465194215_white",
+      "href": "https://www.ajio.com/jump-cuts-typographic-print-crew-neck-t-shirt/p/465194215_white",
       "src": "https://assets.ajio.com/medias/sys_master/root/20210421/Cx4f/60803f7caeb269a9e39b4074/the_indian_garage_co_navy_blue_checked_slim_fit_shirt_with_button-down_collar.jpg",
       "brand": "JUMP CUTS",
       "nameCls": "Typographic Print Crew-Neck T-Shirt",
-      "price": "₹400",
-      "orginal-price": "₹1,599",
+      "price": "400",
+      "orginalprice": "1,599",
       "discount": "(75% off)",
       "offer": 400
     },
     {
       "id": 15,
-      "rilrtl-products-list__link href": "https://www.ajio.com/eyebogler-colour-blocked-polo-t-shirt/p/464918983_pink",
+      "href": "https://www.ajio.com/eyebogler-colour-blocked-polo-t-shirt/p/464918983_pink",
       "src": "https://assets.ajio.com/medias/sys_master/root/20220513/OWCN/627e26ddaeb26921af770461/the_bear_house_purple_textured_slim_fit_shirt_with_patch_pocket.jpg",
       "brand": "EYEBOGLER",
       "nameCls": "Colour-Blocked Polo T-shirt",
-      "price": "₹403",
-      "orginal-price": "₹1,299",
+      "price": "403",
+      "orginalprice": "1,299",
       "discount": "(69% off)",
       "offer": 338
     }
@@ -481,166 +481,166 @@
   "menkurta": [
     {
       "id": 1,
-      "rilrtl-products-list__link href": "https://www.ajio.com/enchanted-drapes-shirt-kurta-with-mandarin-collar/p/461171559_brown",
+      "href": "https://www.ajio.com/enchanted-drapes-shirt-kurta-with-mandarin-collar/p/461171559_brown",
       "src": "https://assets.ajio.com/medias/sys_master/root/20210404/BIiI/6069f125aeb269a9e34d1598/enchanted_drapes_brown_shirt_kurta_with_mandarin_collar.jpg",
       "brand": "Enchanted Drapes",
       "nameCls": "Shirt Kurta with Mandarin Collar",
-      "price": "₹611",
-      "orginal-price": "₹1,300",
+      "price": "611",
+      "orginalprice": "1,300",
       "discount": "(53% off)",
       "offer": 559
     },
     {
       "id": 2,
-      "rilrtl-products-list__link href": "https://www.ajio.com/even-self-design-kurta-with-asymmetrical-cut/p/465461612_black",
+      "href": "https://www.ajio.com/even-self-design-kurta-with-asymmetrical-cut/p/465461612_black",
       "src": "https://assets.ajio.com/medias/sys_master/root/20221220/zuax/63a0d9f8f997ddfdbde130cd/even_black_self-design_kurta_with_asymmetrical_cut.jpg",
       "brand": "Even",
       "nameCls": "Self-Design Kurta with Asymmetrical Cut",
-      "price": "₹858",
-      "orginal-price": "₹1,995",
+      "price": "858",
+      "orginalprice": "1,995",
       "discount": "(57% off)",
       "offer": 515
     },
     {
       "id": 3,
-      "rilrtl-products-list__link href": "https://www.ajio.com/jompers-self-design-full-sleeve-long-kurta/p/464468199_green",
+      "href": "https://www.ajio.com/jompers-self-design-full-sleeve-long-kurta/p/464468199_green",
       "src": "https://assets.ajio.com/medias/sys_master/root/20220617/jwpI/62ac44b7f997dd03e286fa95/jompers_green_self-design_full-sleeve_long_kurta.jpg",
       "brand": "JOMPERS",
       "nameCls": "Self-design Full-Sleeve Long Kurta",
-      "price": "₹953",
-      "orginal-price": "₹1,799",
+      "price": "953",
+      "orginalprice": "1,799",
       "discount": "(47% off)",
       "offer": 846
     },
     {
       "id": 4,
-      "rilrtl-products-list__link href": "https://www.ajio.com/azira-lace-accent-kurta-with-dupatta/p/462562820_pink",
+      "href": "https://www.ajio.com/azira-lace-accent-kurta-with-dupatta/p/462562820_pink",
       "src": "https://assets.ajio.com/medias/sys_master/root/20221123/m1wE/637e1a97f997ddfdbd93e8c8/azira_pink_lace_accent_kurta_with_dupatta.jpg",
       "brand": "AZIRA",
       "nameCls": "Lace Accent Kurta with Dupatta",
-      "price": "₹950",
-      "orginal-price": "₹1,899",
+      "price": "950",
+      "orginalprice": "1,899",
       "discount": "(50% off)",
       "offer": 684
     },
     {
       "id": 5,
-      "rilrtl-products-list__link href": "https://www.ajio.com/see-designs-printed-long-kurta-with-insert-pocket/p/461716978_blue",
+      "href": "https://www.ajio.com/see-designs-printed-long-kurta-with-insert-pocket/p/461716978_blue",
       "src": "https://assets.ajio.com/medias/sys_master/root/20210403/SHnM/6068a15b7cdb8c1f1479359f/see_designs_blue_printed_long_kurta_with_insert_pocket.jpg",
       "brand": "See Designs",
       "nameCls": "Printed Long Kurta with Insert Pocket",
-      "price": "₹770",
-      "orginal-price": "₹2,199",
+      "price": "770",
+      "orginalprice": "2,199",
       "discount": "(65% off)",
       "offer": 550
     },
     {
       "id": 6,
-      "rilrtl-products-list__link href": "https://www.ajio.com/even-striped-long-kurta-with-patch-pocket/p/465455016_yellow",
+      "href": "https://www.ajio.com/even-striped-long-kurta-with-patch-pocket/p/465455016_yellow",
       "src": "https://assets.ajio.com/medias/sys_master/root/20221219/I5hA/63a0a7eef997ddfdbddeff7c/even_yellow_striped_long_kurta_with_patch_pocket.jpg",
       "brand": "Even",
       "nameCls": "Striped Long Kurta with Patch Pocket",
-      "price": "₹663",
-      "orginal-price": "₹1,895",
+      "price": "663",
+      "orginalprice": "1,895",
       "discount": "(65% off)",
       "offer": 474
     },
     {
       "id": 7,
-      "rilrtl-products-list__link href": "https://www.ajio.com/t-tabard-floral-print-long-kurta/p/461457017_beige",
+      "href": "https://www.ajio.com/t-tabard-floral-print-long-kurta/p/461457017_beige",
       "src": "https://assets.ajio.com/medias/sys_master/root/20210403/EObW/606898deaeb269a9e3352668/t_tabard_beige_floral_print_long_kurta.jpg",
       "brand": "T Tabard",
       "nameCls": "Floral Print Long Kurta",
-      "price": "₹1,196",
-      "orginal-price": "₹2,599",
+      "price": "1,196",
+      "orginalprice": "2,599",
       "discount": "(54% off)",
       "offer": "1,195"
     },
     {
       "id": 8,
-      "rilrtl-products-list__link href": "https://www.ajio.com/louis-monarch-shirt-kurta-with-mandarin-collar/p/465121205_white",
+      "href": "https://www.ajio.com/louis-monarch-shirt-kurta-with-mandarin-collar/p/465121205_white",
       "src": "https://assets.ajio.com/medias/sys_master/root/20221008/TP28/6340a17ff997ddfdbd10161b/louis_monarch_white_shirt_kurta_with_mandarin_collar.jpg",
       "brand": "LOUIS MONARCH",
       "nameCls": "Shirt Kurta with Mandarin Collar",
-      "price": "₹640",
-      "orginal-price": "₹1,599",
+      "price": "640",
+      "orginalprice": "1,599",
       "discount": "(60% off)",
       "offer": 576
     },
     {
       "id": 9,
-      "rilrtl-products-list__link href": "https://www.ajio.com/ivoc-printed-slim-fit-shirt-kurta/p/461152508_maroon",
+      "href": "https://www.ajio.com/ivoc-printed-slim-fit-shirt-kurta/p/461152508_maroon",
       "src": "https://assets.ajio.com/medias/sys_master/root/20220818/UPN5/62fde1f4aeb269176182b64d/ivoc_maroon_printed_slim_fit_shirt_kurta.jpg",
       "brand": "iVOC",
       "nameCls": "Printed Slim Fit Shirt Kurta",
-      "price": "₹874",
-      "orginal-price": "₹1,899",
+      "price": "874",
+      "orginalprice": "1,899",
       "discount": "(54% off)",
       "offer": 524
     },
     {
       "id": 10,
-      "rilrtl-products-list__link href": "https://www.ajio.com/kuons-avenue-tailored-fit-short-kurta-with-button-placket/p/462765915_black",
+      "href": "https://www.ajio.com/kuons-avenue-tailored-fit-short-kurta-with-button-placket/p/462765915_black",
       "src": "https://assets.ajio.com/medias/sys_master/root/20221125/XFti/63805d62f997ddfdbd9c88d3/kuons_avenue_black_tailored_fit_short_kurta_with_button_placket.jpg",
       "brand": "Kuons Avenue",
       "nameCls": "Tailored Fit Short Kurta with Button Placket",
-      "price": "₹920",
-      "orginal-price": "₹1,999",
+      "price": "920",
+      "orginalprice": "1,999",
       "discount": "(54% off)",
       "offer": 860
     },
     {
       "id": 11,
-      "rilrtl-products-list__link href": "https://www.ajio.com/enchanted-drapes-textured-long-kurta-with-patch-pockets/p/461192653_red",
+      "href": "https://www.ajio.com/enchanted-drapes-textured-long-kurta-with-patch-pockets/p/461192653_red",
       "src": "https://assets.ajio.com/medias/sys_master/root/20210404/iOec/606a9129aeb269a9e3595cd2/enchanted_drapes_red_textured_long_kurta_with_patch_pockets.jpg",
       "brand": "Enchanted Drapes",
       "nameCls": "Textured Long Kurta with Patch Pockets",
-      "price": "₹637",
-      "orginal-price": "₹1,300",
+      "price": "637",
+      "orginalprice": "1,300",
       "discount": "(51% off)",
       "offer": 559
     },
     {
       "id": 12,
-      "rilrtl-products-list__link href": "https://www.ajio.com/enchanted-drapes-shirt-kurta-with-patch-pocket/p/461168064_blue",
+      "href": "https://www.ajio.com/enchanted-drapes-shirt-kurta-with-patch-pocket/p/461168064_blue",
       "src": "https://assets.ajio.com/medias/sys_master/root/20210404/x2iQ/606a14547cdb8c1f14923bf3/enchanted_drapes_blue_shirt_kurta_with_patch_pocket.jpg",
       "brand": "Enchanted Drapes",
       "nameCls": "Shirt Kurta with Patch Pocket",
-      "price": "₹637",
-      "orginal-price": "₹1,300",
+      "price": "637",
+      "orginalprice": "1,300",
       "discount": "(51% off)",
       "offer": 559
     },
     {
       "id": 13,
-      "rilrtl-products-list__link href": "https://www.ajio.com/even-cotton-kurta-with-insert-pocket-/p/465461536_purple",
+      "href": "https://www.ajio.com/even-cotton-kurta-with-insert-pocket-/p/465461536_purple",
       "src": "https://assets.ajio.com/medias/sys_master/root/20221220/mUaL/63a0d808aeb269659cf646fd/even_purple_cotton_kurta_with_insert_pocket_.jpg",
       "brand": "Even",
       "nameCls": "Cotton Kurta with Insert Pocket",
-      "price": "₹700",
-      "orginal-price": "₹1,945",
+      "price": "700",
+      "orginalprice": "1,945",
       "discount": "(64% off)",
       "offer": 486
     },
     {
       "id": 14,
-      "rilrtl-products-list__link href": "https://www.ajio.com/sojanya-textured-long-kurta/p/461185769_black",
+      "href": "https://www.ajio.com/sojanya-textured-long-kurta/p/461185769_black",
       "src": "https://assets.ajio.com/medias/sys_master/root/20210404/YUxc/606be24aaeb269a9e36eb967/sojanya_black_textured_long_kurta.jpg",
       "brand": "SOJANYA",
       "nameCls": "Textured Long Kurta",
-      "price": "₹1,769",
-      "orginal-price": "₹2,999",
+      "price": "1,769",
+      "orginalprice": "2,999",
       "discount": "(41% off)",
       "offer": "1,061"
     },
     {
       "id": 15,
-      "rilrtl-products-list__link href": "https://www.ajio.com/molly--michel-full-sleeve-kurta-with-collar-neck/p/464097037_black",
+      "href": "https://www.ajio.com/molly--michel-full-sleeve-kurta-with-collar-neck/p/464097037_black",
       "src": "https://assets.ajio.com/medias/sys_master/root/20221207/LhFK/6390942baeb269659cdac500/molly_%26_michel_black_full-sleeve_kurta_with_collar-neck.jpg",
       "brand": "MOLLY & MICHEL",
       "nameCls": "Full-Sleeve Kurta with Collar-Neck",
-      "price": "₹858",
-      "orginal-price": "₹3,299",
+      "price": "858",
+      "orginalprice": "3,299",
       "discount": "(74% off)",
       "offer": 857
     }
@@ -648,221 +648,221 @@
   "menjeans": [
     {
       "id": 1,
-      "rilrtl-products-list__link href": "https://www.ajio.com/studio-nexx-mid-rise-relaxed-fit-jeans/p/465171738_green",
+      "href": "https://www.ajio.com/studio-nexx-mid-rise-relaxed-fit-jeans/p/465171738_green",
       "src": "https://assets.ajio.com/medias/sys_master/root/20221019/uLvP/63500facaeb269659c4e1b6d/studio_nexx_green_mid-rise_relaxed_fit_jeans.jpg",
       "brand": "STUDIO NEXX",
       "nameCls": "Mid-Rise Relaxed Fit Jeans",
-      "price": "₹690",
-      "orginal-price": "₹1,499",
+      "price": "690",
+      "orginalprice": "1,499",
       "discount": "(54% off)",
       "offer": 414
     },
     {
       "id": 2,
-      "rilrtl-products-list__link href": "https://www.ajio.com/breakpoint-mid-wash-distressed-skinny-fit-jeans/p/420180406_blue",
+      "href": "https://www.ajio.com/breakpoint-mid-wash-distressed-skinny-fit-jeans/p/420180406_blue",
       "src": "https://assets.ajio.com/medias/sys_master/root/20221031/BhDe/635fa5afaeb269659c651cad/breakpoint_blue_mid-wash_distressed_skinny_fit_jeans.jpg",
       "brand": "BREAKPOINT",
       "nameCls": "Mid-Wash Distressed Skinny Fit Jeans",
-      "price": "₹599",
-      "orginal-price": "₹999",
+      "price": "599",
+      "orginalprice": "999",
       "discount": "(40% off)",
       "offer": 500
     },
     {
       "id": 3,
-      "rilrtl-products-list__link href": "https://www.ajio.com/ketch-washed-distressed-slim-fit-jeans/p/469034396_indigo",
+      "href": "https://www.ajio.com/ketch-washed-distressed-slim-fit-jeans/p/469034396_indigo",
       "src": "https://assets.ajio.com/medias/sys_master/root/20211028/HTcx/6179b96ff997ddf8f1ee1c9e/ketch_indigo_washed_distressed_slim_fit_jeans.jpg",
       "brand": "Ketch",
       "nameCls": "Washed Distressed Slim Fit Jeans",
-      "price": "₹700",
-      "orginal-price": "₹1,749",
+      "price": "700",
+      "orginalprice": "1,749",
       "discount": "(60% off)",
       "offer": 699
     },
     {
       "id": 4,
-      "rilrtl-products-list__link href": "https://www.ajio.com/ivoc-solid-jogger-jeans-with-drawstring/p/461124442_black",
+      "href": "https://www.ajio.com/ivoc-solid-jogger-jeans-with-drawstring/p/461124442_black",
       "src": "https://assets.ajio.com/medias/sys_master/root/20220819/JvZZ/62fe8572aeb269176183f0dd/ivoc_black_solid_jogger_jeans_with_drawstring.jpg",
       "brand": "iVOC",
       "nameCls": "Solid Jogger Jeans with Drawstring",
-      "price": "₹1,025",
-      "orginal-price": "₹1,799",
+      "price": "1,025",
+      "orginalprice": "1,799",
       "discount": "(43% off)",
       "offer": 615
     },
     {
       "id": 5,
-      "rilrtl-products-list__link href": "https://www.ajio.com/ketch-tapered-fit-jeans/p/469034605_black",
+      "href": "https://www.ajio.com/ketch-tapered-fit-jeans/p/469034605_black",
       "src": "https://assets.ajio.com/medias/sys_master/root/20211029/eylY/617af222f997ddf8f1f01de9/ketch_black_tapered_fit_jeans.jpg",
       "brand": "Ketch",
       "nameCls": "Tapered Fit Jeans",
-      "price": "₹595",
-      "orginal-price": "₹1,749",
+      "price": "595",
+      "orginalprice": "1,749",
       "discount": "(66% off)",
       "offer": 594
     },
     {
       "id": 6,
-      "rilrtl-products-list__link href": "https://www.ajio.com/dnmx-lightly-washed-skinny-fit-jeans/p/441145396_black",
+      "href": "https://www.ajio.com/dnmx-lightly-washed-skinny-fit-jeans/p/441145396_black",
       "src": "https://assets.ajio.com/medias/sys_master/root/20220601/hpVk/62976010f997dd03e2596933/dnmx_black_lightly_washed_skinny_fit_jeans.jpg",
       "brand": "DNMX",
       "nameCls": "Lightly Washed Skinny Fit Jeans",
-      "price": "₹719",
-      "orginal-price": "₹899",
+      "price": "719",
+      "orginalprice": "899",
       "discount": "(20% off)",
       "offer": 718
     },
     {
       "id": 7,
-      "rilrtl-products-list__link href": "https://www.ajio.com/levis-513-mid-wash-slim-fit-jeans/p/469241910_blue",
+      "href": "https://www.ajio.com/levis-513-mid-wash-slim-fit-jeans/p/469241910_blue",
       "src": "https://assets.ajio.com/medias/sys_master/root/20220908/Gz6D/631908edaeb269dbb378f99d/levis_navy_blue_513_mid_wash_slim_fit_jeans.jpg",
       "brand": "LEVIS",
       "nameCls": "513 Mid Wash Slim Fit Jeans",
-      "price": "₹2,484",
-      "orginal-price": "₹3,499",
+      "price": "2,484",
+      "orginalprice": "3,499",
       "discount": "(29% off)",
       "offer": "2,236"
     },
     {
       "id": 8,
-      "rilrtl-products-list__link href": "https://www.ajio.com/the-indian-garage-co-lightly-washed-slim-fit-jeans/p/460789301_blue",
+      "href": "https://www.ajio.com/the-indian-garage-co-lightly-washed-slim-fit-jeans/p/460789301_blue",
       "src": "https://assets.ajio.com/medias/sys_master/root/20210316/OCHb/604faff7f997dd5c401154cb/the_indian_garage_co_blue_lightly_washed_slim_fit_jeans.jpg",
       "brand": "The Indian Garage Co",
       "nameCls": "Lightly Washed Slim Fit Jeans",
-      "price": "₹840",
-      "orginal-price": "₹1,999",
+      "price": "840",
+      "orginalprice": "1,999",
       "discount": "(58% off)",
       "offer": 700
     },
     {
       "id": 9,
-      "rilrtl-products-list__link href": "https://www.ajio.com/the-indian-garage-co-acid-wash-slim-fit-jeans/p/469157895_bluegold",
+      "href": "https://www.ajio.com/the-indian-garage-co-acid-wash-slim-fit-jeans/p/469157895_bluegold",
       "src": "https://assets.ajio.com/medias/sys_master/root/20220317/4ExL/62323f25aeb26921afded401/the_indian_garage_co_blue_acid-wash_slim_fit_jeans.jpg",
       "brand": "The Indian Garage Co",
       "nameCls": "Acid-Wash Slim Fit Jeans",
-      "price": "₹840",
-      "orginal-price": "₹1,999",
+      "price": "840",
+      "orginalprice": "1,999",
       "discount": "(58% off)",
       "offer": 780
     },
     {
       "id": 10,
-      "rilrtl-products-list__link href": "https://www.ajio.com/ragzo-washed-slim-jeans/p/462499674_grey",
+      "href": "https://www.ajio.com/ragzo-washed-slim-jeans/p/462499674_grey",
       "src": "https://assets.ajio.com/medias/sys_master/root/20210723/PHAA/60fab6d8f997ddb312367807/ragzo_grey_washed_slim_jeans.jpg",
       "brand": "RAGZO",
       "nameCls": "Washed Slim Jeans",
-      "price": "₹893",
-      "orginal-price": "₹1,899",
+      "price": "893",
+      "orginalprice": "1,899",
       "discount": "(53% off)",
       "offer": 536
     },
     {
       "id": 11,
-      "rilrtl-products-list__link href": "https://www.ajio.com/breakpoint-lightly-washed-distressed-slim-fit-jeans/p/420365704_blue",
+      "href": "https://www.ajio.com/breakpoint-lightly-washed-distressed-slim-fit-jeans/p/420365704_blue",
       "src": "https://assets.ajio.com/medias/sys_master/root/20230213/cmjB/63e9d90baeb26924e369cf7b/breakpoint_blue_lightly_washed_distressed_slim_fit_jeans.jpg",
       "brand": "BREAKPOINT",
       "nameCls": "Lightly Washed Distressed Slim Fit Jeans",
-      "price": "₹479",
-      "orginal-price": "₹799",
+      "price": "479",
+      "orginalprice": "799",
       "discount": "(40% off)",
       "offer": 400
     },
     {
       "id": 12,
-      "rilrtl-products-list__link href": "https://www.ajio.com/the-indian-garage-co-washed-slim-fit-jeans/p/469009835_blue",
+      "href": "https://www.ajio.com/the-indian-garage-co-washed-slim-fit-jeans/p/469009835_blue",
       "src": "https://assets.ajio.com/medias/sys_master/root/20211009/rVC7/61619257aeb2692b85c17bb9/the_indian_garage_co_blue_washed_slim_fit_jeans.jpg",
       "brand": "The Indian Garage Co",
       "nameCls": "Washed Slim Fit Jeans",
-      "price": "₹840",
-      "orginal-price": "₹1,999",
+      "price": "840",
+      "orginalprice": "1,999",
       "discount": "(58% off)",
       "offer": 780
     },
     {
       "id": 13,
-      "rilrtl-products-list__link href": "https://www.ajio.com/ragzo-lightly-washed-slim-fit-jeans/p/462492520_blue",
+      "href": "https://www.ajio.com/ragzo-lightly-washed-slim-fit-jeans/p/462492520_blue",
       "src": "https://assets.ajio.com/medias/sys_master/root/20210723/Edwy/60fab6cdf997ddb3123677c7/ragzo_blue_lightly_washed_slim_fit_jeans.jpg",
       "brand": "RAGZO",
       "nameCls": "Lightly Washed Slim Fit Jeans",
-      "price": "₹893",
-      "orginal-price": "₹1,899",
+      "price": "893",
+      "orginalprice": "1,899",
       "discount": "(53% off)",
       "offer": 536
     },
     {
       "id": 14,
-      "rilrtl-products-list__link href": "https://www.ajio.com/ketch-washed-slim-fit-jeans/p/469034506_blue",
+      "href": "https://www.ajio.com/ketch-washed-slim-fit-jeans/p/469034506_blue",
       "src": "https://assets.ajio.com/medias/sys_master/root/20211123/ZZqz/619d14baf997ddf8f11555b3/ketch_blue_washed_slim_fit_jeans.jpg",
       "brand": "Ketch",
       "nameCls": "Washed Slim Fit Jeans",
-      "price": "₹595",
-      "orginal-price": "₹1,749",
+      "price": "595",
+      "orginalprice": "1,749",
       "discount": "(66% off)",
       "offer": 594
     },
     {
       "id": 15,
-      "rilrtl-products-list__link href": "https://www.ajio.com/lee-cooper-mid-rise-tapered-fit-jeans/p/441245149_black",
+      "href": "https://www.ajio.com/lee-cooper-mid-rise-tapered-fit-jeans/p/441245149_black",
       "src": "https://assets.ajio.com/medias/sys_master/root/20220519/frf1/62861152aeb26921afa7c19c/lee_cooper_black_mid-rise_tapered_fit_jeans.jpg",
       "brand": "Lee Cooper",
       "nameCls": "Mid-Rise Tapered Fit Jeans",
-      "price": "₹980",
-      "orginal-price": "₹1,999",
+      "price": "980",
+      "orginalprice": "1,999",
       "discount": "(51% off)",
       "offer": 800
     },
     {
       "id": 16,
-      "rilrtl-products-list__link href": "https://www.ajio.com/u-s-polo-assn-slim-fit-cotton-jeans/p/469279446_black",
+      "href": "https://www.ajio.com/u-s-polo-assn-slim-fit-cotton-jeans/p/469279446_black",
       "src": "https://assets.ajio.com/medias/sys_master/root/20221001/axDK/63373fa5f997ddfdbdfff68b/u.s._polo_assn._black_slim_fit_cotton_jeans.jpg",
       "brand": "U.S. Polo Assn.",
       "nameCls": "Slim Fit Cotton Jeans",
-      "price": "₹1,000",
-      "orginal-price": "₹2,499",
+      "price": "1,000",
+      "orginalprice": "2,499",
       "discount": "(60% off)",
       "offer": "1,000"
     },
     {
       "id": 17,
-      "rilrtl-products-list__link href": "https://www.ajio.com/lee-cooper-slim-jeans-with-roll-up-hem/p/441297887_ecru",
+      "href": "https://www.ajio.com/lee-cooper-slim-jeans-with-roll-up-hem/p/441297887_ecru",
       "src": "https://assets.ajio.com/medias/sys_master/root/20220623/ahTY/62b4a41ef997dd03e29a3e9c/lee_cooper_white_slim_jeans_with_roll-up_hem.jpg",
       "brand": "Lee Cooper",
       "nameCls": "Slim Jeans with Roll-Up Hem",
-      "price": "₹882",
-      "orginal-price": "₹1,799",
+      "price": "882",
+      "orginalprice": "1,799",
       "discount": "(51% off)",
       "offer": 720
     },
     {
       "id": 18,
-      "rilrtl-products-list__link href": "https://www.ajio.com/levis-511-light-wash-slim-fit-jeans/p/469241895_blue",
+      "href": "https://www.ajio.com/levis-511-light-wash-slim-fit-jeans/p/469241895_blue",
       "src": "https://assets.ajio.com/medias/sys_master/root/20220908/Q93j/6318f628aeb269dbb37898ce/levis_blue_511_light_wash_slim_fit_jeans.jpg",
       "brand": "LEVIS",
       "nameCls": "511 Light Wash Slim Fit Jeans",
-      "price": "₹2,484",
-      "orginal-price": "₹3,499",
+      "price": "2,484",
+      "orginalprice": "3,499",
       "discount": "(29% off)",
       "offer": "2,236"
     },
     {
       "id": 19,
-      "rilrtl-products-list__link href": "https://www.ajio.com/campus-sutra-mid-wash-relaxed-fit-jeans/p/462113004_blue",
+      "href": "https://www.ajio.com/campus-sutra-mid-wash-relaxed-fit-jeans/p/462113004_blue",
       "src": "https://assets.ajio.com/medias/sys_master/root/20210403/J5Uv/6068eef6aeb269a9e33ba92a/campus_sutra_blue_mid-wash_relaxed_fit_jeans.jpg",
       "brand": "Campus Sutra",
       "nameCls": "Mid-Wash Relaxed Fit Jeans",
-      "price": "₹836",
-      "orginal-price": "₹1,899",
+      "price": "836",
+      "orginalprice": "1,899",
       "discount": "(56% off)",
       "offer": 502
     },
     {
       "id": 20,
-      "rilrtl-products-list__link href": "https://www.ajio.com/levis-517-mid-rise-slim-fit-bootcut-jeans/p/469241870_grey",
+      "href": "https://www.ajio.com/levis-517-mid-rise-slim-fit-bootcut-jeans/p/469241870_grey",
       "src": "https://assets.ajio.com/medias/sys_master/root/20220804/Mr3o/62ebec22f997dd03e222c608/levis_grey_517_mid-rise_slim_fit_bootcut_jeans.jpg",
       "brand": "LEVIS",
       "nameCls": "517 Mid-Rise Slim Fit Bootcut Jeans",
-      "price": "₹2,127",
-      "orginal-price": "₹3,799",
+      "price": "2,127",
+      "orginalprice": "3,799",
       "discount": "(44% off)",
       "offer": "1,914"
     }
@@ -870,199 +870,199 @@
   "kids": [
     {
       "id": 1,
-      "rilrtl-products-list__link href": "https://www.ajio.com/trampoline-animal-printed-regular-fit-pyjamas/p/463229712_multi",
+      "href": "https://www.ajio.com/trampoline-animal-printed-regular-fit-pyjamas/p/463229712_multi",
       "src": "https://assets.ajio.com/medias/sys_master/root/20221120/KULo/637a6478aeb269659c9e642d/trampoline_multicolor_animal__printed_regular_fit_pyjamas.jpg",
       "brand": "Trampoline",
       "nameCls": "Animal  Printed Regular Fit Pyjamas",
-      "price": "₹417",
-      "orginal-price": "₹969",
+      "price": "417",
+      "orginalprice": "969",
       "discount": "(57% off)",
       "offer-pricess": 250
     },
     {
       "id": 2,
-      "rilrtl-products-list__link href": "https://www.ajio.com/youbella-hair-accessories-set/p/6005636450_multi",
+      "href": "https://www.ajio.com/youbella-hair-accessories-set/p/6005636450_multi",
       "src": "https://assets.ajio.com/medias/sys_master/root/20220712/sBYb/62cd9298aeb26921af761464/youbella_pink_hair_accessories_set.jpg",
       "brand": "Youbella",
       "nameCls": "Hair Accessories Set",
-      "price": "₹330",
-      "orginal-price": "₹999",
+      "price": "330",
+      "orginalprice": "999",
       "discount": "(67% off)",
       "offer-pricess": 330
     },
     {
       "id": 3,
-      "rilrtl-products-list__link href": "https://www.ajio.com/niren-enterprise-embellished-round-neck-fit-and-flare-dress/p/465725160_black",
+      "href": "https://www.ajio.com/niren-enterprise-embellished-round-neck-fit-and-flare-dress/p/465725160_black",
       "src": "https://assets.ajio.com/medias/sys_master/root/20230207/2R8b/63e21efaf997dd708e3fa077/niren_enterprise_black_embellished_round-neck_fit_and_flare_dress.jpg",
       "brand": "NIREN ENTERPRISE",
       "nameCls": "Embellished Round-Neck Fit and Flare Dress",
-      "price": "₹600",
-      "orginal-price": "₹1,999",
+      "price": "600",
+      "orginalprice": "1,999",
       "discount": "(70% off)",
       "offer-pricess": 560
     },
     {
       "id": 4,
-      "rilrtl-products-list__link href": "https://www.ajio.com/wotnot-washed-joggers-with-drawstring-fastening/p/441221007_midblue",
+      "href": "https://www.ajio.com/wotnot-washed-joggers-with-drawstring-fastening/p/441221007_midblue",
       "src": "https://assets.ajio.com/medias/sys_master/root/20220628/hQ1O/62bb160caeb26921af4d3153/wotnot_blue_washed_joggers_with_drawstring_fastening.jpg",
       "brand": "Wotnot",
       "nameCls": "Washed Joggers with Drawstring Fastening",
-      "price": "₹450",
-      "orginal-price": "₹899",
+      "price": "450",
+      "orginalprice": "899",
       "discount": "(50% off)",
       "offer-pricess": 450
     },
     {
       "id": 5,
-      "rilrtl-products-list__link href": "https://www.ajio.com/kg-frendz-floral-print-dungaree-with-t-shirt/p/441141706_white",
+      "href": "https://www.ajio.com/kg-frendz-floral-print-dungaree-with-t-shirt/p/441141706_white",
       "src": "https://assets.ajio.com/medias/sys_master/root/20220531/6JiM/62962fdbf997dd03e2509ff2/kg_frendz_multicoloured_floral_print_dungaree_with_t-shirt.jpg",
       "brand": "KG FRENDZ",
       "nameCls": "Floral Print Dungaree with T-shirt",
-      "price": "₹432",
-      "orginal-price": "₹899",
+      "price": "432",
+      "orginalprice": "899",
       "discount": "(52% off)",
       "offer-pricess": 306
     },
     {
       "id": 6,
-      "rilrtl-products-list__link href": "https://www.ajio.com/toonyport-typographic-print-t-shirt--shorts-set/p/464066884_blue",
+      "href": "https://www.ajio.com/toonyport-typographic-print-t-shirt--shorts-set/p/464066884_blue",
       "src": "https://assets.ajio.com/medias/sys_master/root/20220325/YrEz/623cd5caf997dd03e22f2e78/toonyport_blue_typographic_print_t-shirt_%26_shorts_set.jpg",
       "brand": "TOONYPORT",
       "nameCls": "Typographic Print T-shirt & Shorts Set",
-      "price": "₹370",
-      "orginal-price": "₹739",
+      "price": "370",
+      "orginalprice": "739",
       "discount": "(50% off)",
       "offer-pricess": 222
     },
     {
       "id": 7,
-      "rilrtl-products-list__link href": "https://www.ajio.com/game-begins-striped-round-neck-t-shirt/p/469306713_yellow",
+      "href": "https://www.ajio.com/game-begins-striped-round-neck-t-shirt/p/469306713_yellow",
       "src": "https://assets.ajio.com/medias/sys_master/root/20221201/HCKX/6388ce3cf997ddfdbdb0461c/game_begins_yellow_striped_round-neck_t-shirt.jpg",
       "brand": "GAME BEGINS",
       "nameCls": "Striped Round-Neck T-Shirt",
-      "price": "₹160",
-      "orginal-price": "₹399",
+      "price": "160",
+      "orginalprice": "399",
       "discount": "(60% off)",
       "offer-pricess": 136
     },
     {
       "id": 8,
-      "rilrtl-products-list__link href": "https://www.ajio.com/toonyport-pack-of-2-graphic-print-pants--t-shirts-set/p/463692460_multi",
+      "href": "https://www.ajio.com/toonyport-pack-of-2-graphic-print-pants--t-shirts-set/p/463692460_multi",
       "src": "https://assets.ajio.com/medias/sys_master/root/20220921/kivP/632b32b6f997dd1f8d11c7fd/toonyport_multicoloured_pack_of_2_graphic_print_pants_%26_t-shirts_set.jpg",
       "brand": "TOONYPORT",
       "nameCls": "Pack of 2 Graphic Print Pants & T-shirts Set",
-      "price": "₹587",
-      "orginal-price": "₹979",
+      "price": "587",
+      "orginalprice": "979",
       "discount": "(40% off)",
       "offer-pricess": 352
     },
     {
       "id": 9,
-      "rilrtl-products-list__link href": "https://www.ajio.com/trampoline-pack-of-3-heathered-joggers/p/463229016_multi",
+      "href": "https://www.ajio.com/trampoline-pack-of-3-heathered-joggers/p/463229016_multi",
       "src": "https://assets.ajio.com/medias/sys_master/root/20221120/BORf/637a6472aeb269659c9e631d/trampoline_multicoloured_pack_of_3_heathered_joggers.jpg",
       "brand": "Trampoline",
       "nameCls": "Pack of 3 Heathered Joggers",
-      "price": "₹733",
-      "orginal-price": "₹1,745",
+      "price": "733",
+      "orginalprice": "1,745",
       "discount": "(58% off)",
       "offer-pricess": 440
     },
     {
       "id": 10,
-      "rilrtl-products-list__link href": "https://www.ajio.com/inf-frendz-graphic-print-a-line-dress/p/441132618_orange",
+      "href": "https://www.ajio.com/inf-frendz-graphic-print-a-line-dress/p/441132618_orange",
       "src": "https://assets.ajio.com/medias/sys_master/root/20220315/q2AS/622f89baf997dd03e211b19c/inf_frendz_orange_graphic_print_a-line_dress.jpg",
       "brand": "INF FRENDZ",
       "nameCls": "Graphic Print A-line Dress",
-      "price": "₹90",
-      "orginal-price": "₹299",
+      "price": "90",
+      "orginalprice": "299",
       "discount": "(70% off)",
       "offer-pricess": 90
     },
     {
       "id": 11,
-      "rilrtl-products-list__link href": "https://www.ajio.com/disney-the-little-mermaid-round-neck-t-shirt/p/441118191_coral",
+      "href": "https://www.ajio.com/disney-the-little-mermaid-round-neck-t-shirt/p/441118191_coral",
       "src": "https://assets.ajio.com/medias/sys_master/root/20210415/ckT4/607835aeaeb269a9e3926016/disney__the_little_mermaid_round-neck_t-shirt.jpg",
       "brand": "DISNEY",
       "nameCls": "The Little Mermaid Round-Neck T-shirt",
-      "price": "₹135",
-      "orginal-price": "₹449",
+      "price": "135",
+      "orginalprice": "449",
       "discount": "(70% off)",
       "offer-pricess": 135
     },
     {
       "id": 12,
-      "rilrtl-products-list__link href": "https://www.ajio.com/campus-slip-on-sandals-with-velcro-closure/p/469227594_navyblue",
+      "href": "https://www.ajio.com/campus-slip-on-sandals-with-velcro-closure/p/469227594_navyblue",
       "src": "https://assets.ajio.com/medias/sys_master/root/20220803/Il6I/62ea8e79aeb26921afc2cc38/campus_navy_blue_slip-on_sandals_with_velcro_closure.jpg",
       "brand": "Campus",
       "nameCls": "Slip-On Sandals with Velcro Closure",
-      "price": "₹524",
-      "orginal-price": "₹749",
+      "price": "524",
+      "orginalprice": "749",
       "discount": "(30% off)",
       "offer-pricess": 442
     },
     {
       "id": 13,
-      "rilrtl-products-list__link href": "https://www.ajio.com/disney-minnie-mouse-sequinned-round-neck-t-shirt/p/441118247_navy",
+      "href": "https://www.ajio.com/disney-minnie-mouse-sequinned-round-neck-t-shirt/p/441118247_navy",
       "src": "https://assets.ajio.com/medias/sys_master/root/20210415/oOWq/607832dbf997dd7b64b2dc4d/disney__minnie_mouse_sequinned_round-neck_t-shirt.jpg",
       "brand": "DISNEY",
       "nameCls": "Minnie Mouse Sequinned Round-Neck T-shirt",
-      "price": "₹135",
-      "orginal-price": "₹449",
+      "price": "135",
+      "orginalprice": "449",
       "discount": "(70% off)",
       "offer-pricess": 135
     },
     {
       "id": 14,
-      "rilrtl-products-list__link href": "https://www.ajio.com/kb-team-spirit-numeric-print-henley-t-shirt/p/441106109_orange",
+      "href": "https://www.ajio.com/kb-team-spirit-numeric-print-henley-t-shirt/p/441106109_orange",
       "src": "https://assets.ajio.com/medias/sys_master/root/20201216/5YLK/5fda1615aeb269d56340dd1a/kb_team_spirit_orange_numeric_print_henley_t-shirt.jpg",
       "brand": "KB TEAM SPIRIT",
       "nameCls": "Numeric Print Henley T-shirt",
-      "price": "₹127",
-      "orginal-price": "₹249",
+      "price": "127",
+      "orginalprice": "249",
       "discount": "(49% off)",
       "offer-pricess": 125
     },
     {
       "id": 15,
-      "rilrtl-products-list__link href": "https://www.ajio.com/dj--c-printed-crew-neck-t-shirt/p/441270226_offwhite",
+      "href": "https://www.ajio.com/dj--c-printed-crew-neck-t-shirt/p/441270226_offwhite",
       "src": "https://assets.ajio.com/medias/sys_master/root/20220929/soqa/6335ae5aaeb269dbb3b0811a/dj_%26_c_white_printed_crew-neck_t-shirt.jpg",
       "brand": "DJ & C",
       "nameCls": "Printed Crew-Neck T-Shirt",
-      "price": "₹177",
-      "orginal-price": "₹249",
+      "price": "177",
+      "orginalprice": "249",
       "discount": "(29% off)",
       "offer-pricess": 174
     },
     {
       "id": 16,
-      "rilrtl-products-list__link href": "https://www.ajio.com/kg-frendz-geometric-print-dungarees-with-welt-pockets/p/441131940_red",
+      "href": "https://www.ajio.com/kg-frendz-geometric-print-dungarees-with-welt-pockets/p/441131940_red",
       "src": "https://assets.ajio.com/medias/sys_master/root/20220107/bU1Y/61d86222aeb2695cdd09bd2d/kg_frendz_red_geometric_print_dungarees_with_welt_pockets.jpg",
       "brand": "KG FRENDZ",
       "nameCls": "Geometric Print Dungarees with Welt Pockets",
-      "price": "₹240",
-      "orginal-price": "₹799",
+      "price": "240",
+      "orginalprice": "799",
       "discount": "(70% off)",
       "offer-pricess": 240
     },
     {
       "id": 17,
-      "rilrtl-products-list__link href": "https://www.ajio.com/trampoline-pack-of-5-graphic-print-crew-meck-t-shirts/p/463188511_multi",
+      "href": "https://www.ajio.com/trampoline-pack-of-5-graphic-print-crew-meck-t-shirts/p/463188511_multi",
       "src": "https://assets.ajio.com/medias/sys_master/root/20230210/GKXk/63e600acf997dde6f49cf172/trampoline_multicoloured_pack_of_5_graphic_print_crew-meck_t-shirts.jpg",
       "brand": "Trampoline",
       "nameCls": "Pack of 5 Graphic Print Crew-Meck T-shirts",
-      "price": "₹639",
-      "orginal-price": "₹1,419",
+      "price": "639",
+      "orginalprice": "1,419",
       "discount": "(55% off)",
       "offer-pricess": 383
     },
     {
       "id": 18,
-      "rilrtl-products-list__link href": "https://www.ajio.com/naughty-ninos-embroidered-jumpsuit/p/462068039_blue",
+      "href": "https://www.ajio.com/naughty-ninos-embroidered-jumpsuit/p/462068039_blue",
       "src": "https://assets.ajio.com/medias/sys_master/root/20220601/r0Gy/6296ba94aeb26921af00e9fb/naughty_ninos_sea_blue_embroidered_jumpsuit.jpg",
       "brand": "NAUGHTY NINOS",
       "nameCls": "Embroidered Jumpsuit",
-      "price": "₹899",
-      "orginal-price": "₹1,499",
+      "price": "899",
+      "orginalprice": "1,499",
       "discount": "(40% off)",
       "offer-pricess": 898
     }
@@ -1070,221 +1070,221 @@
   "kidboy": [
     {
       "id": 1,
-      "rilrtl-products-list__link href": "https://www.ajio.com/trampoline-animal-printed-regular-fit-pyjamas/p/463229712_multi",
+      "href": "https://www.ajio.com/trampoline-animal-printed-regular-fit-pyjamas/p/463229712_multi",
       "src": "https://assets.ajio.com/medias/sys_master/root/20221120/KULo/637a6478aeb269659c9e642d/trampoline_multicolor_animal__printed_regular_fit_pyjamas.jpg",
       "brand": "Trampoline",
       "nameCls": "Animal  Printed Regular Fit Pyjamas",
-      "price": "₹417",
-      "orginal-price": "₹969",
+      "price": "417",
+      "orginalprice": "969",
       "discount": "(57% off)",
       "offer": 250
     },
     {
       "id": 2,
-      "rilrtl-products-list__link href": "https://www.ajio.com/disney-team-princess-print-crew-neck-t-shirt/p/441116951_yellow",
+      "href": "https://www.ajio.com/disney-team-princess-print-crew-neck-t-shirt/p/441116951_yellow",
       "src": "https://assets.ajio.com/medias/sys_master/root/20210323/AFXb/6059e624aeb269a9e324ea6d/disney__team_princess_print_crew-neck_t-shirt.jpg",
       "brand": "DISNEY",
       "nameCls": "Team Princess Print Crew-Neck T-shirt",
-      "price": "₹75",
-      "orginal-price": "₹249",
+      "price": "75",
+      "orginalprice": "249",
       "discount": "(70% off)",
       "offer": 75
     },
     {
       "id": 3,
-      "rilrtl-products-list__link href": "https://www.ajio.com/wotnot-washed-joggers-with-drawstring-fastening/p/441221007_midblue",
+      "href": "https://www.ajio.com/wotnot-washed-joggers-with-drawstring-fastening/p/441221007_midblue",
       "src": "https://assets.ajio.com/medias/sys_master/root/20220628/hQ1O/62bb160caeb26921af4d3153/wotnot_blue_washed_joggers_with_drawstring_fastening.jpg",
       "brand": "Wotnot",
       "nameCls": "Washed Joggers with Drawstring Fastening",
-      "price": "₹450",
-      "orginal-price": "₹899",
+      "price": "450",
+      "orginalprice": "899",
       "discount": "(50% off)",
       "offer": 450
     },
     {
       "id": 4,
-      "rilrtl-products-list__link href": "https://www.ajio.com/disney-daisy-duck-round-neck-t-shirt/p/441116955_purple",
+      "href": "https://www.ajio.com/disney-daisy-duck-round-neck-t-shirt/p/441116955_purple",
       "src": "https://assets.ajio.com/medias/sys_master/root/20210426/4jrW/6086b755aeb269a9e3a15573/disney__daisy_duck_round-neck_t-shirt.jpg",
       "brand": "DISNEY",
       "nameCls": "Daisy Duck Round-Neck T-shirt",
-      "price": "₹75",
-      "orginal-price": "₹249",
+      "price": "75",
+      "orginalprice": "249",
       "discount": "(70% off)",
       "offer": 75
     },
     {
       "id": 5,
-      "rilrtl-products-list__link href": "https://www.ajio.com/toonyport-typographic-print-t-shirt--shorts-set/p/464066884_blue",
+      "href": "https://www.ajio.com/toonyport-typographic-print-t-shirt--shorts-set/p/464066884_blue",
       "src": "https://assets.ajio.com/medias/sys_master/root/20220325/YrEz/623cd5caf997dd03e22f2e78/toonyport_blue_typographic_print_t-shirt_%26_shorts_set.jpg",
       "brand": "TOONYPORT",
       "nameCls": "Typographic Print T-shirt & Shorts Set",
-      "price": "₹370",
-      "orginal-price": "₹739",
+      "price": "370",
+      "orginalprice": "739",
       "discount": "(50% off)",
       "offer": 222
     },
     {
       "id": 6,
-      "rilrtl-products-list__link href": "https://www.ajio.com/game-begins-striped-round-neck-t-shirt/p/469306713_yellow",
+      "href": "https://www.ajio.com/game-begins-striped-round-neck-t-shirt/p/469306713_yellow",
       "src": "https://assets.ajio.com/medias/sys_master/root/20221201/HCKX/6388ce3cf997ddfdbdb0461c/game_begins_yellow_striped_round-neck_t-shirt.jpg",
       "brand": "GAME BEGINS",
       "nameCls": "Striped Round-Neck T-Shirt",
-      "price": "₹160",
-      "orginal-price": "₹399",
+      "price": "160",
+      "orginalprice": "399",
       "discount": "(60% off)",
       "offer": 136
     },
     {
       "id": 7,
-      "rilrtl-products-list__link href": "https://www.ajio.com/toonyport-pack-of-2-graphic-print-pants--t-shirts-set/p/463692460_multi",
+      "href": "https://www.ajio.com/toonyport-pack-of-2-graphic-print-pants--t-shirts-set/p/463692460_multi",
       "src": "https://assets.ajio.com/medias/sys_master/root/20220921/kivP/632b32b6f997dd1f8d11c7fd/toonyport_multicoloured_pack_of_2_graphic_print_pants_%26_t-shirts_set.jpg",
       "brand": "TOONYPORT",
       "nameCls": "Pack of 2 Graphic Print Pants & T-shirts Set",
-      "price": "₹587",
-      "orginal-price": "₹979",
+      "price": "587",
+      "orginalprice": "979",
       "discount": "(40% off)",
       "offer": 352
     },
     {
       "id": 8,
-      "rilrtl-products-list__link href": "https://www.ajio.com/trampoline-pack-of-3-heathered-joggers/p/463229016_multi",
+      "href": "https://www.ajio.com/trampoline-pack-of-3-heathered-joggers/p/463229016_multi",
       "src": "https://assets.ajio.com/medias/sys_master/root/20221120/BORf/637a6472aeb269659c9e631d/trampoline_multicoloured_pack_of_3_heathered_joggers.jpg",
       "brand": "Trampoline",
       "nameCls": "Pack of 3 Heathered Joggers",
-      "price": "₹733",
-      "orginal-price": "₹1,745",
+      "price": "733",
+      "orginalprice": "1,745",
       "discount": "(58% off)",
       "offer": 440
     },
     {
       "id": 9,
-      "rilrtl-products-list__link href": "https://www.ajio.com/disney-the-little-mermaid-round-neck-t-shirt/p/441118191_coral",
+      "href": "https://www.ajio.com/disney-the-little-mermaid-round-neck-t-shirt/p/441118191_coral",
       "src": "https://assets.ajio.com/medias/sys_master/root/20210415/ckT4/607835aeaeb269a9e3926016/disney__the_little_mermaid_round-neck_t-shirt.jpg",
       "brand": "DISNEY",
       "nameCls": "The Little Mermaid Round-Neck T-shirt",
-      "price": "₹135",
-      "orginal-price": "₹449",
+      "price": "135",
+      "orginalprice": "449",
       "discount": "(70% off)",
       "offer": 135
     },
     {
       "id": 10,
-      "rilrtl-products-list__link href": "https://www.ajio.com/campus-slip-on-sandals-with-velcro-closure/p/469227594_navyblue",
+      "href": "https://www.ajio.com/campus-slip-on-sandals-with-velcro-closure/p/469227594_navyblue",
       "src": "https://assets.ajio.com/medias/sys_master/root/20220803/Il6I/62ea8e79aeb26921afc2cc38/campus_navy_blue_slip-on_sandals_with_velcro_closure.jpg",
       "brand": "Campus",
       "nameCls": "Slip-On Sandals with Velcro Closure",
-      "price": "₹524",
-      "orginal-price": "₹749",
+      "price": "524",
+      "orginalprice": "749",
       "discount": "(30% off)",
       "offer": 442
     },
     {
       "id": 11,
-      "rilrtl-products-list__link href": "https://www.ajio.com/disney-minnie-mouse-sequinned-round-neck-t-shirt/p/441118247_navy",
+      "href": "https://www.ajio.com/disney-minnie-mouse-sequinned-round-neck-t-shirt/p/441118247_navy",
       "src": "https://assets.ajio.com/medias/sys_master/root/20210415/oOWq/607832dbf997dd7b64b2dc4d/disney__minnie_mouse_sequinned_round-neck_t-shirt.jpg",
       "brand": "DISNEY",
       "nameCls": "Minnie Mouse Sequinned Round-Neck T-shirt",
-      "price": "₹135",
-      "orginal-price": "₹449",
+      "price": "135",
+      "orginalprice": "449",
       "discount": "(70% off)",
       "offer": 135
     },
     {
       "id": 12,
-      "rilrtl-products-list__link href": "https://www.ajio.com/kb-team-spirit-numeric-print-henley-t-shirt/p/441106109_orange",
+      "href": "https://www.ajio.com/kb-team-spirit-numeric-print-henley-t-shirt/p/441106109_orange",
       "src": "https://assets.ajio.com/medias/sys_master/root/20201216/5YLK/5fda1615aeb269d56340dd1a/kb_team_spirit_orange_numeric_print_henley_t-shirt.jpg",
       "brand": "KB TEAM SPIRIT",
       "nameCls": "Numeric Print Henley T-shirt",
-      "price": "₹127",
-      "orginal-price": "₹249",
+      "price": "127",
+      "orginalprice": "249",
       "discount": "(49% off)",
       "offer": 125
     },
     {
       "id": 13,
-      "rilrtl-products-list__link href": "https://www.ajio.com/dj--c-printed-crew-neck-t-shirt/p/441270226_offwhite",
+      "href": "https://www.ajio.com/dj--c-printed-crew-neck-t-shirt/p/441270226_offwhite",
       "src": "https://assets.ajio.com/medias/sys_master/root/20220929/soqa/6335ae5aaeb269dbb3b0811a/dj_%26_c_white_printed_crew-neck_t-shirt.jpg",
       "brand": "DJ & C",
       "nameCls": "Printed Crew-Neck T-Shirt",
-      "price": "₹177",
-      "orginal-price": "₹249",
+      "price": "177",
+      "orginalprice": "249",
       "discount": "(29% off)",
       "offer": 174
     },
     {
       "id": 14,
-      "rilrtl-products-list__link href": "https://www.ajio.com/trampoline-pack-of-5-graphic-print-crew-meck-t-shirts/p/463188511_multi",
+      "href": "https://www.ajio.com/trampoline-pack-of-5-graphic-print-crew-meck-t-shirts/p/463188511_multi",
       "src": "https://assets.ajio.com/medias/sys_master/root/20230210/GKXk/63e600acf997dde6f49cf172/trampoline_multicoloured_pack_of_5_graphic_print_crew-meck_t-shirts.jpg",
       "brand": "Trampoline",
       "nameCls": "Pack of 5 Graphic Print Crew-Meck T-shirts",
-      "price": "₹639",
-      "orginal-price": "₹1,419",
+      "price": "639",
+      "orginalprice": "1,419",
       "discount": "(55% off)",
       "offer": 383
     },
     {
       "id": 15,
-      "rilrtl-products-list__link href": "https://www.ajio.com/kb-team-spirit-jogger-pants-with-zipper-pockets/p/441142418_grey",
+      "href": "https://www.ajio.com/kb-team-spirit-jogger-pants-with-zipper-pockets/p/441142418_grey",
       "src": "https://assets.ajio.com/medias/sys_master/root/20220624/yOPL/62b57351f997dd03e29c6596/kb_team_spirit_grey_jogger_pants_with_zipper_pockets.jpg",
       "brand": "KB TEAM SPIRIT",
       "nameCls": "Jogger Pants with Zipper Pockets",
-      "price": "₹509",
-      "orginal-price": "₹599",
+      "price": "509",
+      "orginalprice": "599",
       "discount": "(15% off)",
       "offer": 479
     },
     {
       "id": 16,
-      "rilrtl-products-list__link href": "https://www.ajio.com/campus-low-top-slip-on-sports-shoes/p/469185407_darkgrey",
+      "href": "https://www.ajio.com/campus-low-top-slip-on-sports-shoes/p/469185407_darkgrey",
       "src": "https://assets.ajio.com/medias/sys_master/root/20220628/QIjo/62ba0dcdaeb26921af4a0205/campus_dark_grey_low-top_slip-on_sports_shoes.jpg",
       "brand": "Campus",
       "nameCls": "Low-Top Slip-On Sports Shoes",
-      "price": "₹727",
-      "orginal-price": "₹1,119",
+      "price": "727",
+      "orginalprice": "1,119",
       "discount": "(35% off)",
       "offer": 654
     },
     {
       "id": 17,
-      "rilrtl-products-list__link href": "https://www.ajio.com/toonyport-graphic-shorts--t-shirt-set/p/464040969_red",
+      "href": "https://www.ajio.com/toonyport-graphic-shorts--t-shirt-set/p/464040969_red",
       "src": "https://assets.ajio.com/medias/sys_master/root/20220921/x1Xi/632b2c9ff997dd1f8d119ec2/toonyport_red%2Cblue_graphic_shorts_%26_t-shirt_set.jpg",
       "brand": "TOONYPORT",
       "nameCls": "Graphic Shorts & T-shirt Set",
-      "price": "₹370",
-      "orginal-price": "₹739",
+      "price": "370",
+      "orginalprice": "739",
       "discount": "(50% off)",
       "offer": 222
     },
     {
       "id": 18,
-      "rilrtl-products-list__link href": "https://www.ajio.com/wotnot-mid-wash-jeans-with-elasticated-waist/p/441270387_blue",
+      "href": "https://www.ajio.com/wotnot-mid-wash-jeans-with-elasticated-waist/p/441270387_blue",
       "src": "https://assets.ajio.com/medias/sys_master/root/20220628/X4fq/62bb14aef997dd03e2a4b65d/wotnot_blue_mid-wash_jeans_with_elasticated_waist.jpg",
       "brand": "Wotnot",
       "nameCls": "Mid-Wash Jeans with Elasticated Waist",
-      "price": "₹450",
-      "orginal-price": "₹899",
+      "price": "450",
+      "orginalprice": "899",
       "discount": "(50% off)",
       "offer": 450
     },
     {
       "id": 19,
-      "rilrtl-products-list__link href": "https://www.ajio.com/crocs-bayaband-sandals-with-velcro-fastening/p/469062263_navy",
+      "href": "https://www.ajio.com/crocs-bayaband-sandals-with-velcro-fastening/p/469062263_navy",
       "src": "https://assets.ajio.com/medias/sys_master/root/20220110/yHZA/61dc4d4af997dd662317f209/crocs_navy_blue_bayaband_sandals_with_velcro_fastening.jpg",
       "brand": "CROCS",
       "nameCls": "Bayaband Sandals with Velcro Fastening",
-      "price": "₹1,572",
-      "orginal-price": "₹2,495",
+      "price": "1,572",
+      "orginalprice": "2,495",
       "discount": "(37% off)",
       "offer": "1,415"
     },
     {
       "id": 20,
-      "rilrtl-products-list__link href": "https://www.ajio.com/codez-typographic-print-crew-neck-t-shirt/p/464401210_black",
+      "href": "https://www.ajio.com/codez-typographic-print-crew-neck-t-shirt/p/464401210_black",
       "src": "https://assets.ajio.com/medias/sys_master/root/20220530/kGLG/6294da0bf997dd03e2470612/codez_black_typographic_print_crew-neck_t-shirt.jpg",
       "brand": "CODEZ",
       "nameCls": "Typographic Print Crew-Neck T-shirt",
-      "price": "₹210",
-      "orginal-price": "₹999",
+      "price": "210",
+      "orginalprice": "999",
       "discount": "(79% off)",
       "offer": 210
     }
@@ -1292,221 +1292,221 @@
   "kidgirl": [
     {
       "id": 1,
-      "rilrtl-products-list__link href": "https://www.ajio.com/youbella-hair-accessories-set/p/6005636450_multi",
+      "href": "https://www.ajio.com/youbella-hair-accessories-set/p/6005636450_multi",
       "src": "https://assets.ajio.com/medias/sys_master/root/20220712/sBYb/62cd9298aeb26921af761464/youbella_pink_hair_accessories_set.jpg",
       "brand": "Youbella",
       "nameCls": "Hair Accessories Set",
-      "price": "₹330",
-      "orginal-price": "₹999",
+      "price": "330",
+      "orginalprice": "999",
       "discount": "(67% off)",
       "offer-pricess": 330
     },
     {
       "id": 2,
-      "rilrtl-products-list__link href": "https://www.ajio.com/niren-enterprise-embellished-round-neck-fit-and-flare-dress/p/465725160_black",
+      "href": "https://www.ajio.com/niren-enterprise-embellished-round-neck-fit-and-flare-dress/p/465725160_black",
       "src": "https://assets.ajio.com/medias/sys_master/root/20230207/2R8b/63e21efaf997dd708e3fa077/niren_enterprise_black_embellished_round-neck_fit_and_flare_dress.jpg",
       "brand": "NIREN ENTERPRISE",
       "nameCls": "Embellished Round-Neck Fit and Flare Dress",
-      "price": "₹600",
-      "orginal-price": "₹1,999",
+      "price": "600",
+      "orginalprice": "1,999",
       "discount": "(70% off)",
       "offer-pricess": 560
     },
     {
       "id": 3,
-      "rilrtl-products-list__link href": "https://www.ajio.com/kg-frendz-geometric-print-dungarees-with-welt-pockets/p/441131940_red",
+      "href": "https://www.ajio.com/kg-frendz-geometric-print-dungarees-with-welt-pockets/p/441131940_red",
       "src": "https://assets.ajio.com/medias/sys_master/root/20220107/bU1Y/61d86222aeb2695cdd09bd2d/kg_frendz_red_geometric_print_dungarees_with_welt_pockets.jpg",
       "brand": "KG FRENDZ",
       "nameCls": "Geometric Print Dungarees with Welt Pockets",
-      "price": "₹240",
-      "orginal-price": "₹799",
+      "price": "240",
+      "orginalprice": "799",
       "discount": "(70% off)",
       "offer-pricess": 240
     },
     {
       "id": 4,
-      "rilrtl-products-list__link href": "https://www.ajio.com/trampoline-pack-of-5-graphic-print-round-neck-t-shirts/p/463070902_multi",
+      "href": "https://www.ajio.com/trampoline-pack-of-5-graphic-print-round-neck-t-shirts/p/463070902_multi",
       "src": "https://assets.ajio.com/medias/sys_master/root/20230210/9dw7/63e60216f997dde6f49d0292/trampoline_multicoloured_pack_of_5_graphic_print_round-neck_t-shirts.jpg",
       "brand": "Trampoline",
       "nameCls": "Pack of 5 Graphic Print Round-Neck T-shirts",
-      "price": "₹639",
-      "orginal-price": "₹1,419",
+      "price": "639",
+      "orginalprice": "1,419",
       "discount": "(55% off)",
       "offer-pricess": 383
     },
     {
       "id": 5,
-      "rilrtl-products-list__link href": "https://www.ajio.com/naughty-ninos-embroidered-jumpsuit/p/462068039_blue",
+      "href": "https://www.ajio.com/naughty-ninos-embroidered-jumpsuit/p/462068039_blue",
       "src": "https://assets.ajio.com/medias/sys_master/root/20220601/r0Gy/6296ba94aeb26921af00e9fb/naughty_ninos_sea_blue_embroidered_jumpsuit.jpg",
       "brand": "NAUGHTY NINOS",
       "nameCls": "Embroidered Jumpsuit",
-      "price": "₹899",
-      "orginal-price": "₹1,499",
+      "price": "899",
+      "orginalprice": "1,499",
       "discount": "(40% off)",
       "offer-pricess": 898
     },
     {
       "id": 6,
-      "rilrtl-products-list__link href": "https://www.ajio.com/disney-printed-leggings-with-elasticated-waistband/p/441116949_pink",
+      "href": "https://www.ajio.com/disney-printed-leggings-with-elasticated-waistband/p/441116949_pink",
       "src": "https://assets.ajio.com/medias/sys_master/root/20210412/zCYf/60744593f997dd7b64ac47e2/disney_pink_printed_leggings_with_elasticated_waistband.jpg",
       "brand": "DISNEY",
       "nameCls": "Printed Leggings with Elasticated Waistband",
-      "price": "₹90",
-      "orginal-price": "₹299",
+      "price": "90",
+      "orginalprice": "299",
       "discount": "(70% off)",
       "offer-pricess": 90
     },
     {
       "id": 7,
-      "rilrtl-products-list__link href": "https://www.ajio.com/rio-girls-floral-print-leggings-with-elasticated-waistband/p/441136871_jetblack",
+      "href": "https://www.ajio.com/rio-girls-floral-print-leggings-with-elasticated-waistband/p/441136871_jetblack",
       "src": "https://assets.ajio.com/medias/sys_master/root/20220107/ogdM/61d85670f997dd66231509d0/rio_girls_black_floral_print_leggings_with_elasticated_waistband.jpg",
       "brand": "RIO GIRLS",
       "nameCls": "Floral Print Leggings with Elasticated Waistband",
-      "price": "₹152",
-      "orginal-price": "₹299",
+      "price": "152",
+      "orginalprice": "299",
       "discount": "(49% off)",
       "offer-pricess": 150
     },
     {
       "id": 8,
-      "rilrtl-products-list__link href": "https://www.ajio.com/trampoline-pack-of-5-graphic-print-round-neck-t-shirt/p/463182895_multi",
+      "href": "https://www.ajio.com/trampoline-pack-of-5-graphic-print-round-neck-t-shirt/p/463182895_multi",
       "src": "https://assets.ajio.com/medias/sys_master/root/20221120/kDDr/637a6449aeb269659c9e5d6f/trampoline_multicoloured_pack_of_5_graphic_print_round-neck_t-shirt.jpg",
       "brand": "Trampoline",
       "nameCls": "Pack of 5 Graphic Print Round-Neck T-shirt",
-      "price": "₹639",
-      "orginal-price": "₹1,419",
+      "price": "639",
+      "orginalprice": "1,419",
       "discount": "(55% off)",
       "offer-pricess": 383
     },
     {
       "id": 9,
-      "rilrtl-products-list__link href": "https://www.ajio.com/kg-frendz-printed-dungaree-with-insert-pockets/p/441133968_peach",
+      "href": "https://www.ajio.com/kg-frendz-printed-dungaree-with-insert-pockets/p/441133968_peach",
       "src": "https://assets.ajio.com/medias/sys_master/root/20220315/WPTM/622f89baf997dd03e211b19a/kg_frendz_peach_printed_dungaree_with_insert_pockets.jpg",
       "brand": "KG FRENDZ",
       "nameCls": "Printed Dungaree with Insert Pockets",
-      "price": "₹225",
-      "orginal-price": "₹749",
+      "price": "225",
+      "orginalprice": "749",
       "discount": "(70% off)",
       "offer-pricess": 225
     },
     {
       "id": 10,
-      "rilrtl-products-list__link href": "https://www.ajio.com/disney-frozen-print-round-neck-t-shirt/p/441117343_blue",
+      "href": "https://www.ajio.com/disney-frozen-print-round-neck-t-shirt/p/441117343_blue",
       "src": "https://assets.ajio.com/medias/sys_master/root/20210412/2IIp/60744477aeb269a9e38c105c/disney__frozen_print_round-neck_t-shirt.jpg",
       "brand": "DISNEY",
       "nameCls": "Frozen Print Round-Neck T-shirt",
-      "price": "₹75",
-      "orginal-price": "₹249",
+      "price": "75",
+      "orginalprice": "249",
       "discount": "(70% off)",
       "offer-pricess": 75
     },
     {
       "id": 11,
-      "rilrtl-products-list__link href": "https://www.ajio.com/tior-floral-print-fit--flare-dress-with-bow-applique/p/464358017_white",
+      "href": "https://www.ajio.com/tior-floral-print-fit--flare-dress-with-bow-applique/p/464358017_white",
       "src": "https://assets.ajio.com/medias/sys_master/root/20221212/Gf9E/63974daef997ddfdbdcd6724/tior_white_floral_print_fit_%26_flare_dress_with_bow_applique.jpg",
       "brand": "Tior",
       "nameCls": "Floral Print Fit & Flare Dress with Bow Applique",
-      "price": "₹600",
-      "orginal-price": "₹1,499",
+      "price": "600",
+      "orginalprice": "1,499",
       "discount": "(60% off)",
       "offer-pricess": 375
     },
     {
       "id": 12,
-      "rilrtl-products-list__link href": "https://www.ajio.com/kg-frendz-floral-print-round-neck-top/p/441134330_white",
+      "href": "https://www.ajio.com/kg-frendz-floral-print-round-neck-top/p/441134330_white",
       "src": "https://assets.ajio.com/medias/sys_master/root/20220315/M9xs/622f94f1f997dd03e211f91e/kg_frendz_white_floral_print_round-neck_top.jpg",
       "brand": "KG FRENDZ",
       "nameCls": "Floral Print Round-Neck Top",
-      "price": "₹150",
-      "orginal-price": "₹499",
+      "price": "150",
+      "orginalprice": "499",
       "discount": "(70% off)",
       "offer-pricess": 150
     },
     {
       "id": 13,
-      "rilrtl-products-list__link href": "https://www.ajio.com/rio-girls-graphic-print-crew-neck-t-shirt/p/441117864_white",
+      "href": "https://www.ajio.com/rio-girls-graphic-print-crew-neck-t-shirt/p/441117864_white",
       "src": "https://assets.ajio.com/medias/sys_master/root/20210407/YIOz/606da602aeb269a9e38670a3/rio_girls__graphic_print_crew-neck_t-shirt.jpg",
       "brand": "RIO GIRLS",
       "nameCls": "Graphic Print Crew-Neck T-shirt",
-      "price": "₹90",
-      "orginal-price": "₹299",
+      "price": "90",
+      "orginalprice": "299",
       "discount": "(70% off)",
       "offer-pricess": 90
     },
     {
       "id": 14,
-      "rilrtl-products-list__link href": "https://www.ajio.com/kg-frendz-round-neck-top-with-tassels/p/441133079_yellow",
+      "href": "https://www.ajio.com/kg-frendz-round-neck-top-with-tassels/p/441133079_yellow",
       "src": "https://assets.ajio.com/medias/sys_master/root/20220301/EWXE/621e4655aeb26921afbf4a72/kg_frendz_yellow_round-neck_top_with_tassels.jpg",
       "brand": "KG FRENDZ",
       "nameCls": "Round-Neck Top with Tassels",
-      "price": "₹150",
-      "orginal-price": "₹499",
+      "price": "150",
+      "orginalprice": "499",
       "discount": "(70% off)",
       "offer-pricess": 150
     },
     {
       "id": 15,
-      "rilrtl-products-list__link href": "https://www.ajio.com/kg-frendz-printed-round-neck-top/p/441134325_blue",
+      "href": "https://www.ajio.com/kg-frendz-printed-round-neck-top/p/441134325_blue",
       "src": "https://assets.ajio.com/medias/sys_master/root/20220429/78gx/626beff5f997dd03e28a5867/kg_frendz_blue_printed_round-neck_top.jpg",
       "brand": "KG FRENDZ",
       "nameCls": "Printed Round-Neck Top",
-      "price": "₹210",
-      "orginal-price": "₹699",
+      "price": "210",
+      "orginalprice": "699",
       "discount": "(70% off)",
       "offer-pricess": 210
     },
     {
       "id": 16,
-      "rilrtl-products-list__link href": "https://www.ajio.com/pink-n-blue-graphic-print-round-neck-t-shirt/p/441273315_white",
+      "href": "https://www.ajio.com/pink-n-blue-graphic-print-round-neck-t-shirt/p/441273315_white",
       "src": "",
       "brand": "PINK N BLUE",
       "nameCls": "Graphic Print Round-Neck T-Shirt",
-      "price": "₹86",
-      "orginal-price": "₹179",
+      "price": "86",
+      "orginalprice": "179",
       "discount": "(52% off)",
       "offer-pricess": 86
     },
     {
       "id": 17,
-      "rilrtl-products-list__link href": "https://www.ajio.com/rio-girls-heart-print-leggings-with-elasticated-waist/p/441143745_navy",
+      "href": "https://www.ajio.com/rio-girls-heart-print-leggings-with-elasticated-waist/p/441143745_navy",
       "src": "",
       "brand": "RIO GIRLS",
       "nameCls": "Heart Print Leggings with Elasticated Waist",
-      "price": "₹209",
-      "orginal-price": "₹299",
+      "price": "209",
+      "orginalprice": "299",
       "discount": "(30% off)",
       "offer-pricess": 150
     },
     {
       "id": 18,
-      "rilrtl-products-list__link href": "https://www.ajio.com/kg-frendz-cartoon-print-crew-neck-t-shirt/p/441141079_white",
+      "href": "https://www.ajio.com/kg-frendz-cartoon-print-crew-neck-t-shirt/p/441141079_white",
       "src": "",
       "brand": "KG FRENDZ",
       "nameCls": "Cartoon Print Crew-Neck T-shirt",
-      "price": "₹254",
-      "orginal-price": "₹299",
+      "price": "254",
+      "orginalprice": "299",
       "discount": "(15% off)",
       "offer-pricess": 239
     },
     {
       "id": 19,
-      "rilrtl-products-list__link href": "https://www.ajio.com/kg-frendz-square-neck-top-with-pom-poms/p/441132703_darkblue",
+      "href": "https://www.ajio.com/kg-frendz-square-neck-top-with-pom-poms/p/441132703_darkblue",
       "src": "",
       "brand": "KG FRENDZ",
       "nameCls": "Square-Neck Top with Pom-Poms",
-      "price": "₹120",
-      "orginal-price": "₹399",
+      "price": "120",
+      "orginalprice": "399",
       "discount": "(70% off)",
       "offer-pricess": 120
     },
     {
       "id": 20,
-      "rilrtl-products-list__link href": "https://www.ajio.com/toonyport-floral-print-top--pants-set/p/465443093_navy",
+      "href": "https://www.ajio.com/toonyport-floral-print-top--pants-set/p/465443093_navy",
       "src": "",
       "brand": "TOONYPORT",
       "nameCls": "Floral Print Top & Pants Set",
-      "price": "₹588",
-      "orginal-price": "₹1,679",
+      "price": "588",
+      "orginalprice": "1,679",
       "discount": "(65% off)",
       "offer-pricess": 420
     }
@@ -1520,7 +1520,7 @@
       "price": "874",
       "orginalprice": "2,299",
       "discount": 62,
-      "offerpricess": 598
+      "offer": 598
     },
     {
       "href": "https://www.ajio.com/fashor-embroidered-round-neck-straight-kurta/p/465142808_pink",
@@ -1530,7 +1530,7 @@
       "price": "1247",
       "orginalprice": "2,899",
       "discount": 57,
-      "offerpricess": 761
+      "offer": 761
     },
     {
       "href": "https://www.ajio.com/gulmohar-jaipur-leaf-print-flared-kurta/p/465542857_white",
@@ -1540,7 +1540,7 @@
       "price": "874",
       "orginalprice": "2,299",
       "discount": 62,
-      "offerpricess": 598
+      "offer": 598
     },
     {
       "href": "https://www.ajio.com/gulmohar-jaipur-floral-print-flared-kurta/p/465542890_green",
@@ -1550,7 +1550,7 @@
       "price": "874",
       "orginalprice": "2,299",
       "discount": 62,
-      "offerpricess": 598
+      "offer": 598
     },
     {
       "href": "https://www.ajio.com/avaasa-mix-n-match-printed-round-neck-straight-kurta/p/441144424_navy",
@@ -1560,7 +1560,7 @@
       "price": "254",
       "orginalprice": "499",
       "discount": 49,
-      "offerpricess": 250
+      "offer": 250
     },
     {
       "href": "https://www.ajio.com/gulmohar-jaipur-floral-print-flared-kurta/p/464779428_white",
@@ -1570,7 +1570,7 @@
       "price": "999",
       "orginalprice": "2,499",
       "discount": 60,
-      "offerpricess": 650
+      "offer": 650
     },
     {
       "href": "https://www.ajio.com/glam-roots-floral-flared-kurta/p/464586933_wine",
@@ -1580,7 +1580,7 @@
       "price": "760",
       "orginalprice": "1,999",
       "discount": 62,
-      "offerpricess": 520
+      "offer": 520
     },
     {
       "href": "https://www.ajio.com/kimayra-leaf-print-flared-kurta/p/465425434_pink",
@@ -1590,7 +1590,7 @@
       "price": "999",
       "orginalprice": "2,299",
       "discount": 57,
-      "offerpricess": 609
+      "offer": 609
     },
     {
       "href": "https://www.ajio.com/gulmohar-jaipur-floral-print-flared-kurta-/p/465585108_pink",
@@ -1600,7 +1600,7 @@
       "price": "897",
       "orginalprice": "2,299",
       "discount": 61,
-      "offerpricess": 598
+      "offer": 598
     },
     {
       "href": "https://www.ajio.com/gulmohar-jaipur-embellished-flared-kurta/p/465526365_maroon",
@@ -1610,7 +1610,7 @@
       "price": "874",
       "orginalprice": "2,299",
       "discount": 62,
-      "offerpricess": 598
+      "offer": 598
     },
     {
       "href": "https://www.ajio.com/aks-floral-print-anarkali-kurta-with-tie-up/p/461344541_white",
@@ -1620,7 +1620,7 @@
       "price": "680",
       "orginalprice": "1,699",
       "discount": 60,
-      "offerpricess": 442
+      "offer": 442
     },
     {
       "href": "https://www.ajio.com/kimayra-floral-print-flared-kurta/p/464014253_green",
@@ -1630,7 +1630,7 @@
       "price": "780",
       "orginalprice": "1,999",
       "discount": 61,
-      "offerpricess": 520
+      "offer": 520
     },
     {
       "href": "https://www.ajio.com/glam-roots-printed-flared-kurta-with-mandarin-collar/p/464319349_pink",
@@ -1640,7 +1640,7 @@
       "price": "720",
       "orginalprice": "1,799",
       "discount": 60,
-      "offerpricess": 468
+      "offer": 468
     },
     {
       "href": "https://www.ajio.com/avaasa-mix-n-match-floral-print-straight-kurta-with-band-collar/p/441144415_rosegold",
@@ -1650,7 +1650,7 @@
       "price": "254",
       "orginalprice": "499",
       "discount": 49,
-      "offerpricess": 250
+      "offer": 250
     },
     {
       "href": "https://www.ajio.com/gulmohar-jaipur-leaf-print-straight-kurta/p/465383960_black",
@@ -1660,7 +1660,7 @@
       "price": "682",
       "orginalprice": "1,749",
       "discount": 61,
-      "offerpricess": 455
+      "offer": 455
     },
     {
       "href": "https://www.ajio.com/stylum-floral-print-a-line-kurta/p/464342145_blue",
@@ -1670,7 +1670,7 @@
       "price": "720",
       "orginalprice": "1,999",
       "discount": 64,
-      "offerpricess": 520
+      "offer": 520
     },
     {
       "href": "https://www.ajio.com/stylum-embroidered-anarkali-kurta-with-tie-up/p/464898513_yellow",
@@ -1680,7 +1680,7 @@
       "price": "975",
       "orginalprice": "2,499",
       "discount": 61,
-      "offerpricess": 650
+      "offer": 650
     },
     {
       "href": "https://www.ajio.com/kimayra-embroidered-flared-kurta/p/463750220_red",
@@ -1690,7 +1690,7 @@
       "price": "792",
       "orginalprice": "1,799",
       "discount": 56,
-      "offerpricess": 483
+      "offer": 483
     },
     {
       "href": "https://www.ajio.com/avaasa-mix-n-match-floral-print-notched-round-neck-straight-kurta/p/441144426_aqua",
@@ -1700,7 +1700,7 @@
       "price": "305",
       "orginalprice": "599",
       "discount": 49,
-      "offerpricess": 300
+      "offer": 300
     },
     {
       "href": "https://www.ajio.com/marcia-floral-embroidered-straight-kurta/p/464556470_white",
@@ -1710,7 +1710,7 @@
       "price": "624",
       "orginalprice": "1,599",
       "discount": 61,
-      "offerpricess": 416
+      "offer": 416
     },
     {
       "href": "https://www.ajio.com/gulmohar-jaipur-floral-print-flared-kurta/p/465383966_blue",
@@ -1720,7 +1720,7 @@
       "price": "740",
       "orginalprice": "1,999",
       "discount": 63,
-      "offerpricess": 520
+      "offer": 520
     },
     {
       "href": "https://www.ajio.com/gulmohar-jaipur-floral-print-flared-kurta/p/464717564_multi",
@@ -1730,7 +1730,7 @@
       "price": "600",
       "orginalprice": "1,999",
       "discount": 70,
-      "offerpricess": 520
+      "offer": 520
     },
     {
       "href": "https://www.ajio.com/gulmohar-jaipur-embellished-straight-kurta/p/463670632_pink",
@@ -1740,7 +1740,7 @@
       "price": "481",
       "orginalprice": "1,299",
       "discount": 63,
-      "offerpricess": 338
+      "offer": 338
     },
     {
       "href": "https://www.ajio.com/kimayra-embellished-flared-kurta/p/465346304_maroon",
@@ -1750,7 +1750,7 @@
       "price": "900",
       "orginalprice": "1,999",
       "discount": 55,
-      "offerpricess": 549
+      "offer": 549
     },
     {
       "href": "https://www.ajio.com/fashor-bandhani-print--mirror-embroidered-straight-kurta/p/464271097_yellow",
@@ -1760,7 +1760,7 @@
       "price": "936",
       "orginalprice": "2,399",
       "discount": 61,
-      "offerpricess": 624
+      "offer": 624
     },
     {
       "href": "https://www.ajio.com/aks-floral-print-a-line-kurta/p/461341345_yellow",
@@ -1770,7 +1770,7 @@
       "price": "700",
       "orginalprice": "1,999",
       "discount": 65,
-      "offerpricess": 520
+      "offer": 520
     },
     {
       "href": "https://www.ajio.com/gulmohar-jaipur-floral-print-flared-kurta/p/464052912_navy",
@@ -1780,7 +1780,7 @@
       "price": "800",
       "orginalprice": "1,999",
       "discount": 60,
-      "offerpricess": 520
+      "offer": 520
     },
     {
       "href": "https://www.ajio.com/hritika-striped-straight-kurta/p/465045819_multi",
@@ -1790,7 +1790,7 @@
       "price": "377",
       "orginalprice": "838",
       "discount": 55,
-      "offerpricess": 230
+      "offer": 230
     },
     {
       "href": "https://www.ajio.com/ziyaa-leaf-print-a-line-kurta/p/464114253_black",
@@ -1800,7 +1800,7 @@
       "price": "620",
       "orginalprice": "2,139",
       "discount": 71,
-      "offerpricess": 556
+      "offer": 556
     },
     {
       "href": "https://www.ajio.com/avaasa-mix-n-match-paisley-print-round-neck-kurta/p/441144421_yellow",
@@ -1810,7 +1810,7 @@
       "price": "305",
       "orginalprice": "599",
       "discount": 49,
-      "offerpricess": 300
+      "offer": 300
     },
     {
       "href": "https://www.ajio.com/nishabd-embroidered-round-neck-flared-kurta/p/465000355_green",
@@ -1820,7 +1820,7 @@
       "price": "889",
       "orginalprice": "1,999",
       "discount": 56,
-      "offerpricess": 542
+      "offer": 542
     },
     {
       "href": "https://www.ajio.com/fashor-printed-straight-kurta/p/465203683_magenta",
@@ -1830,7 +1830,7 @@
       "price": "1049",
       "orginalprice": "2,399",
       "discount": 56,
-      "offerpricess": 640
+      "offer": 640
     },
     {
       "href": "https://www.ajio.com/avaasa-mix-n-match-checked-round-neck-straight-kurta/p/441144417_wine",
@@ -1840,7 +1840,7 @@
       "price": "356",
       "orginalprice": "699",
       "discount": 49,
-      "offerpricess": 350
+      "offer": 350
     },
     {
       "href": "https://www.ajio.com/avaasa-mix-n-match-floral-straight-kurta-with-short-button-placket/p/441144412_peach",
@@ -1850,7 +1850,7 @@
       "price": "254",
       "orginalprice": "499",
       "discount": 49,
-      "offerpricess": 250
+      "offer": 250
     },
     {
       "href": "https://www.ajio.com/aks-floral-print-straight-kurta/p/461341827_white",
@@ -1860,7 +1860,7 @@
       "price": "640",
       "orginalprice": "1,599",
       "discount": 60,
-      "offerpricess": 416
+      "offer": 416
     },
     {
       "href": "https://www.ajio.com/avaasa-mix-n-match-embellished-flared-kurta-with-slip-pocket/p/441146687_ltpink",
@@ -1870,7 +1870,7 @@
       "price": "624",
       "orginalprice": "1,299",
       "discount": 52,
-      "offerpricess": 442
+      "offer": 442
     },
     {
       "href": "https://www.ajio.com/aks-geometric-print-straight-kurta/p/461343814_navy",
@@ -1880,7 +1880,7 @@
       "price": "595",
       "orginalprice": "1,699",
       "discount": 65,
-      "offerpricess": 442
+      "offer": 442
     },
     {
       "href": "https://www.ajio.com/glam-roots-floral-flared-kurta/p/464586935_green",
@@ -1890,7 +1890,7 @@
       "price": "740",
       "orginalprice": "1,999",
       "discount": 63,
-      "offerpricess": 520
+      "offer": 520
     },
     {
       "href": "https://www.ajio.com/mauka-embroidered-round-neck-straight-kurta/p/464990509_cream",
@@ -1900,7 +1900,7 @@
       "price": "800",
       "orginalprice": "1,999",
       "discount": 60,
-      "offerpricess": 520
+      "offer": 520
     },
     {
       "href": "https://www.ajio.com/spera-floral-embroidered-straight-kurta/p/461768838_yellow",
@@ -1910,7 +1910,7 @@
       "price": "699",
       "orginalprice": "1,890",
       "discount": 63,
-      "offerpricess": 699
+      "offer": 699
     },
     {
       "href": "https://www.ajio.com/fusion-floral-print-high-low-straight-kurta/p/441138005_aqua",
@@ -1920,7 +1920,7 @@
       "price": "254",
       "orginalprice": "499",
       "discount": 49,
-      "offerpricess": 250
+      "offer": 250
     },
     {
       "href": "https://www.ajio.com/ziyaa-calf-length-straight-kurta/p/465670300_black",
@@ -1930,7 +1930,7 @@
       "price": "525",
       "orginalprice": "1,641",
       "discount": 68,
-      "offerpricess": 427
+      "offer": 427
     },
     {
       "href": "https://www.ajio.com/stylum-floral-print-a-line-kurta/p/464342135_purple",
@@ -1940,7 +1940,7 @@
       "price": "720",
       "orginalprice": "1,999",
       "discount": 64,
-      "offerpricess": 520
+      "offer": 520
     },
     {
       "href": "https://www.ajio.com/kimayra-printed-flared-kurta-with-embroidery/p/463750178_burgundy",
@@ -1950,7 +1950,7 @@
       "price": "810",
       "orginalprice": "1,799",
       "discount": 55,
-      "offerpricess": 494
+      "offer": 494
     },
     {
       "href": "https://www.ajio.com/hritika-striped-straight-kurta/p/465045953_magenta",
@@ -1960,7 +1960,7 @@
       "price": "359",
       "orginalprice": "798",
       "discount": 55,
-      "offerpricess": 219
+      "offer": 219
     }
   ],
   "saree": [
@@ -1972,7 +1972,7 @@
       "price": "884",
       "orginalprice": "2,599",
       "discount": 66,
-      "offerpricess": "728"
+      "offer": "728"
     },
     {
       "href": "https://www.ajio.com/gorgone-gorgone-pink-mysore-silk-abstract-print-saree-with-blouse-piece-saree/p/465700813_pink",
@@ -1982,7 +1982,7 @@
       "price": "371",
       "orginalprice": "2,651",
       "discount": 86,
-      "offerpricess": "371"
+      "offer": "371"
     },
     {
       "href": "https://www.ajio.com/besucher-floral-pattern-silk-saree-/p/465463355_peach",
@@ -1992,7 +1992,7 @@
       "price": "882",
       "orginalprice": "1,799",
       "discount": 51,
-      "offerpricess": "684"
+      "offer": "684"
     },
     {
       "href": "https://www.ajio.com/anjaneya-sarees-banarasi-kanjivaram-silk-saree/p/465660519_black",
@@ -2002,7 +2002,7 @@
       "price": "1,050",
       "orginalprice": "2,999",
       "discount": 65,
-      "offerpricess": "900"
+      "offer": "900"
     },
     {
       "href": "https://www.ajio.com/dwini--georgette-saree-with-sequence-lace-border-/p/464123799_grey",
@@ -2012,7 +2012,7 @@
       "price": "750",
       "orginalprice": "2,499",
       "discount": 70,
-      "offerpricess": "750"
+      "offer": "750"
     },
     {
       "href": "https://www.ajio.com/limdo-floral-woven-soft-silk-saree-/p/465635879_teal",
@@ -2022,7 +2022,7 @@
       "price": "1,000",
       "orginalprice": "1,999",
       "discount": 50,
-      "offerpricess": "860"
+      "offer": "860"
     },
     {
       "href": "https://www.ajio.com/jinal--jinal-organza-tissue-semi-sheer-silk-saree/p/462170117_gold",
@@ -2032,7 +2032,7 @@
       "price": "960",
       "orginalprice": "7,999",
       "discount": 88,
-      "offerpricess": "960"
+      "offer": "960"
     },
     {
       "href": "https://www.ajio.com/gorgone-mysore-silk-warli-printed-saree-/p/465343518_peach",
@@ -2042,7 +2042,7 @@
       "price": "350",
       "orginalprice": "699",
       "discount": 50,
-      "offerpricess": "301"
+      "offer": "301"
     },
     {
       "href": "https://www.ajio.com/gorgone--mysore-silk-ethnic-motifs-saree-/p/465033361_grey",
@@ -2052,7 +2052,7 @@
       "price": "358",
       "orginalprice": "1,991",
       "discount": 82,
-      "offerpricess": "358"
+      "offer": "358"
     },
     {
       "href": "https://www.ajio.com/gorgone-printed-saree-with-tassel-accent/p/465343518_blue",
@@ -2062,7 +2062,7 @@
       "price": "350",
       "orginalprice": "699",
       "discount": 50,
-      "offerpricess": "301"
+      "offer": "301"
     },
     {
       "href": "https://www.ajio.com/limdo-banarasi-silk-saree-with-zari-border-/p/465514585_green",
@@ -2072,7 +2072,7 @@
       "price": "920",
       "orginalprice": "1,999",
       "discount": 54,
-      "offerpricess": "760"
+      "offer": "760"
     },
     {
       "href": "https://www.ajio.com/mirchi-fashion-printed-saree/p/461439738_black",
@@ -2082,7 +2082,7 @@
       "price": "800",
       "orginalprice": "1,999",
       "discount": 60,
-      "offerpricess": "600"
+      "offer": "600"
     },
     {
       "href": "https://www.ajio.com/besucher-saree-with-contrast-border/p/465444798_blue",
@@ -2092,7 +2092,7 @@
       "price": "883",
       "orginalprice": "1,699",
       "discount": 48,
-      "offerpricess": "731"
+      "offer": "731"
     },
     {
       "href": "https://www.ajio.com/soch-floral-embroidered-georgette-saree/p/464547663_purple",
@@ -2102,7 +2102,7 @@
       "price": "3,998",
       "orginalprice": "",
       "discount": "",
-      "offerpricess": "2,799"
+      "offer": "2,799"
     },
     {
       "href": "https://www.ajio.com/besucher-kanjeevaram-silk-saree-with-embrossed-border-/p/465444798_navy",
@@ -2112,7 +2112,7 @@
       "price": "883",
       "orginalprice": "1,699",
       "discount": 48,
-      "offerpricess": "731"
+      "offer": "731"
     },
     {
       "href": "https://www.ajio.com/anjaneya-sarees-striped-banarasi-saree-with-zari-border-/p/465653734_pink",
@@ -2122,7 +2122,7 @@
       "price": "1,110",
       "orginalprice": "2,999",
       "discount": 63,
-      "offerpricess": "900"
+      "offer": "900"
     },
     {
       "href": "https://www.ajio.com/wuxi-banarasi-silk-traditional-saree/p/465561585_black",
@@ -2132,7 +2132,7 @@
       "price": "946",
       "orginalprice": "2,199",
       "discount": 57,
-      "offerpricess": "748"
+      "offer": "748"
     },
     {
       "href": "https://www.ajio.com/limdo-floral-print-banarasi-silk-traditional-saree/p/465438179_wine",
@@ -2142,7 +2142,7 @@
       "price": "990",
       "orginalprice": "2,999",
       "discount": 67,
-      "offerpricess": "840"
+      "offer": "840"
     },
     {
       "href": "https://www.ajio.com/anjaneya-sarees-woven-banarasi-silk-kanjivaram-saree/p/465432272_yellow",
@@ -2152,7 +2152,7 @@
       "price": "1,140",
       "orginalprice": "2,999",
       "discount": 62,
-      "offerpricess": "900"
+      "offer": "900"
     },
     {
       "href": "https://www.ajio.com/anjaneya-sarees-banarasi-silk-kanjivaram-saree-with-contrast-border/p/465513737_red",
@@ -2162,7 +2162,7 @@
       "price": "1,080",
       "orginalprice": "2,999",
       "discount": 64,
-      "offerpricess": "900"
+      "offer": "900"
     },
     {
       "href": "https://www.ajio.com/awriya-floral-print-saree/p/465077928_cream",
@@ -2172,7 +2172,7 @@
       "price": "1,892",
       "orginalprice": "4,299",
       "discount": 56,
-      "offerpricess": "1,462"
+      "offer": "1,462"
     },
     {
       "href": "https://www.ajio.com/veechi-s-floral-print-satin-saree/p/465047715_multi",
@@ -2182,7 +2182,7 @@
       "price": "1,000",
       "orginalprice": "2,499",
       "discount": 60,
-      "offerpricess": "1,000"
+      "offer": "1,000"
     },
     {
       "href": "https://www.ajio.com/granthva-fab-embellished-georgette-saree-with-tassels/p/465191258_green",
@@ -2192,7 +2192,7 @@
       "price": "1,000",
       "orginalprice": "3,999",
       "discount": 75,
-      "offerpricess": "1,000"
+      "offer": "1,000"
     },
     {
       "href": "https://www.ajio.com/zikaraa-printed-banarasi-silk-saree-with-blouse-piece/p/464683380_green",
@@ -2202,7 +2202,7 @@
       "price": "920",
       "orginalprice": "2,299",
       "discount": 60,
-      "offerpricess": "920"
+      "offer": "920"
     },
     {
       "href": "https://www.ajio.com/zikaraa-floral-woven-silk-saree-/p/465551384_magenta",
@@ -2212,7 +2212,7 @@
       "price": "782",
       "orginalprice": "2,299",
       "discount": 66,
-      "offerpricess": "644"
+      "offer": "644"
     },
     {
       "href": "https://www.ajio.com/limdo-floral-print-banarasi-silk-saree-/p/465483379_yellow",
@@ -2222,7 +2222,7 @@
       "price": "912",
       "orginalprice": "1,899",
       "discount": 52,
-      "offerpricess": "722"
+      "offer": "722"
     },
     {
       "href": "https://www.ajio.com/saree-mall-striped-traditional-saree-/p/463532274_green",
@@ -2232,7 +2232,7 @@
       "price": "840",
       "orginalprice": "2,099",
       "discount": 60,
-      "offerpricess": "546"
+      "offer": "546"
     },
     {
       "href": "https://www.ajio.com/zikaraa-woven-banarasi-silk-saree/p/465624120_lime",
@@ -2242,7 +2242,7 @@
       "price": "1,035",
       "orginalprice": "2,299",
       "discount": 55,
-      "offerpricess": "874"
+      "offer": "874"
     },
     {
       "href": "https://www.ajio.com/anjaneya-sarees-woven-banarasi-silk-kanjivaram-saree-saree/p/465511805_blue",
@@ -2252,7 +2252,7 @@
       "price": "990",
       "orginalprice": "2,999",
       "discount": 67,
-      "offerpricess": "840"
+      "offer": "840"
     },
     {
       "href": "https://www.ajio.com/anjaneya-sarees-banarasi-kanjivaram-silk-saree/p/465660534_maroon",
@@ -2262,7 +2262,7 @@
       "price": "1,110",
       "orginalprice": "2,999",
       "discount": 63,
-      "offerpricess": "900"
+      "offer": "900"
     },
     {
       "href": "https://www.ajio.com/tikhi-imli-striped-saree-with-blouse-piece/p/465183164_pink",
@@ -2272,7 +2272,7 @@
       "price": "1,195",
       "orginalprice": "2,598",
       "discount": 54,
-      "offerpricess": "1,039"
+      "offer": "1,039"
     },
     {
       "href": "https://www.ajio.com/besucher-kanjeevaram-silk-saree-with-embrossed-border-/p/465444798_maroon",
@@ -2282,7 +2282,7 @@
       "price": "883",
       "orginalprice": "1,699",
       "discount": 48,
-      "offerpricess": "731"
+      "offer": "731"
     },
     {
       "href": "https://www.ajio.com/anjaneya-sarees-floral-pattern-banarasi-silk-saree/p/465511049_orange",
@@ -2292,7 +2292,7 @@
       "price": "1,140",
       "orginalprice": "2,999",
       "discount": 62,
-      "offerpricess": "900"
+      "offer": "900"
     },
     {
       "href": "https://www.ajio.com/aldwych-banarasi-silk-kanjivaram-traditional-saree/p/465693299_yellow",
@@ -2302,7 +2302,7 @@
       "price": "1,260",
       "orginalprice": "2,999",
       "discount": 58,
-      "offerpricess": "1,020"
+      "offer": "1,020"
     },
     {
       "href": "https://www.ajio.com/zikaraa-woven-saree-with-contrast-border-/p/465551384_maroon",
@@ -2312,7 +2312,7 @@
       "price": "782",
       "orginalprice": "2,299",
       "discount": 66,
-      "offerpricess": "644"
+      "offer": "644"
     },
     {
       "href": "https://www.ajio.com/gorgone-floral-pattern-saree-with-contrast-border/p/465033361_white",
@@ -2322,7 +2322,7 @@
       "price": "358",
       "orginalprice": "1,991",
       "discount": 82,
-      "offerpricess": "358"
+      "offer": "358"
     },
     {
       "href": "https://www.ajio.com/fourleaf-georgette-saree-with-blouse-piece-/p/464681339_black",
@@ -2332,7 +2332,7 @@
       "price": "381",
       "orginalprice": "1,269",
       "discount": 70,
-      "offerpricess": "381"
+      "offer": "381"
     },
     {
       "href": "https://www.ajio.com/saree-mall-floral-print-saree-with-border-/p/465426609_peach",
@@ -2342,7 +2342,7 @@
       "price": "3,075",
       "orginalprice": "7,499",
       "discount": 59,
-      "offerpricess": "1,950"
+      "offer": "1,950"
     },
     {
       "href": "https://www.ajio.com/saree-mall-floral-print-belted-saree/p/465440230_multi",
@@ -2352,7 +2352,7 @@
       "price": "1,650",
       "orginalprice": "4,999",
       "discount": 67,
-      "offerpricess": "1,300"
+      "offer": "1,300"
     },
     {
       "href": "https://www.ajio.com/granthva-fab-traditional-embellished-silk-saree-/p/465191258_teal",
@@ -2362,7 +2362,7 @@
       "price": "1,000",
       "orginalprice": "3,999",
       "discount": 75,
-      "offerpricess": "1,000"
+      "offer": "1,000"
     },
     {
       "href": "https://www.ajio.com/anjaneya-sarees-geometric-pattern-saree-with-zari-border/p/465509953_navy",
@@ -2372,7 +2372,7 @@
       "price": "990",
       "orginalprice": "2,999",
       "discount": 67,
-      "offerpricess": "840"
+      "offer": "840"
     },
     {
       "href": "https://www.ajio.com/hritika-block-print-saree-with-zari-border/p/465065590_teal",
@@ -2382,7 +2382,7 @@
       "price": "359",
       "orginalprice": "998",
       "discount": 64,
-      "offerpricess": "259"
+      "offer": "259"
     }
   ],
   "jeans": [
@@ -2394,7 +2394,7 @@
       "price": "639",
       "orginalprice": "799",
       "discount": 20,
-      "offerpricess": "639"
+      "offer": "639"
     },
     {
       "href": "https://www.ajio.com/dolce-crudo-high-rise-skinny-jeans/p/461208122_black",
@@ -2404,7 +2404,7 @@
       "price": "960",
       "orginalprice": "2,399",
       "discount": 60,
-      "offerpricess": "624"
+      "offer": "624"
     },
     {
       "href": "https://www.ajio.com/dnmx-mid-wash-skinny-fit-jeans/p/441148958_darkblue",
@@ -2414,7 +2414,7 @@
       "price": "799",
       "orginalprice": "999",
       "discount": 20,
-      "offerpricess": "799"
+      "offer": "799"
     },
     {
       "href": "https://www.ajio.com/dnmx-skinny-fit-mid-rise-jeans/p/441138076_ltblue",
@@ -2424,7 +2424,7 @@
       "price": "577",
       "orginalprice": "1,049",
       "discount": 45,
-      "offerpricess": "525"
+      "offer": "525"
     },
     {
       "href": "https://www.ajio.com/dnmx-mid-rise-skinny-fit-jeans/p/441143842_white",
@@ -2434,7 +2434,7 @@
       "price": "639",
       "orginalprice": "799",
       "discount": 20,
-      "offerpricess": "639"
+      "offer": "639"
     },
     {
       "href": "https://www.ajio.com/outryt-lightly-washed-distressed-straight-leg-jeans/p/441316183_mediumblue",
@@ -2444,7 +2444,7 @@
       "price": "1,999",
       "orginalprice": "",
       "discount": "",
-      "offerpricess": "1,999"
+      "offer": "1,999"
     },
     {
       "href": "https://www.ajio.com/rio-skinny-jeggings-with-zip-pockets/p/441139529_black",
@@ -2454,7 +2454,7 @@
       "price": "699",
       "orginalprice": "999",
       "discount": 30,
-      "offerpricess": "500"
+      "offer": "500"
     },
     {
       "href": "https://www.ajio.com/jdy-by-only-boyfriend-jeans-with-insert-pockets/p/441697452_ltblue",
@@ -2464,7 +2464,7 @@
       "price": "1,624",
       "orginalprice": "2,499",
       "discount": 35,
-      "offerpricess": "1,374"
+      "offer": "1,374"
     },
     {
       "href": "https://www.ajio.com/dnmx-lightly-washed-cotton-joggers/p/441142413_ltblue",
@@ -2474,7 +2474,7 @@
       "price": "577",
       "orginalprice": "1,049",
       "discount": 45,
-      "offerpricess": "525"
+      "offer": "525"
     },
     {
       "href": "https://www.ajio.com/lee-cooper-high-rise-skinny-fit-jeans/p/443005043_tintblue",
@@ -2484,7 +2484,7 @@
       "price": "1,999",
       "orginalprice": "",
       "discount": "",
-      "offerpricess": "1,799"
+      "offer": "1,799"
     },
     {
       "href": "https://www.ajio.com/dnmx-lightly-washed-skinny-denim-jeans/p/441138077_mediumblue",
@@ -2494,7 +2494,7 @@
       "price": "629",
       "orginalprice": "1,049",
       "discount": 40,
-      "offerpricess": "525"
+      "offer": "525"
     },
     {
       "href": "https://www.ajio.com/dolce-crudo-high-rise-skinny-jeans/p/461207415_blue",
@@ -2504,7 +2504,7 @@
       "price": "960",
       "orginalprice": "2,399",
       "discount": 60,
-      "offerpricess": "624"
+      "offer": "624"
     },
     {
       "href": "https://www.ajio.com/orchid-blues-slim-fit-high-rise-jeans/p/464737160_blue",
@@ -2514,7 +2514,7 @@
       "price": "858",
       "orginalprice": "2,599",
       "discount": 67,
-      "offerpricess": "676"
+      "offer": "676"
     },
     {
       "href": "https://www.ajio.com/dolce-crudo-high-rise-skinny-jeans/p/461207456_black",
@@ -2524,7 +2524,7 @@
       "price": "940",
       "orginalprice": "2,349",
       "discount": 60,
-      "offerpricess": "611"
+      "offer": "611"
     },
     {
       "href": "https://www.ajio.com/dnmx-mid-rise-skinny-fit-jeggings/p/441142427_mediumblue",
@@ -2534,7 +2534,7 @@
       "price": "577",
       "orginalprice": "1,049",
       "discount": 45,
-      "offerpricess": "525"
+      "offer": "525"
     },
     {
       "href": "https://www.ajio.com/lee-cooper-high-rise-skinny-jeans/p/441192163_black",
@@ -2544,7 +2544,7 @@
       "price": "544",
       "orginalprice": "1,599",
       "discount": 66,
-      "offerpricess": "544"
+      "offer": "544"
     },
     {
       "href": "https://www.ajio.com/hawt-high-rise-skinny-fit-jeans/p/420325542_black",
@@ -2554,7 +2554,7 @@
       "price": "599",
       "orginalprice": "999",
       "discount": 40,
-      "offerpricess": "500"
+      "offer": "500"
     },
     {
       "href": "https://www.ajio.com/lee-cooper-lightly-washed-slim-fit-jeans/p/441297598_grey",
@@ -2564,7 +2564,7 @@
       "price": "1,000",
       "orginalprice": "1,999",
       "discount": 50,
-      "offerpricess": "900"
+      "offer": "900"
     },
     {
       "href": "https://www.ajio.com/dolce-crudo-solid-skinny-jeans/p/463701809_black",
@@ -2574,7 +2574,7 @@
       "price": "960",
       "orginalprice": "2,399",
       "discount": 60,
-      "offerpricess": "624"
+      "offer": "624"
     },
     {
       "href": "https://www.ajio.com/buda-jeans-co-lightly-washed-distressed-straight-fit-jeans/p/469194077_midblue",
@@ -2584,7 +2584,7 @@
       "price": "1,399",
       "orginalprice": "1,999",
       "discount": 30,
-      "offerpricess": "1,199"
+      "offer": "1,199"
     },
     {
       "href": "https://www.ajio.com/lee-cooper-skinny-fit-low-rise-jeans/p/441243543_indigo",
@@ -2594,7 +2594,7 @@
       "price": "750",
       "orginalprice": "1,499",
       "discount": 50,
-      "offerpricess": "675"
+      "offer": "675"
     },
     {
       "href": "https://www.ajio.com/dnmx-mid-wash-skinny-fit-jeans/p/441148959_mediumblue",
@@ -2604,7 +2604,7 @@
       "price": "799",
       "orginalprice": "999",
       "discount": 20,
-      "offerpricess": "799"
+      "offer": "799"
     },
     {
       "href": "https://www.ajio.com/buda-jeans-co-lightly-washed-distressed-straight-fit-jeans/p/469194077_darkblue",
@@ -2614,7 +2614,7 @@
       "price": "1,399",
       "orginalprice": "1,999",
       "discount": 30,
-      "offerpricess": "1,199"
+      "offer": "1,199"
     },
     {
       "href": "https://www.ajio.com/jdy-by-only-high-rise-skinny-fit-jeans/p/441697446_black",
@@ -2624,7 +2624,7 @@
       "price": "1,169",
       "orginalprice": "1,799",
       "discount": 35,
-      "offerpricess": "989"
+      "offer": "989"
     },
     {
       "href": "https://www.ajio.com/dolce-crudo-high-rise-skinny-jeans/p/461207600_blue",
@@ -2634,7 +2634,7 @@
       "price": "960",
       "orginalprice": "2,399",
       "discount": 60,
-      "offerpricess": "624"
+      "offer": "624"
     },
     {
       "href": "https://www.ajio.com/dnmx-mid-rise-jeans-with-5-pockets/p/440794191_mediumblue",
@@ -2644,7 +2644,7 @@
       "price": "559",
       "orginalprice": "699",
       "discount": 20,
-      "offerpricess": "559"
+      "offer": "559"
     },
     {
       "href": "https://www.ajio.com/tarama-high-rise-relaxed-jeans/p/465485593_blue",
@@ -2654,7 +2654,7 @@
       "price": "1,499",
       "orginalprice": "2,499",
       "discount": 40,
-      "offerpricess": "1,299"
+      "offer": "1,299"
     },
     {
       "href": "https://www.ajio.com/outryt-women-mid-wash-distressed-relaxed-fit-jeans/p/441229219_mediumblue",
@@ -2664,7 +2664,7 @@
       "price": "1,379",
       "orginalprice": "2,299",
       "discount": 40,
-      "offerpricess": "1,379"
+      "offer": "1,379"
     },
     {
       "href": "https://www.ajio.com/buda-jeans-co-lightly-washed-distressed-mom-fit-jeans/p/469194080_iceblue",
@@ -2674,7 +2674,7 @@
       "price": "1,399",
       "orginalprice": "1,999",
       "discount": 30,
-      "offerpricess": "1,199"
+      "offer": "1,199"
     },
     {
       "href": "https://www.ajio.com/dnmx-high-rise-distressed-skinny-jeans/p/441141376_ltblue",
@@ -2684,7 +2684,7 @@
       "price": "824",
       "orginalprice": "1,499",
       "discount": 45,
-      "offerpricess": "750"
+      "offer": "750"
     },
     {
       "href": "https://www.ajio.com/buda-jeans-co-lightly-washed-wide-leg-jeans/p/469311813_mediumblue",
@@ -2694,7 +2694,7 @@
       "price": "1,329",
       "orginalprice": "1,899",
       "discount": 30,
-      "offerpricess": "1,139"
+      "offer": "1,139"
     },
     {
       "href": "https://www.ajio.com/orchid-blues---solid-full-length-jeans/p/463544424_blue",
@@ -2704,7 +2704,7 @@
       "price": "880",
       "orginalprice": "2,199",
       "discount": 60,
-      "offerpricess": "572"
+      "offer": "572"
     },
     {
       "href": "https://www.ajio.com/kotty-lightly-washed-flared-jeans/p/461780688_blue",
@@ -2714,7 +2714,7 @@
       "price": "860",
       "orginalprice": "1,999",
       "discount": 57,
-      "offerpricess": "525"
+      "offer": "525"
     },
     {
       "href": "https://www.ajio.com/hawt-ankle-length-skinny-fit-jeans/p/420178157_black",
@@ -2724,7 +2724,7 @@
       "price": "539",
       "orginalprice": "899",
       "discount": 40,
-      "offerpricess": "450"
+      "offer": "450"
     },
     {
       "href": "https://www.ajio.com/hawt-stone-wash-bootcut-jeans/p/420178159_ltblue",
@@ -2734,7 +2734,7 @@
       "price": "539",
       "orginalprice": "899",
       "discount": 40,
-      "offerpricess": "450"
+      "offer": "450"
     },
     {
       "href": "https://www.ajio.com/dnmx-mid-rise-skinny-fit-jeggings/p/441142424_grey",
@@ -2744,7 +2744,7 @@
       "price": "577",
       "orginalprice": "1,049",
       "discount": 45,
-      "offerpricess": "525"
+      "offer": "525"
     },
     {
       "href": "https://www.ajio.com/buda-jeans-co-lightly-washed-straight-fit-jeans/p/469311897_iceblue",
@@ -2754,7 +2754,7 @@
       "price": "1,119",
       "orginalprice": "1,599",
       "discount": 30,
-      "offerpricess": "959"
+      "offer": "959"
     },
     {
       "href": "https://www.ajio.com/hawt-mid-wash-high-rise-skinny-fit-jeans/p/420324423_blue",
@@ -2764,7 +2764,7 @@
       "price": "599",
       "orginalprice": "999",
       "discount": 40,
-      "offerpricess": "500"
+      "offer": "500"
     },
     {
       "href": "https://www.ajio.com/hawt-lightly-washed-skinny-jeggings/p/420178151_blue",
@@ -2774,7 +2774,7 @@
       "price": "539",
       "orginalprice": "899",
       "discount": 40,
-      "offerpricess": "450"
+      "offer": "450"
     },
     {
       "href": "https://www.ajio.com/orchid-blues-light-wash-slim-fit-jeans/p/464737147_blue",
@@ -2784,7 +2784,7 @@
       "price": "780",
       "orginalprice": "2,599",
       "discount": 70,
-      "offerpricess": "676"
+      "offer": "676"
     },
     {
       "href": "https://www.ajio.com/marks--spencer-high-rise-skinny-jeggings/p/464428539_navy",
@@ -2794,7 +2794,7 @@
       "price": "1,349",
       "orginalprice": "1,799",
       "discount": 25,
-      "offerpricess": "877"
+      "offer": "877"
     },
     {
       "href": "https://www.ajio.com/dnmx-lightly-washed-skinny-jeggings/p/441142428_darkblue",
@@ -2804,7 +2804,7 @@
       "price": "577",
       "orginalprice": "1,049",
       "discount": 45,
-      "offerpricess": "525"
+      "offer": "525"
     },
     {
       "href": "https://www.ajio.com/dolce-crudo-solid-jeans/p/463132308_navy",
@@ -2814,7 +2814,7 @@
       "price": "888",
       "orginalprice": "2,399",
       "discount": 63,
-      "offerpricess": "624"
+      "offer": "624"
     },
     {
       "href": "https://www.ajio.com/orchid-blues-heavily-washed-flared-jeans/p/465253846_green",
@@ -2824,7 +2824,7 @@
       "price": "924",
       "orginalprice": "2,799",
       "discount": 67,
-      "offerpricess": "728"
+      "offer": "728"
     },
     {
       "href": "https://www.ajio.com/dnmx-skinny-jeggings-with-insert-pocket/p/441142425_black",
@@ -2834,7 +2834,7 @@
       "price": "577",
       "orginalprice": "1,049",
       "discount": 45,
-      "offerpricess": "525"
+      "offer": "525"
     },
     {
       "href": "https://www.ajio.com/levis-710-mid-wash-super-skinny-fit-jeans/p/469203806_blue",
@@ -2844,7 +2844,7 @@
       "price": "1,189",
       "orginalprice": "2,899",
       "discount": 59,
-      "offerpricess": "1,189"
+      "offer": "1,189"
     },
     {
       "href": "https://www.ajio.com/lee-cooper-lightly-washed-bootcut-jeans/p/441297621_indigo",
@@ -2854,7 +2854,7 @@
       "price": "1,029",
       "orginalprice": "2,099",
       "discount": 51,
-      "offerpricess": "840"
+      "offer": "840"
     },
     {
       "href": "https://www.ajio.com/lee-cooper-low-rise-skinny-fit-jeans/p/441192155_ltblue",
@@ -2864,7 +2864,7 @@
       "price": "510",
       "orginalprice": "1,499",
       "discount": 66,
-      "offerpricess": "510"
+      "offer": "510"
     },
     {
       "href": "https://www.ajio.com/dnmx-mid-wash-high-rise-skinny-fit-jeans/p/441146721_darkblue",
@@ -2874,7 +2874,7 @@
       "price": "1,199",
       "orginalprice": "1,499",
       "discount": 20,
-      "offerpricess": "1,199"
+      "offer": "1,199"
     },
     {
       "href": "https://www.ajio.com/dnmx-acid-wash-cropped-super-skinny-jeans/p/441138080_mediumblue",
@@ -2884,7 +2884,7 @@
       "price": "714",
       "orginalprice": "1,299",
       "discount": 45,
-      "offerpricess": "650"
+      "offer": "650"
     },
     {
       "href": "https://www.ajio.com/miss-chase-solid-wide-jeans/p/461053312_blue",
@@ -2894,7 +2894,7 @@
       "price": "855",
       "orginalprice": "1,899",
       "discount": 55,
-      "offerpricess": "522"
+      "offer": "522"
     }
   ],
   "tshirts": [
@@ -2906,7 +2906,7 @@
       "price": "507",
       "orginalprice": "1,299",
       "discount": 61,
-      "offerpricess": "338"
+      "offer": "338"
     },
     {
       "href": "https://www.ajio.com/wedani-printed-crew-neck-crop-top/p/465571957_multi",
@@ -2916,7 +2916,7 @@
       "price": "249",
       "orginalprice": "1,999",
       "discount": 88,
-      "offerpricess": "249"
+      "offer": "249"
     },
     {
       "href": "https://www.ajio.com/maaesa-tie--dye-collar-neck-top/p/464575254_blue",
@@ -2926,7 +2926,7 @@
       "price": "678",
       "orginalprice": "1,995",
       "discount": 66,
-      "offerpricess": "519"
+      "offer": "519"
     },
     {
       "href": "https://www.ajio.com/v-m-round-neck-top-with-peasant-sleeves/p/465528295_green",
@@ -2936,7 +2936,7 @@
       "price": "828",
       "orginalprice": "2,299",
       "discount": 64,
-      "offerpricess": "690"
+      "offer": "690"
     },
     {
       "href": "https://www.ajio.com/fig-top-with-shirt-collar/p/441146215_navy",
@@ -2946,7 +2946,7 @@
       "price": "336",
       "orginalprice": "699",
       "discount": 52,
-      "offerpricess": "238"
+      "offer": "238"
     },
     {
       "href": "https://www.ajio.com/aks-printed-round-neck-tunic/p/462862659_maroon",
@@ -2956,7 +2956,7 @@
       "price": "495",
       "orginalprice": "1,099",
       "discount": 55,
-      "offerpricess": "302"
+      "offer": "302"
     },
     {
       "href": "https://www.ajio.com/kibo-fitted-crop-wrap-top-/p/465155418_maroon",
@@ -2966,7 +2966,7 @@
       "price": "555",
       "orginalprice": "1,499",
       "discount": 63,
-      "offerpricess": "390"
+      "offer": "390"
     },
     {
       "href": "https://www.ajio.com/janasya-crew-neck-cuff-sleeve-top/p/465508067_blue",
@@ -2976,7 +2976,7 @@
       "price": "1,234",
       "orginalprice": "2,939",
       "discount": 58,
-      "offerpricess": "764"
+      "offer": "764"
     },
     {
       "href": "https://www.ajio.com/fig-geometric-print-round-neck-top/p/441146669_black",
@@ -2986,7 +2986,7 @@
       "price": "336",
       "orginalprice": "699",
       "discount": 52,
-      "offerpricess": "238"
+      "offer": "238"
     },
     {
       "href": "https://www.ajio.com/znx-clothing-floral-print-wrap-top/p/463229399_multi",
@@ -2996,7 +2996,7 @@
       "price": "645",
       "orginalprice": "1,499",
       "discount": 57,
-      "offerpricess": "645"
+      "offer": "645"
     },
     {
       "href": "https://www.ajio.com/janasya-checked-cotton-v-neck-top/p/462920274_red",
@@ -3006,7 +3006,7 @@
       "price": "615",
       "orginalprice": "1,398",
       "discount": 56,
-      "offerpricess": "375"
+      "offer": "375"
     },
     {
       "href": "https://www.ajio.com/kibo-floral-print-v-neck-top/p/465140452_blue",
@@ -3016,7 +3016,7 @@
       "price": "663",
       "orginalprice": "1,699",
       "discount": 61,
-      "offerpricess": "442"
+      "offer": "442"
     },
     {
       "href": "https://www.ajio.com/fig-micro-print-top-with-tie-up/p/441146214_darkgreen",
@@ -3026,7 +3026,7 @@
       "price": "288",
       "orginalprice": "599",
       "discount": 52,
-      "offerpricess": "204"
+      "offer": "204"
     },
     {
       "href": "https://www.ajio.com/shaye-floral-print-v-neck-top/p/462506144_cream",
@@ -3036,7 +3036,7 @@
       "price": "1,469",
       "orginalprice": "2,449",
       "discount": 40,
-      "offerpricess": "1,469"
+      "offer": "1,469"
     },
     {
       "href": "https://www.ajio.com/fig-striped-v-neck-top/p/441146110_wine",
@@ -3046,7 +3046,7 @@
       "price": "336",
       "orginalprice": "699",
       "discount": 52,
-      "offerpricess": "238"
+      "offer": "238"
     },
     {
       "href": "https://www.ajio.com/rio-checked-peplum-top/p/443003910_pink",
@@ -3056,7 +3056,7 @@
       "price": "699",
       "orginalprice": "",
       "discount": "",
-      "offerpricess": "629"
+      "offer": "629"
     },
     {
       "href": "https://www.ajio.com/buda-jeans-co-floral-print-v-neck-top/p/469218629_rust",
@@ -3066,7 +3066,7 @@
       "price": "1,799",
       "orginalprice": "1,999",
       "discount": 10,
-      "offerpricess": "1,259"
+      "offer": "1,259"
     },
     {
       "href": "https://www.ajio.com/rigo-round-neck-top-with-front-slit/p/462956820_black",
@@ -3076,7 +3076,7 @@
       "price": "494",
       "orginalprice": "899",
       "discount": 45,
-      "offerpricess": "301"
+      "offer": "301"
     },
     {
       "href": "https://www.ajio.com/jaipur-kurti-checked-printed-regular-top/p/463050316_black",
@@ -3086,7 +3086,7 @@
       "price": "425",
       "orginalprice": "1,149",
       "discount": 63,
-      "offerpricess": "299"
+      "offer": "299"
     },
     {
       "href": "https://www.ajio.com/rue-collection-checks-v-neck-top/p/464279908_multi",
@@ -3096,7 +3096,7 @@
       "price": "665",
       "orginalprice": "1,899",
       "discount": 65,
-      "offerpricess": "570"
+      "offer": "570"
     },
     {
       "href": "https://www.ajio.com/mayra-chevron-print-round-neck-top/p/461391831_black",
@@ -3106,7 +3106,7 @@
       "price": "398",
       "orginalprice": "995",
       "discount": 60,
-      "offerpricess": "259"
+      "offer": "259"
     },
     {
       "href": "https://www.ajio.com/maishi-round-neck-top-with-button-fastening/p/461800113_red",
@@ -3116,7 +3116,7 @@
       "price": "486",
       "orginalprice": "2,699",
       "discount": 82,
-      "offerpricess": "486"
+      "offer": "486"
     },
     {
       "href": "https://www.ajio.com/fig-embellished-round-neck-top/p/441146120_ltpurple",
@@ -3126,7 +3126,7 @@
       "price": "384",
       "orginalprice": "799",
       "discount": 52,
-      "offerpricess": "272"
+      "offer": "272"
     },
     {
       "href": "https://www.ajio.com/ives-floral-print-top-with-tie-up/p/464125017_white",
@@ -3136,7 +3136,7 @@
       "price": "645",
       "orginalprice": "1,499",
       "discount": 57,
-      "offerpricess": "393"
+      "offer": "393"
     },
     {
       "href": "https://www.ajio.com/wedani-floral-print-round-neck-top-/p/465326995_multi",
@@ -3146,7 +3146,7 @@
       "price": "249",
       "orginalprice": "1,999",
       "discount": 88,
-      "offerpricess": "249"
+      "offer": "249"
     },
     {
       "href": "https://www.ajio.com/fig-floral-print-square-neck-top/p/441134979_black",
@@ -3156,7 +3156,7 @@
       "price": "210",
       "orginalprice": "699",
       "discount": 70,
-      "offerpricess": "210"
+      "offer": "210"
     },
     {
       "href": "https://www.ajio.com/cottinfab-heathered-lapel-shirt-top/p/463659899_blue",
@@ -3166,7 +3166,7 @@
       "price": "510",
       "orginalprice": "1,699",
       "discount": 70,
-      "offerpricess": "442"
+      "offer": "442"
     },
     {
       "href": "https://www.ajio.com/fig-polka-dot-print-round-neck-top/p/441146201_darkrust",
@@ -3176,7 +3176,7 @@
       "price": "288",
       "orginalprice": "599",
       "discount": 52,
-      "offerpricess": "204"
+      "offer": "204"
     },
     {
       "href": "https://www.ajio.com/shaye-floral-print-top-with-bishop-sleeves/p/464954436_white",
@@ -3186,7 +3186,7 @@
       "price": "1,692",
       "orginalprice": "3,599",
       "discount": 53,
-      "offerpricess": "1,692"
+      "offer": "1,692"
     },
     {
       "href": "https://www.ajio.com/maaesa-tie--dye-full-sleeve-top/p/464528587_green",
@@ -3196,7 +3196,7 @@
       "price": "698",
       "orginalprice": "1,995",
       "discount": 65,
-      "offerpricess": "519"
+      "offer": "519"
     },
     {
       "href": "https://www.ajio.com/popwings-floral-print-square-neck-crop-top/p/464809395_beige",
@@ -3206,7 +3206,7 @@
       "price": "429",
       "orginalprice": "1,299",
       "discount": 67,
-      "offerpricess": "416"
+      "offer": "416"
     },
     {
       "href": "https://www.ajio.com/fyre-rose-button-down-top-with-collar/p/469254145_fushia",
@@ -3216,7 +3216,7 @@
       "price": "909",
       "orginalprice": "1,299",
       "discount": 30,
-      "offerpricess": "779"
+      "offer": "779"
     },
     {
       "href": "https://www.ajio.com/ives-solid-top/p/461018780_green",
@@ -3226,7 +3226,7 @@
       "price": "473",
       "orginalprice": "1,099",
       "discount": 57,
-      "offerpricess": "289"
+      "offer": "289"
     },
     {
       "href": "https://www.ajio.com/fig-striped-round-neck-top-with-bell-sleeves/p/441131677_mustard",
@@ -3236,7 +3236,7 @@
       "price": "180",
       "orginalprice": "599",
       "discount": 70,
-      "offerpricess": "180"
+      "offer": "180"
     },
     {
       "href": "https://www.ajio.com/fig-floral-print-top/p/441131710_mustard",
@@ -3246,7 +3246,7 @@
       "price": "210",
       "orginalprice": "699",
       "discount": 70,
-      "offerpricess": "210"
+      "offer": "210"
     },
     {
       "href": "https://www.ajio.com/jdy-by-only-schiffli-embroidered-top-with-puff-sleeves/p/441308981_pink",
@@ -3256,7 +3256,7 @@
       "price": "510",
       "orginalprice": "1,699",
       "discount": 70,
-      "offerpricess": "510"
+      "offer": "510"
     },
     {
       "href": "https://www.ajio.com/aarke-ritu-kumar-printed-sleeveless-top-with-knot-neckline/p/469031656_green",
@@ -3266,7 +3266,7 @@
       "price": "850",
       "orginalprice": "1,700",
       "discount": 50,
-      "offerpricess": "714"
+      "offer": "714"
     },
     {
       "href": "https://www.ajio.com/teamspirit-striped-round-neck-top/p/441134865_navy",
@@ -3276,7 +3276,7 @@
       "price": "210",
       "orginalprice": "699",
       "discount": 70,
-      "offerpricess": "210"
+      "offer": "210"
     },
     {
       "href": "https://www.ajio.com/marks--spencer-full-sleeves-v-neck-top/p/465208589_blue",
@@ -3286,7 +3286,7 @@
       "price": "2,099",
       "orginalprice": "2,999",
       "discount": 30,
-      "offerpricess": "1,364"
+      "offer": "1,364"
     },
     {
       "href": "https://www.ajio.com/fig-floral-print-top-with-camisole/p/443004325_ltpink",
@@ -3296,7 +3296,7 @@
       "price": "699",
       "orginalprice": "",
       "discount": "",
-      "offerpricess": "629"
+      "offer": "629"
     },
     {
       "href": "https://www.ajio.com/kibo-floral-top/p/464610946_pink",
@@ -3306,7 +3306,7 @@
       "price": "648",
       "orginalprice": "1,799",
       "discount": 64,
-      "offerpricess": "468"
+      "offer": "468"
     }
   ],
   "cart": [
@@ -3318,7 +3318,7 @@
       "price": "1500",
       "orginalprice": "2,999",
       "discount": 50,
-      "offerpricess": "900",
+      "offer": "900",
       "id": 4
     }
   ],
@@ -3331,7 +3331,7 @@
       "price": "12499",
       "orginalprice": "3,699",
       "discount": 59,
-      "offerpricess": "925",
+      "offer": "925",
       "id": 3
     },
     {
@@ -3342,7 +3342,7 @@
       "price": "12499",
       "orginalprice": "3,699",
       "discount": 59,
-      "offerpricess": "925",
+      "offer": "925",
       "id": 4
     },
     {
@@ -3353,7 +3353,7 @@
       "price": "12499",
       "orginalprice": "3,699",
       "discount": 59,
-      "offerpricess": "925",
+      "offer": "925",
       "id": 5
     },
     {
@@ -3364,7 +3364,7 @@
       "price": "12499",
       "orginalprice": "3,699",
       "discount": 59,
-      "offerpricess": "925",
+      "offer": "925",
       "id": 6
     },
     {
@@ -3375,7 +3375,7 @@
       "price": "12499",
       "orginalprice": "3,699",
       "discount": 59,
-      "offerpricess": "925",
+      "offer": "925",
       "id": 7
     },
     {
@@ -3386,7 +3386,7 @@
       "price": "12499",
       "orginalprice": "3,699",
       "discount": 59,
-      "offerpricess": "925",
+      "offer": "925",
       "id": 8
     }
   ],
@@ -3399,7 +3399,7 @@
       "price": "799",
       "orginalprice": "999",
       "discount": 20,
-      "offerpricess": "799"
+      "offer": "799"
     },
     {
       "href": "https://www.ajio.com/harpa-chevron-pattern-top/p/464989136_maroon",
@@ -3409,7 +3409,7 @@
       "price": "507",
       "orginalprice": "1,299",
       "discount": 61,
-      "offerpricess": "338"
+      "offer": "338"
     },
     {
       "href": "https://www.ajio.com/fashor-embroidered-round-neck-straight-kurta/p/465142808_pink",
@@ -3419,7 +3419,7 @@
       "price": "1247",
       "orginalprice": "2,899",
       "discount": 57,
-      "offerpricess": 761
+      "offer": 761
     },
     {
       "href": "https://www.ajio.com/dnmx-mid-rise-skinny-fit-jeans/p/441147348_jetblack",
@@ -3429,7 +3429,7 @@
       "price": "639",
       "orginalprice": "799",
       "discount": 20,
-      "offerpricess": "639"
+      "offer": "639"
     },
     {
       "href": "https://www.ajio.com/besucher-floral-pattern-silk-saree-/p/465463355_peach",
@@ -3439,7 +3439,7 @@
       "price": "882",
       "orginalprice": "1,799",
       "discount": 51,
-      "offerpricess": "684"
+      "offer": "684"
     },
     {
       "href": "https://www.ajio.com/dolce-crudo-high-rise-skinny-jeans/p/461208122_black",
@@ -3449,7 +3449,7 @@
       "price": "960",
       "orginalprice": "2,399",
       "discount": 60,
-      "offerpricess": "624"
+      "offer": "624"
     },
     {
       "href": "https://www.ajio.com/zikaraa-banarasi-saree-with-floral-woven-motifs/p/465652365_black",
@@ -3459,7 +3459,7 @@
       "price": "884",
       "orginalprice": "2,599",
       "discount": 66,
-      "offerpricess": "728"
+      "offer": "728"
     },
     {
       "href": "https://www.ajio.com/gorgone-gorgone-pink-mysore-silk-abstract-print-saree-with-blouse-piece-saree/p/465700813_pink",
@@ -3469,7 +3469,7 @@
       "price": "371",
       "orginalprice": "2,651",
       "discount": 86,
-      "offerpricess": "371"
+      "offer": "371"
     },
     {
       "href": "https://www.ajio.com/maaesa-tie--dye-collar-neck-top/p/464575254_blue",
@@ -3479,7 +3479,7 @@
       "price": "678",
       "orginalprice": "1,995",
       "discount": 66,
-      "offerpricess": "519"
+      "offer": "519"
     },
     {
       "href": "https://www.ajio.com/gulmohar-jaipur-floral-embroidered-flared-kurta-/p/465518227_red",
@@ -3489,7 +3489,7 @@
       "price": "874",
       "orginalprice": "2,299",
       "discount": 62,
-      "offerpricess": 598
+      "offer": 598
     },
     {
       "href": "https://www.ajio.com/gulmohar-jaipur-leaf-print-flared-kurta/p/465542857_white",
@@ -3499,7 +3499,7 @@
       "price": "874",
       "orginalprice": "2,299",
       "discount": 62,
-      "offerpricess": 598
+      "offer": 598
     },
     {
       "href": "https://www.ajio.com/wedani-printed-crew-neck-crop-top/p/465571957_multi",
@@ -3509,7 +3509,7 @@
       "price": "249",
       "orginalprice": "1,999",
       "discount": 88,
-      "offerpricess": "249"
+      "offer": "249"
     }
   ],
   "womens": [
@@ -3521,7 +3521,7 @@
       "price": "420",
       "orginalprice": "999",
       "discount": 60,
-      "offerpricess": "340"
+      "offer": "340"
     },
     {
       "href": "https://www.ajio.com/kimayra-printed-round-neck-flared-kurta-set/p/465607741_brown",
@@ -3531,7 +3531,7 @@
       "price": "12499",
       "orginalprice": "3,699",
       "discount": 59,
-      "offerpricess": "925"
+      "offer": "925"
     },
     {
       "href": "https://www.ajio.com/gulmohar-jaipur-embellished-a-line-kurta-sets/p/463669997_navy",
@@ -3541,7 +3541,7 @@
       "price": "929",
       "orginalprice": "2,299",
       "discount": 57,
-      "offerpricess": "599"
+      "offer": "599"
     },
     {
       "href": "https://www.ajio.com/avaasa-mix-n-match-floral-print-straight-kurta-with-band-collar/p/441144415_rosegold",
@@ -3551,7 +3551,7 @@
       "price": "224",
       "orginalprice": "499",
       "discount": 49,
-      "offerpricess": "250"
+      "offer": "250"
     },
     {
       "href": "https://www.ajio.com/teamspirit-track-pants-with-contrast-side-taping/p/441001504_black",
@@ -3561,7 +3561,7 @@
       "price": "224",
       "orginalprice": "499",
       "discount": 49,
-      "offerpricess": "250"
+      "offer": "250"
     },
     {
       "href": "https://www.ajio.com/cultsport-heathered-fitted-track-pants/p/463707899_grey",
@@ -3571,7 +3571,7 @@
       "price": "12319",
       "orginalprice": "2,199",
       "discount": 40,
-      "offerpricess": "1,209"
+      "offer": "1,209"
     },
     {
       "href": "https://www.ajio.com/avaasa-mix-n-match-ankle-length-leggings-with-elasticated-waist/p/441020957_white",
@@ -3581,7 +3581,7 @@
       "price": "329",
       "orginalprice": "399",
       "discount": 10,
-      "offerpricess": "359"
+      "offer": "359"
     },
     {
       "href": "https://www.ajio.com/fiorra-straight-kurta-set-with-dupatta/p/465543382_black",
@@ -3591,7 +3591,7 @@
       "price": "1500",
       "orginalprice": "2,999",
       "discount": 50,
-      "offerpricess": "900"
+      "offer": "900"
     },
     {
       "href": "https://www.ajio.com/kimayra-leaf-print-flared-kurta/p/465425434_pink",
@@ -3601,7 +3601,7 @@
       "price": "824",
       "orginalprice": "2,299",
       "discount": 62,
-      "offerpricess": "575"
+      "offer": "575"
     },
     {
       "href": "https://www.ajio.com/kimayra-printed-anarkali-kurta-suit-set/p/464004331_yellow",
@@ -3611,7 +3611,7 @@
       "price": "1599",
       "orginalprice": "2,499",
       "discount": 36,
-      "offerpricess": "959"
+      "offer": "959"
     },
     {
       "href": "https://www.ajio.com/silverfly-high-rise-stretch-pants/p/465581718_white",
@@ -3621,7 +3621,7 @@
       "price": "420",
       "orginalprice": "999",
       "discount": 60,
-      "offerpricess": "340"
+      "offer": "340"
     },
     {
       "href": "https://www.ajio.com/cultsport-camouflage-print-leggings/p/463716303_grey",
@@ -3631,7 +3631,7 @@
       "price": "1539",
       "orginalprice": "2,799",
       "discount": 45,
-      "offerpricess": "1,538"
+      "offer": "1,538"
     },
     {
       "href": "https://www.ajio.com/youbella-stone-studded-huggies/p/6005533020_multi",
@@ -3641,7 +3641,7 @@
       "price": "226",
       "orginalprice": "1,599",
       "discount": 84,
-      "offerpricess": "255"
+      "offer": "255"
     },
     {
       "href": "https://www.ajio.com/glam-roots-printed-straight-kurta-set-with-dupatta-/p/464686735_blue",
@@ -3651,7 +3651,7 @@
       "price": "1500",
       "orginalprice": "2,999",
       "discount": 50,
-      "offerpricess": "900"
+      "offer": "900"
     },
     {
       "href": "https://www.ajio.com/avaasa-mix-n-match-ankle-length-leggings-with-elasticated-waist/p/441020957_black",
@@ -3661,7 +3661,7 @@
       "price": "329",
       "orginalprice": "399",
       "discount": 10,
-      "offerpricess": "359"
+      "offer": "359"
     },
     {
       "href": "https://www.ajio.com/aks-floral-print-anarkali-kurta-with-tie-up/p/461344541_white",
@@ -3671,7 +3671,7 @@
       "price": "623",
       "orginalprice": "1,699",
       "discount": 61,
-      "offerpricess": "425"
+      "offer": "425"
     },
     {
       "href": "https://www.ajio.com/kvs-fab-floral-embroidered-top-with-palazzos-set/p/465543209_yellow",
@@ -3681,7 +3681,7 @@
       "price": "2772",
       "orginalprice": "7,699",
       "discount": 64,
-      "offerpricess": "1,925"
+      "offer": "1,925"
     },
     {
       "href": "https://www.ajio.com/cultsport-solid-city-shorts/p/463694784_black",
@@ -3691,7 +3691,7 @@
       "price": "1019",
       "orginalprice": "1,699",
       "discount": 40,
-      "offerpricess": "900"
+      "offer": "900"
     },
     {
       "href": "https://www.ajio.com/marks--spencer-flared-flat-front-pant/p/464099250_black",
@@ -3701,7 +3701,7 @@
       "price": "820",
       "orginalprice": "1,999",
       "discount": 60,
-      "offerpricess": "799"
+      "offer": "799"
     },
     {
       "href": "https://www.ajio.com/freehand-acid-wash-wide-leg-jeans/p/469194678_lightblue",
@@ -3711,7 +3711,7 @@
       "price": "627",
       "orginalprice": "2,299",
       "discount": 71,
-      "offerpricess": "666"
+      "offer": "666"
     },
     {
       "href": "https://www.ajio.com/gulmohar-jaipur-floral-print-flared-kurta-suit-set/p/465561420_blue",
@@ -3721,7 +3721,7 @@
       "price": "1599",
       "orginalprice": "3,799",
       "discount": 58,
-      "offerpricess": "959"
+      "offer": "959"
     },
     {
       "href": "https://www.ajio.com/glam-roots-floral-flared-kurta/p/464586933_wine",
@@ -3731,7 +3731,7 @@
       "price": "920",
       "orginalprice": "1,999",
       "discount": 55,
-      "offerpricess": "540"
+      "offer": "540"
     },
     {
       "href": "https://www.ajio.com/gulmohar-jaipur-floral-print-straight-kurta-set/p/463096232_navy",
@@ -3741,7 +3741,7 @@
       "price": "1499",
       "orginalprice": "2,499",
       "discount": 40,
-      "offerpricess": "899"
+      "offer": "899"
     },
     {
       "href": "https://www.ajio.com/cultsport-fitted-track-pants-with-elasticated-waist/p/463699318_green",
@@ -3751,7 +3751,7 @@
       "price": "1379",
       "orginalprice": "2,299",
       "discount": 40,
-      "offerpricess": "1,264"
+      "offer": "1,264"
     },
     {
       "href": "https://www.ajio.com/silverfly-high-rise-stretch-pants/p/465581718_wine",
@@ -3761,7 +3761,7 @@
       "price": "420",
       "orginalprice": "999",
       "discount": 60,
-      "offerpricess": "340"
+      "offer": "340"
     },
     {
       "href": "https://www.ajio.com/fusion-floral-print-round-neck-kurta/p/441137556_navy",
@@ -3771,7 +3771,7 @@
       "price": "224",
       "orginalprice": "499",
       "discount": 49,
-      "offerpricess": "250"
+      "offer": "250"
     },
     {
       "href": "https://www.ajio.com/meeranshi-striped-print-straight-kurta-set/p/465378765_green",
@@ -3781,7 +3781,7 @@
       "price": "729",
       "orginalprice": "1,399",
       "discount": 43,
-      "offerpricess": "479"
+      "offer": "479"
     },
     {
       "href": "https://www.ajio.com/dnmx-mid-rise-skinny-fit-jeans/p/441147348_jetblack",
@@ -3791,7 +3791,7 @@
       "price": "629",
       "orginalprice": "799",
       "discount": 20,
-      "offerpricess": "638"
+      "offer": "638"
     },
     {
       "href": "https://www.ajio.com/kotty-high-rise-straight-fit-pants/p/464501984_green",
@@ -3801,7 +3801,7 @@
       "price": "420",
       "orginalprice": "1,999",
       "discount": 77,
-      "offerpricess": "459"
+      "offer": "459"
     },
     {
       "href": "https://www.ajio.com/cultsport-heathered-fitted-track-pants-with-elasticated-waist/p/463708399_grey",
@@ -3811,7 +3811,7 @@
       "price": "12319",
       "orginalprice": "2,399",
       "discount": 45,
-      "offerpricess": "1,318"
+      "offer": "1,318"
     },
     {
       "href": "https://www.ajio.com/marc-loire-knitted-slip-on-ballerinas/p/460574363_seagreen",
@@ -3821,7 +3821,7 @@
       "price": "329",
       "orginalprice": "1,995",
       "discount": 82,
-      "offerpricess": "359"
+      "offer": "359"
     },
     {
       "href": "https://www.ajio.com/fusion-floral-print-high-low-straight-kurta/p/441138005_aqua",
@@ -3831,7 +3831,7 @@
       "price": "224",
       "orginalprice": "499",
       "discount": 49,
-      "offerpricess": "250"
+      "offer": "250"
     },
     {
       "href": "https://www.ajio.com/janasya-floral-print-fit-and-flare-dress/p/464611023_yellow",
@@ -3841,7 +3841,7 @@
       "price": "12183",
       "orginalprice": "2,689",
       "discount": 56,
-      "offerpricess": "710"
+      "offer": "710"
     },
     {
       "href": "https://www.ajio.com/kimayra-floral-print-flared-kurta/p/465532265_cream",
@@ -3851,7 +3851,7 @@
       "price": "929",
       "orginalprice": "2,299",
       "discount": 57,
-      "offerpricess": "599"
+      "offer": "599"
     },
     {
       "href": "https://www.ajio.com/avaasa-mix-n-match-floral-print-notched-round-neck-straight-kurta/p/441144426_aqua",
@@ -3861,7 +3861,7 @@
       "price": "325",
       "orginalprice": "599",
       "discount": 49,
-      "offerpricess": "300"
+      "offer": "300"
     },
     {
       "href": "https://www.ajio.com/cultsport-abstract-print-prism-leggings/p/463671362_multi",
@@ -3871,7 +3871,7 @@
       "price": "12400",
       "orginalprice": "2,799",
       "discount": 50,
-      "offerpricess": "1,399"
+      "offer": "1,399"
     },
     {
       "href": "https://www.ajio.com/janasya-printed-tiered-dress-with-waist-tie-up/p/463895347_pink",
@@ -3881,7 +3881,7 @@
       "price": "824",
       "orginalprice": "1,899",
       "discount": 54,
-      "offerpricess": "524"
+      "offer": "524"
     },
     {
       "href": "https://www.ajio.com/dnmx-mid-wash-skinny-fit-jeans/p/441148958_darkblue",
@@ -3891,7 +3891,7 @@
       "price": "729",
       "orginalprice": "999",
       "discount": 20,
-      "offerpricess": "798"
+      "offer": "798"
     },
     {
       "href": "https://www.ajio.com/kimayra-floral-print-flared-kurta-set/p/465438098_black",
@@ -3901,7 +3901,7 @@
       "price": "12241",
       "orginalprice": "2,299",
       "discount": 46,
-      "offerpricess": "745"
+      "offer": "745"
     },
     {
       "href": "https://www.ajio.com/pannkh-novelty-straight-kurta/p/461005409_blue",
@@ -3911,7 +3911,7 @@
       "price": "622",
       "orginalprice": "1,049",
       "discount": 34,
-      "offerpricess": "415"
+      "offer": "415"
     },
     {
       "href": "https://www.ajio.com/janasya-striped-print-kurta-with-button-placket/p/462667942_pink",
@@ -3921,7 +3921,7 @@
       "price": "725",
       "orginalprice": "1,399",
       "discount": 46,
-      "offerpricess": "453"
+      "offer": "453"
     },
     {
       "href": "https://www.ajio.com/cultsport-heathered-fitted-track-pants/p/463715655_grey",
@@ -3931,7 +3931,7 @@
       "price": "12439",
       "orginalprice": "2,399",
       "discount": 40,
-      "offerpricess": "1,343"
+      "offer": "1,343"
     },
     {
       "href": "https://www.ajio.com/ph-poshakhub-floral-print-a-line-kurta-set/p/463089117_cream",
@@ -3941,7 +3941,7 @@
       "price": "12125",
       "orginalprice": "2,500",
       "discount": 55,
-      "offerpricess": "675"
+      "offer": "675"
     },
     {
       "href": "https://www.ajio.com/nike-revolution-6-nn-running-shoes/p/469038192_purple",
@@ -3951,7 +3951,7 @@
       "price": "22660",
       "orginalprice": "3,695",
       "discount": 28,
-      "offerpricess": "2,394"
+      "offer": "2,394"
     },
     {
       "href": "https://www.ajio.com/arousy-pack-of-3-briefs/p/463069711_multi",
@@ -3961,7 +3961,7 @@
       "price": "120",
       "orginalprice": "1,303",
       "discount": 89,
-      "offerpricess": "150"
+      "offer": "150"
     },
     {
       "href": "https://www.ajio.com/heeposh-floral-embroidery-flared-kurta-sets/p/463506930_purple",
@@ -3971,7 +3971,7 @@
       "price": "12424",
       "orginalprice": "3,650",
       "discount": 61,
-      "offerpricess": "1,423"
+      "offer": "1,423"
     },
     {
       "href": "https://www.ajio.com/avaasa-mix-n-match-churidar-leggings-with-elasticated-waistband/p/440535772_white",
@@ -3981,7 +3981,7 @@
       "price": "223",
       "orginalprice": "399",
       "discount": 29,
-      "offerpricess": "279"
+      "offer": "279"
     },
     {
       "href": "https://www.ajio.com/bruno-manetti-chunky-heeled-sandals-with-buckle-clasp/p/463875285_red",
@@ -3991,7 +3991,7 @@
       "price": "12720",
       "orginalprice": "3,999",
       "discount": 57,
-      "offerpricess": "1,032"
+      "offer": "1,032"
     },
     {
       "href": "https://www.ajio.com/fashor-chevron-print-straight-kurta/p/465458146_multi",
@@ -4001,7 +4001,7 @@
       "price": "12394",
       "orginalprice": "3,399",
       "discount": 59,
-      "offerpricess": "850"
+      "offer": "850"
     },
     {
       "href": "https://www.ajio.com/shining-diva-8181s-gold-plated-pearl--stone-studded-necklace--earrings-set/p/6005607700_multi",
@@ -4011,7 +4011,7 @@
       "price": "220",
       "orginalprice": "2,999",
       "discount": 91,
-      "offerpricess": "269"
+      "offer": "269"
     },
     {
       "href": "https://www.ajio.com/gulmohar-jaipur-floral-print-flared-kurta/p/465542890_green",
@@ -4021,7 +4021,7 @@
       "price": "929",
       "orginalprice": "2,299",
       "discount": 57,
-      "offerpricess": "599"
+      "offer": "599"
     },
     {
       "href": "https://www.ajio.com/kibo-animal-print-high-neck-top/p/465305997_black",
@@ -4031,7 +4031,7 @@
       "price": "624",
       "orginalprice": "1,899",
       "discount": 64,
-      "offerpricess": "475"
+      "offer": "475"
     },
     {
       "href": "https://www.ajio.com/gulmohar-jaipur-embellished-flared-kurta-suit-set/p/465494889_green",
@@ -4041,7 +4041,7 @@
       "price": "12332",
       "orginalprice": "3,599",
       "discount": 63,
-      "offerpricess": "900"
+      "offer": "900"
     },
     {
       "href": "https://www.ajio.com/cultsport-camouflage-print-leggings/p/463716303_grey",
@@ -4051,7 +4051,7 @@
       "price": "12539",
       "orginalprice": "2,799",
       "discount": 45,
-      "offerpricess": "1,538"
+      "offer": "1,538"
     },
     {
       "href": "https://www.ajio.com/freehand-lightly-washed-distressed-slim-fit-jeans/p/469194597_blue",
@@ -4061,7 +4061,7 @@
       "price": "729",
       "orginalprice": "2,299",
       "discount": 67,
-      "offerpricess": "736"
+      "offer": "736"
     },
     {
       "href": "https://www.ajio.com/nishabd-floral-print-fit--flare-dress/p/465505654_pink",
@@ -4071,7 +4071,7 @@
       "price": "12149",
       "orginalprice": "2,299",
       "discount": 50,
-      "offerpricess": "689"
+      "offer": "689"
     },
     {
       "href": "https://www.ajio.com/mauka-embroidered-round-neck-straight-kurta/p/464990509_cream",
@@ -4081,7 +4081,7 @@
       "price": "820",
       "orginalprice": "1,999",
       "discount": 60,
-      "offerpricess": "500"
+      "offer": "500"
     },
     {
       "href": "https://www.ajio.com/heeposh-embroidered-flared-kurta-suit-set/p/465618668_purple",
@@ -4091,7 +4091,7 @@
       "price": "12806",
       "orginalprice": "8,600",
       "discount": 79,
-      "offerpricess": "1,805"
+      "offer": "1,805"
     },
     {
       "href": "https://www.ajio.com/glam-roots-floral-print-anarkali-kurta-with-pants-and-dupatta/p/464554707_pink",
@@ -4101,7 +4101,7 @@
       "price": "12500",
       "orginalprice": "2,999",
       "discount": 50,
-      "offerpricess": "900"
+      "offer": "900"
     },
     {
       "href": "https://www.ajio.com/bruno-manetti-chunky-heeled-sandals-with-buckle-closure/p/465022057_beige",
@@ -4111,7 +4111,7 @@
       "price": "12720",
       "orginalprice": "3,999",
       "discount": 57,
-      "offerpricess": "1,032"
+      "offer": "1,032"
     },
     {
       "href": "https://www.ajio.com/shining-diva-vg9992b-rose-gold-studded-crystal-studded-link-bracelet/p/6005608700_multi",
@@ -4121,7 +4121,7 @@
       "price": "220",
       "orginalprice": "1,999",
       "discount": 86,
-      "offerpricess": "279"
+      "offer": "279"
     },
     {
       "href": "https://www.ajio.com/dj--c-floral-print-crew-neck-t-shirt/p/441271154_lightgreen",
@@ -4131,7 +4131,7 @@
       "price": "229",
       "orginalprice": "349",
       "discount": 40,
-      "offerpricess": "175"
+      "offer": "175"
     },
     {
       "href": "https://www.ajio.com/tior-floral-print-square-neck-peplum-top/p/465138366_white",
@@ -4141,7 +4141,7 @@
       "price": "625",
       "orginalprice": "1,499",
       "discount": 55,
-      "offerpricess": "405"
+      "offer": "405"
     },
     {
       "href": "https://www.ajio.com/marks--spencer-flat-front-straight-trousers/p/463375488_black",
@@ -4151,7 +4151,7 @@
       "price": "820",
       "orginalprice": "1,999",
       "discount": 60,
-      "offerpricess": "799"
+      "offer": "799"
     },
     {
       "href": "https://www.ajio.com/gulmohar-jaipur-floral-print-flared-kurta-set/p/463124923_blue",
@@ -4161,7 +4161,7 @@
       "price": "12449",
       "orginalprice": "2,499",
       "discount": 42,
-      "offerpricess": "869"
+      "offer": "869"
     },
     {
       "href": "https://www.ajio.com/bruno-manetti-heeled-sandals-with-chain/p/465115173_beige",
@@ -4171,7 +4171,7 @@
       "price": "12935",
       "orginalprice": "4,499",
       "discount": 57,
-      "offerpricess": "1,161"
+      "offer": "1,161"
     },
     {
       "href": "https://www.ajio.com/fusion-leaf-print-straight-kurta/p/441143356_navy",
@@ -4181,7 +4181,7 @@
       "price": "325",
       "orginalprice": "599",
       "discount": 49,
-      "offerpricess": "300"
+      "offer": "300"
     },
     {
       "href": "https://www.ajio.com/kimayra-floral-print-flared-kurta/p/465524947_green",
@@ -4191,7 +4191,7 @@
       "price": "12058",
       "orginalprice": "2,299",
       "discount": 54,
-      "offerpricess": "635"
+      "offer": "635"
     },
     {
       "href": "https://www.ajio.com/kimayra-floral-print-flared-kurta/p/464014253_green",
@@ -4201,7 +4201,7 @@
       "price": "829",
       "orginalprice": "1,999",
       "discount": 55,
-      "offerpricess": "539"
+      "offer": "539"
     },
     {
       "href": "https://www.ajio.com/kimayra-embellished-flared-kurta/p/465346304_maroon",
@@ -4211,7 +4211,7 @@
       "price": "929",
       "orginalprice": "1,999",
       "discount": 50,
-      "offerpricess": "599"
+      "offer": "599"
     },
     {
       "href": "https://www.ajio.com/shyla-printed-shorts-with-elasticated-waist/p/441205456_navy",
@@ -4221,7 +4221,7 @@
       "price": "120",
       "orginalprice": "249",
       "discount": 52,
-      "offerpricess": "120"
+      "offer": "120"
     },
     {
       "href": "https://www.ajio.com/stylum-floral-anarkali-kurta-set/p/464921243_blue",
@@ -4231,7 +4231,7 @@
       "price": "12720",
       "orginalprice": "3,999",
       "discount": 57,
-      "offerpricess": "1,032"
+      "offer": "1,032"
     },
     {
       "href": "https://www.ajio.com/rio-panelled-treggings-with-zip-closure/p/441138844_jetblack",
@@ -4241,7 +4241,7 @@
       "price": "629",
       "orginalprice": "999",
       "discount": 30,
-      "offerpricess": "500"
+      "offer": "500"
     },
     {
       "href": "https://www.ajio.com/omask-floral-print-flared-kurta-suit-set/p/465477992_maroon",
@@ -4251,7 +4251,7 @@
       "price": "920",
       "orginalprice": "3,999",
       "discount": 76,
-      "offerpricess": "959"
+      "offer": "959"
     },
     {
       "href": "https://www.ajio.com/fashor-indian-straight-kurta-set/p/464285596_red",
@@ -4261,7 +4261,7 @@
       "price": "22214",
       "orginalprice": "5,399",
       "discount": 59,
-      "offerpricess": "1,350"
+      "offer": "1,350"
     },
     {
       "href": "https://www.ajio.com/tior-v-neck-fit--flare-dress-/p/465410816_burgundy",
@@ -4271,7 +4271,7 @@
       "price": "720",
       "orginalprice": "1,499",
       "discount": 52,
-      "offerpricess": "432"
+      "offer": "432"
     },
     {
       "href": "https://www.ajio.com/aks-floral-print-a-line-kurta/p/461341345_yellow",
@@ -4281,7 +4281,7 @@
       "price": "620",
       "orginalprice": "1,999",
       "discount": 66,
-      "offerpricess": "500"
+      "offer": "500"
     },
     {
       "href": "https://www.ajio.com/fashor-straight-kurta-with-ethnic-motifs/p/465081543_blue",
@@ -4291,7 +4291,7 @@
       "price": "12218",
       "orginalprice": "2,899",
       "discount": 58,
-      "offerpricess": "731"
+      "offer": "731"
     },
     {
       "href": "https://www.ajio.com/kibo-floral-print-v-neck-top/p/465140697_white",
@@ -4301,7 +4301,7 @@
       "price": "626",
       "orginalprice": "1,599",
       "discount": 59,
-      "offerpricess": "400"
+      "offer": "400"
     },
     {
       "href": "https://www.ajio.com/mayra-slim-fit-shirt-with-curved-hemline/p/461391397_black",
@@ -4311,7 +4311,7 @@
       "price": "328",
       "orginalprice": "995",
       "discount": 61,
-      "offerpricess": "249"
+      "offer": "249"
     },
     {
       "href": "https://www.ajio.com/kibo-micro-print-v-neck-top/p/464996404_purple",
@@ -4321,7 +4321,7 @@
       "price": "820",
       "orginalprice": "1,999",
       "discount": 57,
-      "offerpricess": "516"
+      "offer": "516"
     },
     {
       "href": "https://www.ajio.com/dolce-crudo-high-rise-skinny-jeans/p/461208122_black",
@@ -4331,7 +4331,7 @@
       "price": "920",
       "orginalprice": "2,399",
       "discount": 60,
-      "offerpricess": "600"
+      "offer": "600"
     },
     {
       "href": "https://www.ajio.com/janasya-floral-print-fit--flare-dress/p/463086147_blue",
@@ -4341,7 +4341,7 @@
       "price": "12195",
       "orginalprice": "2,298",
       "discount": 48,
-      "offerpricess": "717"
+      "offer": "717"
     },
     {
       "href": "https://www.ajio.com/puma-lqdcell-method-training-shoes/p/460822714_black",
@@ -4351,7 +4351,7 @@
       "price": "32849",
       "orginalprice": "6,999",
       "discount": 45,
-      "offerpricess": "2,810"
+      "offer": "2,810"
     },
     {
       "href": "https://www.ajio.com/clafoutis--pack-of-2-pleated-square-neck-tops/p/465609094_black",
@@ -4361,7 +4361,7 @@
       "price": "420",
       "orginalprice": "999",
       "discount": 51,
-      "offerpricess": "294"
+      "offer": "294"
     },
     {
       "href": "https://www.ajio.com/avaasa-mix-n-match-stretch-churidar-leggings/p/440535772_black",
@@ -4371,7 +4371,7 @@
       "price": "223",
       "orginalprice": "399",
       "discount": 29,
-      "offerpricess": "279"
+      "offer": "279"
     },
     {
       "href": "https://www.ajio.com/pannkh-novelty-top/p/461020470_blue",
@@ -4381,7 +4381,7 @@
       "price": "320",
       "orginalprice": "999",
       "discount": 61,
-      "offerpricess": "250"
+      "offer": "250"
     },
     {
       "href": "https://www.ajio.com/marc-loire-textured-slip-on-ballerinas/p/460574377_grey",
@@ -4391,7 +4391,7 @@
       "price": "329",
       "orginalprice": "1,995",
       "discount": 80,
-      "offerpricess": "399"
+      "offer": "399"
     },
     {
       "href": "https://www.ajio.com/gulmohar-jaipur-floral-print-flared-kurta/p/464052912_navy",
@@ -4401,7 +4401,7 @@
       "price": "829",
       "orginalprice": "1,999",
       "discount": 55,
-      "offerpricess": "539"
+      "offer": "539"
     },
     {
       "href": "https://www.ajio.com/kimayra-printed-kurta-suit-set/p/464004331_pink",
@@ -4411,7 +4411,7 @@
       "price": "12599",
       "orginalprice": "2,499",
       "discount": 36,
-      "offerpricess": "959"
+      "offer": "959"
     },
     {
       "href": "https://www.ajio.com/glam-roots-floral-print-straight-kurta-set-with-dupatta/p/464238222_grey",
@@ -4421,7 +4421,7 @@
       "price": "12349",
       "orginalprice": "2,499",
       "discount": 46,
-      "offerpricess": "809"
+      "offer": "809"
     },
     {
       "href": "https://www.ajio.com/beach-curve-colourblock-bra--panty-set/p/465236053_pink",
@@ -4431,7 +4431,7 @@
       "price": "123",
       "orginalprice": "1,251",
       "discount": 87,
-      "offerpricess": "163"
+      "offer": "163"
     },
     {
       "href": "https://www.ajio.com/stylum-floral-print-a-line-kurta/p/464342145_blue",
@@ -4441,7 +4441,7 @@
       "price": "720",
       "orginalprice": "1,999",
       "discount": 65,
-      "offerpricess": "500"
+      "offer": "500"
     },
     {
       "href": "https://www.ajio.com/nishabd-embroidered-round-neck-flared-kurta/p/465000355_green",
@@ -4451,7 +4451,7 @@
       "price": "825",
       "orginalprice": "1,999",
       "discount": 56,
-      "offerpricess": "525"
+      "offer": "525"
     },
     {
       "href": "https://www.ajio.com/fashion-depth-paisley-print-straight-kurta/p/465453347_grey",
@@ -4461,7 +4461,7 @@
       "price": "820",
       "orginalprice": "1,999",
       "discount": 60,
-      "offerpricess": "720"
+      "offer": "720"
     },
     {
       "href": "https://www.ajio.com/avaasa-mix-n-match-paisley-print-round-neck-kurta/p/441144421_yellow",
@@ -4471,7 +4471,7 @@
       "price": "325",
       "orginalprice": "599",
       "discount": 49,
-      "offerpricess": "300"
+      "offer": "300"
     },
     {
       "href": "https://www.ajio.com/avaasa-mix-n-match-shimmer-leggings-with-elasticated-waist/p/441142552_black",
@@ -4481,7 +4481,7 @@
       "price": "320",
       "orginalprice": "699",
       "discount": 50,
-      "offerpricess": "315"
+      "offer": "315"
     },
     {
       "href": "https://www.ajio.com/gulmohar-jaipur-floral-printed-straight-kurta-set/p/463263507_yellow",
@@ -4491,7 +4491,7 @@
       "price": "12499",
       "orginalprice": "2,499",
       "discount": 40,
-      "offerpricess": "899"
+      "offer": "899"
     },
     {
       "href": "https://www.ajio.com/nishabd-floral-print-flared-kurta/p/464988597_pink",
@@ -4501,7 +4501,7 @@
       "price": "729",
       "orginalprice": "1,999",
       "discount": 61,
-      "offerpricess": "500"
+      "offer": "500"
     },
     {
       "href": "https://www.ajio.com/prakhya-floral-print-straight-kurta-set/p/465509166_black",
@@ -4511,7 +4511,7 @@
       "price": "12484",
       "orginalprice": "3,298",
       "discount": 55,
-      "offerpricess": "1,253"
+      "offer": "1,253"
     },
     {
       "href": "https://www.ajio.com/avaasa-mix-n-match-checked-round-neck-straight-kurta/p/441144417_wine",
@@ -4521,7 +4521,7 @@
       "price": "326",
       "orginalprice": "699",
       "discount": 49,
-      "offerpricess": "350"
+      "offer": "350"
     },
     {
       "href": "https://www.ajio.com/nike-court-vision-low-top-lace-up-sneakers/p/469097251_white",
@@ -4531,7 +4531,7 @@
       "price": "42296",
       "orginalprice": "4,995",
       "discount": 14,
-      "offerpricess": "3,866"
+      "offer": "3,866"
     },
     {
       "href": "https://www.ajio.com/shining-diva-10712b-set-of-4-crystal-cubic-zirconia-bangle-charm-bracelet/p/6005610500_multi",
@@ -4541,7 +4541,7 @@
       "price": "225",
       "orginalprice": "1,499",
       "discount": 83,
-      "offerpricess": "254"
+      "offer": "254"
     },
     {
       "href": "https://www.ajio.com/mabish-by-sonal-jain-geometric-pattern-top-with-skirt-set/p/465288070_magenta",
@@ -4551,7 +4551,7 @@
       "price": "22150",
       "orginalprice": "4,299",
       "discount": 50,
-      "offerpricess": "1,290"
+      "offer": "1,290"
     },
     {
       "href": "https://www.ajio.com/ziva-fashion-embellished-straight-kurta-set/p/464102521_burgundy",
@@ -4561,7 +4561,7 @@
       "price": "12299",
       "orginalprice": "2,999",
       "discount": 57,
-      "offerpricess": "1,298"
+      "offer": "1,298"
     },
     {
       "href": "https://www.ajio.com/stylum-printed-straight-kurta-with-pant--chiffon-dupatta-set/p/464870519_purple",
@@ -4571,7 +4571,7 @@
       "price": "12452",
       "orginalprice": "3,299",
       "discount": 56,
-      "offerpricess": "871"
+      "offer": "871"
     },
     {
       "href": "https://www.ajio.com/youthnic-anarkali-kurta-with-dupatta/p/463696548_blue",
@@ -4581,7 +4581,7 @@
       "price": "929",
       "orginalprice": "3,996",
       "discount": 75,
-      "offerpricess": "998"
+      "offer": "998"
     },
     {
       "href": "https://www.ajio.com/fiorra-round-neck-straight-kurta-suit-set/p/465300663_maroon",
@@ -4591,7 +4591,7 @@
       "price": "12500",
       "orginalprice": "2,999",
       "discount": 50,
-      "offerpricess": "900"
+      "offer": "900"
     },
     {
       "href": "https://www.ajio.com/stylum-embroidered-anarkali-kurta-with-tie-up/p/464898513_yellow",
@@ -4601,7 +4601,7 @@
       "price": "920",
       "orginalprice": "2,499",
       "discount": 62,
-      "offerpricess": "625"
+      "offer": "625"
     },
     {
       "href": "https://www.ajio.com/difference-of-opinion-tie--dye-crew-neck-oversized-t-shirt/p/463038590_multi",
@@ -4611,7 +4611,7 @@
       "price": "528",
       "orginalprice": "1,399",
       "discount": 63,
-      "offerpricess": "350"
+      "offer": "350"
     },
     {
       "href": "https://www.ajio.com/azira-geometric-print-front-open-shrug/p/465451823_red",
@@ -4621,7 +4621,7 @@
       "price": "720",
       "orginalprice": "1,399",
       "discount": 50,
-      "offerpricess": "602"
+      "offer": "602"
     },
     {
       "href": "https://www.ajio.com/gulmohar-jaipur-floral-print-flared-kurta/p/464717564_multi",
@@ -4631,7 +4631,7 @@
       "price": "629",
       "orginalprice": "1,999",
       "discount": 68,
-      "offerpricess": "500"
+      "offer": "500"
     },
     {
       "href": "https://www.ajio.com/shining-diva-8662b-stone-embellished-link-bracelet/p/6005611680_multi",
@@ -4641,7 +4641,7 @@
       "price": "420",
       "orginalprice": "2,999",
       "discount": 85,
-      "offerpricess": "449"
+      "offer": "449"
     },
     {
       "href": "https://www.ajio.com/avaasa-mix-n-match-ankle-length-leggings-with-elasticated-waist/p/441020957_red",
@@ -4651,7 +4651,7 @@
       "price": "325",
       "orginalprice": "399",
       "discount": 11,
-      "offerpricess": "319"
+      "offer": "319"
     },
     {
       "href": "https://www.ajio.com/marks--spencer-checked-nightwear-set/p/464956545_red",
@@ -4661,7 +4661,7 @@
       "price": "12200",
       "orginalprice": "2,999",
       "discount": 60,
-      "offerpricess": "1,200"
+      "offer": "1,200"
     },
     {
       "href": "https://www.ajio.com/ziyaa-leaf-print-a-line-kurta/p/464114253_black",
@@ -4671,7 +4671,7 @@
       "price": "620",
       "orginalprice": "2,139",
       "discount": 71,
-      "offerpricess": "535"
+      "offer": "535"
     },
     {
       "href": "https://www.ajio.com/instafab-plus-floral-print-shirt-dress-with-tie-up/p/465616107_green",
@@ -4681,7 +4681,7 @@
       "price": "12100",
       "orginalprice": "2,499",
       "discount": 56,
-      "offerpricess": "660"
+      "offer": "660"
     },
     {
       "href": "https://www.ajio.com/marcia-floral-embroidered-straight-kurta/p/464556470_white",
@@ -4691,7 +4691,7 @@
       "price": "624",
       "orginalprice": "1,599",
       "discount": 61,
-      "offerpricess": "400"
+      "offer": "400"
     },
     {
       "href": "https://www.ajio.com/dealseven-fashion-solid-tummy--thigh-shaper-/p/463739011_beige",
@@ -4701,7 +4701,7 @@
       "price": "226",
       "orginalprice": "349",
       "discount": 41,
-      "offerpricess": "175"
+      "offer": "175"
     },
     {
       "href": "https://www.ajio.com/pond-s-hydrating-dewy-radiant-skin-sheet-mask/p/4923678730_multi",
@@ -4711,7 +4711,7 @@
       "price": "52",
       "orginalprice": "75",
       "discount": 27,
-      "offerpricess": "50"
+      "offer": "50"
     },
     {
       "href": "https://www.ajio.com/difference-of-opinion-graphic-print-crew-neck-oversized-t-shirt/p/464272305_black",
@@ -4721,7 +4721,7 @@
       "price": "420",
       "orginalprice": "1,399",
       "discount": 65,
-      "offerpricess": "350"
+      "offer": "350"
     },
     {
       "href": "https://www.ajio.com/idalia-floral-printed-straight-kurta-set/p/463098787_pink",
@@ -4731,7 +4731,7 @@
       "price": "12295",
       "orginalprice": "3,699",
       "discount": 65,
-      "offerpricess": "1,294"
+      "offer": "1,294"
     },
     {
       "href": "https://www.ajio.com/silverfly-high-rise-stretch-pants/p/465581718_green",
@@ -4741,7 +4741,7 @@
       "price": "420",
       "orginalprice": "999",
       "discount": 60,
-      "offerpricess": "340"
+      "offer": "340"
     },
     {
       "href": "https://www.ajio.com/arbunore-mesh-panelled-lace-up-casual-shoes/p/469049251_white",
@@ -4751,7 +4751,7 @@
       "price": "822",
       "orginalprice": "2,799",
       "discount": 71,
-      "offerpricess": "811"
+      "offer": "811"
     },
     {
       "href": "https://www.ajio.com/dnmx-skinny-fit-mid-rise-jeans/p/441138076_ltblue",
@@ -4761,7 +4761,7 @@
       "price": "527",
       "orginalprice": "1,049",
       "discount": 45,
-      "offerpricess": "525"
+      "offer": "525"
     },
     {
       "href": "https://www.ajio.com/avaasa-mix-n-match-ankle-length-leggings-with-elasticated-waist/p/441020957_beige",
@@ -4771,7 +4771,7 @@
       "price": "325",
       "orginalprice": "399",
       "discount": 11,
-      "offerpricess": "319"
+      "offer": "319"
     },
     {
       "href": "https://www.ajio.com/wedani-printed-crew-neck-crop-top/p/465571957_multi",
@@ -4781,7 +4781,7 @@
       "price": "229",
       "orginalprice": "1,999",
       "discount": 88,
-      "offerpricess": "249"
+      "offer": "249"
     },
     {
       "href": "https://www.ajio.com/wedani-paisley-print-straight-kurta/p/464833382_red",
@@ -4791,7 +4791,7 @@
       "price": "229",
       "orginalprice": "1,999",
       "discount": 85,
-      "offerpricess": "299"
+      "offer": "299"
     },
     {
       "href": "https://www.ajio.com/amour-secret-non-wired-non-padded-bra/p/465731232_black",
@@ -4801,7 +4801,7 @@
       "price": "92",
       "orginalprice": "599",
       "discount": 84,
-      "offerpricess": "96"
+      "offer": "96"
     },
     {
       "href": "https://www.ajio.com/kiana-house-of-fashion-indian-kurta-set/p/464126006_burgundy",
@@ -4811,7 +4811,7 @@
       "price": "829",
       "orginalprice": "4,039",
       "discount": 78,
-      "offerpricess": "888"
+      "offer": "888"
     },
     {
       "href": "https://www.ajio.com/harpa-polka-dot-print-tailored-fit-peplum-top/p/465039975_pink",
@@ -4821,7 +4821,7 @@
       "price": "525",
       "orginalprice": "1,299",
       "discount": 55,
-      "offerpricess": "351"
+      "offer": "351"
     },
     {
       "href": "https://www.ajio.com/glam-roots-printed-flared-kurta-with-mandarin-collar/p/464319349_pink",
@@ -4831,7 +4831,7 @@
       "price": "821",
       "orginalprice": "1,799",
       "discount": 53,
-      "offerpricess": "511"
+      "offer": "511"
     },
     {
       "href": "https://www.ajio.com/janasya-solid-straight-kurta-set/p/464124181_white",
@@ -4841,7 +4841,7 @@
       "price": "12250",
       "orginalprice": "2,499",
       "discount": 50,
-      "offerpricess": "750"
+      "offer": "750"
     },
     {
       "href": "https://www.ajio.com/shyla-printed-nightgown-with-crop-top/p/441220129_grey",
@@ -4851,7 +4851,7 @@
       "price": "429",
       "orginalprice": "799",
       "discount": 40,
-      "offerpricess": "479"
+      "offer": "479"
     }
   ]
 }
