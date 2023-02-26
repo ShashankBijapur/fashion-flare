@@ -8,9 +8,11 @@ import { useNavigate } from 'react-router-dom'
 import axios from 'axios'
 import Carousel from './Caurosal'
 import { postWishlist } from '../../redux/action'
+import { useToast } from '@chakra-ui/react'
 const SingleCardPage = () => {
     var product = JSON.parse(localStorage.getItem('ProductsDetails'))
     const dispatch = useDispatch()
+    const toast = useToast()
     const { isOpen, onToggle } = useDisclosure()
     const [size, setSize] = useState('');
     const [text, setText] = useState(true)
@@ -40,8 +42,15 @@ const SingleCardPage = () => {
             // alert("Item added to wishlist")
             axios.post("http://localhost:8080/wishlist", product)
                 .then((r) => {
-                    console.log(r.data)
+                    // console.log(r.data)
                     dispatch(postWishlist(r.data))
+                    toast({
+                        title: `Added to Wishlist`,
+                        position: "top",
+                        status: 'success',
+                        duration: 9000,
+                        isClosable: true,
+                    })
 
                 })
         }
@@ -54,7 +63,15 @@ const SingleCardPage = () => {
         setcount(count + 1)
         axios.post("http://localhost:8080/cart", product)
             .then((r) => {
-                console.log(r.data)
+                // console.log(r.data)
+                toast({
+                    title: `Added to cart`,
+                    position: "top",
+                    status: 'success',
+                    duration: 9000,
+                    isClosable: true,
+                })
+
             })
     }
     const navigateto = () => {

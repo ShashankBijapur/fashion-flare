@@ -17,12 +17,14 @@ import {
 import { Image } from '@chakra-ui/react'
 import React,{ useState } from 'react';
 import { ViewIcon, ViewOffIcon } from '@chakra-ui/icons';
+import { useToast } from "@chakra-ui/react";
 
 export default function SignupCard() {
   const [name, setName] = useState('');
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
   const [showPassword, setShowPassword] = useState(false);
+  const toast = useToast();
   // const [data, setdata] = useState([]);
 
 
@@ -30,6 +32,13 @@ export default function SignupCard() {
     
       let user = {name:name, username:username , password:password};
       localStorage.setItem("user", JSON.stringify(user));
+      toast({
+        title: `Sighup Successfull`,
+        position: "top",
+        status: "success",
+        duration: 9000,
+        isClosable: true,
+      });
       window.location.href = "/login";
       console.log(user);
   }

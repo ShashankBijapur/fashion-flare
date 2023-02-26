@@ -41,6 +41,8 @@ export default function SimpleCard() {
       toast({
         title: `User Login Successfull`,
         position: "top",
+        status: "success",
+        duration: 9000,
         isClosable: true,
       });
       navigate("/");
