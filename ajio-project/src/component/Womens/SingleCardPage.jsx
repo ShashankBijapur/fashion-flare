@@ -18,11 +18,11 @@ const SingleCardPage = () => {
     const [data, setData] = React.useState([])
     const [count, setcount] = useState(0)
     const getsimilar = () => {
-        axios.get("https://localhost:8080/similar")
+        axios.get("https://magnificent-bass-suit.cyclic.app/similar")
             .then(r => setData(r.data))
     }
     const getdata = () => {
-        axios.get("http://localhost:8080/similar")
+        axios.get("https://magnificent-bass-suit.cyclic.app/similar")
             .then(r => setData(r.data))
     }
 
@@ -38,7 +38,7 @@ const SingleCardPage = () => {
         setText(!text)
         if (text === true) {
             // alert("Item added to wishlist")
-            axios.post("http://localhost:8080/wishlist", product)
+            axios.post("https://magnificent-bass-suit.cyclic.app/wishlist", product)
                 .then((r) => {
                     console.log(r.data)
                     dispatch(postWishlist(r.data))
@@ -52,7 +52,7 @@ const SingleCardPage = () => {
 
     const addtobag = () => {
         setcount(count + 1)
-        axios.post("http://localhost:8080/cart", product)
+        axios.post("https://magnificent-bass-suit.cyclic.app/cart", product)
             .then((r) => {
                 console.log(r.data)
             })

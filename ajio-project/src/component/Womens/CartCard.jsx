@@ -25,7 +25,7 @@ const CartCard = ({ item, setCount,count }) => {
     };
     console.log(cartitem)
     const deleteitem = (id) => {
-        axios.delete(`http://localhost:8080/cart/${id}`)
+        axios.delete(`https://magnificent-bass-suit.cyclic.app/cart/${id}`)
             // .then(res=>res.json())
             .then(res => setCartitem(res.data))
     }
@@ -35,10 +35,10 @@ const CartCard = ({ item, setCount,count }) => {
         // .then((r) => {
         //    console.log(r.data)
         // })
-        axios.post("http://localhost:8080/wishlist", item)
+        axios.post("https://magnificent-bass-suit.cyclic.app/wishlist", item)
             .then(r => setCartitem(r.data))
 
-        axios.delete(`http://localhost:8080/cart/${id}`)
+        axios.delete(`https://magnificent-bass-suit.cyclic.app/cart/${id}`)
             // .then(res=>res.json())
             .then(res => setCartitem(res.data))
     }

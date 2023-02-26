@@ -14,7 +14,7 @@ function Womens() {
 
     const getData = async (productType) => {
         try {
-            const response = await axios.get(`http://localhost:8080/${productType}`);
+            const response = await axios.get(`https://magnificent-bass-suit.cyclic.app/${productType}`);
             setProducts(response.data);
             settext(productType)
             setProductType("")
