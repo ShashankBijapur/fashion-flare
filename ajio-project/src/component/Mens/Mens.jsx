@@ -47,10 +47,10 @@ const Mens = () => {
                         <div className='filter-category'>
                             <li>- Category</li>
                             <ul>
-                                <li>
+                                {/* <li>
                                     <input  type="checkbox" />
                                     <label htmlFor="#">T-Shirt</label>
-                                </li>
+                                </li> */}
                                 <li>
                                     <input onChange={(e) => setBox("shirt")}  type="checkbox" />
                                     <label htmlFor="#">Shirt</label>

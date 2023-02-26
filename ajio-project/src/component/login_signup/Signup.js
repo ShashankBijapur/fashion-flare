@@ -18,6 +18,7 @@ import { Image } from '@chakra-ui/react'
 import React,{ useState } from 'react';
 import { ViewIcon, ViewOffIcon } from '@chakra-ui/icons';
 import { useToast } from "@chakra-ui/react";
+import { useNavigate } from "react-router-dom";
 
 export default function SignupCard() {
   const [name, setName] = useState('');
@@ -25,6 +26,7 @@ export default function SignupCard() {
   const [password, setPassword] = useState('');
   const [showPassword, setShowPassword] = useState(false);
   const toast = useToast();
+  const navigate = useNavigate();
   // const [data, setdata] = useState([]);
 
 
@@ -39,7 +41,8 @@ export default function SignupCard() {
         duration: 2000,
         isClosable: true,
       });
-      window.location.href = "/login";
+      navigate("/login");
+      // window.location.href = "/login";
       console.log(user);
   }
   
