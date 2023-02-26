@@ -3,6 +3,12 @@
     width: 285px;
     height: 470px;
     margin: auto;
+   
+  }
+  .card-cont:hover{
+    transition: 0.5s ease-in-out;
+    transform: scale(1.02);
+
   }
   .img-div{
     /* height: 70%; */
