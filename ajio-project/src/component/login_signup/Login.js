@@ -37,7 +37,7 @@ export default function SimpleCard() {
       });
       navigate("/admin");
     } else if (username === user.username && password === user.password) {
-      localStorage.setItem("loginValue", JSON.stringify("login"));
+      localStorage.setItem("loginValue", JSON.stringify(login));
       toast({
         title: `User Login Successfull`,
         position: "top",
