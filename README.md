@@ -21,12 +21,14 @@ This repo is the clone of ajio.com website,AJIO is a shopping and lifestyle bran
 ## Some Screenshots of our Project :-
 
 ### * Home Page 
+![Screenshot (1050)](https://user-images.githubusercontent.com/107456969/221394634-bf227e24-7ad6-4b30-b565-ecab5d7c4e21.png)
 
 ![header](https://user-images.githubusercontent.com/103629917/191203336-cefedb7f-2ad8-4ea9-8376-b7bc5d2f009e.png)
 
 ![Mid-section](https://user-images.githubusercontent.com/103629917/191203419-355af476-5cd3-4e0c-9bbc-4a1f63c87757.png)
 
 * Navbar and Drop down
+![Screenshot (1050)](https://user-images.githubusercontent.com/107456969/221394577-37ce3b62-6093-4b0d-bb4f-e8598480dd78.png)
 
 ![nav](https://user-images.githubusercontent.com/103629917/191203377-775c3c41-139a-48ea-9733-4c6c6291c762.png)
 

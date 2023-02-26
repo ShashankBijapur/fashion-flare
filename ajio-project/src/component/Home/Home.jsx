@@ -3,99 +3,99 @@ import { Box, ChakraProvider, HStack, Image, SimpleGrid, VStack } from "@chakra-
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 function Home() {
-  const images = 
-[ 
-    { image: "https://assets.ajio.com/cms/AJIO/WEB/D-UHP-OnlineStores-P1-Westenrwear.jpg"},
-    { image: "https://assets.ajio.com/cms/AJIO/WEB/D-UHP-OnlineStores-P2-Trends.jpg"},
-    { image: "https://assets.ajio.com/cms/AJIO/WEB/D-UHP-OnlineStores-P3-Sneakerhood.jpg"},
-    { image: "https://assets.ajio.com/cms/AJIO/WEB/47.4_1.jpg"},
-    { image: "https://assets.ajio.com/cms/AJIO/WEB/D-UHP-OnlineStores-P5-Sportswear.jpg"},
-    { image: "https://assets.ajio.com/cms/AJIO/WEB/D-UHP-OnlineStores-P6-Footwear.jpg"},
-    { image: "https://assets.ajio.com/cms/AJIO/WEB/D-UHP-OnlineStores-P7-Accessories.jpg"},
-    { image: "https://assets.ajio.com/cms/AJIO/WEB/D-UHP-OnlineStores-P8-Wedding.jpg"},
-    { image: "https://assets.ajio.com/cms/AJIO/WEB/D-UHP-OnlineStores-P9-Sarees.jpg"},
-    { image: "https://assets.ajio.com/cms/AJIO/WEB/D-UHP-OnlineStores-P10-Homegrownbrands.jpg"},
-    { image: "https://assets.ajio.com/cms/AJIO/WEB/D-UHP-OnlineStores-P11-Indie.jpg"},
-    { image: "https://assets.ajio.com/cms/AJIO/WEB/D-UHP-OnlineStores-P12-Home.jpg"},
-    { image: "https://assets.ajio.com/cms/AJIO/WEB/D-UHP-OnlineStores-P13-Watches.jpg"},
-    { image: "https://assets.ajio.com/cms/AJIO/WEB/D-UHP-OnlineStores-P14-Innerwearmen.jpg"},
-    { image: "https://assets.ajio.com/cms/AJIO/WEB/D-UHP-OnlineStores-P15-Jewellery.jpg"},
-    { image: "https://assets.ajio.com/cms/AJIO/WEB/D-UHP-OnlineStores-P16-Lingerie.jpg"},
-    { image: "https://assets.ajio.com/cms/AJIO/WEB/D-UHP-OnlineStores-P17-Beauty.jpg"},
-    { image: "https://assets.ajio.com/cms/AJIO/WEB/D-UHP-OnlineStores-P18-yogawear.jpg"},
-    { image: "https://assets.ajio.com/cms/AJIO/WEB/D-UHP-OnlineStores-P19-Azorte.jpg"},
-    { image: "https://assets.ajio.com/cms/AJIO/WEB/D-UHP-OnlineStores-P20-MAx.jpg"},
-  
-  ]
-   
-   
-  ;
+  const images =
+    [
+      { image: "https://assets.ajio.com/cms/AJIO/WEB/D-UHP-OnlineStores-P1-Westenrwear.jpg" },
+      { image: "https://assets.ajio.com/cms/AJIO/WEB/D-UHP-OnlineStores-P2-Trends.jpg" },
+      { image: "https://assets.ajio.com/cms/AJIO/WEB/D-UHP-OnlineStores-P3-Sneakerhood.jpg" },
+      { image: "https://assets.ajio.com/cms/AJIO/WEB/47.4_1.jpg" },
+      { image: "https://assets.ajio.com/cms/AJIO/WEB/D-UHP-OnlineStores-P5-Sportswear.jpg" },
+      { image: "https://assets.ajio.com/cms/AJIO/WEB/D-UHP-OnlineStores-P6-Footwear.jpg" },
+      { image: "https://assets.ajio.com/cms/AJIO/WEB/D-UHP-OnlineStores-P7-Accessories.jpg" },
+      { image: "https://assets.ajio.com/cms/AJIO/WEB/D-UHP-OnlineStores-P8-Wedding.jpg" },
+      { image: "https://assets.ajio.com/cms/AJIO/WEB/D-UHP-OnlineStores-P9-Sarees.jpg" },
+      { image: "https://assets.ajio.com/cms/AJIO/WEB/D-UHP-OnlineStores-P10-Homegrownbrands.jpg" },
+      { image: "https://assets.ajio.com/cms/AJIO/WEB/D-UHP-OnlineStores-P11-Indie.jpg" },
+      { image: "https://assets.ajio.com/cms/AJIO/WEB/D-UHP-OnlineStores-P12-Home.jpg" },
+      { image: "https://assets.ajio.com/cms/AJIO/WEB/D-UHP-OnlineStores-P13-Watches.jpg" },
+      { image: "https://assets.ajio.com/cms/AJIO/WEB/D-UHP-OnlineStores-P14-Innerwearmen.jpg" },
+      { image: "https://assets.ajio.com/cms/AJIO/WEB/D-UHP-OnlineStores-P15-Jewellery.jpg" },
+      { image: "https://assets.ajio.com/cms/AJIO/WEB/D-UHP-OnlineStores-P16-Lingerie.jpg" },
+      { image: "https://assets.ajio.com/cms/AJIO/WEB/D-UHP-OnlineStores-P17-Beauty.jpg" },
+      { image: "https://assets.ajio.com/cms/AJIO/WEB/D-UHP-OnlineStores-P18-yogawear.jpg" },
+      { image: "https://assets.ajio.com/cms/AJIO/WEB/D-UHP-OnlineStores-P19-Azorte.jpg" },
+      { image: "https://assets.ajio.com/cms/AJIO/WEB/D-UHP-OnlineStores-P20-MAx.jpg" },
+
+    ]
+
+
+    ;
   return (
     <>
 
 
-       {/* ------------------------------------ Carousel 1 starts here ------------------------------------------------  */}
-       <Box pt={10} border={'1px solid red'}>
+      {/* ------------------------------------ Carousel 1 starts here ------------------------------------------------  */}
+      <Box pt={10}>
 
-      <Carousel
-        className="carousel"
-        autoPlay="true"
-        infiniteLoop="true"
-        interval="2000"
-        showThumbs=""
-      >
-        <div>
-          <img
-            src="https://assets.ajio.com/cms/AJIO/WEB/D-UHP-ClearanceSale.jpg"
-            alt=""
-          />
-        </div>
-        <div>
-          <img
-            src="https://assets.ajio.com/cms/AJIO/WEB/24022023-UHP-D-MainBanner-P7-ArrowUSPA-upto50.jpg"
-            alt=""
-          />
-        </div>
-        <div>
-          <img
-            src="https://assets.ajio.com/cms/AJIO/WEB/24022023-UHP-D-MainBanner-P4-FootwearCarnival-RedTapeFila-Flat60.jpg"
-            alt=""
-          />
-        </div>
-        <div>
-          <img
-            src="https://assets.ajio.com/cms/AJIO/WEB/24022023-UHP-D-MainBanner-P5-JohnplayerLeecooperAvaasa-Upto700On1000.jpg"
-            alt=""
-          />
-        </div>
-        <div>
-          <img
-            src="https://assets.ajio.com/cms/AJIO/WEB/24022023-UHP-D-MainBanner-P3-Casuals-CampusSutraVeroModa-Min60Extra30.jpg"
-            alt=""
-          />
-        </div>
-        <div>
-          <img
-            src="https://assets.ajio.com/cms/AJIO/WEB/24022023-UHP-D-MainBanner-P6-Home-HomeexpressionsStoryAtHome-5080.jpg"
-            alt=""
-          />
-        </div>
-      </Carousel>
-       </Box>
+        <Carousel
+          className="carousel"
+          autoPlay="true"
+          infiniteLoop="true"
+          interval="2000"
+          showThumbs=""
+        >
+          <div>
+            <img
+              src="https://assets.ajio.com/cms/AJIO/WEB/D-UHP-ClearanceSale.jpg"
+              alt=""
+            />
+          </div>
+          <div>
+            <img
+              src="https://assets.ajio.com/cms/AJIO/WEB/24022023-UHP-D-MainBanner-P7-ArrowUSPA-upto50.jpg"
+              alt=""
+            />
+          </div>
+          <div>
+            <img
+              src="https://assets.ajio.com/cms/AJIO/WEB/24022023-UHP-D-MainBanner-P4-FootwearCarnival-RedTapeFila-Flat60.jpg"
+              alt=""
+            />
+          </div>
+          <div>
+            <img
+              src="https://assets.ajio.com/cms/AJIO/WEB/24022023-UHP-D-MainBanner-P5-JohnplayerLeecooperAvaasa-Upto700On1000.jpg"
+              alt=""
+            />
+          </div>
+          <div>
+            <img
+              src="https://assets.ajio.com/cms/AJIO/WEB/24022023-UHP-D-MainBanner-P3-Casuals-CampusSutraVeroModa-Min60Extra30.jpg"
+              alt=""
+            />
+          </div>
+          <div>
+            <img
+              src="https://assets.ajio.com/cms/AJIO/WEB/24022023-UHP-D-MainBanner-P6-Home-HomeexpressionsStoryAtHome-5080.jpg"
+              alt=""
+            />
+          </div>
+        </Carousel>
+      </Box>
       {/* ------------------------------------ Carousel 1 ends here ------------------------------------------------  */}
 
 
-      <Box>
-        <Image src="https://assets.ajio.com/cms/AJIO/WEB/D1-1440x90-11.jpg" />
-        <Image src="https://assets.ajio.com/cms/AJIO/WEB/IDBI-1440x128-23.jpg" />
-        <Image src="https://assets.ajio.com/cms/AJIO/WEB/D-UHP-ASS-Teaser-Strip.gif" />
-        <Image src="https://assets.ajio.com/cms/AJIO/WEB/D-UHP-ASS-Teaser-HalfbannerRevised%20.gif" />
-        <Image src="https://assets.ajio.com/cms/AJIO/WEB/D-UHP-SpecieUpYourBrandGame-SectionheaderStrip.jpg" />
+      <Box style={{margin:"auto"}}>
+        <Image style={{width:"100vw"}}  src="https://assets.ajio.com/cms/AJIO/WEB/D1-1440x90-11.jpg" />
+        <Image style={{width:"100vw"}}   src="https://assets.ajio.com/cms/AJIO/WEB/IDBI-1440x128-23.jpg" />
+        <Image style={{width:"100vw"}}   src="https://assets.ajio.com/cms/AJIO/WEB/D-UHP-ASS-Teaser-Strip.gif" />
+        <Image style={{width:"100vw"}}   src="https://assets.ajio.com/cms/AJIO/WEB/D-UHP-ASS-Teaser-HalfbannerRevised%20.gif" />
+        <Image style={{width:"100vw"}}   src="https://assets.ajio.com/cms/AJIO/WEB/D-UHP-SpecieUpYourBrandGame-SectionheaderStrip.jpg" />
       </Box>
 
 
-       {/* ------------------------------------ Carousel 2 starts here ------------------------------------------------  */}
-       <Carousel
+      {/* ------------------------------------ Carousel 2 starts here ------------------------------------------------  */}
+      <Carousel
         className="carousel"
         autoPlay="true"
         infiniteLoop="true"
@@ -176,11 +176,11 @@ function Home() {
         <Image src="https://assets.ajio.com/cms/AJIO/WEB/D-UHP-SS23-HalfBanner%20.gif" />
       </HStack>
 
-     
+
       <Box>
         <HStack justifyContent={'center'} alignItems='center' m='auto'>
 
-        <Image src="https://assets.ajio.com/cms/AJIO/WEB/D-UHP-Rewards-Sectionheader.jpg" />
+          <Image src="https://assets.ajio.com/cms/AJIO/WEB/D-UHP-Rewards-Sectionheader.jpg" />
         </HStack>
         <SimpleGrid columns={{ base: 2, md: 4 }}>
           <Box>
@@ -202,12 +202,12 @@ function Home() {
 
       {/* --------------------------------------block 1 ends here ------------------------------------------ */}
 
-       {/* -------------------------------- block 2 starts here ------------------------------------------------------- */}
-       <Box>
+      {/* -------------------------------- block 2 starts here ------------------------------------------------------- */}
+      <Box>
         <Image src="https://assets.ajio.com/cms/AJIO/WEB/D-UHP-SponsorBrands-SectionHeader.jpg" />
       </Box>
 
-     
+
       <Box>
         <Image src="" />
         <SimpleGrid columns={{ base: 2, md: 4 }}>
@@ -359,7 +359,7 @@ function Home() {
         </Box>
       </Box>
 
-{/* ------------------------------------------------ 2 Carousel starts here--------------------------------------------- */}
+      {/* ------------------------------------------------ 2 Carousel starts here--------------------------------------------- */}
       <Box>
         <Image src="https://assets.ajio.com/cms/AJIO/WEB/D-UHP-ForHER-Sectionheader.jpg" />
       </Box>
@@ -452,141 +452,141 @@ function Home() {
 
 
 
-{/* -------------------------------------block of 7*4  started ----------------------------------------------- */}
+      {/* -------------------------------------block of 7*4  started ----------------------------------------------- */}
 
       <Box>
-          <Image src="https://assets.ajio.com/cms/AJIO/WEB/D-UHP-FEthnicwear-Sectionheader.jpg" />
-          <SimpleGrid columns={{ base: 2, md: 4 }}>
-            <Box>
-              {" "}
-              <Image src="https://assets.ajio.com/cms/AJIO/WEB/D-UHP-FEthnicwear-P1-KurtiKurtaSets-AvaasaGlamroos-Starting599.jpg" />
-            </Box>
-            <Box>
-              <Image src="https://assets.ajio.com/cms/AJIO/WEB/D-UHP-FEthnicwear-P2-Sarees-IndiePicksHritika-Starting432.jpg" />
-            </Box>
-            <Box>
-              <Image src="https://assets.ajio.com/cms/AJIO/WEB/D-UHP-FEthnicwear-P3-handbags-Brands-Starting499.jpg" />
-            </Box>
-            <Box>
-              <Image src="https://assets.ajio.com/cms/AJIO/WEB/D-UHP-FEthnicwear-P4-Jewellery-Brands-Upto80.jpg" />
-            </Box>
-          </SimpleGrid>
-        </Box>
+        <Image src="https://assets.ajio.com/cms/AJIO/WEB/D-UHP-FEthnicwear-Sectionheader.jpg" />
+        <SimpleGrid columns={{ base: 2, md: 4 }}>
+          <Box>
+            {" "}
+            <Image src="https://assets.ajio.com/cms/AJIO/WEB/D-UHP-FEthnicwear-P1-KurtiKurtaSets-AvaasaGlamroos-Starting599.jpg" />
+          </Box>
+          <Box>
+            <Image src="https://assets.ajio.com/cms/AJIO/WEB/D-UHP-FEthnicwear-P2-Sarees-IndiePicksHritika-Starting432.jpg" />
+          </Box>
+          <Box>
+            <Image src="https://assets.ajio.com/cms/AJIO/WEB/D-UHP-FEthnicwear-P3-handbags-Brands-Starting499.jpg" />
+          </Box>
+          <Box>
+            <Image src="https://assets.ajio.com/cms/AJIO/WEB/D-UHP-FEthnicwear-P4-Jewellery-Brands-Upto80.jpg" />
+          </Box>
+        </SimpleGrid>
+      </Box>
 
-        <Box>
-          <Image src="https://assets.ajio.com/cms/AJIO/WEB/D-UHP-Accessories-SectionHeader.jpg" />
-          <SimpleGrid columns={{ base: 2, md: 4 }}>
-            <Box>
-              {" "}
-              <Image src="https://assets.ajio.com/cms/AJIO/WEB/D-UHP-Accessories-P1-SportsCasualShoes-ReebokPuma-Starting1199.jpg" />
-            </Box>
-            <Box>
-              <Image src="https://assets.ajio.com/cms/AJIO/WEB/D-UHP-Accessories-P2-CasioFossil-Watches-Upto70.jpg" />
-            </Box>
-            <Box>
-              <Image src="https://assets.ajio.com/cms/AJIO/WEB/D-UHP-Accessories-P3-FlipFlopsSandals-AdidasCampus-Starting299.jpg" />
-            </Box>
-            <Box>
-              <Image src="https://assets.ajio.com/cms/AJIO/WEB/D-UHP-Accessories-P4-Home-GoodomesHomecentre-upto80.jpg" />
-            </Box>
-          </SimpleGrid>
-        </Box>
+      <Box>
+        <Image src="https://assets.ajio.com/cms/AJIO/WEB/D-UHP-Accessories-SectionHeader.jpg" />
+        <SimpleGrid columns={{ base: 2, md: 4 }}>
+          <Box>
+            {" "}
+            <Image src="https://assets.ajio.com/cms/AJIO/WEB/D-UHP-Accessories-P1-SportsCasualShoes-ReebokPuma-Starting1199.jpg" />
+          </Box>
+          <Box>
+            <Image src="https://assets.ajio.com/cms/AJIO/WEB/D-UHP-Accessories-P2-CasioFossil-Watches-Upto70.jpg" />
+          </Box>
+          <Box>
+            <Image src="https://assets.ajio.com/cms/AJIO/WEB/D-UHP-Accessories-P3-FlipFlopsSandals-AdidasCampus-Starting299.jpg" />
+          </Box>
+          <Box>
+            <Image src="https://assets.ajio.com/cms/AJIO/WEB/D-UHP-Accessories-P4-Home-GoodomesHomecentre-upto80.jpg" />
+          </Box>
+        </SimpleGrid>
+      </Box>
 
-        <Box>
-          <Image src="https://assets.ajio.com/cms/AJIO/WEB/D-UHP-HiddenGems-SectionHeader.jpg" />
-          <SimpleGrid columns={{ base: 2, md: 4 }}>
-            <Box>
-              {" "}
-              <Image src="https://assets.ajio.com/cms/AJIO/WEB/D-UHP-HiddenGems-P1-Trendyol-4065.jpg" />
-            </Box>
-            <Box>
-              <Image src="https://assets.ajio.com/cms/AJIO/WEB/D-UHP-HiddenGems-P2-Koton-3060.jpg" />
-            </Box>
-            <Box>
-              <Image src="https://assets.ajio.com/cms/AJIO/WEB/D-UHP-HiddenGems-P3-NA-KD-3060.jpg" />
-            </Box>
-            <Box>
-              <Image src="https://assets.ajio.com/cms/AJIO/WEB/D-UHP-HiddenGems-P4-WKND-Upto60.jpg" />
-            </Box>
-          </SimpleGrid>
-        </Box>
+      <Box>
+        <Image src="https://assets.ajio.com/cms/AJIO/WEB/D-UHP-HiddenGems-SectionHeader.jpg" />
+        <SimpleGrid columns={{ base: 2, md: 4 }}>
+          <Box>
+            {" "}
+            <Image src="https://assets.ajio.com/cms/AJIO/WEB/D-UHP-HiddenGems-P1-Trendyol-4065.jpg" />
+          </Box>
+          <Box>
+            <Image src="https://assets.ajio.com/cms/AJIO/WEB/D-UHP-HiddenGems-P2-Koton-3060.jpg" />
+          </Box>
+          <Box>
+            <Image src="https://assets.ajio.com/cms/AJIO/WEB/D-UHP-HiddenGems-P3-NA-KD-3060.jpg" />
+          </Box>
+          <Box>
+            <Image src="https://assets.ajio.com/cms/AJIO/WEB/D-UHP-HiddenGems-P4-WKND-Upto60.jpg" />
+          </Box>
+        </SimpleGrid>
+      </Box>
 
-        <Box>
-          <Image src="https://assets.ajio.com/cms/AJIO/WEB/D-UHP-Kidswear-SectionHeader.jpg" />
-          <SimpleGrid columns={{ base: 2, md: 4 }}>
-            <Box>
-              {" "}
-              <Image src="https://assets.ajio.com/cms/AJIO/WEB/D-UHP-Kidswear-P1-Crocspuma-3060.jpg" />
-            </Box>
-            <Box>
-              <Image src="https://assets.ajio.com/cms/AJIO/WEB/D-UHP-Kidswear-P2-MnSUCB-Starting559.jpg" />
-            </Box>
-            <Box>
-              <Image src="https://assets.ajio.com/cms/AJIO/WEB/D-UHP-Kidswear-P3-USPAPepeJeans-Min40.jpg" />
-            </Box>
-            <Box>
-              <Image src="https://assets.ajio.com/cms/AJIO/WEB/D-UHP-Kidswear-P4-HellcatToonyPort-Upto70.jpg" />
-            </Box>
-          </SimpleGrid>
-        </Box>
+      <Box>
+        <Image src="https://assets.ajio.com/cms/AJIO/WEB/D-UHP-Kidswear-SectionHeader.jpg" />
+        <SimpleGrid columns={{ base: 2, md: 4 }}>
+          <Box>
+            {" "}
+            <Image src="https://assets.ajio.com/cms/AJIO/WEB/D-UHP-Kidswear-P1-Crocspuma-3060.jpg" />
+          </Box>
+          <Box>
+            <Image src="https://assets.ajio.com/cms/AJIO/WEB/D-UHP-Kidswear-P2-MnSUCB-Starting559.jpg" />
+          </Box>
+          <Box>
+            <Image src="https://assets.ajio.com/cms/AJIO/WEB/D-UHP-Kidswear-P3-USPAPepeJeans-Min40.jpg" />
+          </Box>
+          <Box>
+            <Image src="https://assets.ajio.com/cms/AJIO/WEB/D-UHP-Kidswear-P4-HellcatToonyPort-Upto70.jpg" />
+          </Box>
+        </SimpleGrid>
+      </Box>
 
-        <Box>
-          <Image src="https://assets.ajio.com/cms/AJIO/WEB/D-UHP-MegaBrands-SectionheaderStrip.jpg" />
-          <SimpleGrid columns={{ base: 2, md: 4 }}>
-            <Box>
-              {" "}
-              <Image src="https://assets.ajio.com/cms/AJIO/WEB/D-UHP-MegaBrands-P1-Nike-Upto50.jpg" />
-            </Box>
-            <Box>
-              <Image src="https://assets.ajio.com/cms/AJIO/WEB/D-UHP-MegaBrands-P2-UCB-3070.jpg" />
-            </Box>
-            <Box>
-              <Image src="https://assets.ajio.com/cms/AJIO/WEB/D-UHP-MegaBrands-P3-Superdry-3050.jpg" />
-            </Box>
-            <Box>
-              <Image src="https://assets.ajio.com/cms/AJIO/WEB/D-UHP-MegaBrands-P4-Pedro-min40.jpg" />
-            </Box>
-          </SimpleGrid>
-        </Box>
+      <Box>
+        <Image src="https://assets.ajio.com/cms/AJIO/WEB/D-UHP-MegaBrands-SectionheaderStrip.jpg" />
+        <SimpleGrid columns={{ base: 2, md: 4 }}>
+          <Box>
+            {" "}
+            <Image src="https://assets.ajio.com/cms/AJIO/WEB/D-UHP-MegaBrands-P1-Nike-Upto50.jpg" />
+          </Box>
+          <Box>
+            <Image src="https://assets.ajio.com/cms/AJIO/WEB/D-UHP-MegaBrands-P2-UCB-3070.jpg" />
+          </Box>
+          <Box>
+            <Image src="https://assets.ajio.com/cms/AJIO/WEB/D-UHP-MegaBrands-P3-Superdry-3050.jpg" />
+          </Box>
+          <Box>
+            <Image src="https://assets.ajio.com/cms/AJIO/WEB/D-UHP-MegaBrands-P4-Pedro-min40.jpg" />
+          </Box>
+        </SimpleGrid>
+      </Box>
 
-        <Box>
-          <Image src="https://assets.ajio.com/cms/AJIO/WEB/D-UHP-ClassicBrands-SectionHeader.jpg" />
-          <SimpleGrid columns={{ base: 2, md: 4 }}>
-            <Box>
-              {" "}
-              <Image src="https://assets.ajio.com/cms/AJIO/WEB/D-UHP-ClassicBrands-P1-KimayraKurtipedia-min50.jpg" />
-            </Box>
-            <Box>
-              <Image src="https://assets.ajio.com/cms/AJIO/WEB/D-UHP-ClassicBrands-P2-vanHeusen-min40.jpg" />
-            </Box>
-            <Box>
-              <Image src="https://assets.ajio.com/cms/AJIO/WEB/D-UHP-ClassicBrands-P3-OrchidBluesCottonfab-min60.jpg" />
-            </Box>
-            <Box>
-              <Image src="https://assets.ajio.com/cms/AJIO/WEB/D-UHP-ClassicBrands-P4-rareRabbit-Upto50.jpg" />
-            </Box>
-          </SimpleGrid>
-        </Box>
+      <Box>
+        <Image src="https://assets.ajio.com/cms/AJIO/WEB/D-UHP-ClassicBrands-SectionHeader.jpg" />
+        <SimpleGrid columns={{ base: 2, md: 4 }}>
+          <Box>
+            {" "}
+            <Image src="https://assets.ajio.com/cms/AJIO/WEB/D-UHP-ClassicBrands-P1-KimayraKurtipedia-min50.jpg" />
+          </Box>
+          <Box>
+            <Image src="https://assets.ajio.com/cms/AJIO/WEB/D-UHP-ClassicBrands-P2-vanHeusen-min40.jpg" />
+          </Box>
+          <Box>
+            <Image src="https://assets.ajio.com/cms/AJIO/WEB/D-UHP-ClassicBrands-P3-OrchidBluesCottonfab-min60.jpg" />
+          </Box>
+          <Box>
+            <Image src="https://assets.ajio.com/cms/AJIO/WEB/D-UHP-ClassicBrands-P4-rareRabbit-Upto50.jpg" />
+          </Box>
+        </SimpleGrid>
+      </Box>
 
-        <Box>
-          <Image src="https://assets.ajio.com/cms/AJIO/WEB/D-UHP-Home-Sectionheader.jpg" />
-          <SimpleGrid columns={{ base: 2, md: 4 }}>
-            <Box>
-              {" "}
-              <Image src="https://assets.ajio.com/cms/AJIO/WEB/D-UHP-Home-P1-QuiltsComforters-StoryRaymond-Upto80.jpg" />
-            </Box>
-            <Box>
-              <Image src="https://assets.ajio.com/cms/AJIO/WEB/D-UHP-Home-P2-Decor-Brands-Starying199.jpg" />
-            </Box>
-            <Box>
-              <Image src="https://assets.ajio.com/cms/AJIO/WEB/D-UHP-Home-P3-Home-goodhomesHomesizzler-upto80.jpg" />
-            </Box>
-            <Box>
-              <Image src="https://assets.ajio.com/cms/AJIO/WEB/D-UHP-Home-P4-Portico-upto50.jpg" />
-            </Box>
-          </SimpleGrid>
-        </Box>
-    {/* -----------------------------------------------block of 7*4 ended ------------------------------------------------------- */}
+      <Box>
+        <Image src="https://assets.ajio.com/cms/AJIO/WEB/D-UHP-Home-Sectionheader.jpg" />
+        <SimpleGrid columns={{ base: 2, md: 4 }}>
+          <Box>
+            {" "}
+            <Image src="https://assets.ajio.com/cms/AJIO/WEB/D-UHP-Home-P1-QuiltsComforters-StoryRaymond-Upto80.jpg" />
+          </Box>
+          <Box>
+            <Image src="https://assets.ajio.com/cms/AJIO/WEB/D-UHP-Home-P2-Decor-Brands-Starying199.jpg" />
+          </Box>
+          <Box>
+            <Image src="https://assets.ajio.com/cms/AJIO/WEB/D-UHP-Home-P3-Home-goodhomesHomesizzler-upto80.jpg" />
+          </Box>
+          <Box>
+            <Image src="https://assets.ajio.com/cms/AJIO/WEB/D-UHP-Home-P4-Portico-upto50.jpg" />
+          </Box>
+        </SimpleGrid>
+      </Box>
+      {/* -----------------------------------------------block of 7*4 ended ------------------------------------------------------- */}
 
 
       <VStack>
