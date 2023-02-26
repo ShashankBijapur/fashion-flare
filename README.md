@@ -21,35 +21,43 @@ This repo is the clone of ajio.com website,AJIO is a shopping and lifestyle bran
 ## Some Screenshots of our Project :-
 
 ### * Home Page 
+
 ![home1](https://user-images.githubusercontent.com/106108504/221401830-52ba33d9-9c7e-459c-a641-c0e72950f325.png)
 
 ![home2](https://user-images.githubusercontent.com/106108504/221401835-24abd469-0b62-4b2f-8d73-f50d5ad67ad9.png)
 
 ![home3](https://user-images.githubusercontent.com/106108504/221401859-31e18d95-ccda-451e-89a9-f35b7bb2eac0.png)
 
-
 ![home4](https://user-images.githubusercontent.com/106108504/221401866-a66d45a4-089c-43df-86ef-c5ba946a63a5.png)
 
+
 ### * Navbar and Drop down
+
 ![navbar1](https://user-images.githubusercontent.com/106108504/221401922-c8cb6426-aee6-4fc2-9028-34d264d13d2f.png)
 
+
 ### * Footer 
+
 ![footer1](https://user-images.githubusercontent.com/106108504/221401931-4e0cab75-aaf5-4f05-a8fb-30925dd40eec.png)
 
 
 ### * Sign-In page
+
 ![login1](https://user-images.githubusercontent.com/106108504/221401943-6a56fb36-cb70-4ae9-994b-cb98c9e63d67.png)
 
 
 ### * Mens page
+
 ![mens1](https://user-images.githubusercontent.com/106108504/221402043-295083c1-e6dc-40c9-bca5-8ad96988ff3b.png)
 
 
 ### * Womens page
+
 ![womens1](https://user-images.githubusercontent.com/106108504/221402050-a4c6e186-45ff-473f-8d8a-fc18063bbd67.png)
 
 
 ### * Childrens page
+
 ![children1](https://user-images.githubusercontent.com/106108504/221402060-365a7245-997e-45ce-8e9a-9e0b61099b7f.png)
 
 
@@ -61,11 +69,12 @@ This repo is the clone of ajio.com website,AJIO is a shopping and lifestyle bran
 
 
 ### * Watchlist page
+
 ![wishlist1](https://user-images.githubusercontent.com/106108504/221402202-f88f9fdd-03e4-449f-a574-ecf3e76ed303.png)
 
 
-
 ### * Cart page
+
 ![cart1](https://user-images.githubusercontent.com/106108504/221402095-4cd711d2-60e7-4346-b8ca-2d54eeb77923.png)
 
 
@@ -73,5 +82,5 @@ This repo is the clone of ajio.com website,AJIO is a shopping and lifestyle bran
 
 ![payment1](https://user-images.githubusercontent.com/106108504/221402244-d055d65a-c77b-4bc6-b138-2018ae7b3a6c.png)
 
-
 ![payment2](https://user-images.githubusercontent.com/106108504/221402253-64582182-4ccf-427f-a24a-d269ca3217c2.png)
+
