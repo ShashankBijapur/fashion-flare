@@ -1,5 +1,6 @@
 import React, { useContext } from "react";
 import Logo from '../Images/fashionFlair.jpg';
+import Logo2 from "../Images/fashion_flare.png"
 import {
   Flex,
   Box,
@@ -48,14 +49,14 @@ const MobileNav = () => {
         <Box>
           <Link to="/">
             <Image
-              src={Logo}
+              src={Logo2}
               width="100px"
               margin="auto"
             ></Image>
           </Link>
         </Box>
         <Link to="/login">
-          <Button size="sm">SignIn</Button>
+          <Button colorScheme="red" size="sm">SignIn</Button>
         </Link>
         <Link to="/cart">
         
