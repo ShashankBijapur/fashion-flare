@@ -10,9 +10,7 @@ function Womens() {
     const [value, setValue] = useState("")
     const [filtervalue, setfilter] = useState("")
     const [text, settext] = useState("")
-    const [desc, setdesc] = useState("")
-    const [brand, setBrand] = useState("")
-
+ 
     const getData = async (productType) => {
         try {
             const response = await axios.get(`https://magnificent-bass-suit.cyclic.app/${productType}`);

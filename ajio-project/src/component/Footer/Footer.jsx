@@ -8,11 +8,10 @@ import {
     Flex,
     Tag,
     useColorModeValue,
-    Image
   } from '@chakra-ui/react';
-  import { ReactNode } from 'react';
   
-  const Logo = (props) => {
+  
+  export const Logo = (props) => {
     return (
       <svg
         height={32}

@@ -5,10 +5,8 @@ import {
     PopoverContent,
     PopoverHeader,
     PopoverBody,
-    PopoverFooter,
     PopoverArrow,
     PopoverCloseButton,
-    PopoverAnchor,
     Button,
 } from '@chakra-ui/react'
 import axios from 'axios'
@@ -23,7 +21,6 @@ const CartCard = ({ item, setCount,count }) => {
     const handleSizeChange = (event) => {
         setsize(event.target.value);
     };
-    console.log(cartitem)
     const deleteitem = (id) => {
         // window.location.reload(true);
         console.log(id)

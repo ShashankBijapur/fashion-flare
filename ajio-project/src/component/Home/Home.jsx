@@ -1,5 +1,5 @@
 
-import { Box, ChakraProvider, HStack, Image, SimpleGrid, VStack } from "@chakra-ui/react";
+import { Box, HStack, Image, SimpleGrid } from "@chakra-ui/react";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 function Home() {

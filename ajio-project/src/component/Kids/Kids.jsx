@@ -22,7 +22,7 @@ const Kids = () => {
     }
     useEffect(() => {
         dispatch(getReduxData("kids"))
-    }, [])
+    })
 
     return (
         <div className='kids-cont'>

@@ -5,7 +5,6 @@ import {
   Box,
   Text,
   Image,
-  Center,
   Input,
   Button,
 } from "@chakra-ui/react";
