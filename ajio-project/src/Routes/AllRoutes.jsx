@@ -14,6 +14,7 @@ import Products from '../component/Admin/Products';
 import Cart from '../component/Womens/Cart';
 import PaymentsPage from '../component/Womens/PaymentsPage';
 import Wishlist from '../component/Wishlist/Wishlist';
+import Homeandkitchen from '../component/Womens/Homeandkitchen';
 
 const AllRoutes = () => {
     return (
@@ -32,6 +33,7 @@ const AllRoutes = () => {
             <Route path="/cart" element={<Cart />} />
             <Route path="/wishlist" element={<Wishlist />} />
             <Route path="/payment" element={<PaymentsPage />} />
+            <Route path="/homeandkitchen" element={<Homeandkitchen />} />
         </Routes>
     )
 }

@@ -77,11 +77,11 @@ const MobileNav = () => {
         </Box>
         </Link>
       </Flex>
-      <Input
+      {/* <Input
         width="300px"
         marginTop="10px"
         placeholder={`Search by product,prices,and brand`}
-      ></Input>
+      ></Input> */}
     </div>
   );
 };

@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react'
 import axios from 'axios';
 import CardPage from './WomensCard';
 import "./Womens.css"
+import { Box, Button, Input } from '@chakra-ui/react';
 // import { Box } from '@chakra-ui/react';
 function Womens() {
     let [productType, setProductType] = useState('womens');
@@ -55,19 +56,20 @@ function Womens() {
     //     setProducts(filterproducts)
     //     console.log(filterproducts.length)
     // }
-    console.log(filtervalue)
+    // console.log(filtervalue)
     useEffect(() => {
         getData(productType)
     }, []);
-    console.log(value)
+    // console.log(value)
     return (
         <>
-            <div style={{ display: "flex", justifyContent: "center", maxWidth: "1250px", margin: "auto" }}>
+            <div style={{ display: "flex", justifyContent: "space-between", maxWidth: "1250px", margin: "auto",gap:"80px" }}>
 
-                <div className='women-left-cont' style={{ width: "100%", display: "flex", marginTop: "50px"}}>
+                <Box display={{base:"none",sm:"none",md:"flex",lg:"flex"}}  className='women-left-cont' width= "20%"  marginTop= "50px" >
+                    
                     <div className='women-left'>
 
-                        <div style={{ textAlign: "left", marginLeft: "70px" }} className="filter-div">
+                        <div style={{ textAlign: "left", marginLeft: "40px" }} className="filter-div">
 
 
                             <div className='filter-category'>
@@ -127,7 +129,7 @@ function Womens() {
                                 <div> Brands</div>
                                 <div style={{ fontSize: "12px", padding: "10px" }}>
                                     <h6>
-                                        <input onSelect={" "} value="Kimayra" type="checkbox" />
+                                        <input  value="Kimayra" type="checkbox" />
                                         <label htmlFor="#">Kimayra</label>
                                     </h6>
                                     <h6>
@@ -210,13 +212,13 @@ function Womens() {
 
 
                     </div>
+                </Box>
+                
+                
 
-                </div>
-                <div >
 
 
-
-                    <div className='women-right'>
+                    <Box className='women-right' width={{base:"100%",sm:"100%",md:"100%",lg:"70%"}}>
                         <h1 style={{ fontSize: "12px", textAlign: "center" }}>{text ? "WOMENS" : ""}</h1>
                         <h1 style={{ fontSize: "30px", color: "grey", textAlign: "center" }}>{text === "womens" ? "" : text.toUpperCase()}</h1>
                         <h1 style={{ fontSize: "13px", color: "grey", width: "90%", margin: "auto", padding: "5px" }}>{text === "kurta" ? "Ethnic elegance, a fusion of hues and a whirlwind of styles from much-loved ethnic wear brands – go ahead and explore all the women’s kurtas on AJIO! The collection comprises of all the latest trends – from asymmetric hems to traditional Ikat prints. +" : ""}</h1>
@@ -224,18 +226,21 @@ function Womens() {
                         <h1 style={{ fontSize: "13px", color: "grey", width: "90%", margin: "auto", padding: "5px" }}>{text === "tshirt" ? `Funk up your style with our fashionable selection of tees! AJIO showcases stunning styles from vivid graphic prints to versatile geometric art, subtle florals to simple solid tees that are trendsetting collectibles from brands like Pantaloons,` : ""}</h1>
                         <h1 style={{ fontSize: "13px", color: "grey", width: "90%", margin: "auto", padding: "5px" }}>{text === "jeans" ? "Make a dramatic first impression with our stunning collection of jeans ranging from rugged ripped denims to old-school high waist ones, flattering skinny fits to stylish flared jeans. Here's our online wardrobe featuring brands like Levis, TALLY WEiJL and Recap that offer a blend of comfort and laidback style." : ""}</h1>
                         <hr />
-                        <div style={{ display: "flex", gap: "100px", justifyContent: "center" }}>
+                        
+                        <Box display={{ base: "grid",sm:"flex"}}  gap= "20px" justifyContent= "space-around" >
                             <div>
                                 <h6>{products.length}00 Items Found</h6>
                             </div>
-                            <div>
-                                <input
+                            <div style={{display:"flex"}}>
+                                <Input
+                                variant='flushed'
                                     type="text"
                                     placeholder='Search here'
                                     value={productType}
                                     onChange={(event) => setProductType(event.target.value)}
+                                
                                 />
-                                <button onClick={() => handleSubmit(productType)} type="submit">Search</button>
+                                <Button width={"-moz-fit-content"} colorScheme={"red"} onClick={() => handleSubmit(productType)} type="submit">Search</Button>
                             </div>
 
                             <div>
@@ -249,16 +254,18 @@ function Womens() {
 
                                 </select>
                             </div>
-                        </div>
+                        </Box>
+
                         <hr />
 
-                        <div className='women-content' style={{ display: "grid", gap: "15px", gridTemplateColumns: "repeat(3, 1fr) ", justifyContent: "space-around", margin: "20px" }} >
-                            {products.length > 0 && products.map((product, index) => (
-                                <CardPage product={product} key={index} />
+
+                        <Box className='women-content' style={{ display: "grid", gap: "15px", justifyContent: "space-around", margin: "20px" }}  gridTemplateColumns={{sm:"repeat(1, 1fr)",md:"repeat(2, 1fr) ",lg:"repeat(3, 1fr) "}}  >
+                            {products?.map((product, index) => (
+                                <CardPage {...product} key={index} />
                             ))}
-                        </div>
-                    </div>
-                </div>
+                        </Box>
+                    </Box>
+                
             </div>
         </>
     );
