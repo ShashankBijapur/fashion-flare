@@ -1,22 +1,31 @@
 import React, { useEffect, useState } from 'react'
 import "./Mens.css"
 import Card from './Card'
-import axios from "axios"
+import { useDispatch, useSelector } from 'react-redux'
+import { getReduxData } from '../../redux/action'
+
 
 const Mens = () => {
-    const [mensData, setMensData] = useState([])
+    const [search, setSearch] = useState("")
+    const [box, setBox] = useState(null)
+    const dispatch = useDispatch()
+    const store = useSelector(store => store.storeData)
 
-    const fetchData = () => {
-        axios.get(`http://localhost:8080/mensNew`).then((res) => {
-            return setMensData(res.data)
-        })
+    useEffect(() => {
+        if (box) {
+            dispatch(getReduxData(`men${box}`))
+        }
+
+    }, [box])
+
+    const handleButton = () => {
+        dispatch(getReduxData(`men${search}`))
+
     }
 
     useEffect(() => {
-        fetchData()
-
+        dispatch(getReduxData("mens"))
     }, [])
-    console.log(mensData)
     return (
         <div className='mens-cont'>
             <div className="mens-wrapper">
@@ -29,7 +38,7 @@ const Mens = () => {
                             <li>- Gender </li>
                             <ul>
                                 <li>
-                                    <input type="checkbox" />
+                                    <input onChange={(e) => setBox("men")} type="checkbox" />
                                     <label htmlFor="#">Men</label>
                                 </li>
                             </ul>
@@ -38,20 +47,20 @@ const Mens = () => {
                         <div className='filter-category'>
                             <li>- Category</li>
                             <ul>
-                                <li>
-                                    <input type="checkbox" />
+                                {/* <li>
+                                    <input  type="checkbox" />
                                     <label htmlFor="#">T-Shirt</label>
-                                </li>
+                                </li> */}
                                 <li>
-                                    <input type="checkbox" />
+                                    <input onChange={(e) => setBox("shirt")} type="checkbox" />
                                     <label htmlFor="#">Shirt</label>
                                 </li>
                                 <li>
-                                    <input type="checkbox" />
-                                    <label htmlFor="#">Sweershirts & Hoodies</label>
+                                    <input onChange={(e) => setBox("kurta")} type="checkbox" />
+                                    <label htmlFor="#">Kurta</label>
                                 </li>
                                 <li>
-                                    <input type="checkbox" />
+                                    <input onChange={(e) => setBox("jeans")} type="checkbox" />
                                     <label htmlFor="#">Jeans</label>
                                 </li>
 
@@ -219,7 +228,11 @@ const Mens = () => {
                         <div>Starting at Rs 129</div>
                         <div>
                             <ul>
-                                <li>128100 Items Found</li>
+                                <li>{store.length}0 Items Found</li>
+                            </ul>
+                            <ul>
+                                <input placeholder='Search Here' value={search} onChange={(e) => setSearch(e.target.value)} type="text" />
+                                <button onClick={handleButton}>Search</button>
                             </ul>
                             <ul className='select-tag-mens'>
                                 <label htmlFor="">Sort By </label>
@@ -235,10 +248,7 @@ const Mens = () => {
                     </div>
                     <div className='mens-content-wrapper'>
                         <div className='mens-content'>
-                            {mensData?.map((item) => <Card {...item} />)}
-
-
-
+                            {store?.map((item) => <Card key={item.id} {...item} />)}
                         </div>
 
                     </div>

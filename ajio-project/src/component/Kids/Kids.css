@@ -56,9 +56,10 @@ li{
 }
 
 .right-head {
-  height: 120px;
+  height: 90px;
   /* border: 1px solid red; */
-  padding: 50px;
+  /* padding: 50px; */
+  margin-bottom: 10px;
 }
 .right-head>div:nth-child(2){
   display: flex;
@@ -116,7 +117,7 @@ li{
 
 }
 .filter-category > ul {
-  margin-left: 15px;
+  margin-left: 70px;
 }
 
 @media only screen and (max-width: 1140px) {
