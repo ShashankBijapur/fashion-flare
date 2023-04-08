@@ -9,7 +9,6 @@ This repo is the clone of ajio.com website,AJIO is a shopping and lifestyle bran
 - Redux
 - Chakra UI
 
-
 ### * Team-Members
 
 - Shashank Bijapur (Team Lead)
