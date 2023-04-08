@@ -18,6 +18,14 @@ This repo is the clone of ajio.com website,AJIO is a shopping and lifestyle bran
 - Vishal More
 - Supriya Sahoo
 
+You can access the  website by the deployed url 
+  - For new user you need to sigin in 
+  - For existing user  ypu need login
+  
+  To access the admin side user  You need UserId and Password 
+   - User Id: admin  
+   - Password : 123456
+
 ## Some Screenshots of our Project :-
 
 ### * Sign-In page
