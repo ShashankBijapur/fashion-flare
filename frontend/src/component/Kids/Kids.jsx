@@ -1,72 +1,75 @@
 import React, { useEffect, useState } from 'react'
-import "./Mens.css"
+import "./Kids.css"
 import Card from './Card'
+// import axios from "axios"
 import { useDispatch, useSelector } from 'react-redux'
 import { getReduxData } from '../../redux/action'
+import { getProductData } from '../../redux/Products/action'
 
-
-const Mens = () => {
+const Kids = () => {
     const [search, setSearch] = useState("")
     const [box, setBox] = useState(null)
     const dispatch = useDispatch()
-    const store = useSelector(store => store.storeData)
-
-    useEffect(() => {
-        if (box) {
-            dispatch(getReduxData(`men${box}`))
-        }
-
-    }, [box])
+    const Products = useSelector(store => store.ProductReducer.Products)
 
     const handleButton = () => {
-        dispatch(getReduxData(`men${search}`))
-
+        dispatch(getReduxData(`kid${search}`))
+        setSearch("")
     }
-
     useEffect(() => {
-        dispatch(getReduxData("mens"))
+        dispatch(getProductData("kid"))
     }, [])
+
     return (
-        <div className='mens-cont'>
-            <div className="mens-wrapper">
-                <div className='mens-left'>
+        <div className='kids-cont'>
+            <div className="kids-wrapper">
+                <div className='kids-left'>
                     {/* <div>
                         Refined By
                     </div> */}
                     <div className="filter-div">
                         <div className='filter-category'>
-                            <li>- Gender </li>
+                            <li>- Gender</li>
                             <ul>
                                 <li>
-                                    <input onChange={(e) => setBox("men")} type="checkbox" />
-                                    <label htmlFor="#">Men</label>
+                                    <input onChange={(e) => setBox("girl")} type="checkbox" />
+                                    <label htmlFor="#">Girls</label>
                                 </li>
+                                <li>
+                                    <input onChange={(e) => setBox("boy")} type="checkbox" />
+                                    <label htmlFor="#">Boys</label>
+                                </li>
+                                <li>
+                                    <input onChange={(e) => setBox("infant")} type="checkbox" />
+                                    <label htmlFor="#">Infants</label>
+                                </li>
+
                             </ul>
                         </div>
                         {/* <hr /> */}
                         <div className='filter-category'>
                             <li>- Category</li>
                             <ul>
-                                {/* <li>
-                                    <input  type="checkbox" />
+                                <li>
+                                    <input type="checkbox" />
                                     <label htmlFor="#">T-Shirt</label>
-                                </li> */}
-                                <li>
-                                    <input onChange={(e) => setBox("shirt")} type="checkbox" />
-                                    <label htmlFor="#">Shirt</label>
                                 </li>
                                 <li>
-                                    <input onChange={(e) => setBox("kurta")} type="checkbox" />
-                                    <label htmlFor="#">Kurta</label>
+                                    <input type="checkbox" />
+                                    <label htmlFor="#">Dresses</label>
                                 </li>
                                 <li>
-                                    <input onChange={(e) => setBox("jeans")} type="checkbox" />
-                                    <label htmlFor="#">Jeans</label>
+                                    <input type="checkbox" />
+                                    <label htmlFor="#">Sweater</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" />
+                                    <label htmlFor="#">Track Pants</label>
                                 </li>
 
                                 <li>
                                     <input type="checkbox" />
-                                    <label htmlFor="#">Track Pants</label>
+                                    <label htmlFor="#">Trousers & Pants</label>
                                 </li>
                             </ul>
 
@@ -106,25 +109,21 @@ const Mens = () => {
                             <ul>
                                 <li>
                                     <input type="checkbox" />
-                                    <label htmlFor="#">18 EDITION</label>
+                                    <label htmlFor="#">3pin</label>
                                 </li>
                                 <li>
                                     <input type="checkbox" />
-                                    <label htmlFor="#">21 Degree</label>
+                                    <label htmlFor="#">5elements</label>
                                 </li>
                                 <li>
                                     <input type="checkbox" />
-                                    <label htmlFor="#">23 Yard</label>
+                                    <label htmlFor="#">612 League</label>
                                 </li>
                                 <li>
                                     <input type="checkbox" />
-                                    <label htmlFor="#">28ME</label>
+                                    <label htmlFor="#">A Little fable</label>
                                 </li>
 
-                                <li>
-                                    <input type="checkbox" />
-                                    <label htmlFor="#">2Go</label>
-                                </li>
                             </ul>
 
                         </div>
@@ -138,10 +137,7 @@ const Mens = () => {
                                     <input type="checkbox" />
                                     <label htmlFor="#">Active</label>
                                 </li>
-                                <li>
-                                    <input type="checkbox" />
-                                    <label htmlFor="#">ACTIVE</label>
-                                </li>
+
                                 <li>
                                     <input type="checkbox" />
                                     <label htmlFor="#">Casual</label>
@@ -196,24 +192,24 @@ const Mens = () => {
                             <ul>
                                 <li>
                                     <input type="checkbox" />
-                                    <label htmlFor="#">M</label>
+                                    <label htmlFor="#">5-6Y</label>
                                 </li>
                                 <li>
                                     <input type="checkbox" />
-                                    <label htmlFor="#">L</label>
+                                    <label htmlFor="#">7-8Y</label>
                                 </li>
                                 <li>
                                     <input type="checkbox" />
-                                    <label htmlFor="#">XL</label>
+                                    <label htmlFor="#">9-10Y</label>
                                 </li>
                                 <li>
                                     <input type="checkbox" />
-                                    <label htmlFor="#">S</label>
+                                    <label htmlFor="#">3-4Y</label>
                                 </li>
 
                                 <li>
                                     <input type="checkbox" />
-                                    <label htmlFor="#">XXL</label>
+                                    <label htmlFor="#">4-5Y</label>
                                 </li>
                             </ul>
 
@@ -222,19 +218,19 @@ const Mens = () => {
                     </div>
 
                 </div>
-                <div className='mens-right'>
+                <div className='kids-right'>
 
                     <div className='right-head'>
                         <div>Starting at Rs 129</div>
                         <div>
                             <ul>
-                                <li>{store.length}0 Items Found</li>
+                                <li>{ }0 Items Found</li>
                             </ul>
                             <ul>
                                 <input placeholder='Search Here' value={search} onChange={(e) => setSearch(e.target.value)} type="text" />
                                 <button onClick={handleButton}>Search</button>
                             </ul>
-                            <ul className='select-tag-mens'>
+                            <ul>
                                 <label htmlFor="">Sort By </label>
                                 <select name="" id="">
                                     <option value="">Relevent</option>
@@ -246,9 +242,12 @@ const Mens = () => {
                         </div>
 
                     </div>
-                    <div className='mens-content-wrapper'>
-                        <div className='mens-content'>
-                            {store?.map((item) => <Card key={item.id} {...item} />)}
+                    <div className='kids-content-wrapper'>
+                        <div className='kids-content'>
+                            {Products?.map((item) => <Card {...item} />)}
+
+
+
                         </div>
 
                     </div>
@@ -260,4 +259,4 @@ const Mens = () => {
     )
 }
 
-export default Mens
+export default Kids

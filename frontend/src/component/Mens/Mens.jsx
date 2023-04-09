@@ -1,79 +1,67 @@
 import React, { useEffect, useState } from 'react'
-import "./Kids.css"
-import Card from './Card'
-// import axios from "axios"
+import "./Mens.css"
+// import Card from './Card'
 import { useDispatch, useSelector } from 'react-redux'
-import { getReduxData } from '../../redux/action'
+import { getReduxData } from "../../redux/action";
+import { getProductData } from "../../redux/Products/action";
+import { Card } from "../Card/Card";
 
-const Kids = () => {
+
+const Mens = () => {
     const [search, setSearch] = useState("")
     const [box, setBox] = useState(null)
     const dispatch = useDispatch()
-    const store = useSelector(store => store.storeData)
+    const Products = useSelector(store => store.ProductReducer.Products)
 
-    useEffect(() => {
-        if (box) {
-            dispatch(getReduxData(`kid${box}`))
-        }
-    }, [box])
     const handleButton = () => {
-        dispatch(getReduxData(`kid${search}`))
-        setSearch("")
-    }
-    useEffect(() => {
-        dispatch(getReduxData("kids"))
-    }, [])
+        dispatch(getReduxData(`men${search}`));
+    };
 
+    useEffect(() => {
+        dispatch(getProductData(`men`))
+
+    }, [])
     return (
-        <div className='kids-cont'>
-            <div className="kids-wrapper">
-                <div className='kids-left'>
+        <div className='mens-cont'>
+            <div className="mens-wrapper">
+                <div className='mens-left'>
                     {/* <div>
                         Refined By
                     </div> */}
                     <div className="filter-div">
                         <div className='filter-category'>
-                            <li>- Gender</li>
+                            <li>- Gender </li>
                             <ul>
                                 <li>
-                                    <input onChange={(e) => setBox("girl")} type="checkbox" />
-                                    <label htmlFor="#">Girls</label>
+                                    <input onChange={(e) => setBox("men")} type="checkbox" />
+                                    <label htmlFor="#">Men</label>
                                 </li>
-                                <li>
-                                    <input onChange={(e) => setBox("boy")} type="checkbox" />
-                                    <label htmlFor="#">Boys</label>
-                                </li>
-                                <li>
-                                    <input onChange={(e) => setBox("infant")} type="checkbox" />
-                                    <label htmlFor="#">Infants</label>
-                                </li>
-
                             </ul>
                         </div>
                         {/* <hr /> */}
                         <div className='filter-category'>
                             <li>- Category</li>
                             <ul>
-                                <li>
-                                    <input type="checkbox" />
+                                {/* <li>
+                                    <input  type="checkbox" />
                                     <label htmlFor="#">T-Shirt</label>
+                                </li> */}
+                                <li>
+                                    <input onChange={(e) => setBox("shirt")} type="checkbox" />
+                                    <label htmlFor="#">Shirt</label>
                                 </li>
                                 <li>
-                                    <input type="checkbox" />
-                                    <label htmlFor="#">Dresses</label>
+                                    <input onChange={(e) => setBox("kurta")} type="checkbox" />
+                                    <label htmlFor="#">Kurta</label>
                                 </li>
                                 <li>
-                                    <input type="checkbox" />
-                                    <label htmlFor="#">Sweater</label>
-                                </li>
-                                <li>
-                                    <input type="checkbox" />
-                                    <label htmlFor="#">Track Pants</label>
+                                    <input onChange={(e) => setBox("jeans")} type="checkbox" />
+                                    <label htmlFor="#">Jeans</label>
                                 </li>
 
                                 <li>
                                     <input type="checkbox" />
-                                    <label htmlFor="#">Trousers & Pants</label>
+                                    <label htmlFor="#">Track Pants</label>
                                 </li>
                             </ul>
 
@@ -113,21 +101,25 @@ const Kids = () => {
                             <ul>
                                 <li>
                                     <input type="checkbox" />
-                                    <label htmlFor="#">3pin</label>
+                                    <label htmlFor="#">18 EDITION</label>
                                 </li>
                                 <li>
                                     <input type="checkbox" />
-                                    <label htmlFor="#">5elements</label>
+                                    <label htmlFor="#">21 Degree</label>
                                 </li>
                                 <li>
                                     <input type="checkbox" />
-                                    <label htmlFor="#">612 League</label>
+                                    <label htmlFor="#">23 Yard</label>
                                 </li>
                                 <li>
                                     <input type="checkbox" />
-                                    <label htmlFor="#">A Little fable</label>
+                                    <label htmlFor="#">28ME</label>
                                 </li>
 
+                                <li>
+                                    <input type="checkbox" />
+                                    <label htmlFor="#">2Go</label>
+                                </li>
                             </ul>
 
                         </div>
@@ -141,7 +133,10 @@ const Kids = () => {
                                     <input type="checkbox" />
                                     <label htmlFor="#">Active</label>
                                 </li>
-
+                                <li>
+                                    <input type="checkbox" />
+                                    <label htmlFor="#">ACTIVE</label>
+                                </li>
                                 <li>
                                     <input type="checkbox" />
                                     <label htmlFor="#">Casual</label>
@@ -196,24 +191,24 @@ const Kids = () => {
                             <ul>
                                 <li>
                                     <input type="checkbox" />
-                                    <label htmlFor="#">5-6Y</label>
+                                    <label htmlFor="#">M</label>
                                 </li>
                                 <li>
                                     <input type="checkbox" />
-                                    <label htmlFor="#">7-8Y</label>
+                                    <label htmlFor="#">L</label>
                                 </li>
                                 <li>
                                     <input type="checkbox" />
-                                    <label htmlFor="#">9-10Y</label>
+                                    <label htmlFor="#">XL</label>
                                 </li>
                                 <li>
                                     <input type="checkbox" />
-                                    <label htmlFor="#">3-4Y</label>
+                                    <label htmlFor="#">S</label>
                                 </li>
 
                                 <li>
                                     <input type="checkbox" />
-                                    <label htmlFor="#">4-5Y</label>
+                                    <label htmlFor="#">XXL</label>
                                 </li>
                             </ul>
 
@@ -222,19 +217,19 @@ const Kids = () => {
                     </div>
 
                 </div>
-                <div className='kids-right'>
+                <div className='mens-right'>
 
                     <div className='right-head'>
                         <div>Starting at Rs 129</div>
                         <div>
                             <ul>
-                                <li>{store.length}0 Items Found</li>
+                                <li>{ }0 Items Found</li>
                             </ul>
                             <ul>
                                 <input placeholder='Search Here' value={search} onChange={(e) => setSearch(e.target.value)} type="text" />
                                 <button onClick={handleButton}>Search</button>
                             </ul>
-                            <ul>
+                            <ul className='select-tag-mens'>
                                 <label htmlFor="">Sort By </label>
                                 <select name="" id="">
                                     <option value="">Relevent</option>
@@ -246,12 +241,11 @@ const Kids = () => {
                         </div>
 
                     </div>
-                    <div className='kids-content-wrapper'>
-                        <div className='kids-content'>
-                            {store?.map((item) => <Card {...item} />)}
-
-
-
+                    <div className='mens-content-wrapper'>
+                        <div className='mens-content'>
+                            {Products?.map((item) =>
+                                <Card {...item} />
+                            )}
                         </div>
 
                     </div>
@@ -263,4 +257,4 @@ const Kids = () => {
     )
 }
 
-export default Kids
+export default Mens

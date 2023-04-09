@@ -19,11 +19,11 @@ import Homeandkitchen from '../component/Womens/Homeandkitchen';
 const AllRoutes = () => {
     return (
         <Routes>
-            <Route path="/" element={<Home/>} />
-            <Route path="/womens" element={<Womens/>} />
-            <Route path="/mens" element={<Mens/>} />
-            <Route path="/kids" element={<Kids/>} />
-            <Route path="/siglecard" element={<SingleCardPage/>}></Route>
+          <Route path="/" element={<Home/>} />
+            <Route path="/women" element={<Womens/>} />
+            <Route path="/men" element={<Mens/>} />
+            <Route path="/kid" element={<Kids/>} />
+            <Route path="/:category/:_id" element={<SingleCardPage/>}></Route>
             <Route path='/signup' element={<Signup/>}/>
             <Route path='/login' element={<Login/>}/>
             <Route path='/admin' element={<AdminPage />}></Route>
@@ -33,7 +33,6 @@ const AllRoutes = () => {
             <Route path="/cart" element={<Cart />} />
             <Route path="/wishlist" element={<Wishlist />} />
             <Route path="/payment" element={<PaymentsPage />} />
-            <Route path="/homeandkitchen" element={<Homeandkitchen />} />
         </Routes>
     )
 }
