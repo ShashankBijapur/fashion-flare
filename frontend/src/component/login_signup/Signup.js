@@ -19,6 +19,8 @@ import React, { useState } from "react";
 import { ViewIcon, ViewOffIcon } from "@chakra-ui/icons";
 import { useToast } from "@chakra-ui/react";
 import { useNavigate } from "react-router-dom";
+import axios from "axios";
+// import jwt_decode from "jwt-decode";
 
 export default function SignupCard() {
   const [name, setName] = useState("");
@@ -30,18 +32,48 @@ export default function SignupCard() {
   // const [data, setdata] = useState([]);
 
   const handleSignup = () => {
-    let user = { name: name, email: email, password: password };
-    localStorage.setItem("user", JSON.stringify(user));
-    toast({
-      title: `Sighup Successfull`,
-      position: "top",
-      status: "success",
-      duration: 2000,
-      isClosable: true,
-    });
-    navigate("/login");
+    if (name && email && password) {
+      axios
+        .post(`http://localhost:4000/auth/register`, {
+          name: name,
+          email: email,
+          password: password,
+        })
+        .then((res) => {
+          console.log(res);
+          toast({
+            title: `Sighup Successfull`,
+            position: "top",
+            status: "success",
+            duration: 2000,
+            isClosable: true,
+          });
+        })
+        .catch((err) => {
+          toast({
+            title: `Something Went Wrong`,
+            position: "top",
+            status: "error",
+            duration: 2000,
+            isClosable: true,
+          });
+        });
+    } else {
+      toast({
+        title: `Something Went Wrong`,
+        position: "top",
+        status: "error",
+        duration: 2000,
+        isClosable: true,
+      });
+    }
+    setEmail("");
+    setName("");
+    setPassword("");
+
+    // navigate("/login");
     // window.location.href = "/login";
-    console.log(user);
+    // console.log(user);
   };
 
   return (
@@ -87,7 +119,7 @@ export default function SignupCard() {
                 />
               </Stack>
             </Stack>
-           
+
             <FormControl id="firstName" isRequired>
               <FormLabel>Name</FormLabel>
               <Input
@@ -142,7 +174,7 @@ export default function SignupCard() {
             <Stack pt={6}>
               <Text align={"center"}>
                 Already a user?{" "}
-                <Link to="./Login" color={"blue.400"}>
+                <Link to="/" color={"blue.400"}>
                   Login
                 </Link>
               </Text>
