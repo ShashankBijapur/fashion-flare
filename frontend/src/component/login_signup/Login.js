@@ -16,10 +16,11 @@ import { Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 import { SidebarContext } from "../context/SidebarContextProvider";
 import { useToast } from "@chakra-ui/react";
+import axios from "axios";
 
 export default function SimpleCard() {
-  const { login, setLogin } = useContext(SidebarContext);
-  const [username, setUsername] = useState("");
+  // const { login, setLogin } = useContext(SidebarContext);
+  const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [error, setError] = useState("");
 
@@ -27,29 +28,43 @@ export default function SimpleCard() {
   const toast = useToast();
 
   const handleLogin = () => {
-    let user = JSON.parse(localStorage.getItem("user"));
-    if (username === "admin" && password === "123456") {
-      // alert(" Admin Login succesfull");
+    if (email && password) {
+      axios
+        .post(`http://localhost:4000/auth/login`, {
+          email: email,
+          password: password,
+        })
+        .then((res) => {
+          console.log(res);
+          toast({
+            title: `Sighup Login`,
+            position: "top",
+            status: "success",
+            duration: 2000,
+            isClosable: true,
+          });
+          navigate("/");
+        })
+        .catch((err) => {
+          toast({
+            title: `Something Went Wrong`,
+            position: "top",
+            status: "error",
+            duration: 2000,
+            isClosable: true,
+          });
+        });
+    } else {
       toast({
-        title: `Admin Login Successfull`,
+        title: `Something Went Wrong`,
         position: "top",
-        isClosable: true,
-      });
-      navigate("/admin");
-    } else if (username === user.username && password === user.password) {
-      localStorage.setItem("loginValue", JSON.stringify(login));
-      toast({
-        title: `User Login Successfull`,
-        position: "top",
-        status: "success",
+        status: "error",
         duration: 2000,
         isClosable: true,
       });
-      navigate("/");
-      setLogin(true);
-    } else {
-      setError("Invalid username or password");
     }
+    setEmail("");
+    setPassword("");
   };
 
   return (
@@ -80,8 +95,8 @@ export default function SimpleCard() {
               <FormLabel>Email address</FormLabel>
               <Input
                 type="email"
-                value={username}
-                onChange={(e) => setUsername(e.target.value)}
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
               />
             </FormControl>
             <FormControl id="password">
