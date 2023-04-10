@@ -6,7 +6,8 @@ const wishlistRoute = express.Router();
 
 wishlistRoute.get("/", async (req, res) => {
   try {
-    const allCart = await WishlistModel();
+    const allCart = await WishlistModel.find();
+    console.log(allCart)
     res.status(200).send(allCart);
   } catch (err) {
     console.log(err);
