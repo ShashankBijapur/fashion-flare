@@ -7,11 +7,12 @@ import { getProductData } from "../../redux/Products/action";
 import { Card } from "../Card/Card";
 import CardPage from "./WomensCard";
 import Sidebar from "../Sidebar/Sidebar";
+import Navbar from "../Navbar/Navbar";
 // import { Box } from '@chakra-ui/react';
 function Womens() {
   let [productType, setProductType] = useState("womens");
   const [text, settext] = useState("");
-  const handleSubmit = (productType) => {};
+  const handleSubmit = (productType) => { };
   const dispatch = useDispatch();
   const Products = useSelector((store) => store.ProductReducer.Products);
   console.log('Products: ', Products);
@@ -21,6 +22,7 @@ function Womens() {
   }, []);
   return (
     <>
+    <Navbar/>
       <div
         style={{
           display: "flex",
@@ -30,6 +32,7 @@ function Womens() {
           gap: "80px",
         }}
       >
+        
         <Box
           display={{ base: "none", sm: "none", md: "flex", lg: "flex" }}
           className="women-left-cont"
@@ -178,9 +181,8 @@ function Womens() {
               </div>
               <hr />
             </div> */}
-              <Sidebar/>
+            <Sidebar />
           </div>
-        
         </Box>
 
         <Box
@@ -253,7 +255,7 @@ function Womens() {
             justifyContent="space-around"
           >
             <div>
-              <h6>{}00 Items Found</h6>
+              <h6>{ }00 Items Found</h6>
             </div>
             <div style={{ display: "flex" }}>
               <Input
@@ -275,7 +277,7 @@ function Womens() {
 
             <div>
               <label htmlFor="sort-select">Sort by:</label>
-              <select id="sort-select" >
+              <select id="sort-select">
                 <option value="">Select Price</option>
                 <option value="relevance">Relevance</option>
                 <option value="highToLow">Price(lowest first)</option>

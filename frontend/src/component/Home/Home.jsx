@@ -2,6 +2,7 @@
 import { Box, ChakraProvider, HStack, Image, SimpleGrid, VStack } from "@chakra-ui/react";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
+import Navbar from "../Navbar/Navbar";
 function Home() {
   const images =
     [
@@ -33,7 +34,7 @@ function Home() {
   return (
     <>
 
-
+<Navbar/>
       {/* ------------------------------------ Carousel 1 starts here ------------------------------------------------  */}
       <Box pt={10}>
 
