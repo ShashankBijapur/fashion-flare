@@ -1,14 +1,12 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState } from 'react'
 import {
     Popover,
     PopoverTrigger,
     PopoverContent,
     PopoverHeader,
     PopoverBody,
-    PopoverFooter,
     PopoverArrow,
     PopoverCloseButton,
-    PopoverAnchor,
     Button,
     Box,
     Image,
@@ -17,53 +15,39 @@ import {
 } from '@chakra-ui/react'
 import axios from 'axios'
 
-// import { ChevronDownIcon } from '@chakra-ui/icons'
-
-
 const CartCard = ({ item, setCount, count }) => {
-    // const [count, setCount] = useState(1)
+
     const [size, setsize] = useState("M")
     const [cartitem, setCartitem] = useState([])
+
     const handleSizeChange = (event) => {
         setsize(event.target.value);
     };
-    console.log(cartitem)
-    const deleteitem = (id) => {
-        // window.location.reload(true);
-        console.log(id)
-        axios.delete(`https://magnificent-bass-suit.cyclic.app/cart/${id}`)
-            // .then(res=>res.json())
-            .then(res => setCartitem(res.data))
 
+    const deleteitem = (id) => {
+        axios.delete(`https://magnificent-bass-suit.cyclic.app/cart/${id}`)
+            .then(res => setCartitem(res.data))
     }
     const addtowishlist = (item, id) => {
-        console.log(item)
-        // axios.post("http://localhost:8080/wishlist",item)
-        // .then((r) => {
-        //    console.log(r.data)
-        // })
+       
         axios.post("https://magnificent-bass-suit.cyclic.app/wishlist", item)
             .then(r => setCartitem(r.data))
 
         axios.delete(`https://magnificent-bass-suit.cyclic.app/cart/${id}`)
-            // .then(res=>res.json())
             .then(res => setCartitem(res.data))
     }
-    useEffect(() => {
-        //    deleteitem()
-    }, []);
-
+    
     return (
         <>
 
 
-            <Box padding={"5px"} border="1px solid rgb(250,230,250)" display={{ base: "grid", md: "flex" }} style={{ justifyContent: "space-between", marginTop: "20px" }}>
+            <Box padding={"5px"} border="1px solid rgb(250,230,250)" display={{ base: "grid", md: "flex" }} justifyContent= "space-evenly" gap="20px" marginTop="20px">
                 <Image src={item.src} width={{ base: "200px", sm: "200px" }} margin={{ base: "auto" }} alt="" />
                 <Text>{item.brand}- <span> {item.nameCls}</span> </Text>
 
                 <Popover >
                     <PopoverTrigger>
-                        <Button fontSize={"12px"}> Size {size} - Qty {count}</Button>
+                        <Button fontSize={"12px"}> Size {item.size} - Qty {count}</Button>
                     </PopoverTrigger>
                     <PopoverContent>
                         <PopoverArrow />

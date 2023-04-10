@@ -1,20 +1,87 @@
+import { Box, Button, Text } from '@chakra-ui/react'
+import axios from 'axios'
 import React from 'react'
 import { useSelector } from "react-redux"
-import Card from "../Mens/Card"
-import "./Wishlist.css"
-
+import { useNavigate } from 'react-router-dom'
 const Wishlist = () => {
     // const dispatch = useDispatch()
-    const wishlist = useSelector(store => store.wishlist)
+    // const wishlist = useSelector(store => store.wishlist)
+    // const Products = useSelector((store) => store.ProductReducer.Wishlist);
+    // https://magnificent-bass-suit.cyclic.app/wishlist
+    const [wishlist, setwishlist] = React.useState([])
+    const [data, setdata] = React.useState([])
+
+const navigate = useNavigate()
+    const getdata = () => {
+        axios.get("https://magnificent-bass-suit.cyclic.app/wishlist")
+            .then(((res) => setwishlist(res.data)))
+    }
+    const handledelete = (id) => {
+        axios.delete(`https://magnificent-bass-suit.cyclic.app/wishlist/${id}`)
+            .then((res) => setdata(res.data))
+
+    }
+    const handltenavigate=()=>{
+        navigate("/")
+    }
+    React.useEffect(() => {
+        getdata()
+    });
     return (
-        <div>
-            <div style={{ margin: "auto", fontSize: "32px", fontWeight: "600", textAlign: "center", marginBotton: "20px" }}>My Wishlist</div>
-            <div className='wishlist_cart' style={{ padding:"15px", marginLeft:"0px", width: "1200px", margin: "auto" }}>
-                {wishlist?.map((item) => {
-                    return <Card {...item} />
-                })}
-            </div>
-        </div>
+        <>
+            {wishlist.length === 0 ? <Box textAlign={"center"} margin="5% 5%"  justifyContent="center" >
+                <Box fontSize={"42px"} fontFamily="Lora" fontWeight={600} >My Wishlist</Box>
+                <Text mt="10px" >Your Wishlist is empty!!</Text>
+                <Text mt="10px" >ADD A FEW PRODUCTS AND THEN EXPLORE THE COOLEST WAY TO SHOP CLOTHES ONLINE!</Text>
+
+                <Button mt="10px"bg="rgb(213,162,73)" onClick={handltenavigate} colorScheme="none" color="white">Continue Shopping</Button>
+
+            </Box> : <Box className="women-right" width={"70%"} margin="auto">
+                <Box>My Wishlist</Box>
+
+
+
+
+                <Box className="women-content"
+                    style={{
+                        display: "grid",
+                        gap: "15px",
+                        justifyContent: "space-around",
+                        margin: "20px",
+                    }}
+                    gridTemplateColumns={{
+                        sm: "repeat(1, 1fr)",
+                        md: "repeat(2, 1fr) ",
+                        lg: "repeat(3, 1fr) ",
+                    }}
+                >
+                    {wishlist.map((item) => (
+
+                        <Box >
+                            <div className="card-cont">
+                                <div className="img-div">
+                                    <img src={item.src} alt={item.brand} />
+                                </div>
+                                <div className="card-content-wrap">
+                                    <div className="card-content">
+                                        <div>{item.brand}</div>
+                                        <div>{item.title}</div>
+                                        <div>{item.discountPrice} <span style={{ textDecoration: "line-through" }}>{item.orginalPrice} </span> </div>
+                                        <div>Get it at {item.offer} {item.discount}</div>
+                                        <Box display="flex" gap="20px" >
+                                            <Button colorScheme="green">Add to bag</Button>
+                                            <Button onClick={handledelete(item.id)} colorScheme="red">Delete</Button>
+                                        </Box>
+                                    </div>
+                                </div>
+                            </div>
+                        </Box>
+                    ))}
+
+                </Box>
+            </Box>}
+
+        </>
     )
 }
 
