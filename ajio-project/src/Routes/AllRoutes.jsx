@@ -11,10 +11,10 @@ import AdminPage from '../component/Admin/Admin';
 import Orders from '../component/Admin/Orders';
 import Customers from '../component/Admin/Customers';
 import Products from '../component/Admin/Products';
-import Cart from '../component/Womens/Cart';
 import PaymentsPage from '../component/Womens/PaymentsPage';
 import Wishlist from '../component/Wishlist/Wishlist';
 import Homeandkitchen from '../component/Womens/Homeandkitchen';
+import Cart from '../component/Cart/Cart';
 
 const AllRoutes = () => {
     return (

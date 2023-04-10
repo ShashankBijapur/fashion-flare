@@ -1,12 +1,10 @@
 import axios from 'axios'
 import React, { useState, useEffect, useRef } from 'react'
-import { Box, Button, Checkbox, CheckboxGroup, Fade, Flex, Image, Stack, Text } from '@chakra-ui/react';
+import { Box, Button, Checkbox, CheckboxGroup, Flex, Image, Stack, Text } from '@chakra-ui/react';
 import CartCard from './CartCard';
-
 import { Input, useDisclosure } from '@chakra-ui/react'
-import { CheckIcon } from '@chakra-ui/icons'
-import { Link, Navigate, useNavigate } from 'react-router-dom';
-import Paymentmodal from './Payments';
+import { useNavigate } from 'react-router-dom';
+import Paymentmodal from '../Womens/Payments';
 import { useDispatch } from "react-redux"
 import { getCartData } from '../../redux/action';
 const Cart = () => {
@@ -17,7 +15,8 @@ const Cart = () => {
     const navigate = useNavigate()
     const { isOpen, onToggle } = useDisclosure()
 
-    const getcartdata = () => {
+    useEffect(() => {
+
         axios.get("https://magnificent-bass-suit.cyclic.app/cart")
             .then(res => {
                 setcart(res.data)
@@ -28,15 +27,13 @@ const Cart = () => {
                 })
                 ref.current = total
             })
-    }
+    },[])
+
+    
     const handleclick = () => {
         navigate("/")
     }
-    useEffect(() => {
-        getcartdata()
-    }, [cart]);
 
-    console.log(cart)
     return (
         <>
             {cart.length === 0 ?
@@ -88,26 +85,27 @@ const Cart = () => {
                     </Flex>
                 </Box> :
                 <Box>
-                    <Flex width={"80%"} margin="auto" gap={"20px"}>
-                        <Box width={"70%"} margin={"auto"} marginTop={"30px"}>
-                            <Text fon textAlign={"left"}>My Bag({cart.length}item)</Text>
+                    <Box width={"80%"} display={{ base: "grid", sm: "flex" }} margin="auto" gap={"20px"} >
+                        <Box width={{base:"100%",sm:"70%"}} margin={"auto"} marginTop={"30px"} >
+                            <Text textAlign={"left"}>My Bag({cart.length}item)</Text>
                             <Box style={{ textAlign: "center" }}>
                                 {cart.map((item, index) =>
                                     <CartCard item={item} setCount={setCount} count={count} key={index} />)}
                             </Box>
                         </Box>
-                        <Box width={"30%"} border="1px solid rgb(238,238,238)" bg={"rgb(250,250,250)"} padding="10px" marginTop={"30px"}>
+
+
+                        <Box width={{base:"100%",sm:"30%"}}  bg={"rgb(250,250,250)"} padding="10px" marginTop={"30px"}>
                             <Box padding={"5px"} margin={"5px"} >
 
                                 <Text fontFamily={"Lora"} fontWeight="700" textAlign={"left"} color="rgb(51, 51, 51)">Order Details</Text>
                                 <Flex padding={"5px"} justifyContent={"space-between"} color="rgb(51, 51, 51)">
                                     <Text >Bag total</Text>
-                                    <Text>{ref.current}</Text>
+                                    <Text>{Number(ref.current)}</Text>
                                 </Flex>
                                 <Flex padding={"5px"} justifyContent={"space-between"} color="rgb(51, 51, 51)">
                                     <Text>bag discount</Text>
-                                    <Text>{ref.current >= 1000 ? "30%" : "10%"}</Text>
-
+                                    <Text>{Number(ref.current) >= 1000 ? "30%" : "10%"}</Text>
                                 </Flex>
                                 <Flex>
 
@@ -115,18 +113,15 @@ const Cart = () => {
                                 </Flex>
                                 <Flex padding={"5px"} justifyContent={"space-between"} color="rgb(51, 51, 51)" >
                                     <Text>Delivery </Text>
-                                    <Text>{ref.current >= 1000 ? "Free delivery" : "Rs 99"}</Text>
+                                    <Text>{Number(ref.current) >= 1000 ? "Free delivery" : "Rs 99"}</Text>
                                 </Flex>
                                 <Flex padding={"5px"} justifyContent={"space-between"} fontWeight="600" color="rgb(51, 51, 51)" >
                                     <Text>Order total</Text>
-                                    <Text>{ref.current >= 1000 ? ref.current : ref.current + 99}</Text>
+                                    <Text>{Number(ref.current) >= 1000 ? Number(ref.current) : Number(ref.current) + 99}</Text>
                                 </Flex>
-                                <Paymentmodal total={ref.current}/>
-                             {/* <Link to={"/payment"}>
-                               <Button bg={"rgb(213,162,73)"} width="100%" padding={"15px"} color="white"> Proceed To ship</Button>
-                        
-                             </Link>    */}
-                                </Box>
+                                <Paymentmodal total={ref.current} />
+
+                            </Box>
 
                             <Box marginTop={"50px"}>
                                 <Text>Apply Coupon</Text>
@@ -211,7 +206,7 @@ const Cart = () => {
                                             <hr />
                                             <Checkbox value='BIGSAVINS'>
                                                 <Box>
-                                                    {/* <Text fontSize={"13px"}></Text> */}
+
                                                     <Text fontSize={"16px"}>BIGSAVINS</Text>
                                                     <Text fontSize={"10px"}>Best Value For You</Text>
                                                 </Box>
@@ -224,6 +219,8 @@ const Cart = () => {
                                 </Box>
 
                             </Box>
+
+
                             <Box textAlign={"left"} marginTop="50px" padding={"5px"}>
                                 <Text color={"rgb(32, 32, 32)"} fontSize="14px" fontWeight={"700"}>Return/Refund policy</Text>
                                 <Text color={"grey"}>In case of return, we ensure quick refunds. Full amount will be refunded excluding Convenience Fee</Text>
@@ -232,11 +229,10 @@ const Cart = () => {
                         </Box>
 
 
-                    </Flex>
+                    </Box>
 
-                    <Box margin="auto" padding={"40px"} >
                         <hr />
-                        <Flex padding={"30px"} justifyContent={"space-around"} color="rgb(213,162,73)">
+                        <Box  display={"grid"} width="100%" margin="auto" gridTemplateColumns={{base:"repeat(2, 1fr)",md:"repeat(4, 1fr)"}} justifyContent="space-around" backgroundColor="rgb(250,250,250)" color="rgb(213,162,73)" marginTop="20px" padding={"30px"}  >
                             <Flex>
                                 <Image width={"40px"} padding="5px" src='https://penncommunitybank.imgix.net/wp-content/uploads/2019/11/security-icon.png?auto=compress&fit=crop' />
                                 <Text padding={"10px"}>SECURE PAYMENTS</Text>
@@ -253,26 +249,24 @@ const Cart = () => {
                                 <Image width={"40px"} padding="5px" src='https://static.thenounproject.com/png/1015317-200.png' />
                                 <Text padding={"10px"}>EASY RETURNS</Text>
                             </Flex>
-                        </Flex>
+                        </Box>
 
                         <hr style={{ fontSize: "10px" }} />
-                    </Box>
-
-
-                    <Flex justifyContent="space-around" backgroundColor="rgb(250,250,250)" marginTop="20px">
-                        <div style={{}}>
+                    
+                    <Box  display={"grid"} width="100%" margin="auto" gridTemplateColumns={{base:"repeat(2, 1fr)",md:"repeat(3, 1fr)"}} justifyContent="space-around" backgroundColor="rgb(250,250,250)" marginTop="20px">
+                        <div >
                             <img width="60px" src="https://cdn-icons-png.flaticon.com/512/182/182308.png" alt="" />
                             <h2>Easy Returns</h2>
                         </div>
-                        <div style={{}}>
+                        <div >
                             <img width="60px" src="https://thumbs.dreamstime.com/b/empathy-vector-icon-black-silhouette-flat-illustration-isolated-white-background-204899514.jpg" alt="" />
                             <h2>!100% Hand Picked</h2>
                         </div>
-                        <div style={{}}>
+                        <div >
                             <img width="60px" src="https://d1pt6w2mt2xqso.cloudfront.net/AcuCustom/Sitename/DAM/044/FSEweek-icon-tick.png" alt="" />
                             <h2> Assured Quality</h2>
                         </div>
-                    </Flex>
+                    </Box>
                     <hr />
                 </Box>}
 

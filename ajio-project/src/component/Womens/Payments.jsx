@@ -11,17 +11,16 @@ import {
     Text,
     Box,
     Input,
-    Flex,
 } from '@chakra-ui/react'
-import CancelButton from './CancelButton'
+import CancelButton from '../Cart/CancelButton'
 
 function Paymentmodal({ total }) {
     const { isOpen, onOpen, onClose } = useDisclosure()
-    const hadleclick = () => {
-
-    }
+    
     return (
         <>
+
+        {/* PAYMENT MODEL POPUP */}
             <Button bg={"rgb(213,162,73)"} width="100%" padding={"4px"} margin="4px" color="white" onClick={onOpen}>Proceed To Ship</Button>
 
             <Modal blockScrollOnMount={false} isOpen={isOpen} onClose={onClose}>
@@ -62,10 +61,8 @@ function Paymentmodal({ total }) {
                                 <Text> ORDER SUMMARY</Text>
                                 <hr />
 
-
-
-
                             </Box>
+
                             <Box>
                                 <CancelButton />
                             </Box>

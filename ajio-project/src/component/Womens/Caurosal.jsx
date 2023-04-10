@@ -10,9 +10,8 @@ import {
   Flex,
   Image,
 } from '@chakra-ui/react';
-// Here we have used react-icons package for the icons
 import { BiLeftArrowAlt, BiRightArrowAlt } from 'react-icons/bi';
-// And react-slick as our Carousel Lib
+
 import Slider from 'react-slick';
 
 // Settings for the slider
@@ -47,9 +46,7 @@ export default function CaptionCarousel({data}) {
       position={'relative'}
       height={'400px'}
       width={'full'}
-      // border="2px solid red"
       overflow={'hidden'}>
-      {/* CSS files for react-slick */}
       <link
         rel="stylesheet"
         type="text/css"

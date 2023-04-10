@@ -18,7 +18,7 @@ import { SidebarContext } from "../context/SidebarContextProvider";
 const MobileNav = () => {
 
   let user = JSON.parse(localStorage.getItem("user"));
-  
+
   const { cartData, setCartData, cartLength, setCartLength, setCategory } =
     useContext(SidebarContext);
 
@@ -40,12 +40,9 @@ const MobileNav = () => {
           item2={"WOMEN"}
           item3={"MEN"}
           item4={"KIDS"}
-          item5={"WINTER WEAR"}
-          item6={"BEAUTY"}
-          item7={"WATCHES"}
-          item8={"JEWELLERY"}
-          item9={"INDIE"}
-          item10={"STORES"}
+          item5={<Link to="/homeandkitchen">
+            HOME & KITCHEN
+          </Link>}
         />
         <Box>
           <Link to="/">
@@ -60,21 +57,21 @@ const MobileNav = () => {
           <Button colorScheme="red" size="sm">SignIn</Button>
         </Link>
         <Link to="/cart">
-        
-        <Box
-          
-          right="20px"
-          width={"fit-content"}
-          height="1rem"
-          display={"flex"}
-          alignItems={"center"}
-          gap="3"
-        >
-          <BsFillBagCheckFill style={{ fontSize: "30px" }} />
-          <Text as="b"  fontSize={"xs"}>
-            {cartLength}
-          </Text>
-        </Box>
+
+          <Box
+
+            right="20px"
+            width={"fit-content"}
+            height="1rem"
+            display={"flex"}
+            alignItems={"center"}
+            gap="3"
+          >
+            <BsFillBagCheckFill style={{ fontSize: "30px" }} />
+            <Text as="b" fontSize={"xs"}>
+              {cartLength}
+            </Text>
+          </Box>
         </Link>
       </Flex>
       {/* <Input

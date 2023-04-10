@@ -3311,7 +3311,7 @@
   ],
   "cart": [
     {
-<<<<<<< HEAD
+
       "href": "https://www.ajio.com/fiorra-straight-kurta-set-with-dupatta/p/465543382_black",
       "src": "https://assets.ajio.com/medias/sys_master/root/20230213/J7QJ/63e9d7a8aeb26924e369aedf/fiorra_black_straight_kurta_set_with_dupatta.jpg",
       "brand": "FIORRA",
@@ -3350,25 +3350,6 @@
       "offer": "2,062"
     },
     {
-      "id": 7,
-      "src": "https://assets.ajio.com/medias/sys_master/root/20220927/pNT8/6332df42aeb269dbb3aa32c0/performax_jet_black_fastdry_active_essential_track_pants.jpg",
-      "brand": "PERFORMAX",
-      "nameCls": "Fastdry Active Essential Track Pants",
-      "price": "419",
-      "discount": "(30% off)",
-      "offer": 300
-=======
-      "href": "https://www.ajio.com/kimayra-leaf-print-flared-kurta/p/465425434_pink",
-      "src": "https://assets.ajio.com/medias/sys_master/root/20221212/inn7/63976868aeb269659ce473e6/kimayra_pink_leaf_print_flared_kurta.jpg",
-      "brand": "Kimayra",
-      "nameCls": "Leaf Print Flared Kurta",
-      "price": "824",
-      "orginalprice": "2,299",
-      "discount": 62,
-      "offer": "575",
-      "id": 2
-    },
-    {
       "href": "https://www.ajio.com/kimayra-printed-anarkali-kurta-suit-set/p/464004331_yellow",
       "src": "https://assets.ajio.com/medias/sys_master/root/20220326/oiLh/623e2e74aeb26921aff93f02/kimayra_mustard_printed_anarkali_kurta_suit_set.jpg",
       "brand": "Kimayra",
@@ -3378,7 +3359,7 @@
       "discount": 36,
       "offer": "959",
       "id": 3
->>>>>>> d0904860831edfa9fcbdcc92e483c76f66a76b5b
+
     }
   ],
   "wishlist": [

@@ -8,25 +8,20 @@ import {
   Button,
   useDisclosure,
   Box,
-  Text,
   Input,
   Flex,
   Image,
 } from '@chakra-ui/react'
 import React from 'react'
-import PaymentSuccess from './PaymentSuccess'
+import PaymentSuccess from '../Womens/PaymentSuccess'
 function CancelButton() {
   const { isOpen, onOpen, onClose } = useDisclosure()
   const cancelRef = React.useRef()
 
   return (
     <>
-      {/* <Button colorScheme='red' onClick={onOpen}> */}
-      {/* Delete  */}
-      <Button width={"400px"} onClick={onOpen}> PROCEDE TO PAYMENT </Button>
-      {/*  */}
-      {/* </Button> */}
-
+ 
+      <Button width={"100%"} onClick={onOpen}> PROCEDE TO PAYMENT </Button>
       <AlertDialog
         isOpen={isOpen}
         leastDestructiveRef={cancelRef}
@@ -40,7 +35,6 @@ function CancelButton() {
             </AlertDialogHeader>
 
             <AlertDialogBody>
-              {/* Are you sure? You can't undo this action afterwards. */}
               <Box width={"400px"} margin="auto" >
                 <hr />
                 <Box gap={"10px"} padding={"10px"}>

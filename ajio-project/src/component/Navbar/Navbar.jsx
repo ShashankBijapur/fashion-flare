@@ -1,5 +1,4 @@
 import React, { useContext } from "react";
-import Logo from '../Images/fashionFlair.jpg';
 import { Box, Flex, Text, Image, Input, Button } from "@chakra-ui/react";
 import { BsFillBagCheckFill, BsFillSuitHeartFill } from "react-icons/bs";
 import Menuitem from "./MenuItem";
@@ -14,7 +13,7 @@ const Navbar = () => {
   let loginValue = JSON.parse(localStorage.getItem("loginValue"));
   const store = useSelector(store => store.cart)
   const wishlist = useSelector(store => store.wishlist)
-  // console.log(store,"cart")
+  console.log(store, "cart")
 
   // console.log(user);
 
@@ -62,12 +61,13 @@ const Navbar = () => {
         </Box>
         <Box>
           <Flex gap="30px" alignItems={"center"}>
+
             <Link to="/mens" onClick={() => setCategory("mens-clothing")}>
-              <Box>
+              <Box >
                 <Menuitem
                   navitem={"MEN"}
                   item1={
-                    <Box>
+                    <Box fontSize="12px">
                       <Flex gap="20px">
                         <Text>Shop By:</Text>
                         <Text>Categories</Text>
@@ -170,12 +170,13 @@ const Navbar = () => {
                 />
               </Box>
             </Link>
+
             <Link to="/womens" onClick={() => setCategory("women-clothing")}>
               <Box>
                 <Menuitem
                   navitem={"WOMEN"}
                   item1={
-                    <Box>
+                    <Box fontSize="12px">
                       <Flex gap="20px">
                         <Text>Shop By:</Text>
                         <Text>Categories</Text>
@@ -278,12 +279,13 @@ const Navbar = () => {
                 />
               </Box>
             </Link>
+
             <Link to="/kids" onClick={() => setCategory("kids-clothing")}>
               <Box>
                 <Menuitem
                   navitem={"KIDS"}
                   item1={
-                    <Box>
+                    <Box fontSize="12px" >
                       <Flex gap="20px">
                         <Text>Shop By:</Text>
                         <Text>Categories</Text>
@@ -393,7 +395,7 @@ const Navbar = () => {
                 <Menuitem
                   navitem={"HOME & KITCHEN"}
                   item1={
-                    <Box>
+                    <Box fontSize="12px">
                       <Flex gap="20px">
                         <Text>Shop By:</Text>
                         <Text>Categories</Text>
@@ -497,13 +499,12 @@ const Navbar = () => {
                 />
               </Box>
             </Link>
+
             <Box>
-              {" "}
               <Input onKeyPress={handleEnter} placeholder={"SEARCH"} borderRadius="20px"></Input>
             </Box>
 
             <Box>
-              {/* <Button  >{login || user.name ? "LOGOUT" : "SIGN IN"}</Button> */}
               {loginValue !== null ? <Button colorScheme='red' onClick={handleLogout} >LOGOUT</Button> : <Link to="/login" ><Button colorScheme='green'>Login</Button></Link>}
             </Box>
 
