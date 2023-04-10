@@ -7,6 +7,7 @@ import { getReduxData } from '../../redux/action'
 import { getProductData } from '../../redux/Products/action'
 import CardPage from '../Womens/WomensCard'
 import Sidebar from '../Sidebar/Sidebar'
+import Navbar from "../Navbar/Navbar"
 
 const Kids = () => {
     const [search, setSearch] = useState("")
@@ -23,11 +24,13 @@ const Kids = () => {
     }, [])
 
     return (
-        <div className='kids-cont'>
-            <div className="kids-wrapper">
-                <div className='kids-left'>
-                   
-                    {/* <div className="filter-div">
+        <>
+            <Navbar />
+            <div className='kids-cont'>
+                <div className="kids-wrapper">
+                    <div className='kids-left'>
+
+                        {/* <div className="filter-div">
                         <div className='filter-category'>
                             <li>- Gender</li>
                             <ul>
@@ -216,51 +219,51 @@ const Kids = () => {
                         </div>
 
                     </div> */}
-                    <Sidebar />
-
-                </div>
-                <div className='kids-right'>
-
-                    <div className='right-head'>
-                        <div>Starting at Rs 129</div>
-                        <div>
-                            <ul>
-                                <li>{ }0 Items Found</li>
-                            </ul>
-                            <ul>
-                                <input placeholder='Search Here' value={search} onChange={(e) => setSearch(e.target.value)} type="text" />
-                                <button onClick={handleButton}>Search</button>
-                            </ul>
-                            <ul>
-                                <label htmlFor="">Sort By </label>
-                                <select name="" id="">
-                                    <option value="">Relevent</option>
-                                    <option value="">Price (Lowest First)</option>
-                                    <option value="">Price (Highest First)</option>
-                                    <option value="">Discount</option>
-                                </select>
-                            </ul>
-                        </div>
+                        <Sidebar />
 
                     </div>
-                    <div className='kids-content-wrapper'>
-                        <div className='kids-content'>
-                            {Products?.map((item) => <Card {...item} />)}
-                            {/* {Products?.map((product, index) => (
+                    <div className='kids-right'>
+
+                        <div className='right-head'>
+                            <div>Starting at Rs 129</div>
+                            <div>
+                                <ul>
+                                    <li>{ }0 Items Found</li>
+                                </ul>
+                                <ul>
+                                    <input placeholder='Search Here' value={search} onChange={(e) => setSearch(e.target.value)} type="text" />
+                                    <button onClick={handleButton}>Search</button>
+                                </ul>
+                                <ul>
+                                    <label htmlFor="">Sort By </label>
+                                    <select name="" id="">
+                                        <option value="">Relevent</option>
+                                        <option value="">Price (Lowest First)</option>
+                                        <option value="">Price (Highest First)</option>
+                                        <option value="">Discount</option>
+                                    </select>
+                                </ul>
+                            </div>
+
+                        </div>
+                        <div className='kids-content-wrapper'>
+                            <div className='kids-content'>
+                                {Products?.map((item) => <Card {...item} />)}
+                                {/* {Products?.map((product, index) => (
                             <CardPage {...product} key={index} />
                         ))} */}
 
 
 
+                            </div>
+
                         </div>
 
                     </div>
 
                 </div>
-
             </div>
-        </div>
-    )
+        </>)
 }
 
 export default Kids

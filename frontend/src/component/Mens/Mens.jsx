@@ -7,6 +7,7 @@ import { getProductData } from "../../redux/Products/action";
 import { Card } from "../Card/Card";
 import CardPage from '../Womens/WomensCard';
 import Sidebar from '../Sidebar/Sidebar';
+import Navbar from '../Navbar/Navbar';
 
 
 const Mens = () => {
@@ -24,11 +25,14 @@ const Mens = () => {
 
     }, [])
     return (
-        <div className='mens-cont'>
-            <div className="mens-wrapper">
-                <div className='mens-left'>
+        <>
+            <Navbar />
+            <div className='mens-cont'>
 
-                    {/* <div className="filter-div">
+                <div className="mens-wrapper">
+                    <div className='mens-left'>
+
+                        {/* <div className="filter-div">
                         <div className='filter-category'>
                             <li>- Gender </li>
                             <ul>
@@ -213,48 +217,49 @@ const Mens = () => {
 
                     </div> */}
 
-                    <Sidebar />
-                </div>
-                <div className='mens-right'>
-
-                    <div className='right-head'>
-                        <div>Starting at Rs 129</div>
-                        <div>
-                            <ul>
-                                <li>{ }0 Items Found</li>
-                            </ul>
-                            <ul>
-                                <input placeholder='Search Here' value={search} onChange={(e) => setSearch(e.target.value)} type="text" />
-                                <button onClick={handleButton}>Search</button>
-                            </ul>
-                            <ul className='select-tag-mens'>
-                                <label htmlFor="">Sort By </label>
-                                <select name="" id="">
-                                    <option value="">Relevent</option>
-                                    <option value="">Price (Lowest First)</option>
-                                    <option value="">Price (Highest First)</option>
-                                    <option value="">Discount</option>
-                                </select>
-                            </ul>
-                        </div>
-
+                        <Sidebar />
                     </div>
-                    <div className='mens-content-wrapper'>
-                        <div className='mens-content'>
-                            {Products?.map((item) =>
-                                <Card {...item} />
-                            )}
-                            {/* {Products?.map((product, index) => (
+                    <div className='mens-right'>
+
+                        <div className='right-head'>
+                            <div>Starting at Rs 129</div>
+                            <div>
+                                <ul>
+                                    <li>{ }0 Items Found</li>
+                                </ul>
+                                <ul>
+                                    <input placeholder='Search Here' value={search} onChange={(e) => setSearch(e.target.value)} type="text" />
+                                    <button onClick={handleButton}>Search</button>
+                                </ul>
+                                <ul className='select-tag-mens'>
+                                    <label htmlFor="">Sort By </label>
+                                    <select name="" id="">
+                                        <option value="">Relevent</option>
+                                        <option value="">Price (Lowest First)</option>
+                                        <option value="">Price (Highest First)</option>
+                                        <option value="">Discount</option>
+                                    </select>
+                                </ul>
+                            </div>
+
+                        </div>
+                        <div className='mens-content-wrapper'>
+                            <div className='mens-content'>
+                                {Products?.map((item) =>
+                                    <Card {...item} />
+                                )}
+                                {/* {Products?.map((product, index) => (
                             <CardPage {...product} key={index} />
                         ))} */}
+                            </div>
+
                         </div>
 
                     </div>
 
                 </div>
-
             </div>
-        </div>
+        </>
     )
 }
 
