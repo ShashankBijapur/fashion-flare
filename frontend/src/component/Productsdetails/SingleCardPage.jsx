@@ -8,7 +8,7 @@ import Carousel from './Caurosal'
 import { useToast } from '@chakra-ui/react'
 const SingleCardPage = () => {
     var product = JSON.parse(localStorage.getItem('ProductsDetails'))
-    console.log('product: ', product);
+    
 
     const toast = useToast()
     const { isOpen, onToggle } = useDisclosure()
@@ -32,7 +32,7 @@ const SingleCardPage = () => {
     const handletext = () => {
         setText(!text)
         if (text === true) {
-            axios.post("https://magnificent-bass-suit.cyclic.app/wishlist", product)
+            axios.post("https://magnificent-bass-suit.cyclic.app/wishlist", {...product,size})
 
             toast({
                 title: `Product Added to Wishlist Successfully`,
@@ -63,47 +63,44 @@ const SingleCardPage = () => {
     return (<>
 
 
-        <Box display={{base:"grid",md:"flex" ,lg: "flex",}} justifyContent= "space-evenly" width= "90%" margin= "auto" >
+        <Box display={{ base: "grid", md: "flex", lg: "flex", }} justifyContent="space-evenly" width="90%" margin="auto" >
 
             <div >
-                <div style={{ placeItems:"center" }}>
-                    <Image marginLeft={"60px"} placeItems={"center"} style={{ padding: "30px", }} width={{base:"250px",md:"350px",lg:"400px"}} src={product.src} alt={product.brand} />
+                <div style={{ placeItems: "center" }}>
+                    <Image marginLeft={"60px"} placeItems={"center"} style={{ padding: "30px", }} width={{ base: "250px", md: "350px", lg: "400px" }} src={product.src} alt={product.brand} />
 
-                <div style={{ textAlign: "center", }} >
-                    <Button color={"grey"} border="1px solid grey" mt={4} padding="5px" onClick={onToggle}>Returns Details</Button>
-                    <Fade in={isOpen}>
-                        <Box
-                            p='20px'
-                            color='black'
-                            mt='4'
-                            bg='white'
-                            rounded='md'
-                            shadow='md'
-                            width={400}
-                            fontSize="10px"
-                        >
-                            Easy 15 days return and exchange. Return Policies may vary based on products and promotions. For full details on our Returns Policies, please click here․
-                        </Box>
-                    </Fade>
+                    <div style={{ textAlign: "center", }} >
+                        <Button color={"grey"} border="1px solid grey" mt={4} padding="5px" onClick={onToggle}>Returns Details</Button>
+                        <Fade in={isOpen}>
+                            <Box
+                                p='20px'
+                                color='black'
+                                mt='4'
+                                bg='white'
+                                rounded='md'
+                                shadow='md'
+                                width={400}
+                                fontSize="10px"
+                            >
+                                Easy 15 days return and exchange. Return Policies may vary based on products and promotions. For full details on our Returns Policies, please click here․
+                            </Box>
+                        </Fade>
 
-                </div>
+                    </div>
                 </div>
             </div>
 
             <div style={{ textAlign: "center", padding: "10px" }} >
                 <div style={{ textAlign: "center", padding: "10px" }}>
                     <h5 style={{ color: "rgb(177, 153, 117)" }}>{product.brand}</h5>
-                    <h5 style={{ fontSize: "16px", width: "300px", margin: "auto" }}>{product.nameCls}</h5>
-                    <p style={{ padding: "5px" }}>₹{product.price}
-                    </p>
+                    <h5 style={{ fontSize: "16px", width: "300px", margin: "auto" }}>{product.title}</h5>
+
                     <div style={{ display: "flex ", gap: "10px", textAlign: "center", justifyContent: "center" }}>
-                        <p style={{ color: "rgb(177, 153, 117)", textDecoration: "line-through" }}>
-                            MRP ₹{product.orginalprice}
-                        </p>
-                        <p style={{ color: "rgb(177, 153, 117)" }}> ({product.discount} %off) </p>
+                        <div style={{ color: "rgb(177, 153, 117)" }}>{product.discountPrice.includes("₹") ? product.discountPrice : `₹${product.discountPrice}`} <span style={{ textDecoration: "line-through" }}>{product.orginalPrice.includes("₹") ? product.orginalPrice : `₹${product.orginalPrice}`} </span> </div>
+                        <p style={{ color: "rgb(177, 153, 117)" }}>{product.discount} </p>
                     </div>
 
-                    <h5 style={{ color: "rgb(58,182,73)" }}>Offer Price ₹{product.offerpricess}</h5>
+                    <h5 style={{ color: "rgb(58,182,73)" }}>Offer Price ₹{product.offer}</h5>
                     <p>Price Inclusive Of All Taxes</p>
                     <select style={{ border: "1px solid black", width: "200px", marginTop: "10px", padding: "10px" }} value={size} onChange={handleSizeChange}>
                         <option value="" disabled selected>Select Size</option>
@@ -134,7 +131,7 @@ const SingleCardPage = () => {
                     <li>Machine wash cold</li>
                     <li>High Rise</li>
                     <li>99% cotton, 1% elastane</li>
-                    <li>Product Code:{Math.floor(Math.random() * 10000000)}</li>
+                    <li>Product Code:{product._id}</li>
 
                 </div>
             </div>
@@ -171,7 +168,7 @@ const SingleCardPage = () => {
                 <div style={{ margin: "30px 0px", padding: "10px" }}>
                     <Carousel data={data} />
                 </div>
-                <Box display={{base:"grid",md:"flex"}} style={{  justifyContent: "space-between", width: "60%", margin: "auto", marginTop: "50px" }}>
+                <Box display={{ base: "grid", md: "flex" }} style={{ justifyContent: "space-between", width: "60%", margin: "auto", marginTop: "50px" }}>
                     <div onClick={navigateto} style={{ padding: "30px", background: "rgb(248,248,248)" }}> <h1>View more</h1></div>
                     <div style={{ padding: "30px", background: "rgb(248,248,248)" }}> <h1>Style:view more</h1></div>
                     <div style={{ padding: "30px", background: "rgb(248,248,248)" }}> <h1>Brand:{product.brand}</h1></div>
@@ -184,18 +181,18 @@ const SingleCardPage = () => {
 
         <div style={{ display: "flex", justifyContent: "space-around", backgroundColor: "rgb(250,250,250)", marginTop: "100px" }}>
             <div style={{}}>
-                 <img width="60px" src="https://cdn-icons-png.flaticon.com/512/182/182308.png" alt="" />
-                 <h2>Easy Returns</h2>
-             </div>
-             <div style={{}}>
-                 <img width="60px" src="https://thumbs.dreamstime.com/b/empathy-vector-icon-black-silhouette-flat-illustration-isolated-white-background-204899514.jpg" alt="" />
-                 <h2>!100% Hand Picked</h2>
-             </div>
-             <div style={{}}>
-                 <img width="60px" src="https://d1pt6w2mt2xqso.cloudfront.net/AcuCustom/Sitename/DAM/044/FSEweek-icon-tick.png" alt="" />
-                 <h2> Assured Quality</h2>
-             </div>
-         </div>
+                <img width="60px" src="https://cdn-icons-png.flaticon.com/512/182/182308.png" alt="" />
+                <h2>Easy Returns</h2>
+            </div>
+            <div style={{}}>
+                <img width="60px" src="https://thumbs.dreamstime.com/b/empathy-vector-icon-black-silhouette-flat-illustration-isolated-white-background-204899514.jpg" alt="" />
+                <h2>!100% Hand Picked</h2>
+            </div>
+            <div style={{}}>
+                <img width="60px" src="https://d1pt6w2mt2xqso.cloudfront.net/AcuCustom/Sitename/DAM/044/FSEweek-icon-tick.png" alt="" />
+                <h2> Assured Quality</h2>
+            </div>
+        </div>
 
 
 

@@ -1,11 +1,9 @@
 import axios from 'axios'
 import React, { useState, useEffect, useRef } from 'react'
-import { Box, Button, Checkbox, CheckboxGroup, Fade, Flex, Image, Stack, Text } from '@chakra-ui/react';
+import { Box, Button, Checkbox, CheckboxGroup, Flex, Image, Stack, Text } from '@chakra-ui/react';
 import CartCard from './CartCard';
-
 import { Input, useDisclosure } from '@chakra-ui/react'
-import { CheckIcon } from '@chakra-ui/icons'
-import { Link, Navigate, useNavigate } from 'react-router-dom';
+import {  useNavigate } from 'react-router-dom';
 import Paymentmodal from '../PaymentModel/Payments';
 import { useDispatch } from "react-redux"
 import { getCartData } from '../../redux/action';
@@ -34,12 +32,12 @@ const Cart = () => {
     }
     useEffect(() => {
         getcartdata()
-    }, [cart]);
+    }, [count]);
 
     console.log(cart)
     return (
         <>
-                {cart.length === 0 ?
+            {cart.length === 0 ?
                 <Box textAlign={"center"}>
                     <div>
                         <img src="https://assets.ajio.com/cms/AJIO/WEB/28032021-D-cartpagebanner-relianceones.jpg" alt="" />
@@ -89,7 +87,7 @@ const Cart = () => {
                 </Box> :
                 <Box>
                     <Box width={"80%"} display={{ base: "grid", sm: "flex" }} margin="auto" gap={"20px"} >
-                        <Box width={{base:"100%",sm:"70%"}} margin={"auto"} marginTop={"30px"} >
+                        <Box width={{ base: "100%", sm: "70%" }} margin={"auto"} marginTop={"30px"} >
                             <Text textAlign={"left"}>My Bag({cart.length}item)</Text>
                             <Box style={{ textAlign: "center" }}>
                                 {cart.map((item, index) =>
@@ -98,7 +96,7 @@ const Cart = () => {
                         </Box>
 
 
-                        <Box width={{base:"100%",sm:"30%"}}  bg={"rgb(250,250,250)"} padding="10px" marginTop={"30px"}>
+                        <Box width={{ base: "100%", sm: "30%" }} bg={"rgb(250,250,250)"} padding="10px" marginTop={"30px"}>
                             <Box padding={"5px"} margin={"5px"} >
 
                                 <Text fontFamily={"Lora"} fontWeight="700" textAlign={"left"} color="rgb(51, 51, 51)">Order Details</Text>
@@ -234,29 +232,29 @@ const Cart = () => {
 
                     </Box>
 
-                        <hr />
-                        <Box  display={"grid"} width="100%" margin="auto" gridTemplateColumns={{base:"repeat(2, 1fr)",md:"repeat(4, 1fr)"}} justifyContent="space-around" backgroundColor="rgb(250,250,250)" color="rgb(213,162,73)" marginTop="20px" padding={"30px"}  >
-                            <Flex>
-                                <Image width={"40px"} padding="5px" src='https://penncommunitybank.imgix.net/wp-content/uploads/2019/11/security-icon.png?auto=compress&fit=crop' />
-                                <Text padding={"10px"}>SECURE PAYMENTS</Text>
-                            </Flex>
-                            <Flex>
-                                <Image width={"40px"} padding="5px" src='https://static.thenounproject.com/png/2724368-200.png' />
-                                <Text padding={"10px"}>CASH ON DELIVERY</Text>
-                            </Flex>
-                            <Flex>
-                                <Image width={"40px"} padding="5px" src='https://cdn-icons-png.flaticon.com/512/1883/1883880.png' />
-                                <Text padding={"10px"}>ASSURED QUALITY</Text>
-                            </Flex>
-                            <Flex>
-                                <Image width={"40px"} padding="5px" src='https://static.thenounproject.com/png/1015317-200.png' />
-                                <Text padding={"10px"}>EASY RETURNS</Text>
-                            </Flex>
-                        </Box>
+                    <hr />
+                    <Box display={"grid"} width="100%" margin="auto" gridTemplateColumns={{ base: "repeat(2, 1fr)", md: "repeat(4, 1fr)" }} justifyContent="space-around" backgroundColor="rgb(250,250,250)" color="rgb(213,162,73)" marginTop="20px" padding={"30px"}  >
+                        <Flex>
+                            <Image width={"40px"} padding="5px" src='https://penncommunitybank.imgix.net/wp-content/uploads/2019/11/security-icon.png?auto=compress&fit=crop' />
+                            <Text padding={"10px"}>SECURE PAYMENTS</Text>
+                        </Flex>
+                        <Flex>
+                            <Image width={"40px"} padding="5px" src='https://static.thenounproject.com/png/2724368-200.png' />
+                            <Text padding={"10px"}>CASH ON DELIVERY</Text>
+                        </Flex>
+                        <Flex>
+                            <Image width={"40px"} padding="5px" src='https://cdn-icons-png.flaticon.com/512/1883/1883880.png' />
+                            <Text padding={"10px"}>ASSURED QUALITY</Text>
+                        </Flex>
+                        <Flex>
+                            <Image width={"40px"} padding="5px" src='https://static.thenounproject.com/png/1015317-200.png' />
+                            <Text padding={"10px"}>EASY RETURNS</Text>
+                        </Flex>
+                    </Box>
 
-                        <hr style={{ fontSize: "10px" }} />
-                    
-                    <Box  display={"grid"} width="100%" margin="auto" gridTemplateColumns={{base:"repeat(2, 1fr)",md:"repeat(3, 1fr)"}} justifyContent="space-around" backgroundColor="rgb(250,250,250)" marginTop="20px">
+                    <hr style={{ fontSize: "10px" }} />
+
+                    <Box display={"grid"} width="100%" margin="auto" gridTemplateColumns={{ base: "repeat(2, 1fr)", md: "repeat(3, 1fr)" }} justifyContent="space-around" backgroundColor="rgb(250,250,250)" marginTop="20px">
                         <div >
                             <img width="60px" src="https://cdn-icons-png.flaticon.com/512/182/182308.png" alt="" />
                             <h2>Easy Returns</h2>

@@ -14,6 +14,7 @@ function Womens() {
   const handleSubmit = (productType) => {};
   const dispatch = useDispatch();
   const Products = useSelector((store) => store.ProductReducer.Products);
+  console.log('Products: ', Products);
 
   useEffect(() => {
     dispatch(getProductData("women"));
