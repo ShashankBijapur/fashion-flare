@@ -6,7 +6,12 @@ import { Input, useDisclosure } from '@chakra-ui/react'
 import {  useNavigate } from 'react-router-dom';
 import Paymentmodal from '../PaymentModel/Payments';
 import { useDispatch } from "react-redux"
-import { getCartData } from '../../redux/action';
+import { getCartData } from '../../redux/action'
+import { useMediaQuery } from '@chakra-ui/react'
+import Navbar from '../Navbar/Navbar';
+import MobileNav from '../Navbar/MobileNav';
+
+
 const Cart = () => {
     const [cart, setcart] = useState([])
     const [count, setCount] = useState(1)
@@ -14,7 +19,8 @@ const Cart = () => {
     const ref = useRef()
     const navigate = useNavigate()
     const { isOpen, onToggle } = useDisclosure()
-
+const [isLargerThan800] = useMediaQuery("(min-width: 800px)");
+    
     const getcartdata = () => {
         axios.get("https://magnificent-bass-suit.cyclic.app/cart")
             .then(res => {
@@ -34,9 +40,10 @@ const Cart = () => {
         getcartdata()
     }, [count]);
 
-    console.log(cart)
+    
     return (
         <>
+        {isLargerThan800 ? <Navbar/> : <MobileNav />}
             {cart.length === 0 ?
                 <Box textAlign={"center"}>
                     <div>

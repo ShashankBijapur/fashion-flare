@@ -5,24 +5,26 @@ import { Box, Button, Input } from "@chakra-ui/react";
 import { useDispatch, useSelector } from "react-redux";
 import { getProductData } from "../../redux/Products/action";
 import { Card } from "../Card/Card";
-import CardPage from "./WomensCard";
+// import CardPage from "./WomensCard";
 import Sidebar from "../Sidebar/Sidebar";
-import Navbar from "../Navbar/Navbar";
+import Navbar from '../Navbar/Navbar';
+import MobileNav from '../Navbar/MobileNav';
 // import { Box } from '@chakra-ui/react';
+import { useMediaQuery } from '@chakra-ui/react'
 function Womens() {
   let [productType, setProductType] = useState("womens");
   const [text, settext] = useState("");
   const handleSubmit = (productType) => { };
   const dispatch = useDispatch();
   const Products = useSelector((store) => store.ProductReducer.Products);
-  console.log('Products: ', Products);
+  const [isLargerThan800] = useMediaQuery("(min-width: 800px)");
 
   useEffect(() => {
     dispatch(getProductData("women"));
   }, []);
   return (
     <>
-    <Navbar/>
+    {isLargerThan800 ? <Navbar /> : <MobileNav />}
       <div
         style={{
           display: "flex",

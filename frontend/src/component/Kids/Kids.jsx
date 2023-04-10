@@ -1,13 +1,16 @@
 import React, { useEffect, useState } from 'react'
 import "./Kids.css"
-import Card from './Card'
+// import Card from './Card'
+import { Card } from "../Card/Card";
 // import axios from "axios"
 import { useDispatch, useSelector } from 'react-redux'
 import { getReduxData } from '../../redux/action'
 import { getProductData } from '../../redux/Products/action'
 import CardPage from '../Womens/WomensCard'
 import Sidebar from '../Sidebar/Sidebar'
-import Navbar from "../Navbar/Navbar"
+import Navbar from '../Navbar/Navbar';
+import MobileNav from '../Navbar/MobileNav';
+import { useMediaQuery } from '@chakra-ui/react'
 
 const Kids = () => {
     const [search, setSearch] = useState("")
@@ -22,10 +25,10 @@ const Kids = () => {
     useEffect(() => {
         dispatch(getProductData("kid"))
     }, [])
-
+    const [isLargerThan800] = useMediaQuery("(min-width: 800px)");
     return (
         <>
-            <Navbar />
+            {isLargerThan800 ? <Navbar /> : <MobileNav />}
             <div className='kids-cont'>
                 <div className="kids-wrapper">
                     <div className='kids-left'>

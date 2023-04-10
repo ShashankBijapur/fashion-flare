@@ -8,13 +8,15 @@ import { Card } from "../Card/Card";
 import CardPage from '../Womens/WomensCard';
 import Sidebar from '../Sidebar/Sidebar';
 import Navbar from '../Navbar/Navbar';
+import MobileNav from '../Navbar/MobileNav';
 
-
+import { useMediaQuery } from '@chakra-ui/react'
 const Mens = () => {
     const [search, setSearch] = useState("")
     const [box, setBox] = useState(null)
     const dispatch = useDispatch()
     const Products = useSelector(store => store.ProductReducer.Products)
+    const [isLargerThan800] = useMediaQuery("(min-width: 800px)");
 
     const handleButton = () => {
         dispatch(getReduxData(`men${search}`));
@@ -26,7 +28,7 @@ const Mens = () => {
     }, [])
     return (
         <>
-            <Navbar />
+            {isLargerThan800 ? <Navbar /> : <MobileNav />}
             <div className='mens-cont'>
 
                 <div className="mens-wrapper">

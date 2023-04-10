@@ -5,15 +5,15 @@ import {
     PopoverContent,
     PopoverHeader,
     PopoverBody,
-    PopoverFooter,
+    
     PopoverArrow,
     PopoverCloseButton,
-    PopoverAnchor,
+    
     Button,
 } from '@chakra-ui/react'
 import axios from 'axios'
 
-// import { ChevronDownIcon } from '@chakra-ui/icons'
+
 
 
 const CartBox = ({ item, setCount,count }) => {
@@ -25,7 +25,7 @@ const CartBox = ({ item, setCount,count }) => {
     };
     console.log(cartitem)
     const deleteitem = (id) => {
-        // window.location.reload(true);
+       
         console.log(id)
         axios.delete(`https://magnificent-bass-suit.cyclic.app/cart/${id}`)
             // .then(res=>res.json())
@@ -102,4 +102,4 @@ const CartBox = ({ item, setCount,count }) => {
     )
 }
 
-export default CartBox
+// export default CartBox
