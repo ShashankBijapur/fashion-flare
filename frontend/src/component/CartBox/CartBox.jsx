@@ -86,7 +86,7 @@ const CartBox = ({ item, setCount,count }) => {
                 <div style={{ display: "grid", gap: "50px" }}>
                     <div >
                         <h1> Discount  Rs.{item.offerpricess}</h1>
-                        {/* <h1></h1> */}
+                      
                         <h1> <p style={{textDecoration:"line-through"}}>Rs. {item.orginalprice}</p>  <span>{item.discount}%Off</span> <span> Rs. {item.price * count}</span></h1>
                     </div>
                     <div>

@@ -67,7 +67,7 @@ const Navbar = () => {
                 <Menuitem
                   navitem={"MEN"}
                   item1={
-                    <Box>
+                    <Box fontSize="12px">
                       <Flex gap="20px">
                         <Text>Shop By:</Text>
                         <Text>Categories</Text>
@@ -175,7 +175,7 @@ const Navbar = () => {
                 <Menuitem
                   navitem={"WOMEN"}
                   item1={
-                    <Box>
+                    <Box fontSize="12px">
                       <Flex gap="20px">
                         <Text>Shop By:</Text>
                         <Text>Categories</Text>
@@ -283,7 +283,7 @@ const Navbar = () => {
                 <Menuitem
                   navitem={"KIDS"}
                   item1={
-                    <Box>
+                    <Box fontSize="12px">
                       <Flex gap="20px">
                         <Text>Shop By:</Text>
                         <Text>Categories</Text>
@@ -388,12 +388,11 @@ const Navbar = () => {
             </Link>
 
             <Link to="/homeandkitchen">
-
               <Box>
                 <Menuitem
                   navitem={"HOME & KITCHEN"}
                   item1={
-                    <Box>
+                    <Box fontSize="12px">
                       <Flex gap="20px">
                         <Text>Shop By:</Text>
                         <Text>Categories</Text>
@@ -497,8 +496,9 @@ const Navbar = () => {
                 />
               </Box>
             </Link>
+
             <Box>
-              {" "}
+
               <Input onKeyPress={handleEnter} placeholder={"SEARCH"} borderRadius="20px"></Input>
             </Box>
 

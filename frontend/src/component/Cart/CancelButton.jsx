@@ -14,7 +14,7 @@ import {
   Image,
 } from '@chakra-ui/react'
 import React from 'react'
-import PaymentSuccess from './PaymentSuccess'
+import PaymentSuccess from '../PaymentModel/PaymentSuccess'
 function CancelButton() {
   const { isOpen, onOpen, onClose } = useDisclosure()
   const cancelRef = React.useRef()
