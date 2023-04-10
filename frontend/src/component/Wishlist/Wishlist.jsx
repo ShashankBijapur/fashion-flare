@@ -31,19 +31,20 @@ const Wishlist = () => {
     }
     React.useEffect(() => {
         getdata()
-    },[]);
+    });
     return (
         <>
             {isLargerThan800 ? <Navbar /> : <MobileNav />}
+            <Box textAlign={"center"} margin="2% 0% 0% 0%" fontSize={"42px"} fontFamily="Lora" fontWeight={600} >My Wishlist</Box>
             {wishlist.length === 0 ? <Box textAlign={"center"} margin="5% 5%" justifyContent="center" >
-                <Box fontSize={"42px"} fontFamily="Lora" fontWeight={600} >My Wishlist</Box>
+                
                 <Text mt="10px" >Your Wishlist is empty!!</Text>
                 <Text mt="10px" >ADD A FEW PRODUCTS AND THEN EXPLORE THE COOLEST WAY TO SHOP CLOTHES ONLINE!</Text>
 
                 <Button mt="10px" bg="rgb(213,162,73)" onClick={handltenavigate} colorScheme="none" color="white">Continue Shopping</Button>
 
             </Box> : <Box className="women-right" width={"70%"} margin="auto">
-                <Box>My Wishlist</Box>
+                
 
 
 
@@ -76,7 +77,7 @@ const Wishlist = () => {
                                         <div>Get it at {item.offer} {item.discount}</div>
                                         <Box display="flex" gap="20px" >
                                             <Button colorScheme="green">Add to bag</Button>
-                                            <Button onClick={handledelete(item.id)} colorScheme="red">Delete</Button>
+                                            <Button onClick={()=>handledelete(item.id)} colorScheme="red">Delete</Button>
                                         </Box>
                                     </div>
                                 </div>
