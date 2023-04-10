@@ -21,7 +21,7 @@ function Womens() {
   }, []);
   return (
     <>
-    <Navbar/>
+      <Navbar />
       <div
         style={{
           display: "flex",
@@ -31,7 +31,6 @@ function Womens() {
           gap: "80px",
         }}
       >
-        
         <Box
           display={{ base: "none", sm: "none", md: "flex", lg: "flex" }}
           className="women-left-cont"
@@ -39,147 +38,6 @@ function Womens() {
           marginTop="50px"
         >
           <div className="women-left">
-            {/* <div
-              style={{ textAlign: "left", marginLeft: "40px" }}
-              className="filter-div"
-            >
-              <div className="filter-category">
-                <div> Category</div>
-                <div style={{ fontSize: "12px", padding: "10px" }}>
-                  <h6>
-                    <input value="tshirts" type="checkbox" />
-                    <label htmlFor="#">T-Shirt</label>
-                  </h6>
-
-                  <h6>
-                    <input value="kurta" type="checkbox" />
-                    <label htmlFor="#">Kurtas</label>
-                  </h6>
-                  <h6>
-                    <input value="jeans" type="checkbox" />
-                    <label htmlFor="#">Jeans</label>
-                  </h6>
-
-                  <h6>
-                    <input value="saree" type="checkbox" />
-                    <label htmlFor="#">Saree</label>
-                  </h6>
-                </div>
-              </div>
-              <hr />
-
-              <div className="filter-category">
-                <div> Price</div>
-                <div style={{ fontSize: "12px", padding: "10px" }}>
-                  <h6>
-                    <input type="checkbox" />
-                    <label htmlFor="#">Below Rs 500</label>
-                  </h6>
-                  <h6>
-                    <input type="checkbox" />
-                    <label htmlFor="#">Below Rs 500-1000</label>
-                  </h6>
-                  <h6>
-                    <input type="checkbox" />
-                    <label htmlFor="#">Below Rs 1001-1500</label>
-                  </h6>
-                  <h6>
-                    <input type="checkbox" />
-                    <label htmlFor="#">Below Rs 1501-2000</label>
-                  </h6>
-
-                  <h6>
-                    <input type="checkbox" />
-                    <label htmlFor="#">Below Rs 2001-2500</label>
-                  </h6>
-                </div>
-              </div>
-              <hr />
-
-              <div className="filter-category">
-                <div> Brands</div>
-                <div style={{ fontSize: "12px", padding: "10px" }}>
-                  <h6>
-                    <input value="Kimayra" type="checkbox" />
-                    <label htmlFor="#">Kimayra</label>
-                  </h6>
-                  <h6>
-                    <input type="checkbox" />
-                    <label htmlFor="#">21 Degree</label>
-                  </h6>
-                  <h6>
-                    <input type="checkbox" />
-                    <label htmlFor="#">23 Yard</label>
-                  </h6>
-                  <h6>
-                    <input type="checkbox" />
-                    <label htmlFor="#">28ME</label>
-                  </h6>
-
-                  <h6>
-                    <input type="checkbox" />
-                    <label htmlFor="#">2Go</label>
-                  </h6>
-                </div>
-              </div>
-
-              <hr />
-
-              <div className="filter-category">
-                <div> Occation</div>
-                <div style={{ fontSize: "12px", padding: "10px" }}>
-                  <h6>
-                    <input type="checkbox" />
-                    <label htmlFor="#">Active</label>
-                  </h6>
-                  <h6>
-                    <input type="checkbox" />
-                    <label htmlFor="#">ACTIVE</label>
-                  </h6>
-                  <h6>
-                    <input type="checkbox" />
-                    <label htmlFor="#">Casual</label>
-                  </h6>
-                  <h6>
-                    <input type="checkbox" />
-                    <label htmlFor="#">CASUAL</label>
-                  </h6>
-
-                  <h6>
-                    <input type="checkbox" />
-                    <label htmlFor="#">EVENING</label>
-                  </h6>
-                </div>
-              </div>
-              <hr />
-              <div className="filter-category">
-                <div> Discount</div>
-                <div style={{ fontSize: "12px", padding: "10px" }}>
-                  <h6>
-                    <input type="checkbox" />
-                    <label htmlFor="#">0-20%</label>
-                  </h6>
-                  <h6>
-                    <input type="checkbox" />
-                    <label htmlFor="#">21%-30%</label>
-                  </h6>
-                  <h6>
-                    <input type="checkbox" />
-                    <label htmlFor="#">31%-40%</label>
-                  </h6>
-                  <h6>
-                    <input type="checkbox" />
-                    <label htmlFor="#">41%-50%</label>
-                  </h6>
-
-                  <h6>
-                    <input type="checkbox" />
-                    <label htmlFor="#">51%-80%</label>
-                  </h6>
-                </div>
-              </div>
-              <hr />
-            </div> */}
             <Sidebar />
           </div>
         </Box>
@@ -305,9 +163,6 @@ function Womens() {
             {Products.map((item) => (
               <Card {...item} />
             ))}
-            {/* {Products?.map((product, index) => (
-                            <CardPage {...product} key={index} />
-                        ))} */}
           </Box>
         </Box>
       </div>
