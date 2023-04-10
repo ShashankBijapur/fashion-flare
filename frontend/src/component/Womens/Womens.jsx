@@ -5,6 +5,7 @@ import { Box, Button, Input } from "@chakra-ui/react";
 import { useDispatch, useSelector } from "react-redux";
 import { getProductData } from "../../redux/Products/action";
 import { Card } from "../Card/Card";
+import CardPage from "./WomensCard";
 // import { Box } from '@chakra-ui/react';
 function Womens() {
   let [productType, setProductType] = useState("womens");
@@ -299,6 +300,9 @@ function Womens() {
             {Products.map((item) => (
               <Card {...item} />
             ))}
+            {/* {Products?.map((product, index) => (
+                            <CardPage {...product} key={index} />
+                        ))} */}
           </Box>
         </Box>
       </div>

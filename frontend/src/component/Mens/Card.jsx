@@ -9,7 +9,7 @@ const Card = ({ id, src, brand, nameCls, price, discount, offer }) => {
     
 
     const handleDetail = () => {
-        navigate("/siglecard")
+        navigate("/singlecard")
         localStorage.setItem("ProductsDetails", JSON.stringify(product))
 
     }

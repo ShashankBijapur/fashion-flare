@@ -1,7 +1,7 @@
 import { Box, Image, Text } from '@chakra-ui/react';
 import React from 'react'
 import { useNavigate } from 'react-router-dom';
-import './WomensCard.css'
+// import './WomensCard.css'
 
 
 const CardPage = ({ id, src, brand, nameCls, price, discount, offer,orginalprice,offerpricess },key) => {
@@ -9,7 +9,7 @@ const CardPage = ({ id, src, brand, nameCls, price, discount, offer,orginalprice
     const handledata = () => {
         // console.log(product)
         const product = { id, src, brand, nameCls, price, discount, offer,quantity:1 }
-        navigate("/siglecard")
+        navigate("/singlecard")
         localStorage.setItem("ProductsDetails", JSON.stringify(product))
     }
     return (

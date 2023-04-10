@@ -5,6 +5,7 @@ import { useDispatch, useSelector } from 'react-redux'
 import { getReduxData } from "../../redux/action";
 import { getProductData } from "../../redux/Products/action";
 import { Card } from "../Card/Card";
+import CardPage from '../Womens/WomensCard';
 
 
 const Mens = () => {
@@ -246,6 +247,9 @@ const Mens = () => {
                             {Products?.map((item) =>
                                 <Card {...item} />
                             )}
+                            {/* {Products?.map((product, index) => (
+                            <CardPage {...product} key={index} />
+                        ))} */}
                         </div>
 
                     </div>

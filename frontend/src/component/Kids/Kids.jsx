@@ -5,6 +5,7 @@ import Card from './Card'
 import { useDispatch, useSelector } from 'react-redux'
 import { getReduxData } from '../../redux/action'
 import { getProductData } from '../../redux/Products/action'
+import CardPage from '../Womens/WomensCard'
 
 const Kids = () => {
     const [search, setSearch] = useState("")
@@ -245,6 +246,9 @@ const Kids = () => {
                     <div className='kids-content-wrapper'>
                         <div className='kids-content'>
                             {Products?.map((item) => <Card {...item} />)}
+                            {/* {Products?.map((product, index) => (
+                            <CardPage {...product} key={index} />
+                        ))} */}
 
 
 

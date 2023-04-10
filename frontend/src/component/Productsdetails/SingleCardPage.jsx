@@ -24,7 +24,6 @@ const SingleCardPage = () => {
 
     useEffect(() => {
         getdata()
-
     }, []);
 
     const handleSizeChange = (event) => {

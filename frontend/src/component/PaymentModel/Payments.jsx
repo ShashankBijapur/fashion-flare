@@ -13,7 +13,7 @@ import {
     Input,
     Flex,
 } from '@chakra-ui/react'
-import CancelButton from './CancelButton'
+import CancelButton from '../Cart/CancelButton'
 
 function Paymentmodal({ total }) {
     const { isOpen, onOpen, onClose } = useDisclosure()
