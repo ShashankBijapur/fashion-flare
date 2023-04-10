@@ -36,7 +36,7 @@ const SingleCardPage = () => {
     const handletext = () => {
         setText(!text)
         if (text === true) {
-            axios.post("https://magnificent-bass-suit.cyclic.app/wishlist", {...product,size})
+            axios.post("http://localhost:4000/wishlist/add", {...product,size})
 
             toast({
                 title: `Product Added to Wishlist Successfully`,

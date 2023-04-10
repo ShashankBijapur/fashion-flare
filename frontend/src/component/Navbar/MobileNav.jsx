@@ -5,7 +5,6 @@ import {
   Box,
   Text,
   Image,
-
   Button,
 } from "@chakra-ui/react";
 import MobileItem from "./MobileItem";
@@ -61,6 +60,23 @@ const MobileNav = () => {
           <Button colorScheme="red" size="sm">SignIn</Button>
         </Link>
         <Link to="/cart">
+
+          <Box
+
+            right="20px"
+            width={"fit-content"}
+            height="1rem"
+            display={"flex"}
+            alignItems={"center"}
+            gap="3"
+          >
+            <BsFillBagCheckFill style={{ fontSize: "30px" }} />
+            <Text as="b" fontSize={"xs"}>
+              {cartLength}
+            </Text>
+          </Box>
+        </Link>
+        <Link to="/wishlist">
 
           <Box
 
