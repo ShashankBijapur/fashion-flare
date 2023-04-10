@@ -6,6 +6,7 @@ import { useDispatch, useSelector } from 'react-redux'
 import { getReduxData } from '../../redux/action'
 import { getProductData } from '../../redux/Products/action'
 import CardPage from '../Womens/WomensCard'
+import Sidebar from '../Sidebar/Sidebar'
 
 const Kids = () => {
     const [search, setSearch] = useState("")
@@ -25,10 +26,8 @@ const Kids = () => {
         <div className='kids-cont'>
             <div className="kids-wrapper">
                 <div className='kids-left'>
-                    {/* <div>
-                        Refined By
-                    </div> */}
-                    <div className="filter-div">
+                   
+                    {/* <div className="filter-div">
                         <div className='filter-category'>
                             <li>- Gender</li>
                             <ul>
@@ -47,7 +46,7 @@ const Kids = () => {
 
                             </ul>
                         </div>
-                        {/* <hr /> */}
+                        
                         <div className='filter-category'>
                             <li>- Category</li>
                             <ul>
@@ -75,7 +74,7 @@ const Kids = () => {
                             </ul>
 
                         </div>
-                        {/* <hr /> */}
+                        
 
                         <div className='filter-category'>
                             <li>- Price</li>
@@ -129,7 +128,7 @@ const Kids = () => {
 
                         </div>
 
-                        {/* <hr /> */}
+                        
 
                         <div className='filter-category'>
                             <li>- Occation</li>
@@ -156,7 +155,7 @@ const Kids = () => {
 
                         </div>
 
-                        {/* <hr /> */}
+                        
 
                         <div className='filter-category'>
                             <li>- Discount</li>
@@ -186,7 +185,7 @@ const Kids = () => {
 
                         </div>
 
-                        {/* <hr /> */}
+                        
 
                         <div className='filter-category'>
                             <li>- Size & Fit</li>
@@ -216,7 +215,8 @@ const Kids = () => {
 
                         </div>
 
-                    </div>
+                    </div> */}
+                    <Sidebar />
 
                 </div>
                 <div className='kids-right'>

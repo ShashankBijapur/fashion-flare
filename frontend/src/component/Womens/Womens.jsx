@@ -6,6 +6,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { getProductData } from "../../redux/Products/action";
 import { Card } from "../Card/Card";
 import CardPage from "./WomensCard";
+import Sidebar from "../Sidebar/Sidebar";
 // import { Box } from '@chakra-ui/react';
 function Womens() {
   let [productType, setProductType] = useState("womens");
@@ -35,7 +36,7 @@ function Womens() {
           marginTop="50px"
         >
           <div className="women-left">
-            <div
+            {/* <div
               style={{ textAlign: "left", marginLeft: "40px" }}
               className="filter-div"
             >
@@ -175,8 +176,10 @@ function Womens() {
                 </div>
               </div>
               <hr />
-            </div>
+            </div> */}
+              <Sidebar/>
           </div>
+        
         </Box>
 
         <Box

@@ -6,6 +6,7 @@ import { getReduxData } from "../../redux/action";
 import { getProductData } from "../../redux/Products/action";
 import { Card } from "../Card/Card";
 import CardPage from '../Womens/WomensCard';
+import Sidebar from '../Sidebar/Sidebar';
 
 
 const Mens = () => {
@@ -26,10 +27,8 @@ const Mens = () => {
         <div className='mens-cont'>
             <div className="mens-wrapper">
                 <div className='mens-left'>
-                    {/* <div>
-                        Refined By
-                    </div> */}
-                    <div className="filter-div">
+
+                    {/* <div className="filter-div">
                         <div className='filter-category'>
                             <li>- Gender </li>
                             <ul>
@@ -39,14 +38,11 @@ const Mens = () => {
                                 </li>
                             </ul>
                         </div>
-                        {/* <hr /> */}
+                    
                         <div className='filter-category'>
                             <li>- Category</li>
                             <ul>
-                                {/* <li>
-                                    <input  type="checkbox" />
-                                    <label htmlFor="#">T-Shirt</label>
-                                </li> */}
+                                
                                 <li>
                                     <input onChange={(e) => setBox("shirt")} type="checkbox" />
                                     <label htmlFor="#">Shirt</label>
@@ -67,7 +63,7 @@ const Mens = () => {
                             </ul>
 
                         </div>
-                        {/* <hr /> */}
+                        
 
                         <div className='filter-category'>
                             <li>- Price</li>
@@ -125,7 +121,7 @@ const Mens = () => {
 
                         </div>
 
-                        {/* <hr /> */}
+                        
 
                         <div className='filter-category'>
                             <li>- Occation</li>
@@ -155,7 +151,7 @@ const Mens = () => {
 
                         </div>
 
-                        {/* <hr /> */}
+                       
 
                         <div className='filter-category'>
                             <li>- Discount</li>
@@ -185,7 +181,7 @@ const Mens = () => {
 
                         </div>
 
-                        {/* <hr /> */}
+                       
 
                         <div className='filter-category'>
                             <li>- Size & Fit</li>
@@ -215,8 +211,9 @@ const Mens = () => {
 
                         </div>
 
-                    </div>
+                    </div> */}
 
+                    <Sidebar />
                 </div>
                 <div className='mens-right'>
 
