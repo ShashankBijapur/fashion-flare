@@ -5,13 +5,18 @@ import { useDispatch, useSelector } from 'react-redux'
 import { getReduxData } from "../../redux/action";
 import { getProductData } from "../../redux/Products/action";
 import { Card } from "../Card/Card";
+import CardPage from '../Womens/WomensCard';
+import Sidebar from '../Sidebar/Sidebar';
+import Navbar from '../Navbar/Navbar';
+import MobileNav from '../Navbar/MobileNav';
 
-
+import { useMediaQuery } from '@chakra-ui/react'
 const Mens = () => {
     const [search, setSearch] = useState("")
     const [box, setBox] = useState(null)
     const dispatch = useDispatch()
     const Products = useSelector(store => store.ProductReducer.Products)
+    const [isLargerThan800] = useMediaQuery("(min-width: 800px)");
 
     const handleButton = () => {
         dispatch(getReduxData(`men${search}`));
@@ -22,13 +27,14 @@ const Mens = () => {
 
     }, [])
     return (
-        <div className='mens-cont'>
-            <div className="mens-wrapper">
-                <div className='mens-left'>
-                    {/* <div>
-                        Refined By
-                    </div> */}
-                    <div className="filter-div">
+        <>
+            {isLargerThan800 ? <Navbar /> : <MobileNav />}
+            <div className='mens-cont'>
+
+                <div className="mens-wrapper">
+                    <div className='mens-left'>
+
+                        {/* <div className="filter-div">
                         <div className='filter-category'>
                             <li>- Gender </li>
                             <ul>
@@ -38,14 +44,11 @@ const Mens = () => {
                                 </li>
                             </ul>
                         </div>
-                        {/* <hr /> */}
+                    
                         <div className='filter-category'>
                             <li>- Category</li>
                             <ul>
-                                {/* <li>
-                                    <input  type="checkbox" />
-                                    <label htmlFor="#">T-Shirt</label>
-                                </li> */}
+                                
                                 <li>
                                     <input onChange={(e) => setBox("shirt")} type="checkbox" />
                                     <label htmlFor="#">Shirt</label>
@@ -66,7 +69,7 @@ const Mens = () => {
                             </ul>
 
                         </div>
-                        {/* <hr /> */}
+                        
 
                         <div className='filter-category'>
                             <li>- Price</li>
@@ -124,7 +127,7 @@ const Mens = () => {
 
                         </div>
 
-                        {/* <hr /> */}
+                        
 
                         <div className='filter-category'>
                             <li>- Occation</li>
@@ -154,7 +157,7 @@ const Mens = () => {
 
                         </div>
 
-                        {/* <hr /> */}
+                       
 
                         <div className='filter-category'>
                             <li>- Discount</li>
@@ -184,7 +187,7 @@ const Mens = () => {
 
                         </div>
 
-                        {/* <hr /> */}
+                       
 
                         <div className='filter-category'>
                             <li>- Size & Fit</li>
@@ -214,46 +217,51 @@ const Mens = () => {
 
                         </div>
 
+                    </div> */}
+
+                        <Sidebar />
                     </div>
+                    <div className='mens-right'>
 
-                </div>
-                <div className='mens-right'>
+                        <div className='right-head'>
+                            <div>Starting at Rs 129</div>
+                            <div>
+                                <ul>
+                                    <li>{ }0 Items Found</li>
+                                </ul>
+                                <ul>
+                                    <input placeholder='Search Here' value={search} onChange={(e) => setSearch(e.target.value)} type="text" />
+                                    <button onClick={handleButton}>Search</button>
+                                </ul>
+                                <ul className='select-tag-mens'>
+                                    <label htmlFor="">Sort By </label>
+                                    <select name="" id="">
+                                        <option value="">Relevent</option>
+                                        <option value="">Price (Lowest First)</option>
+                                        <option value="">Price (Highest First)</option>
+                                        <option value="">Discount</option>
+                                    </select>
+                                </ul>
+                            </div>
 
-                    <div className='right-head'>
-                        <div>Starting at Rs 129</div>
-                        <div>
-                            <ul>
-                                <li>{ }0 Items Found</li>
-                            </ul>
-                            <ul>
-                                <input placeholder='Search Here' value={search} onChange={(e) => setSearch(e.target.value)} type="text" />
-                                <button onClick={handleButton}>Search</button>
-                            </ul>
-                            <ul className='select-tag-mens'>
-                                <label htmlFor="">Sort By </label>
-                                <select name="" id="">
-                                    <option value="">Relevent</option>
-                                    <option value="">Price (Lowest First)</option>
-                                    <option value="">Price (Highest First)</option>
-                                    <option value="">Discount</option>
-                                </select>
-                            </ul>
+                        </div>
+                        <div className='mens-content-wrapper'>
+                            <div className='mens-content'>
+                                {Products?.map((item) =>
+                                    <Card {...item} />
+                                )}
+                                {/* {Products?.map((product, index) => (
+                            <CardPage {...product} key={index} />
+                        ))} */}
+                            </div>
+
                         </div>
 
                     </div>
-                    <div className='mens-content-wrapper'>
-                        <div className='mens-content'>
-                            {Products?.map((item) =>
-                                <Card {...item} />
-                            )}
-                        </div>
-
-                    </div>
 
                 </div>
-
             </div>
-        </div>
+        </>
     )
 }
 

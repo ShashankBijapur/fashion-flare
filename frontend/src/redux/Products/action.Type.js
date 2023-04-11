@@ -8,3 +8,6 @@ export const POSTWISHLIST = "postWishlist/POST";
 export const PATCHSINGLEPROD = "patchSingleProduct/PATCH";
 export const DELETESINGLEPROD = "deleteSingleProduct/DELETE";                           
 export const POSTREQ = "postData/POST";
+export const SORTINGLH = "sortingByLowToHigh"
+ 
+

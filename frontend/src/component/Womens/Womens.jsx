@@ -1,23 +1,94 @@
 import React, { useState, useEffect } from "react";
 // import axios from 'axios';
 import "./Womens.css";
-import { Box, Button, Input } from "@chakra-ui/react";
+import {
+  Accordion,
+  AccordionButton,
+  AccordionIcon,
+  AccordionItem,
+  AccordionPanel,
+  Box,
+  Button,
+  Checkbox,
+  Input,
+  Stack,
+  Text,
+} from "@chakra-ui/react";
 import { useDispatch, useSelector } from "react-redux";
-import { getProductData } from "../../redux/Products/action";
+import {
+  getProductData,
+  handleSortByRedux,
+  sortedProduct,
+} from "../../redux/Products/action";
 import { Card } from "../Card/Card";
+// import CardPage from "./WomensCard";
+import Sidebar from "../Sidebar/Sidebar";
+
+import Navbar from "../Navbar/Navbar";
+
+import MobileNav from '../Navbar/MobileNav';
 // import { Box } from '@chakra-ui/react';
+import { useMediaQuery } from '@chakra-ui/react'
+
 function Womens() {
   let [productType, setProductType] = useState("womens");
   const [text, settext] = useState("");
-  const handleSubmit = (productType) => {};
+  const [sortBy, setSortBy] = useState("highToLow");
+  const handleSubmit = (productType) => { };
   const dispatch = useDispatch();
   const Products = useSelector((store) => store.ProductReducer.Products);
 
-  useEffect(() => {
+  const [priceFilter, setPriceFilter] = React.useState([]);
+  const [count, setCount] = useState(0)
+
+  const [isLargerThan800] = useMediaQuery("(min-width: 800px)");
+
+  // filter data
+  const handleSorting = (e) => {
+    // console.log(e.target.value)
+    const value = e.target.value;
+    const allProducts = Products;
+
+    if (value === "highToLow") {
+      const sortedProduct = allProducts.sort(
+        (a, b) => parseInt(b.discountPrice) - parseInt(a.discountPrice)
+      );
+
+      console.log("allProd", sortedProduct);
+      dispatch(handleSortByRedux(sortedProduct));
+      setCount((pre) => pre + 1)
+
+    } else {
+      const sortedProduct = allProducts.sort(
+        (a, b) => parseInt(a.discountPrice) - parseInt(b.discountPrice)
+      );
+      dispatch(handleSortByRedux(sortedProduct));
+      setCount((pre) => pre + 1)
+    }
+  };
+
+  const categoryFilter = () => { };
+
+  const handlePriceFilterChange = (event) => {
+    const value = parseInt(event.target.value);
+    let newPriceFilter = [...priceFilter];
+    if (event.target.checked) {
+      newPriceFilter.push(value);
+    } else {
+      newPriceFilter = newPriceFilter.filter((price) => price !== value);
+    }
+    setPriceFilter(newPriceFilter);
+  };
+
+  useEffect((Products) => {
     dispatch(getProductData("women"));
   }, []);
   return (
     <>
+
+
+      {isLargerThan800 ? <Navbar /> : <MobileNav />}
+
       <div
         style={{
           display: "flex",
@@ -34,147 +105,500 @@ function Womens() {
           marginTop="50px"
         >
           <div className="women-left">
-            <div
-              style={{ textAlign: "left", marginLeft: "40px" }}
-              className="filter-div"
-            >
-              <div className="filter-category">
-                <div> Category</div>
-                <div style={{ fontSize: "12px", padding: "10px" }}>
-                  <h6>
-                    <input value="tshirts" type="checkbox" />
-                    <label htmlFor="#">T-Shirt</label>
-                  </h6>
+            <Box>
+              <Accordion
+                fontSize="10px"
+                fontWeight={400}
+                lineHeight="24px"
+                color=" rgb(102, 102, 102)"
+                border="1px solid rgb(240,240,240)"
+                padding={"20px"}
+                allowMultiple
+              >
+                <AccordionItem marginTop="20px">
+                  <h2>
+                    <AccordionButton
+                      fontSize="18px"
+                      fontWeight={600}
+                      lineHeight="24px"
+                      color=" rgb(26, 32, 44)"
+                    >
+                      <Box as="span" flex="1" textAlign="left">
+                        <Text fontSize={"17px"}>Filters</Text>
+                        <Text fontSize={"13px"} color="grey">
+                          {"1000"}+ Products
+                        </Text>
+                      </Box>
+                    </AccordionButton>
+                  </h2>
+                </AccordionItem>
+                {/* Price */}
+                <AccordionItem marginTop="20px">
+                  <h2>
+                    <AccordionButton
+                      fontSize="18px"
+                      fontWeight={600}
+                      lineHeight="24px"
+                      color=" rgb(26, 32, 44)"
+                    >
+                      <Box as="span" flex="1" textAlign="left">
+                        Price
+                      </Box>
+                      <AccordionIcon />
+                    </AccordionButton>
+                  </h2>
+                  <AccordionPanel pb={4}>
+                    <Stack spacing={5} direction="column">
+                      <Checkbox
+                        value={199}
+                        onChange={handlePriceFilterChange}
+                        borderRadius={"15px"}
+                        mt="5px"
+                        padding="10px"
+                        fontSize={"17px"}
+                        border={"1px solid rgb(240,240,240)"}
+                        colorScheme="green"
+                      >
+                        Under ₹ 199
+                      </Checkbox>
+                      <Checkbox
+                        value={299}
+                        onChange={handlePriceFilterChange}
+                        borderRadius={"15px"}
+                        mt="5px"
+                        padding="10px"
+                        fontSize={"17px"}
+                        border={"1px solid rgb(240,240,240)"}
+                        colorScheme="green"
+                      >
+                        Under ₹ 399
+                      </Checkbox>
+                      <Checkbox
+                        value={599}
+                        onChange={handlePriceFilterChange}
+                        borderRadius={"15px"}
+                        mt="5px"
+                        padding="10px"
+                        fontSize={"17px"}
+                        border={"1px solid rgb(240,240,240)"}
+                        colorScheme="green"
+                      >
+                        Under ₹ 599
+                      </Checkbox>
+                      <Checkbox
+                        value={799}
+                        onChange={handlePriceFilterChange}
+                        borderRadius={"15px"}
+                        mt="5px"
+                        padding="10px"
+                        fontSize={"17px"}
+                        border={"1px solid rgb(240,240,240)"}
+                        colorScheme="green"
+                      >
+                        Under ₹ 799
+                      </Checkbox>
+                      <Checkbox
+                        value={999}
+                        onChange={handlePriceFilterChange}
+                        borderRadius={"15px"}
+                        mt="5px"
+                        padding="10px"
+                        fontSize={"17px"}
+                        border={"1px solid rgb(240,240,240)"}
+                        colorScheme="green"
+                      >
+                        Under ₹ 999
+                      </Checkbox>
+                    </Stack>
+                  </AccordionPanel>
+                </AccordionItem>
 
-                  <h6>
-                    <input value="kurta" type="checkbox" />
-                    <label htmlFor="#">Kurtas</label>
-                  </h6>
-                  <h6>
-                    <input value="jeans" type="checkbox" />
-                    <label htmlFor="#">Jeans</label>
-                  </h6>
+                {/* category */}
+                <AccordionItem marginTop="20px">
+                  <h2>
+                    <AccordionButton
+                      fontSize="18px"
+                      fontWeight={600}
+                      lineHeight="24px"
+                      color=" rgb(26, 32, 44)"
+                    >
+                      <Box as="span" flex="1" textAlign="left">
+                        Category
+                      </Box>
+                      <AccordionIcon />
+                    </AccordionButton>
+                  </h2>
+                  <AccordionPanel pb={4}>
+                    <Stack spacing={5} direction="column">
+                      <Checkbox
+                        value={"furniture"}
+                        onChange={categoryFilter}
+                        borderRadius={"15px"}
+                        mt="5px"
+                        padding="10px"
+                        fontSize={"17px"}
+                        border={"1px solid rgb(240,240,240)"}
+                        colorScheme="green"
+                      >
+                        furniture
+                      </Checkbox>
+                      <Checkbox
+                        value={"mens-watches"}
+                        onChange={categoryFilter}
+                        borderRadius={"15px"}
+                        mt="5px"
+                        padding="10px"
+                        fontSize={"17px"}
+                        border={"1px solid rgb(240,240,240)"}
+                        colorScheme="green"
+                      >
+                        mens-watches
+                      </Checkbox>
+                      <Checkbox
+                        value={"sunglasses"}
+                        onChange={categoryFilter}
+                        borderRadius={"15px"}
+                        mt="5px"
+                        padding="10px"
+                        fontSize={"17px"}
+                        border={"1px solid rgb(240,240,240)"}
+                        colorScheme="green"
+                      >
+                        sunglasses
+                      </Checkbox>
+                      <Checkbox
+                        value={"lighting"}
+                        onChange={categoryFilter}
+                        borderRadius={"15px"}
+                        mt="5px"
+                        padding="10px"
+                        fontSize={"17px"}
+                        border={"1px solid rgb(240,240,240)"}
+                        colorScheme="green"
+                      >
+                        lighting
+                      </Checkbox>
+                      <Checkbox
+                        value={"automotive"}
+                        onChange={categoryFilter}
+                        borderRadius={"15px"}
+                        mt="5px"
+                        padding="10px"
+                        fontSize={"17px"}
+                        border={"1px solid rgb(240,240,240)"}
+                        colorScheme="green"
+                      >
+                        automotive
+                      </Checkbox>
+                      <Checkbox
+                        value={"womens-shoes"}
+                        onChange={categoryFilter}
+                        borderRadius={"15px"}
+                        mt="5px"
+                        padding="10px"
+                        fontSize={"17px"}
+                        border={"1px solid rgb(240,240,240)"}
+                        colorScheme="green"
+                      >
+                        womens-shoes
+                      </Checkbox>
 
-                  <h6>
-                    <input value="saree" type="checkbox" />
-                    <label htmlFor="#">Saree</label>
-                  </h6>
-                </div>
-              </div>
-              <hr />
+                      <Checkbox
+                        value={"mens-shoes"}
+                        onChange={categoryFilter}
+                        borderRadius={"15px"}
+                        mt="5px"
+                        padding="10px"
+                        fontSize={"17px"}
+                        border={"1px solid rgb(240,240,240)"}
+                        colorScheme="green"
+                      >
+                        mens-shoes
+                      </Checkbox>
+                    </Stack>
+                  </AccordionPanel>
+                </AccordionItem>
 
-              <div className="filter-category">
-                <div> Price</div>
-                <div style={{ fontSize: "12px", padding: "10px" }}>
-                  <h6>
-                    <input type="checkbox" />
-                    <label htmlFor="#">Below Rs 500</label>
-                  </h6>
-                  <h6>
-                    <input type="checkbox" />
-                    <label htmlFor="#">Below Rs 500-1000</label>
-                  </h6>
-                  <h6>
-                    <input type="checkbox" />
-                    <label htmlFor="#">Below Rs 1001-1500</label>
-                  </h6>
-                  <h6>
-                    <input type="checkbox" />
-                    <label htmlFor="#">Below Rs 1501-2000</label>
-                  </h6>
+                {/* Rating */}
+                <AccordionItem marginTop="20px">
+                  <h2>
+                    <AccordionButton
+                      fontSize="18px"
+                      fontWeight={600}
+                      lineHeight="24px"
+                      color=" rgb(26, 32, 44)"
+                    >
+                      <Box as="span" flex="1" textAlign="left">
+                        Rating
+                      </Box>
+                      <AccordionIcon />
+                    </AccordionButton>
+                  </h2>
+                  <AccordionPanel pb={4}>
+                    <Stack spacing={5} direction="column">
+                      <Checkbox colorScheme="green">2.0 and above</Checkbox>
+                      <Checkbox colorScheme="green">3.0 and above</Checkbox>
+                      <Checkbox colorScheme="green">4.0 and above</Checkbox>
 
-                  <h6>
-                    <input type="checkbox" />
-                    <label htmlFor="#">Below Rs 2001-2500</label>
-                  </h6>
-                </div>
-              </div>
-              <hr />
+                      <Checkbox colorScheme="green">M-Rated</Checkbox>
+                    </Stack>
+                  </AccordionPanel>
+                </AccordionItem>
 
-              <div className="filter-category">
-                <div> Brands</div>
-                <div style={{ fontSize: "12px", padding: "10px" }}>
-                  <h6>
-                    <input value="Kimayra" type="checkbox" />
-                    <label htmlFor="#">Kimayra</label>
-                  </h6>
-                  <h6>
-                    <input type="checkbox" />
-                    <label htmlFor="#">21 Degree</label>
-                  </h6>
-                  <h6>
-                    <input type="checkbox" />
-                    <label htmlFor="#">23 Yard</label>
-                  </h6>
-                  <h6>
-                    <input type="checkbox" />
-                    <label htmlFor="#">28ME</label>
-                  </h6>
+                {/* fabric */}
+                <AccordionItem marginTop="20px">
+                  <h2>
+                    <AccordionButton
+                      fontSize="18px"
+                      fontWeight={600}
+                      lineHeight="24px"
+                      color=" rgb(26, 32, 44)"
+                    >
+                      <Box as="span" flex="1" textAlign="left">
+                        Fabric
+                      </Box>
+                      <AccordionIcon />
+                    </AccordionButton>
+                  </h2>
+                  <AccordionPanel pb={4}>
+                    <Input />
+                    <Stack spacing={5} direction="column">
+                      <Checkbox colorScheme="green">Acrylic</Checkbox>
+                      <Checkbox colorScheme="green">Art Silk</Checkbox>
+                      <Checkbox colorScheme="green">Bamboo</Checkbox>
+                      <Checkbox colorScheme="green">Banarasi Silk</Checkbox>
+                      <Checkbox colorScheme="green">Chambray</Checkbox>
+                      <Checkbox colorScheme="green">Chanderi Cotton</Checkbox>
 
-                  <h6>
-                    <input type="checkbox" />
-                    <label htmlFor="#">2Go</label>
-                  </h6>
-                </div>
-              </div>
+                      <Checkbox colorScheme="green">Combed Cotton</Checkbox>
+                    </Stack>
+                  </AccordionPanel>
+                </AccordionItem>
 
-              <hr />
+                {/* oxfords */}
+                <AccordionItem marginTop="20px">
+                  <h2>
+                    <AccordionButton
+                      fontSize="18px"
+                      fontWeight={600}
+                      lineHeight="24px"
+                      color=" rgb(26, 32, 44)"
+                    >
+                      <Box as="span" flex="1" textAlign="left">
+                        oxfords
+                      </Box>
+                      <AccordionIcon />
+                    </AccordionButton>
+                  </h2>
+                  <AccordionPanel pb={4}>
+                    <Stack spacing={5} direction="column">
+                      <Checkbox colorScheme="green">Heels</Checkbox>
+                    </Stack>
+                  </AccordionPanel>
+                </AccordionItem>
 
-              <div className="filter-category">
-                <div> Occation</div>
-                <div style={{ fontSize: "12px", padding: "10px" }}>
-                  <h6>
-                    <input type="checkbox" />
-                    <label htmlFor="#">Active</label>
-                  </h6>
-                  <h6>
-                    <input type="checkbox" />
-                    <label htmlFor="#">ACTIVE</label>
-                  </h6>
-                  <h6>
-                    <input type="checkbox" />
-                    <label htmlFor="#">Casual</label>
-                  </h6>
-                  <h6>
-                    <input type="checkbox" />
-                    <label htmlFor="#">CASUAL</label>
-                  </h6>
+                {/* dialshape */}
+                <AccordionItem marginTop="20px">
+                  <h2>
+                    <AccordionButton
+                      fontSize="18px"
+                      fontWeight={600}
+                      lineHeight="24px"
+                      color=" rgb(26, 32, 44)"
+                    >
+                      <Box as="span" flex="1" textAlign="left">
+                        dial_shape
+                      </Box>
+                      <AccordionIcon />
+                    </AccordionButton>
+                  </h2>
+                  <AccordionPanel pb={4}>
+                    <Stack spacing={5} direction="column">
+                      <Checkbox colorScheme="green">Round</Checkbox>
+                    </Stack>
+                  </AccordionPanel>
+                </AccordionItem>
 
-                  <h6>
-                    <input type="checkbox" />
-                    <label htmlFor="#">EVENING</label>
-                  </h6>
-                </div>
-              </div>
-              <hr />
-              <div className="filter-category">
-                <div> Discount</div>
-                <div style={{ fontSize: "12px", padding: "10px" }}>
-                  <h6>
-                    <input type="checkbox" />
-                    <label htmlFor="#">0-20%</label>
-                  </h6>
-                  <h6>
-                    <input type="checkbox" />
-                    <label htmlFor="#">21%-30%</label>
-                  </h6>
-                  <h6>
-                    <input type="checkbox" />
-                    <label htmlFor="#">31%-40%</label>
-                  </h6>
-                  <h6>
-                    <input type="checkbox" />
-                    <label htmlFor="#">41%-50%</label>
-                  </h6>
+                {/* colors */}
+                <AccordionItem marginTop="20px">
+                  <h2>
+                    <AccordionButton
+                      fontSize="18px"
+                      fontWeight={600}
+                      lineHeight="24px"
+                      color=" rgb(26, 32, 44)"
+                    >
+                      <Box as="span" flex="1" textAlign="left">
+                        Colors
+                      </Box>
+                      <AccordionIcon />
+                    </AccordionButton>
+                  </h2>
+                  <AccordionPanel padding={"5px"}>
+                    <Input />
 
-                  <h6>
-                    <input type="checkbox" />
-                    <label htmlFor="#">51%-80%</label>
-                  </h6>
-                </div>
-              </div>
-              <hr />
-            </div>
+                    <Stack
+                      padding={"5px"}
+                      fontSize={"17px"}
+                      justifyContent={"space-around"}
+                      direction="row"
+                    >
+                      <Text
+                        borderRadius={"15px"}
+                        padding="10px"
+                        border={"1px solid rgb(240,240,240)"}
+                        colorScheme="green"
+                      >
+                        Beinge
+                      </Text>
+                      <Text
+                        borderRadius={"15px"}
+                        padding="10px"
+                        border={"1px solid rgb(240,240,240)"}
+                        colorScheme="green"
+                      >
+                        Black
+                      </Text>
+
+                      <Text
+                        borderRadius={"15px"}
+                        padding="10px"
+                        border={"1px solid rgb(240,240,240)"}
+                        colorScheme="green"
+                      >
+                        Blue
+                      </Text>
+                    </Stack>
+                    <Text
+                      borderRadius={"15px"}
+                      mt="5px"
+                      padding="10px"
+                      fontSize={"17px"}
+                      border={"1px solid rgb(240,240,240)"}
+                    >
+                      Combo Of Different Color
+                    </Text>
+                    <Text
+                      borderRadius={"15px"}
+                      mt="5px"
+                      padding="10px"
+                      fontSize={"17px"}
+                      border={"1px solid rgb(240,240,240)"}
+                    >
+                      Combo Of Maroon Shade
+                    </Text>
+                    <Stack
+                      borderRadius={"15px"}
+                      padding={"5px"}
+                      fontSize={"17px"}
+                      justifyContent={"space-around"}
+                      direction="row"
+                    >
+                      <Text
+                        borderRadius={"15px"}
+                        padding="10px"
+                        border={"1px solid rgb(240,240,240)"}
+                        colorScheme="green"
+                      >
+                        Grey
+                      </Text>
+                      <Text
+                        borderRadius={"15px"}
+                        padding="10px"
+                        border={"1px solid rgb(240,240,240)"}
+                        colorScheme="green"
+                      >
+                        Pink
+                      </Text>
+
+                      <Text
+                        borderRadius={"15px"}
+                        padding="10px"
+                        border={"1px solid rgb(240,240,240)"}
+                        colorScheme="green"
+                      >
+                        Maroon
+                      </Text>
+                    </Stack>
+                    <Stack
+                      padding={"5px"}
+                      fontSize={"17px"}
+                      justifyContent={"space-around"}
+                      direction="row"
+                    >
+                      <Text
+                        borderRadius={"15px"}
+                        padding="10px"
+                        border={"1px solid rgb(240,240,240)"}
+                        colorScheme="green"
+                      >
+                        White
+                      </Text>
+                    </Stack>
+                    <Text
+                      borderRadius={"15px"}
+                      padding="10px"
+                      fontSize={"17px"}
+                      border={"1px solid rgb(240,240,240)"}
+                    >
+                      Combo Of Red Shade
+                    </Text>
+                  </AccordionPanel>
+                </AccordionItem>
+
+                {/* Size */}
+                <AccordionItem marginTop="20px">
+                  <h2>
+                    <AccordionButton
+                      fontSize="18px"
+                      fontWeight={600}
+                      lineHeight="24px"
+                      color=" rgb(26, 32, 44)"
+                    >
+                      <Box as="span" flex="1" textAlign="left">
+                        Size
+                      </Box>
+                      <AccordionIcon />
+                    </AccordionButton>
+                  </h2>
+                  <AccordionPanel pb={4}>
+                    <Stack spacing={5} direction="column">
+                      <Checkbox colorScheme="green">Free</Checkbox>
+                      <Checkbox colorScheme="green">Height</Checkbox>
+                      <Checkbox colorScheme="green">Lenght</Checkbox>
+                    </Stack>
+                  </AccordionPanel>
+                </AccordionItem>
+
+                {/* Combo */}
+                <AccordionItem marginTop="20px">
+                  <h2>
+                    <AccordionButton
+                      fontSize="18px"
+                      fontWeight={600}
+                      lineHeight="24px"
+                      color=" rgb(26, 32, 44)"
+                    >
+                      <Box as="span" flex="1" textAlign="left">
+                        Combo
+                      </Box>
+                      <AccordionIcon />
+                    </AccordionButton>
+                  </h2>
+                  <AccordionPanel pb={4}>
+                    <Stack spacing={5} direction="column">
+                      <Checkbox colorScheme="green">Combo</Checkbox>
+                      <Checkbox colorScheme="green">Pack of 2</Checkbox>
+                      <Checkbox colorScheme="green">Pack of 3</Checkbox>
+                      <Checkbox colorScheme="green">Pack of 4</Checkbox>
+                      <Checkbox colorScheme="green">Pack of 5</Checkbox>
+                      <Checkbox colorScheme="green">Pack of 6</Checkbox>
+                      <Checkbox colorScheme="green">Single</Checkbox>
+                    </Stack>
+                  </AccordionPanel>
+                </AccordionItem>
+              </Accordion>
+            </Box>
           </div>
         </Box>
 
@@ -248,7 +672,7 @@ function Womens() {
             justifyContent="space-around"
           >
             <div>
-              <h6>{}00 Items Found</h6>
+              <h6>{ }00 Items Found</h6>
             </div>
             <div style={{ display: "flex" }}>
               <Input
@@ -270,12 +694,10 @@ function Womens() {
 
             <div>
               <label htmlFor="sort-select">Sort by:</label>
-              <select id="sort-select" >
+              <select onChange={(e) => handleSorting(e)} id="sort-select">
                 <option value="">Select Price</option>
-                <option value="relevance">Relevance</option>
-                <option value="highToLow">Price(lowest first)</option>
-                <option value="lowToHigh">Price(highest first)</option>
-                <option value="discount">Discount</option>
+                <option value="highToLow">Price High to Low</option>
+                <option value="lowToHigh">Price Low to High</option>
               </select>
             </div>
           </Box>
@@ -296,7 +718,7 @@ function Womens() {
               lg: "repeat(3, 1fr) ",
             }}
           >
-            {Products.map((item) => (
+            {Products?.map((item) => (
               <Card {...item} />
             ))}
           </Box>

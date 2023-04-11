@@ -1,22 +1,52 @@
 import axios from 'axios'
 import React, { useState, useEffect, useRef } from 'react'
+<<<<<<< HEAD:frontend/src/component/Womens/Cart.jsx
 import { Box, Button, Checkbox, CheckboxGroup,  Flex, Image, Stack, Text } from '@chakra-ui/react';
 import CartCard from './CartCard';
 import { Input, useDisclosure } from '@chakra-ui/react'
 import { useNavigate } from 'react-router-dom';
 import Paymentmodal from './Payments';
+=======
+import {
+    Popover,
+    PopoverTrigger,
+    PopoverContent,
+    PopoverHeader,
+    PopoverBody,
+    PopoverArrow,
+    PopoverCloseButton,
+    Select,
+} from '@chakra-ui/react'
+import { Box, Button, Checkbox, CheckboxGroup, Flex, Image, Stack, Text } from '@chakra-ui/react';
+import CartCard from './CartCard';
+import { Input, useDisclosure } from '@chakra-ui/react'
+import { useNavigate } from 'react-router-dom';
+import Paymentmodal from '../PaymentModel/Payments';
+>>>>>>> 54f622827e51543605da600b86cc68501aa5fad0:frontend/src/component/Cart/Cart.jsx
 import { useDispatch } from "react-redux"
-import { getCartData } from '../../redux/action';
+import { getCartData } from '../../redux/action'
+import { useMediaQuery } from '@chakra-ui/react'
+import Navbar from '../Navbar/Navbar';
+import MobileNav from '../Navbar/MobileNav';
+
+
 const Cart = () => {
     const [cart, setcart] = useState([])
+
+    const [size, setsize] = useState("M")
+    const [cartitem, setCartitem] = useState([])
     const [count, setCount] = useState(1)
+    const [counter, setCounter] = useState(1)
+
     const dispatch = useDispatch()
     const ref = useRef()
     const navigate = useNavigate()
     const { isOpen, onToggle } = useDisclosure()
-
+    const [isLargerThan800] = useMediaQuery("(min-width: 800px)");
+    const [qty, setQty] = useState(1);
+    
     const getcartdata = () => {
-        axios.get("https://magnificent-bass-suit.cyclic.app/cart")
+        axios.get("http://localhost:4000/cart")
             .then(res => {
                 setcart(res.data)
                 dispatch(getCartData(res.data))
@@ -30,13 +60,56 @@ const Cart = () => {
     const handleclick = () => {
         navigate("/")
     }
+
+
+
+    const handleSizeChange = (event) => {
+        setsize(event.target.value);
+    };
+
+    const deleteitem = (id) => {
+
+        axios.delete(`http://localhost:4000/cart/delete/${id}`)
+            .then(res => setCartitem(res.data))
+        setCounter(counter + 1)
+    }
+    const addtowishlist = (item, id) => {
+
+        axios.post("https://magnificent-bass-suit.cyclic.app/wishlist", item)
+            .then(r => setCartitem(r.data))
+
+        axios.delete(`https://magnificent-bass-suit.cyclic.app/cart/${id}`)
+            .then(res => setCartitem(res.data))
+    }
+    let sum = 0;
+    for (let i = 0; i < cart.length; i++) {
+        // sum = sum + cart.discountPrice[i] * cart.quantity[i]
+        
+        
+        sum += cart[i].discountPrice * cart[i].quantity;
+    }
+    console.log(sum)
+    
+
+    
+    // console.log(qty);
+
+    const handleQuantity = (id) => {
+        // console.log(qty, _id);
+        const payload = { quantity: qty };
+        axios.patch(`http://localhost:4000/cart/update/${id}`, payload)
+            // .then((res) => res.json())
+            .then((res) => {
+                getCartData();
+            })
+            .catch((e) => console.log(e));
+    };
     useEffect(() => {
         getcartdata()
-    }, [cart]);
-
-    console.log(cart)
+    }, [counter,qty]);
     return (
         <>
+            {isLargerThan800 ? <Navbar /> : <MobileNav />}
             {cart.length === 0 ?
                 <Box textAlign={"center"}>
                     <div>
@@ -86,45 +159,131 @@ const Cart = () => {
                     </Flex>
                 </Box> :
                 <Box>
-                    <Flex width={"80%"} margin="auto" gap={"20px"}>
-                        <Box width={"70%"} margin={"auto"} marginTop={"30px"}>
-                            <Text fon textAlign={"left"}>My Bag({cart.length}item)</Text>
+                    <Box width={"80%"} display={{ base: "grid", sm: "flex" }} margin="auto" gap={"20px"} >
+                        <Box width={{ base: "100%", sm: "70%" }} margin={"auto"} marginTop={"30px"} >
+                            <Text textAlign={"left"}>My Bag({cart.length}item)</Text>
                             <Box style={{ textAlign: "center" }}>
                                 {cart.map((item, index) =>
-                                    <CartCard item={item} setCount={setCount} count={count} key={index} />)}
+                                    // <CartCard item={item} setCount={setCount} count={count} key={index} />
+                                    <Box padding={"5px"} border="1px solid rgb(250,230,250)" display={{ base: "grid", md: "flex" }} justifyContent="space-evenly" gap="20px" marginTop="20px">
+                                        <Image src={item.src} width={{ base: "200px", sm: "200px" }} margin={{ base: "auto" }} alt="" />
+                                        <Text>{item.brand}- <span> {item.title}</span> </Text>
+
+                                        <Popover >
+                                            <PopoverTrigger>
+                                                <Button fontSize={"12px"}> Size {item.size} - Qty {item.quantity}</Button>
+                                            </PopoverTrigger>
+                                            <PopoverContent>
+                                                <PopoverArrow />
+                                                <PopoverCloseButton />
+                                                <PopoverHeader>Select Size!</PopoverHeader>
+                                                <PopoverBody width="100%">
+                                                    <Select width="100px" margin="auto" style={{ border: "1px solid black", marginTop: "10px", padding: "10px" }} value={size} onChange={handleSizeChange}>
+                                                        <option value="" disabled >Select Size</option>
+                                                        <option value="XS">Extra small</option>
+                                                        <option value="S">Small</option>
+                                                        <option value="L">Large</option>
+                                                        <option value="XL">Extra Large</option>
+                                                        <option value="XXL"> XXL</option>
+                                                    </Select>
+
+                                                </PopoverBody>
+                                                <hr />
+                                                <PopoverHeader>Set Quantity!</PopoverHeader>
+                                                <PopoverBody>
+                                                    <Flex>
+                                                        <Button
+                                                            color={"#f43297"}
+                                                            variant="ghost"
+                                                            isDisabled={item.quantity === 1}
+                                                            _hover={
+                                                                qty > 1
+                                                                    ? {
+                                                                        transform: "translateY(-2px)",
+                                                                        boxShadow: "lg",
+                                                                    }
+                                                                    : null
+                                                            }
+                                                            onClick={() => {
+                                                                setQty((prev) => prev - 1);
+                                                                handleQuantity(item._id);
+                                                            }}
+                                                        >
+                                                            -
+                                                        </Button>
+                                                        <Button
+                                                            fontWeight={"semibold"}
+                                                            color={"#f43297"}
+                                                            variant="ghost"
+                                                            marginLeft="1"
+                                                        >
+                                                            {item.quantity}
+                                                        </Button>
+                                                        <Button
+                                                            color={"#f43297"}
+                                                            variant="ghost"
+                                                            _hover={{
+                                                                transform: "translateY(-2px)",
+                                                                boxShadow: "lg",
+                                                            }}
+                                                            // onClick={() => setQty((prev) => prev + 1)}
+                                                            onClick={() => {
+                                                                setQty((prev) => prev + 1);
+                                                                handleQuantity(item._id);
+                                                            }}
+                                                        >
+                                                            +
+                                                        </Button>
+                                                    </Flex></PopoverBody>
+                                            </PopoverContent>
+                                        </Popover>
+
+
+
+                                        <div style={{ display: "grid", gap: "20px" }}>
+                                            <div >
+                                                <h1> Discount  Rs.{item.discount}</h1>
+                                                <h1>  Rs. {item.discountPrice}  <span style={{ textDecoration: "line-through" }}></span>{item.orginalPrice} </h1>
+                                           <Text>Item Total{item.discountPrice*item.quantity}</Text>
+                                            </div>
+                                            <div>
+                                                <div style={{ display: "flex", gap: "20px" }}>
+                                                    <Button onClick={() => deleteitem(item._id)}> Delete</Button>
+                                                    <Button onClick={() => addtowishlist(item, item._id)}> Move To Wishlist</Button></div>
+                                            </div>
+
+                                        </div>
+
+                                    </Box>
+                                )}
                             </Box>
                         </Box>
-                        <Box width={"30%"} border="1px solid rgb(238,238,238)" bg={"rgb(250,250,250)"} padding="10px" marginTop={"30px"}>
+
+
+                        <Box width={{ base: "100%", sm: "30%" }} bg={"rgb(250,250,250)"} padding="10px" marginTop={"30px"}>
                             <Box padding={"5px"} margin={"5px"} >
 
                                 <Text fontFamily={"Lora"} fontWeight="700" textAlign={"left"} color="rgb(51, 51, 51)">Order Details</Text>
                                 <Flex padding={"5px"} justifyContent={"space-between"} color="rgb(51, 51, 51)">
                                     <Text >Bag total</Text>
-                                    <Text>{ref.current}</Text>
+                                    <Text>{Number(sum)}</Text>
                                 </Flex>
-                                <Flex padding={"5px"} justifyContent={"space-between"} color="rgb(51, 51, 51)">
-                                    <Text>bag discount</Text>
-                                    <Text>{ref.current >= 1000 ? "30%" : "10%"}</Text>
-
-                                </Flex>
+                                
                                 <Flex>
 
 
                                 </Flex>
                                 <Flex padding={"5px"} justifyContent={"space-between"} color="rgb(51, 51, 51)" >
                                     <Text>Delivery </Text>
-                                    <Text>{ref.current >= 1000 ? "Free delivery" : "Rs 99"}</Text>
+                                    <Text>{Number(sum) >= 1000 ? "Free delivery" : "Rs 99"}</Text>
                                 </Flex>
                                 <Flex padding={"5px"} justifyContent={"space-between"} fontWeight="600" color="rgb(51, 51, 51)" >
                                     <Text>Order total</Text>
-                                    <Text>{ref.current >= 1000 ? ref.current : ref.current + 99}</Text>
+                                    <Text>{Number(sum) >= 1000 ? Number(sum) : Number(sum) + 99}</Text>
                                 </Flex>
-                                <Paymentmodal total={ref.current}/>
-                             {/* <Link to={"/payment"}>
-                               <Button bg={"rgb(213,162,73)"} width="100%" padding={"15px"} color="white"> Proceed To ship</Button>
-                        
-                             </Link>    */}
-                                </Box>
+                                <Paymentmodal total={sum} />
+
+                            </Box>
 
                             <Box marginTop={"50px"}>
                                 <Text>Apply Coupon</Text>
@@ -209,7 +368,7 @@ const Cart = () => {
                                             <hr />
                                             <Checkbox value='BIGSAVINS'>
                                                 <Box>
-                                                    {/* <Text fontSize={"13px"}></Text> */}
+
                                                     <Text fontSize={"16px"}>BIGSAVINS</Text>
                                                     <Text fontSize={"10px"}>Best Value For You</Text>
                                                 </Box>
@@ -222,6 +381,8 @@ const Cart = () => {
                                 </Box>
 
                             </Box>
+
+
                             <Box textAlign={"left"} marginTop="50px" padding={"5px"}>
                                 <Text color={"rgb(32, 32, 32)"} fontSize="14px" fontWeight={"700"}>Return/Refund policy</Text>
                                 <Text color={"grey"}>In case of return, we ensure quick refunds. Full amount will be refunded excluding Convenience Fee</Text>
@@ -230,47 +391,44 @@ const Cart = () => {
                         </Box>
 
 
-                    </Flex>
-
-                    <Box margin="auto" padding={"40px"} >
-                        <hr />
-                        <Flex padding={"30px"} justifyContent={"space-around"} color="rgb(213,162,73)">
-                            <Flex>
-                                <Image width={"40px"} padding="5px" src='https://penncommunitybank.imgix.net/wp-content/uploads/2019/11/security-icon.png?auto=compress&fit=crop' />
-                                <Text padding={"10px"}>SECURE PAYMENTS</Text>
-                            </Flex>
-                            <Flex>
-                                <Image width={"40px"} padding="5px" src='https://static.thenounproject.com/png/2724368-200.png' />
-                                <Text padding={"10px"}>CASH ON DELIVERY</Text>
-                            </Flex>
-                            <Flex>
-                                <Image width={"40px"} padding="5px" src='https://cdn-icons-png.flaticon.com/512/1883/1883880.png' />
-                                <Text padding={"10px"}>ASSURED QUALITY</Text>
-                            </Flex>
-                            <Flex>
-                                <Image width={"40px"} padding="5px" src='https://static.thenounproject.com/png/1015317-200.png' />
-                                <Text padding={"10px"}>EASY RETURNS</Text>
-                            </Flex>
-                        </Flex>
-
-                        <hr style={{ fontSize: "10px" }} />
                     </Box>
 
+                    <hr />
+                    <Box display={"grid"} width="100%" margin="auto" gridTemplateColumns={{ base: "repeat(2, 1fr)", md: "repeat(4, 1fr)" }} justifyContent="space-around" backgroundColor="rgb(250,250,250)" color="rgb(213,162,73)" marginTop="20px" padding={"30px"}  >
+                        <Flex>
+                            <Image width={"40px"} padding="5px" src='https://penncommunitybank.imgix.net/wp-content/uploads/2019/11/security-icon.png?auto=compress&fit=crop' />
+                            <Text padding={"10px"}>SECURE PAYMENTS</Text>
+                        </Flex>
+                        <Flex>
+                            <Image width={"40px"} padding="5px" src='https://static.thenounproject.com/png/2724368-200.png' />
+                            <Text padding={"10px"}>CASH ON DELIVERY</Text>
+                        </Flex>
+                        <Flex>
+                            <Image width={"40px"} padding="5px" src='https://cdn-icons-png.flaticon.com/512/1883/1883880.png' />
+                            <Text padding={"10px"}>ASSURED QUALITY</Text>
+                        </Flex>
+                        <Flex>
+                            <Image width={"40px"} padding="5px" src='https://static.thenounproject.com/png/1015317-200.png' />
+                            <Text padding={"10px"}>EASY RETURNS</Text>
+                        </Flex>
+                    </Box>
 
-                    <Flex justifyContent="space-around" backgroundColor="rgb(250,250,250)" marginTop="20px">
-                        <div style={{}}>
+                    <hr style={{ fontSize: "10px" }} />
+
+                    <Box display={"grid"} width="100%" margin="auto" gridTemplateColumns={{ base: "repeat(2, 1fr)", md: "repeat(3, 1fr)" }} justifyContent="space-around" backgroundColor="rgb(250,250,250)" marginTop="20px">
+                        <div >
                             <img width="60px" src="https://cdn-icons-png.flaticon.com/512/182/182308.png" alt="" />
                             <h2>Easy Returns</h2>
                         </div>
-                        <div style={{}}>
+                        <div >
                             <img width="60px" src="https://thumbs.dreamstime.com/b/empathy-vector-icon-black-silhouette-flat-illustration-isolated-white-background-204899514.jpg" alt="" />
                             <h2>!100% Hand Picked</h2>
                         </div>
-                        <div style={{}}>
+                        <div >
                             <img width="60px" src="https://d1pt6w2mt2xqso.cloudfront.net/AcuCustom/Sitename/DAM/044/FSEweek-icon-tick.png" alt="" />
                             <h2> Assured Quality</h2>
                         </div>
-                    </Flex>
+                    </Box>
                     <hr />
                 </Box>}
 

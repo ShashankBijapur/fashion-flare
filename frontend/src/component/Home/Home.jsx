@@ -1,39 +1,17 @@
 
-import { Box, HStack, Image, SimpleGrid } from "@chakra-ui/react";
+
+import { Box,  HStack, Image, SimpleGrid, useMediaQuery } from "@chakra-ui/react";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
+import Navbar from '../Navbar/Navbar';
+import MobileNav from '../Navbar/MobileNav';
+
 function Home() {
-  const images =
-    [
-      { image: "https://assets.ajio.com/cms/AJIO/WEB/D-UHP-OnlineStores-P1-Westenrwear.jpg" },
-      { image: "https://assets.ajio.com/cms/AJIO/WEB/D-UHP-OnlineStores-P2-Trends.jpg" },
-      { image: "https://assets.ajio.com/cms/AJIO/WEB/D-UHP-OnlineStores-P3-Sneakerhood.jpg" },
-      { image: "https://assets.ajio.com/cms/AJIO/WEB/47.4_1.jpg" },
-      { image: "https://assets.ajio.com/cms/AJIO/WEB/D-UHP-OnlineStores-P5-Sportswear.jpg" },
-      { image: "https://assets.ajio.com/cms/AJIO/WEB/D-UHP-OnlineStores-P6-Footwear.jpg" },
-      { image: "https://assets.ajio.com/cms/AJIO/WEB/D-UHP-OnlineStores-P7-Accessories.jpg" },
-      { image: "https://assets.ajio.com/cms/AJIO/WEB/D-UHP-OnlineStores-P8-Wedding.jpg" },
-      { image: "https://assets.ajio.com/cms/AJIO/WEB/D-UHP-OnlineStores-P9-Sarees.jpg" },
-      { image: "https://assets.ajio.com/cms/AJIO/WEB/D-UHP-OnlineStores-P10-Homegrownbrands.jpg" },
-      { image: "https://assets.ajio.com/cms/AJIO/WEB/D-UHP-OnlineStores-P11-Indie.jpg" },
-      { image: "https://assets.ajio.com/cms/AJIO/WEB/D-UHP-OnlineStores-P12-Home.jpg" },
-      { image: "https://assets.ajio.com/cms/AJIO/WEB/D-UHP-OnlineStores-P13-Watches.jpg" },
-      { image: "https://assets.ajio.com/cms/AJIO/WEB/D-UHP-OnlineStores-P14-Innerwearmen.jpg" },
-      { image: "https://assets.ajio.com/cms/AJIO/WEB/D-UHP-OnlineStores-P15-Jewellery.jpg" },
-      { image: "https://assets.ajio.com/cms/AJIO/WEB/D-UHP-OnlineStores-P16-Lingerie.jpg" },
-      { image: "https://assets.ajio.com/cms/AJIO/WEB/D-UHP-OnlineStores-P17-Beauty.jpg" },
-      { image: "https://assets.ajio.com/cms/AJIO/WEB/D-UHP-OnlineStores-P18-yogawear.jpg" },
-      { image: "https://assets.ajio.com/cms/AJIO/WEB/D-UHP-OnlineStores-P19-Azorte.jpg" },
-      { image: "https://assets.ajio.com/cms/AJIO/WEB/D-UHP-OnlineStores-P20-MAx.jpg" },
-
-    ]
-
-
-    ;
+const [isLargerThan800] = useMediaQuery("(min-width: 800px)");
   return (
     <>
 
-
+{isLargerThan800 ? <Navbar /> : <MobileNav />}
       {/* ------------------------------------ Carousel 1 starts here ------------------------------------------------  */}
       <Box pt={10}>
 

@@ -17,7 +17,9 @@ import { useNavigate } from "react-router-dom";
 import { SidebarContext } from "../context/SidebarContextProvider";
 import { useToast } from "@chakra-ui/react";
 import axios from "axios";
-
+import Navbar from '../Navbar/Navbar';
+import MobileNav from '../Navbar/MobileNav';
+import { useMediaQuery } from '@chakra-ui/react'
 export default function SimpleCard() {
   // const { login, setLogin } = useContext(SidebarContext);
   const [email, setEmail] = useState("");
@@ -26,7 +28,7 @@ export default function SimpleCard() {
 
   const navigate = useNavigate();
   const toast = useToast();
-
+const [isLargerThan800] = useMediaQuery("(min-width: 800px)");
   const handleLogin = () => {
     if (email && password) {
       axios
@@ -68,6 +70,8 @@ export default function SimpleCard() {
   };
 
   return (
+    <> 
+    {isLargerThan800 ? <Navbar /> : <MobileNav />}
     <Flex
       style={{
         backgroundImage: `url("https://media.istockphoto.com/id/494350434/vector/thin-shopping-retail-line-white-seamless-pattern.jpg?s=612x612&w=0&k=20&c=XZ5G1qrghaNlovv4kw5ZtHKPYYETR-LDqRAGafDs5LA=")`,
@@ -133,5 +137,6 @@ export default function SimpleCard() {
         </Box>
       </Stack>
     </Flex>
+    </>
   );
 }
