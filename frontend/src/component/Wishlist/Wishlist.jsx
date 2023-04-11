@@ -18,11 +18,11 @@ const Wishlist = () => {
     const navigate = useNavigate()
 
     const getdata = () => {
-        axios.get("https://magnificent-bass-suit.cyclic.app/wishlist")
+        axios.get("http://localhost:4000/wishlist")
             .then(((res) => setwishlist(res.data)))
     }
     const handledelete = (id) => {
-        axios.delete(`https://magnificent-bass-suit.cyclic.app/wishlist/${id}`)
+        axios.delete(`http://localhost:4000/wishlist/delete/${id}`)
             .then((res) => setdata(res.data))
 
     }
@@ -77,7 +77,7 @@ const Wishlist = () => {
                                         <div>Get it at {item.offer} {item.discount}</div>
                                         <Box display="flex" gap="20px" >
                                             <Button colorScheme="green">Add to bag</Button>
-                                            <Button onClick={()=>handledelete(item.id)} colorScheme="red">Delete</Button>
+                                            <Button onClick={()=>handledelete(item._id)} colorScheme="red">Delete</Button>
                                         </Box>
                                     </div>
                                 </div>
