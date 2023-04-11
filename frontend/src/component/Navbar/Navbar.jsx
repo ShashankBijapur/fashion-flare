@@ -1,5 +1,4 @@
 import React, { useContext } from "react";
-import Logo from '../Images/fashionFlair.jpg';
 import { Box, Flex, Text, Image, Input, Button } from "@chakra-ui/react";
 import { BsFillBagCheckFill, BsFillSuitHeartFill } from "react-icons/bs";
 import Menuitem from "./MenuItem";
@@ -20,7 +19,7 @@ const Navbar = () => {
 
   const navigate = useNavigate();
 
-  const { login, setLogin, cartData, setCartData, cartLength, setCartLength, setCategory } =
+  const {setCategory } =
     useContext(SidebarContext);
 
   const handleLogout = () => {
