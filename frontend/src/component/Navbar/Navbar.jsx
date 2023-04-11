@@ -8,8 +8,9 @@ import { SidebarContext } from "../context/SidebarContextProvider";
 import { useNavigate } from "react-router-dom";
 import Logo2 from "../Images/fashion_flare.png"
 import { useSelector } from "react-redux";
-const Navbar = () => {
-
+import { BiCart } from "react-icons/bi";
+const Navbar = ({cartlength}) => {
+// console.log(cartlength)
   let user = JSON.parse(localStorage.getItem("user"));
   let loginValue = JSON.parse(localStorage.getItem("loginValue"));
   const store = useSelector(store => store.CartReducer.cart)
@@ -497,10 +498,10 @@ const Navbar = () => {
               </Box>
             </Link>
 
-            <Box>
+            {/* <Box>
 
               <Input onKeyPress={handleEnter} placeholder={"SEARCH"} borderRadius="20px"></Input>
-            </Box>
+            </Box> */}
 
             <Box>
               {/* <Button  >{login || user.name ? "LOGOUT" : "SIGN IN"}</Button> */}
@@ -512,14 +513,14 @@ const Navbar = () => {
             <Link to="/cart">
               <Box display="flex" gap={'2'}  >
                 <BsFillBagCheckFill style={{ fontSize: "30px" }} />
-                <Text alignSelf={"end"} as="b" >{store.length}</Text>
+                <Text alignSelf={"end"} as="b" >{cartlength}</Text>
               </Box>
             </Link>
 
             <Link to="/wishlist">
               <Box display="flex" gap={'2'}  >
                 <BsFillSuitHeartFill style={{ fontSize: "28px" }} />
-                <Text alignSelf={"end"} as="b" >{wishlist.length}</Text>
+                <Text alignSelf={"end"} as="b" >{}</Text>
               </Box>
             </Link>
           </Flex>

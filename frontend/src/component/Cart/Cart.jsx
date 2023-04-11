@@ -36,7 +36,7 @@ const Cart = () => {
     const { isOpen, onToggle } = useDisclosure()
     const [isLargerThan800] = useMediaQuery("(min-width: 800px)");
     const [qty, setQty] = useState(1);
-    
+
     const getcartdata = () => {
         axios.get("http://localhost:4000/cart")
             .then(res => {
@@ -76,14 +76,14 @@ const Cart = () => {
     let sum = 0;
     for (let i = 0; i < cart.length; i++) {
         // sum = sum + cart.discountPrice[i] * cart.quantity[i]
-        
-        
+
+
         sum += cart[i].discountPrice * cart[i].quantity;
     }
-    console.log(sum)
-    
+    // console.log(sum)
 
-    
+
+
     // console.log(qty);
 
     const handleQuantity = (id) => {
@@ -98,10 +98,10 @@ const Cart = () => {
     };
     useEffect(() => {
         getcartdata()
-    }, [counter,qty]);
+    }, [counter, qty]);
     return (
         <>
-            {isLargerThan800 ? <Navbar /> : <MobileNav />}
+            {isLargerThan800 ? <Navbar cartlength={cart.length} /> : <MobileNav cartlength={cart.length} />}
             {cart.length === 0 ?
                 <Box textAlign={"center"}>
                     <div>
@@ -157,7 +157,7 @@ const Cart = () => {
                             <Box style={{ textAlign: "center" }}>
                                 {cart.map((item, index) =>
                                     // <CartCard item={item} setCount={setCount} count={count} key={index} />
-                                    <Box padding={"5px"} border="1px solid rgb(250,230,250)" display={{ base: "grid", md: "flex" }} justifyContent="space-evenly" gap="20px" marginTop="20px">
+                                    <Box key={item._id} padding={"5px"} border="1px solid rgb(250,230,250)" display={{ base: "grid", md: "flex" }} justifyContent="space-evenly" gap="20px" marginTop="20px">
                                         <Image src={item.src} width={{ base: "200px", sm: "200px" }} margin={{ base: "auto" }} alt="" />
                                         <Text>{item.brand}- <span> {item.title}</span> </Text>
 
@@ -235,8 +235,8 @@ const Cart = () => {
                                         <div style={{ display: "grid", gap: "20px" }}>
                                             <div >
                                                 <h1> Discount  Rs.{item.discount}</h1>
-                                                <h1>  Rs. {item.discountPrice}  <span style={{ textDecoration: "line-through" }}></span>{item.orginalPrice} </h1>
-                                           <Text>Item Total{item.discountPrice*item.quantity}</Text>
+                                                <h1 style={{ color: "rgb(177, 153, 117)" }}>  ₹{item.discountPrice}  <span style={{ textDecoration: "line-through" }}>₹{item.orginalPrice} </span></h1>
+                                                <Text >Item Total ₹ {item.discountPrice * item.quantity}</Text>
                                             </div>
                                             <div>
                                                 <div style={{ display: "flex", gap: "20px" }}>
@@ -260,7 +260,7 @@ const Cart = () => {
                                     <Text >Bag total</Text>
                                     <Text>{Number(sum)}</Text>
                                 </Flex>
-                                
+
                                 <Flex>
 
 

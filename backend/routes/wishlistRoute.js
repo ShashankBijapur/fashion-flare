@@ -1,9 +1,7 @@
 const express = require("express");
-
 const { WishlistModel } = require("../models/wishlistModel");
-
 const wishlistRoute = express.Router();
-
+// get route to get all data 
 wishlistRoute.get("/", async (req, res) => {
   try {
     const allCart = await WishlistModel.find();
@@ -14,7 +12,7 @@ wishlistRoute.get("/", async (req, res) => {
     res.send(err);
   }
 });
-
+// post route to post data to wishlist
 wishlistRoute.post("/add", async (req, res) => {
   try {
     console.log(req.body);
@@ -28,6 +26,8 @@ wishlistRoute.post("/add", async (req, res) => {
     res.send(err);
   }
 });
+
+// delete route to delete data from wishlist
 wishlistRoute.delete("/delete/:id", async (req, res) => {
   const { id } = req.params;
   console.log(id);

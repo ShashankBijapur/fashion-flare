@@ -1,7 +1,7 @@
 import { Box, Button, Text } from '@chakra-ui/react'
 import axios from 'axios'
 import React from 'react'
-import { useSelector } from "react-redux"
+// import { useSelector } from "react-redux"
 import { useNavigate } from 'react-router-dom'
 import Navbar from '../Navbar/Navbar';
 import MobileNav from '../Navbar/MobileNav';
@@ -35,6 +35,7 @@ const Wishlist = () => {
     return (
         <>
             {isLargerThan800 ? <Navbar /> : <MobileNav />}
+
             <Box textAlign={"center"} margin="2% 0% 0% 0%" fontSize={"42px"} fontFamily="Lora" fontWeight={600} >My Wishlist</Box>
             {wishlist.length === 0 ? <Box textAlign={"center"} margin="5% 5%" justifyContent="center" >
                 
@@ -64,7 +65,7 @@ const Wishlist = () => {
                 >
                     {wishlist.map((item) => (
 
-                        <Box >
+                        <Box key={item._id} >
                             <div className="card-cont">
                                 <div className="img-div">
                                     <img src={item.src} alt={item.brand} />

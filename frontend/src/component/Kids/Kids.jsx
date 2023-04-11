@@ -50,7 +50,7 @@ const Kids = () => {
                             <div>Starting at Rs 129</div>
                             <div>
                                 <ul>
-                                    <li>{ }0 Items Found</li>
+                                <li>{Products.length }00 Items Found</li>
                                 </ul>
                                 <ul>
                                     <input

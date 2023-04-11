@@ -5,11 +5,12 @@ import {
   Box,
   Text,
   Image,
+
   Button,
 } from "@chakra-ui/react";
 import MobileItem from "./MobileItem";
 import { GiHamburgerMenu } from "react-icons/gi";
-import { BsFillBagCheckFill } from "react-icons/bs";
+import { BsFillBagCheckFill,BsFillSuitHeartFill } from "react-icons/bs";
 import { Link } from "react-router-dom";
 import { SidebarContext } from "../context/SidebarContextProvider";
 const MobileNav = () => {
@@ -87,9 +88,9 @@ const MobileNav = () => {
             alignItems={"center"}
             gap="3"
           >
-            <BsFillBagCheckFill style={{ fontSize: "30px" }} />
+            <BsFillSuitHeartFill style={{ fontSize: "30px" }} />
             <Text as="b" fontSize={"xs"}>
-              {cartLength}
+              
             </Text>
           </Box>
         </Link>

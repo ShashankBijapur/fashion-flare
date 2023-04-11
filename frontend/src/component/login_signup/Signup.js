@@ -5,7 +5,6 @@ import {
   FormLabel,
   Input,
   InputGroup,
-  HStack,
   InputRightElement,
   Stack,
   Button,
@@ -45,12 +44,13 @@ export default function SignupCard() {
         .then((res) => {
           console.log(res);
           toast({
-            title: `Sighup Successfull`,
+            title: `SignUp Successfull`,
             position: "top",
             status: "success",
             duration: 2000,
             isClosable: true,
           });
+          navigate("/login")
         })
         .catch((err) => {
           toast({

@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-// import axios from 'axios';
 import "./Womens.css";
 import {
   Accordion,
@@ -22,7 +21,7 @@ import {
 } from "../../redux/Products/action";
 import { Card } from "../Card/Card";
 // import CardPage from "./WomensCard";
-import Sidebar from "../Sidebar/Sidebar";
+// import Sidebar from "../Sidebar/Sidebar";
 
 import Navbar from "../Navbar/Navbar";
 
@@ -672,9 +671,9 @@ function Womens() {
             justifyContent="space-around"
           >
             <div>
-              <h6>{ }00 Items Found</h6>
+              <h6>{Products.length }00 Items Found</h6>
             </div>
-            <div style={{ display: "flex" }}>
+            {/* <div style={{ display: "flex" }}>
               <Input
                 variant="flushed"
                 type="text"
@@ -690,7 +689,7 @@ function Womens() {
               >
                 Search
               </Button>
-            </div>
+            </div> */}
 
             <div>
               <label htmlFor="sort-select">Sort by:</label>
