@@ -51,7 +51,7 @@ function Womens() {
 
     if (value === "highToLow") {
       const sortedProduct = allProducts.sort(
-        (a, b) => parseInt(b.rating) - parseInt(a.rating)
+        (a, b) => parseInt(b.discountPrice) - parseInt(a.discountPrice)
       );
 
       console.log("allProd", sortedProduct);
@@ -60,7 +60,7 @@ function Womens() {
 
     } else {
       const sortedProduct = allProducts.sort(
-        (a, b) => parseInt(a.rating) - parseInt(b.rating)
+        (a, b) => parseInt(a.discountPrice) - parseInt(b.discountPrice)
       );
       dispatch(handleSortByRedux(sortedProduct));
       setCount((pre) => pre + 1)
@@ -78,7 +78,6 @@ function Womens() {
       newPriceFilter = newPriceFilter.filter((price) => price !== value);
     }
     setPriceFilter(newPriceFilter);
-    // onPriceFilterChange(newPriceFilter);
   };
 
   useEffect((Products) => {
