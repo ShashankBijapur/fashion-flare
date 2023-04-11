@@ -3,6 +3,9 @@ import axios from 'axios'
 import React from 'react'
 import { useSelector } from "react-redux"
 import { useNavigate } from 'react-router-dom'
+import Navbar from '../Navbar/Navbar';
+import MobileNav from '../Navbar/MobileNav';
+import { useMediaQuery } from '@chakra-ui/react'
 const Wishlist = () => {
     // const dispatch = useDispatch()
     // const wishlist = useSelector(store => store.wishlist)
@@ -10,8 +13,10 @@ const Wishlist = () => {
     // https://magnificent-bass-suit.cyclic.app/wishlist
     const [wishlist, setwishlist] = React.useState([])
     const [data, setdata] = React.useState([])
+    const [isLargerThan800] = useMediaQuery("(min-width: 800px)");
 
-const navigate = useNavigate()
+    const navigate = useNavigate()
+
     const getdata = () => {
         axios.get("https://magnificent-bass-suit.cyclic.app/wishlist")
             .then(((res) => setwishlist(res.data)))
@@ -21,7 +26,7 @@ const navigate = useNavigate()
             .then((res) => setdata(res.data))
 
     }
-    const handltenavigate=()=>{
+    const handltenavigate = () => {
         navigate("/")
     }
     React.useEffect(() => {
@@ -29,15 +34,17 @@ const navigate = useNavigate()
     });
     return (
         <>
-            {wishlist.length === 0 ? <Box textAlign={"center"} margin="5% 5%"  justifyContent="center" >
-                <Box fontSize={"42px"} fontFamily="Lora" fontWeight={600} >My Wishlist</Box>
+            {isLargerThan800 ? <Navbar /> : <MobileNav />}
+            <Box textAlign={"center"} margin="2% 0% 0% 0%" fontSize={"42px"} fontFamily="Lora" fontWeight={600} >My Wishlist</Box>
+            {wishlist.length === 0 ? <Box textAlign={"center"} margin="5% 5%" justifyContent="center" >
+                
                 <Text mt="10px" >Your Wishlist is empty!!</Text>
                 <Text mt="10px" >ADD A FEW PRODUCTS AND THEN EXPLORE THE COOLEST WAY TO SHOP CLOTHES ONLINE!</Text>
 
-                <Button mt="10px"bg="rgb(213,162,73)" onClick={handltenavigate} colorScheme="none" color="white">Continue Shopping</Button>
+                <Button mt="10px" bg="rgb(213,162,73)" onClick={handltenavigate} colorScheme="none" color="white">Continue Shopping</Button>
 
             </Box> : <Box className="women-right" width={"70%"} margin="auto">
-                <Box>My Wishlist</Box>
+                
 
 
 
@@ -70,7 +77,7 @@ const navigate = useNavigate()
                                         <div>Get it at {item.offer} {item.discount}</div>
                                         <Box display="flex" gap="20px" >
                                             <Button colorScheme="green">Add to bag</Button>
-                                            <Button onClick={handledelete(item.id)} colorScheme="red">Delete</Button>
+                                            <Button onClick={()=>handledelete(item.id)} colorScheme="red">Delete</Button>
                                         </Box>
                                     </div>
                                 </div>

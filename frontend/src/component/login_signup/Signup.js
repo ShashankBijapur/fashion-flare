@@ -20,8 +20,10 @@ import { ViewIcon, ViewOffIcon } from "@chakra-ui/icons";
 import { useToast } from "@chakra-ui/react";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
+import Navbar from '../Navbar/Navbar';
+import MobileNav from '../Navbar/MobileNav';
 // import jwt_decode from "jwt-decode";
-
+import { useMediaQuery } from '@chakra-ui/react'
 export default function SignupCard() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
@@ -29,6 +31,7 @@ export default function SignupCard() {
   const [showPassword, setShowPassword] = useState(false);
   const toast = useToast();
   const navigate = useNavigate();
+  const [isLargerThan800] = useMediaQuery("(min-width: 800px)");
   // const [data, setdata] = useState([]);
 
   const handleSignup = () => {
@@ -77,6 +80,8 @@ export default function SignupCard() {
   };
 
   return (
+    <>
+    {isLargerThan800 ? <Navbar /> : <MobileNav />}
     <Flex
       style={{
         backgroundImage: `url("https://media.istockphoto.com/id/494350434/vector/thin-shopping-retail-line-white-seamless-pattern.jpg?s=612x612&w=0&k=20&c=XZ5G1qrghaNlovv4kw5ZtHKPYYETR-LDqRAGafDs5LA=")`,
@@ -183,5 +188,6 @@ export default function SignupCard() {
         </Box>
       </Stack>
     </Flex>
+    </>
   );
 }

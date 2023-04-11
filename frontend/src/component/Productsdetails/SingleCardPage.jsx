@@ -6,6 +6,9 @@ import { useNavigate } from 'react-router-dom'
 import axios from 'axios'
 import Carousel from './Caurosal'
 import { useToast } from '@chakra-ui/react'
+import Navbar from '../Navbar/Navbar';
+import MobileNav from '../Navbar/MobileNav';
+import { useMediaQuery } from '@chakra-ui/react'
 const SingleCardPage = () => {
     var product = JSON.parse(localStorage.getItem('ProductsDetails'))
     
@@ -17,6 +20,7 @@ const SingleCardPage = () => {
     const navigate = useNavigate()
     const [data, setData] = React.useState([])
     let [count, setcount] = useState(0)
+    const [isLargerThan800] = useMediaQuery("(min-width: 800px)");
     const getdata = () => {
         axios.get("https://magnificent-bass-suit.cyclic.app/similar")
             .then(r => setData(r.data))
@@ -62,7 +66,7 @@ const SingleCardPage = () => {
 
     return (<>
 
-
+{isLargerThan800 ? <Navbar /> : <MobileNav />}
         <Box display={{ base: "grid", md: "flex", lg: "flex", }} justifyContent="space-evenly" width="90%" margin="auto" >
 
             <div >

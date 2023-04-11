@@ -8,7 +8,6 @@ import {
   Button,
   useDisclosure,
   Box,
-  Text,
   Input,
   Flex,
   Image,

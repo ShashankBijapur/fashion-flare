@@ -1,6 +1,6 @@
 import React from "react";
 import "./Card.css";
-import { Link, useNavigate } from "react-router-dom";
+import {  useNavigate } from "react-router-dom";
 import { Box } from "@chakra-ui/react";
 
 export const Card = ({ _id, src, brand, title, category, orginalPrice, discountPrice,discount, offer, }) => {
