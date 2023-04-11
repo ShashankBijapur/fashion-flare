@@ -1,7 +1,7 @@
 import axios from "axios";
 import { GETREQ,GETSINGLEPROD , PATCHSINGLEPROD,DELETESINGLEPROD,  POSTREQ} from "./action.Type";
-import { GETREQ, GETSINGLEPROD, SORTINGLH } from "./action.Type";
-import { distance } from "framer-motion";
+// import {  SORTINGLH } from "./action.Type";
+// import { distance } from "framer-motion";
 
 
 const getProductData = (category) => async (dispatch) => {
@@ -41,13 +41,6 @@ const deleteSingleData = (category, id) => async (dispatch) => {
   dispatch({ type: DELETESINGLEPROD, payload: res });
 };
 
-export {
-  getProductData,
-  getSingleData,
-  patchSingleData,
-  deleteSingleData,
-  postProductData
-};
 
 
 const handleSortByRedux =(sortedProduct) =>(dispatch) => {
@@ -56,5 +49,14 @@ const handleSortByRedux =(sortedProduct) =>(dispatch) => {
 
   };
 
-export { getProductData, getSingleData,handleSortByRedux };
 
+
+  export {
+    getProductData,
+    getSingleData,
+    patchSingleData,
+    deleteSingleData,
+    postProductData,
+    handleSortByRedux,
+    
+  };

@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 import React, { useEffect, useState } from 'react'
 import "./Kids.css"
 import Card from './Card'
@@ -6,7 +6,7 @@ import axios from "axios"
 import { useDispatch, useSelector } from 'react-redux'
 import { getReduxData } from '../../redux/action'
 import { getProductData } from '../../redux/Products/action'
-=======
+
 // import React, { useEffect, useState } from "react";
 // import "./Kids.css";
 // import Card from "./Card";
@@ -18,20 +18,18 @@ import { getProductData } from '../../redux/Products/action'
 // import Sidebar from "../Sidebar/Sidebar";
 // import Navbar from "../Navbar/Navbar";
 
-import React, { useEffect, useState } from "react";
+
 import "./Kids.css";
 // import Card from './Card'
-import { Card } from "../Card/Card";
+
 // import axios from "axios"
-import { useDispatch, useSelector } from "react-redux";
-import { getReduxData } from "../../redux/action";
-import { getProductData } from "../../redux/Products/action";
+
 import CardPage from "../Womens/WomensCard";
 import Sidebar from "../Sidebar/Sidebar";
 import Navbar from "../Navbar/Navbar";
 import MobileNav from "../Navbar/MobileNav";
 import { useMediaQuery } from "@chakra-ui/react";
->>>>>>> 54f622827e51543605da600b86cc68501aa5fad0
+
 
 const Kids = () => {
     const [search, setSearch] = useState("");
@@ -44,16 +42,10 @@ const Kids = () => {
         setSearch("");
     };
     useEffect(() => {
-<<<<<<< HEAD
-        dispatch(getProductData("kid"))
-    }, [])
-
-
-=======
         dispatch(getProductData("kid"));
     }, []);
     const [isLargerThan800] = useMediaQuery("(min-width: 800px)");
->>>>>>> 54f622827e51543605da600b86cc68501aa5fad0
+
     return (
         <>
             {isLargerThan800 ? <Navbar /> : <MobileNav />}
