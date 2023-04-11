@@ -1,12 +1,5 @@
 import axios from 'axios'
 import React, { useState, useEffect, useRef } from 'react'
-<<<<<<< HEAD:frontend/src/component/Womens/Cart.jsx
-import { Box, Button, Checkbox, CheckboxGroup,  Flex, Image, Stack, Text } from '@chakra-ui/react';
-import CartCard from './CartCard';
-import { Input, useDisclosure } from '@chakra-ui/react'
-import { useNavigate } from 'react-router-dom';
-import Paymentmodal from './Payments';
-=======
 import {
     Popover,
     PopoverTrigger,
@@ -22,7 +15,6 @@ import CartCard from './CartCard';
 import { Input, useDisclosure } from '@chakra-ui/react'
 import { useNavigate } from 'react-router-dom';
 import Paymentmodal from '../PaymentModel/Payments';
->>>>>>> 54f622827e51543605da600b86cc68501aa5fad0:frontend/src/component/Cart/Cart.jsx
 import { useDispatch } from "react-redux"
 import { getCartData } from '../../redux/action'
 import { useMediaQuery } from '@chakra-ui/react'
