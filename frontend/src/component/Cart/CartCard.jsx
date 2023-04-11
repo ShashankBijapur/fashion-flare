@@ -25,9 +25,12 @@ const CartCard = ({ item, setCount, count }) => {
     };
 
     const deleteitem = (id) => {
-        axios.delete(`https://magnificent-bass-suit.cyclic.app/cart/${id}`)
+        console.log(id)
+        axios.delete(`http://localhost:4000/cart/delete/${id}`)
             .then(res => setCartitem(res.data))
     }
+
+
     const addtowishlist = (item, id) => {
        
         axios.post("https://magnificent-bass-suit.cyclic.app/wishlist", item)
@@ -43,7 +46,7 @@ const CartCard = ({ item, setCount, count }) => {
 
             <Box padding={"5px"} border="1px solid rgb(250,230,250)" display={{ base: "grid", md: "flex" }} justifyContent= "space-evenly" gap="20px" marginTop="20px">
                 <Image src={item.src} width={{ base: "200px", sm: "200px" }} margin={{ base: "auto" }} alt="" />
-                <Text>{item.brand}- <span> {item.nameCls}</span> </Text>
+                <Text>{item.brand}- <span> {item.title}</span> </Text>
 
                 <Popover >
                     <PopoverTrigger>
@@ -75,14 +78,14 @@ const CartCard = ({ item, setCount, count }) => {
 
                 <div style={{ display: "grid", gap: "20px" }}>
                     <div >
-                        <h1> Discount  Rs.{item.offerpricess}</h1>
+                        <h1> Discount  Rs.{item.discount}</h1>
 
-                        <h1> <p style={{ textDecoration: "line-through" }}>Rs. {item.orginalprice}</p>  <span>{item.discount}%Off</span> <span> Rs. {item.price * count}</span></h1>
+                        <h1>  Rs. {item.discountPrice}  <span style={{ textDecoration: "line-through" }}>{item.orginalPrice}</span> </h1>
                     </div>
                     <div>
                         <div style={{ display: "flex", gap: "20px" }}>
-                            <Button onClick={() => deleteitem(item.id)}> Delete</Button>
-                            <Button onClick={() => addtowishlist(item, item.id)}> Move To Wishlist</Button></div>
+                            <Button onClick={() => deleteitem(item._id)}> Delete</Button>
+                            <Button onClick={() => addtowishlist(item, item._id)}> Move To Wishlist</Button></div>
                     </div>
 
                 </div>

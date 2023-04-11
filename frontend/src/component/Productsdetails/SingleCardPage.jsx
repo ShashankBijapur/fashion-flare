@@ -50,7 +50,7 @@ const SingleCardPage = () => {
 
     const addtobag = () => {
         setcount(count++)
-        axios.post("https://magnificent-bass-suit.cyclic.app/cart", product)
+        axios.post("http://localhost:4000/cart/add", product)
         toast({
             title: `Product Added to Cart Successfully`,
             position: "top",
