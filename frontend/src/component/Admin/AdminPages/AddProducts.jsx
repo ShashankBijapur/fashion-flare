@@ -2,9 +2,7 @@
   import React, { useState } from "react";
   import AdminSidebar from "../AdminComps/Sidebar";
 import { FormControl, FormLabel, Input, Button } from "@chakra-ui/react";
-  import { postRequestAdminSide } from "../../../redux/Admin/action";
-  import { useDispatch } from "react-redux";
-  
+
   function AddProducts() {
     const [product, setProduct] = useState({
       src: "",
