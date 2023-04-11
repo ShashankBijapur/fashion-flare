@@ -5,7 +5,6 @@ import {
   Box,
   Text,
   Image,
-
   Button,
 } from "@chakra-ui/react";
 import MobileItem from "./MobileItem";
