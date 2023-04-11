@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import AdminSidebar from "../Components/AdminSidebar";
+import AdminSidebar from "../AdminComps/Sidebar";
 
 import { ChevronRightIcon } from "@chakra-ui/icons";
 import {
@@ -19,28 +19,25 @@ import {
   Tr,
 } from "@chakra-ui/react";
 import { useDispatch, useSelector } from "react-redux";
-import { getRequestforAdminSide } from "../Redux/AdminReducer/action";
-import { deleteUserData, getUSerData } from "../Redux/UserReducer/action";
-import UserCard from "../Components/UserCard";
+import { getRequestforAdminSide } from "../../../redux/Admin/action";
+import { deleteUserData, getUSerData } from "../../../redux/Users/action";
+import UserCard from "../AdminComps/UserCard";
 
 let arr = new Array(10).fill(0);
 
 function Dashboard() {
   const dispatch = useDispatch();
-  const mensJeans = useSelector((store) => {
-    return store.AdminReducer.mens_jeans;
+
+  const mens = useSelector((store) => {
+    return store.AdminReducer.mens
   });
 
-  const mensTshirt = useSelector((store) => {
-    return store.AdminReducer.mens_tshirt;
+  const womens = useSelector((store) => {
+    return store.AdminReducer.womens
   });
 
-  const womensKurtas = useSelector((store) => {
-    return store.AdminReducer.womens_kurtas;
-  });
-
-  const womensTops = useSelector((store) => {
-    return store.AdminReducer.womens_tops;
+  const kids = useSelector((store) => {
+    return store.AdminReducer.kids;
   });
 
   const Users = useSelector((store) => {
@@ -50,12 +47,11 @@ function Dashboard() {
   const isLoading = useSelector((store) => {
     return store.UserReducer.isLoading;
   });
-  console.log(isLoading, "isLoading");
+ 
   useEffect(() => {
-    dispatch(getRequestforAdminSide({}, "men-jeans"));
-    dispatch(getRequestforAdminSide({}, "men-t-shirts"));
-    dispatch(getRequestforAdminSide({}, "women-kurtas-suits"));
-    dispatch(getRequestforAdminSide({}, "women-tops"));
+    dispatch(getRequestforAdminSide({}, "men"));
+    dispatch(getRequestforAdminSide({}, "women"));
+    dispatch(getRequestforAdminSide({}, "kid"));
     dispatch(getUSerData());
   }, []);
 
@@ -123,10 +119,9 @@ function Dashboard() {
             >
               <Text fontSize={"2xl"}>Total Products</Text>
               <Text fontSize={"2xl"}>
-                {mensJeans.length +
-                  womensKurtas.length +
-                  womensTops.length +
-                  mensTshirt.length}
+                {mens.length +
+                  womens.length +
+                  kids.length}
               </Text>
             </Box>
           </Box>
@@ -207,9 +202,9 @@ function Dashboard() {
             <Thead>
               <Tr>
                 <Th>Sr. No</Th>
-                <Th>First Name</Th>
-                <Th>Last Name</Th>
-                <Th>Mobile</Th>
+                <Th>Name</Th>
+                <Th>Email</Th>
+                <Th>Password</Th>
                 <Th>Delete</Th>
               </Tr>
             </Thead>

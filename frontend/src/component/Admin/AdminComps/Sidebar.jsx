@@ -1,6 +1,6 @@
 import React from "react";
-import logo from "../Images/fashion_flare.png"
-import Admin from "../Images/Admin.png"
+import logo from "../../Images/fashion_flare.png"
+import Admin from "../../Images/Admin.png"
 import {
   IconButton,
   Avatar,
@@ -47,7 +47,7 @@ export default function AdminSidebar({ children, heading }) {
   const { isOpen, onOpen, onClose } = useDisclosure();
   const headings = heading;
   return (
-    <Box minH="80vh" bg={useColorModeValue("gray.100", "gray.900")}>
+    <Box minH="100vh" bg={useColorModeValue("gray.100", "gray.900")}>
       <SidebarContent
         onClose={() => onClose}
         display={{ base: "none", md: "block" }}
@@ -67,7 +67,7 @@ export default function AdminSidebar({ children, heading }) {
       </Drawer>
       {/* mobilenav */}
       <MobileNav heading={headings} onOpen={onOpen} />
-      <Box ml={{ base: 0, md: 20 }} p="4">
+      <Box ml={{ base: 0, md: 60 }} p="4">
         {children}
       </Box>
     </Box>
@@ -86,7 +86,7 @@ const SidebarContent = ({ onClose, ...rest }) => {
       h="full"
       {...rest}
     >
-      <Flex  alignItems="center" mx="8" justifyContent="space-between">
+      <Flex h="20" alignItems="center" mx="8" justifyContent="space-between">
         <Link to="/dashboard">
           <Box>
             <Image
@@ -146,8 +146,8 @@ const MobileNav = ({ onOpen, heading, ...rest }) => {
     <Flex
       ml={{ base: 0, md: 60 }}
       px={{ base: 4, md: 4 }}
-      height="5px"
-      alignItems="stretch"
+      height="10"
+      alignItems="center"
       bg={useColorModeValue("white", "gray.900")}
       borderBottomWidth="1px"
       borderBottomColor={useColorModeValue("gray.200", "gray.700")}

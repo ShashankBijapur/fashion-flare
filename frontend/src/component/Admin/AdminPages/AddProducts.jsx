@@ -12,35 +12,36 @@ import {
   } from "@chakra-ui/react";
   import { ChevronRightIcon } from "@chakra-ui/icons";
   import React, { useState } from "react";
-  import AdminSidebar from "../Components/AdminSidebar";
-  import { postRequestAdminSide } from "../Redux/AdminReducer/action";
+  import AdminSidebar from "../AdminComps/Sidebar";
+  import { postRequestAdminSide } from "../../../redux/Admin/action";
   import { useDispatch } from "react-redux";
-  const initilalData = {
-    name: "",
-    price: {
-      mrp: "",
-      discount: "",
-      sp: "",
-    },
-    brand_name: "",
-    sizes: [28, 32, 34, 36, 38],
-    customer_rating: "",
-    product_details: [""],
-    images: [],
-    quantity: "",
+  const initialData = {
+    src: "",
+    brand: "",
+    category: "",
+    title: "",
+    discountPrice: "",
+    orginalPrice: "",
+    discount: "",
+    offer: "",
+    genre: [],
+    rating: ""
   };
   function AddProducts() {
-    const [data, setData] = useState(initilalData);
+    const [data, setData] = useState(initialData);
     const {
-      name,
-      price,
-      brand_name,
-      customer_rating,
-      product_details,
-      images,
-      quantity,
+      src,
+  brand,
+  category,
+  title,
+  discountPrice,
+  orginalPrice,
+  discount,
+  offer,
+  genre,
+  rating
     } = data;
-    const [category, setCategory] = useState("");
+    const [categories, setCategory] = useState("");
     const toast = useToast();
     const dispatch = useDispatch();
     const callToast = () => {
@@ -50,52 +51,29 @@ import {
         isClosable: true,
       });
     };
-    const handleChange = (e) => {
-      const { name, value } = e.target;
-      // console.log(name, value);
-  
-      if (name === "price.mrp") {
-        setData({ ...data, price: { ...price, mrp: +value } });
-      } else if (name === "images") {
-        setData({ ...data, images: [value] });
-      } else if (name === "price.sp") {
-        setData({
-          ...data,
-          price: {
-            ...price,
-            sp: +value,
-          },
-        });
-      } else {
-        setData({
-          ...data,
-          [name]: value,
-          price: {
-            ...price,
-            discount: Math.floor(((price.mrp - price.sp) / price.mrp) * 100),
-          },
-        });
-      }
+
+    const handleChange = (event) => {
+      setData({
+        ...data,
+        [event.target.name]: event.target.value,
+      });
     };
-  
-    const handleCategory = (e) => {
-      console.log(e.target.value);
-      setCategory(e.target.value);
-    };
-    // console.log(data);
+
+    
     const handleSubmit = (e) => {
       e.preventDefault();
-  
+    
       if (
-        name === "" ||
-        brand_name === "" ||
-        price.sp == "" ||
-        price.mrp == "" ||
-        images.length == 0 ||
-        quantity == "" ||
-        customer_rating === "" ||
-        product_details == "" ||
-        category == ""
+        src === "" ||
+        brand === "" ||
+        title == "" ||
+        discountPrice == "" ||
+        orginalPrice == "" ||
+        discount == "" ||
+        offer == "" ||
+        category == "" ||
+        genre === [] ||
+        rating  == ""
       ) {
         toast({
           position: "top",
@@ -105,21 +83,33 @@ import {
           duration: 2000,
         });
       } else {
-        if (category === "men-jeans") {
-          dispatch(postRequestAdminSide("men-jeans", data));
-        } else if (category === "men-t-shirts") {
-          dispatch(postRequestAdminSide("men-t-shirts", data));
-        } else if (category === "women-kurtas-suits") {
-          dispatch(postRequestAdminSide("women-kurtas-suits", data));
-        } else if (category === "women-tops") {
-          dispatch(postRequestAdminSide("women-tops", data));
+        const payload = {
+          src,
+          brand,
+          category,
+          title,
+          discountPrice,
+          orginalPrice,
+          discount,
+          offer,
+          genre,
+          rating
+        };
+    
+        if (categories === "men") {
+          dispatch(postRequestAdminSide("men", payload));
+        } else if (categories === "women") {
+          dispatch(postRequestAdminSide("women", payload));
+        } else if (categories === "kid") {
+          dispatch(postRequestAdminSide("kid", payload));
         }
+    
         callToast();
-        setData(initilalData);
+        setData(initialData);
         setCategory("");
       }
-      console.log(category, data, "handleSubmit");
     };
+    
     return (
       <AdminSidebar heading={"Add Products"}>
         <Box border={"1px solid re"}>
@@ -146,10 +136,10 @@ import {
           >
             <FormControl width={"100%"} as={"fieldset"}>
               <FormLabel>Image Link</FormLabel>
-              <Input value={images} name="images" onChange={handleChange} />
+              <Input value={src} name="images" onChange={handleChange} />
   
               <FormLabel>Title</FormLabel>
-              <Input value={name} name="name" onChange={handleChange} />
+              <Input value={brand} name="name" onChange={handleChange} />
               <Box display={"flex"} mt={"5px"}>
                 <FormLabel>Select Category</FormLabel>
                 <Select
@@ -159,37 +149,36 @@ import {
                   // bg="#ffa711"
                   w={{ lg: "30%" }}
                 >
-                  <option value="men-jeans">Mens-Jeans</option>
-                  <option value="men-t-shirts">Mens T-Shirt</option>
-                  <option value="women-kurtas-suits">Womens Kurta Suits</option>
-                  <option value="women-tops">Womens Tops</option>
+                  <option value="mens">Mens</option>
+                  <option value="womens">Womens</option>
+                  <option value="kids">Kids</option>
                 </Select>
               </Box>
               <FormLabel>Brand</FormLabel>
               <Input
-                name="brand_name"
-                value={brand_name}
+                name="brand"
+                value={brand}
                 onChange={handleChange}
               />
   
               <FormLabel>Description</FormLabel>
               <Input
-                name="product_details"
-                value={product_details}
+                name="title"
+                value={title}
                 onChange={handleChange}
               />
   
               <FormLabel>Mrp</FormLabel>
               <Input
-                name="price.mrp"
-                value={price.mrp}
+                name="originalPrice"
+                value={originalPrice}
                 type={"number"}
                 onChange={handleChange}
               />
               <FormLabel>Special Price</FormLabel>
               <Input
-                name="price.sp"
-                value={price.sp}
+                name="discountPrice"
+                value={discountPrice}
                 type={"number"}
                 onChange={handleChange}
               />
@@ -197,15 +186,15 @@ import {
                 <FormLabel>Rating</FormLabel>
   
                 <Input
-                  name="customer_rating"
-                  value={customer_rating}
+                  name="rating"
+                  value={rating}
                   type={"number"}
                   onChange={handleChange}
                 />
                 <FormLabel>Quantity</FormLabel>
                 <Input
-                  name="quantity"
-                  value={quantity}
+                  name="discount"
+                  value={discount}
                   type={"number"}
                   onChange={handleChange}
                 />

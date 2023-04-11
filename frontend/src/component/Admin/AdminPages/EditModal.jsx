@@ -15,26 +15,22 @@ import {
 import React, { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { useParams } from "react-router-dom";
-import AdminSidebar from "../Components/AdminSidebar";
+import AdminSidebar from "../AdminComps/Sidebar";
 import {
   getRequestforAdminSide,
   patchRequestforAdminSide,
-} from "../Redux/AdminReducer/action";
+} from "../../../redux/Admin/action";
 
 const initilalData = {
-  id: "",
+  _id: "",
   name: "",
-  price: {
-    mrp: "",
-    discount: "",
-    sp: "",
-  },
-  brand_name: "",
-  sizes: [],
-  customer_rating: "",
-  product_details: [],
-  images: [],
-  quantity: "",
+  orginalPrice:"",
+  discountPrice:"",
+  discount:"",
+  brand: "",
+  rating: "",
+  title: "",
+  src: "",
 };
 
 function EditProducts() {
@@ -45,30 +41,35 @@ function EditProducts() {
   const toast = useToast();
 
   const {
+  // brand,
+  // title,
+  // orginalPrice,
+  // discountPrice,
+  // rating,
+  // discount,
     name,
     price,
-    brand_name,
-    customer_rating,
-    product_details,
-
+    orginalPrice,
+    discountPrice,
+    discount,
+    brand,
+    rating,
+    title,
     quantity,
   } = data;
 
   const dispatch = useDispatch();
-  const mensJeans = useSelector((store) => {
-    return store.AdminReducer.mens_jeans;
+  const mens = useSelector((store) => {
+    return store.AdminReducer.mens;
   });
 
-  const mensTshirt = useSelector((store) => {
-    return store.AdminReducer.mens_tshirt;
+
+  const womens = useSelector((store) => {
+    return store.AdminReducer.womens;
   });
 
-  const womensKurtas = useSelector((store) => {
-    return store.AdminReducer.womens_kurtas;
-  });
-
-  const womensTops = useSelector((store) => {
-    return store.AdminReducer.womens_tops;
+  const kids = useSelector((store) => {
+    return store.AdminReducer.kids;
   });
 
   const callToast = () => {
@@ -81,48 +82,42 @@ function EditProducts() {
   };
 
   let paramsid = param.id;
-  let [category, id] = paramsid.split("-");
+  let [categories, id] = paramsid;
 
   useEffect(() => {
-    if (mensJeans.length === 0) {
-      dispatch(getRequestforAdminSide({}, "men-jeans"));
-      console.log(mensJeans);
-    } else if (mensTshirt.length === 0) {
-      dispatch(getRequestforAdminSide({}, "men-t-shirts"));
-    } else if (womensKurtas.length === 0) {
-      dispatch(getRequestforAdminSide({}, "women-kurtas-suits"));
-    } else if (womensTops.length === 0) {
-      dispatch(getRequestforAdminSide({}, "women-tops"));
+    if (mens.length === 0) {
+      dispatch(getRequestforAdminSide({}, "men"));
+      console.log(mens);
+    } else if (womens.length === 0) {
+      dispatch(getRequestforAdminSide({}, "women"));
+    } else if (kids.length === 0) {
+      dispatch(getRequestforAdminSide({}, "kid"));
     }
-  }, [mensJeans, mensTshirt, womensKurtas, womensTops]);
+  }, [mens, womens, kids]);
 
   useEffect(() => {
-    if (category === "menJeans" && mensJeans.length > 0) {
-      let productData = mensJeans.find((el) => el.id === +id);
+    if (categories === "men" && mens.length > 0) {
+      let productData = mens.find((el) => el.id === +id);
       setData(productData);
     }
 
-    if (category === "mensTshirt" && mensTshirt.length > 0) {
-      let productData = mensTshirt.find((el) => el.id === +id);
+    if (categories === "women" && womens.length > 0) {
+      let productData = womens.find((el) => el.id === +id);
       setData(productData);
     }
-    if (category === "womensKurtas" && womensKurtas.length > 0) {
-      let productData = womensKurtas.find((el) => el.id === +id);
+    if (categories === "kid" && kids.length > 0) {
+      let productData = kids.find((el) => el.id === +id);
       setData(productData);
     }
-    if (category === "womensTops" && womensTops.length > 0) {
-      let productData = womensTops.find((el) => el.id === +id);
-      setData(productData);
-    }
-  }, [mensJeans, mensTshirt, womensKurtas, womensTops]);
+  }, [mens, womens, kids]);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
     // console.log(name, value);
 
-    if (name === "price.mrp") {
-      setData({ ...data, price: { ...price, mrp: value } });
-    } else if (name === "price.sp") {
+    if (name === "originalPrice") {
+      setData({ ...data, originalPrice:  value  });
+    } else if (name === "") {
       setData({ ...data, price: { ...price, sp: value } });
     } else {
       setData({
@@ -139,14 +134,12 @@ function EditProducts() {
   const handleSubmit = (id) => {
     // e.preventDefault();
     // console.log(data,+id);
-    if (category === "menJeans") {
-      dispatch(patchRequestforAdminSide(id, "men-jeans", data));
-    } else if (category === "mensTshirt") {
-      dispatch(patchRequestforAdminSide(id, "men-t-shirts", data));
-    } else if (category === "womensKurtas") {
-      dispatch(patchRequestforAdminSide(id, "women-kurtas-suits", data));
-    } else if (category === "womensTops") {
-      dispatch(patchRequestforAdminSide(id, "women-tops", data));
+    if (categories === "men") {
+      dispatch(patchRequestforAdminSide(id, "men", data));
+    } else if (categories === "women") {
+      dispatch(patchRequestforAdminSide(id, "women", data));
+    } else if (categories === "kid") {
+      dispatch(patchRequestforAdminSide(id, "kid", data));
     }
     callToast();
     setShow((prev) => !prev);
@@ -172,7 +165,7 @@ function EditProducts() {
           Edit Product Details
         </Text>
         <Box display={"flex"} justifyContent={"center"} gap={"25px"}>
-          {data?.name !== undefined && (
+          {data?.brand !== undefined && (
             <Box
               w={"30%"}
               p={"15px"}
@@ -187,15 +180,15 @@ function EditProducts() {
                 display={"flex"}
                 justifyContent={"center"}
               >
-                <Image src={data.images && data?.images[0]} w={"80%"} />
+                <Image src={data.src&& data?.src} w={"80%"} />
               </Box>
-              <Text fontWeight={500}> {data?.brand_name}</Text>
-              <Text>{data?.name}</Text>
-              <Text>Description : {data?.product_details}</Text>
-              <Text>Rating : {data?.customer_rating}</Text>
-              <Text>Special Price : Rs. {data?.price?.sp}</Text>
+              <Text fontWeight={500}> {data?.brand}</Text>
+              <Text>{data?.brand}</Text>
+              <Text>Description : {data?.title}</Text>
+              <Text>Rating : {data?.rating}</Text>
+              <Text>Special Price : Rs. {data?.discountPrice}</Text>
 
-              <Text>Mrp : Rs. {data?.price?.mrp}</Text>
+              <Text>Mrp : Rs. {data?.originalPrice}</Text>
               <Button
                 onClick={() => setShow((prev) => !prev)}
                 colorScheme={"green"}
@@ -222,49 +215,32 @@ function EditProducts() {
 
                 <FormLabel>Brand</FormLabel>
                 <Input
-                  name="brand_name"
-                  value={brand_name}
+                  name="brand"
+                  value={brand}
                   onChange={handleChange}
                 />
 
                 <FormLabel>Description</FormLabel>
                 <Input
-                  name="product_details"
-                  value={product_details}
+                  name="title"
+                  value={title}
                   onChange={handleChange}
                 />
 
                 <FormLabel>Mrp</FormLabel>
                 <Input
-                  name="price.mrp"
-                  value={price.mrp}
+                  name="originalPrice"
+                  value={orginalPrice}
                   type={"number"}
                   onChange={handleChange}
                 />
                 <FormLabel>Special Price</FormLabel>
                 <Input
-                  name="price.sp"
-                  value={price.sp}
+                  name="discountPrice"
+                  value={discountPrice}
                   type={"number"}
                   onChange={handleChange}
                 />
-                <Box display={"flex"} gap={"5px"} mt={"10px"}>
-                  <FormLabel>Rating</FormLabel>
-
-                  <Input
-                    name="customer_rating"
-                    value={customer_rating}
-                    type={"number"}
-                    onChange={handleChange}
-                  />
-                  <FormLabel>Quantity</FormLabel>
-                  <Input
-                    name="quantity"
-                    value={quantity}
-                    type={"number"}
-                    onChange={handleChange}
-                  />
-                </Box>
                 <Box display={"flex"} justifyContent={"space-around"} mt="10px">
                   <Button
                     onClick={(e) => handleSubmit(id)}

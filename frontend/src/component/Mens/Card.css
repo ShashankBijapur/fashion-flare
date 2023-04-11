@@ -10,6 +10,16 @@
     transform: scale(1.02);
 
   }
+  .card-icons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  .card-icons > * {
+    margin-right: 10px;
+  }
+  
   .img-div{
     /* height: 70%; */
     /* border: 1px solid blue; */
