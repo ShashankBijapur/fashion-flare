@@ -1,3 +1,68 @@
+// const express = require("express");
+// const jwt = require("jsonwebtoken");
+// const bcrypt = require("bcrypt");
+// const { UserModel } = require("../models/userModel");
+// const authRoute = express.Router();
+
+// authRoute.get("/", async (req, res) => {
+//   const data = await UserModel.find();
+//   res.send(data);
+// });
+// authRoute.post("/register", async (req, res) => {
+//   const { name, email, password } = req.body;
+//   const userPresent = await UserModel.findOne({ email: email });
+//   // console.log(req.body);
+//   if (userPresent?.email) {
+//     res.send({ msg: "User already exists" });
+//   } else {
+//     try {
+//       bcrypt.hash(password, 5, async (err, secure_password) => {
+//         if (err) {
+//           console.log(err);
+//         } else {
+//           const user = new UserModel({
+//             email,
+//             password: secure_password,
+//             name,
+//           });
+//           await user.save();
+//           res.send({ msg: "Registered SucessFully" });
+//         }
+//       });
+//     } catch (e) {
+//       res.send({ msg: "Error in registering the user" });
+//       console.log(e);
+//     }
+//   }
+// });
+
+// authRoute.post("/login", async (req, res) => {
+//   const { email, password } = req.body;
+//   try {
+//     const user = await UserModel.find({ email });
+//     if (user.length > 0) {
+//       bcrypt.compare(password, user[0].password, (err, result) => {
+//         if (result) {
+//           const token = jwt.sign({ userID: user[0]._id }, "project");
+//           // console.log(token);
+//           res.send({ msg: "Logged in SuccessFull", token: token });
+//         } else {
+//           res.send({ msg: "Wrong Credentials" });
+//         }
+//       });
+//     } else {
+//       res.send({ msg: "Wrong Credentials" });
+//     }
+//   } catch (e) {
+//     res.send({ msg: "Logged In Failed" });
+//     console.log(e);
+//   }
+// });
+// module.exports = {
+//   authRoute,
+// };
+
+
 const express = require("express");
 const jwt = require("jsonwebtoken");
 const bcrypt = require("bcrypt");
@@ -8,6 +73,7 @@ authRoute.get("/", async (req, res) => {
   const data = await UserModel.find();
   res.send(data);
 });
+
 authRoute.post("/register", async (req, res) => {
   const { name, email, password } = req.body;
   const userPresent = await UserModel.findOne({ email: email });
@@ -67,26 +133,55 @@ authRoute.patch("update/:id", async (req, res) => {
 
 authRoute.post("/login", async (req, res) => {
   const { email, password } = req.body;
+
+authRoute.post("/register", (req, res) => {
+  const { email, name, password } = req.body
+
   try {
-    const user = await UserModel.find({ email });
-    if (user.length > 0) {
-      bcrypt.compare(password, user[0].password, (err, result) => {
+    const user = UserModel.find({ email })
+    // console.log(user)
+    if (user.length >= 1) {
+      res.status(400).send({ "msg": "User already exist, please login" })
+    }
+    else {
+      bcrypt.hash(password, 4, async (err, hash) => {
+        const user = new UserModel({ email, name, password: hash });
+        await user.save()
+        res.status(200).send({ "msg": "new user added" })
+      });
+
+    }
+  } catch (error) {
+    res.status(400).send({ "msg": error.message })
+  }
+
+})
+
+//login route for user 
+authRoute.post("/login", async (req, res) => {
+  const { email, password } = req.body
+
+  try {
+    const user = await UserModel.findOne({ email })
+    console.log(user)
+    if (user) {
+      bcrypt.compare(password, user.password, async (err, result) => {
         if (result) {
-          const token = jwt.sign({ userID: user[0]._id }, "project");
-          // console.log(token);
-          res.send({ msg: "Logged in SuccessFull", token: token });
+          res.status(200).send({ "msg": "login success", "token": jwt.sign({ "userid": user._id }, "fashionflare"),user })
         } else {
-          res.send({ msg: "Wrong Credentials" });
+          res.status(400).send({ "msg": "wrong details" })
         }
       });
-    } else {
-      res.send({ msg: "Wrong Credentials" });
     }
-  } catch (e) {
-    res.send({ msg: "Logged In Failed" });
-    console.log(e);
+  } catch (error) {
+    res.status(400).send({ "msg": error.message })
   }
+
 });
+
+
+
+})
 
 module.exports = {
   authRoute,

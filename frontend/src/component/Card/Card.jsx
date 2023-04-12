@@ -14,8 +14,8 @@ export const Card = ({ _id, src, brand, title, category, orginalPrice, discountP
   
  
   return (
-    <Box onClick={handledata}>
-      <div className="card-cont">
+    <Box onClick={handledata} >
+      <div className="card-cont" key={_id}>
         <div className="img-div">
           <img src={src} alt={brand} />
         </div>
@@ -23,7 +23,7 @@ export const Card = ({ _id, src, brand, title, category, orginalPrice, discountP
           <div className="card-content">
             <div>{brand}</div>
             <div>{title}</div>
-            <div>{discountPrice.includes("₹")?discountPrice:`₹${discountPrice}`} <span style={{textDecoration:"line-through"}}>{orginalPrice.includes("₹")?orginalPrice:`₹${orginalPrice}`} </span> </div>
+            <div>₹{discountPrice} <span style={{textDecoration:"line-through"}}>₹{orginalPrice} </span> </div>
             <div>Get it at {offer} {discount}</div>
           </div>
         </div>

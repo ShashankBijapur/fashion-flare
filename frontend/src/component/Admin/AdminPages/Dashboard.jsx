@@ -23,7 +23,6 @@ import { getRequestforAdminSide } from "../../../redux/Admin/action";
 import { deleteUserData, getUSerData } from "../../../redux/Users/action";
 import UserCard from "../AdminComps/UserCard";
 
-let arr = new Array(10).fill(0);
 
 function Dashboard() {
   const dispatch = useDispatch();
@@ -63,31 +62,11 @@ function Dashboard() {
   };
   return (
     <AdminSidebar heading={"Dashboard"}>
-      <Box border={"1px solid re"}>
-        <Box>
-          <Breadcrumb
-            spacing="8px"
-            separator={<ChevronRightIcon color="gray.500" />}
-          >
-            <BreadcrumbItem>
-              <BreadcrumbLink href="#">Admin</BreadcrumbLink>
-            </BreadcrumbItem>
-
-            <BreadcrumbItem>
-              <BreadcrumbLink href="#">Dashboard</BreadcrumbLink>
-            </BreadcrumbItem>
-          </Breadcrumb>
-        </Box>
-      </Box>
+   
 
       <Box>
         <Box
-          mt={"25px"}
-          border={"1px solid re"}
-          display={"grid"}
-          gridTemplateColumns={"repeat(3,1fr)"}
-          justifyContent={"space-between"}
-          gap={"25px"}
+        
         >
           <Box
             // w={"28%"}
@@ -209,18 +188,7 @@ function Dashboard() {
               </Tr>
             </Thead>
             <Tbody>
-              {isLoading &&
-                arr.map((item) => {
-                  return (
-                    <Tr >
-                      <Td>{""}</Td>
-                      <Td>{""}</Td>
-                      <Td>{""}</Td>
-                      <Td>{""}</Td>
-                      <Td>{""}</Td>
-                    </Tr>
-                  );
-                })}
+             
               {Users?.map((item, index) => {
                 return (
                   <UserCard

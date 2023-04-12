@@ -89,9 +89,7 @@ const SidebarContent = ({ onClose, ...rest }) => {
       <Flex h="20" alignItems="center" mx="8" justifyContent="space-between">
         <Link to="/dashboard">
           <Box>
-            <Image
-              src={logo}
-            />
+            <Image src={logo} />
           </Box>
         </Link>
         <CloseButton display={{ base: "flex", md: "none" }} onClick={onClose} />
@@ -104,6 +102,7 @@ const SidebarContent = ({ onClose, ...rest }) => {
     </Box>
   );
 };
+
 
 const NavItem = ({ icon, to, children, ...rest }) => {
   return (
@@ -154,28 +153,7 @@ const MobileNav = ({ onOpen, heading, ...rest }) => {
       justifyContent={{ base: "space-between", md: "flex-end" }}
       {...rest}
     >
-      <IconButton
-        display={{ base: "flex", md: "none" }}
-        onClick={onOpen}
-        variant="outline"
-        aria-label="open menu"
-        icon={<FiMenu />}
-      />
-
-      <Text
-        display={{ base: "flex", md: "none" }}
-        fontSize="2xl"
-        fontFamily="monospace"
-        fontWeight="bold"
-      >
-        <Image
-          marginTop="8px"
-          marginLeft={"30px"}
-          w="60px"
-          h="60px"
-          src="https://aartisto.com/wp-content/uploads/2020/11/myntra.png"
-        />
-      </Text>
+    
 
       <HStack
         border={"1px solid re"}

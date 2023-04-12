@@ -36,7 +36,7 @@ const SingleCardPage = () => {
     const handletext = () => {
         setText(!text)
         if (text === true) {
-            axios.post("http://localhost:4000/wishlist/add", {...product,size})
+            axios.post("https://smiling-wear-pig.cyclic.app/wishlist/add", product)
 
             toast({
                 title: `Product Added to Wishlist Successfully`,
@@ -50,7 +50,7 @@ const SingleCardPage = () => {
 
     const addtobag = () => {
         setcount(count++)
-        axios.post("http://localhost:4000/cart/add", product)
+        axios.post("https://smiling-wear-pig.cyclic.app/cart/add", product)
         toast({
             title: `Product Added to Cart Successfully`,
             position: "top",

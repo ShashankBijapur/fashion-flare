@@ -1,6 +1,11 @@
-import React, { useEffect, useState } from 'react';
-import "../../Mens/Mens.css";
-import { useDispatch, useSelector } from 'react-redux';
+
+
+import React, { useEffect, useState } from 'react'
+import "../../Mens/Mens.css"
+// import Card from './Card'
+import { useDispatch, useSelector } from 'react-redux'
+// import { getReduxData } from "../redux/action";
+
 import { deleteSingleData, getProductData, patchSingleData } from "../../../redux/Products/action";
 import "./store.css";
 import AdminSidebar from '../AdminComps/Sidebar';
@@ -29,6 +34,12 @@ const Store = () => {
   useEffect(() => {
     dispatch(getProductData('men'));
   }, []);
+
+    useEffect(() => {
+      dispatch(getProductData('men'));
+    }, []);
+
+   
 
   return (
     <AdminSidebar heading={"Store"}>

@@ -34,51 +34,87 @@ export default function SignupCard() {
   // const [data, setdata] = useState([]);
 
   const handleSignup = () => {
-    if (name && email && password) {
-      axios
-        .post(`http://localhost:4000/auth/register`, {
-          name: name,
-          email: email,
-          password: password,
-        })
-        .then((res) => {
-          console.log(res);
-          toast({
-            title: `SignUp Successfull`,
-            position: "top",
-            status: "success",
-            duration: 2000,
-            isClosable: true,
-          });
-          navigate("/login")
-        })
-        .catch((err) => {
-          toast({
-            title: `Something Went Wrong`,
-            position: "top",
-            status: "error",
-            duration: 2000,
-            isClosable: true,
-          });
-        });
-    } else {
-      toast({
-        title: `Something Went Wrong`,
-        position: "top",
-        status: "error",
-        duration: 2000,
-        isClosable: true,
-      });
-    }
-    setEmail("");
-    setName("");
-    setPassword("");
+    // if (name && email && password) {
+    //   axios
+    //     .post(`https://smiling-wear-pig.cyclic.app/auth/register`, {
+    //       name: name,
+    //       email: email,
+    //       password: password,
+    //     })
+    //     .then((res) => {
+    //       console.log(res);
+    //       toast({
+    //         title: `SignIn Successfull`,
+    //         position: "top",
+    //         status: "success",
+    //         duration: 2000,
+    //         isClosable: true,
+    //       });
+    //       navigate("/login")
+    //     })
+    //     .catch((err) => {
+    //       toast({
+    //         title: `Something Went Wrong`,
+    //         position: "top",
+    //         status: "error",
+    //         duration: 2000,
+    //         isClosable: true,
+    //       });
+    //     });
+    // } else {
+    //   toast({
+    //     title: `Something Went Wrong`,
+    //     position: "top",
+    //     status: "error",
+    //     duration: 2000,
+    //     isClosable: true,
+    //   });
+    // }
+    // setEmail("");
+    // setName("");
+    // setPassword("");
 
     // navigate("/login");
     // window.location.href = "/login";
     // console.log(user);
-  };
+    const payload={
+      name:name,
+      email:email,
+      password:password,
+  }
+  if(name&&email&&password){
 
+    fetch("https://smiling-wear-pig.cyclic.app/auth/register",{
+        method: "POST",
+        headers:{
+            "Content-type":"application/json"
+        },
+        body: JSON.stringify(payload)
+        })
+    .then(res=>{res.json()
+      toast({
+              title: `SignIn Successfull`,
+              position: "top",
+              status: "success",
+              duration: 2000,
+              isClosable: true,
+            });
+            navigate("/login")})
+    .then(res=>console.log(res))
+    .catch(err=>console.log(err))
+  }else{
+    toast({
+      title: `Feilds cannot  be empty`,
+      position: "top",
+      status: "error",
+      duration: 2000,
+      isClosable: true,
+    });
+  }
+  };
+  const nav=()=>{
+    navigate("/login")
+  }
   return (
     <>
     {isLargerThan800 ? <Navbar /> : <MobileNav />}
@@ -179,9 +215,9 @@ export default function SignupCard() {
             <Stack pt={6}>
               <Text align={"center"}>
                 Already a user?{" "}
-                <Link to="/" color={"blue.400"}>
+                <Text onClick={nav} color={"blue.400"}>
                   Login
-                </Link>
+                </Text>
               </Text>
             </Stack>
           </Stack>
