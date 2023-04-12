@@ -35,6 +35,35 @@ authRoute.post("/register", async (req, res) => {
     }
   }
 });
+// Delete user by ID
+authRoute.delete("delete/:id", async (req, res) => {
+  try {
+    const result = await UserModel.findByIdAndDelete(req.params.id);
+    if (result) {
+      res.send({ msg: "User deleted successfully" });
+    } else {
+      res.send({ msg: "User not found" });
+    }
+  } catch (e) {
+    res.send({ msg: "Error deleting user" });
+    console.log(e);
+  }
+});
+
+// Update user by ID
+authRoute.patch("update/:id", async (req, res) => {
+  try {
+    const result = await UserModel.findByIdAndUpdate(req.params.id, req.body, { new: true });
+    if (result) {
+      res.send({ msg: "User updated successfully", user: result });
+    } else {
+      res.send({ msg: "User not found" });
+    }
+  } catch (e) {
+    res.send({ msg: "Error updating user" });
+    console.log(e);
+  }
+});
 
 authRoute.post("/login", async (req, res) => {
   const { email, password } = req.body;
@@ -58,6 +87,7 @@ authRoute.post("/login", async (req, res) => {
     console.log(e);
   }
 });
+
 module.exports = {
   authRoute,
 };

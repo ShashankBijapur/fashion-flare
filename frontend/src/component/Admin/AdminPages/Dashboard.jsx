@@ -224,9 +224,9 @@ function Dashboard() {
               {Users?.map((item, index) => {
                 return (
                   <UserCard
-                    key={item.id}
+                    key={item._id}
                     {...item}
-                    handleDelete={handleDelete}
+                    handleDelete={handleDelete(item._id)}
                     index={index}
                   />
                 );

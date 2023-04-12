@@ -1,13 +1,17 @@
 
   import React, { useState } from "react";
   import AdminSidebar from "../AdminComps/Sidebar";
-import { FormControl, FormLabel, Input, Button } from "@chakra-ui/react";
+import { Box,FormControl, FormLabel, Input, Button,Select, Alert, AlertIcon  } from "@chakra-ui/react";
+import { useDispatch } from "react-redux";
+import { postProductData } from "../../../redux/Products/action";
 
   function AddProducts() {
+    const dispatch = useDispatch();
+    const [showAlert, setShowAlert] = useState(false);
     const [product, setProduct] = useState({
       src: "",
       brand: "",
-      category: "",
+      category: "men",
       title: "",
       discountPrice: "",
       originalPrice: "",
@@ -27,11 +31,32 @@ import { FormControl, FormLabel, Input, Button } from "@chakra-ui/react";
   
     const handleSubmit = (event) => {
       event.preventDefault();
-      // submit the product data to the server or do something with it
+      dispatch(postProductData(product));
+      setProduct({
+        src: "",
+        brand: "",
+        category: "",
+        title: "",
+        discountPrice: "",
+        originalPrice: "",
+        discount: "",
+        offer: "",
+        genre: [],
+        rating: ""
+      });
+      setShowAlert(true);
+      setTimeout(() => {
+        setShowAlert(false);
+      }, 3000);
     };
+    const handleCloseAlert = () => {
+      setShowAlert(false);
+    };
+
     return (
-      <AdminSidebar heading={"Add Products"}>
-        <form onSubmit={handleSubmit}>
+      <AdminSidebar heading={"AddProducts"}>
+          <Box w="800px" mx="auto" p={6} boxShadow="lg" rounded="md">
+        <form onSubmit={handleSubmit} >
       <FormControl id="src" isRequired>
         <FormLabel>Product Image URL</FormLabel>
         <Input type="url" name="src" value={product.src} onChange={handleInputChange} />
@@ -41,8 +66,12 @@ import { FormControl, FormLabel, Input, Button } from "@chakra-ui/react";
         <Input type="text" name="brand" value={product.brand} onChange={handleInputChange} />
       </FormControl>
       <FormControl id="category" isRequired>
-        <FormLabel>Category</FormLabel>
-        <Input type="text" name="category" value={product.category} onChange={handleInputChange} />
+      <FormLabel>Category</FormLabel>
+      <Select name="category" value={product.category} onChange={handleInputChange}>
+        <option value="men">Men</option>
+        <option value="women">Women</option>
+        <option value="kid">Kid</option>
+      </Select>
       </FormControl>
       <FormControl id="title" isRequired>
         <FormLabel>Product Title</FormLabel>
@@ -75,7 +104,16 @@ import { FormControl, FormLabel, Input, Button } from "@chakra-ui/react";
       <Button type="submit" mt={4} colorScheme="teal">
         Submit
       </Button>
+      {showAlert && (
+  <div style={{ position: 'fixed', top: 0, left: '50%', transform: 'translateX(-50%)' }}>
+    <Alert status="success" mt={4}>
+      <AlertIcon />
+      Product added successfully!
+    </Alert>
+  </div>
+)}
     </form>
+    </Box>
       </AdminSidebar>
     );
   }

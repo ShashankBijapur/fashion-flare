@@ -11,7 +11,6 @@ import {
     Select,
 } from '@chakra-ui/react'
 import { Box, Button, Checkbox, CheckboxGroup, Flex, Image, Stack, Text } from '@chakra-ui/react';
-import CartCard from './CartCard';
 import { Input, useDisclosure } from '@chakra-ui/react'
 import { useNavigate } from 'react-router-dom';
 import Paymentmodal from '../PaymentModel/Payments';

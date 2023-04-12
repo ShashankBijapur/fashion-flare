@@ -38,7 +38,7 @@ import { Link } from "react-router-dom";
 const LinkItems = [
   { name: "Dashboard", icon: FiHome, to: "/dashboard" },
   { name: "Store", icon: FiTrendingUp, to: "/store" },
-  { name: "Add Products", icon: FiCompass, to: "/addproducts" },
+  { name: "AddProducts", icon: FiCompass, to: "/addproducts" },
   { name: "Favourites", icon: FiStar, to: "/favourites" },
   { name: "Settings", icon: FiSettings, to: "/settings" },
 ];
@@ -47,7 +47,7 @@ export default function AdminSidebar({ children, heading }) {
   const { isOpen, onOpen, onClose } = useDisclosure();
   const headings = heading;
   return (
-    <Box minH="100vh" bg={useColorModeValue("gray.100", "gray.900")}>
+    <Box  bg={useColorModeValue("gray.100", "gray.900")}>
       <SidebarContent
         onClose={() => onClose}
         display={{ base: "none", md: "block" }}

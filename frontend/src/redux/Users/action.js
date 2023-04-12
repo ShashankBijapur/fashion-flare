@@ -46,7 +46,7 @@ export const getUSerData = () => (dispatch) => {
 export const deleteUserData = (id) => async (dispatch) => {
   dispatch(getUser());
   return axios
-    .delete(`http://localhost:4000/auth/${id}`)
+    .delete(`http://localhost:4000/auth/delete${id}`)
     .then((res) => {
       dispatch(deletUserData());
     })
