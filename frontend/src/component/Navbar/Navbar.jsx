@@ -1,56 +1,50 @@
-import React, { useContext } from "react";
-import { Box, Flex, Text, Image, Input, Button } from "@chakra-ui/react";
+import React, { useContext, useState,useEffect } from "react";
+import { Box, Flex, Text, Image, Button, useDisclosure } from "@chakra-ui/react";
 import { BsFillBagCheckFill, BsFillSuitHeartFill } from "react-icons/bs";
 import Menuitem from "./MenuItem";
 import { Link } from "react-router-dom";
 import { SidebarContext } from "../context/SidebarContextProvider";
 import { useNavigate } from "react-router-dom";
 import Logo2 from "../Images/fashion_flare.png"
-import { useSelector } from "react-redux";
-import { BiCart } from "react-icons/bi";
-const Navbar = ({cartlength}) => {
-// console.log(cartlength)
-  let user = JSON.parse(localStorage.getItem("user"));
-  let loginValue = JSON.parse(localStorage.getItem("loginValue"));
-  const store = useSelector(store => store.CartReducer.cart)
-  const wishlist = useSelector(store => store.CartReducer.wishlist)
-  // console.log(store,"cart")
+import { useToast } from "@chakra-ui/react";
+import { Modal, ModalOverlay, ModalContent, ModalHeader, ModalFooter, ModalBody, ModalCloseButton } from '@chakra-ui/react'
+import Navmenu from "./Navmenu";
+import axios from "axios";
+const Navbar = ({ cartlength }) => {
 
-  // console.log(user);
-
+  let userName = localStorage.getItem("username");
+  let userEmail = localStorage.getItem("useremail");
+  let loginValue = localStorage.getItem("login");
+  const toast = useToast();
   const navigate = useNavigate();
-
-  const {setCategory } =
-    useContext(SidebarContext);
-
+  const { isOpen, onOpen, onClose } = useDisclosure()
+  const { setCategory } = useContext(SidebarContext);
+  const [cart, setcart] = useState([])
+  const [wishlist, setwishlist] = React.useState([])
   const handleLogout = () => {
-
-    localStorage.removeItem("loginValue");
-    localStorage.removeItem("user");
+    localStorage.clear();
+    toast({
+      title: `you are logged out `,
+      position: "top",
+      status: "error",
+      duration: 2000,
+      isClosable: true,
+    });
     navigate('/login')
-
   }
+  useEffect(() => {
+    
+    axios.get("http://localhost:4000/cart")
+      .then(res => {
+        setcart(res.data)
+      })
 
-  const handleEnter = (e) => {
-    if (e.key === "Enter") {
-      navigate(`/querypage/${e.target.value}`)
-
-    }
-  }
-
-
+      axios.get("http://localhost:4000/wishlist")
+      .then(((res) => setwishlist(res.data)))
+  }, []);
   return (
-    <div>
-      <Flex
-        justifyContent={"space-around"}
-        alignItems={"center"}
-        padding="10px"
-        position={"fixed"}
-        top="0"
-        width="100%"
-        zIndex={"999"}
-        backgroundColor="#fff"
-      >
+    <>
+      <Flex justifyContent={"space-around"} alignItems={"center"} padding="10px" position={"fixed"} top="0" width="100%" zIndex={"999"} backgroundColor="#fff">
         <Box>
           <Link to="/">
             <Image
@@ -62,218 +56,22 @@ const Navbar = ({cartlength}) => {
         </Box>
         <Box>
           <Flex gap="30px" alignItems={"center"}>
-            <Link to="/men" onClick={() => setCategory("mens-clothing")}>
+            <Link to="/men" onClick={() => localStorage.setItem("category", ("men"))}>
               <Box>
                 <Menuitem
                   navitem={"MEN"}
                   item1={
-                    <Box fontSize="12px">
-                      <Flex gap="20px">
-                        <Text>Shop By:</Text>
-                        <Text>Categories</Text>
-                      </Flex>
-                      <Flex gap="50px">
-                        <Box lineHeight={"40px"}>
-                          <Text fontWeight="500" cursor={"pointer"}>
-                            CLOTHING
-                          </Text>
-                          <Text fontWeight="500" cursor={"pointer"}>
-                            FOOTWEAR
-                          </Text>
-                          <Text fontWeight="500" cursor={"pointer"}>
-                            ACCESSORIES
-                          </Text>
-                          <Text fontWeight="500" cursor={"pointer"}>
-                            ALL THATS NEW
-                          </Text>
-                          <Text fontWeight="500" cursor={"pointer"}>
-                            AJIO GLOBAL
-                          </Text>
-                          <Text fontWeight="500" cursor={"pointer"}>
-                            WINTERWEAR
-                          </Text>
-                          <Text fontWeight="500" cursor={"pointer"}>
-                            NIGHT & LAUNGEWEAR
-                          </Text>
-                          <Text fontWeight="500" cursor={"pointer"}>
-                            GROOMING
-                          </Text>
-                          <Text fontWeight="500" cursor={"pointer"}>
-                            ETHNIC & FESTIVE
-                          </Text>
-                        </Box>
-                        <Box>
-                          <Text fontWeight="500" cursor={"pointer"}>
-                            WESTERN WEAR
-                          </Text>
-                          <Text cursor={"po"}>Jackets & Coats</Text>
-                          <Text cursor={"po"}>Jeans</Text>
-                          <Text cursor={"po"}>Shirts</Text>
-                          <Text cursor={"po"}>Shorts & 3/4ths</Text>
-                          <Text cursor={"po"}>Sweatshirts & Hoodies</Text>
-                          <Text>Tracks Pants</Text>
-                          <Text cursor={"po"}>Trousers & Pants</Text>
-                          <Text cursor={"po"}>T-Shirt</Text>
-                          <Text fontWeight="500" cursor={"pointer"}>
-                            FOOTWEAR
-                          </Text>
-                          <Text cursor={"po"}>Casual Shoes</Text>
-                          <Text cursor={"po"}> Flip-Flops & Slippers</Text>
-                          <Text cursor={"po"}>Formal Shoes</Text>
-                          <Text cursor={"po"}>Sandals</Text>
-                          <Text cursor={"po"}>Sneakers</Text>
-                          <Text>Sports Shoes</Text>
-                          <Text cursor={"po"}>Trousers & Pants</Text>
-                          <Text cursor={"po"}>T-Shirt</Text>
-                        </Box>
-                        <Box>
-                          <Text fontWeight="500" cursor={"pointer"}>
-                            ACCESSORIES
-                          </Text>
-                          <Text cursor={"po"}>Backpacks</Text>
-                          <Text cursor={"po"}>Bags & Wallets</Text>
-                          <Text cursor={"po"}>Belts</Text>
-                          <Text cursor={"po"}>Caps & Hats</Text>
-                          <Text cursor={"po"}>Fashion Accesories</Text>
-                          <Text>Socks</Text>
-                          <Text cursor={"po"}>Sunglasses & Frames</Text>
-                          <Text cursor={"po"}>Wallets</Text>
-                          <Text cursor={"po"}>Watches</Text>
-                          <Text fontWeight="500" cursor={"pointer"}>
-                            PRECIOUS JEWELLERY
-                          </Text>
-                          <Text cursor={"po"}>Gold and Silver Coins</Text>
-                          <Text cursor={"po"}> Gold and Diamond jewellery</Text>
-                          <Text cursor={"po"}>Silver Jewellery</Text>
-                          <Text fontWeight="500" cursor={"pointer"}>
-                            INNERWEAR
-                          </Text>
-                          <Text cursor={"po"}>Breifs</Text>
-                          <Text>Trunks and Boxers</Text>
-                          <Text cursor={"po"}>vests</Text>
-                        </Box>
-                        <Box>
-                          <Text fontWeight="500" cursor={"pointer"}>
-                            FEATURED
-                          </Text>
-                          <Text cursor={"po"}>Bags under 1499</Text>
-                          <Text cursor={"po"}>Footwear under 1499</Text>
-                          <Text cursor={"po"}>Jeans under 1299</Text>
-                          <Text fontWeight="500" cursor={"pointer"}>
-                            # Ajio Recommends
-                          </Text>
-                          <Text cursor={"po"}>Play Time</Text>
-                        </Box>
-                      </Flex>
-                    </Box>
+                    <Navmenu />
                   }
                 />
               </Box>
             </Link>
-            <Link to="/women" onClick={() => setCategory("women-clothing")}>
+            <Link to="/women" onClick={() => localStorage.setItem("category", ("womens"))}>
               <Box>
                 <Menuitem
                   navitem={"WOMEN"}
                   item1={
-                    <Box fontSize="12px">
-                      <Flex gap="20px">
-                        <Text>Shop By:</Text>
-                        <Text>Categories</Text>
-                      </Flex>
-                      <Flex gap="50px">
-                        <Box lineHeight={"40px"}>
-                          <Text fontWeight="500" cursor={"pointer"}>
-                            CLOTHING
-                          </Text>
-                          <Text fontWeight="500" cursor={"pointer"}>
-                            FOOTWEAR
-                          </Text>
-                          <Text fontWeight="500" cursor={"pointer"}>
-                            ACCESSORIES
-                          </Text>
-                          <Text fontWeight="500" cursor={"pointer"}>
-                            ALL THATS NEW
-                          </Text>
-                          <Text fontWeight="500" cursor={"pointer"}>
-                            AJIO GLOBAL
-                          </Text>
-                          <Text fontWeight="500" cursor={"pointer"}>
-                            WINTERWEAR
-                          </Text>
-                          <Text fontWeight="500" cursor={"pointer"}>
-                            NIGHT & LAUNGEWEAR
-                          </Text>
-                          <Text fontWeight="500" cursor={"pointer"}>
-                            GROOMING
-                          </Text>
-                          <Text fontWeight="500" cursor={"pointer"}>
-                            ETHNIC & FESTIVE
-                          </Text>
-                        </Box>
-                        <Box>
-                          <Text fontWeight="500" cursor={"pointer"}>
-                            WESTERN WEAR
-                          </Text>
-                          <Text cursor={"po"}>Jackets & Coats</Text>
-                          <Text cursor={"po"}>Jeans</Text>
-                          <Text cursor={"po"}>Shirts</Text>
-                          <Text cursor={"po"}>Shorts & 3/4ths</Text>
-                          <Text cursor={"po"}>Sweatshirts & Hoodies</Text>
-                          <Text>Tracks Pants</Text>
-                          <Text cursor={"po"}>Trousers & Pants</Text>
-                          <Text cursor={"po"}>T-Shirt</Text>
-                          <Text fontWeight="500" cursor={"pointer"}>
-                            FOOTWEAR
-                          </Text>
-                          <Text cursor={"po"}>Casual Shoes</Text>
-                          <Text cursor={"po"}> Flip-Flops & Slippers</Text>
-                          <Text cursor={"po"}>Formal Shoes</Text>
-                          <Text cursor={"po"}>Sandals</Text>
-                          <Text cursor={"po"}>Sneakers</Text>
-                          <Text>Sports Shoes</Text>
-                          <Text cursor={"po"}>Trousers & Pants</Text>
-                          <Text cursor={"po"}>T-Shirt</Text>
-                        </Box>
-                        <Box>
-                          <Text fontWeight="500" cursor={"pointer"}>
-                            ACCESSORIES
-                          </Text>
-                          <Text cursor={"po"}>Backpacks</Text>
-                          <Text cursor={"po"}>Bags & Wallets</Text>
-                          <Text cursor={"po"}>Belts</Text>
-                          <Text cursor={"po"}>Caps & Hats</Text>
-                          <Text cursor={"po"}>Fashion Accesories</Text>
-                          <Text>Socks</Text>
-                          <Text cursor={"po"}>Sunglasses & Frames</Text>
-                          <Text cursor={"po"}>Wallets</Text>
-                          <Text cursor={"po"}>Watches</Text>
-                          <Text fontWeight="500" cursor={"pointer"}>
-                            PRECIOUS JEWELLERY
-                          </Text>
-                          <Text cursor={"po"}>Gold and Silver Coins</Text>
-                          <Text cursor={"po"}> Gold and Diamond jewellery</Text>
-                          <Text cursor={"po"}>Silver Jewellery</Text>
-                          <Text fontWeight="500" cursor={"pointer"}>
-                            INNERWEAR
-                          </Text>
-                          <Text cursor={"po"}>Breifs</Text>
-                          <Text>Trunks and Boxers</Text>
-                          <Text cursor={"po"}>vests</Text>
-                        </Box>
-                        <Box>
-                          <Text fontWeight="500" cursor={"pointer"}>
-                            FEATURED
-                          </Text>
-                          <Text cursor={"po"}>Bags under 1499</Text>
-                          <Text cursor={"po"}>Footwear under 1499</Text>
-                          <Text cursor={"po"}>Jeans under 1299</Text>
-                          <Text fontWeight="500" cursor={"pointer"}>
-                            # Ajio Recommends
-                          </Text>
-                          <Text cursor={"po"}>Play Time</Text>
-                        </Box>
-                      </Flex>
-                    </Box>
+                    <Navmenu />
                   }
                 />
               </Box>
@@ -283,250 +81,65 @@ const Navbar = ({cartlength}) => {
                 <Menuitem
                   navitem={"KIDS"}
                   item1={
-                    <Box fontSize="12px">
-                      <Flex gap="20px">
-                        <Text>Shop By:</Text>
-                        <Text>Categories</Text>
-                      </Flex>
-                      <Flex gap="50px">
-                        <Box lineHeight={"40px"}>
-                          <Text fontWeight="500" cursor={"pointer"}>
-                            CLOTHING
-                          </Text>
-                          <Text fontWeight="500" cursor={"pointer"}>
-                            FOOTWEAR
-                          </Text>
-                          <Text fontWeight="500" cursor={"pointer"}>
-                            ACCESSORIES
-                          </Text>
-                          <Text fontWeight="500" cursor={"pointer"}>
-                            ALL THATS NEW
-                          </Text>
-                          <Text fontWeight="500" cursor={"pointer"}>
-                            AJIO GLOBAL
-                          </Text>
-                          <Text fontWeight="500" cursor={"pointer"}>
-                            WINTERWEAR
-                          </Text>
-                          <Text fontWeight="500" cursor={"pointer"}>
-                            NIGHT & LAUNGEWEAR
-                          </Text>
-                          <Text fontWeight="500" cursor={"pointer"}>
-                            GROOMING
-                          </Text>
-                          <Text fontWeight="500" cursor={"pointer"}>
-                            ETHNIC & FESTIVE
-                          </Text>
-                        </Box>
-                        <Box>
-                          <Text fontWeight="500" cursor={"pointer"}>
-                            WESTERN WEAR
-                          </Text>
-                          <Text cursor={"po"}>Jackets & Coats</Text>
-                          <Text cursor={"po"}>Jeans</Text>
-                          <Text cursor={"po"}>Shirts</Text>
-                          <Text cursor={"po"}>Shorts & 3/4ths</Text>
-                          <Text cursor={"po"}>Sweatshirts & Hoodies</Text>
-                          <Text>Tracks Pants</Text>
-                          <Text cursor={"po"}>Trousers & Pants</Text>
-                          <Text cursor={"po"}>T-Shirt</Text>
-                          <Text fontWeight="500" cursor={"pointer"}>
-                            FOOTWEAR
-                          </Text>
-                          <Text cursor={"po"}>Casual Shoes</Text>
-                          <Text cursor={"po"}> Flip-Flops & Slippers</Text>
-                          <Text cursor={"po"}>Formal Shoes</Text>
-                          <Text cursor={"po"}>Sandals</Text>
-                          <Text cursor={"po"}>Sneakers</Text>
-                          <Text>Sports Shoes</Text>
-                          <Text cursor={"po"}>Trousers & Pants</Text>
-                          <Text cursor={"po"}>T-Shirt</Text>
-                        </Box>
-                        <Box>
-                          <Text fontWeight="500" cursor={"pointer"}>
-                            ACCESSORIES
-                          </Text>
-                          <Text cursor={"po"}>Backpacks</Text>
-                          <Text cursor={"po"}>Bags & Wallets</Text>
-                          <Text cursor={"po"}>Belts</Text>
-                          <Text cursor={"po"}>Caps & Hats</Text>
-                          <Text cursor={"po"}>Fashion Accesories</Text>
-                          <Text>Socks</Text>
-                          <Text cursor={"po"}>Sunglasses & Frames</Text>
-                          <Text cursor={"po"}>Wallets</Text>
-                          <Text cursor={"po"}>Watches</Text>
-                          <Text fontWeight="500" cursor={"pointer"}>
-                            PRECIOUS JEWELLERY
-                          </Text>
-                          <Text cursor={"po"}>Gold and Silver Coins</Text>
-                          <Text cursor={"po"}> Gold and Diamond jewellery</Text>
-                          <Text cursor={"po"}>Silver Jewellery</Text>
-                          <Text fontWeight="500" cursor={"pointer"}>
-                            INNERWEAR
-                          </Text>
-                          <Text cursor={"po"}>Breifs</Text>
-                          <Text>Trunks and Boxers</Text>
-                          <Text cursor={"po"}>vests</Text>
-                        </Box>
-                        <Box>
-                          <Text fontWeight="500" cursor={"pointer"}>
-                            FEATURED
-                          </Text>
-                          <Text cursor={"po"}>Bags under 1499</Text>
-                          <Text cursor={"po"}>Footwear under 1499</Text>
-                          <Text cursor={"po"}>Jeans under 1299</Text>
-                          <Text fontWeight="500" cursor={"pointer"}>
-                            # Ajio Recommends
-                          </Text>
-                          <Text cursor={"po"}>Play Time</Text>
-                        </Box>
-                      </Flex>
-                    </Box>
+                    <Navmenu />
                   }
                 />
               </Box>
             </Link>
-
             <Link to="/homeandkitchen">
               <Box>
                 <Menuitem
                   navitem={"HOME & KITCHEN"}
                   item1={
-                    <Box fontSize="12px">
-                      <Flex gap="20px">
-                        <Text>Shop By:</Text>
-                        <Text>Categories</Text>
-                      </Flex>
-                      <Flex gap="50px">
-                        <Box lineHeight={"40px"}>
-                          <Text fontWeight="500" cursor={"pointer"}>
-                            CLOTHING
-                          </Text>
-                          <Text fontWeight="500" cursor={"pointer"}>
-                            FOOTWEAR
-                          </Text>
-                          <Text fontWeight="500" cursor={"pointer"}>
-                            ACCESSORIES
-                          </Text>
-                          <Text fontWeight="500" cursor={"pointer"}>
-                            ALL THATS NEW
-                          </Text>
-                          <Text fontWeight="500" cursor={"pointer"}>
-                            AJIO GLOBAL
-                          </Text>
-                          <Text fontWeight="500" cursor={"pointer"}>
-                            WINTERWEAR
-                          </Text>
-                          <Text fontWeight="500" cursor={"pointer"}>
-                            NIGHT & LAUNGEWEAR
-                          </Text>
-                          <Text fontWeight="500" cursor={"pointer"}>
-                            GROOMING
-                          </Text>
-                          <Text fontWeight="500" cursor={"pointer"}>
-                            ETHNIC & FESTIVE
-                          </Text>
-                        </Box>
-                        <Box>
-                          <Text fontWeight="500" cursor={"pointer"}>
-                            WESTERN WEAR
-                          </Text>
-                          <Text cursor={"po"}>Jackets & Coats</Text>
-                          <Text cursor={"po"}>Jeans</Text>
-                          <Text cursor={"po"}>Shirts</Text>
-                          <Text cursor={"po"}>Shorts & 3/4ths</Text>
-                          <Text cursor={"po"}>Sweatshirts & Hoodies</Text>
-                          <Text>Tracks Pants</Text>
-                          <Text cursor={"po"}>Trousers & Pants</Text>
-                          <Text cursor={"po"}>T-Shirt</Text>
-                          <Text fontWeight="500" cursor={"pointer"}>
-                            FOOTWEAR
-                          </Text>
-                          <Text cursor={"po"}>Casual Shoes</Text>
-                          <Text cursor={"po"}> Flip-Flops & Slippers</Text>
-                          <Text cursor={"po"}>Formal Shoes</Text>
-                          <Text cursor={"po"}>Sandals</Text>
-                          <Text cursor={"po"}>Sneakers</Text>
-                          <Text>Sports Shoes</Text>
-                          <Text cursor={"po"}>Trousers & Pants</Text>
-                          <Text cursor={"po"}>T-Shirt</Text>
-                        </Box>
-                        <Box>
-                          <Text fontWeight="500" cursor={"pointer"}>
-                            ACCESSORIES
-                          </Text>
-                          <Text cursor={"po"}>Backpacks</Text>
-                          <Text cursor={"po"}>Bags & Wallets</Text>
-                          <Text cursor={"po"}>Belts</Text>
-                          <Text cursor={"po"}>Caps & Hats</Text>
-                          <Text cursor={"po"}>Fashion Accesories</Text>
-                          <Text>Socks</Text>
-                          <Text cursor={"po"}>Sunglasses & Frames</Text>
-                          <Text cursor={"po"}>Wallets</Text>
-                          <Text cursor={"po"}>Watches</Text>
-                          <Text fontWeight="500" cursor={"pointer"}>
-                            PRECIOUS JEWELLERY
-                          </Text>
-                          <Text cursor={"po"}>Gold and Silver Coins</Text>
-                          <Text cursor={"po"}> Gold and Diamond jewellery</Text>
-                          <Text cursor={"po"}>Silver Jewellery</Text>
-                          <Text fontWeight="500" cursor={"pointer"}>
-                            INNERWEAR
-                          </Text>
-                          <Text cursor={"po"}>Breifs</Text>
-                          <Text>Trunks and Boxers</Text>
-                          <Text cursor={"po"}>vests</Text>
-                        </Box>
-                        <Box>
-                          <Text fontWeight="500" cursor={"pointer"}>
-                            FEATURED
-                          </Text>
-                          <Text cursor={"po"}>Bags under 1499</Text>
-                          <Text cursor={"po"}>Footwear under 1499</Text>
-                          <Text cursor={"po"}>Jeans under 1299</Text>
-                          <Text fontWeight="500" cursor={"pointer"}>
-                            # Ajio Recommends
-                          </Text>
-                          <Text cursor={"po"}>Play Time</Text>
-                        </Box>
-                      </Flex>
-
-                    </Box>
+                    <Navmenu />
                   }
                 />
               </Box>
             </Link>
 
-            {/* <Box>
-
-              <Input onKeyPress={handleEnter} placeholder={"SEARCH"} borderRadius="20px"></Input>
-            </Box> */}
-
             <Box>
-              {/* <Button  >{login || user.name ? "LOGOUT" : "SIGN IN"}</Button> */}
-              {loginValue !== null ? <Button colorScheme='red' onClick={handleLogout} >LOGOUT</Button> : <Link to="/login" ><Button colorScheme='green'>Login</Button></Link>}
+              {loginValue !== null ? <Box>
+                <Button colorScheme='red' onClick={onOpen}>Logout</Button>
+                <Modal isOpen={isOpen} onClose={onClose}>
+                  <ModalOverlay />
+                  <ModalContent>
+                    <ModalHeader color="red">ARE YOU SURE YOU WANT TO LOGOUT</ModalHeader>
+                    <ModalCloseButton />
+                    <ModalBody color="green">
+                      YOU HAVE ITEMS IN YOUR CART TO CHECKHOUT
+                    </ModalBody>
+
+                    <ModalFooter>
+                      <Button colorScheme='red' mr={3} onClick={handleLogout}>
+                        Logout
+                      </Button>
+                      <Button colorScheme='green'><Link to="/cart">Go To Cart</Link></Button>
+                    </ModalFooter>
+                  </ModalContent>
+                </Modal>
+              </Box> : <Link to="/login" ><Button colorScheme='green'>Login</Button></Link>}
             </Box>
 
+            {loginValue ? <Box display={"grid"}><Text  >{userName.toUpperCase()}</Text> <Text >{userEmail}</Text></Box> : null}
 
-            {loginValue ? <Text as="b" >{user.name}</Text> : null}
             <Link to="/cart">
               <Box display="flex" gap={'2'}  >
                 <BsFillBagCheckFill style={{ fontSize: "30px" }} />
-                <Text alignSelf={"end"} as="b" >{cartlength}</Text>
+                <Text alignSelf={"end"} as="b" >{loginValue? cart.length>0?cart.length:null:null}</Text>
               </Box>
             </Link>
 
             <Link to="/wishlist">
               <Box display="flex" gap={'2'}  >
                 <BsFillSuitHeartFill style={{ fontSize: "28px" }} />
-                <Text alignSelf={"end"} as="b" >{}</Text>
+                <Text alignSelf={"end"} as="b" >{loginValue? wishlist.length>0?wishlist.length:null:null}</Text>
               </Box>
             </Link>
           </Flex>
 
         </Box>
       </Flex>
-    </div>
+    </>
   );
 };
 

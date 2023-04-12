@@ -1,268 +1,132 @@
-import React, { useEffect, useState } from 'react'
-import "./Mens.css"
-// import Card from './Card'
-import { useDispatch, useSelector } from 'react-redux'
-import { getReduxData } from "../../redux/action";
-import { getProductData } from "../../redux/Products/action";
+import React, { useState, useEffect } from "react";
+import {
+  Box,
+  Flex,
+  Select,
+  Text,
+} from "@chakra-ui/react";
+import { useDispatch, useSelector } from "react-redux";
+import {
+  getProductData,
+  handleSortByRedux,
+} from "../../redux/Products/action";
 import { Card } from "../Card/Card";
-import CardPage from '../Womens/WomensCard';
-import Sidebar from '../Sidebar/Sidebar';
-import Navbar from '../Navbar/Navbar';
+import Navbar from "../Navbar/Navbar";
 import MobileNav from '../Navbar/MobileNav';
-
 import { useMediaQuery } from '@chakra-ui/react'
-const Mens = () => {
-    const [search, setSearch] = useState("")
-    const [box, setBox] = useState(null)
-    const dispatch = useDispatch()
-    const Products = useSelector(store => store.ProductReducer.Products)
-    const [isLargerThan800] = useMediaQuery("(min-width: 800px)");
+import { Loader } from "../Loader/Loader";
+import Sidebar from "../Sidebar/Sidebar";
 
-    const handleButton = () => {
-        dispatch(getReduxData(`men${search}`));
-    };
+function Mens() {
+  const dispatch = useDispatch();
+  const Products = useSelector((store) => store.ProductReducer.Products);
+  const [priceFilter, setPriceFilter] = React.useState([]);
+  const [count, setCount] = useState(0)
+  const [isLargerThan800] = useMediaQuery("(min-width: 800px)");
+  const handleSorting = (e) => {
+    const value = e.target.value;
+    const allProducts = Products;
 
-    useEffect(() => {
-        dispatch(getProductData(`men`))
+    if (value === "highToLow") {
+      const sortedProduct = allProducts.sort(
+        (a, b) => parseInt(b.discountPrice) - parseInt(a.discountPrice)
+      );
+      dispatch(handleSortByRedux(sortedProduct));
+      setCount((pre) => pre + 1)
 
-    }, [])
-    return (
-        <>
-            {isLargerThan800 ? <Navbar /> : <MobileNav />}
-            <div className='mens-cont'>
+    } else {
+      const sortedProduct = allProducts.sort(
+        (a, b) => parseInt(a.discountPrice) - parseInt(b.discountPrice)
+      );
+      dispatch(handleSortByRedux(sortedProduct));
+      setCount((pre) => pre + 1)
+    }
+  };
 
-                <div className="mens-wrapper">
-                    <div className='mens-left'>
+  const categoryFilter = () => { };
 
-                        {/* <div className="filter-div">
-                        <div className='filter-category'>
-                            <li>- Gender </li>
-                            <ul>
-                                <li>
-                                    <input onChange={(e) => setBox("men")} type="checkbox" />
-                                    <label htmlFor="#">Men</label>
-                                </li>
-                            </ul>
-                        </div>
-                    
-                        <div className='filter-category'>
-                            <li>- Category</li>
-                            <ul>
-                                
-                                <li>
-                                    <input onChange={(e) => setBox("shirt")} type="checkbox" />
-                                    <label htmlFor="#">Shirt</label>
-                                </li>
-                                <li>
-                                    <input onChange={(e) => setBox("kurta")} type="checkbox" />
-                                    <label htmlFor="#">Kurta</label>
-                                </li>
-                                <li>
-                                    <input onChange={(e) => setBox("jeans")} type="checkbox" />
-                                    <label htmlFor="#">Jeans</label>
-                                </li>
+  const handlePriceFilterChange = (event) => {
+    const value = parseInt(event.target.value);
+    let newPriceFilter = [...priceFilter];
+    if (event.target.checked) {
+      newPriceFilter.push(value);
+    } else {
+      newPriceFilter = newPriceFilter.filter((price) => price !== value);
+    }
+    setPriceFilter(newPriceFilter);
+  };
+  const [inputValue, setInputValue] = React.useState("");
+  const categoryFilterFunc = (e) => {
+    setInputValue(e.target.value)
+    // setInputValue('');
+  }
+  const filter_Data = Products.filter((item) => item.brand === inputValue)
+  // console.log('filtered_data: ', filter_Data);
+  // setInputValue("")
 
-                                <li>
-                                    <input type="checkbox" />
-                                    <label htmlFor="#">Track Pants</label>
-                                </li>
-                            </ul>
+  useEffect((Products) => {
+    dispatch(getProductData("men"));
+  }, [inputValue]);
+  return (
+    <>
 
-                        </div>
-                        
 
-                        <div className='filter-category'>
-                            <li>- Price</li>
-                            <ul>
-                                <li>
-                                    <input type="checkbox" />
-                                    <label htmlFor="#">Below Rs 500</label>
-                                </li>
-                                <li>
-                                    <input type="checkbox" />
-                                    <label htmlFor="#">Below Rs 500-1000</label>
-                                </li>
-                                <li>
-                                    <input type="checkbox" />
-                                    <label htmlFor="#">Below Rs 1001-1500</label>
-                                </li>
-                                <li>
-                                    <input type="checkbox" />
-                                    <label htmlFor="#">Below Rs 1501-2000</label>
-                                </li>
+      {isLargerThan800 ? <Navbar /> : <MobileNav />}
 
-                                <li>
-                                    <input type="checkbox" />
-                                    <label htmlFor="#">Below Rs 2001-2500</label>
-                                </li>
-                            </ul>
+      <Box display="flex" justifyContent="space-between" maxWidth="1250px" margin="auto" gap="80px">
 
-                        </div>
+        <Box display={{ base: "none", sm: "none", md: "flex", lg: "flex" }} width="20%" marginTop="50px">
+          <Box className="women-left">
+            <Box>
 
-                        <div className='filter-category'>
-                            <li>- Brands</li>
-                            <ul>
-                                <li>
-                                    <input type="checkbox" />
-                                    <label htmlFor="#">18 EDITION</label>
-                                </li>
-                                <li>
-                                    <input type="checkbox" />
-                                    <label htmlFor="#">21 Degree</label>
-                                </li>
-                                <li>
-                                    <input type="checkbox" />
-                                    <label htmlFor="#">23 Yard</label>
-                                </li>
-                                <li>
-                                    <input type="checkbox" />
-                                    <label htmlFor="#">28ME</label>
-                                </li>
 
-                                <li>
-                                    <input type="checkbox" />
-                                    <label htmlFor="#">2Go</label>
-                                </li>
-                            </ul>
+              <Sidebar onPriceFilterChange={handlePriceFilterChange} categoryFilter={categoryFilterFunc} />
 
-                        </div>
+            </Box>
+          </Box>
+        </Box>
 
-                        
+        <Box width={{ base: "100%", sm: "100%", md: "100%", lg: "70%" }}>
+          <hr />
+          <Box display={{ base: "grid", sm: "flex" }} gap="20px" justifyContent="right">
+            <Flex>
+              <Text >Sort by:</Text>
+              <Select onChange={(e) => handleSorting(e)} id="sort-select">
+                <option value=""> Select Price</option>
+                <option value="highToLow">Price High to Low</option>
+                <option value="lowToHigh">Price Low to High</option>
+              </Select>
+            </Flex>
+          </Box>
 
-                        <div className='filter-category'>
-                            <li>- Occation</li>
-                            <ul>
-                                <li>
-                                    <input type="checkbox" />
-                                    <label htmlFor="#">Active</label>
-                                </li>
-                                <li>
-                                    <input type="checkbox" />
-                                    <label htmlFor="#">ACTIVE</label>
-                                </li>
-                                <li>
-                                    <input type="checkbox" />
-                                    <label htmlFor="#">Casual</label>
-                                </li>
-                                <li>
-                                    <input type="checkbox" />
-                                    <label htmlFor="#">CASUAL</label>
-                                </li>
+          <hr />
 
-                                <li>
-                                    <input type="checkbox" />
-                                    <label htmlFor="#">EVENING</label>
-                                </li>
-                            </ul>
+          <Box
+            style={{
+              display: "grid",
+              gap: "15px",
+              justifyContent: "space-around",
+              margin: "20px",
+            }}
+            gridTemplateColumns={{
+              sm: "repeat(1, 1fr)",
+              md: "repeat(2, 1fr) ",
+              lg: "repeat(3, 1fr) ",
+            }}
+          >
+            {filter_Data.length > 0 ? filter_Data.length === 0 ? <Loader /> : filter_Data?.map((item) => (
+              <Card  {...item} />
+            )) :
+              Products.length === 0 ? <Loader /> : Products?.map((item) => (
+                <Card {...item} />
+              ))
 
-                        </div>
-
-                       
-
-                        <div className='filter-category'>
-                            <li>- Discount</li>
-                            <ul>
-                                <li>
-                                    <input type="checkbox" />
-                                    <label htmlFor="#">0-20%</label>
-                                </li>
-                                <li>
-                                    <input type="checkbox" />
-                                    <label htmlFor="#">21%-30%</label>
-                                </li>
-                                <li>
-                                    <input type="checkbox" />
-                                    <label htmlFor="#">31%-40%</label>
-                                </li>
-                                <li>
-                                    <input type="checkbox" />
-                                    <label htmlFor="#">41%-50%</label>
-                                </li>
-
-                                <li>
-                                    <input type="checkbox" />
-                                    <label htmlFor="#">51%-80%</label>
-                                </li>
-                            </ul>
-
-                        </div>
-
-                       
-
-                        <div className='filter-category'>
-                            <li>- Size & Fit</li>
-                            <ul>
-                                <li>
-                                    <input type="checkbox" />
-                                    <label htmlFor="#">M</label>
-                                </li>
-                                <li>
-                                    <input type="checkbox" />
-                                    <label htmlFor="#">L</label>
-                                </li>
-                                <li>
-                                    <input type="checkbox" />
-                                    <label htmlFor="#">XL</label>
-                                </li>
-                                <li>
-                                    <input type="checkbox" />
-                                    <label htmlFor="#">S</label>
-                                </li>
-
-                                <li>
-                                    <input type="checkbox" />
-                                    <label htmlFor="#">XXL</label>
-                                </li>
-                            </ul>
-
-                        </div>
-
-                    </div> */}
-
-                        <Sidebar />
-                    </div>
-                    <div className='mens-right'>
-
-                        <div className='right-head'>
-                            <div>Starting at Rs 129</div>
-                            <div>
-                                <ul>
-                                <li>{Products.length }00 Items Found</li>
-                                </ul>
-                                <ul>
-                                    <input placeholder='Search Here' value={search} onChange={(e) => setSearch(e.target.value)} type="text" />
-                                    <button onClick={handleButton}>Search</button>
-                                </ul>
-                                <ul className='select-tag-mens'>
-                                    <label htmlFor="">Sort By </label>
-                                    <select name="" id="">
-                                        <option value="">Relevent</option>
-                                        <option value="">Price (Lowest First)</option>
-                                        <option value="">Price (Highest First)</option>
-                                        <option value="">Discount</option>
-                                    </select>
-                                </ul>
-                            </div>
-
-                        </div>
-                        <div className='mens-content-wrapper'>
-                            <div className='mens-content'>
-                                {Products?.map((item) =>
-                                    <Card {...item} />
-                                )}
-                                {/* {Products?.map((product, index) => (
-                            <CardPage {...product} key={index} />
-                        ))} */}
-                            </div>
-
-                        </div>
-
-                    </div>
-
-                </div>
-            </div>
-        </>
-    )
+            }
+          </Box>
+        </Box>
+      </Box>
+    </>
+  );
 }
 
-export default Mens
+export default Mens;

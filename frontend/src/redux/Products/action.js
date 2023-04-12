@@ -10,13 +10,14 @@ import { GETREQ,GETSINGLEPROD , PATCHSINGLEPROD,DELETESINGLEPROD,  POSTREQ} from
 
 
 const getProductData = (category) => async (dispatch) => {
-  const response = await axios.get(`https://smiling-wear-pig.cyclic.app/product/${category}`);
+  // const response = await axios.get(`https://smiling-wear-pig.cyclic.app/product/${category}`);
+  const response = await axios.get(`http://localhost:4000/product/${category}`);
   const res = await response.data;
   dispatch({ type: GETREQ, payload: res });
 };
 const getSingleData = (category, id) => async (dispatch) => {
   const response = await axios.get(
-    `https://smiling-wear-pig.cyclic.app/product/${category}/${id}`
+    `http://localhost:4000/product/${category}/${id}`
   );
   const res = await response.data;
   // console.log("redux",res)
@@ -24,14 +25,14 @@ const getSingleData = (category, id) => async (dispatch) => {
 };
 
 const postProductData = (category, productData) => async (dispatch) => {
-  const response = await axios.post(`https://smiling-wear-pig.cyclic.app/product/add`, productData);
+  const response = await axios.post(`http://localhost:4000/product/add`, productData);
   const res = await response.data;
   dispatch({ type: POSTREQ, payload: res });
 };
 
 const patchSingleData = (category, id, updatedData) => async (dispatch) => {
   const response = await axios.patch(
-    `https://smiling-wear-pig.cyclic.app/product/update/${id}`,
+    `http://localhost:4000/product/update/${id}`,
     updatedData
   );
   const res = await response.data;
@@ -40,7 +41,7 @@ const patchSingleData = (category, id, updatedData) => async (dispatch) => {
 
 const deleteSingleData = (category, id) => async (dispatch) => {
   const response = await axios.delete(
-    `https://smiling-wear-pig.cyclic.app/product/delete/${id}`
+    `http://localhost:4000/product/delete/${id}`
   );
   const res = await response.data;
   dispatch({ type: DELETESINGLEPROD, payload: res });
