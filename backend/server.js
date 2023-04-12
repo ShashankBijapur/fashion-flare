@@ -5,6 +5,9 @@ const { productRoute } = require("./routes/productRoute");
 const { cartRoute } = require("./routes/cartRoute");
 const { wishlistRoute } = require("./routes/wishlistRoute");
 const { authRoute } = require("./routes/auth.Route");
+// const { authmiddleware }=require("./middleware/auth.middlewre.js")
+const { Authentication} = require("./middleware/auth.middlewre")
+ 
 
 const app = express();
 app.use(cors());
@@ -12,6 +15,7 @@ app.use(express.json());
 app.use("/product", productRoute);
 app.use("/cart", cartRoute);
 app.use("/wishlist", wishlistRoute);
+// app.use(Authentication)
 app.use("/auth", authRoute);
 
 app.listen(4000, async () => {

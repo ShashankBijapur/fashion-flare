@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react'
 import "../../Mens/Mens.css"
 // import Card from './Card'
 import { useDispatch, useSelector } from 'react-redux'
-import { getReduxData } from "../../../redux/action";
+// import { getReduxData } from "../redux/action";
 import { deleteSingleData, getProductData, patchSingleData } from "../../../redux/Products/action";
 import  "../../Mens/Card.css";
 import AdminSidebar from '../AdminComps/Sidebar';
@@ -29,7 +29,7 @@ const Store = () => {
     }, []);
 
     const handleButton = () => {
-        dispatch(getReduxData(`gender${search}`));
+        // dispatch(getReduxData(`gender${search}`));
     };
 
     const handleCheckboxChange = (e) => {

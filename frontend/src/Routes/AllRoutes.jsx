@@ -9,6 +9,7 @@ import Signup from '../component/login_signup/Signup';
 import Login from '../component/login_signup/Login';
 // import Cart from '../component/Womens/Cart';
 // import PaymentsPage from '../component/Womens/PaymentsPage';
+
 // import Wishlist from '../component/Wishlist/Wishlist';
 // import Homeandkitchen from '../component/Womens/Homeandkitchen';
 import Dashboard from '../component/Admin/AdminPages/Dashboard';
@@ -18,10 +19,17 @@ import AddProducts from '../component/Admin/AdminPages/AddProducts';
 // import Orders from '../component/Admin/Orders';
 // import Customers from '../component/Admin/Customers';
 // import Products from '../component/Admin/Products';
-// import Cart from '../component/Cart/Cart';
-import PaymentsPage from '../component/PaymentModel/PaymentsPage';
+
 import Wishlist from '../component/Wishlist/Wishlist';
 import Homeandkitchen from '../component/Womens/Homeandkitchen';
+// import Dashboard from '../component/Admin/AdminPages/Dashboard';
+// import Store from '../component/Admin/AdminPages/Store';
+// import AddProducts from '../component/Admin/AdminPages/AddProducts';
+
+// import Cart from '../component/Cart/Cart';
+import PaymentsPage from '../component/PaymentModel/PaymentsPage';
+// import Wishlist from '../component/Wishlist/Wishlist';
+// import Homeandkitchen from '../component/Womens/Homeandkitchen';
 import Cart from '../component/Cart/Cart';
 // import Cart from '../component/Cart/Cart';
 

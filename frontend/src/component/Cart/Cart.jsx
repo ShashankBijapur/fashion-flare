@@ -1,9 +1,6 @@
 import axios from 'axios'
 import React, { useState, useEffect, useRef } from 'react'
 
-
-
-
 import {
     Popover,
     PopoverTrigger,
@@ -43,7 +40,7 @@ const Cart = () => {
     const [qty, setQty] = useState(1);
 
     const getcartdata = () => {
-        axios.get("http://localhost:4000/cart")
+        axios.get("https://smiling-wear-pig.cyclic.app/cart")
             .then(res => {
                 setcart(res.data)
                 dispatch(getCartData(res.data))
@@ -66,7 +63,7 @@ const Cart = () => {
 
     const deleteitem = (id) => {
 
-        axios.delete(`http://localhost:4000/cart/delete/${id}`)
+        axios.delete(`https://smiling-wear-pig.cyclic.app/cart/delete/${id}`)
             .then(res => setCartitem(res.data))
         setCounter(counter + 1)
     }
@@ -94,7 +91,7 @@ const Cart = () => {
     const handleQuantity = (id) => {
         // console.log(qty, _id);
         const payload = { quantity: qty };
-        axios.patch(`http://localhost:4000/cart/update/${id}`, payload)
+        axios.patch(`https://smiling-wear-pig.cyclic.app/cart/update/${id}`, payload)
             // .then((res) => res.json())
             .then((res) => {
                 getCartData();

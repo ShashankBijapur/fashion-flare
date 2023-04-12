@@ -50,7 +50,7 @@ export const patchRequestFailureAdminSide = () => {
 export const getRequestforAdminSide = (params, category) => (dispatch) => {
   dispatch(getRequestAdmin());
   axios
-    .get(`http://localhost:4000/product/${category}`, { params })
+    .get(`https://smiling-wear-pig.cyclic.app/product/${category}`, { params })
     .then((res) => {
       dispatch(getRequestSuccessAdminSide(res.data, category));
       console.log(res.data)
@@ -65,7 +65,7 @@ export const patchRequestforAdminSide = (id, category, obj) => (dispatch) => {
 
   console.log(id, category, obj, "from action");
   return axios
-    .patch(`http://localhost:4000/product/${category}/${id}`, obj)
+    .patch(`https://smiling-wear-pig.cyclic.app/product/${category}/${id}`, obj)
     .then((res) => {
       dispatch(patchRequestSuccessAdminSide());
     })
@@ -77,7 +77,7 @@ export const patchRequestforAdminSide = (id, category, obj) => (dispatch) => {
 export const deleteRequest = (id, category) => (dispatch) => {
   dispatch(getRequestAdmin());
   return axios
-    .delete(`http://localhost:4000/product/${category}/${id}`)
+    .delete(`https://smiling-wear-pig.cyclic.app/product/${category}/${id}`)
     .then((response) => {
       //as we are not expecting amy data so this will be same as patch request..
       dispatch(patchRequestSuccessAdminSide());
@@ -90,7 +90,7 @@ export const deleteRequest = (id, category) => (dispatch) => {
 export const postRequestAdminSide = (category, data) => (dispatch) => {
   dispatch(getRequestAdmin);
   axios
-    .post(`http://localhost:4000/product/${category}`, data)
+    .post(`https://smiling-wear-pig.cyclic.app/product/${category}`, data)
     .then((res) => {
       console.log(res);
       dispatch(patchRequestSuccessAdminSide());
@@ -103,7 +103,7 @@ export const postRequestAdminSide = (category, data) => (dispatch) => {
 export const addTocartData = (cartData) => (dispatch) => {
   dispatch(getRequestAdmin);
   axios
-    .post(`http://localhost:4000/cart/`, cartData)
+    .post(`https://smiling-wear-pig.cyclic.app/cart/`, cartData)
     .then((res) => {
       dispatch(patchRequestSuccessAdminSide());
     })

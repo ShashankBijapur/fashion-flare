@@ -1,11 +1,12 @@
 
 import React, { useEffect, useState } from 'react'
 import "./Kids.css"
-import Card from './Card'
 import axios from "axios"
+
 import { useDispatch, useSelector } from 'react-redux'
 import { getReduxData } from '../../redux/action'
 import { getProductData } from '../../redux/Products/action'
+
 
 // import React, { useEffect, useState } from "react";
 // import "./Kids.css";
@@ -29,6 +30,7 @@ import Sidebar from "../Sidebar/Sidebar";
 import Navbar from "../Navbar/Navbar";
 import MobileNav from "../Navbar/MobileNav";
 import { useMediaQuery } from "@chakra-ui/react";
+import { Card } from '../Card/Card'
 
 
 const Kids = () => {
@@ -42,8 +44,11 @@ const Kids = () => {
         setSearch("");
     };
     useEffect(() => {
+
         dispatch(getProductData("kid"));
     }, []);
+
+
     const [isLargerThan800] = useMediaQuery("(min-width: 800px)");
 
     return (
@@ -59,7 +64,7 @@ const Kids = () => {
                             <div>Starting at Rs 129</div>
                             <div>
                                 <ul>
-                                <li>{Products.length }00 Items Found</li>
+                                <li>{Products.length } Items Found</li>
                                 </ul>
                                 <ul>
                                     <input

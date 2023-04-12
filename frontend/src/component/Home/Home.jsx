@@ -151,7 +151,7 @@ const [isLargerThan800] = useMediaQuery("(min-width: 800px)");
 
       {/* -------------------------------- block 1 starts here ------------------------------------------------------- */}
       <HStack width="100vw" justifyContent={'center'} alignItems='center' m='auto'  >
-        <Image width="100%" wi src="https://assets.ajio.com/cms/AJIO/WEB/D-UHP-SS23-HalfBanner%20.gif" />
+        <Image width="100%"  src="https://assets.ajio.com/cms/AJIO/WEB/D-UHP-SS23-HalfBanner%20.gif" />
       </HStack>
 
 
