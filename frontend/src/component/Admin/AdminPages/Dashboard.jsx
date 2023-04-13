@@ -55,7 +55,6 @@ function Dashboard() {
   }, []);
 
   const handleDelete = (id) => {
-    console.log("iddd", id);
     dispatch(deleteUserData(id)).then((res) => {
       dispatch(getUSerData());
     });
@@ -63,10 +62,31 @@ function Dashboard() {
   return (
     <AdminSidebar heading={"Dashboard"}>
    
+   <Box border={"1px solid re"}>
+        <Box>
+          <Breadcrumb
+            spacing="8px"
+            separator={<ChevronRightIcon color="gray.500" />}
+          >
+            <BreadcrumbItem>
+              <BreadcrumbLink href="#">Admin</BreadcrumbLink>
+            </BreadcrumbItem>
+
+            <BreadcrumbItem>
+              <BreadcrumbLink href="#">Dashboard</BreadcrumbLink>
+            </BreadcrumbItem>
+          </Breadcrumb>
+        </Box>
+      </Box>
 
       <Box>
         <Box
-        
+          mt={"25px"}
+          border={"1px solid re"}
+          display={"grid"}
+          gridTemplateColumns={"repeat(3,1fr)"}
+          justifyContent={"space-between"}
+          gap={"25px"}
         >
           <Box
             // w={"28%"}
@@ -123,7 +143,7 @@ function Dashboard() {
             >
               <Image
                 w={"80%"}
-                src="https://www.wigginsshredding.com/wp-content/uploads/2019/05/Box-Icon.png"
+                src="https://tse3.mm.bing.net/th?id=OIP.vimRlYxVLqkgJONW7V1jEgHaHK&pid=Api&P=0"
               />
             </Box>
             <Box
