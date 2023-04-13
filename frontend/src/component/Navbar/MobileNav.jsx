@@ -28,7 +28,7 @@ const MobileNav = () => {
   const handleLogout = () => {
     localStorage.clear();
     toast({
-      title: `you are logged out `,
+      title: `YOU ARE LOGGED OUT`,
       position: "top",
       status: "error",
       duration: 2000,
