@@ -9,6 +9,7 @@ import {
   } from '@chakra-ui/react'
 
 const MobileItem = ({nameitem,item1,item2,item3,item4,item5,item6,item7,item8,item9,item10}) => {
+ 
   return (
     <div style={{zIndex:"5"}}>
       <Menu>
@@ -17,9 +18,9 @@ const MobileItem = ({nameitem,item1,item2,item3,item4,item5,item6,item7,item8,it
   </MenuButton>
   <MenuList>
     <MenuItem>{item1}</MenuItem>
-    <Link to="/womens"><MenuItem>{item2}</MenuItem></Link>
-    <Link to="/mens"><MenuItem>{item3}</MenuItem></Link>
-    <Link to="/kids"><MenuItem>{item4}</MenuItem></Link>
+    <MenuItem>{item2}</MenuItem>
+    <MenuItem>{item3}</MenuItem>
+    <MenuItem>{item4}</MenuItem>
     <MenuItem>{item5}</MenuItem>
     <MenuItem>{item6}</MenuItem>
     <MenuItem>{item7}</MenuItem>

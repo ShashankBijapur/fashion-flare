@@ -11,8 +11,8 @@ export const Card = ({ _id, src, brand, title, category, orginalPrice, discountP
     navigate(`/${category}/${_id}`)
   }
   return (
-    <Box onClick={handledata} >
-      <div className="card-cont" key={_id}>
+    <Box onClick={handledata}key={_id} >
+      <div className="card-cont" >
         <div className="img-div">
           <img src={src} alt={brand} />
         </div>

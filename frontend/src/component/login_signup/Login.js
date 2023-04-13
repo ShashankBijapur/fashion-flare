@@ -37,7 +37,7 @@ export default function SimpleCard() {
           password: password,
         })
         .then((res) => {
-          console.log(res)
+          // console.log(res)
           if (res.data.token) {
             localStorage.setItem("username", (res.data.firstname))
             localStorage.setItem("useremail", (res.data.email))
@@ -80,6 +80,7 @@ export default function SimpleCard() {
     }
     setEmail("");
     setPassword("");
+  
   };
 
   return (
