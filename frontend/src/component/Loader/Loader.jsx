@@ -5,7 +5,7 @@ import { StarIcon } from '@chakra-ui/icons';
 export const Loader = () => {
   const arr = new Array(12).fill('')
   return (
-    arr.map((el,index) => {
+    arr.map((el, index) => {
       return (
         <Skeleton
           maxW="sm"
@@ -14,7 +14,7 @@ export const Loader = () => {
           overflow="hidden"
           border={"1px solid rgb(223, 223, 223)"}
           cursor={"pointer"}
-key ={index}
+          key={index}
         >
           <Image src="#" alt='#' height={"232px"} margin={"auto"} />
 
