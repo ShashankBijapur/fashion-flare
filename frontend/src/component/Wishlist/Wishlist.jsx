@@ -18,11 +18,11 @@ const Wishlist = () => {
     const navigate = useNavigate()
 
     const getdata = () => {
-        axios.get("https://smiling-wear-pig.cyclic.app/wishlist")
+        axios.get("http://localhost:4000/wishlist")
             .then(((res) => setwishlist(res.data)))
     }
     const handledelete = (id) => {
-        axios.delete(`https://smiling-wear-pig.cyclic.app/wishlist/delete/${id}`)
+        axios.delete(`http://localhost:4000/wishlist/delete/${id}`)
             .then((res) => setdata(res.data))
 
     }

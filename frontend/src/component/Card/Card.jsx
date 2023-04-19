@@ -2,7 +2,6 @@ import React from "react";
 import "./Card.css";
 import {  useNavigate } from "react-router-dom";
 import { Box } from "@chakra-ui/react";
-
 export const Card = ({ _id, src, brand, title, category, orginalPrice, discountPrice,discount, offer, }) => {
   const navigate = useNavigate()
   const handledata = () => {
@@ -11,11 +10,9 @@ export const Card = ({ _id, src, brand, title, category, orginalPrice, discountP
     localStorage.setItem("ProductsDetails", JSON.stringify(product))
     navigate(`/${category}/${_id}`)
   }
-  
- 
   return (
-    <Box onClick={handledata} >
-      <div className="card-cont" key={_id}>
+    <Box onClick={handledata}key={_id} >
+      <div className="card-cont" >
         <div className="img-div">
           <img src={src} alt={brand} />
         </div>

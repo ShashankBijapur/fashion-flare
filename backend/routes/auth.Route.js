@@ -139,7 +139,7 @@ authRoute.post("/register", (req, res) => {
 
   try {
     const user = UserModel.find({ email })
-    // console.log(user)
+    console.log(user)
     if (user.length >= 1) {
       res.status(400).send({ "msg": "User already exist, please login" })
     }
@@ -158,23 +158,30 @@ authRoute.post("/register", (req, res) => {
 })
 
 //login route for user 
-authRoute.post("/login", async (req, res) => {
+authRoute.post("/login",async (req, res) => {
   const { email, password } = req.body
 
   try {
-    const user = await UserModel.findOne({ email })
-    console.log(user)
-    if (user) {
-      bcrypt.compare(password, user.password, async (err, result) => {
-        if (result) {
-          res.status(200).send({ "msg": "login success", "token": jwt.sign({ "userid": user._id }, "fashionflare"),user })
-        } else {
-          res.status(400).send({ "msg": "wrong details" })
-        }
-      });
-    }
+      const user =await UserModel.findOne({ email })
+      // console.log(user)
+      if (user) {
+          bcrypt.compare(password, user.password, async (err, result) => {
+              // result == true
+              // Store hash in your password DB.
+              if (result) {
+                  res.status(200).send({ "msg": "login success", "token": jwt.sign({ "userid": user._id }, "fashionflare"),firstname:user.name,email:user.email })
+
+              } else {
+                  res.status(400).send({ "msg": "wrong details" })
+              }
+
+          });
+
+      } 
+
+
   } catch (error) {
-    res.status(400).send({ "msg": error.message })
+      res.status(400).send({ "msg": error.message })
   }
 
 });

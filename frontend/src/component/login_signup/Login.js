@@ -32,13 +32,16 @@ export default function SimpleCard() {
   const handleLogin = () => {
     if (email && password) {
       axios
-        .post(`https://smiling-wear-pig.cyclic.app/auth/login`, {
+        .post(`http://localhost:4000/auth/login`, {
           email: email,
           password: password,
         })
         .then((res) => {
-          if (res.data.user) {
-
+          // console.log(res)
+          if (res.data.token) {
+            localStorage.setItem("username", (res.data.firstname))
+            localStorage.setItem("useremail", (res.data.email))
+            localStorage.setItem("login", true)
             toast({
               title: `Login Success`,
               position: "top",
@@ -47,7 +50,7 @@ export default function SimpleCard() {
               isClosable: true,
             });
             navigate("/");
-          }else{
+          } else {
             toast({
               title: `Wrong credentials`,
               position: "top",
@@ -77,6 +80,7 @@ export default function SimpleCard() {
     }
     setEmail("");
     setPassword("");
+  
   };
 
   return (

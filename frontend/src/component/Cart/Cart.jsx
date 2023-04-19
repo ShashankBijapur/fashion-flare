@@ -1,39 +1,22 @@
 import axios from 'axios'
 import React, { useState, useEffect, useRef } from 'react'
-
-import {
-    Popover,
-    PopoverTrigger,
-    PopoverContent,
-    PopoverHeader,
-    PopoverBody,
-    PopoverArrow,
-    PopoverCloseButton,
-    Select,
-} from '@chakra-ui/react'
+import { Popover, PopoverTrigger, PopoverContent, PopoverHeader, PopoverBody, PopoverArrow, PopoverCloseButton, Select, } from '@chakra-ui/react'
 import { Box, Button, Checkbox, CheckboxGroup, Flex, Image, Stack, Text } from '@chakra-ui/react';
-
-
-
 import { Input, useDisclosure } from '@chakra-ui/react'
 import { useNavigate } from 'react-router-dom';
 import Paymentmodal from '../PaymentModel/Payments';
-
 import { useDispatch } from "react-redux"
 import { getCartData } from '../../redux/action'
 import { useMediaQuery } from '@chakra-ui/react'
 import Navbar from '../Navbar/Navbar';
 import MobileNav from '../Navbar/MobileNav';
 
-
 const Cart = () => {
     const [cart, setcart] = useState([])
-
     const [size, setsize] = useState("M")
     const [cartitem, setCartitem] = useState([])
     const [count, setCount] = useState(1)
     const [counter, setCounter] = useState(1)
-
     const dispatch = useDispatch()
     const ref = useRef()
     const navigate = useNavigate()
@@ -42,7 +25,7 @@ const Cart = () => {
     const [qty, setQty] = useState(1);
 
     const getcartdata = () => {
-        axios.get("https://smiling-wear-pig.cyclic.app/cart")
+        axios.get("http://localhost:4000/cart")
             .then(res => {
                 setcart(res.data)
                 dispatch(getCartData(res.data))
@@ -56,45 +39,33 @@ const Cart = () => {
     const handleclick = () => {
         navigate("/")
     }
-
-
-
     const handleSizeChange = (event) => {
         setsize(event.target.value);
     };
 
     const deleteitem = (id) => {
 
-        axios.delete(`https://smiling-wear-pig.cyclic.app/cart/delete/${id}`)
+        axios.delete(`http://localhost:4000/cart/delete/${id}`)
             .then(res => setCartitem(res.data))
         setCounter(counter + 1)
     }
     const addtowishlist = (item, id) => {
 
-        axios.post("https://magnificent-bass-suit.cyclic.app/wishlist", item)
+        axios.post("http://localhost:4000/wishlist", item)
             .then(r => setCartitem(r.data))
 
-        axios.delete(`https://magnificent-bass-suit.cyclic.app/cart/${id}`)
+        axios.delete(`http://localhost:4000/cart/${id}`)
             .then(res => setCartitem(res.data))
     }
     let sum = 0;
     for (let i = 0; i < cart.length; i++) {
-        // sum = sum + cart.discountPrice[i] * cart.quantity[i]
-
-
         sum += cart[i].discountPrice * cart[i].quantity;
     }
-    // console.log(sum)
-
-
-
-    // console.log(qty);
 
     const handleQuantity = (id) => {
-        // console.log(qty, _id);
         const payload = { quantity: qty };
-        axios.patch(`https://smiling-wear-pig.cyclic.app/cart/update/${id}`, payload)
-            // .then((res) => res.json())
+        axios.patch(`http://localhost:4000/cart/update/${id}`, payload)
+
             .then((res) => {
                 getCartData();
             })
@@ -103,6 +74,7 @@ const Cart = () => {
     useEffect(() => {
         getcartdata()
     }, [counter, qty]);
+    console.clear()
     return (
         <>
             {isLargerThan800 ? <Navbar cartlength={cart.length} /> : <MobileNav cartlength={cart.length} />}
@@ -159,35 +131,21 @@ const Cart = () => {
                         <Box width={{ base: "100%", sm: "70%" }} margin={"auto"} marginTop={"30px"} >
                             <Text textAlign={"left"}>My Bag({cart.length}item)</Text>
                             <Box style={{ textAlign: "center" }}>
-                                {cart.map((item, index) =>
-                                    // <CartCard item={item} setCount={setCount} count={count} key={index} />
+                                {cart.map((item) =>
                                     <Box key={item._id} padding={"5px"} border="1px solid rgb(250,230,250)" display={{ base: "grid", md: "flex" }} justifyContent="space-evenly" gap="20px" marginTop="20px">
                                         <Image src={item.src} width={{ base: "200px", sm: "200px" }} margin={{ base: "auto" }} alt="" />
                                         <Text>{item.brand}- <span> {item.title}</span> </Text>
 
                                         <Popover >
                                             <PopoverTrigger>
-                                                <Button fontSize={"12px"}> Size {item.size} - Qty {item.quantity}</Button>
+                                                <Button fontSize={"12px"}> Qty {item.quantity}</Button>
                                             </PopoverTrigger>
                                             <PopoverContent>
                                                 <PopoverArrow />
                                                 <PopoverCloseButton />
-                                                <PopoverHeader>Select Size!</PopoverHeader>
-                                                <PopoverBody width="100%">
-                                                    <Select width="100px" margin="auto" style={{ border: "1px solid black", marginTop: "10px", padding: "10px" }} value={size} onChange={handleSizeChange}>
-                                                        <option value="" disabled >Select Size</option>
-                                                        <option value="XS">Extra small</option>
-                                                        <option value="S">Small</option>
-                                                        <option value="L">Large</option>
-                                                        <option value="XL">Extra Large</option>
-                                                        <option value="XXL"> XXL</option>
-                                                    </Select>
-
-                                                </PopoverBody>
-                                                <hr />
                                                 <PopoverHeader>Set Quantity!</PopoverHeader>
                                                 <PopoverBody>
-                                                    <Flex>
+                                                    <Flex justifyContent={"center"}>
                                                         <Button
                                                             color={"#f43297"}
                                                             variant="ghost"
