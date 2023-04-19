@@ -21,6 +21,10 @@ const Navbar = ({ cartlength }) => {
   const { setCategory } = useContext(SidebarContext);
   const [cart, setcart] = useState([])
   const [wishlist, setwishlist] = React.useState([])
+
+  const hanldecart=()=>{
+    navigate('/cart')
+  }
   const handleLogout = () => {
     localStorage.clear();
     toast({
@@ -113,7 +117,7 @@ const Navbar = ({ cartlength }) => {
                       <Button colorScheme='red' mr={3} onClick={handleLogout}>
                         Logout
                       </Button>
-                      <Button colorScheme='green'><Link to="/cart">Go To Cart</Link></Button>
+                      <Button colorScheme='green' onClick={hanldecart}>Go To Cart</Button>
                     </ModalFooter>
                   </ModalContent>
                 </Modal>
