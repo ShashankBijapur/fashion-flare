@@ -25,7 +25,7 @@ const Cart = () => {
     const [qty, setQty] = useState(1);
 
     const getcartdata = () => {
-        axios.get("http://localhost:4000/cart")
+        axios.get("https://dizzy-plum-donkey.cyclic.app/cart")
             .then(res => {
                 setcart(res.data)
                 dispatch(getCartData(res.data))
@@ -45,16 +45,16 @@ const Cart = () => {
 
     const deleteitem = (id) => {
 
-        axios.delete(`http://localhost:4000/cart/delete/${id}`)
+        axios.delete(`https://dizzy-plum-donkey.cyclic.app/delete/${id}`)
             .then(res => setCartitem(res.data))
         setCounter(counter + 1)
     }
     const addtowishlist = (item, id) => {
 
-        axios.post("http://localhost:4000/wishlist", item)
+        axios.post("https://dizzy-plum-donkey.cyclic.app/wishlist", item)
             .then(r => setCartitem(r.data))
 
-        axios.delete(`http://localhost:4000/cart/${id}`)
+        axios.delete(`https://dizzy-plum-donkey.cyclic.app/cart/${id}`)
             .then(res => setCartitem(res.data))
     }
     let sum = 0;
@@ -64,7 +64,7 @@ const Cart = () => {
 
     const handleQuantity = (id) => {
         const payload = { quantity: qty };
-        axios.patch(`http://localhost:4000/cart/update/${id}`, payload)
+        axios.patch(`https://dizzy-plum-donkey.cyclic.app/update/${id}`, payload)
 
             .then((res) => {
                 getCartData();

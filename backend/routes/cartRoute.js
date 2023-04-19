@@ -37,7 +37,7 @@ cartRoute.delete("/delete/:id", async (req, res) => {
     res.status(200).send("cart item deleted");
 
   } catch (err) {
-    console.log(err);
+    // console.log(err);
     res.send(err);
   }
 });
@@ -51,7 +51,7 @@ cartRoute.patch("/update/:id", async (req, res) => {
     await CartModel.findByIdAndUpdate({ _id: id }, payload);
     res.status(200).send("cart item updated");
   } catch (err) {
-    console.log(err);
+    // console.log(err);
     res.send(err);
   }
 });

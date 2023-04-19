@@ -26,17 +26,17 @@ const CartCard = ({ item, setCount, count }) => {
 
     const deleteitem = (id) => {
         console.log(id)
-        axios.delete(`http://localhost:4000/cart/delete/${id}`)
+        axios.delete(`https://dizzy-plum-donkey.cyclic.app/cart/delete/${id}`)
             .then(res => setCartitem(res.data))
     }
 
 
     const addtowishlist = (item, id) => {
        
-        axios.post("https://magnificent-bass-suit.cyclic.app/wishlist", item)
+        axios.post("https://dizzy-plum-donkey.cyclic.app/wishlist", item)
             .then(r => setCartitem(r.data))
 
-        axios.delete(`https://magnificent-bass-suit.cyclic.app/cart/${id}`)
+        axios.delete(`https://dizzy-plum-donkey.cyclic.app/cart/${id}`)
             .then(res => setCartitem(res.data))
     }
     

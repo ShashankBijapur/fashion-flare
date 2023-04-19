@@ -38,12 +38,12 @@ const Navbar = ({ cartlength }) => {
   }
   useEffect(() => {
     
-    axios.get("http://localhost:4000/cart")
+    axios.get("https://dizzy-plum-donkey.cyclic.app/cart")
       .then(res => {
         setcart(res.data)
       })
 
-      axios.get("http://localhost:4000/wishlist")
+      axios.get("https://dizzy-plum-donkey.cyclic.app/wishlist")
       .then(((res) => setwishlist(res.data)))
   }, []);
   return (

@@ -5,24 +5,24 @@ const wishlistRoute = express.Router();
 wishlistRoute.get("/", async (req, res) => {
   try {
     const allCart = await WishlistModel.find();
-    console.log(allCart);
+    // console.log(allCart);
     res.status(200).send(allCart);
   } catch (err) {
-    console.log(err);
+    // console.log(err);
     res.send(err);
   }
 });
 // post route to post data to wishlist
 wishlistRoute.post("/add", async (req, res) => {
   try {
-    console.log(req.body);
+    // console.log(req.body);
     const cart = await new WishlistModel(req.body);
     await cart.save();
-    console.log("Data Saved", cart);
+    // console.log("Data Saved", cart);
     res.status(200).send(cart);
-    console.log(req.body);
+    // console.log(req.body);
   } catch (err) {
-    console.log(err);
+    // console.log(err);
     res.send(err);
   }
 });
@@ -30,12 +30,12 @@ wishlistRoute.post("/add", async (req, res) => {
 // delete route to delete data from wishlist
 wishlistRoute.delete("/delete/:id", async (req, res) => {
   const { id } = req.params;
-  console.log(id);
+  // console.log(id);
   try {
     await WishlistModel.findByIdAndDelete({ _id: id });
     res.status(200).send("product deleted");
   } catch (err) {
-    console.log(err);
+    // console.log(err);
     res.send(err);
   }
 });

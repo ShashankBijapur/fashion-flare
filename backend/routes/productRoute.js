@@ -26,7 +26,7 @@ productRoute.patch("/update/:_id", async (req, res) => {
   const payload = req.body
 try {
   const singleProduct = await ProductModel.findByIdAndUpdate({_id:_id},payload);
-  console.log(singleProduct)
+  // console.log(singleProduct)
     res.status(200).send(singleProduct);
   
 } catch (err) {
@@ -39,7 +39,7 @@ productRoute.delete("/delete/:_id", async (req, res) => {
   // console.log("param",param)
 try {
   const singleProduct = await ProductModel.findByIdAndDelete({_id:_id});
-  console.log(singleProduct)
+  // console.log(singleProduct)
     res.status(200).send(singleProduct);
   
 } catch (err) {
@@ -52,11 +52,11 @@ productRoute.post("/add", async (req, res) => {
     // console.log(req.body);
     const cart = await new ProductModel(req.body);
     await cart.save();
-    console.log("Data Saved", cart);
+    // console.log("Data Saved", cart);
     res.status(200).send(cart);
-    console.log(req.body)
+    // console.log(req.body)
   } catch (err) {
-    console.log(err);
+    // console.log(err);
     res.send(err);
   }
 });
@@ -68,7 +68,7 @@ productRoute.get("/:category/:_id", async (req, res) => {
   try {
     const singleProduct = await ProductModel.find(param);
     // console.log("AllProduct", allProduct);
-    console.log(singleProduct)
+    // console.log(singleProduct)
     if (singleProduct) {
       res.status(200).send(singleProduct[0]);
     }

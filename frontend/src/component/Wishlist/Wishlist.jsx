@@ -18,11 +18,11 @@ const Wishlist = () => {
     const navigate = useNavigate()
 
     const getdata = () => {
-        axios.get("http://localhost:4000/wishlist")
+        axios.get("https://dizzy-plum-donkey.cyclic.app/wishlist")
             .then(((res) => setwishlist(res.data)))
     }
     const handledelete = (id) => {
-        axios.delete(`http://localhost:4000/wishlist/delete/${id}`)
+        axios.delete(`https://dizzy-plum-donkey.cyclic.app/wishlist/delete/${id}`)
             .then((res) => setdata(res.data))
 
     }

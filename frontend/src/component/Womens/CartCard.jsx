@@ -24,21 +24,21 @@ const CartCard = ({ item, setCount,count }) => {
     const deleteitem = (id) => {
         // window.location.reload(true);
         console.log(id)
-        axios.delete(`https://magnificent-bass-suit.cyclic.app/cart/${id}`)
+        axios.delete(`https://dizzy-plum-donkey.cyclic.app/cart/${id}`)
             // .then(res=>res.json())
             .then(res => setCartitem(res.data))
 
     }
     const addtowishlist = (item, id) => {
         console.log(item)
-        // axios.post("http://localhost:8080/wishlist",item)
+        // axios.post("https://dizzy-plum-donkey.cyclic.app/wishlist",item)
         // .then((r) => {
         //    console.log(r.data)
         // })
-        axios.post("https://magnificent-bass-suit.cyclic.app/wishlist", item)
+        axios.post("https://dizzy-plum-donkey.cyclic.app/wishlist", item)
             .then(r => setCartitem(r.data))
 
-        axios.delete(`https://magnificent-bass-suit.cyclic.app/cart/${id}`)
+        axios.delete(`https://dizzy-plum-donkey.cyclic.app/cart/${id}`)
             // .then(res=>res.json())
             .then(res => setCartitem(res.data))
     }
