@@ -45,9 +45,8 @@ export const getUSerData = () => (dispatch) => {
 
 export const deleteUserData = (id) => async (dispatch) => {
   dispatch(getUser());
-  return axios
-    .delete(`https://smiling-wear-pig.cyclic.app/auth/${id}`)
-    .then((res) => {
+  return axios.delete(`https://smiling-wear-pig.cyclic.app/auth/${id}`)
+     .then((res) => {
       dispatch(deletUserData());
     })
     .catch((err) => {

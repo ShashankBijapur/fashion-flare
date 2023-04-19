@@ -23,7 +23,6 @@ import { getRequestforAdminSide } from "../../../redux/Admin/action";
 import { deleteUserData, getUSerData } from "../../../redux/Users/action";
 import UserCard from "../AdminComps/UserCard";
 
-let arr = new Array(10).fill(0);
 
 function Dashboard() {
   const dispatch = useDispatch();
@@ -56,14 +55,14 @@ function Dashboard() {
   }, []);
 
   const handleDelete = (id) => {
-    console.log("iddd", id);
     dispatch(deleteUserData(id)).then((res) => {
       dispatch(getUSerData());
     });
   };
   return (
     <AdminSidebar heading={"Dashboard"}>
-      <Box border={"1px solid re"}>
+   
+   <Box border={"1px solid re"}>
         <Box>
           <Breadcrumb
             spacing="8px"
@@ -144,7 +143,7 @@ function Dashboard() {
             >
               <Image
                 w={"80%"}
-                src="https://www.wigginsshredding.com/wp-content/uploads/2019/05/Box-Icon.png"
+                src="https://tse3.mm.bing.net/th?id=OIP.vimRlYxVLqkgJONW7V1jEgHaHK&pid=Api&P=0"
               />
             </Box>
             <Box
@@ -209,24 +208,13 @@ function Dashboard() {
               </Tr>
             </Thead>
             <Tbody>
-              {isLoading &&
-                arr.map((item) => {
-                  return (
-                    <Tr >
-                      <Td>{""}</Td>
-                      <Td>{""}</Td>
-                      <Td>{""}</Td>
-                      <Td>{""}</Td>
-                      <Td>{""}</Td>
-                    </Tr>
-                  );
-                })}
+             
               {Users?.map((item, index) => {
                 return (
                   <UserCard
-                    key={item.id}
+                    key={item._id}
                     {...item}
-                    handleDelete={handleDelete}
+                    handleDelete={handleDelete(item._id)}
                     index={index}
                   />
                 );

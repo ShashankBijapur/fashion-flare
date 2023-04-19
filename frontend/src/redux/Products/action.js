@@ -10,8 +10,7 @@ import { GETREQ,GETSINGLEPROD , PATCHSINGLEPROD,DELETESINGLEPROD,  POSTREQ} from
 
 
 const getProductData = (category) => async (dispatch) => {
-  // const response = await axios.get(`https://smiling-wear-pig.cyclic.app/product/${category}`);
-  const response = await axios.get(`http://localhost:4000/product/${category}`);
+  const response = await axios.get(`https://smiling-wear-pig.cyclic.app/product/${category}`);
   const res = await response.data;
   dispatch({ type: GETREQ, payload: res });
 };
@@ -24,29 +23,27 @@ const getSingleData = (category, id) => async (dispatch) => {
   dispatch({ type: GETSINGLEPROD, payload: res });
 };
 
-const postProductData = (category, productData) => async (dispatch) => {
-  const response = await axios.post(`http://localhost:4000/product/add`, productData);
+
+
+const postProductData = (productData) => async (dispatch) => {
+  const response = await axios.post(`https://smiling-wear-pig.cyclic.app/product/add`, productData);
   const res = await response.data;
   dispatch({ type: POSTREQ, payload: res });
 };
 
-const patchSingleData = (category, id, updatedData) => async (dispatch) => {
-  const response = await axios.patch(
-    `http://localhost:4000/product/update/${id}`,
-    updatedData
-  );
+
+const patchSingleData = ( id, updatedData) => async (dispatch) => {
+  const response = await axios.patch(`https://smiling-wear-pig.cyclic.app/product/update/${id}`,updatedData);
   const res = await response.data;
   dispatch({ type: PATCHSINGLEPROD, payload: res });
 };
 
-const deleteSingleData = (category, id) => async (dispatch) => {
-  const response = await axios.delete(
-    `http://localhost:4000/product/delete/${id}`
-  );
+
+const deleteSingleData = (id) => async (dispatch) => {
+  const response = await axios.delete(`https://smiling-wear-pig.cyclic.app/product/delete/${id}`);
   const res = await response.data;
   dispatch({ type: DELETESINGLEPROD, payload: res });
 };
-
 
 
 const handleSortByRedux =(sortedProduct) =>(dispatch) => {
@@ -54,11 +51,6 @@ const handleSortByRedux =(sortedProduct) =>(dispatch) => {
   dispatch({ type: GETREQ, payload: sortedProduct });
 
   };
-
-
- 
-
-
 
   export {
     getProductData,
