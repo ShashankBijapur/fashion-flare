@@ -90,7 +90,7 @@ const Store = () => {
           </div>
         </div>
       </div>
-      {showForm && (
+      {/* {showForm && (
         <div className="form-container">
           <form onSubmit={handleSubmit} >
       <FormControl id="src" isRequired>
@@ -140,9 +140,9 @@ const Store = () => {
       <Button type="submit" mt={4} colorScheme="teal">
         Submit
       </Button>
-      </form>
-      </div>
-      )}
+      </form> */}
+      {/* </div>
+      )} */}
     </AdminSidebar>
   );
 }
