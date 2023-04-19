@@ -1,3 +1,5 @@
+
+
 import axios from 'axios'
 import React, { useState, useEffect, useRef } from 'react'
 import { Popover, PopoverTrigger, PopoverContent, PopoverHeader, PopoverBody, PopoverArrow, PopoverCloseButton, Select, } from '@chakra-ui/react'
@@ -64,7 +66,7 @@ const Cart = () => {
 
     const handleQuantity = (id) => {
         const payload = { quantity: qty };
-        axios.patch(`https://dizzy-plum-donkey.cyclic.app/update/${id}`, payload)
+        axios.patch(`https://dizzy-plum-donkey.cyclic.app/cart/update/${id}`, payload)
 
             .then((res) => {
                 getCartData();
