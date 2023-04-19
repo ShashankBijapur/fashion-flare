@@ -97,7 +97,7 @@ const MobileNav = () => {
             </Modal>
           </Box> : <Link to="/login" ><Button colorScheme='green'>Login</Button></Link>}
         </Box>
-        {loginValue ? <Box display={"grid"}><Text fontSize={{ base: "12px", sm: "16px" }} >{userName.toUpperCase()}</Text> <Text fontSize={{ base: "12px", sm: "16px" }}  >{userEmail}</Text></Box> : null}
+        {loginValue ? <Box display={"grid"}><Text fontSize={{ base: "12px", sm: "16px" }} >{userName? userName.toUpperCase():null}</Text> <Text fontSize={{ base: "12px", sm: "16px" }}  >{userEmail}</Text></Box> : null}
 
         <Link to="/cart">
 

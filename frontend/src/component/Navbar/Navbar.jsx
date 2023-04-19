@@ -124,7 +124,7 @@ const Navbar = ({ cartlength }) => {
               </Box> : <Link to="/login" ><Button colorScheme='green'>Login</Button></Link>}
             </Box>
 
-            {loginValue ? <Box display={"grid"}><Text  >{userName.toUpperCase()}</Text> <Text >{userEmail}</Text></Box> : null}
+            {loginValue ? <Box display={"grid"}><Text  >{userName? userName.toUpperCase():null}</Text> <Text >{userEmail}</Text></Box> : null}
 
             <Link to="/cart">
               <Box display="flex" gap={'2'}  >

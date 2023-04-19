@@ -107,7 +107,7 @@ const SingleCardPage = () => {
                     <h5 style={{ color: "rgb(58,182,73)" }}>Offer Price ₹{product.offer}</h5>
                     <p>Price Inclusive Of All Taxes</p>
                     <select style={{ border: "1px solid black", width: "200px", marginTop: "10px", padding: "10px" }} value={size} onChange={handleSizeChange}>
-                        <option value="" disabled selected>Select Size</option>
+                        <option value="" >Select Size</option>
                         <option value="xs">Extra small (xs)</option>
                         <option value="s">Small (s)</option>
                         <option value="l">Large</option>

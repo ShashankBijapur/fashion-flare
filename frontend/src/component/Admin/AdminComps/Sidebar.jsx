@@ -22,6 +22,7 @@ import {
   MenuList,
   Spacer,
   Image,
+  Button,
 } from "@chakra-ui/react";
 import {
   FiHome,
@@ -33,7 +34,7 @@ import {
   FiBell,
   FiChevronDown,
 } from "react-icons/fi";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 const LinkItems = [
   { name: "Dashboard", icon: FiHome, to: "/dashboard" },
@@ -42,6 +43,7 @@ const LinkItems = [
   { name: "Favourites", icon: FiStar, to: "/favourites" },
   { name: "Settings", icon: FiSettings, to: "/settings" },
 ];
+
 
 export default function AdminSidebar({ children, heading }) {
   const { isOpen, onOpen, onClose } = useDisclosure();
@@ -80,13 +82,13 @@ export default function AdminSidebar({ children, heading }) {
 const SidebarContent = ({ onClose, ...rest }) => {
   return (
     <Box
-    transition="3s ease"
-    bg={useColorModeValue("white", "gray.900")}
-    borderRight="1px"
-    borderRightColor={useColorModeValue("gray.200", "gray.700")}
-    w={{ base: "full", md: 60 }}
-    pos="fixed"
-    h="100vh"
+      transition="3s ease"
+      bg={useColorModeValue("white", "gray.900")}
+      borderRight="1px"
+      borderRightColor={useColorModeValue("gray.200", "gray.700")}
+      w={{ base: "full", md: 60 }}
+      pos="fixed"
+      h="100vh"
       {...rest}
     >
       <Flex h="20" alignItems="center" mx="8" justifyContent="space-between">
@@ -144,6 +146,14 @@ const NavItem = ({ icon, to, children, ...rest }) => {
 };
 
 const MobileNav = ({ onOpen, heading, ...rest }) => {
+  let username = localStorage.getItem("adminusername")
+  let useremail = localStorage.getItem("adminnuseremail")
+  const navigate = useNavigate()
+  const handlesignout = () => {
+    navigate("/")
+    localStorage.clear()
+
+  }
   return (
     <Flex
       ml={{ base: 0, md: 60 }}
@@ -156,7 +166,7 @@ const MobileNav = ({ onOpen, heading, ...rest }) => {
       justifyContent={{ base: "space-between", md: "flex-end" }}
       {...rest}
     >
-    
+
 
       <HStack
         border={"1px solid re"}
@@ -181,19 +191,20 @@ const MobileNav = ({ onOpen, heading, ...rest }) => {
               _focus={{ boxShadow: "none" }}
             >
               <HStack>
-                <Avatar
+                {/* <Avatar
                   size={"sm"}
                   src={Admin}
-                />
+                /> */}
+                <Text border={"1px solid red"} bg={"aliceblue"} padding="5px" borderRadius={"100%"}> {username?username[0].toUpperCase():null}{username?username[1].toUpperCase():null}</Text>
                 <VStack
                   display={{ base: "none", md: "flex" }}
                   alignItems="flex-start"
                   spacing="1px"
                   ml="2"
                 >
-                  <Text fontSize="sm">Shashank Bijapur</Text>
+                  <Text fontSize="sm">{username}</Text>
                   <Text fontSize="xs" color="gray.600">
-                    Admin
+                    {useremail}
                   </Text>
                 </VStack>
                 <Box display={{ base: "none", md: "flex" }}>
@@ -210,7 +221,7 @@ const MobileNav = ({ onOpen, heading, ...rest }) => {
               <MenuItem>Billing</MenuItem>
               <MenuDivider />
               <MenuItem>
-                <Link to="/">Sign out</Link>
+                <Button onClick={handlesignout}>Sign out</Button>
               </MenuItem>
             </MenuList>
           </Menu>

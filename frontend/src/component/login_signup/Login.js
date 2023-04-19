@@ -37,8 +37,21 @@ export default function SimpleCard() {
           password: password,
         })
         .then((res) => {
-          // console.log(res)
-          if (res.data.token) {
+          console.log(res)
+          if(res.data.email.includes("fashionflare")){
+            localStorage.setItem("adminusername", (res.data.firstname))
+            localStorage.setItem("adminnuseremail", (res.data.email))
+            localStorage.setItem("login", true)
+            toast({
+              title: `Admin Login Success`,
+              position: "top",
+              status: "success",
+              duration: 2000,
+              isClosable: true,
+            });
+            navigate("/dashboard");
+          }
+          else if (res.data.token) {
             localStorage.setItem("username", (res.data.firstname))
             localStorage.setItem("useremail", (res.data.email))
             localStorage.setItem("login", true)

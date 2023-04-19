@@ -17,7 +17,7 @@ const Cart = () => {
     const [cart, setcart] = useState([])
     const [size, setsize] = useState("M")
     const [cartitem, setCartitem] = useState([])
-    const [count, setCount] = useState(1)
+    // const [count, setCount] = useState(1)
     const [counter, setCounter] = useState(1)
     const dispatch = useDispatch()
     const ref = useRef()
@@ -47,9 +47,12 @@ const Cart = () => {
 
     const deleteitem = (id) => {
 
-        axios.delete(`https://dizzy-plum-donkey.cyclic.app/delete/${id}`)
-            .then(res => setCartitem(res.data))
-        setCounter(counter + 1)
+        axios.delete(`https://dizzy-plum-donkey.cyclic.app/cart/delete/${id}`)
+            // .then(res => setcart(res.data))
+            .then(res => getcartdata())
+            // .then((res) => dispatch(getCartData(res.data)))
+            
+        
     }
     const addtowishlist = (item, id) => {
 
@@ -68,15 +71,15 @@ const Cart = () => {
         const payload = { quantity: qty };
         axios.patch(`https://dizzy-plum-donkey.cyclic.app/cart/update/${id}`, payload)
 
-            .then((res) => {
-                getCartData();
-            })
-            .catch((e) => console.log(e));
+            // .then((res) => {
+            //     getCartData(res);
+            // })
+            // .catch((e) => console.log(e));
     };
     useEffect(() => {
         getcartdata()
     }, [counter, qty]);
-    console.clear()
+    // console.clear()
     return (
         <>
             {isLargerThan800 ? <Navbar cartlength={cart.length} /> : <MobileNav cartlength={cart.length} />}
