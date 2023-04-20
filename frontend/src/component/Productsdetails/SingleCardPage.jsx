@@ -11,7 +11,7 @@ import MobileNav from '../Navbar/MobileNav';
 import { useMediaQuery } from '@chakra-ui/react'
 const SingleCardPage = () => {
     var product = JSON.parse(localStorage.getItem('ProductsDetails'))
-    
+
 
     const toast = useToast()
     const { isOpen, onToggle } = useDisclosure()
@@ -66,7 +66,8 @@ const SingleCardPage = () => {
 
     return (<>
 
-{isLargerThan800 ? <Navbar /> : <MobileNav />}
+        {isLargerThan800 ? <Navbar /> : <MobileNav />}
+        <Image width="80%" margin="auto" src="https://assets.ajio.com/cms/AJIO/WEB/28032021-D-cartpagebanner-relianceones.jpg"/>
         <Box display={{ base: "grid", md: "flex", lg: "flex", }} justifyContent="space-evenly" width="90%" margin="auto" >
 
             <div >
