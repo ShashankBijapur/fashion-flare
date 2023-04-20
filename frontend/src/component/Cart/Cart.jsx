@@ -1,5 +1,3 @@
-
-
 import axios from 'axios'
 import React, { useState, useEffect, useRef } from 'react'
 import { Popover, PopoverTrigger, PopoverContent, PopoverHeader, PopoverBody, PopoverArrow, PopoverCloseButton, Select, } from '@chakra-ui/react'
@@ -91,11 +89,11 @@ const Cart = () => {
                     </div>
 
                     <Button onClick={handleclick} bg={"rgb(213,162,73)"} padding="10px" color="white">Continue Shopping</Button>
-                    <Box margin="auto" padding={"40px"} >
+                    <Box margin="auto" padding={"30px"}  >
                         <hr />
-                        <Flex padding={"30px"} justifyContent={"space-around"} color="rgb(213,162,73)">
+                        <Flex display={{base:"grid",sm:"grid",md:"flex"}}  padding={"30px"} justifyContent={"space-around"} color="rgb(213,162,73)">
                             <Flex>
-                                <Image width={"40px"} padding="5px" src='https://penncommunitybank.imgix.net/wp-content/uploads/2019/11/security-icon.png?auto=compress&fit=crop' />
+                                <Image width={{base:"30px",sm:"40px",md:"30px"}}padding="5px" src='https://penncommunitybank.imgix.net/wp-content/uploads/2019/11/security-icon.png?auto=compress&fit=crop' />
                                 <Text padding={"10px"}>SECURE PAYMENTS</Text>
                             </Flex>
                             <Flex>
@@ -116,7 +114,7 @@ const Cart = () => {
                     </Box>
 
 
-                    <Flex padding={"20px"} justifyContent="space-around" backgroundColor="rgb(250,250,250)" marginTop="20px">
+                    <Flex  padding={"20px"} justifyContent="space-around" backgroundColor="rgb(250,250,250)" marginTop="20px">
                         <Box justifyContent={"center"} alignItems="center" >
                             <img width="60px" src="https://cdn-icons-png.flaticon.com/512/182/182308.png" alt="" />
                             <Text>Easy Returns</Text>
@@ -132,6 +130,7 @@ const Cart = () => {
                     </Flex>
                 </Box> :
                 <Box>
+                        <Image width={"80%"} margin="auto" src={"https://assets.ajio.com/cms/AJIO/WEB/28032021-D-cartpagebanner-relianceones.jpg"}/>
                     <Box width={"80%"} display={{ base: "grid", sm: "flex" }} margin="auto" gap={"20px"} >
                         <Box width={{ base: "100%", sm: "70%" }} margin={"auto"} marginTop={"30px"} >
                             <Text textAlign={"left"}>My Bag({cart.length}item)</Text>
@@ -354,7 +353,7 @@ const Cart = () => {
 
                     <hr />
                     <Box display={"grid"} width="100%" margin="auto" gridTemplateColumns={{ base: "repeat(2, 1fr)", md: "repeat(4, 1fr)" }} justifyContent="space-around" backgroundColor="rgb(250,250,250)" color="rgb(213,162,73)" marginTop="20px" padding={"30px"}  >
-                        <Flex>
+                        <Flex display={{base:"grid",sm:"grid",md:"flex"}} >
                             <Image width={"40px"} padding="5px" src='https://penncommunitybank.imgix.net/wp-content/uploads/2019/11/security-icon.png?auto=compress&fit=crop' />
                             <Text padding={"10px"}>SECURE PAYMENTS</Text>
                         </Flex>

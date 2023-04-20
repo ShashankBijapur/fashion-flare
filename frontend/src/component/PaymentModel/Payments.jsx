@@ -17,9 +17,7 @@ import CancelButton from '../Cart/CancelButton'
 
 function Paymentmodal({ total }) {
     const { isOpen, onOpen, onClose } = useDisclosure()
-    const hadleclick = () => {
-
-    }
+    
     return (
         <>
             <Button bg={"rgb(213,162,73)"} width="100%" padding={"4px"} margin="4px" color="white" onClick={onOpen}>Proceed To Ship</Button>
