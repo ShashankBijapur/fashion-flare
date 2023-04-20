@@ -4,30 +4,33 @@
 This repo is the clone of ajio.com website,AJIO is a shopping and lifestyle brand which is the ultimate destination for the latest fashion styles that are handpicked and are available at the best price that one can find anywhere. 
 
 Deployed Link : https://frontend-ivory-tau.vercel.app/
-Backend Deployed : https://smiling-wear-pig.cyclic.app
 
 ### * Tech Stack
 
 - React
 - Redux
 - Chakra UI
+- Node Js
+- Mongo Db
+- Express Js
 
 
 ### * Team-Members
 
-- Shashank Bijapur (Team Lead)
+- Shashank Bijapur
 - Shagun Sharma
 - Shreyash Birajdar
 - Vishal More
 - Supriya Sahoo
 
 You can access the  website by the deployed url 
-  - For new user you need to sigin in 
-  - For existing user  you need login
+
+  - For new user you need to register 
+  - For existing user  you need login with user credentials 
   
   To access the admin side  
-   - User Id: admin  
-   - Password : 123456
+   - For new admin  you need to register  with including  @fashionflare.com in the email 
+   - For existing admin  you need login with admin credentails
 
 ## Some Screenshots of our Project :-
 
@@ -37,25 +40,28 @@ You can access the  website by the deployed url
 
 ### * Home Page 
 
-![home1](https://user-images.githubusercontent.com/106108504/221401830-52ba33d9-9c7e-459c-a641-c0e72950f325.png)
+
+![Screenshot (1286)](https://user-images.githubusercontent.com/107456969/233445204-97ba0e23-7669-427c-abaf-7de005534d84.png)
 
 ### * Navbar and Drop down
 
 ![navbar1](https://user-images.githubusercontent.com/106108504/221401922-c8cb6426-aee6-4fc2-9028-34d264d13d2f.png)
 
-### * Mens page
+### * Womens page
+![Screenshot (1279)](https://user-images.githubusercontent.com/107456969/233443657-01dac46e-b899-4c82-a8e8-d5d0afb8c663.png)
 
-![mens1](https://user-images.githubusercontent.com/106108504/221402043-295083c1-e6dc-40c9-bca5-8ad96988ff3b.png)
+
 
 
 ### * Products detail page
 
-![productdetails1](https://user-images.githubusercontent.com/106108504/221402132-e6cbd03b-32e8-4331-9209-6a3dc3b593cb.png)
+![Screenshot (1280)](https://user-images.githubusercontent.com/107456969/233443947-ee82b227-3a55-4230-a764-91ce5844ffa4.png)
 
 ### * Cart page
 
-![cart1](https://user-images.githubusercontent.com/106108504/221402095-4cd711d2-60e7-4346-b8ca-2d54eeb77923.png)
 
+
+![Screenshot (1288)](https://user-images.githubusercontent.com/107456969/233445498-3377522e-b15d-4777-a22c-e26d7e364b74.png)
 
 ### * Payment page
 
