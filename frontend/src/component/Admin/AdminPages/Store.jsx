@@ -1,11 +1,8 @@
 
-
-import React, { useEffect, useState } from 'react'
-import "../../Mens/Mens.css"
-// import Card from './Card'
-import { useDispatch, useSelector } from 'react-redux'
-// import { getReduxData } from "../redux/action";
-import { FormControl, FormLabel, Input, Button,Select } from "@chakra-ui/react";
+import React, { useEffect, useState } from 'react';
+import "../../Mens/Mens.css";
+import { useDispatch, useSelector } from 'react-redux';
+import { FormControl, FormLabel, Input, Button,Drawer, DrawerOverlay, DrawerContent, DrawerHeader, DrawerBody  } from "@chakra-ui/react";
 import { deleteSingleData, getProductData, patchSingleData } from "../../../redux/Products/action";
 import "./store.css";
 import AdminSidebar from '../AdminComps/Sidebar';
@@ -15,6 +12,7 @@ const Store = () => {
   const [gender, setGender] = useState("men");
   const [editData, setEditData] = useState({});
   const [showForm, setShowForm] = useState(false);
+  const [formData, setFormData] = useState({});
   const dispatch = useDispatch();
   const Products = useSelector(store => store.ProductReducer.Products);
   
@@ -25,6 +23,7 @@ const Store = () => {
 
   const handleEdit = (id, updatedData) => {
     setEditData(updatedData);
+    setFormData(updatedData);
     setShowForm(true);
   };
 
@@ -45,7 +44,6 @@ const Store = () => {
     dispatch(getProductData('men'));
   }, []);
 
-   
 
   return (
     <AdminSidebar heading={"Store"}>
@@ -79,7 +77,7 @@ const Store = () => {
                         <div>Offer price {item.offer} </div>
                       </div>
                       <div className="card-icons">
-                        <FaEdit onClick={() => handleEdit(item._id, {brand: "updated brand"})} />
+                        <FaEdit onClick={() => handleEdit(item._id, item)} />
                         <FaTrash onClick={() => handleDelete(item._id)} />
                       </div>
                     </div>
@@ -90,61 +88,34 @@ const Store = () => {
           </div>
         </div>
       </div>
-      {/* {showForm && (
-        <div className="form-container">
-          <form onSubmit={handleSubmit} >
-      <FormControl id="src" isRequired>
-        <FormLabel>Product Image URL</FormLabel>
-        <Input type="url" name="src" value={product.src} onChange={handleInputChange} />
-      </FormControl>
-      <FormControl id="brand" isRequired>
+      <Drawer placement="top" onClose={() => setShowForm(false)} isOpen={showForm}>
+  <DrawerOverlay />
+  <DrawerContent>
+    <DrawerHeader>Edit Product</DrawerHeader>
+    <DrawerBody>
+      <FormControl>
         <FormLabel>Brand</FormLabel>
-        <Input type="text" name="brand" value={product.brand} onChange={handleInputChange} />
+        <Input value={formData.brand} onChange={(e) => setFormData({...formData, brand: e.target.value})} />
       </FormControl>
-      <FormControl id="category" isRequired>
-      <FormLabel>Category</FormLabel>
-      <Select name="category" value={product.category} onChange={handleInputChange}>
-        <option value="men">Men</option>
-        <option value="women">Women</option>
-        <option value="kid">Kid</option>
-      </Select>
+      <FormControl>
+        <FormLabel>NameCls</FormLabel>
+        <Input value={formData.nameCls} onChange={(e) => setFormData({...formData, nameCls: e.target.value})} />
       </FormControl>
-      <FormControl id="title" isRequired>
-        <FormLabel>Product Title</FormLabel>
-        <Input type="text" name="title" value={product.title} onChange={handleInputChange} />
+      <FormControl>
+        <FormLabel>Price</FormLabel>
+        <Input value={formData.price} onChange={(e) => setFormData({...formData, price: e.target.value})} />
       </FormControl>
-      <FormControl id="discountPrice" isRequired>
-        <FormLabel>Discount Price</FormLabel>
-        <Input type="text" name="discountPrice" value={product.discountPrice} onChange={handleInputChange} />
-      </FormControl>
-      <FormControl id="originalPrice" isRequired>
-        <FormLabel>Original Price</FormLabel>
-        <Input type="text" name="originalPrice" value={product.originalPrice} onChange={handleInputChange} />
-      </FormControl>
-      <FormControl id="discount" isRequired>
-        <FormLabel>Discount</FormLabel>
-        <Input type="text" name="discount" value={product.discount} onChange={handleInputChange} />
-      </FormControl>
-      <FormControl id="offer" isRequired>
+      <FormControl>
         <FormLabel>Offer</FormLabel>
-        <Input type="text" name="offer" value={product.offer} onChange={handleInputChange} />
+        <Input value={formData.offer} onChange={(e) => setFormData({...formData, offer: e.target.value})} />
       </FormControl>
-      <FormControl id="genre" isRequired>
-        <FormLabel>Genre</FormLabel>
-        <Input type="text" name="genre" value={product.genre} onChange={handleInputChange} />
-      </FormControl>
-      <FormControl id="rating" isRequired>
-        <FormLabel>Rating</FormLabel>
-        <Input type="text" name="rating" value={product.rating} onChange={handleInputChange} />
-      </FormControl>
-      <Button type="submit" mt={4} colorScheme="teal">
-        Submit
-      </Button>
-      </form> */}
-      {/* </div>
-      )} */}
+      <Button onClick={() => handleUpdate(editData._id, formData)}>Update</Button>
+    </DrawerBody>
+  </DrawerContent>
+</Drawer>
     </AdminSidebar>
   );
+  
 }
 
 export default Store;

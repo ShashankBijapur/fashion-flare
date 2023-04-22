@@ -19,7 +19,7 @@ import {
   Tr,
 } from "@chakra-ui/react";
 import { useDispatch, useSelector } from "react-redux";
-import { getRequestforAdminSide } from "../../../redux/Admin/action";
+import { getProductData  } from "../../../redux/Products/action";
 import { deleteUserData, getUSerData } from "../../../redux/Users/action";
 import UserCard from "../AdminComps/UserCard";
 
@@ -28,29 +28,30 @@ function Dashboard() {
   const dispatch = useDispatch();
 
   const mens = useSelector((store) => {
-    return store.AdminReducer.mens
+    return store.ProductReducer.Products
   });
 
   const womens = useSelector((store) => {
-    return store.AdminReducer.womens
+    return store.ProductReducer.Products
   });
 
   const kids = useSelector((store) => {
-    return store.AdminReducer.kids;
+    return store.ProductReducer.Products
   });
 
   const Users = useSelector((store) => {
     return store.UserReducer.user;
   });
 
-  const isLoading = useSelector((store) => {
-    return store.UserReducer.isLoading;
-  });
- 
+  const Cart = useSelector((store)=>{
+    return store.CartReducer.cart;
+  })
+  
+ console.log(womens,kids,mens)
   useEffect(() => {
-    dispatch(getRequestforAdminSide({}, "men"));
-    dispatch(getRequestforAdminSide({}, "women"));
-    dispatch(getRequestforAdminSide({}, "kid"));
+    dispatch(getProductData("men"));
+    dispatch(getProductData("women"));
+    dispatch(getProductData("kid"));
     dispatch(getUSerData());
   }, []);
 
@@ -58,6 +59,7 @@ function Dashboard() {
     dispatch(deleteUserData(id)).then((res) => {
       dispatch(getUSerData());
     });
+    
   };
   return (
     <AdminSidebar heading={"Dashboard"}>
@@ -214,7 +216,8 @@ function Dashboard() {
                   <UserCard
                     key={item._id}
                     {...item}
-                    handleDelete={handleDelete(item._id)}
+                    // handleDelete={item._id}
+                    handleDelete={handleDelete}
                     index={index}
                   />
                 );
